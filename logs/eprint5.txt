@@ -1,0 +1,200 @@
+[0ED0:04DC][2017-03-27T12:38:36]i001: Burn v3.10.2.2516, Windows v10.0 (Build 14393: Service Pack 0), path: C:\Users\Administrator\AppData\Local\Temp\{FC9FC5C9-2C58-40FC-B528-E317FD9980E5}\.cr\HPEPrintAppSetup.exe
+[0ED0:04DC][2017-03-27T12:38:36]i000: Initializing numeric variable 'SetDefQueue' to value '1'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Initializing numeric variable 'SendUsageData' to value '1'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Initializing numeric variable 'EulaAcceptCheckbox' to value '0'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Initializing string variable 'InstallType' to value 'GenericEPrintAppBundle'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Initializing numeric variable 'TimeoutSeconds' to value '0'
+[0ED0:04DC][2017-03-27T12:38:36]i009: Command Line: '-burn.clean.room=C:\Users\Administrator\AppData\Local\Temp\HPEPrintAppSetup.exe /quiet InstallType=HPFactory TimeoutSeconds=60 /log C:\system.sav\Logs\eprint5.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\Administrator\AppData\Local\Temp\HPEPrintAppSetup.exe'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Users\Administrator\AppData\Local\Temp\'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog' to value 'C:\system.sav\Logs\eprint5.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleName' to value 'HP ePrint SW'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleManufacturer' to value 'HP Inc.'
+[0ED0:1268][2017-03-27T12:38:36]i000: Setting string variable 'InstallType' to value 'HPFactory'
+[0ED0:1268][2017-03-27T12:38:36]i000: Setting string variable 'TimeoutSeconds' to value '60'
+[0ED0:1268][2017-03-27T12:38:36]i000: Setting version variable 'WixBundleFileVersion' to value '5.2.20454.0'
+[0ED0:04DC][2017-03-27T12:38:36]i100: Detect begin, 12 packages
+[0ED0:04DC][2017-03-27T12:38:36]i000: Registry key not found. Key = 'SOFTWARE\Apple Inc.\Bonjour'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Registry key not found. Key = 'SOFTWARE\HP\UsageTracking'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting numeric variable 'ExistingUsageTrackingChoice' to value 0
+[0ED0:04DC][2017-03-27T12:38:36]i052: Condition 'ExistingUsageTrackingChoice' evaluates to false.
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'NETFRAMEWORK45' to value '394802'
+[0ED0:04DC][2017-03-27T12:38:36]i052: Condition 'NETFRAMEWORK45 >= 378389' evaluates to true.
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _JAScreensInstallerInstall, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _HPEPrintInstallGuardInstallerInstall, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: NetFx45Web, state: Present, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: VCRedist, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: EPrintLegacyCleaner, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _Bonjour, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _HPEPrintAppInstaller, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _HPWorkflowDriverInstaller, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _HPDAStInstaller, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _HPJetAdvantageInstaller, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: _HPEPrintInstallGuardInstallerUninstall, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i101: Detected package: Timeout, state: Absent, cached: None
+[0ED0:04DC][2017-03-27T12:38:36]i199: Detect complete, result: 0x0
+[0ED0:04DC][2017-03-27T12:38:36]i200: Plan begin, 12 packages, action: Install
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog__JAScreensInstallerInstall' to value 'C:\system.sav\Logs\eprint5_000__JAScreensInstallerInstall_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__JAScreensInstallerInstall' to value 'C:\system.sav\Logs\eprint5_000__JAScreensInstallerInstall.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog__HPEPrintInstallGuardInstallerInstall' to value 'C:\system.sav\Logs\eprint5_001__HPEPrintInstallGuardInstallerInstall_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__HPEPrintInstallGuardInstallerInstall' to value 'C:\system.sav\Logs\eprint5_001__HPEPrintInstallGuardInstallerInstall.txt'
+[0ED0:04DC][2017-03-27T12:38:36]w321: Skipping dependency registration on package with no dependency providers: NetFx45Web
+[0ED0:04DC][2017-03-27T12:38:36]w321: Skipping dependency registration on package with no dependency providers: VCRedist
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog_VCRedist' to value 'C:\system.sav\Logs\eprint5_002_VCRedist.txt'
+[0ED0:04DC][2017-03-27T12:38:36]w321: Skipping dependency registration on package with no dependency providers: EPrintLegacyCleaner
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog_EPrintLegacyCleaner' to value 'C:\system.sav\Logs\eprint5_003_EPrintLegacyCleaner.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog_EPrintLegacyCleaner' to value 'C:\system.sav\Logs\eprint5_003_EPrintLegacyCleaner_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i052: Condition '(NOT BonjourVersion) OR (v3.0.0.10 >= BonjourVersion )' evaluates to true.
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__Bonjour' to value 'C:\system.sav\Logs\eprint5_004__Bonjour.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog__HPEPrintAppInstaller' to value 'C:\system.sav\Logs\eprint5_005__HPEPrintAppInstaller_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__HPEPrintAppInstaller' to value 'C:\system.sav\Logs\eprint5_005__HPEPrintAppInstaller.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog__HPWorkflowDriverInstaller' to value 'C:\system.sav\Logs\eprint5_006__HPWorkflowDriverInstaller_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__HPWorkflowDriverInstaller' to value 'C:\system.sav\Logs\eprint5_006__HPWorkflowDriverInstaller.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog__HPDAStInstaller' to value 'C:\system.sav\Logs\eprint5_007__HPDAStInstaller_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__HPDAStInstaller' to value 'C:\system.sav\Logs\eprint5_007__HPDAStInstaller.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog__HPJetAdvantageInstaller' to value 'C:\system.sav\Logs\eprint5_008__HPJetAdvantageInstaller_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog__HPJetAdvantageInstaller' to value 'C:\system.sav\Logs\eprint5_008__HPJetAdvantageInstaller.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i052: Condition 'VariableThatDoesNotExist' evaluates to false.
+[0ED0:04DC][2017-03-27T12:38:36]i052: Condition 'TimeoutSeconds > 0' evaluates to true.
+[0ED0:04DC][2017-03-27T12:38:36]w321: Skipping dependency registration on package with no dependency providers: Timeout
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleLog_Timeout' to value 'C:\system.sav\Logs\eprint5_009_Timeout.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i000: Setting string variable 'WixBundleRollbackLog_Timeout' to value 'C:\system.sav\Logs\eprint5_009_Timeout_rollback.txt'
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _JAScreensInstallerInstall, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _HPEPrintInstallGuardInstallerInstall, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: NetFx45Web, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: VCRedist, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: Yes, uncache: Yes, dependency: None
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: EPrintLegacyCleaner, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: None
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _Bonjour, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _HPEPrintAppInstaller, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _HPWorkflowDriverInstaller, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _HPDAStInstaller, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _HPJetAdvantageInstaller, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: Yes, dependency: Register
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: _HPEPrintInstallGuardInstallerUninstall, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0ED0:04DC][2017-03-27T12:38:36]i201: Planned package: Timeout, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: None
+[0ED0:04DC][2017-03-27T12:38:36]i299: Plan complete, result: 0x0
+[0ED0:04DC][2017-03-27T12:38:36]i300: Apply begin
+[0ED0:04DC][2017-03-27T12:38:36]i010: Launching elevated engine process.
+[0ED0:04DC][2017-03-27T12:38:36]i011: Launched elevated engine process.
+[0ED0:04DC][2017-03-27T12:38:37]i012: Connected to elevated engine.
+[1004:02A8][2017-03-27T12:38:37]i358: Pausing automatic updates.
+[1004:02A8][2017-03-27T12:38:37]i359: Paused automatic updates.
+[1004:02A8][2017-03-27T12:38:37]i360: Creating a system restore point.
+[1004:02A8][2017-03-27T12:38:37]w363: Could not create system restore point, error: 0x80070422. Continuing...
+[1004:02A8][2017-03-27T12:38:37]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5b1a1d22-bd59-44e0-a954-e2f18ec43a23}, options: 0x7, disable resume: No
+[1004:02A8][2017-03-27T12:38:37]i000: Caching bundle from: 'C:\Users\Administrator\AppData\Local\Temp\{5ED1E7FD-5F0E-4570-9DE5-BA2566F149B3}\.be\HPEPrintAppSetup.exe' to: 'C:\ProgramData\Package Cache\{5b1a1d22-bd59-44e0-a954-e2f18ec43a23}\HPEPrintAppSetup.exe'
+[1004:02A8][2017-03-27T12:38:37]i320: Registering bundle dependency provider: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23}, version: 5.2.20454.0
+[1004:02A8][2017-03-27T12:38:37]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5b1a1d22-bd59-44e0-a954-e2f18ec43a23}, resume: Active, restart initiated: No, disable resume: No
+[0ED0:0C80][2017-03-27T12:38:37]i336: Acquiring container: WixAttachedContainer, copy from: C:\Users\Administrator\AppData\Local\Temp\HPEPrintAppSetup.exe
+[0ED0:0C80][2017-03-27T12:38:37]i000: Setting string variable 'WixBundleLastUsedSource' to value 'C:\Users\Administrator\AppData\Local\Temp\'
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: _JAScreensInstallerInstall at path: C:\ProgramData\Package Cache\.unverified\_JAScreensInstallerInstall, moving to: C:\ProgramData\Package Cache\{03ED1397-7E72-4F6E-A0F0-2994A0A13421}v5.2.20454\JAInstallScreensInstaller.msi.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: _HPEPrintInstallGuardInstallerInstall at path: C:\ProgramData\Package Cache\.unverified\_HPEPrintInstallGuardInstallerInstall, moving to: C:\ProgramData\Package Cache\{B9ADB0F9-459B-4E6B-A021-0F38C73FC060}v5.2.20454\HPEPrintInstallGuardInstaller.msi.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: VCRedist at path: C:\ProgramData\Package Cache\.unverified\VCRedist, moving to: C:\ProgramData\Package Cache\8BF41BA9EEF02D30635A10433817DBB6886DA5A2\Microsoft VC++ 2013 Redistributable.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: EPrintLegacyCleaner at path: C:\ProgramData\Package Cache\.unverified\EPrintLegacyCleaner, moving to: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\ePrintLegacyCleaningApp.exe.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: pay3A2684DCEC2F3DC18F81F721F1F7E9DF at path: C:\ProgramData\Package Cache\.unverified\pay3A2684DCEC2F3DC18F81F721F1F7E9DF, moving to: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\LegacyCleaning.dll.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: pay4E15149A32A63AD3A0223DC4C4EAB4F5 at path: C:\ProgramData\Package Cache\.unverified\pay4E15149A32A63AD3A0223DC4C4EAB4F5, moving to: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\SystemCleaner.xml.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: pay9A8A79D483FEFBBF818A13CEAEB06E70 at path: C:\ProgramData\Package Cache\.unverified\pay9A8A79D483FEFBBF818A13CEAEB06E70, moving to: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\HP.DeliveryAndStatus.Models.dll.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: payCDB51B78B1733FF15049057D98A997FB at path: C:\ProgramData\Package Cache\.unverified\payCDB51B78B1733FF15049057D98A997FB, moving to: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\hpbxjUnifiedAppUI.dll.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: _Bonjour at path: C:\ProgramData\Package Cache\.unverified\_Bonjour, moving to: C:\ProgramData\Package Cache\{6E3610B2-430D-4EB0-81E3-2B57E8B9DE8D}v3.0.0.10\Bonjour64.msi.
+[1004:0E7C][2017-03-27T12:38:37]i305: Verified acquired payload: _HPEPrintAppInstaller at path: C:\ProgramData\Package Cache\.unverified\_HPEPrintAppInstaller, moving to: C:\ProgramData\Package Cache\{2CB12285-90BF-469F-B973-34495ABAF048}v5.2.20454\HPEPrintAppInstaller.msi.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: _HPWorkflowDriverInstaller at path: C:\ProgramData\Package Cache\.unverified\_HPWorkflowDriverInstaller, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\HPWorkflowDriverInstaller.msi.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: pay0A962A9FA1F9F2D9F88F64F80242C4EB at path: C:\ProgramData\Package Cache\.unverified\pay0A962A9FA1F9F2D9F88F64F80242C4EB, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflwv4.inf.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: pay1909467C8351710E1911F9F83ABD1F74 at path: C:\ProgramData\Package Cache\.unverified\pay1909467C8351710E1911F9F83ABD1F74, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflwv3.cat.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: pay1A778840674D819FAB6FDBBE03A586CF at path: C:\ProgramData\Package Cache\.unverified\pay1A778840674D819FAB6FDBBE03A586CF, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflw-PipelineConfig.xml.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: pay4419FCDB8FDEC032801EC639B0D26FF0 at path: C:\ProgramData\Package Cache\.unverified\pay4419FCDB8FDEC032801EC639B0D26FF0, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflw.dll.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: pay52537C2F81DA1044A3C16920425B8F1A at path: C:\ProgramData\Package Cache\.unverified\pay52537C2F81DA1044A3C16920425B8F1A, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflwres.dll.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: pay84E4364EA53C2F21FA4DAE3F47738B68 at path: C:\ProgramData\Package Cache\.unverified\pay84E4364EA53C2F21FA4DAE3F47738B68, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflw.gpd.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: payB535A04814229BC7D38A25BC57F09DFC at path: C:\ProgramData\Package Cache\.unverified\payB535A04814229BC7D38A25BC57F09DFC, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflwmacros.gpd.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: payE1A6E885608DC770B607A72A8B46A9EB at path: C:\ProgramData\Package Cache\.unverified\payE1A6E885608DC770B607A72A8B46A9EB, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflwv3.inf.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: payE2CEB7C90CD7722DF0B31616CC037E3C at path: C:\ProgramData\Package Cache\.unverified\payE2CEB7C90CD7722DF0B31616CC037E3C, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflwv4.cat.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: payECE950051FD680BB6BC3D06D54E85665 at path: C:\ProgramData\Package Cache\.unverified\payECE950051FD680BB6BC3D06D54E85665, moving to: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\hpxpswrkflw-manifest.ini.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: _HPDAStInstaller at path: C:\ProgramData\Package Cache\.unverified\_HPDAStInstaller, moving to: C:\ProgramData\Package Cache\{5C690381-6AF5-4374-B50C-02F0390E9980}v5.2.20454\HPDASInstaller.msi.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: _HPJetAdvantageInstaller at path: C:\ProgramData\Package Cache\.unverified\_HPJetAdvantageInstaller, moving to: C:\ProgramData\Package Cache\{D711D91A-127D-4A11-BA83-634868AD8016}v5.2.20454\HPOnDemandInstaller.msi.
+[1004:0E7C][2017-03-27T12:38:38]i305: Verified acquired payload: Timeout at path: C:\ProgramData\Package Cache\.unverified\Timeout, moving to: C:\ProgramData\Package Cache\33C01F74EC04E8B51C7ECA5F5CB87CA3F1CB279F\Timeout.exe.
+[1004:02A8][2017-03-27T12:38:38]i323: Registering package dependency provider: {03ED1397-7E72-4F6E-A0F0-2994A0A13421}, version: 5.2.20454, package: _JAScreensInstallerInstall
+[1004:02A8][2017-03-27T12:38:38]i301: Applying execute package: _JAScreensInstallerInstall, action: Install, path: C:\ProgramData\Package Cache\{03ED1397-7E72-4F6E-A0F0-2994A0A13421}v5.2.20454\JAInstallScreensInstaller.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" HPSETUPTITLE="HP ePrint - HP ePrint SW" HPINSTALLCTRLIDS="299m" HPUNINSTALLCTRLIDS="294m,295m,296m,297m,298m"'
+[0ED0:04DC][2017-03-27T12:38:38]i319: Applied execute package: _JAScreensInstallerInstall, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:38]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {03ED1397-7E72-4F6E-A0F0-2994A0A13421}, package: _JAScreensInstallerInstall
+[1004:02A8][2017-03-27T12:38:38]i323: Registering package dependency provider: {B9ADB0F9-459B-4E6B-A021-0F38C73FC060}, version: 5.2.20454, package: _HPEPrintInstallGuardInstallerInstall
+[1004:02A8][2017-03-27T12:38:38]i301: Applying execute package: _HPEPrintInstallGuardInstallerInstall, action: Install, path: C:\ProgramData\Package Cache\{B9ADB0F9-459B-4E6B-A021-0F38C73FC060}v5.2.20454\HPEPrintInstallGuardInstaller.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" HPSETUPTITLE="HP ePrint - HP ePrint SW" HPINSTALLTYPE="HPFactory"'
+[0ED0:04DC][2017-03-27T12:38:39]i319: Applied execute package: _HPEPrintInstallGuardInstallerInstall, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:39]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {B9ADB0F9-459B-4E6B-A021-0F38C73FC060}, package: _HPEPrintInstallGuardInstallerInstall
+[1004:02A8][2017-03-27T12:38:39]i301: Applying execute package: VCRedist, action: Install, path: C:\ProgramData\Package Cache\8BF41BA9EEF02D30635A10433817DBB6886DA5A2\Microsoft VC++ 2013 Redistributable, arguments: '"C:\ProgramData\Package Cache\8BF41BA9EEF02D30635A10433817DBB6886DA5A2\Microsoft VC++ 2013 Redistributable" /quiet'
+[0ED0:04DC][2017-03-27T12:38:42]i319: Applied execute package: VCRedist, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:42]i301: Applying execute package: EPrintLegacyCleaner, action: Install, path: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\ePrintLegacyCleaningApp.exe, arguments: '"C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\ePrintLegacyCleaningApp.exe" SystemCleaner.xml'
+[0ED0:04DC][2017-03-27T12:38:43]i319: Applied execute package: EPrintLegacyCleaner, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:43]i323: Registering package dependency provider: {6E3610B2-430D-4EB0-81E3-2B57E8B9DE8D}, version: 3.0.0.10, package: _Bonjour
+[1004:02A8][2017-03-27T12:38:43]i301: Applying execute package: _Bonjour, action: Install, path: C:\ProgramData\Package Cache\{6E3610B2-430D-4EB0-81E3-2B57E8B9DE8D}v3.0.0.10\Bonjour64.msi, arguments: ' MSIFASTINSTALL="7"'
+[0ED0:04DC][2017-03-27T12:38:46]i319: Applied execute package: _Bonjour, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:46]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {6E3610B2-430D-4EB0-81E3-2B57E8B9DE8D}, package: _Bonjour
+[1004:02A8][2017-03-27T12:38:46]i323: Registering package dependency provider: {2CB12285-90BF-469F-B973-34495ABAF048}, version: 5.2.20454, package: _HPEPrintAppInstaller
+[1004:02A8][2017-03-27T12:38:46]i301: Applying execute package: _HPEPrintAppInstaller, action: Install, path: C:\ProgramData\Package Cache\{2CB12285-90BF-469F-B973-34495ABAF048}v5.2.20454\HPEPrintAppInstaller.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7"'
+[0ED0:04DC][2017-03-27T12:38:48]i319: Applied execute package: _HPEPrintAppInstaller, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:48]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {2CB12285-90BF-469F-B973-34495ABAF048}, package: _HPEPrintAppInstaller
+[1004:02A8][2017-03-27T12:38:48]i323: Registering package dependency provider: {EA274518-738D-4A48-A1CB-596173D4C6A2}, version: 5.2.20454, package: _HPWorkflowDriverInstaller
+[1004:02A8][2017-03-27T12:38:48]i301: Applying execute package: _HPWorkflowDriverInstaller, action: Install, path: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\HPWorkflowDriverInstaller.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" HPSETDEFAULTQUEUE="1" PROVIDERGROUPS="" HPINSTALLTYPE="HPFactory"'
+[0ED0:04DC][2017-03-27T12:38:51]i319: Applied execute package: _HPWorkflowDriverInstaller, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:51]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {EA274518-738D-4A48-A1CB-596173D4C6A2}, package: _HPWorkflowDriverInstaller
+[1004:02A8][2017-03-27T12:38:51]i323: Registering package dependency provider: {5C690381-6AF5-4374-B50C-02F0390E9980}, version: 5.2.20454, package: _HPDAStInstaller
+[1004:02A8][2017-03-27T12:38:51]i301: Applying execute package: _HPDAStInstaller, action: Install, path: C:\ProgramData\Package Cache\{5C690381-6AF5-4374-B50C-02F0390E9980}v5.2.20454\HPDASInstaller.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7"'
+[0ED0:04DC][2017-03-27T12:38:52]i319: Applied execute package: _HPDAStInstaller, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:52]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {5C690381-6AF5-4374-B50C-02F0390E9980}, package: _HPDAStInstaller
+[1004:02A8][2017-03-27T12:38:52]i323: Registering package dependency provider: {D711D91A-127D-4A11-BA83-634868AD8016}, version: 5.2.20454, package: _HPJetAdvantageInstaller
+[1004:02A8][2017-03-27T12:38:52]i301: Applying execute package: _HPJetAdvantageInstaller, action: Install, path: C:\ProgramData\Package Cache\{D711D91A-127D-4A11-BA83-634868AD8016}v5.2.20454\HPOnDemandInstaller.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" HPJETADVANTAGELOGIN="" HPUIDISPLAYED="0" HPSENDUSAGEDATA="1" HPSETUPTITLE="HP ePrint - HP ePrint SW"'
+[0ED0:04DC][2017-03-27T12:38:53]i319: Applied execute package: _HPJetAdvantageInstaller, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:38:53]i325: Registering dependency: {5b1a1d22-bd59-44e0-a954-e2f18ec43a23} on package provider: {D711D91A-127D-4A11-BA83-634868AD8016}, package: _HPJetAdvantageInstaller
+[1004:02A8][2017-03-27T12:38:53]i301: Applying execute package: Timeout, action: Install, path: C:\ProgramData\Package Cache\33C01F74EC04E8B51C7ECA5F5CB87CA3F1CB279F\Timeout.exe, arguments: '"C:\ProgramData\Package Cache\33C01F74EC04E8B51C7ECA5F5CB87CA3F1CB279F\Timeout.exe" 60'
+[0ED0:04DC][2017-03-27T12:39:53]i319: Applied execute package: Timeout, result: 0x0, restart: None
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _JAScreensInstallerInstall, from path: C:\ProgramData\Package Cache\{03ED1397-7E72-4F6E-A0F0-2994A0A13421}v5.2.20454\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _HPEPrintInstallGuardInstallerInstall, from path: C:\ProgramData\Package Cache\{B9ADB0F9-459B-4E6B-A021-0F38C73FC060}v5.2.20454\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: VCRedist, from path: C:\ProgramData\Package Cache\8BF41BA9EEF02D30635A10433817DBB6886DA5A2\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: EPrintLegacyCleaner, from path: C:\ProgramData\Package Cache\BEBA0D94AF0797A76D77E0FF906A6D6BD478972D\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _Bonjour, from path: C:\ProgramData\Package Cache\{6E3610B2-430D-4EB0-81E3-2B57E8B9DE8D}v3.0.0.10\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _HPEPrintAppInstaller, from path: C:\ProgramData\Package Cache\{2CB12285-90BF-469F-B973-34495ABAF048}v5.2.20454\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _HPWorkflowDriverInstaller, from path: C:\ProgramData\Package Cache\{EA274518-738D-4A48-A1CB-596173D4C6A2}v5.2.20454\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _HPDAStInstaller, from path: C:\ProgramData\Package Cache\{5C690381-6AF5-4374-B50C-02F0390E9980}v5.2.20454\
+[1004:02A8][2017-03-27T12:39:53]i351: Removing cached package: _HPJetAdvantageInstaller, from path: C:\ProgramData\Package Cache\{D711D91A-127D-4A11-BA83-634868AD8016}v5.2.20454\
+[1004:02A8][2017-03-27T12:39:53]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5b1a1d22-bd59-44e0-a954-e2f18ec43a23}, resume: ARP, restart: None, disable resume: No
+[1004:02A8][2017-03-27T12:39:53]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5b1a1d22-bd59-44e0-a954-e2f18ec43a23}, resume: ARP, restart initiated: No, disable resume: No
+[0ED0:04DC][2017-03-27T12:39:53]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[0ED0:04DC][2017-03-27T12:39:53]i500: Shutting down, exit code: 0x0
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: EulaAcceptCheckbox = 0
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: ExistingUsageTrackingChoice = 0
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: InstallType = HPFactory
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: NETFRAMEWORK45 = 394802
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: SendUsageData = 1
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: SetDefQueue = 1
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: TimeoutSeconds = 60
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleAction = 5
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleElevated = 1
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleFileVersion = 5.2.20454.0
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleInstalled = 0
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLastUsedSource = C:\Users\Administrator\AppData\Local\Temp\
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog = C:\system.sav\Logs\eprint5.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__Bonjour = C:\system.sav\Logs\eprint5_004__Bonjour.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__HPDAStInstaller = C:\system.sav\Logs\eprint5_007__HPDAStInstaller.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__HPEPrintAppInstaller = C:\system.sav\Logs\eprint5_005__HPEPrintAppInstaller.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__HPEPrintInstallGuardInstallerInstall = C:\system.sav\Logs\eprint5_001__HPEPrintInstallGuardInstallerInstall.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__HPJetAdvantageInstaller = C:\system.sav\Logs\eprint5_008__HPJetAdvantageInstaller.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__HPWorkflowDriverInstaller = C:\system.sav\Logs\eprint5_006__HPWorkflowDriverInstaller.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog__JAScreensInstallerInstall = C:\system.sav\Logs\eprint5_000__JAScreensInstallerInstall.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog_EPrintLegacyCleaner = C:\system.sav\Logs\eprint5_003_EPrintLegacyCleaner.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog_Timeout = C:\system.sav\Logs\eprint5_009_Timeout.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleLog_VCRedist = C:\system.sav\Logs\eprint5_002_VCRedist.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleManufacturer = HP Inc.
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleName = HP ePrint SW
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleOriginalSource = C:\Users\Administrator\AppData\Local\Temp\HPEPrintAppSetup.exe
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleOriginalSourceFolder = C:\Users\Administrator\AppData\Local\Temp\
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleProviderKey = {5b1a1d22-bd59-44e0-a954-e2f18ec43a23}
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog__HPDAStInstaller = C:\system.sav\Logs\eprint5_007__HPDAStInstaller_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog__HPEPrintAppInstaller = C:\system.sav\Logs\eprint5_005__HPEPrintAppInstaller_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog__HPEPrintInstallGuardInstallerInstall = C:\system.sav\Logs\eprint5_001__HPEPrintInstallGuardInstallerInstall_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog__HPJetAdvantageInstaller = C:\system.sav\Logs\eprint5_008__HPJetAdvantageInstaller_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog__HPWorkflowDriverInstaller = C:\system.sav\Logs\eprint5_006__HPWorkflowDriverInstaller_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog__JAScreensInstallerInstall = C:\system.sav\Logs\eprint5_000__JAScreensInstallerInstall_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog_EPrintLegacyCleaner = C:\system.sav\Logs\eprint5_003_EPrintLegacyCleaner_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleRollbackLog_Timeout = C:\system.sav\Logs\eprint5_009_Timeout_rollback.txt
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleSourceProcessFolder = C:\Users\Administrator\AppData\Local\Temp\
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleSourceProcessPath = C:\Users\Administrator\AppData\Local\Temp\HPEPrintAppSetup.exe
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleTag = 
+[0ED0:04DC][2017-03-27T12:39:53]i410: Variable: WixBundleVersion = 5.2.20454.0
+[0ED0:04DC][2017-03-27T12:39:53]i007: Exit code: 0x0, restarting: No

@@ -1,0 +1,5 @@
+
+[Taskbar] SBOEM0 LNK, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox 25 GB.lnk
+[Taskbar] SBOEM2 LNK, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\HP Orbit\HP Orbit.lnk 	
+delete c:\HP\HPQWare\BTBHost\PBR\RegSrc\Taskbar.ini 
+The operation completed successfully.

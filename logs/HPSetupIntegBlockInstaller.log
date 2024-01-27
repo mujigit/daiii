@@ -1,0 +1,16 @@
+-----------------------------------------------------------------  
+ (C) Copyright 2016 HP Development Company, L.P.       
+-----------------------------------------------------------------  
+Tue 03/28/2017  4:21:10.60   ************************************** 
+Tue 03/28/2017  4:21:10.60       HP Setup Integrated OOBE Block     
+Tue 03/28/2017  4:21:10.60   ************************************** 
+Tue 03/28/2017  4:21:20.47   self extracting src.exe 
+Tue 03/28/2017  4:21:20.50   CNB ChannelID (25 is MSSI) is: 00 
+Tue 03/28/2017  4:21:20.52   R_MIC feature byte value is:  
+Tue 03/28/2017  4:21:20.52   isMSSI: 0 
+Tue 03/28/2017  4:21:20.52   ----- Installing HP Setup_64  
+Tue 03/28/2017  4:23:04.01   Copy info folder and Reset script to Reset path  
+Tue 03/28/2017  4:23:04.94   The block finished with Exit_Code= 0. 
+Tue 03/28/2017  4:23:04.94   Writing Exit_Code to cpeExitCode.txt 
+. 
+Tue 03/28/2017  4:23:04.94   ----- Finish Installing HP Registration ----- 

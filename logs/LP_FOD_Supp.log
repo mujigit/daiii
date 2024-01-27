@@ -1,0 +1,9 @@
+"**************************************************"						
+" [C:\SWSETUP\LP_FOD_Supp\LP_FOD_Supp.cmd] has started..."  											
+"--------------------------------------------------"  						
+" [TFS - Windows 10 RedStone 1 LP FOD Supplement - TDC]"  			
+"  This component is to copy the missing CAB files for Cortana support "  	
+"--------------------------------------------------"  						
+"Option Code = [ACJ]."  										
+OS Bit = [64]  														
+" Option Code = [ACJ]."  										

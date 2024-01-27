@@ -1,0 +1,19 @@
+English
+Legacy Support
+	Disable
+	*Enable
+Secure Boot
+	*Disable
+	Enable
+Internal Network Adapter Boot
+	Disable
+	*Enable
+Network Boot
+	*Enable
+	Disable
+TPM Device
+	Hidden
+	*Available
+TPM State
+	*Disable
+	Enable

@@ -1,0 +1,12 @@
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED

@@ -1,0 +1,13 @@
+[11:58:04.82][RM_PASS1_FixUps]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[11:58:04.82][RM_PASS1_FixUps] ========================================================= 
+[11:58:04.82][RM_PASS1_FixUps] UpdateFilesFromBP 
+[11:58:14.59][RM_PASS1_FixUps] Process Time = 10 sec 
+[11:58:14.59][RM_PASS1_FixUps] Result = 0 
+[11:58:14.59][RM_PASS1_FixUps] ========================================================= 
+[11:58:14.59][RM_PASS1_FixUps] CheckImage 
+[11:58:16.94][RM_PASS1_FixUps] Process Time = 2 sec 
+[11:58:16.94][RM_PASS1_FixUps] Result = 0 
+[11:58:16.94][RM_PASS1_FixUps.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS1_FixUps.cmd] Mon 03/27/2017 11:58:16.94                
+********** FINISH RM_PASS1_FixUps.cmd **********   
+RETURN CODE - 0          

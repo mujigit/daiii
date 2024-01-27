@@ -1,0 +1,7 @@
+[12:37:37.97][Regsvr2OS] Create [C:\system.sav\logs\RM\Regsvr2OS.FAILURE.FLG]. If PASS, delete it.
+[12:37:37.97][Regsvr2OS.cmd] Register DLL For RP Protection
+[12:37:37.97][Regsvr2OS.cmd] Regsvr32 /s C:\system.sav\util\hprpguard.dll
+[12:37:38.05][Regsvr2OS.cmd] Delete [C:\system.sav\logs\RM\Regsvr2OS.FAILURE.FLG]...
+[Regsvr2OS.cmd] Mon 03/27/2017 12:37:38.05
+********** FINISH Regsvr2OS.cmd **********
+RETURN CODE - 0

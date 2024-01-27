@@ -1,0 +1,110 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:15.63] Beginning of the ImageDiag.CMD                              
+############################################################# 
+Feature Byte is "3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek" 
+[ 4:46:17.71] === ITEM=Deliverable SW Title Checking ... === 
+    Software title are correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === Deliverable SW Title Checking Completed === 
+[ 4:46:18.61] === ITEM=MSTest Folder Checking ... === 
+    C:\SWSetup\MSTest folder behavior is correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === MSTest Folder Checking Completed === 
+[ 4:46:18.61] === ITEM=Build ID of Source and Destination Option Code Checking ... IGNORED for Flex Config === 
+[ 4:46:18.63] === ITEM=Trusted Root Certificates Checking ... === 
+    No risk certificates in Trusted Root Certificates.  
+    RESULT=PASSED 
+[ 4:46:19.08] === Trusted Root Certificates Checking Completed === 
+[ 4:46:19.08] === ITEM=Trusted Root Certificates whitelist Checking ... === 
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS start =============================================================== 
+Target machine certificate file path=c:\System.sav\Logs\CertListDetail.lst
+Pure OS certification file path=     C:\SYSTEM.SAV\Util\TDC\MCPP\tdccert2.lst
+Report file path=                    c:\System.sav\Logs\Cert_OutOfExpected.lst
+PosSectionNextLine={1092}
+sha1={CDD4EEAE 6000AC7F 40C3802C 171E3014 8030C072}
+Inbox certificate
+PosSectionNextLine={1587}
+sha1={BE36A456 2FB2EE05 DBB3D323 23ADF445 084ED656}
+Inbox certificate
+PosSectionNextLine={1319}
+sha1={A4348915 9A520F0D 93D032CC AF37E7FE 20A8B419}
+Inbox certificate
+PosSectionNextLine={1172}
+sha1={92B46C76 E13054E1 04F23051 7E6E504D 43AB10B5}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={8F43288A D272F310 3B6FB142 8485EA30 14C0BCFE}
+Inbox certificate
+PosSectionNextLine={967}
+sha1={7F88CD72 23F3C813 818C9946 14A89C99 FA3B5247}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={3B1EFD3A 66EA28B1 66973947 03A72CA3 40A05BD5}
+Inbox certificate
+PosSectionNextLine={1779}
+sha1={245C97DF 7514E7CF 2DF8BE72 AE957B9E 04741E85}
+Inbox certificate
+PosSectionNextLine={1704}
+sha1={18F7C1FC C3090203 FD5BAA2F 861A7549 76C8DD25}
+Inbox certificate
+PosSectionNextLine={1772}
+sha1={E12DFB4B 41D7D9C3 2B30514B AC1D81D8 385E2D46}
+Inbox certificate
+PosSectionNextLine={1061}
+sha1={B1BC968B D4F49D62 2AA89A81 F2150152 A41D829C}
+Inbox certificate
+PosSectionNextLine={1044}
+sha1={742C3192 E607E424 EB454954 2BE1BBC5 3E6174E2}
+Inbox certificate
+PosSectionNextLine={892}
+sha1={51501FBF CE69189D 609CFAF1 40C57675 5DCC1FDF}
+Inbox certificate
+PosSectionNextLine={1047}
+sha1={4F655663 36DB6598 581D584A 596C8793 4D5F2AB4}
+Inbox certificate
+PosSectionNextLine={2196}
+sha1={4EB6D578 499B1CCF 5F581EAD 56BE3D9B 6744A5E5}
+Inbox certificate
+PosSectionNextLine={1104}
+sha1={0563B863 0D62D75A BBC8AB1E 4BDFB5A8 99B24D43}
+Inbox certificate
+PosSectionNextLine={1199}
+sha1={02FAF3E2 91435468 60785769 4DF5E45B 68851868}
+Inbox certificate
+No more certificate item
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS end =============================================================== 
+    No risk certificates in Trusted Root Certificates.         
+    RESULT=PASSED 
+[ 4:46:19.41] === Trusted Root Certificates whitelist Checking Completed === 
+[ 4:46:19.41] === ITEM=Panel Size Checking ... === 
+    Check 81E5PanelSize=13 in C:\System.sav\Flags\PINCTRLTwk.pf 
+    Panel size match between PINCTRLTwk.pf and RStone.ini.  
+    RESULT=PASSED 
+[ 4:46:19.64] === Panel Size Checking Completed === 
+[ 4:46:19.66] === ITEM=Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ ... === 
+[ 4:46:19.83] === Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ Completed === 
+[ 4:46:19.83] === ITEM=MSCU of MDA M3 Checking ... === 
+    Image bundle Windows 10 Redstone 1 Update x64 OS. 
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Name: Windows 10 RedStone 1 MS Critical Updates - Offline - CPS
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Type: TFS_MSCU16U_x64
+[4:46:19 AM]	[CsupDiag.vbs] 	CSUP date: 10-20-2016
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Version: 
+[4:46:19 AM]	[CsupDiag.vbs] 	ChkName=[Windows 10 RedStone 1 MS Critical Updates - Offline - CPS]
+[4:46:19 AM]	[CsupDiag.vbs] 	Read from csup.map=Jul16
+[4:46:19 AM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/07/31]
+[4:46:19 AM]	[CsupDiag.vbs] 	Default burnin date: 07/31/2016
+[4:46:19 AM]	[CsupDiag.vbs] 	----- MSCU FLAG ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU csup.map ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	Cannot get burnin date from flg. Check from csup.map
+[4:46:20 AM]	[CsupDiag.vbs] 	ImgBurninDate=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Image burnin date: Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	No any mscu preinstalled.
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU FU ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	DateDifference-3=0 (between CSUP date and MSCU preinstall)
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU Checking release terminated date ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	ReleaseTerminated=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Not found ReleaseTerminated date in csup.map, return 0
+    MSCU package has meet MDA M3 required.  
+    RESULT=PASSED 
+[ 4:46:20.11] === MSCU of MDA M3 Checking Completed === 

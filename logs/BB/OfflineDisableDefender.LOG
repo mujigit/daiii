@@ -1,0 +1,23 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:23.53] Beginning of the OfflineDisableDefender.cmd                              
+############################################################# 
+[ 5:22:23.53] Windows Partition=C: 
+[ 5:22:23.53] RS1 Detection 
+Image w/ Mcafee, disable MS Defender.  
+Load C:\windows\system32\config\Software hive file 
+The operation completed successfully.
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows Defender
+    DisableAntiSpyware    REG_DWORD    0x1
+
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows Defender
+    DisableAntiVirus    REG_DWORD    0x1
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:25.57] Result of the Windows 10 HP Image Enhancements - CPS 
+RESULT=PASSED 

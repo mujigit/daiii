@@ -1,0 +1,74 @@
+CheckFileExist: Success
+GetRStoneDatPath: Success
+GetDirPath: Success
+GetRStoneIniPath: Success
+CheckFileExist: Success
+
+Start writing version information...
+Finish writing version information.
+
+WriteVersionInfo: Success
+SMBIOS: Success
+$HP$LOC#ACJABS 70/71 78 79 7A 7BString4 for Original Equipment ManufacturerHP_Mute_LED_0_AString6 for Original Equipment ManufacturerString7 for Original Equipment ManufacturerString8 for Original Equipment ManufacturerFBYTE#3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he;BUILDID#16WW3FPT601#SACJ#DACJ;String11 for Original Equipment Manufacturer
+ReadSMBIOS: Check [OverrideBrandName] from PINCTRLTwk.pf
+ReadSMBIOS: Failed to find section [OverrideBrandName] from PINCTRLTwk.pf, check [BrandName] in RStone.DAT
+ReadSMBIOS: Success
+
+Start writing SMBIOS information...
+
+Start writing Feature Byte information...
+Finish writing Feature Byte information.
+
+WriteFeatureByteInfo: Success
+Finish writing SMBIOS information.
+
+WriteSMBIOSInfo: Success
+
+
+INFOBOM: Success
+WriteInfoBomInfo: Success
+
+
+ReadDevice: Success
+WriteDeviceInfo: Success
+
+
+CMDTYPE: Success
+ReadCmdType: Success
+
+Start writing command type information...
+Finish writing command type information.
+
+WriteCmdTypeInfo: Success
+
+
+SCREEN: Success
+GetEDID: Success
+GetScreenInfo: Success
+
+Start writing miscellaneous information...
+Finish writing miscellaneous information.
+
+WriteMiscInfo: Success
+
+
+STORAGE:CTOR Success
+GetStorageInfo start
+\\?\scsi#disk&ven_hgst&prod_hts725050a7e630#4&1649041&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}: Opening...
+Query success.
+Byte returned: 12, bytes of structure STORAGE_DEVICE_NUMBER: 12
+Order=0
+Byte returned: 40, bytes of structure STORAGE_DEVICE_DESCRIPTOR: 40
+isRemovable=0
+BusType=11
+VendorIdOffset=0, ProductRevisionOffset=81, ProductIdOffset=40, SerialNumberOffset=90
+Byte returned: 24, bytes of structure DISK_GEOMETRY: 24
+size=500105249280.
+Byte returned: 12, bytes of structure DEVICE_SEEK_PENALTY_DESCRIPTOR: 12
+pdspd.IncursSeekPenalty=1
+
+Start writing storage information...
+Finish writing storage information.
+
+WriteStorageInfo: Success
+_tmain: Success

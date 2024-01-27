@@ -1,0 +1,30 @@
+﻿==================================================
+Created : [Mar 27, 2017  01:58:50.405]  
+==================================================
+ Model          : HP 245 G5 Notebook PC
+ Product Number : 1ZX23PC#ACJ
+ FeatureByte    : 3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+ Build ID       : 16WW3FPT601#SACJ#DACJ
+ Revison        : 01
+
+
+ OS Info  : Microsoft Windows 10 Home Single Language
+ System ID    : 81E5
+ BIOS Ver     : B.11 (03/10/2016)
+--------------------------------------------------
+passed : checked CDC-Check
+--------------------------------------------------
+passed : checked FAILURE.flg File...
+
+--------------------------------------------------
+passed : checked for EXISTENCE OF *.DMP FILES
+--------------------------------------------------
+passed : checked OFFLINE QFE INSTALLATION
+passed : checked OFFLINE QFE INSTALLATION at BB
+	There was no QFE at BurnBoot.
+--------------------------------------------------
+==================================================
+
+
+[PINChkT]
+RESULT=PASSED

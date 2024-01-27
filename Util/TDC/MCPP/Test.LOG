@@ -1,0 +1,29 @@
+[17:00:37.80] === ITEM=MSCU of MDA M3 Checking ... === 
+    Image bundle Windows 10 Redstone 1 Update x64 OS. 
+[5:00:37 PM]	[CsupDiag.vbs] 	Checking Name: Windows 10 RedStone 1 MS Critical Updates - Offline - CPS
+[5:00:37 PM]	[CsupDiag.vbs] 	Checking Type: TFS_MSCU16U_x64
+[5:00:37 PM]	[CsupDiag.vbs] 	CSUP date: 8-03-2016 
+[5:00:37 PM]	[CsupDiag.vbs] 	Checking Version: 
+[5:00:37 PM]	[CsupDiag.vbs] 	ChkName=[Windows 10 RedStone 1 MS Critical Updates - Offline - CPS]
+[5:00:37 PM]	[CsupDiag.vbs] 	Read from csup.map=Jul16
+[5:00:37 PM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/07/31]
+[5:00:37 PM]	[CsupDiag.vbs] 	Default burnin date: 07/31/2016
+[5:00:37 PM]	[CsupDiag.vbs] 	----- MSCU FLAG ------------------------------------------------
+[5:00:37 PM]	[CsupDiag.vbs] 	MSCU flag found: MSCU_JAN16.flg
+[5:00:37 PM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/01/31]
+[5:00:37 PM]	[CsupDiag.vbs] 	MSCU flag found: MSCU_JUL16.flg
+[5:00:37 PM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/07/31]
+[5:00:37 PM]	[CsupDiag.vbs] 	MSCU flag found: MSCU_NOV15.flg
+[5:00:37 PM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2015/11/30]
+[5:00:37 PM]	[CsupDiag.vbs] 	MSCU flag found: 
+[5:00:37 PM]	[CsupDiag.vbs] 	----- MSCU csup.mpa ------------------------------------------------
+[5:00:37 PM]	[CsupDiag.vbs] 	Image burnin date: 07/31/2016
+[5:00:37 PM]	[CsupDiag.vbs] 	----- MSCU FU ------------------------------------------------
+[5:00:37 PM]	[CsupDiag.vbs] 	Burnin date after patch applied: 07/31/2016
+[5:00:37 PM]	[CsupDiag.vbs] 	DateDifference-3=-2 (between CSUP date and MSCU preinstall)
+[5:00:37 PM]	[CsupDiag.vbs] 	----- MSCU Checking release terminated date ------------------------------------------------
+[5:00:37 PM]	[CsupDiag.vbs] 	ReleaseTerminated=Unknown
+[5:00:37 PM]	[CsupDiag.vbs] 	Not found ReleaseTerminated date in csup.map, return -2
+    MSCU package has meet MDA M3 required.  
+    RESULT=PASSED 
+[17:00:37.89] === MSCU of MDA M3 Checking Completed === 

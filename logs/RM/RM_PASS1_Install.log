@@ -1,0 +1,9 @@
+[12:37:37.17][RM_PASS1_Install]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[12:37:37.19][RM_PASS1_Install] ========================================================= 
+[12:37:37.19][RM_PASS1_Install] Regsvr2OS 
+[12:37:38.17][RM_PASS1_Install] Process Time = 1 sec 
+[12:37:38.17][RM_PASS1_Install] Result = 0 
+[12:37:38.17][RM_PASS1_Install.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS1_Install.cmd] Mon 03/27/2017 12:37:38.19                
+********** FINISH RM_PASS1_Install.cmd **********   
+RETURN CODE - 0          

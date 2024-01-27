@@ -1,0 +1,10 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:17.74] Beginning of the DELETE_LAST.CMD                              
+############################################################# 
+[ 5:22:17.76] Start TFS - Windows 10 HP Image Enhancements - TDC - Last Clean 
+Start to remove folders which [DeleteThese] failed 
+Remove C:\SWSetup\hpImgEnh folder 
+Remove C:\SWSetup\CustTweak folder 
+[ 5:22:17.77] Result of the TFS - Windows 10 HP Image Enhancements - TDC - Last Clean 
+RESULT=PASSED 

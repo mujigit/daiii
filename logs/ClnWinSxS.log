@@ -1,0 +1,80 @@
+PASS information is [PASS1] 
+[12:53:56.49] PASS1, always run clean, skip SSD detection. 
+ 
+[12:53:56.72] ================================================== 
+[12:53:56.72] Before cleanup component store (WinSxS folder) 
+[12:53:56.74]  at [PASS1][PreClean.EUE] phase... 
+[12:53:56.74] ================================================== 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\
+
+03/27/2017  01:22 PM    <DIR>          Appl.zip
+07/29/2016  05:38 AM    <DIR>          inetpub
+07/16/2016  04:47 AM    <DIR>          PerfLogs
+03/27/2017  12:40 PM    <DIR>          Program Files
+03/27/2017  12:40 PM    <DIR>          Program Files (x86)
+03/27/2017  01:15 PM    <DIR>          RM
+03/27/2017  12:55 PM    <DIR>          SW
+03/27/2017  12:53 PM    <DIR>          SWSETUP
+07/29/2016  05:33 AM    <DIR>          Users
+03/27/2017  12:25 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+              10 Dir(s)  59,674,013,696 bytes free
+[12:53:56.76] ================================================== 
+[12:53:56.77] Cleanup component store (WinSxS folder) 
+[12:53:56.77]  at [PASS1][PreClean.EUE] phase... 
+[12:53:56.79] ================================================== 
+[13:47:27.81] Result of the Windows 10 Image Enhancement - CPS Cleanup QFE 
+RESULT=PASSED 
+ 
+[13:58:54.46] ================================================== 
+[13:58:54.46] After cleanup component store (WinSxS folder) 
+[13:58:54.46] Query WinSxS at [PASS1] [Cleanup.eue] phase... 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\
+
+03/27/2017  01:22 PM    <DIR>          Appl.zip
+07/29/2016  05:38 AM    <DIR>          inetpub
+07/16/2016  04:47 AM    <DIR>          PerfLogs
+03/27/2017  12:40 PM    <DIR>          Program Files
+03/27/2017  12:40 PM    <DIR>          Program Files (x86)
+03/27/2017  01:15 PM    <DIR>          RM
+03/27/2017  12:55 PM    <DIR>          SW
+03/27/2017  12:53 PM    <DIR>          SWSETUP
+07/29/2016  05:33 AM    <DIR>          Users
+03/27/2017  01:48 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+              10 Dir(s)  60,553,646,080 bytes free
+[13:58:54.47] ================================================== 
+ 
+PASS information is [PASS2] 
+[ 4:28:17.63] PASS2, goto SSD detection. 
+[ 4:28:17.99] Not found SSD storage, ignore QFE cleanup. 
+[ 4:28:18.08] Result of the Windows 10 Image Enhancement - CPS Cleanup QFE 
+RESULT=PASSED 
+ 
+[ 4:37:46.26] ================================================== 
+[ 4:37:46.26] After cleanup component store (WinSxS folder) 
+[ 4:37:46.27] Query WinSxS at [PASS2] [BBV2] phase... 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\
+
+03/27/2017  03:14 PM    <DIR>          appl.zip
+07/29/2016  05:38 AM    <DIR>          inetpub
+07/16/2016  04:47 AM    <DIR>          PerfLogs
+03/28/2017  04:35 AM    <DIR>          Program Files
+03/28/2017  04:34 AM    <DIR>          Program Files (x86)
+03/27/2017  03:18 PM    <DIR>          RM
+03/28/2017  04:37 AM    <DIR>          SWSETUP
+07/29/2016  05:33 AM    <DIR>          Users
+03/28/2017  04:32 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+               9 Dir(s)  462,649,233,408 bytes free
+[ 4:37:46.29] ================================================== 
+ 

@@ -1,0 +1,103 @@
+====================11-05-2017  8:38:10.03  PostWizInstaller begin=================
+====================11-05-2017  8:38:10.43  Begin  PostWizInstaller 0 Box =================
+====================11-05-2017  8:38:10.43  Finish  PostWizInstaller 0 Box =================
+====================11-05-2017  8:38:10.43  PostWizInstaller 01=================
+====================11-05-2017  8:38:10.98  PostWizInstaller 02=================
+====================11-05-2017  8:38:11.00  PostWizInstaller 03=================
+ISO_COUNTRY=IN
+ISO_COUNTRY3=IND
+ISO_UILG=en_in
+ISO_UILGCTRY=en-US
+====================11-05-2017  8:38:11.14  Begin  PostWizInstaller 01 IE Favorites Copy =================
+C:\hp\hpqware\Favs\All\All\HP\Agoda.com.url -> C:\Users\elcot\Favorites\HP\Agoda.com.url
+C:\hp\hpqware\Favs\All\All\HP\HP Touchpoint Manager.lnk -> C:\Users\elcot\Favorites\HP\HP Touchpoint Manager.lnk
+C:\hp\hpqware\Favs\All\All\Links\Agoda.com.url -> C:\Users\elcot\Favorites\Links\Agoda.com.url
+3 File(s) copied
+C:\hp\hpqware\Favs\All\All\HP\Agoda.com.url -> C:\Users\Default\Favorites\HP\Agoda.com.url
+C:\hp\hpqware\Favs\All\All\HP\HP Touchpoint Manager.lnk -> C:\Users\Default\Favorites\HP\HP Touchpoint Manager.lnk
+C:\hp\hpqware\Favs\All\All\Links\Agoda.com.url -> C:\Users\Default\Favorites\Links\Agoda.com.url
+3 File(s) copied
+C:\hp\hpqware\Favs\All\IND\HP\Agoda.com.url -> C:\Users\elcot\Favorites\HP\Agoda.com.url
+C:\hp\hpqware\Favs\All\IND\Links\Agoda.com.url -> C:\Users\elcot\Favorites\Links\Agoda.com.url
+2 File(s) copied
+C:\hp\hpqware\Favs\All\IND\HP\Agoda.com.url -> C:\Users\Default\Favorites\HP\Agoda.com.url
+C:\hp\hpqware\Favs\All\IND\Links\Agoda.com.url -> C:\Users\Default\Favorites\Links\Agoda.com.url
+2 File(s) copied
+====================11-05-2017  8:38:11.75  Finish PostWizInstaller 01 IE Favorites Copy =================
+====================11-05-2017  8:38:11.75  Begin  PostWizInstaller 02 IE Search =================
+11-05-2017  8:38:11.92 .\browser\All\All\IESearch.reg 
+The system cannot find message text for message number 0x2336 in the message file for Application.
+====================11-05-2017  8:38:13.08  Finish PostWizInstaller 02 IE Search =================
+====================11-05-2017  8:38:13.08  Begin  PostWizInstaller 03 DT Icon =================
+====================11-05-2017  8:38:13.13  Finish PostWizInstaller 03 DT Icon =================
+====================11-05-2017  8:38:13.13  Begin  PostWizInstaller 04 StartMenu =================
+C:\hp\hpqware\startmenulink\All\All\Agoda.com.lnk -> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk
+1 File(s) copied
+C:\hp\hpqware\startmenulink\All\IND\Agoda.com.lnk -> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk
+1 File(s) copied
+====================11-05-2017  8:38:13.39  Finish PostWizInstaller 04 StartMenu =================
+====================11-05-2017  8:38:13.41  Begin  PostWizInstaller 05 IE Webslices =================
+C:\program files (x86)\Internet Explorer\signup\install.ins -> C:\system.sav\logs\BTBHost\install.ins
+1 File(s) copied
+====================11-05-2017  8:38:13.50  Finish PostWizInstaller 05 IE Webslices =================
+11-05-2017  8:38:13.52 .\Browser\en-US\All\IEAccelerators.ins 
+C:\program files (x86)\Internet Explorer\signup\install.ins -> C:\system.sav\logs\BTBHost\install.ins
+1 File(s) copied
+====================11-05-2017  8:38:13.63  Finsih PostWizInstaller 06 IE Accelerators =================
+====================11-05-2017  8:38:13.64  Begin  PostWizInstaller 07 IE Home =================
+11-05-2017 8:38:13.64 en_in\IE.reg 
+The system cannot find message text for message number 0x2336 in the message file for Application.
+C:\hp\HPQware\browser\en_in\IE.bat not exist 
+====================11-05-2017  8:38:13.86  Finish  PostWizInstaller 07 IE Home =================
+====================11-05-2017  8:38:13.88  Begin  PostWizInstaller 08 HPCD Task Bar =================
+====================11-05-2017  8:38:13.89  Finish  PostWizInstaller 08 HPCD Task Bar =================
+====================11-05-2017  8:38:13.89  Begin  PostWizInstaller 09 HPCD PostUser =================
+====================11-05-2017  8:38:13.91  Finish  PostWizInstaller 09 HPCD PostUser =================
+====================11-05-2017  8:38:13.96  Begin  PostWizInstaller 10 HPUC [CNB Only] =================
+11-05-2017 8:38:13.96 check if C:\HP\HPQware\HPUC\en-US\IND\ exist 
+====================11-05-2017  8:38:14.00  Finish  PostWizInstaller 10 HPUC =================
+====================11-05-2017  8:38:14.00  Begin  PostWizInstaller 11 DropBox =================
+====================11-05-2017  8:38:14.00  Finish  PostWizInstaller 11 DropBox =================
+====================11-05-2017  8:38:14.02  Begin  PostWizInstaller 12 EasySetup =================
+====================11-05-2017  8:38:14.03  Finish  PostWizInstaller 12 EasySetup =================
+====================11-05-2017  8:38:14.03  Begin  PostWizInstaller 13 WelcomeApp =================
+====================11-05-2017  8:38:14.05  Finish  PostWizInstaller 13 WelcomeApp =================
+====================11-05-2017  8:38:14.05  Begin  PostWizInstaller 14 LinioPostUser =================
+====================11-05-2017  8:38:14.07  Finish  PostWizInstaller 14 LinioPostUser =================
+====================11-05-2017  8:38:14.07  Begin  PostWizInstaller 15 McAfeePostUser =================
+====================11-05-2017  8:38:14.07  Finish  PostWizInstaller 15 McAfeePostUser =================
+====================11-05-2017  8:38:14.08  Begin  PostWizInstaller 16 HPSmartFriend =================
+====================11-05-2017  8:38:14.08  Finish  PostWizInstaller 16 HPSmartFriend =================
+====================11-05-2017  8:38:14.08  Begin  PostWizInstaller 17 HPAudioSwitch =================
+====================11-05-2017  8:38:14.10  Finish  PostWizInstaller 17 HPAudioSwitch =================
+====================11-05-2017  8:38:14.10  TypedURL begin =================
+c:\hp\hpqware\TypedURL\en-US\IND 
+====================11-05-2017  8:38:14.16  TypedURL finish =================
+====================11-05-2017  8:38:14.18  Begin amazon taskbar =================
+11-05-2017 8:38:14.18 check if C:\HP\HPQware\TaskbarFolder\en-US\IND\ exist 
+====================11-05-2017  8:38:14.18  Finish  amazon taskbar =================
+Value of "OnlineServices" variable is Online Services
+Value of "Release" variable is 
+Value of "PCBrand" variable is 
+Value of "Platform" variable is 
+Value of "cycle" variable is 
+Value of "WallpaperID" variable is 
+Value of "ChannelId" variable is 
+Value of "BBUY" variable is 
+Value of "pcseller" variable is 
+Value of "productnumber" variable is 
+Value of "modelnumber" variable is 
+Value of "SerialNumber" variable is 
+Value of "productname" variable is 
+Value of "buildtype" variable is 
+Value of "OSBit" variable is 
+Value of "SystemBoardProductId" variable is 
+Value of "vantage" variable is 
+Value of "brand" variable is 
+Value of "subbrand" variable is 
+Value of "hardwaretype" variable is 
+Value of "segment" variable is 
+Value of "systemfamily" variable is 
+Value of "devseller" variable is 
+Finished running Postwizinstaller.bat
+====================11-05-2017  8:38:14.77 PostWizInstaller finish =================

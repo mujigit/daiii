@@ -1,0 +1,13 @@
+REM ============================================
+REM ASSIGNRP.SP
+REM DATE: 2015-06-11
+REM ============================================
+
+SELECT DISK %HPRM.RP.DISKINDEX%
+LIST PART
+LIST VOL
+SELECT PARTITION %HPRM.RP.PARTINDEX%
+ASSIGN LETTER=%CRM.RP.DRVLETTER%
+LIST PART
+LIST VOL
+EXIT

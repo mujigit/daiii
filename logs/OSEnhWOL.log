@@ -1,0 +1,14 @@
+[Tue 03/28/2017  4:48:05.64] ========================================================================== 
+[Tue 03/28/2017  4:48:05.64] Start of "OSEnhWOL.cmd" to set registry key 
+[Tue 03/28/2017  4:48:05.64] This will set the Registry Key for Allow Wake From S5 
+[Tue 03/28/2017  4:48:05.64] ========================================================================== 
+[Tue 03/28/2017  4:48:05.65] Start run "OSEnhWOL.vbs" to set registry key 
+
+==========================================================================
+Running of OSEnhWOL.vbs file
+Write registry key to set AllowWakeFromS5=1
+Write registry key: HKLM\SYSTEM\CurrentControlSet\services\NDIS\Parameters\AllowWakeFromS5=1
+==========================================================================
+[Tue 03/28/2017  4:48:05.99] ========================================================================== 
+[Tue 03/28/2017  4:48:06.01] End of "OSEnhWOL.cmd" to set registry key 
+[Tue 03/28/2017  4:48:06.01] ========================================================================== 

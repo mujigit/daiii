@@ -1,0 +1,7 @@
+English
+Internal Network Adapter Boot
+	*Disable
+	Enable
+Network Boot
+	Enable
+	*Disable

@@ -1,0 +1,12 @@
+[4:21:05 AM] Install Folder: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0
+[4:21:05 AM] CVA File: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\P00LDMB2.CVA
+[4:21:05 AM] Deliverable Name: McAfee Checkbox [1.0,A,7]
+[4:21:05 AM] Deliverable PN: P00LDM-B2G
+[4:21:05 AM] Deliverable Size: 83 Kbytes
+[4:21:05 AM] Free Size: 455,941,848 Kbytes
+[4:21:05 AM] System Used Size: 19,854,628 Kbytes
+[4:21:05 AM] Run install command: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\install.cmd
+[4:21:07 AM] Return code: 0
+[4:21:07 AM] Size Extend: 328 Kbytes
+[4:21:07 AM] Metro Deliverable: No
+[4:21:07 AM] RESULT=PASSED

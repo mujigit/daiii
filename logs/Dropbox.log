@@ -1,0 +1,58 @@
+********************************* 
+Installing DropBox Preload  
+********************************* 
+- Output environment variables 
+------------------------------ 
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Administrator\AppData\Roaming
+block=C:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=WIN-SHHAUHQ7E8C
+ComSpec=C:\windows\system32\cmd.exe
+DPK=10
+HOMEDRIVE=C:
+HOMEPATH=\Users\Administrator
+LOCALAPPDATA=C:\Users\Administrator\AppData\Local
+log=c:\system.sav\logs\Dropbox.log
+LOGONSERVER=\\WIN-SHHAUHQ7E8C
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+Path=C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PinTaskbar=0
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=AMD64 Family 22 Model 48 Stepping 1, AuthenticAMD
+PROCESSOR_LEVEL=22
+PROCESSOR_REVISION=3001
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\windows
+TEMP=C:\Users\ADMINI~1\AppData\Local\Temp
+thisscriptpath=c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\src\ 
+TMP=C:\Users\ADMINI~1\AppData\Local\Temp
+USERDOMAIN=WIN-SHHAUHQ7E8C
+USERDOMAIN_ROAMINGPROFILE=WIN-SHHAUHQ7E8C
+USERNAME=Administrator
+USERPROFILE=C:\Users\Administrator
+windir=C:\windows
+------------------------------ 
+- End environment variables  
+- Block path: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\src\  
+- Initiating DropBox block 
+********************************* 
+Finished Installing Dropbox..  Run Wizinstaller.ini 
+********************************* 
+it is not an Entry sku, delete metro.xml 
+it is not an Entry sku, pin Dropbox at taskbar and MFU 
+********************************* 
+Finished Dropbox 
+********************************* 

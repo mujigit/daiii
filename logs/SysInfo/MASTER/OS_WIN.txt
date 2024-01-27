@@ -1,0 +1,67 @@
+-----------------------------------
+Win32_OperatingSystem instance
+-----------------------------------
+BootDevice: \Device\HarddiskVolume1
+BuildNumber: 14393
+BuildType: Multiprocessor Free
+Caption: Microsoft Windows 10 Home Single Language
+CodeSet: 1252
+CountryCode: 1
+CreationClassName: Win32_OperatingSystem
+CSCreationClassName: Win32_ComputerSystem
+CSDVersion: 
+CSName: WIN-SHHAUHQ7E8C
+CurrentTimeZone: -420
+DataExecutionPrevention_32BitApplications: True
+DataExecutionPrevention_Available: True
+DataExecutionPrevention_Drivers: True
+DataExecutionPrevention_SupportPolicy: 2
+Debug: False
+Description: 
+Distributed: False
+EncryptionLevel: 256
+ForegroundApplicationBoost: 2
+FreePhysicalMemory: 2390600
+FreeSpaceInPagingFiles: 1024000
+FreeVirtualMemory: 3513912
+InstallDate: 20170327122937.000000-420
+LargeSystemCache: 
+LastBootUpTime: 20170327122918.496339-420
+LocalDateTime: 20170327123017.091000-420
+Locale: 0409
+Manufacturer: Microsoft Corporation
+MaxNumberOfProcesses: -1
+MaxProcessMemorySize: 137438953344
+MUILanguages: en-US
+Name: Microsoft Windows 10 Home Single Language|C:\windows|\Device\Harddisk0\Partition3
+NumberOfLicensedUsers: 0
+NumberOfProcesses: 52
+NumberOfUsers: 1
+OperatingSystemSKU: 100
+Organization: HP Inc.
+OSArchitecture: 64-bit
+OSLanguage: 1033
+OSProductSuite: 768
+OSType: 18
+OtherTypeDescription: 
+PAEEnabled: 
+PlusProductID: 
+PlusVersionNumber: 
+PortableOperatingSystem: False
+Primary: True
+ProductType: 1
+RegisteredUser: Windows User
+SerialNumber: 00327-30000-00000-AAOEM
+ServicePackMajorVersion: 0
+ServicePackMinorVersion: 0
+SizeStoredInPagingFiles: 1024000
+Status: OK
+SuiteMask: 784
+SystemDevice: \Device\HarddiskVolume3
+SystemDirectory: C:\windows\system32
+SystemDrive: C:
+TotalSwapSpaceSize: 
+TotalVirtualMemorySize: 4655120
+TotalVisibleMemorySize: 3631120
+Version: 10.0.14393
+WindowsDirectory: C:\windows

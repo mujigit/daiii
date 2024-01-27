@@ -1,0 +1,12 @@
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED

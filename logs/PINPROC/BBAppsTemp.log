@@ -1,0 +1,3894 @@
+[C:\System.sav\Logs\BB\CPUFlag.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:59:55.40] Beginning of the CPUFlag.CMD                              
+############################################################# 
+[11:59:55.40] Start TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+CPU=AuthenticAMD  
+[11:59:55.48] Result of the TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ImageDiag_EarlyStage.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+
+[C:\System.sav\Logs\BB\Ngen.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\P00EDUB2.LOG]
+[12:37:48 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163
+[12:37:48 PM] CVA File: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\P00EDUB2.CVA
+[12:37:48 PM] Deliverable Name: Bing Search for IE11 [163,A,4]
+[12:37:48 PM] Deliverable PN: P00EDU-B2M
+[12:37:48 PM] Deliverable Size: 120 Kbytes
+[12:37:48 PM] Free Size: 58,978,100 Kbytes
+[12:37:48 PM] System Used Size: 20,064,456 Kbytes
+[12:37:48 PM] Run install command: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\install.cmd
+[12:37:50 PM] Return code: 0
+[12:37:50 PM] Size Extend: 932 Kbytes
+[12:37:50 PM] Metro Deliverable: No
+[12:37:50 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00GXSB2.LOG]
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00H08B2.LOG]
+[12:37:52 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163
+[12:37:52 PM] CVA File: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\P00H08B2.CVA
+[12:37:52 PM] Deliverable Name: IE Home [163,A,3]
+[12:37:52 PM] Deliverable PN: P00H08-B2U
+[12:37:52 PM] Deliverable Size: 58 Kbytes
+[12:37:52 PM] Free Size: 58,977,228 Kbytes
+[12:37:52 PM] System Used Size: 20,065,328 Kbytes
+[12:37:52 PM] Run install command: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\install.cmd
+[12:37:53 PM] Return code: 0
+[12:37:53 PM] Size Extend: 492 Kbytes
+[12:37:53 PM] Metro Deliverable: No
+[12:37:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HV0B2.LOG]
+[12:37:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1
+[12:37:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\P00HV0B2.CVA
+[12:37:54 PM] Deliverable Name: Discover HP Touchpoint Manager [1.0.18.1,A,3]
+[12:37:54 PM] Deliverable PN: P00HV0-B2P
+[12:37:54 PM] Deliverable Size: 3,747 Kbytes
+[12:37:54 PM] Free Size: 58,976,728 Kbytes
+[12:37:54 PM] System Used Size: 20,065,828 Kbytes
+[12:37:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\install.cmd
+[12:37:59 PM] Return code: 0
+[12:37:59 PM] Size Extend: 9,628 Kbytes
+[12:37:59 PM] Metro Deliverable: No
+[12:37:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LEXB2.LOG]
+[12:38:00 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2
+[12:38:00 PM] CVA File: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\P00LEXB2.CVA
+[12:38:00 PM] Deliverable Name: Retail Demo - Video Attract Loop [1.2,A,1]
+[12:38:00 PM] Deliverable PN: P00LEX-B2D
+[12:38:00 PM] Deliverable Size: 164,623 Kbytes
+[12:38:00 PM] Free Size: 58,967,092 Kbytes
+[12:38:00 PM] System Used Size: 20,075,464 Kbytes
+[12:38:00 PM] Run install command: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\install.cmd
+[12:38:01 PM] Return code: 0
+[12:38:01 PM] Size Extend: 17,568 Kbytes
+[12:38:01 PM] Metro Deliverable: No
+[12:38:01 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LUTB2.LOG]
+[12:38:02 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29
+[12:38:02 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\P00LUTB2.CVA
+[12:38:02 PM] Deliverable Name: HP Sure Connect [1.0.0.29,A,1]
+[12:38:02 PM] Deliverable PN: P00LUT-B2X
+[12:38:02 PM] Deliverable Size: 4,707 Kbytes
+[12:38:02 PM] Free Size: 58,949,476 Kbytes
+[12:38:02 PM] System Used Size: 20,093,080 Kbytes
+[12:38:02 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd
+[12:38:28 PM] Return code: 0
+[12:38:28 PM] Size Extend: 4,788 Kbytes
+[12:38:28 PM] Metro Deliverable: No
+[12:38:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N89B2.LOG]
+[12:38:30 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454
+[12:38:30 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\P00N89B2.CVA
+[12:38:30 PM] Deliverable Name: HP ePrint [5.2.20454,A,2]
+[12:38:30 PM] Deliverable PN: P00N89-B2K
+[12:38:30 PM] Deliverable Size: 58,488 Kbytes
+[12:38:30 PM] Free Size: 58,944,676 Kbytes
+[12:38:30 PM] System Used Size: 20,097,880 Kbytes
+[12:38:30 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\install.cmd
+[12:39:53 PM] Return code: 0
+[12:39:53 PM] Size Extend: 147,212 Kbytes
+[12:39:53 PM] Metro Deliverable: No
+[12:39:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NBCB2.LOG]
+[12:39:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40
+[12:39:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\P00NBCB2.CVA
+[12:39:54 PM] Deliverable Name: HP System Event Utility [1.40,A,15]
+[12:39:54 PM] Deliverable PN: P00NBC-B2J
+[12:39:54 PM] Deliverable Size: 19,209 Kbytes
+[12:39:54 PM] Free Size: 58,797,456 Kbytes
+[12:39:54 PM] System Used Size: 20,245,100 Kbytes
+[12:39:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd
+[12:39:59 PM] Return code: 0
+[12:39:59 PM] Size Extend: 39,264 Kbytes
+[12:39:59 PM] Metro Deliverable: No
+[12:39:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NC3B2.LOG]
+[12:37:43 PM] Install Folder: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01
+[12:37:43 PM] CVA File: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\P00NC3B2.CVA
+[12:37:43 PM] Deliverable Name: HP Documentation [1.01,A,5]
+[12:37:43 PM] Deliverable PN: P00NC3-B2F
+[12:37:43 PM] Deliverable Size: 236,515 Kbytes
+[12:37:43 PM] Free Size: 59,215,296 Kbytes
+[12:37:43 PM] System Used Size: 19,827,260 Kbytes
+[12:37:43 PM] System Id Support: Yes (81EA,81EB,81EC,81EF,81F0,81F1,81F2,81F5,81F6,81F9,81FA,81DB,81DC,81DF,81E0,81E1,81E5,81E6,81ED,81EE,81F3,81F4,81F7,81F8,81DD,81DE,81E3,81E4,81E7,81E8,82F6,82F7,8305,8306)
+[12:37:43 PM] Run install command: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd
+[12:37:47 PM] Return code: 0
+[12:37:47 PM] Size Extend: 237,188 Kbytes
+[12:37:47 PM] Metro Deliverable: No
+[12:37:47 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P5S00.LOG]
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P62B2.LOG]
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PABB2.LOG]
+[12:40:07 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191
+[12:40:07 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\P00PABB2.CVA
+[12:40:07 PM] Deliverable Name: HP Orbit [1.0.0.191,A,1]
+[12:40:07 PM] Deliverable PN: P00PAB-B2V
+[12:40:07 PM] Deliverable Size: 10,457 Kbytes
+[12:40:07 PM] Free Size: 58,758,168 Kbytes
+[12:40:07 PM] System Used Size: 20,284,388 Kbytes
+[12:40:07 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd
+[12:40:14 PM] Return code: 0
+[12:40:14 PM] Size Extend: 43,276 Kbytes
+[12:40:14 PM] Metro Deliverable: No
+[12:40:14 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PL3B2.LOG]
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PUTB2.LOG]
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PZGB2.LOG]
+[12:37:30 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16
+[12:37:30 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\P00PZGB2.CVA
+[12:37:30 PM] Deliverable Name: WW-BTB Host and ISP Stub [3.16,K,1]
+[12:37:30 PM] Deliverable PN: P00PZG-B2D
+[12:37:30 PM] Deliverable Size: 8,535 Kbytes
+[12:37:30 PM] Free Size: 59,226,148 Kbytes
+[12:37:30 PM] System Used Size: 19,816,408 Kbytes
+[12:37:30 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\install.cmd
+[12:37:35 PM] Return code: 0
+[12:37:35 PM] Size Extend: 10,812 Kbytes
+[12:37:35 PM] Metro Deliverable: No
+[12:37:35 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\WinPE_DRV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Win_Offline.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:22:50.29] Beginning of the Win_Offline.CMD                              
+############################################################# 
+[12:22:50.29] Start Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+No Windows offline driver found.  
+[12:22:50.31] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CPUFlag.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:59:55.40] Beginning of the CPUFlag.CMD                              
+############################################################# 
+[11:59:55.40] Start TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+CPU=AuthenticAMD  
+[11:59:55.48] Result of the TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ImageDiag_EarlyStage.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+
+[C:\System.sav\Logs\BB\Ngen.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\P00EDUB2.LOG]
+[12:37:48 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163
+[12:37:48 PM] CVA File: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\P00EDUB2.CVA
+[12:37:48 PM] Deliverable Name: Bing Search for IE11 [163,A,4]
+[12:37:48 PM] Deliverable PN: P00EDU-B2M
+[12:37:48 PM] Deliverable Size: 120 Kbytes
+[12:37:48 PM] Free Size: 58,978,100 Kbytes
+[12:37:48 PM] System Used Size: 20,064,456 Kbytes
+[12:37:48 PM] Run install command: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\install.cmd
+[12:37:50 PM] Return code: 0
+[12:37:50 PM] Size Extend: 932 Kbytes
+[12:37:50 PM] Metro Deliverable: No
+[12:37:50 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00GXSB2.LOG]
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00H08B2.LOG]
+[12:37:52 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163
+[12:37:52 PM] CVA File: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\P00H08B2.CVA
+[12:37:52 PM] Deliverable Name: IE Home [163,A,3]
+[12:37:52 PM] Deliverable PN: P00H08-B2U
+[12:37:52 PM] Deliverable Size: 58 Kbytes
+[12:37:52 PM] Free Size: 58,977,228 Kbytes
+[12:37:52 PM] System Used Size: 20,065,328 Kbytes
+[12:37:52 PM] Run install command: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\install.cmd
+[12:37:53 PM] Return code: 0
+[12:37:53 PM] Size Extend: 492 Kbytes
+[12:37:53 PM] Metro Deliverable: No
+[12:37:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HV0B2.LOG]
+[12:37:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1
+[12:37:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\P00HV0B2.CVA
+[12:37:54 PM] Deliverable Name: Discover HP Touchpoint Manager [1.0.18.1,A,3]
+[12:37:54 PM] Deliverable PN: P00HV0-B2P
+[12:37:54 PM] Deliverable Size: 3,747 Kbytes
+[12:37:54 PM] Free Size: 58,976,728 Kbytes
+[12:37:54 PM] System Used Size: 20,065,828 Kbytes
+[12:37:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\install.cmd
+[12:37:59 PM] Return code: 0
+[12:37:59 PM] Size Extend: 9,628 Kbytes
+[12:37:59 PM] Metro Deliverable: No
+[12:37:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LEXB2.LOG]
+[12:38:00 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2
+[12:38:00 PM] CVA File: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\P00LEXB2.CVA
+[12:38:00 PM] Deliverable Name: Retail Demo - Video Attract Loop [1.2,A,1]
+[12:38:00 PM] Deliverable PN: P00LEX-B2D
+[12:38:00 PM] Deliverable Size: 164,623 Kbytes
+[12:38:00 PM] Free Size: 58,967,092 Kbytes
+[12:38:00 PM] System Used Size: 20,075,464 Kbytes
+[12:38:00 PM] Run install command: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\install.cmd
+[12:38:01 PM] Return code: 0
+[12:38:01 PM] Size Extend: 17,568 Kbytes
+[12:38:01 PM] Metro Deliverable: No
+[12:38:01 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LUTB2.LOG]
+[12:38:02 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29
+[12:38:02 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\P00LUTB2.CVA
+[12:38:02 PM] Deliverable Name: HP Sure Connect [1.0.0.29,A,1]
+[12:38:02 PM] Deliverable PN: P00LUT-B2X
+[12:38:02 PM] Deliverable Size: 4,707 Kbytes
+[12:38:02 PM] Free Size: 58,949,476 Kbytes
+[12:38:02 PM] System Used Size: 20,093,080 Kbytes
+[12:38:02 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd
+[12:38:28 PM] Return code: 0
+[12:38:28 PM] Size Extend: 4,788 Kbytes
+[12:38:28 PM] Metro Deliverable: No
+[12:38:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N89B2.LOG]
+[12:38:30 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454
+[12:38:30 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\P00N89B2.CVA
+[12:38:30 PM] Deliverable Name: HP ePrint [5.2.20454,A,2]
+[12:38:30 PM] Deliverable PN: P00N89-B2K
+[12:38:30 PM] Deliverable Size: 58,488 Kbytes
+[12:38:30 PM] Free Size: 58,944,676 Kbytes
+[12:38:30 PM] System Used Size: 20,097,880 Kbytes
+[12:38:30 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\install.cmd
+[12:39:53 PM] Return code: 0
+[12:39:53 PM] Size Extend: 147,212 Kbytes
+[12:39:53 PM] Metro Deliverable: No
+[12:39:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NBCB2.LOG]
+[12:39:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40
+[12:39:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\P00NBCB2.CVA
+[12:39:54 PM] Deliverable Name: HP System Event Utility [1.40,A,15]
+[12:39:54 PM] Deliverable PN: P00NBC-B2J
+[12:39:54 PM] Deliverable Size: 19,209 Kbytes
+[12:39:54 PM] Free Size: 58,797,456 Kbytes
+[12:39:54 PM] System Used Size: 20,245,100 Kbytes
+[12:39:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd
+[12:39:59 PM] Return code: 0
+[12:39:59 PM] Size Extend: 39,264 Kbytes
+[12:39:59 PM] Metro Deliverable: No
+[12:39:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NC3B2.LOG]
+[12:37:43 PM] Install Folder: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01
+[12:37:43 PM] CVA File: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\P00NC3B2.CVA
+[12:37:43 PM] Deliverable Name: HP Documentation [1.01,A,5]
+[12:37:43 PM] Deliverable PN: P00NC3-B2F
+[12:37:43 PM] Deliverable Size: 236,515 Kbytes
+[12:37:43 PM] Free Size: 59,215,296 Kbytes
+[12:37:43 PM] System Used Size: 19,827,260 Kbytes
+[12:37:43 PM] System Id Support: Yes (81EA,81EB,81EC,81EF,81F0,81F1,81F2,81F5,81F6,81F9,81FA,81DB,81DC,81DF,81E0,81E1,81E5,81E6,81ED,81EE,81F3,81F4,81F7,81F8,81DD,81DE,81E3,81E4,81E7,81E8,82F6,82F7,8305,8306)
+[12:37:43 PM] Run install command: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd
+[12:37:47 PM] Return code: 0
+[12:37:47 PM] Size Extend: 237,188 Kbytes
+[12:37:47 PM] Metro Deliverable: No
+[12:37:47 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P5S00.LOG]
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P62B2.LOG]
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PABB2.LOG]
+[12:40:07 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191
+[12:40:07 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\P00PABB2.CVA
+[12:40:07 PM] Deliverable Name: HP Orbit [1.0.0.191,A,1]
+[12:40:07 PM] Deliverable PN: P00PAB-B2V
+[12:40:07 PM] Deliverable Size: 10,457 Kbytes
+[12:40:07 PM] Free Size: 58,758,168 Kbytes
+[12:40:07 PM] System Used Size: 20,284,388 Kbytes
+[12:40:07 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd
+[12:40:14 PM] Return code: 0
+[12:40:14 PM] Size Extend: 43,276 Kbytes
+[12:40:14 PM] Metro Deliverable: No
+[12:40:14 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PL3B2.LOG]
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PUTB2.LOG]
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PZGB2.LOG]
+[12:37:30 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16
+[12:37:30 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\P00PZGB2.CVA
+[12:37:30 PM] Deliverable Name: WW-BTB Host and ISP Stub [3.16,K,1]
+[12:37:30 PM] Deliverable PN: P00PZG-B2D
+[12:37:30 PM] Deliverable Size: 8,535 Kbytes
+[12:37:30 PM] Free Size: 59,226,148 Kbytes
+[12:37:30 PM] System Used Size: 19,816,408 Kbytes
+[12:37:30 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\install.cmd
+[12:37:35 PM] Return code: 0
+[12:37:35 PM] Size Extend: 10,812 Kbytes
+[12:37:35 PM] Metro Deliverable: No
+[12:37:35 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\WinPE_DRV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Win_Offline.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:22:50.29] Beginning of the Win_Offline.CMD                              
+############################################################# 
+[12:22:50.29] Start Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+No Windows offline driver found.  
+[12:22:50.31] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CPUFlag.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:59:55.40] Beginning of the CPUFlag.CMD                              
+############################################################# 
+[11:59:55.40] Start TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+CPU=AuthenticAMD  
+[11:59:55.48] Result of the TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_WAV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:28:18.32] Beginning of the CUST_WAV.CMD during FUpdateEue phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  466,990,198,784 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  466,990,194,688 bytes free
+Not Win10 Nov15 OS, skip.  
+[14:28:18.37] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableService.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:30:02.72] Beginning of the DisableService.cmd                              
+############################################################# 
+Found tiledatamodelsvc, disable it. 
+The operation completed successfully.
+Schedule task disable success. 
+[ 4:30:02.80] Result of the Image tweaks for tiledatamodelsvc disable 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ImageDiag_EarlyStage.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:20:47.76] Beginning of the ImageDiag_EarlyStage.CMD  [PASS2]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[ 4:20:47.87] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[ 4:20:47.98] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[ 4:20:48.06] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[ 4:20:48.07] === Enclosure type Checking for MDA2017 Completed === 
+[ 4:20:48.09] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[ 4:20:48.76] === Trusted Root Certificates Inital backup Completed === 
+
+[C:\System.sav\Logs\BB\MSAppsOrder.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:27:51.88] Beginning of the MSAppsOrder.CMD                              
+############################################################# 
+--- Start Reset Process --- 
+No APPs supports WinJS.  
+[14:27:53.98] Result of the TFS - Windows 10 HP Image Enhancements - TDC - MS APPs with WinJS Installation Sequence Reset 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Ngen.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\P00EDUB2.LOG]
+[12:37:48 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163
+[12:37:48 PM] CVA File: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\P00EDUB2.CVA
+[12:37:48 PM] Deliverable Name: Bing Search for IE11 [163,A,4]
+[12:37:48 PM] Deliverable PN: P00EDU-B2M
+[12:37:48 PM] Deliverable Size: 120 Kbytes
+[12:37:48 PM] Free Size: 58,978,100 Kbytes
+[12:37:48 PM] System Used Size: 20,064,456 Kbytes
+[12:37:48 PM] Run install command: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\install.cmd
+[12:37:50 PM] Return code: 0
+[12:37:50 PM] Size Extend: 932 Kbytes
+[12:37:50 PM] Metro Deliverable: No
+[12:37:50 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00GXSB2.LOG]
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00H08B2.LOG]
+[12:37:52 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163
+[12:37:52 PM] CVA File: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\P00H08B2.CVA
+[12:37:52 PM] Deliverable Name: IE Home [163,A,3]
+[12:37:52 PM] Deliverable PN: P00H08-B2U
+[12:37:52 PM] Deliverable Size: 58 Kbytes
+[12:37:52 PM] Free Size: 58,977,228 Kbytes
+[12:37:52 PM] System Used Size: 20,065,328 Kbytes
+[12:37:52 PM] Run install command: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\install.cmd
+[12:37:53 PM] Return code: 0
+[12:37:53 PM] Size Extend: 492 Kbytes
+[12:37:53 PM] Metro Deliverable: No
+[12:37:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HV0B2.LOG]
+[12:37:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1
+[12:37:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\P00HV0B2.CVA
+[12:37:54 PM] Deliverable Name: Discover HP Touchpoint Manager [1.0.18.1,A,3]
+[12:37:54 PM] Deliverable PN: P00HV0-B2P
+[12:37:54 PM] Deliverable Size: 3,747 Kbytes
+[12:37:54 PM] Free Size: 58,976,728 Kbytes
+[12:37:54 PM] System Used Size: 20,065,828 Kbytes
+[12:37:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\install.cmd
+[12:37:59 PM] Return code: 0
+[12:37:59 PM] Size Extend: 9,628 Kbytes
+[12:37:59 PM] Metro Deliverable: No
+[12:37:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00KTXB2.LOG]
+[4:21:08 AM] Install Folder: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0
+[4:21:08 AM] CVA File: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\P00KTXB2.CVA
+[4:21:08 AM] Deliverable Name: False [2.0,A,9]
+[4:21:08 AM] Deliverable PN: P00KTX-B2Q
+[4:21:08 AM] Deliverable Size: 20 Kbytes
+[4:21:08 AM] Free Size: 455,941,512 Kbytes
+[4:21:08 AM] System Used Size: 19,854,964 Kbytes
+[4:21:08 AM] Run install command: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\install.cmd
+[4:21:09 AM] Return code: 0
+[4:21:09 AM] Size Extend: -8 Kbytes
+[4:21:09 AM] Metro Deliverable: No
+[4:21:09 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LDMB2.LOG]
+[4:21:05 AM] Install Folder: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0
+[4:21:05 AM] CVA File: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\P00LDMB2.CVA
+[4:21:05 AM] Deliverable Name: McAfee Checkbox [1.0,A,7]
+[4:21:05 AM] Deliverable PN: P00LDM-B2G
+[4:21:05 AM] Deliverable Size: 83 Kbytes
+[4:21:05 AM] Free Size: 455,941,848 Kbytes
+[4:21:05 AM] System Used Size: 19,854,628 Kbytes
+[4:21:05 AM] Run install command: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\install.cmd
+[4:21:07 AM] Return code: 0
+[4:21:07 AM] Size Extend: 328 Kbytes
+[4:21:07 AM] Metro Deliverable: No
+[4:21:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LEXB2.LOG]
+[12:38:00 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2
+[12:38:00 PM] CVA File: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\P00LEXB2.CVA
+[12:38:00 PM] Deliverable Name: Retail Demo - Video Attract Loop [1.2,A,1]
+[12:38:00 PM] Deliverable PN: P00LEX-B2D
+[12:38:00 PM] Deliverable Size: 164,623 Kbytes
+[12:38:00 PM] Free Size: 58,967,092 Kbytes
+[12:38:00 PM] System Used Size: 20,075,464 Kbytes
+[12:38:00 PM] Run install command: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\install.cmd
+[12:38:01 PM] Return code: 0
+[12:38:01 PM] Size Extend: 17,568 Kbytes
+[12:38:01 PM] Metro Deliverable: No
+[12:38:01 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LMKB2.LOG]
+[4:21:10 AM] Install Folder: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639
+[4:21:10 AM] CVA File: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\P00LMKB2.CVA
+[4:21:10 AM] Deliverable Name: HP Setup Integrated OOBE Win10 [1.2.8357.5639,A,1]
+[4:21:10 AM] Deliverable PN: P00LMK-B2S
+[4:21:10 AM] Deliverable Size: 17,202 Kbytes
+[4:21:10 AM] Free Size: 455,941,512 Kbytes
+[4:21:10 AM] System Used Size: 19,854,964 Kbytes
+[4:21:10 AM] Run install command: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\install.cmd
+[4:23:04 AM] Return code: 0
+[4:23:04 AM] Size Extend: 137,312 Kbytes
+[4:23:04 AM] Metro Deliverable: No
+[4:23:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LUTB2.LOG]
+[12:38:02 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29
+[12:38:02 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\P00LUTB2.CVA
+[12:38:02 PM] Deliverable Name: HP Sure Connect [1.0.0.29,A,1]
+[12:38:02 PM] Deliverable PN: P00LUT-B2X
+[12:38:02 PM] Deliverable Size: 4,707 Kbytes
+[12:38:02 PM] Free Size: 58,949,476 Kbytes
+[12:38:02 PM] System Used Size: 20,093,080 Kbytes
+[12:38:02 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd
+[12:38:28 PM] Return code: 0
+[12:38:28 PM] Size Extend: 4,788 Kbytes
+[12:38:28 PM] Metro Deliverable: No
+[12:38:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3DB2.LOG]
+[4:27:42 AM] Install Folder: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228
+[4:27:42 AM] CVA File: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\P00N3DB2.CVA
+[4:27:42 AM] Deliverable Name: Realtek Card Reader Driver [10.0.14393.31228,A,12]
+[4:27:42 AM] Deliverable PN: P00N3D-B2M
+[4:27:42 AM] Deliverable Size: 38,935 Kbytes
+[4:27:42 AM] Free Size: 453,998,624 Kbytes
+[4:27:42 AM] System Used Size: 21,797,852 Kbytes
+[4:27:42 AM] Run install command: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\install.cmd
+[4:27:48 AM] Return code: 0
+[4:27:48 AM] Size Extend: 40,620 Kbytes
+[4:27:48 AM] Metro Deliverable: No
+[4:27:48 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3EB2.LOG]
+[4:26:01 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016
+[4:26:01 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\P00N3EB2.CVA
+[4:26:01 AM] Deliverable Name: Realtek Local Area Network (LAN) Driver-Win10 [10.10.714.2016,A,7]
+[4:26:01 AM] Deliverable PN: P00N3E-B2H
+[4:26:01 AM] Deliverable Size: 22,204 Kbytes
+[4:26:01 AM] Free Size: 454,153,508 Kbytes
+[4:26:01 AM] System Used Size: 21,642,968 Kbytes
+[4:26:01 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\install.cmd
+[4:26:56 AM] Return code: 0
+[4:26:56 AM] Size Extend: 21,464 Kbytes
+[4:26:56 AM] Metro Deliverable: No
+[4:26:56 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N4KB2.LOG]
+[4:27:49 AM] Install Folder: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1
+[4:27:49 AM] CVA File: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\P00N4KB2.CVA
+[4:27:49 AM] Deliverable Name: ELAN Touchpad Driver (Windows 10 v1607) [15.2.14.1,A,17]
+[4:27:49 AM] Deliverable PN: P00N4K-B2S
+[4:27:49 AM] Deliverable Size: 174,912 Kbytes
+[4:27:49 AM] Free Size: 453,957,996 Kbytes
+[4:27:49 AM] System Used Size: 21,838,480 Kbytes
+[4:27:49 AM] Run install command: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\install.cmd
+[4:28:04 AM] Return code: 0
+[4:28:04 AM] Size Extend: 173,128 Kbytes
+[4:28:04 AM] Metro Deliverable: No
+[4:28:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N89B2.LOG]
+[12:38:30 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454
+[12:38:30 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\P00N89B2.CVA
+[12:38:30 PM] Deliverable Name: HP ePrint [5.2.20454,A,2]
+[12:38:30 PM] Deliverable PN: P00N89-B2K
+[12:38:30 PM] Deliverable Size: 58,488 Kbytes
+[12:38:30 PM] Free Size: 58,944,676 Kbytes
+[12:38:30 PM] System Used Size: 20,097,880 Kbytes
+[12:38:30 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\install.cmd
+[12:39:53 PM] Return code: 0
+[12:39:53 PM] Size Extend: 147,212 Kbytes
+[12:39:53 PM] Metro Deliverable: No
+[12:39:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NBCB2.LOG]
+[12:39:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40
+[12:39:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\P00NBCB2.CVA
+[12:39:54 PM] Deliverable Name: HP System Event Utility [1.40,A,15]
+[12:39:54 PM] Deliverable PN: P00NBC-B2J
+[12:39:54 PM] Deliverable Size: 19,209 Kbytes
+[12:39:54 PM] Free Size: 58,797,456 Kbytes
+[12:39:54 PM] System Used Size: 20,245,100 Kbytes
+[12:39:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd
+[12:39:59 PM] Return code: 0
+[12:39:59 PM] Size Extend: 39,264 Kbytes
+[12:39:59 PM] Metro Deliverable: No
+[12:39:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NC3B2.LOG]
+[12:37:43 PM] Install Folder: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01
+[12:37:43 PM] CVA File: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\P00NC3B2.CVA
+[12:37:43 PM] Deliverable Name: HP Documentation [1.01,A,5]
+[12:37:43 PM] Deliverable PN: P00NC3-B2F
+[12:37:43 PM] Deliverable Size: 236,515 Kbytes
+[12:37:43 PM] Free Size: 59,215,296 Kbytes
+[12:37:43 PM] System Used Size: 19,827,260 Kbytes
+[12:37:43 PM] System Id Support: Yes (81EA,81EB,81EC,81EF,81F0,81F1,81F2,81F5,81F6,81F9,81FA,81DB,81DC,81DF,81E0,81E1,81E5,81E6,81ED,81EE,81F3,81F4,81F7,81F8,81DD,81DE,81E3,81E4,81E7,81E8,82F6,82F7,8305,8306)
+[12:37:43 PM] Run install command: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd
+[12:37:47 PM] Return code: 0
+[12:37:47 PM] Size Extend: 237,188 Kbytes
+[12:37:47 PM] Metro Deliverable: No
+[12:37:47 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P5S00.LOG]
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P62B2.LOG]
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PABB2.LOG]
+[12:40:07 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191
+[12:40:07 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\P00PABB2.CVA
+[12:40:07 PM] Deliverable Name: HP Orbit [1.0.0.191,A,1]
+[12:40:07 PM] Deliverable PN: P00PAB-B2V
+[12:40:07 PM] Deliverable Size: 10,457 Kbytes
+[12:40:07 PM] Free Size: 58,758,168 Kbytes
+[12:40:07 PM] System Used Size: 20,284,388 Kbytes
+[12:40:07 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd
+[12:40:14 PM] Return code: 0
+[12:40:14 PM] Size Extend: 43,276 Kbytes
+[12:40:14 PM] Metro Deliverable: No
+[12:40:14 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PF9B2.LOG]
+[4:26:57 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016
+[4:26:57 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\P00PF9B2.cva
+[4:26:57 AM] Deliverable Name: Realtek RTL8723BE/RTL8188EE 802.11b/g/n Wireless LAN Drivers [2023.40.801.2016,A,1]
+[4:26:57 AM] Deliverable PN: P00PF9-B2E
+[4:26:57 AM] Deliverable Size: 70,736 Kbytes
+[4:26:57 AM] Free Size: 454,131,912 Kbytes
+[4:26:57 AM] System Used Size: 21,664,564 Kbytes
+[4:26:57 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\install.cmd
+[4:27:41 AM] Return code: 0
+[4:27:41 AM] Size Extend: 133,276 Kbytes
+[4:27:41 AM] Metro Deliverable: No
+[4:27:41 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PL3B2.LOG]
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PSCB2.LOG]
+[4:28:19 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0
+[4:28:19 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\P00PSCB2.CVA
+[4:28:19 AM] Deliverable Name: HP JumpStart [1.1.165.0,A,5]
+[4:28:19 AM] Deliverable PN: P00PSC-B2H
+[4:28:19 AM] Deliverable Size: 211,545 Kbytes
+[4:28:19 AM] Free Size: 453,784,572 Kbytes
+[4:28:19 AM] System Used Size: 22,011,904 Kbytes
+[4:28:19 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\install.cmd
+[4:30:01 AM] Return code: 0
+[4:30:01 AM] Size Extend: 358,336 Kbytes
+[4:30:01 AM] Metro Deliverable: Yes
+[4:30:01 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PUTB2.LOG]
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PWMB2.LOG]
+[4:23:06 AM] Install Folder: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922
+[4:23:06 AM] CVA File: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\P00PWMB2.CVA
+[4:23:06 AM] Deliverable Name: Realtek High-Definition (HD) Audio Driver [6.0.1.7922,A,29]
+[4:23:06 AM] Deliverable PN: P00PWM-B2F
+[4:23:06 AM] Deliverable Size: 897,861 Kbytes
+[4:23:06 AM] Free Size: 455,804,192 Kbytes
+[4:23:06 AM] System Used Size: 19,992,284 Kbytes
+[4:23:06 AM] Run install command: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\install.cmd
+[4:23:59 AM] Return code: 0
+[4:23:59 AM] Size Extend: 355,088 Kbytes
+[4:23:59 AM] Metro Deliverable: No
+[4:23:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PZGB2.LOG]
+[12:37:30 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16
+[12:37:30 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\P00PZGB2.CVA
+[12:37:30 PM] Deliverable Name: WW-BTB Host and ISP Stub [3.16,K,1]
+[12:37:30 PM] Deliverable PN: P00PZG-B2D
+[12:37:30 PM] Deliverable Size: 8,535 Kbytes
+[12:37:30 PM] Free Size: 59,226,148 Kbytes
+[12:37:30 PM] System Used Size: 19,816,408 Kbytes
+[12:37:30 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\install.cmd
+[12:37:35 PM] Return code: 0
+[12:37:35 PM] Size Extend: 10,812 Kbytes
+[12:37:35 PM] Metro Deliverable: No
+[12:37:35 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00Q5XB2.LOG]
+[4:24:00 AM] Install Folder: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257
+[4:24:00 AM] CVA File: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\P00Q5XB2.CVA
+[4:24:00 AM] Deliverable Name: AMD High-Definition Graphics Driver [21.19.144.257,A,28]
+[4:24:00 AM] Deliverable PN: P00Q5X-B2D
+[4:24:00 AM] Deliverable Size: 736,426 Kbytes
+[4:24:00 AM] Free Size: 455,449,096 Kbytes
+[4:24:00 AM] System Used Size: 20,347,380 Kbytes
+[4:24:00 AM] Run install command: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\install.cmd
+[4:25:59 AM] Return code: 0
+[4:25:59 AM] Size Extend: 1,295,576 Kbytes
+[4:25:59 AM] Metro Deliverable: No
+[4:25:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\WinPE_DRV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Win_Offline.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:22:50.29] Beginning of the Win_Offline.CMD                              
+############################################################# 
+[12:22:50.29] Start Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+No Windows offline driver found.  
+[12:22:50.31] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CPUFlag.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:59:55.40] Beginning of the CPUFlag.CMD                              
+############################################################# 
+[11:59:55.40] Start TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+CPU=AuthenticAMD  
+[11:59:55.48] Result of the TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_TouchPointCfg.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:09.60] Beginning of the CUST_TouchPointCfg.CMD                              
+############################################################# 
+Clean XTU Desktop Icon
+cscript /nologo C:\SWSetup\CustTweak\DELINK.vbs /List="C:\SYSTEM.SAV\Util\TDC\MCPP\XTU_Icon.lst"
+Check C:\Users\Public\Desktop\HP Touchpoint Manager.lnk. (C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT, C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT)
+Comparing with PerfTuneIcon.B089625E_E454_492E_B2F2_7E934E4807F0.exe(-1,0,0,0,0)
+Comparing with Intel(R) Extreme Tuning Utility.lnk(-1,0,0,0,0)
+===> Keep
+ErrorLevel=0 
+Start of platform search.
+[ 4:46:10.40] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_WAV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:28:18.32] Beginning of the CUST_WAV.CMD during FUpdateEue phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  466,990,198,784 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  466,990,194,688 bytes free
+Not Win10 Nov15 OS, skip.  
+[14:28:18.37] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableDefender.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:12.84] Beginning of the DisableDefender.cmd                              
+############################################################# 
+[ 4:46:12.85] Start Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+[ 4:46:12.85] RS1 Detection 
+For RS1, offline disable defender.  
+[ 4:46:12.87] Result of the Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableService.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:30:02.72] Beginning of the DisableService.cmd                              
+############################################################# 
+Found tiledatamodelsvc, disable it. 
+The operation completed successfully.
+Schedule task disable success. 
+[ 4:30:02.80] Result of the Image tweaks for tiledatamodelsvc disable 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DTICON.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:14.13] Beginning of the DTICON.CMD                              
+############################################################# 
+Remove Desktop Icon
+DELINK.vbs /List="c:\SYSTEM.SAV\Util\TDC\MCPP\EnhIcon.lst"
+[ 4:46:14.33] Result of the TFS - Windows 10 HP Image Enhancements - TDC - DTICON 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ImageDiag.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:15.63] Beginning of the ImageDiag.CMD                              
+############################################################# 
+Feature Byte is "3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek" 
+[ 4:46:17.71] === ITEM=Deliverable SW Title Checking ... === 
+    Software title are correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === Deliverable SW Title Checking Completed === 
+[ 4:46:18.61] === ITEM=MSTest Folder Checking ... === 
+    C:\SWSetup\MSTest folder behavior is correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === MSTest Folder Checking Completed === 
+[ 4:46:18.61] === ITEM=Build ID of Source and Destination Option Code Checking ... IGNORED for Flex Config === 
+[ 4:46:18.63] === ITEM=Trusted Root Certificates Checking ... === 
+    No risk certificates in Trusted Root Certificates.  
+    RESULT=PASSED 
+[ 4:46:19.08] === Trusted Root Certificates Checking Completed === 
+[ 4:46:19.08] === ITEM=Trusted Root Certificates whitelist Checking ... === 
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS start =============================================================== 
+Target machine certificate file path=c:\System.sav\Logs\CertListDetail.lst
+Pure OS certification file path=     C:\SYSTEM.SAV\Util\TDC\MCPP\tdccert2.lst
+Report file path=                    c:\System.sav\Logs\Cert_OutOfExpected.lst
+PosSectionNextLine={1092}
+sha1={CDD4EEAE 6000AC7F 40C3802C 171E3014 8030C072}
+Inbox certificate
+PosSectionNextLine={1587}
+sha1={BE36A456 2FB2EE05 DBB3D323 23ADF445 084ED656}
+Inbox certificate
+PosSectionNextLine={1319}
+sha1={A4348915 9A520F0D 93D032CC AF37E7FE 20A8B419}
+Inbox certificate
+PosSectionNextLine={1172}
+sha1={92B46C76 E13054E1 04F23051 7E6E504D 43AB10B5}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={8F43288A D272F310 3B6FB142 8485EA30 14C0BCFE}
+Inbox certificate
+PosSectionNextLine={967}
+sha1={7F88CD72 23F3C813 818C9946 14A89C99 FA3B5247}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={3B1EFD3A 66EA28B1 66973947 03A72CA3 40A05BD5}
+Inbox certificate
+PosSectionNextLine={1779}
+sha1={245C97DF 7514E7CF 2DF8BE72 AE957B9E 04741E85}
+Inbox certificate
+PosSectionNextLine={1704}
+sha1={18F7C1FC C3090203 FD5BAA2F 861A7549 76C8DD25}
+Inbox certificate
+PosSectionNextLine={1772}
+sha1={E12DFB4B 41D7D9C3 2B30514B AC1D81D8 385E2D46}
+Inbox certificate
+PosSectionNextLine={1061}
+sha1={B1BC968B D4F49D62 2AA89A81 F2150152 A41D829C}
+Inbox certificate
+PosSectionNextLine={1044}
+sha1={742C3192 E607E424 EB454954 2BE1BBC5 3E6174E2}
+Inbox certificate
+PosSectionNextLine={892}
+sha1={51501FBF CE69189D 609CFAF1 40C57675 5DCC1FDF}
+Inbox certificate
+PosSectionNextLine={1047}
+sha1={4F655663 36DB6598 581D584A 596C8793 4D5F2AB4}
+Inbox certificate
+PosSectionNextLine={2196}
+sha1={4EB6D578 499B1CCF 5F581EAD 56BE3D9B 6744A5E5}
+Inbox certificate
+PosSectionNextLine={1104}
+sha1={0563B863 0D62D75A BBC8AB1E 4BDFB5A8 99B24D43}
+Inbox certificate
+PosSectionNextLine={1199}
+sha1={02FAF3E2 91435468 60785769 4DF5E45B 68851868}
+Inbox certificate
+No more certificate item
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS end =============================================================== 
+    No risk certificates in Trusted Root Certificates.         
+    RESULT=PASSED 
+[ 4:46:19.41] === Trusted Root Certificates whitelist Checking Completed === 
+[ 4:46:19.41] === ITEM=Panel Size Checking ... === 
+    Check 81E5PanelSize=13 in C:\System.sav\Flags\PINCTRLTwk.pf 
+    Panel size match between PINCTRLTwk.pf and RStone.ini.  
+    RESULT=PASSED 
+[ 4:46:19.64] === Panel Size Checking Completed === 
+[ 4:46:19.66] === ITEM=Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ ... === 
+[ 4:46:19.83] === Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ Completed === 
+[ 4:46:19.83] === ITEM=MSCU of MDA M3 Checking ... === 
+    Image bundle Windows 10 Redstone 1 Update x64 OS. 
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Name: Windows 10 RedStone 1 MS Critical Updates - Offline - CPS
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Type: TFS_MSCU16U_x64
+[4:46:19 AM]	[CsupDiag.vbs] 	CSUP date: 10-20-2016
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Version: 
+[4:46:19 AM]	[CsupDiag.vbs] 	ChkName=[Windows 10 RedStone 1 MS Critical Updates - Offline - CPS]
+[4:46:19 AM]	[CsupDiag.vbs] 	Read from csup.map=Jul16
+[4:46:19 AM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/07/31]
+[4:46:19 AM]	[CsupDiag.vbs] 	Default burnin date: 07/31/2016
+[4:46:19 AM]	[CsupDiag.vbs] 	----- MSCU FLAG ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU csup.map ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	Cannot get burnin date from flg. Check from csup.map
+[4:46:20 AM]	[CsupDiag.vbs] 	ImgBurninDate=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Image burnin date: Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	No any mscu preinstalled.
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU FU ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	DateDifference-3=0 (between CSUP date and MSCU preinstall)
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU Checking release terminated date ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	ReleaseTerminated=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Not found ReleaseTerminated date in csup.map, return 0
+    MSCU package has meet MDA M3 required.  
+    RESULT=PASSED 
+[ 4:46:20.11] === MSCU of MDA M3 Checking Completed === 
+
+[C:\System.sav\Logs\BB\ImageDiag_EarlyStage.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:20:47.76] Beginning of the ImageDiag_EarlyStage.CMD  [PASS2]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[ 4:20:47.87] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[ 4:20:47.98] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[ 4:20:48.06] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[ 4:20:48.07] === Enclosure type Checking for MDA2017 Completed === 
+[ 4:20:48.09] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[ 4:20:48.76] === Trusted Root Certificates Inital backup Completed === 
+
+[C:\System.sav\Logs\BB\MSAppsOrder.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:27:51.88] Beginning of the MSAppsOrder.CMD                              
+############################################################# 
+--- Start Reset Process --- 
+No APPs supports WinJS.  
+[14:27:53.98] Result of the TFS - Windows 10 HP Image Enhancements - TDC - MS APPs with WinJS Installation Sequence Reset 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Ngen.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:22.60] Beginning of the Ngen.CMD                              
+############################################################# 
+[ 4:46:22.62] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[ 4:48:04.44] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\OCAMark.log]
+TFS - OCA Marker File - TDC 
+C:\Windows\System32\Drivers\103C_HP_bNB_245 G5 Notebook PC_Y5336AN_0U_QD235641159_ED235641159F9 DPS_4A_I81E5_SHP_V73.12_BB.11_T160310_W148-0_L409_M3547_J500_7AMD_8F01_92.00_#170328_N10EC8179;10EC8168_(1ZX23PC#ACJ)_XMOBILE_CN10_Z.MRK
+1 File(s) copied
+        1 file(s) copied.
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\P006MAB2.LOG]
+[4:31:58 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10
+[4:31:58 AM] CVA File: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\P006MAB2.CVA
+[4:31:58 AM] Deliverable Name: Energy Star [1.10,A,2]
+[4:31:58 AM] Deliverable PN: P006MA-B2P
+[4:31:58 AM] Deliverable Size: 4,886 Kbytes
+[4:31:58 AM] Free Size: 453,494,996 Kbytes
+[4:31:58 AM] System Used Size: 22,301,480 Kbytes
+[4:31:59 AM] Run install command: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\install.cmd
+[4:32:05 AM] Return code: 0
+[4:32:05 AM] Size Extend: -720 Kbytes
+[4:32:05 AM] Metro Deliverable: No
+[4:32:05 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P009C2B2.LOG]
+[4:32:07 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1
+[4:32:07 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\P009C2B2.CVA
+[4:32:07 AM] Deliverable Name: HP Wireless Button Driver [1.1.18.1,A,1]
+[4:32:07 AM] Deliverable PN: P009C2-B2T
+[4:32:07 AM] Deliverable Size: 4,711 Kbytes
+[4:32:07 AM] Free Size: 453,495,668 Kbytes
+[4:32:07 AM] System Used Size: 22,300,808 Kbytes
+[4:32:07 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\install.cmd
+[4:32:22 AM] Return code: 0
+[4:32:22 AM] Size Extend: 18,872 Kbytes
+[4:32:22 AM] Metro Deliverable: No
+[4:32:22 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00EDUB2.LOG]
+[12:37:48 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163
+[12:37:48 PM] CVA File: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\P00EDUB2.CVA
+[12:37:48 PM] Deliverable Name: Bing Search for IE11 [163,A,4]
+[12:37:48 PM] Deliverable PN: P00EDU-B2M
+[12:37:48 PM] Deliverable Size: 120 Kbytes
+[12:37:48 PM] Free Size: 58,978,100 Kbytes
+[12:37:48 PM] System Used Size: 20,064,456 Kbytes
+[12:37:48 PM] Run install command: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\install.cmd
+[12:37:50 PM] Return code: 0
+[12:37:50 PM] Size Extend: 932 Kbytes
+[12:37:50 PM] Metro Deliverable: No
+[12:37:50 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00F6BB2.LOG]
+[4:32:24 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00
+[4:32:24 AM] CVA File: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\P00F6BB2.CVA
+[4:32:24 AM] Deliverable Name: TFS - OCA Marker File - TDC [1.00,A,4]
+[4:32:24 AM] Deliverable PN: P00F6B-B2D
+[4:32:24 AM] Deliverable Size: 33 Kbytes
+[4:32:24 AM] Free Size: 453,476,788 Kbytes
+[4:32:24 AM] System Used Size: 22,319,688 Kbytes
+[4:32:24 AM] Run install command: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\install.cmd
+[4:32:28 AM] Return code: 0
+[4:32:28 AM] Size Extend: -7,716 Kbytes
+[4:32:28 AM] Metro Deliverable: No
+[4:32:28 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00GXSB2.LOG]
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00H08B2.LOG]
+[12:37:52 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163
+[12:37:52 PM] CVA File: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\P00H08B2.CVA
+[12:37:52 PM] Deliverable Name: IE Home [163,A,3]
+[12:37:52 PM] Deliverable PN: P00H08-B2U
+[12:37:52 PM] Deliverable Size: 58 Kbytes
+[12:37:52 PM] Free Size: 58,977,228 Kbytes
+[12:37:52 PM] System Used Size: 20,065,328 Kbytes
+[12:37:52 PM] Run install command: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\install.cmd
+[12:37:53 PM] Return code: 0
+[12:37:53 PM] Size Extend: 492 Kbytes
+[12:37:53 PM] Metro Deliverable: No
+[12:37:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HUYB2.LOG]
+[4:32:29 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1
+[4:32:29 AM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\P00HUYB2.CVA
+[4:32:29 AM] Deliverable Name: Discover HP Touchpoint Manager - metro [1.0.13.1,A,2]
+[4:32:29 AM] Deliverable PN: P00HUY-B2N
+[4:32:29 AM] Deliverable Size: 3,162 Kbytes
+[4:32:29 AM] Free Size: 453,484,496 Kbytes
+[4:32:29 AM] System Used Size: 22,311,980 Kbytes
+[4:32:29 AM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\install.cmd
+[4:32:39 AM] Return code: 0
+[4:32:39 AM] Size Extend: 2,736 Kbytes
+[4:32:39 AM] Metro Deliverable: Yes
+[4:32:39 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HV0B2.LOG]
+[12:37:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1
+[12:37:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\P00HV0B2.CVA
+[12:37:54 PM] Deliverable Name: Discover HP Touchpoint Manager [1.0.18.1,A,3]
+[12:37:54 PM] Deliverable PN: P00HV0-B2P
+[12:37:54 PM] Deliverable Size: 3,747 Kbytes
+[12:37:54 PM] Free Size: 58,976,728 Kbytes
+[12:37:54 PM] System Used Size: 20,065,828 Kbytes
+[12:37:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\install.cmd
+[12:37:59 PM] Return code: 0
+[12:37:59 PM] Size Extend: 9,628 Kbytes
+[12:37:59 PM] Metro Deliverable: No
+[12:37:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00KTXB2.LOG]
+[4:21:08 AM] Install Folder: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0
+[4:21:08 AM] CVA File: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\P00KTXB2.CVA
+[4:21:08 AM] Deliverable Name: False [2.0,A,9]
+[4:21:08 AM] Deliverable PN: P00KTX-B2Q
+[4:21:08 AM] Deliverable Size: 20 Kbytes
+[4:21:08 AM] Free Size: 455,941,512 Kbytes
+[4:21:08 AM] System Used Size: 19,854,964 Kbytes
+[4:21:08 AM] Run install command: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\install.cmd
+[4:21:09 AM] Return code: 0
+[4:21:09 AM] Size Extend: -8 Kbytes
+[4:21:09 AM] Metro Deliverable: No
+[4:21:09 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00L6EB2.LOG]
+[4:32:40 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0
+[4:32:40 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\P00L6EB2.CVA
+[4:32:40 AM] Deliverable Name: HP PC Hardware Diagnostics UEFI [6.2.0.0,A,1.0]
+[4:32:40 AM] Deliverable PN: P00L6E-B2Q
+[4:32:41 AM] Deliverable Size: 75,675 Kbytes
+[4:32:41 AM] Free Size: 453,481,740 Kbytes
+[4:32:41 AM] System Used Size: 22,314,736 Kbytes
+[4:32:41 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\install.cmd
+[4:32:50 AM] Return code: 0
+[4:32:50 AM] Size Extend: 82,240 Kbytes
+[4:32:50 AM] Metro Deliverable: No
+[4:32:50 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LDMB2.LOG]
+[4:21:05 AM] Install Folder: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0
+[4:21:05 AM] CVA File: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\P00LDMB2.CVA
+[4:21:05 AM] Deliverable Name: McAfee Checkbox [1.0,A,7]
+[4:21:05 AM] Deliverable PN: P00LDM-B2G
+[4:21:05 AM] Deliverable Size: 83 Kbytes
+[4:21:05 AM] Free Size: 455,941,848 Kbytes
+[4:21:05 AM] System Used Size: 19,854,628 Kbytes
+[4:21:05 AM] Run install command: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\install.cmd
+[4:21:07 AM] Return code: 0
+[4:21:07 AM] Size Extend: 328 Kbytes
+[4:21:07 AM] Metro Deliverable: No
+[4:21:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LEXB2.LOG]
+[12:38:00 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2
+[12:38:00 PM] CVA File: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\P00LEXB2.CVA
+[12:38:00 PM] Deliverable Name: Retail Demo - Video Attract Loop [1.2,A,1]
+[12:38:00 PM] Deliverable PN: P00LEX-B2D
+[12:38:00 PM] Deliverable Size: 164,623 Kbytes
+[12:38:00 PM] Free Size: 58,967,092 Kbytes
+[12:38:00 PM] System Used Size: 20,075,464 Kbytes
+[12:38:00 PM] Run install command: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\install.cmd
+[12:38:01 PM] Return code: 0
+[12:38:01 PM] Size Extend: 17,568 Kbytes
+[12:38:01 PM] Metro Deliverable: No
+[12:38:01 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LMKB2.LOG]
+[4:21:10 AM] Install Folder: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639
+[4:21:10 AM] CVA File: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\P00LMKB2.CVA
+[4:21:10 AM] Deliverable Name: HP Setup Integrated OOBE Win10 [1.2.8357.5639,A,1]
+[4:21:10 AM] Deliverable PN: P00LMK-B2S
+[4:21:10 AM] Deliverable Size: 17,202 Kbytes
+[4:21:10 AM] Free Size: 455,941,512 Kbytes
+[4:21:10 AM] System Used Size: 19,854,964 Kbytes
+[4:21:10 AM] Run install command: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\install.cmd
+[4:23:04 AM] Return code: 0
+[4:23:04 AM] Size Extend: 137,312 Kbytes
+[4:23:04 AM] Metro Deliverable: No
+[4:23:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LUTB2.LOG]
+[12:38:02 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29
+[12:38:02 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\P00LUTB2.CVA
+[12:38:02 PM] Deliverable Name: HP Sure Connect [1.0.0.29,A,1]
+[12:38:02 PM] Deliverable PN: P00LUT-B2X
+[12:38:02 PM] Deliverable Size: 4,707 Kbytes
+[12:38:02 PM] Free Size: 58,949,476 Kbytes
+[12:38:02 PM] System Used Size: 20,093,080 Kbytes
+[12:38:02 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd
+[12:38:28 PM] Return code: 0
+[12:38:28 PM] Size Extend: 4,788 Kbytes
+[12:38:28 PM] Metro Deliverable: No
+[12:38:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00MGEB2.LOG]
+[4:32:51 AM] Install Folder: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909
+[4:32:51 AM] CVA File: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\P00MGEB2.CVA
+[4:32:51 AM] Deliverable Name: CyberLink Power Media Player Software [14.0.5.6909,E,1]
+[4:32:51 AM] Deliverable PN: P00MGE-B2X
+[4:32:52 AM] Deliverable Size: 175,622 Kbytes
+[4:32:52 AM] Free Size: 453,400,444 Kbytes
+[4:32:52 AM] System Used Size: 22,396,032 Kbytes
+[4:32:52 AM] Run install command: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\install.cmd
+[4:34:42 AM] Return code: 0
+[4:34:42 AM] Size Extend: 405,952 Kbytes
+[4:34:42 AM] Metro Deliverable: No
+[4:34:42 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N20B2.LOG]
+[4:34:43 AM] Install Folder: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0
+[4:34:43 AM] CVA File: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\P00N20B2.CVA
+[4:34:43 AM] Deliverable Name: Netflix [6.11.33.0,A,3]
+[4:34:43 AM] Deliverable PN: P00N20-B2L
+[4:34:44 AM] Deliverable Size: 1,953 Kbytes
+[4:34:44 AM] Free Size: 452,994,484 Kbytes
+[4:34:44 AM] System Used Size: 22,801,992 Kbytes
+[4:34:44 AM] Run install command: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\install.cmd
+[4:35:04 AM] Return code: 0
+[4:35:04 AM] Size Extend: 11,068 Kbytes
+[4:35:04 AM] Metro Deliverable: Yes
+[4:35:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N24B2.LOG]
+[4:35:05 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163
+[4:35:05 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\P00N24B2.CVA
+[4:35:05 AM] Deliverable Name: Priceline [163,A,6]
+[4:35:05 AM] Deliverable PN: P00N24-B2J
+[4:35:05 AM] Deliverable Size: 509 Kbytes
+[4:35:05 AM] Free Size: 452,983,404 Kbytes
+[4:35:05 AM] System Used Size: 22,813,072 Kbytes
+[4:35:05 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\install.cmd
+[4:35:07 AM] Return code: 0
+[4:35:07 AM] Size Extend: 428 Kbytes
+[4:35:07 AM] Metro Deliverable: No
+[4:35:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3DB2.LOG]
+[4:27:42 AM] Install Folder: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228
+[4:27:42 AM] CVA File: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\P00N3DB2.CVA
+[4:27:42 AM] Deliverable Name: Realtek Card Reader Driver [10.0.14393.31228,A,12]
+[4:27:42 AM] Deliverable PN: P00N3D-B2M
+[4:27:42 AM] Deliverable Size: 38,935 Kbytes
+[4:27:42 AM] Free Size: 453,998,624 Kbytes
+[4:27:42 AM] System Used Size: 21,797,852 Kbytes
+[4:27:42 AM] Run install command: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\install.cmd
+[4:27:48 AM] Return code: 0
+[4:27:48 AM] Size Extend: 40,620 Kbytes
+[4:27:48 AM] Metro Deliverable: No
+[4:27:48 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3EB2.LOG]
+[4:26:01 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016
+[4:26:01 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\P00N3EB2.CVA
+[4:26:01 AM] Deliverable Name: Realtek Local Area Network (LAN) Driver-Win10 [10.10.714.2016,A,7]
+[4:26:01 AM] Deliverable PN: P00N3E-B2H
+[4:26:01 AM] Deliverable Size: 22,204 Kbytes
+[4:26:01 AM] Free Size: 454,153,508 Kbytes
+[4:26:01 AM] System Used Size: 21,642,968 Kbytes
+[4:26:01 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\install.cmd
+[4:26:56 AM] Return code: 0
+[4:26:56 AM] Size Extend: 21,464 Kbytes
+[4:26:56 AM] Metro Deliverable: No
+[4:26:56 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N4KB2.LOG]
+[4:27:49 AM] Install Folder: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1
+[4:27:49 AM] CVA File: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\P00N4KB2.CVA
+[4:27:49 AM] Deliverable Name: ELAN Touchpad Driver (Windows 10 v1607) [15.2.14.1,A,17]
+[4:27:49 AM] Deliverable PN: P00N4K-B2S
+[4:27:49 AM] Deliverable Size: 174,912 Kbytes
+[4:27:49 AM] Free Size: 453,957,996 Kbytes
+[4:27:49 AM] System Used Size: 21,838,480 Kbytes
+[4:27:49 AM] Run install command: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\install.cmd
+[4:28:04 AM] Return code: 0
+[4:28:04 AM] Size Extend: 173,128 Kbytes
+[4:28:04 AM] Metro Deliverable: No
+[4:28:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N89B2.LOG]
+[12:38:30 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454
+[12:38:30 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\P00N89B2.CVA
+[12:38:30 PM] Deliverable Name: HP ePrint [5.2.20454,A,2]
+[12:38:30 PM] Deliverable PN: P00N89-B2K
+[12:38:30 PM] Deliverable Size: 58,488 Kbytes
+[12:38:30 PM] Free Size: 58,944,676 Kbytes
+[12:38:30 PM] System Used Size: 20,097,880 Kbytes
+[12:38:30 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\install.cmd
+[12:39:53 PM] Return code: 0
+[12:39:53 PM] Size Extend: 147,212 Kbytes
+[12:39:53 PM] Metro Deliverable: No
+[12:39:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NBCB2.LOG]
+[12:39:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40
+[12:39:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\P00NBCB2.CVA
+[12:39:54 PM] Deliverable Name: HP System Event Utility [1.40,A,15]
+[12:39:54 PM] Deliverable PN: P00NBC-B2J
+[12:39:54 PM] Deliverable Size: 19,209 Kbytes
+[12:39:54 PM] Free Size: 58,797,456 Kbytes
+[12:39:54 PM] System Used Size: 20,245,100 Kbytes
+[12:39:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd
+[12:39:59 PM] Return code: 0
+[12:39:59 PM] Size Extend: 39,264 Kbytes
+[12:39:59 PM] Metro Deliverable: No
+[12:39:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NC3B2.LOG]
+[12:37:43 PM] Install Folder: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01
+[12:37:43 PM] CVA File: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\P00NC3B2.CVA
+[12:37:43 PM] Deliverable Name: HP Documentation [1.01,A,5]
+[12:37:43 PM] Deliverable PN: P00NC3-B2F
+[12:37:43 PM] Deliverable Size: 236,515 Kbytes
+[12:37:43 PM] Free Size: 59,215,296 Kbytes
+[12:37:43 PM] System Used Size: 19,827,260 Kbytes
+[12:37:43 PM] System Id Support: Yes (81EA,81EB,81EC,81EF,81F0,81F1,81F2,81F5,81F6,81F9,81FA,81DB,81DC,81DF,81E0,81E1,81E5,81E6,81ED,81EE,81F3,81F4,81F7,81F8,81DD,81DE,81E3,81E4,81E7,81E8,82F6,82F7,8305,8306)
+[12:37:43 PM] Run install command: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd
+[12:37:47 PM] Return code: 0
+[12:37:47 PM] Size Extend: 237,188 Kbytes
+[12:37:47 PM] Metro Deliverable: No
+[12:37:47 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NZ8B2.LOG]
+[4:35:08 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30
+[4:35:08 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\P00NZ8B2.CVA
+[4:35:08 AM] Deliverable Name: Windows 10 Redstone1 Recovery Manager Installer - CPS [16.30,A,3]
+[4:35:08 AM] Deliverable PN: P00NZ8-B2D
+[4:35:08 AM] Deliverable Size: 4,637 Kbytes
+[4:35:08 AM] Free Size: 452,990,640 Kbytes
+[4:35:08 AM] System Used Size: 22,805,836 Kbytes
+[4:35:08 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\install.cmd
+[4:35:11 AM] Return code: 0
+[4:35:11 AM] Size Extend: 18,012 Kbytes
+[4:35:11 AM] Metro Deliverable: No
+[4:35:11 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P5S00.LOG]
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P62B2.LOG]
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PABB2.LOG]
+[12:40:07 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191
+[12:40:07 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\P00PABB2.CVA
+[12:40:07 PM] Deliverable Name: HP Orbit [1.0.0.191,A,1]
+[12:40:07 PM] Deliverable PN: P00PAB-B2V
+[12:40:07 PM] Deliverable Size: 10,457 Kbytes
+[12:40:07 PM] Free Size: 58,758,168 Kbytes
+[12:40:07 PM] System Used Size: 20,284,388 Kbytes
+[12:40:07 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd
+[12:40:14 PM] Return code: 0
+[12:40:14 PM] Size Extend: 43,276 Kbytes
+[12:40:14 PM] Metro Deliverable: No
+[12:40:14 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PF9B2.LOG]
+[4:26:57 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016
+[4:26:57 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\P00PF9B2.cva
+[4:26:57 AM] Deliverable Name: Realtek RTL8723BE/RTL8188EE 802.11b/g/n Wireless LAN Drivers [2023.40.801.2016,A,1]
+[4:26:57 AM] Deliverable PN: P00PF9-B2E
+[4:26:57 AM] Deliverable Size: 70,736 Kbytes
+[4:26:57 AM] Free Size: 454,131,912 Kbytes
+[4:26:57 AM] System Used Size: 21,664,564 Kbytes
+[4:26:57 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\install.cmd
+[4:27:41 AM] Return code: 0
+[4:27:41 AM] Size Extend: 133,276 Kbytes
+[4:27:41 AM] Metro Deliverable: No
+[4:27:41 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PK5B2.LOG]
+[4:35:13 AM] Install Folder: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309
+[4:35:13 AM] CVA File: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\P00PK5B2.CVA
+[4:35:13 AM] Deliverable Name: Cyberlink PowerDirector [14.0.2.3309,B,1]
+[4:35:13 AM] Deliverable PN: P00PK5-B2G
+[4:35:13 AM] Deliverable Size: 547,777 Kbytes
+[4:35:13 AM] Free Size: 452,972,616 Kbytes
+[4:35:13 AM] System Used Size: 22,823,860 Kbytes
+[4:35:13 AM] Run install command: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\install.cmd
+[4:37:20 AM] Return code: 0
+[4:37:20 AM] Size Extend: 1,307,360 Kbytes
+[4:37:20 AM] Metro Deliverable: No
+[4:37:20 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PL3B2.LOG]
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PSCB2.LOG]
+[4:28:19 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0
+[4:28:19 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\P00PSCB2.CVA
+[4:28:19 AM] Deliverable Name: HP JumpStart [1.1.165.0,A,5]
+[4:28:19 AM] Deliverable PN: P00PSC-B2H
+[4:28:19 AM] Deliverable Size: 211,545 Kbytes
+[4:28:19 AM] Free Size: 453,784,572 Kbytes
+[4:28:19 AM] System Used Size: 22,011,904 Kbytes
+[4:28:19 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\install.cmd
+[4:30:01 AM] Return code: 0
+[4:30:01 AM] Size Extend: 358,336 Kbytes
+[4:30:01 AM] Metro Deliverable: Yes
+[4:30:01 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PUTB2.LOG]
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PWMB2.LOG]
+[4:23:06 AM] Install Folder: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922
+[4:23:06 AM] CVA File: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\P00PWMB2.CVA
+[4:23:06 AM] Deliverable Name: Realtek High-Definition (HD) Audio Driver [6.0.1.7922,A,29]
+[4:23:06 AM] Deliverable PN: P00PWM-B2F
+[4:23:06 AM] Deliverable Size: 897,861 Kbytes
+[4:23:06 AM] Free Size: 455,804,192 Kbytes
+[4:23:06 AM] System Used Size: 19,992,284 Kbytes
+[4:23:06 AM] Run install command: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\install.cmd
+[4:23:59 AM] Return code: 0
+[4:23:59 AM] Size Extend: 355,088 Kbytes
+[4:23:59 AM] Metro Deliverable: No
+[4:23:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PZGB2.LOG]
+[12:37:30 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16
+[12:37:30 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\P00PZGB2.CVA
+[12:37:30 PM] Deliverable Name: WW-BTB Host and ISP Stub [3.16,K,1]
+[12:37:30 PM] Deliverable PN: P00PZG-B2D
+[12:37:30 PM] Deliverable Size: 8,535 Kbytes
+[12:37:30 PM] Free Size: 59,226,148 Kbytes
+[12:37:30 PM] System Used Size: 19,816,408 Kbytes
+[12:37:30 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\install.cmd
+[12:37:35 PM] Return code: 0
+[12:37:35 PM] Size Extend: 10,812 Kbytes
+[12:37:35 PM] Metro Deliverable: No
+[12:37:35 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00Q5XB2.LOG]
+[4:24:00 AM] Install Folder: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257
+[4:24:00 AM] CVA File: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\P00Q5XB2.CVA
+[4:24:00 AM] Deliverable Name: AMD High-Definition Graphics Driver [21.19.144.257,A,28]
+[4:24:00 AM] Deliverable PN: P00Q5X-B2D
+[4:24:00 AM] Deliverable Size: 736,426 Kbytes
+[4:24:00 AM] Free Size: 455,449,096 Kbytes
+[4:24:00 AM] System Used Size: 20,347,380 Kbytes
+[4:24:00 AM] Run install command: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\install.cmd
+[4:25:59 AM] Return code: 0
+[4:25:59 AM] Size Extend: 1,295,576 Kbytes
+[4:25:59 AM] Metro Deliverable: No
+[4:25:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\SetOSVar.log]
+BIOS don't support variable Win 10 RS1  
+[ 4:48:08.49] Result of the Setup OS BCU variable for Battery remaining report 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WallpaperOk.log]
+Component: Windows 10 Wallpaper for - TDC 
+Timing: Pininst_BBV2Post 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WinPE_DRV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Win_Offline.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:22:50.29] Beginning of the Win_Offline.CMD                              
+############################################################# 
+[12:22:50.29] Start Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+No Windows offline driver found.  
+[12:22:50.31] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WriteCache.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:50:35.62] Beginning of the WriteCache.CMD                              
+############################################################# 
+Could not found 1sthddcache.flg and 2ndhddcache.flg.  
+[ 4:50:35.63] Result of the TFS - Windows 10 HP Image Enhancements - TDC - Default HDD Write Cache Policy 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ClnDhcpDomain_ImgEnh.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:12.07] Beginning of the ClnDhcpDomain_ImgEnh.cmd                              
+############################################################# 
+Argument=[] 
+Load hive... 
+The operation completed successfully.
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:12.73] Result of the Windows 10 HP Image Enhancements - CPS - DHCP Information Clean and add into exclusion list. 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ClnDhcpDomain_ImgEnh_Online.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:51:18.16] Beginning of the ClnDhcpDomain_ImgEnh_Online.cmd                              
+############################################################# 
+Argument=[GenPpkgExList] 
+[ 4:51:18.54] Result of the Windows 10 HP Image Enhancements - CPS - DHCP Information Clean and add into exclusion list. 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CPUFlag.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:59:55.40] Beginning of the CPUFlag.CMD                              
+############################################################# 
+[11:59:55.40] Start TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+CPU=AuthenticAMD  
+[11:59:55.48] Result of the TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_AddIntoPpkgExList.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:51:52.75] Beginning of the CUST_AddIntoPpkgExList.CMD during BBVClean phase              
+############################################################# 
+%SystemDrive%\SWSetup\CustTweak\* [*]
+%SystemDrive%\SWSetup\hpImgEnh\* [*]
+[ 4:51:52.83] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_TouchPointCfg.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:09.60] Beginning of the CUST_TouchPointCfg.CMD                              
+############################################################# 
+Clean XTU Desktop Icon
+cscript /nologo C:\SWSetup\CustTweak\DELINK.vbs /List="C:\SYSTEM.SAV\Util\TDC\MCPP\XTU_Icon.lst"
+Check C:\Users\Public\Desktop\HP Touchpoint Manager.lnk. (C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT, C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT)
+Comparing with PerfTuneIcon.B089625E_E454_492E_B2F2_7E934E4807F0.exe(-1,0,0,0,0)
+Comparing with Intel(R) Extreme Tuning Utility.lnk(-1,0,0,0,0)
+===> Keep
+ErrorLevel=0 
+Start of platform search.
+[ 4:46:10.40] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_WAV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:28:18.32] Beginning of the CUST_WAV.CMD during FUpdateEue phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  466,990,198,784 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  466,990,194,688 bytes free
+Not Win10 Nov15 OS, skip.  
+[14:28:18.37] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:16.50] Beginning of the CUST_WAV.CMD during 2ndCap phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  460,209,078,272 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  460,209,078,272 bytes free
+Not Win10 Nov15 OS, skip.  
+[ 5:22:16.55] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DELETE_LAST.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:17.74] Beginning of the DELETE_LAST.CMD                              
+############################################################# 
+[ 5:22:17.76] Start TFS - Windows 10 HP Image Enhancements - TDC - Last Clean 
+Start to remove folders which [DeleteThese] failed 
+Remove C:\SWSetup\hpImgEnh folder 
+Remove C:\SWSetup\CustTweak folder 
+[ 5:22:17.77] Result of the TFS - Windows 10 HP Image Enhancements - TDC - Last Clean 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableDefender.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:12.84] Beginning of the DisableDefender.cmd                              
+############################################################# 
+[ 4:46:12.85] Start Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+[ 4:46:12.85] RS1 Detection 
+For RS1, offline disable defender.  
+[ 4:46:12.87] Result of the Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableService.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:30:02.72] Beginning of the DisableService.cmd                              
+############################################################# 
+Found tiledatamodelsvc, disable it. 
+The operation completed successfully.
+Schedule task disable success. 
+[ 4:30:02.80] Result of the Image tweaks for tiledatamodelsvc disable 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DTICON.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:14.13] Beginning of the DTICON.CMD                              
+############################################################# 
+Remove Desktop Icon
+DELINK.vbs /List="c:\SYSTEM.SAV\Util\TDC\MCPP\EnhIcon.lst"
+[ 4:46:14.33] Result of the TFS - Windows 10 HP Image Enhancements - TDC - DTICON 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ImageDiag.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:15.63] Beginning of the ImageDiag.CMD                              
+############################################################# 
+Feature Byte is "3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek" 
+[ 4:46:17.71] === ITEM=Deliverable SW Title Checking ... === 
+    Software title are correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === Deliverable SW Title Checking Completed === 
+[ 4:46:18.61] === ITEM=MSTest Folder Checking ... === 
+    C:\SWSetup\MSTest folder behavior is correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === MSTest Folder Checking Completed === 
+[ 4:46:18.61] === ITEM=Build ID of Source and Destination Option Code Checking ... IGNORED for Flex Config === 
+[ 4:46:18.63] === ITEM=Trusted Root Certificates Checking ... === 
+    No risk certificates in Trusted Root Certificates.  
+    RESULT=PASSED 
+[ 4:46:19.08] === Trusted Root Certificates Checking Completed === 
+[ 4:46:19.08] === ITEM=Trusted Root Certificates whitelist Checking ... === 
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS start =============================================================== 
+Target machine certificate file path=c:\System.sav\Logs\CertListDetail.lst
+Pure OS certification file path=     C:\SYSTEM.SAV\Util\TDC\MCPP\tdccert2.lst
+Report file path=                    c:\System.sav\Logs\Cert_OutOfExpected.lst
+PosSectionNextLine={1092}
+sha1={CDD4EEAE 6000AC7F 40C3802C 171E3014 8030C072}
+Inbox certificate
+PosSectionNextLine={1587}
+sha1={BE36A456 2FB2EE05 DBB3D323 23ADF445 084ED656}
+Inbox certificate
+PosSectionNextLine={1319}
+sha1={A4348915 9A520F0D 93D032CC AF37E7FE 20A8B419}
+Inbox certificate
+PosSectionNextLine={1172}
+sha1={92B46C76 E13054E1 04F23051 7E6E504D 43AB10B5}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={8F43288A D272F310 3B6FB142 8485EA30 14C0BCFE}
+Inbox certificate
+PosSectionNextLine={967}
+sha1={7F88CD72 23F3C813 818C9946 14A89C99 FA3B5247}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={3B1EFD3A 66EA28B1 66973947 03A72CA3 40A05BD5}
+Inbox certificate
+PosSectionNextLine={1779}
+sha1={245C97DF 7514E7CF 2DF8BE72 AE957B9E 04741E85}
+Inbox certificate
+PosSectionNextLine={1704}
+sha1={18F7C1FC C3090203 FD5BAA2F 861A7549 76C8DD25}
+Inbox certificate
+PosSectionNextLine={1772}
+sha1={E12DFB4B 41D7D9C3 2B30514B AC1D81D8 385E2D46}
+Inbox certificate
+PosSectionNextLine={1061}
+sha1={B1BC968B D4F49D62 2AA89A81 F2150152 A41D829C}
+Inbox certificate
+PosSectionNextLine={1044}
+sha1={742C3192 E607E424 EB454954 2BE1BBC5 3E6174E2}
+Inbox certificate
+PosSectionNextLine={892}
+sha1={51501FBF CE69189D 609CFAF1 40C57675 5DCC1FDF}
+Inbox certificate
+PosSectionNextLine={1047}
+sha1={4F655663 36DB6598 581D584A 596C8793 4D5F2AB4}
+Inbox certificate
+PosSectionNextLine={2196}
+sha1={4EB6D578 499B1CCF 5F581EAD 56BE3D9B 6744A5E5}
+Inbox certificate
+PosSectionNextLine={1104}
+sha1={0563B863 0D62D75A BBC8AB1E 4BDFB5A8 99B24D43}
+Inbox certificate
+PosSectionNextLine={1199}
+sha1={02FAF3E2 91435468 60785769 4DF5E45B 68851868}
+Inbox certificate
+No more certificate item
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS end =============================================================== 
+    No risk certificates in Trusted Root Certificates.         
+    RESULT=PASSED 
+[ 4:46:19.41] === Trusted Root Certificates whitelist Checking Completed === 
+[ 4:46:19.41] === ITEM=Panel Size Checking ... === 
+    Check 81E5PanelSize=13 in C:\System.sav\Flags\PINCTRLTwk.pf 
+    Panel size match between PINCTRLTwk.pf and RStone.ini.  
+    RESULT=PASSED 
+[ 4:46:19.64] === Panel Size Checking Completed === 
+[ 4:46:19.66] === ITEM=Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ ... === 
+[ 4:46:19.83] === Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ Completed === 
+[ 4:46:19.83] === ITEM=MSCU of MDA M3 Checking ... === 
+    Image bundle Windows 10 Redstone 1 Update x64 OS. 
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Name: Windows 10 RedStone 1 MS Critical Updates - Offline - CPS
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Type: TFS_MSCU16U_x64
+[4:46:19 AM]	[CsupDiag.vbs] 	CSUP date: 10-20-2016
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Version: 
+[4:46:19 AM]	[CsupDiag.vbs] 	ChkName=[Windows 10 RedStone 1 MS Critical Updates - Offline - CPS]
+[4:46:19 AM]	[CsupDiag.vbs] 	Read from csup.map=Jul16
+[4:46:19 AM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/07/31]
+[4:46:19 AM]	[CsupDiag.vbs] 	Default burnin date: 07/31/2016
+[4:46:19 AM]	[CsupDiag.vbs] 	----- MSCU FLAG ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU csup.map ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	Cannot get burnin date from flg. Check from csup.map
+[4:46:20 AM]	[CsupDiag.vbs] 	ImgBurninDate=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Image burnin date: Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	No any mscu preinstalled.
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU FU ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	DateDifference-3=0 (between CSUP date and MSCU preinstall)
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU Checking release terminated date ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	ReleaseTerminated=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Not found ReleaseTerminated date in csup.map, return 0
+    MSCU package has meet MDA M3 required.  
+    RESULT=PASSED 
+[ 4:46:20.11] === MSCU of MDA M3 Checking Completed === 
+
+[C:\System.sav\Logs\BB\ImageDiag_EarlyStage.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:20:47.76] Beginning of the ImageDiag_EarlyStage.CMD  [PASS2]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[ 4:20:47.87] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[ 4:20:47.98] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[ 4:20:48.06] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[ 4:20:48.07] === Enclosure type Checking for MDA2017 Completed === 
+[ 4:20:48.09] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[ 4:20:48.76] === Trusted Root Certificates Inital backup Completed === 
+
+[C:\System.sav\Logs\BB\MSAppsOrder.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:27:51.88] Beginning of the MSAppsOrder.CMD                              
+############################################################# 
+--- Start Reset Process --- 
+No APPs supports WinJS.  
+[14:27:53.98] Result of the TFS - Windows 10 HP Image Enhancements - TDC - MS APPs with WinJS Installation Sequence Reset 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Ngen.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:22.60] Beginning of the Ngen.CMD                              
+############################################################# 
+[ 4:46:22.62] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[ 4:48:04.44] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\OCAMark.log]
+TFS - OCA Marker File - TDC 
+C:\Windows\System32\Drivers\103C_HP_bNB_245 G5 Notebook PC_Y5336AN_0U_QD235641159_ED235641159F9 DPS_4A_I81E5_SHP_V73.12_BB.11_T160310_W148-0_L409_M3547_J500_7AMD_8F01_92.00_#170328_N10EC8179;10EC8168_(1ZX23PC#ACJ)_XMOBILE_CN10_Z.MRK
+1 File(s) copied
+        1 file(s) copied.
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\OfflineDisableDefender.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:23.53] Beginning of the OfflineDisableDefender.cmd                              
+############################################################# 
+[ 5:22:23.53] Windows Partition=C: 
+[ 5:22:23.53] RS1 Detection 
+Image w/ Mcafee, disable MS Defender.  
+Load C:\windows\system32\config\Software hive file 
+The operation completed successfully.
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows Defender
+    DisableAntiSpyware    REG_DWORD    0x1
+
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows Defender
+    DisableAntiVirus    REG_DWORD    0x1
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:25.57] Result of the Windows 10 HP Image Enhancements - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\P006MAB2.LOG]
+[4:31:58 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10
+[4:31:58 AM] CVA File: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\P006MAB2.CVA
+[4:31:58 AM] Deliverable Name: Energy Star [1.10,A,2]
+[4:31:58 AM] Deliverable PN: P006MA-B2P
+[4:31:58 AM] Deliverable Size: 4,886 Kbytes
+[4:31:58 AM] Free Size: 453,494,996 Kbytes
+[4:31:58 AM] System Used Size: 22,301,480 Kbytes
+[4:31:59 AM] Run install command: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\install.cmd
+[4:32:05 AM] Return code: 0
+[4:32:05 AM] Size Extend: -720 Kbytes
+[4:32:05 AM] Metro Deliverable: No
+[4:32:05 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P009C2B2.LOG]
+[4:32:07 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1
+[4:32:07 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\P009C2B2.CVA
+[4:32:07 AM] Deliverable Name: HP Wireless Button Driver [1.1.18.1,A,1]
+[4:32:07 AM] Deliverable PN: P009C2-B2T
+[4:32:07 AM] Deliverable Size: 4,711 Kbytes
+[4:32:07 AM] Free Size: 453,495,668 Kbytes
+[4:32:07 AM] System Used Size: 22,300,808 Kbytes
+[4:32:07 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\install.cmd
+[4:32:22 AM] Return code: 0
+[4:32:22 AM] Size Extend: 18,872 Kbytes
+[4:32:22 AM] Metro Deliverable: No
+[4:32:22 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00EDUB2.LOG]
+[12:37:48 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163
+[12:37:48 PM] CVA File: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\P00EDUB2.CVA
+[12:37:48 PM] Deliverable Name: Bing Search for IE11 [163,A,4]
+[12:37:48 PM] Deliverable PN: P00EDU-B2M
+[12:37:48 PM] Deliverable Size: 120 Kbytes
+[12:37:48 PM] Free Size: 58,978,100 Kbytes
+[12:37:48 PM] System Used Size: 20,064,456 Kbytes
+[12:37:48 PM] Run install command: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\install.cmd
+[12:37:50 PM] Return code: 0
+[12:37:50 PM] Size Extend: 932 Kbytes
+[12:37:50 PM] Metro Deliverable: No
+[12:37:50 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00F6BB2.LOG]
+[4:32:24 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00
+[4:32:24 AM] CVA File: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\P00F6BB2.CVA
+[4:32:24 AM] Deliverable Name: TFS - OCA Marker File - TDC [1.00,A,4]
+[4:32:24 AM] Deliverable PN: P00F6B-B2D
+[4:32:24 AM] Deliverable Size: 33 Kbytes
+[4:32:24 AM] Free Size: 453,476,788 Kbytes
+[4:32:24 AM] System Used Size: 22,319,688 Kbytes
+[4:32:24 AM] Run install command: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\install.cmd
+[4:32:28 AM] Return code: 0
+[4:32:28 AM] Size Extend: -7,716 Kbytes
+[4:32:28 AM] Metro Deliverable: No
+[4:32:28 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00GXSB2.LOG]
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00H08B2.LOG]
+[12:37:52 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163
+[12:37:52 PM] CVA File: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\P00H08B2.CVA
+[12:37:52 PM] Deliverable Name: IE Home [163,A,3]
+[12:37:52 PM] Deliverable PN: P00H08-B2U
+[12:37:52 PM] Deliverable Size: 58 Kbytes
+[12:37:52 PM] Free Size: 58,977,228 Kbytes
+[12:37:52 PM] System Used Size: 20,065,328 Kbytes
+[12:37:52 PM] Run install command: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\install.cmd
+[12:37:53 PM] Return code: 0
+[12:37:53 PM] Size Extend: 492 Kbytes
+[12:37:53 PM] Metro Deliverable: No
+[12:37:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HUYB2.LOG]
+[4:32:29 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1
+[4:32:29 AM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\P00HUYB2.CVA
+[4:32:29 AM] Deliverable Name: Discover HP Touchpoint Manager - metro [1.0.13.1,A,2]
+[4:32:29 AM] Deliverable PN: P00HUY-B2N
+[4:32:29 AM] Deliverable Size: 3,162 Kbytes
+[4:32:29 AM] Free Size: 453,484,496 Kbytes
+[4:32:29 AM] System Used Size: 22,311,980 Kbytes
+[4:32:29 AM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\install.cmd
+[4:32:39 AM] Return code: 0
+[4:32:39 AM] Size Extend: 2,736 Kbytes
+[4:32:39 AM] Metro Deliverable: Yes
+[4:32:39 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HV0B2.LOG]
+[12:37:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1
+[12:37:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\P00HV0B2.CVA
+[12:37:54 PM] Deliverable Name: Discover HP Touchpoint Manager [1.0.18.1,A,3]
+[12:37:54 PM] Deliverable PN: P00HV0-B2P
+[12:37:54 PM] Deliverable Size: 3,747 Kbytes
+[12:37:54 PM] Free Size: 58,976,728 Kbytes
+[12:37:54 PM] System Used Size: 20,065,828 Kbytes
+[12:37:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\install.cmd
+[12:37:59 PM] Return code: 0
+[12:37:59 PM] Size Extend: 9,628 Kbytes
+[12:37:59 PM] Metro Deliverable: No
+[12:37:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00KTXB2.LOG]
+[4:21:08 AM] Install Folder: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0
+[4:21:08 AM] CVA File: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\P00KTXB2.CVA
+[4:21:08 AM] Deliverable Name: False [2.0,A,9]
+[4:21:08 AM] Deliverable PN: P00KTX-B2Q
+[4:21:08 AM] Deliverable Size: 20 Kbytes
+[4:21:08 AM] Free Size: 455,941,512 Kbytes
+[4:21:08 AM] System Used Size: 19,854,964 Kbytes
+[4:21:08 AM] Run install command: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\install.cmd
+[4:21:09 AM] Return code: 0
+[4:21:09 AM] Size Extend: -8 Kbytes
+[4:21:09 AM] Metro Deliverable: No
+[4:21:09 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00L6EB2.LOG]
+[4:32:40 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0
+[4:32:40 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\P00L6EB2.CVA
+[4:32:40 AM] Deliverable Name: HP PC Hardware Diagnostics UEFI [6.2.0.0,A,1.0]
+[4:32:40 AM] Deliverable PN: P00L6E-B2Q
+[4:32:41 AM] Deliverable Size: 75,675 Kbytes
+[4:32:41 AM] Free Size: 453,481,740 Kbytes
+[4:32:41 AM] System Used Size: 22,314,736 Kbytes
+[4:32:41 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\install.cmd
+[4:32:50 AM] Return code: 0
+[4:32:50 AM] Size Extend: 82,240 Kbytes
+[4:32:50 AM] Metro Deliverable: No
+[4:32:50 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LDMB2.LOG]
+[4:21:05 AM] Install Folder: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0
+[4:21:05 AM] CVA File: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\P00LDMB2.CVA
+[4:21:05 AM] Deliverable Name: McAfee Checkbox [1.0,A,7]
+[4:21:05 AM] Deliverable PN: P00LDM-B2G
+[4:21:05 AM] Deliverable Size: 83 Kbytes
+[4:21:05 AM] Free Size: 455,941,848 Kbytes
+[4:21:05 AM] System Used Size: 19,854,628 Kbytes
+[4:21:05 AM] Run install command: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\install.cmd
+[4:21:07 AM] Return code: 0
+[4:21:07 AM] Size Extend: 328 Kbytes
+[4:21:07 AM] Metro Deliverable: No
+[4:21:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LEXB2.LOG]
+[12:38:00 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2
+[12:38:00 PM] CVA File: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\P00LEXB2.CVA
+[12:38:00 PM] Deliverable Name: Retail Demo - Video Attract Loop [1.2,A,1]
+[12:38:00 PM] Deliverable PN: P00LEX-B2D
+[12:38:00 PM] Deliverable Size: 164,623 Kbytes
+[12:38:00 PM] Free Size: 58,967,092 Kbytes
+[12:38:00 PM] System Used Size: 20,075,464 Kbytes
+[12:38:00 PM] Run install command: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\install.cmd
+[12:38:01 PM] Return code: 0
+[12:38:01 PM] Size Extend: 17,568 Kbytes
+[12:38:01 PM] Metro Deliverable: No
+[12:38:01 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LMKB2.LOG]
+[4:21:10 AM] Install Folder: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639
+[4:21:10 AM] CVA File: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\P00LMKB2.CVA
+[4:21:10 AM] Deliverable Name: HP Setup Integrated OOBE Win10 [1.2.8357.5639,A,1]
+[4:21:10 AM] Deliverable PN: P00LMK-B2S
+[4:21:10 AM] Deliverable Size: 17,202 Kbytes
+[4:21:10 AM] Free Size: 455,941,512 Kbytes
+[4:21:10 AM] System Used Size: 19,854,964 Kbytes
+[4:21:10 AM] Run install command: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\install.cmd
+[4:23:04 AM] Return code: 0
+[4:23:04 AM] Size Extend: 137,312 Kbytes
+[4:23:04 AM] Metro Deliverable: No
+[4:23:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LUTB2.LOG]
+[12:38:02 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29
+[12:38:02 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\P00LUTB2.CVA
+[12:38:02 PM] Deliverable Name: HP Sure Connect [1.0.0.29,A,1]
+[12:38:02 PM] Deliverable PN: P00LUT-B2X
+[12:38:02 PM] Deliverable Size: 4,707 Kbytes
+[12:38:02 PM] Free Size: 58,949,476 Kbytes
+[12:38:02 PM] System Used Size: 20,093,080 Kbytes
+[12:38:02 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd
+[12:38:28 PM] Return code: 0
+[12:38:28 PM] Size Extend: 4,788 Kbytes
+[12:38:28 PM] Metro Deliverable: No
+[12:38:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00MGEB2.LOG]
+[4:32:51 AM] Install Folder: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909
+[4:32:51 AM] CVA File: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\P00MGEB2.CVA
+[4:32:51 AM] Deliverable Name: CyberLink Power Media Player Software [14.0.5.6909,E,1]
+[4:32:51 AM] Deliverable PN: P00MGE-B2X
+[4:32:52 AM] Deliverable Size: 175,622 Kbytes
+[4:32:52 AM] Free Size: 453,400,444 Kbytes
+[4:32:52 AM] System Used Size: 22,396,032 Kbytes
+[4:32:52 AM] Run install command: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\install.cmd
+[4:34:42 AM] Return code: 0
+[4:34:42 AM] Size Extend: 405,952 Kbytes
+[4:34:42 AM] Metro Deliverable: No
+[4:34:42 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N20B2.LOG]
+[4:34:43 AM] Install Folder: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0
+[4:34:43 AM] CVA File: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\P00N20B2.CVA
+[4:34:43 AM] Deliverable Name: Netflix [6.11.33.0,A,3]
+[4:34:43 AM] Deliverable PN: P00N20-B2L
+[4:34:44 AM] Deliverable Size: 1,953 Kbytes
+[4:34:44 AM] Free Size: 452,994,484 Kbytes
+[4:34:44 AM] System Used Size: 22,801,992 Kbytes
+[4:34:44 AM] Run install command: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\install.cmd
+[4:35:04 AM] Return code: 0
+[4:35:04 AM] Size Extend: 11,068 Kbytes
+[4:35:04 AM] Metro Deliverable: Yes
+[4:35:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N24B2.LOG]
+[4:35:05 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163
+[4:35:05 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\P00N24B2.CVA
+[4:35:05 AM] Deliverable Name: Priceline [163,A,6]
+[4:35:05 AM] Deliverable PN: P00N24-B2J
+[4:35:05 AM] Deliverable Size: 509 Kbytes
+[4:35:05 AM] Free Size: 452,983,404 Kbytes
+[4:35:05 AM] System Used Size: 22,813,072 Kbytes
+[4:35:05 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\install.cmd
+[4:35:07 AM] Return code: 0
+[4:35:07 AM] Size Extend: 428 Kbytes
+[4:35:07 AM] Metro Deliverable: No
+[4:35:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3DB2.LOG]
+[4:27:42 AM] Install Folder: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228
+[4:27:42 AM] CVA File: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\P00N3DB2.CVA
+[4:27:42 AM] Deliverable Name: Realtek Card Reader Driver [10.0.14393.31228,A,12]
+[4:27:42 AM] Deliverable PN: P00N3D-B2M
+[4:27:42 AM] Deliverable Size: 38,935 Kbytes
+[4:27:42 AM] Free Size: 453,998,624 Kbytes
+[4:27:42 AM] System Used Size: 21,797,852 Kbytes
+[4:27:42 AM] Run install command: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\install.cmd
+[4:27:48 AM] Return code: 0
+[4:27:48 AM] Size Extend: 40,620 Kbytes
+[4:27:48 AM] Metro Deliverable: No
+[4:27:48 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3EB2.LOG]
+[4:26:01 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016
+[4:26:01 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\P00N3EB2.CVA
+[4:26:01 AM] Deliverable Name: Realtek Local Area Network (LAN) Driver-Win10 [10.10.714.2016,A,7]
+[4:26:01 AM] Deliverable PN: P00N3E-B2H
+[4:26:01 AM] Deliverable Size: 22,204 Kbytes
+[4:26:01 AM] Free Size: 454,153,508 Kbytes
+[4:26:01 AM] System Used Size: 21,642,968 Kbytes
+[4:26:01 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\install.cmd
+[4:26:56 AM] Return code: 0
+[4:26:56 AM] Size Extend: 21,464 Kbytes
+[4:26:56 AM] Metro Deliverable: No
+[4:26:56 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N4KB2.LOG]
+[4:27:49 AM] Install Folder: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1
+[4:27:49 AM] CVA File: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\P00N4KB2.CVA
+[4:27:49 AM] Deliverable Name: ELAN Touchpad Driver (Windows 10 v1607) [15.2.14.1,A,17]
+[4:27:49 AM] Deliverable PN: P00N4K-B2S
+[4:27:49 AM] Deliverable Size: 174,912 Kbytes
+[4:27:49 AM] Free Size: 453,957,996 Kbytes
+[4:27:49 AM] System Used Size: 21,838,480 Kbytes
+[4:27:49 AM] Run install command: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\install.cmd
+[4:28:04 AM] Return code: 0
+[4:28:04 AM] Size Extend: 173,128 Kbytes
+[4:28:04 AM] Metro Deliverable: No
+[4:28:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N89B2.LOG]
+[12:38:30 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454
+[12:38:30 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\P00N89B2.CVA
+[12:38:30 PM] Deliverable Name: HP ePrint [5.2.20454,A,2]
+[12:38:30 PM] Deliverable PN: P00N89-B2K
+[12:38:30 PM] Deliverable Size: 58,488 Kbytes
+[12:38:30 PM] Free Size: 58,944,676 Kbytes
+[12:38:30 PM] System Used Size: 20,097,880 Kbytes
+[12:38:30 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\install.cmd
+[12:39:53 PM] Return code: 0
+[12:39:53 PM] Size Extend: 147,212 Kbytes
+[12:39:53 PM] Metro Deliverable: No
+[12:39:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NBCB2.LOG]
+[12:39:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40
+[12:39:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\P00NBCB2.CVA
+[12:39:54 PM] Deliverable Name: HP System Event Utility [1.40,A,15]
+[12:39:54 PM] Deliverable PN: P00NBC-B2J
+[12:39:54 PM] Deliverable Size: 19,209 Kbytes
+[12:39:54 PM] Free Size: 58,797,456 Kbytes
+[12:39:54 PM] System Used Size: 20,245,100 Kbytes
+[12:39:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd
+[12:39:59 PM] Return code: 0
+[12:39:59 PM] Size Extend: 39,264 Kbytes
+[12:39:59 PM] Metro Deliverable: No
+[12:39:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NC3B2.LOG]
+[12:37:43 PM] Install Folder: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01
+[12:37:43 PM] CVA File: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\P00NC3B2.CVA
+[12:37:43 PM] Deliverable Name: HP Documentation [1.01,A,5]
+[12:37:43 PM] Deliverable PN: P00NC3-B2F
+[12:37:43 PM] Deliverable Size: 236,515 Kbytes
+[12:37:43 PM] Free Size: 59,215,296 Kbytes
+[12:37:43 PM] System Used Size: 19,827,260 Kbytes
+[12:37:43 PM] System Id Support: Yes (81EA,81EB,81EC,81EF,81F0,81F1,81F2,81F5,81F6,81F9,81FA,81DB,81DC,81DF,81E0,81E1,81E5,81E6,81ED,81EE,81F3,81F4,81F7,81F8,81DD,81DE,81E3,81E4,81E7,81E8,82F6,82F7,8305,8306)
+[12:37:43 PM] Run install command: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd
+[12:37:47 PM] Return code: 0
+[12:37:47 PM] Size Extend: 237,188 Kbytes
+[12:37:47 PM] Metro Deliverable: No
+[12:37:47 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NZ8B2.LOG]
+[4:35:08 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30
+[4:35:08 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\P00NZ8B2.CVA
+[4:35:08 AM] Deliverable Name: Windows 10 Redstone1 Recovery Manager Installer - CPS [16.30,A,3]
+[4:35:08 AM] Deliverable PN: P00NZ8-B2D
+[4:35:08 AM] Deliverable Size: 4,637 Kbytes
+[4:35:08 AM] Free Size: 452,990,640 Kbytes
+[4:35:08 AM] System Used Size: 22,805,836 Kbytes
+[4:35:08 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\install.cmd
+[4:35:11 AM] Return code: 0
+[4:35:11 AM] Size Extend: 18,012 Kbytes
+[4:35:11 AM] Metro Deliverable: No
+[4:35:11 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P5S00.LOG]
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P62B2.LOG]
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PABB2.LOG]
+[12:40:07 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191
+[12:40:07 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\P00PABB2.CVA
+[12:40:07 PM] Deliverable Name: HP Orbit [1.0.0.191,A,1]
+[12:40:07 PM] Deliverable PN: P00PAB-B2V
+[12:40:07 PM] Deliverable Size: 10,457 Kbytes
+[12:40:07 PM] Free Size: 58,758,168 Kbytes
+[12:40:07 PM] System Used Size: 20,284,388 Kbytes
+[12:40:07 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd
+[12:40:14 PM] Return code: 0
+[12:40:14 PM] Size Extend: 43,276 Kbytes
+[12:40:14 PM] Metro Deliverable: No
+[12:40:14 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PF9B2.LOG]
+[4:26:57 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016
+[4:26:57 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\P00PF9B2.cva
+[4:26:57 AM] Deliverable Name: Realtek RTL8723BE/RTL8188EE 802.11b/g/n Wireless LAN Drivers [2023.40.801.2016,A,1]
+[4:26:57 AM] Deliverable PN: P00PF9-B2E
+[4:26:57 AM] Deliverable Size: 70,736 Kbytes
+[4:26:57 AM] Free Size: 454,131,912 Kbytes
+[4:26:57 AM] System Used Size: 21,664,564 Kbytes
+[4:26:57 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\install.cmd
+[4:27:41 AM] Return code: 0
+[4:27:41 AM] Size Extend: 133,276 Kbytes
+[4:27:41 AM] Metro Deliverable: No
+[4:27:41 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PK5B2.LOG]
+[4:35:13 AM] Install Folder: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309
+[4:35:13 AM] CVA File: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\P00PK5B2.CVA
+[4:35:13 AM] Deliverable Name: Cyberlink PowerDirector [14.0.2.3309,B,1]
+[4:35:13 AM] Deliverable PN: P00PK5-B2G
+[4:35:13 AM] Deliverable Size: 547,777 Kbytes
+[4:35:13 AM] Free Size: 452,972,616 Kbytes
+[4:35:13 AM] System Used Size: 22,823,860 Kbytes
+[4:35:13 AM] Run install command: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\install.cmd
+[4:37:20 AM] Return code: 0
+[4:37:20 AM] Size Extend: 1,307,360 Kbytes
+[4:37:20 AM] Metro Deliverable: No
+[4:37:20 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PL3B2.LOG]
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PSCB2.LOG]
+[4:28:19 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0
+[4:28:19 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\P00PSCB2.CVA
+[4:28:19 AM] Deliverable Name: HP JumpStart [1.1.165.0,A,5]
+[4:28:19 AM] Deliverable PN: P00PSC-B2H
+[4:28:19 AM] Deliverable Size: 211,545 Kbytes
+[4:28:19 AM] Free Size: 453,784,572 Kbytes
+[4:28:19 AM] System Used Size: 22,011,904 Kbytes
+[4:28:19 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\install.cmd
+[4:30:01 AM] Return code: 0
+[4:30:01 AM] Size Extend: 358,336 Kbytes
+[4:30:01 AM] Metro Deliverable: Yes
+[4:30:01 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PUTB2.LOG]
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PWMB2.LOG]
+[4:23:06 AM] Install Folder: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922
+[4:23:06 AM] CVA File: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\P00PWMB2.CVA
+[4:23:06 AM] Deliverable Name: Realtek High-Definition (HD) Audio Driver [6.0.1.7922,A,29]
+[4:23:06 AM] Deliverable PN: P00PWM-B2F
+[4:23:06 AM] Deliverable Size: 897,861 Kbytes
+[4:23:06 AM] Free Size: 455,804,192 Kbytes
+[4:23:06 AM] System Used Size: 19,992,284 Kbytes
+[4:23:06 AM] Run install command: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\install.cmd
+[4:23:59 AM] Return code: 0
+[4:23:59 AM] Size Extend: 355,088 Kbytes
+[4:23:59 AM] Metro Deliverable: No
+[4:23:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PZGB2.LOG]
+[12:37:30 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16
+[12:37:30 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\P00PZGB2.CVA
+[12:37:30 PM] Deliverable Name: WW-BTB Host and ISP Stub [3.16,K,1]
+[12:37:30 PM] Deliverable PN: P00PZG-B2D
+[12:37:30 PM] Deliverable Size: 8,535 Kbytes
+[12:37:30 PM] Free Size: 59,226,148 Kbytes
+[12:37:30 PM] System Used Size: 19,816,408 Kbytes
+[12:37:30 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\install.cmd
+[12:37:35 PM] Return code: 0
+[12:37:35 PM] Size Extend: 10,812 Kbytes
+[12:37:35 PM] Metro Deliverable: No
+[12:37:35 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00Q5XB2.LOG]
+[4:24:00 AM] Install Folder: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257
+[4:24:00 AM] CVA File: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\P00Q5XB2.CVA
+[4:24:00 AM] Deliverable Name: AMD High-Definition Graphics Driver [21.19.144.257,A,28]
+[4:24:00 AM] Deliverable PN: P00Q5X-B2D
+[4:24:00 AM] Deliverable Size: 736,426 Kbytes
+[4:24:00 AM] Free Size: 455,449,096 Kbytes
+[4:24:00 AM] System Used Size: 20,347,380 Kbytes
+[4:24:00 AM] Run install command: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\install.cmd
+[4:25:59 AM] Return code: 0
+[4:25:59 AM] Size Extend: 1,295,576 Kbytes
+[4:25:59 AM] Metro Deliverable: No
+[4:25:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\Scaling_ImgEnh_Online.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:07.00] Beginning of the Scaling_ImgEnh_Online.CMD                              
+############################################################# 
+[ 4:52:07.00] ================ The Installation of Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting ================ 
+[ 4:52:07.00] Item=Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting 
+[ 4:52:07.02] Default delete c:\Recovery\OEM\Point_D\myDPI.lst 
+No C:\SYSTEM.SAV\Util\TDC\MCPP\dpi.lst, skip. 
+[ 4:52:07.02] Result of the Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting 
+RESULT=PASSED 
+[ 4:52:07.04] ============= End the Installation of Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting ================ 
+
+[C:\System.sav\Logs\BB\SetOSVar.log]
+BIOS don't support variable Win 10 RS1  
+[ 4:48:08.49] Result of the Setup OS BCU variable for Battery remaining report 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\StartPolicy_ImgEnh_Online.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:08.22] Beginning of the StartPolicy_ImgEnh_Online.CMD                              
+############################################################# 
+OSSkuFlag=5
+This is Stardand platform, set start policy to Desktop. 
+Query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" 
+
+
+Set "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" of DesktopOptimization=1 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization
+    GoToDesktopOnSignIn    REG_DWORD    0x1
+
+Load C:\Users\Default\NTUSER.DAT hive file 
+The operation completed successfully.
+Query "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+Set "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage
+    OpenAtLogon    REG_DWORD    0x0
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 4:52:08.60] Result of the Windows 10 HP Image Enhancements - CPS - Start Policy Setting 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WallpaperOk.log]
+Component: Windows 10 Wallpaper for - TDC 
+Timing: Pininst_BBV2Post 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WinPE_DRV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Win_Offline.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:22:50.29] Beginning of the Win_Offline.CMD                              
+############################################################# 
+[12:22:50.29] Start Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+No Windows offline driver found.  
+[12:22:50.31] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WriteCache.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:50:35.62] Beginning of the WriteCache.CMD                              
+############################################################# 
+Could not found 1sthddcache.flg and 2ndhddcache.flg.  
+[ 4:50:35.63] Result of the TFS - Windows 10 HP Image Enhancements - TDC - Default HDD Write Cache Policy 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\BiosReadback_BBV3.log]
+[ 5:30:53.25] System Id=81E5 
+[ 5:30:53.95] OS Architecture=64-bit 
+[ 5:30:53.95] Assume OSBit=x64, check 86 and 32 wording 
+[ 5:30:54.11] No 86 and 32 wording, it's x64 
+[ 5:30:54.22] FamilyID=[103C_5336AN] 
+[ 5:30:54.48] BIOS Vender=Insyde 
+[ 5:30:54.51] SysType=[NB] 
+[ 5:30:54.51] BIOS=[INSD] 
+[ 5:30:54.51] OSBit=[x64] 
+Initial service for soc platforms 
+[ 5:30:54.53] System Id=81E5 
+Get the path of crisis bios readback 
+[ 5:30:54.54] getCrisisRomPath start 
+[ 5:30:54.54] chkEspDriveLetter start 
+ 
+ N o d e , D i s k I n d e x , I n d e x , T y p e  
+ W I N - 3 K B I N 7 0 2 V 2 J , 0 , 0 , G P T :   S y s t e m  
+DiskNumber=[0] 
+PartitionNumber=[1] 
+[ 5:30:55.08] FindFreeDriveLetter start 
+--- "c:\Recovery\OEM\Point_D\BiosReadBack\mountEFI.txt" ------------------
+list vol 
+sel disk 0 
+sel par 1 
+ass letter=Z: 
+list vol 
+--------------------------------------- 
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: WIN-3KBIN702V2J
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4                      FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+Disk 0 is now the selected disk.
+
+Partition 1 is now the selected partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     Z                FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+Mount EFI partition with driver letter Z: successfully.  
+[ 5:30:59.76] crisisrom="Z:\EFI\HP\BIOS\Current" 
+[ 5:30:59.78] NB_BiosReadback start ...
+[ 5:30:59.79] BIOS readback (INSD) ... 
+[ 5:30:59.81] InsydeFlashx64.exe -rdf:"Z:\EFI\HP\BIOS\Current" 
+ 
+[ 5:31:18.83] errorlevel=0 
+ Volume in drive Z has no label.
+ Volume Serial Number is B2B5-E11D
+
+ Directory of Z:\EFI\HP\BIOS\Current
+
+03/28/2017  04:32 AM    <DIR>          .
+03/28/2017  04:32 AM    <DIR>          ..
+03/28/2017  05:31 AM         8,388,608 081E5.bin
+03/28/2017  05:31 AM               256 081E5.sig
+03/28/2017  05:31 AM               256 081E5.s12
+               3 File(s)      8,389,120 bytes
+               2 Dir(s)     177,819,648 bytes free
+[ 5:31:18.84] NB_BiosReadback successful ...
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ClnDhcpDomain_ImgEnh.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:12.07] Beginning of the ClnDhcpDomain_ImgEnh.cmd                              
+############################################################# 
+Argument=[] 
+Load hive... 
+The operation completed successfully.
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:12.73] Result of the Windows 10 HP Image Enhancements - CPS - DHCP Information Clean and add into exclusion list. 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ClnDhcpDomain_ImgEnh_Online.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:51:18.16] Beginning of the ClnDhcpDomain_ImgEnh_Online.cmd                              
+############################################################# 
+Argument=[GenPpkgExList] 
+[ 4:51:18.54] Result of the Windows 10 HP Image Enhancements - CPS - DHCP Information Clean and add into exclusion list. 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CPUFlag.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:59:55.40] Beginning of the CPUFlag.CMD                              
+############################################################# 
+[11:59:55.40] Start TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+CPU=AuthenticAMD  
+[11:59:55.48] Result of the TFS - Windows 10 HP Image Enhancements - TDC - TDC - CPU Flag 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_AddIntoPpkgExList.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:51:52.75] Beginning of the CUST_AddIntoPpkgExList.CMD during BBVClean phase              
+############################################################# 
+%SystemDrive%\SWSetup\CustTweak\* [*]
+%SystemDrive%\SWSetup\hpImgEnh\* [*]
+[ 4:51:52.83] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_TouchPointCfg.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:09.60] Beginning of the CUST_TouchPointCfg.CMD                              
+############################################################# 
+Clean XTU Desktop Icon
+cscript /nologo C:\SWSetup\CustTweak\DELINK.vbs /List="C:\SYSTEM.SAV\Util\TDC\MCPP\XTU_Icon.lst"
+Check C:\Users\Public\Desktop\HP Touchpoint Manager.lnk. (C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT, C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT)
+Comparing with PerfTuneIcon.B089625E_E454_492E_B2F2_7E934E4807F0.exe(-1,0,0,0,0)
+Comparing with Intel(R) Extreme Tuning Utility.lnk(-1,0,0,0,0)
+===> Keep
+ErrorLevel=0 
+Start of platform search.
+[ 4:46:10.40] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\CUST_WAV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:28:18.32] Beginning of the CUST_WAV.CMD during FUpdateEue phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  466,990,198,784 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  466,990,194,688 bytes free
+Not Win10 Nov15 OS, skip.  
+[14:28:18.37] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:16.50] Beginning of the CUST_WAV.CMD during 2ndCap phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  460,209,078,272 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  460,209,078,272 bytes free
+Not Win10 Nov15 OS, skip.  
+[ 5:22:16.55] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DELETE_LAST.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:17.74] Beginning of the DELETE_LAST.CMD                              
+############################################################# 
+[ 5:22:17.76] Start TFS - Windows 10 HP Image Enhancements - TDC - Last Clean 
+Start to remove folders which [DeleteThese] failed 
+Remove C:\SWSetup\hpImgEnh folder 
+Remove C:\SWSetup\CustTweak folder 
+[ 5:22:17.77] Result of the TFS - Windows 10 HP Image Enhancements - TDC - Last Clean 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableDefender.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:12.84] Beginning of the DisableDefender.cmd                              
+############################################################# 
+[ 4:46:12.85] Start Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+[ 4:46:12.85] RS1 Detection 
+For RS1, offline disable defender.  
+[ 4:46:12.87] Result of the Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DisableService.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:30:02.72] Beginning of the DisableService.cmd                              
+############################################################# 
+Found tiledatamodelsvc, disable it. 
+The operation completed successfully.
+Schedule task disable success. 
+[ 4:30:02.80] Result of the Image tweaks for tiledatamodelsvc disable 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\DTICON.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:14.13] Beginning of the DTICON.CMD                              
+############################################################# 
+Remove Desktop Icon
+DELINK.vbs /List="c:\SYSTEM.SAV\Util\TDC\MCPP\EnhIcon.lst"
+[ 4:46:14.33] Result of the TFS - Windows 10 HP Image Enhancements - TDC - DTICON 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\EnableService.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:47.80] Beginning of the EnableService.cmd                              
+############################################################# 
+[ 5:22:48.16] Loaded hive Sucessfully 
+[ 5:22:48.16] Found tiledatamodelsvc, Enable it. 
+The operation completed successfully.
+[ 5:22:48.16] Enable tiledatamodelsvc Service success. 
+[ 5:22:48.16] Re-query tiledatamodelsve value. 
+
+HKEY_LOCAL_MACHINE\TempHive\ControlSet001\Services\tiledatamodelsvc
+    start    REG_DWORD    0x2
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:48.31] Result of the Image tweaks for tiledatamodelsvc enable 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\ImageDiag.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:15.63] Beginning of the ImageDiag.CMD                              
+############################################################# 
+Feature Byte is "3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek" 
+[ 4:46:17.71] === ITEM=Deliverable SW Title Checking ... === 
+    Software title are correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === Deliverable SW Title Checking Completed === 
+[ 4:46:18.61] === ITEM=MSTest Folder Checking ... === 
+    C:\SWSetup\MSTest folder behavior is correct.  
+    RESULT=PASSED 
+[ 4:46:18.61] === MSTest Folder Checking Completed === 
+[ 4:46:18.61] === ITEM=Build ID of Source and Destination Option Code Checking ... IGNORED for Flex Config === 
+[ 4:46:18.63] === ITEM=Trusted Root Certificates Checking ... === 
+    No risk certificates in Trusted Root Certificates.  
+    RESULT=PASSED 
+[ 4:46:19.08] === Trusted Root Certificates Checking Completed === 
+[ 4:46:19.08] === ITEM=Trusted Root Certificates whitelist Checking ... === 
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS start =============================================================== 
+Target machine certificate file path=c:\System.sav\Logs\CertListDetail.lst
+Pure OS certification file path=     C:\SYSTEM.SAV\Util\TDC\MCPP\tdccert2.lst
+Report file path=                    c:\System.sav\Logs\Cert_OutOfExpected.lst
+PosSectionNextLine={1092}
+sha1={CDD4EEAE 6000AC7F 40C3802C 171E3014 8030C072}
+Inbox certificate
+PosSectionNextLine={1587}
+sha1={BE36A456 2FB2EE05 DBB3D323 23ADF445 084ED656}
+Inbox certificate
+PosSectionNextLine={1319}
+sha1={A4348915 9A520F0D 93D032CC AF37E7FE 20A8B419}
+Inbox certificate
+PosSectionNextLine={1172}
+sha1={92B46C76 E13054E1 04F23051 7E6E504D 43AB10B5}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={8F43288A D272F310 3B6FB142 8485EA30 14C0BCFE}
+Inbox certificate
+PosSectionNextLine={967}
+sha1={7F88CD72 23F3C813 818C9946 14A89C99 FA3B5247}
+Inbox certificate
+PosSectionNextLine={1576}
+sha1={3B1EFD3A 66EA28B1 66973947 03A72CA3 40A05BD5}
+Inbox certificate
+PosSectionNextLine={1779}
+sha1={245C97DF 7514E7CF 2DF8BE72 AE957B9E 04741E85}
+Inbox certificate
+PosSectionNextLine={1704}
+sha1={18F7C1FC C3090203 FD5BAA2F 861A7549 76C8DD25}
+Inbox certificate
+PosSectionNextLine={1772}
+sha1={E12DFB4B 41D7D9C3 2B30514B AC1D81D8 385E2D46}
+Inbox certificate
+PosSectionNextLine={1061}
+sha1={B1BC968B D4F49D62 2AA89A81 F2150152 A41D829C}
+Inbox certificate
+PosSectionNextLine={1044}
+sha1={742C3192 E607E424 EB454954 2BE1BBC5 3E6174E2}
+Inbox certificate
+PosSectionNextLine={892}
+sha1={51501FBF CE69189D 609CFAF1 40C57675 5DCC1FDF}
+Inbox certificate
+PosSectionNextLine={1047}
+sha1={4F655663 36DB6598 581D584A 596C8793 4D5F2AB4}
+Inbox certificate
+PosSectionNextLine={2196}
+sha1={4EB6D578 499B1CCF 5F581EAD 56BE3D9B 6744A5E5}
+Inbox certificate
+PosSectionNextLine={1104}
+sha1={0563B863 0D62D75A BBC8AB1E 4BDFB5A8 99B24D43}
+Inbox certificate
+PosSectionNextLine={1199}
+sha1={02FAF3E2 91435468 60785769 4DF5E45B 68851868}
+Inbox certificate
+No more certificate item
+=== C:\SYSTEM.SAV\Util\TDC\MCPP\CompCert_rev002.VBS end =============================================================== 
+    No risk certificates in Trusted Root Certificates.         
+    RESULT=PASSED 
+[ 4:46:19.41] === Trusted Root Certificates whitelist Checking Completed === 
+[ 4:46:19.41] === ITEM=Panel Size Checking ... === 
+    Check 81E5PanelSize=13 in C:\System.sav\Flags\PINCTRLTwk.pf 
+    Panel size match between PINCTRLTwk.pf and RStone.ini.  
+    RESULT=PASSED 
+[ 4:46:19.64] === Panel Size Checking Completed === 
+[ 4:46:19.66] === ITEM=Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ ... === 
+[ 4:46:19.83] === Office AFO registry Checking, copy cmd to c:\system.sav\ExitProc\Subs\ Completed === 
+[ 4:46:19.83] === ITEM=MSCU of MDA M3 Checking ... === 
+    Image bundle Windows 10 Redstone 1 Update x64 OS. 
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Name: Windows 10 RedStone 1 MS Critical Updates - Offline - CPS
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Type: TFS_MSCU16U_x64
+[4:46:19 AM]	[CsupDiag.vbs] 	CSUP date: 10-20-2016
+[4:46:19 AM]	[CsupDiag.vbs] 	Checking Version: 
+[4:46:19 AM]	[CsupDiag.vbs] 	ChkName=[Windows 10 RedStone 1 MS Critical Updates - Offline - CPS]
+[4:46:19 AM]	[CsupDiag.vbs] 	Read from csup.map=Jul16
+[4:46:19 AM]	[CsupDiag.vbs] 	sYear/sMonth/sDay=[2016/07/31]
+[4:46:19 AM]	[CsupDiag.vbs] 	Default burnin date: 07/31/2016
+[4:46:19 AM]	[CsupDiag.vbs] 	----- MSCU FLAG ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU csup.map ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	Cannot get burnin date from flg. Check from csup.map
+[4:46:20 AM]	[CsupDiag.vbs] 	ImgBurninDate=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Image burnin date: Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	No any mscu preinstalled.
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU FU ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	DateDifference-3=0 (between CSUP date and MSCU preinstall)
+[4:46:20 AM]	[CsupDiag.vbs] 	----- MSCU Checking release terminated date ------------------------------------------------
+[4:46:20 AM]	[CsupDiag.vbs] 	ReleaseTerminated=Unknown
+[4:46:20 AM]	[CsupDiag.vbs] 	Not found ReleaseTerminated date in csup.map, return 0
+    MSCU package has meet MDA M3 required.  
+    RESULT=PASSED 
+[ 4:46:20.11] === MSCU of MDA M3 Checking Completed === 
+
+[C:\System.sav\Logs\BB\ImageDiag_EarlyStage.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:20:47.76] Beginning of the ImageDiag_EarlyStage.CMD  [PASS2]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[ 4:20:47.87] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[ 4:20:47.98] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[ 4:20:48.06] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[ 4:20:48.07] === Enclosure type Checking for MDA2017 Completed === 
+[ 4:20:48.09] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[ 4:20:48.76] === Trusted Root Certificates Inital backup Completed === 
+
+[C:\System.sav\Logs\BB\MSAppsOrder.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:27:51.88] Beginning of the MSAppsOrder.CMD                              
+############################################################# 
+--- Start Reset Process --- 
+No APPs supports WinJS.  
+[14:27:53.98] Result of the TFS - Windows 10 HP Image Enhancements - TDC - MS APPs with WinJS Installation Sequence Reset 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Ngen.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:22.60] Beginning of the Ngen.CMD                              
+############################################################# 
+[ 4:46:22.62] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[ 4:48:04.44] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\OCAMark.log]
+TFS - OCA Marker File - TDC 
+C:\Windows\System32\Drivers\103C_HP_bNB_245 G5 Notebook PC_Y5336AN_0U_QD235641159_ED235641159F9 DPS_4A_I81E5_SHP_V73.12_BB.11_T160310_W148-0_L409_M3547_J500_7AMD_8F01_92.00_#170328_N10EC8179;10EC8168_(1ZX23PC#ACJ)_XMOBILE_CN10_Z.MRK
+1 File(s) copied
+        1 file(s) copied.
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\OfflineDisableDefender.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:23.53] Beginning of the OfflineDisableDefender.cmd                              
+############################################################# 
+[ 5:22:23.53] Windows Partition=C: 
+[ 5:22:23.53] RS1 Detection 
+Image w/ Mcafee, disable MS Defender.  
+Load C:\windows\system32\config\Software hive file 
+The operation completed successfully.
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows Defender
+    DisableAntiSpyware    REG_DWORD    0x1
+
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows Defender
+    DisableAntiVirus    REG_DWORD    0x1
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:25.57] Result of the Windows 10 HP Image Enhancements - CPS 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\P006MAB2.LOG]
+[4:31:58 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10
+[4:31:58 AM] CVA File: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\P006MAB2.CVA
+[4:31:58 AM] Deliverable Name: Energy Star [1.10,A,2]
+[4:31:58 AM] Deliverable PN: P006MA-B2P
+[4:31:58 AM] Deliverable Size: 4,886 Kbytes
+[4:31:58 AM] Free Size: 453,494,996 Kbytes
+[4:31:58 AM] System Used Size: 22,301,480 Kbytes
+[4:31:59 AM] Run install command: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\install.cmd
+[4:32:05 AM] Return code: 0
+[4:32:05 AM] Size Extend: -720 Kbytes
+[4:32:05 AM] Metro Deliverable: No
+[4:32:05 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P009C2B2.LOG]
+[4:32:07 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1
+[4:32:07 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\P009C2B2.CVA
+[4:32:07 AM] Deliverable Name: HP Wireless Button Driver [1.1.18.1,A,1]
+[4:32:07 AM] Deliverable PN: P009C2-B2T
+[4:32:07 AM] Deliverable Size: 4,711 Kbytes
+[4:32:07 AM] Free Size: 453,495,668 Kbytes
+[4:32:07 AM] System Used Size: 22,300,808 Kbytes
+[4:32:07 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\install.cmd
+[4:32:22 AM] Return code: 0
+[4:32:22 AM] Size Extend: 18,872 Kbytes
+[4:32:22 AM] Metro Deliverable: No
+[4:32:22 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00EDUB2.LOG]
+[12:37:48 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163
+[12:37:48 PM] CVA File: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\P00EDUB2.CVA
+[12:37:48 PM] Deliverable Name: Bing Search for IE11 [163,A,4]
+[12:37:48 PM] Deliverable PN: P00EDU-B2M
+[12:37:48 PM] Deliverable Size: 120 Kbytes
+[12:37:48 PM] Free Size: 58,978,100 Kbytes
+[12:37:48 PM] System Used Size: 20,064,456 Kbytes
+[12:37:48 PM] Run install command: c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\install.cmd
+[12:37:50 PM] Return code: 0
+[12:37:50 PM] Size Extend: 932 Kbytes
+[12:37:50 PM] Metro Deliverable: No
+[12:37:50 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00F6BB2.LOG]
+[4:32:24 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00
+[4:32:24 AM] CVA File: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\P00F6BB2.CVA
+[4:32:24 AM] Deliverable Name: TFS - OCA Marker File - TDC [1.00,A,4]
+[4:32:24 AM] Deliverable PN: P00F6B-B2D
+[4:32:24 AM] Deliverable Size: 33 Kbytes
+[4:32:24 AM] Free Size: 453,476,788 Kbytes
+[4:32:24 AM] System Used Size: 22,319,688 Kbytes
+[4:32:24 AM] Run install command: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\install.cmd
+[4:32:28 AM] Return code: 0
+[4:32:28 AM] Size Extend: -7,716 Kbytes
+[4:32:28 AM] Metro Deliverable: No
+[4:32:28 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00GXSB2.LOG]
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00H08B2.LOG]
+[12:37:52 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163
+[12:37:52 PM] CVA File: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\P00H08B2.CVA
+[12:37:52 PM] Deliverable Name: IE Home [163,A,3]
+[12:37:52 PM] Deliverable PN: P00H08-B2U
+[12:37:52 PM] Deliverable Size: 58 Kbytes
+[12:37:52 PM] Free Size: 58,977,228 Kbytes
+[12:37:52 PM] System Used Size: 20,065,328 Kbytes
+[12:37:52 PM] Run install command: c:\SWSETUP\APP\Applications\HP\IEHome_HH08B2\163\install.cmd
+[12:37:53 PM] Return code: 0
+[12:37:53 PM] Size Extend: 492 Kbytes
+[12:37:53 PM] Metro Deliverable: No
+[12:37:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HUYB2.LOG]
+[4:32:29 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1
+[4:32:29 AM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\P00HUYB2.CVA
+[4:32:29 AM] Deliverable Name: Discover HP Touchpoint Manager - metro [1.0.13.1,A,2]
+[4:32:29 AM] Deliverable PN: P00HUY-B2N
+[4:32:29 AM] Deliverable Size: 3,162 Kbytes
+[4:32:29 AM] Free Size: 453,484,496 Kbytes
+[4:32:29 AM] System Used Size: 22,311,980 Kbytes
+[4:32:29 AM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\install.cmd
+[4:32:39 AM] Return code: 0
+[4:32:39 AM] Size Extend: 2,736 Kbytes
+[4:32:39 AM] Metro Deliverable: Yes
+[4:32:39 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00HV0B2.LOG]
+[12:37:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1
+[12:37:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\P00HV0B2.CVA
+[12:37:54 PM] Deliverable Name: Discover HP Touchpoint Manager [1.0.18.1,A,3]
+[12:37:54 PM] Deliverable PN: P00HV0-B2P
+[12:37:54 PM] Deliverable Size: 3,747 Kbytes
+[12:37:54 PM] Free Size: 58,976,728 Kbytes
+[12:37:54 PM] System Used Size: 20,065,828 Kbytes
+[12:37:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHV0B2\1.0.18.1\install.cmd
+[12:37:59 PM] Return code: 0
+[12:37:59 PM] Size Extend: 9,628 Kbytes
+[12:37:59 PM] Metro Deliverable: No
+[12:37:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00KTXB2.LOG]
+[4:21:08 AM] Install Folder: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0
+[4:21:08 AM] CVA File: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\P00KTXB2.CVA
+[4:21:08 AM] Deliverable Name: False [2.0,A,9]
+[4:21:08 AM] Deliverable PN: P00KTX-B2Q
+[4:21:08 AM] Deliverable Size: 20 Kbytes
+[4:21:08 AM] Free Size: 455,941,512 Kbytes
+[4:21:08 AM] System Used Size: 19,854,964 Kbytes
+[4:21:08 AM] Run install command: c:\SWSETUP\APP\PreReq2\McAfee\McAfeeLiv_KKTXB2\2.0\install.cmd
+[4:21:09 AM] Return code: 0
+[4:21:09 AM] Size Extend: -8 Kbytes
+[4:21:09 AM] Metro Deliverable: No
+[4:21:09 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00L6EB2.LOG]
+[4:32:40 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0
+[4:32:40 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\P00L6EB2.CVA
+[4:32:40 AM] Deliverable Name: HP PC Hardware Diagnostics UEFI [6.2.0.0,A,1.0]
+[4:32:40 AM] Deliverable PN: P00L6E-B2Q
+[4:32:41 AM] Deliverable Size: 75,675 Kbytes
+[4:32:41 AM] Free Size: 453,481,740 Kbytes
+[4:32:41 AM] System Used Size: 22,314,736 Kbytes
+[4:32:41 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\install.cmd
+[4:32:50 AM] Return code: 0
+[4:32:50 AM] Size Extend: 82,240 Kbytes
+[4:32:50 AM] Metro Deliverable: No
+[4:32:50 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LDMB2.LOG]
+[4:21:05 AM] Install Folder: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0
+[4:21:05 AM] CVA File: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\P00LDMB2.CVA
+[4:21:05 AM] Deliverable Name: McAfee Checkbox [1.0,A,7]
+[4:21:05 AM] Deliverable PN: P00LDM-B2G
+[4:21:05 AM] Deliverable Size: 83 Kbytes
+[4:21:05 AM] Free Size: 455,941,848 Kbytes
+[4:21:05 AM] System Used Size: 19,854,628 Kbytes
+[4:21:05 AM] Run install command: c:\SWSETUP\APP\PreReq1\McAfee\McAfeeChe_LLDMB2\1.0\install.cmd
+[4:21:07 AM] Return code: 0
+[4:21:07 AM] Size Extend: 328 Kbytes
+[4:21:07 AM] Metro Deliverable: No
+[4:21:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LEXB2.LOG]
+[12:38:00 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2
+[12:38:00 PM] CVA File: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\P00LEXB2.CVA
+[12:38:00 PM] Deliverable Name: Retail Demo - Video Attract Loop [1.2,A,1]
+[12:38:00 PM] Deliverable PN: P00LEX-B2D
+[12:38:00 PM] Deliverable Size: 164,623 Kbytes
+[12:38:00 PM] Free Size: 58,967,092 Kbytes
+[12:38:00 PM] System Used Size: 20,075,464 Kbytes
+[12:38:00 PM] Run install command: c:\SWSETUP\APP\Applications\HP\RetailDem_LLEXB2\1.2\install.cmd
+[12:38:01 PM] Return code: 0
+[12:38:01 PM] Size Extend: 17,568 Kbytes
+[12:38:01 PM] Metro Deliverable: No
+[12:38:01 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LMKB2.LOG]
+[4:21:10 AM] Install Folder: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639
+[4:21:10 AM] CVA File: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\P00LMKB2.CVA
+[4:21:10 AM] Deliverable Name: HP Setup Integrated OOBE Win10 [1.2.8357.5639,A,1]
+[4:21:10 AM] Deliverable PN: P00LMK-B2S
+[4:21:10 AM] Deliverable Size: 17,202 Kbytes
+[4:21:10 AM] Free Size: 455,941,512 Kbytes
+[4:21:10 AM] System Used Size: 19,854,964 Kbytes
+[4:21:10 AM] Run install command: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\install.cmd
+[4:23:04 AM] Return code: 0
+[4:23:04 AM] Size Extend: 137,312 Kbytes
+[4:23:04 AM] Metro Deliverable: No
+[4:23:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00LUTB2.LOG]
+[12:38:02 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29
+[12:38:02 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\P00LUTB2.CVA
+[12:38:02 PM] Deliverable Name: HP Sure Connect [1.0.0.29,A,1]
+[12:38:02 PM] Deliverable PN: P00LUT-B2X
+[12:38:02 PM] Deliverable Size: 4,707 Kbytes
+[12:38:02 PM] Free Size: 58,949,476 Kbytes
+[12:38:02 PM] System Used Size: 20,093,080 Kbytes
+[12:38:02 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd
+[12:38:28 PM] Return code: 0
+[12:38:28 PM] Size Extend: 4,788 Kbytes
+[12:38:28 PM] Metro Deliverable: No
+[12:38:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00MGEB2.LOG]
+[4:32:51 AM] Install Folder: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909
+[4:32:51 AM] CVA File: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\P00MGEB2.CVA
+[4:32:51 AM] Deliverable Name: CyberLink Power Media Player Software [14.0.5.6909,E,1]
+[4:32:51 AM] Deliverable PN: P00MGE-B2X
+[4:32:52 AM] Deliverable Size: 175,622 Kbytes
+[4:32:52 AM] Free Size: 453,400,444 Kbytes
+[4:32:52 AM] System Used Size: 22,396,032 Kbytes
+[4:32:52 AM] Run install command: c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\install.cmd
+[4:34:42 AM] Return code: 0
+[4:34:42 AM] Size Extend: 405,952 Kbytes
+[4:34:42 AM] Metro Deliverable: No
+[4:34:42 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N20B2.LOG]
+[4:34:43 AM] Install Folder: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0
+[4:34:43 AM] CVA File: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\P00N20B2.CVA
+[4:34:43 AM] Deliverable Name: Netflix [6.11.33.0,A,3]
+[4:34:43 AM] Deliverable PN: P00N20-B2L
+[4:34:44 AM] Deliverable Size: 1,953 Kbytes
+[4:34:44 AM] Free Size: 452,994,484 Kbytes
+[4:34:44 AM] System Used Size: 22,801,992 Kbytes
+[4:34:44 AM] Run install command: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\install.cmd
+[4:35:04 AM] Return code: 0
+[4:35:04 AM] Size Extend: 11,068 Kbytes
+[4:35:04 AM] Metro Deliverable: Yes
+[4:35:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N24B2.LOG]
+[4:35:05 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163
+[4:35:05 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\P00N24B2.CVA
+[4:35:05 AM] Deliverable Name: Priceline [163,A,6]
+[4:35:05 AM] Deliverable PN: P00N24-B2J
+[4:35:05 AM] Deliverable Size: 509 Kbytes
+[4:35:05 AM] Free Size: 452,983,404 Kbytes
+[4:35:05 AM] System Used Size: 22,813,072 Kbytes
+[4:35:05 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\install.cmd
+[4:35:07 AM] Return code: 0
+[4:35:07 AM] Size Extend: 428 Kbytes
+[4:35:07 AM] Metro Deliverable: No
+[4:35:07 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3DB2.LOG]
+[4:27:42 AM] Install Folder: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228
+[4:27:42 AM] CVA File: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\P00N3DB2.CVA
+[4:27:42 AM] Deliverable Name: Realtek Card Reader Driver [10.0.14393.31228,A,12]
+[4:27:42 AM] Deliverable PN: P00N3D-B2M
+[4:27:42 AM] Deliverable Size: 38,935 Kbytes
+[4:27:42 AM] Free Size: 453,998,624 Kbytes
+[4:27:42 AM] System Used Size: 21,797,852 Kbytes
+[4:27:42 AM] Run install command: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\install.cmd
+[4:27:48 AM] Return code: 0
+[4:27:48 AM] Size Extend: 40,620 Kbytes
+[4:27:48 AM] Metro Deliverable: No
+[4:27:48 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N3EB2.LOG]
+[4:26:01 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016
+[4:26:01 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\P00N3EB2.CVA
+[4:26:01 AM] Deliverable Name: Realtek Local Area Network (LAN) Driver-Win10 [10.10.714.2016,A,7]
+[4:26:01 AM] Deliverable PN: P00N3E-B2H
+[4:26:01 AM] Deliverable Size: 22,204 Kbytes
+[4:26:01 AM] Free Size: 454,153,508 Kbytes
+[4:26:01 AM] System Used Size: 21,642,968 Kbytes
+[4:26:01 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\install.cmd
+[4:26:56 AM] Return code: 0
+[4:26:56 AM] Size Extend: 21,464 Kbytes
+[4:26:56 AM] Metro Deliverable: No
+[4:26:56 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N4KB2.LOG]
+[4:27:49 AM] Install Folder: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1
+[4:27:49 AM] CVA File: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\P00N4KB2.CVA
+[4:27:49 AM] Deliverable Name: ELAN Touchpad Driver (Windows 10 v1607) [15.2.14.1,A,17]
+[4:27:49 AM] Deliverable PN: P00N4K-B2S
+[4:27:49 AM] Deliverable Size: 174,912 Kbytes
+[4:27:49 AM] Free Size: 453,957,996 Kbytes
+[4:27:49 AM] System Used Size: 21,838,480 Kbytes
+[4:27:49 AM] Run install command: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\install.cmd
+[4:28:04 AM] Return code: 0
+[4:28:04 AM] Size Extend: 173,128 Kbytes
+[4:28:04 AM] Metro Deliverable: No
+[4:28:04 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00N89B2.LOG]
+[12:38:30 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454
+[12:38:30 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\P00N89B2.CVA
+[12:38:30 PM] Deliverable Name: HP ePrint [5.2.20454,A,2]
+[12:38:30 PM] Deliverable PN: P00N89-B2K
+[12:38:30 PM] Deliverable Size: 58,488 Kbytes
+[12:38:30 PM] Free Size: 58,944,676 Kbytes
+[12:38:30 PM] System Used Size: 20,097,880 Kbytes
+[12:38:30 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPePrint_NN89B2\5.2.20454\install.cmd
+[12:39:53 PM] Return code: 0
+[12:39:53 PM] Size Extend: 147,212 Kbytes
+[12:39:53 PM] Metro Deliverable: No
+[12:39:53 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NBCB2.LOG]
+[12:39:54 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40
+[12:39:54 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\P00NBCB2.CVA
+[12:39:54 PM] Deliverable Name: HP System Event Utility [1.40,A,15]
+[12:39:54 PM] Deliverable PN: P00NBC-B2J
+[12:39:54 PM] Deliverable Size: 19,209 Kbytes
+[12:39:54 PM] Free Size: 58,797,456 Kbytes
+[12:39:54 PM] System Used Size: 20,245,100 Kbytes
+[12:39:54 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd
+[12:39:59 PM] Return code: 0
+[12:39:59 PM] Size Extend: 39,264 Kbytes
+[12:39:59 PM] Metro Deliverable: No
+[12:39:59 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NC3B2.LOG]
+[12:37:43 PM] Install Folder: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01
+[12:37:43 PM] CVA File: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\P00NC3B2.CVA
+[12:37:43 PM] Deliverable Name: HP Documentation [1.01,A,5]
+[12:37:43 PM] Deliverable PN: P00NC3-B2F
+[12:37:43 PM] Deliverable Size: 236,515 Kbytes
+[12:37:43 PM] Free Size: 59,215,296 Kbytes
+[12:37:43 PM] System Used Size: 19,827,260 Kbytes
+[12:37:43 PM] System Id Support: Yes (81EA,81EB,81EC,81EF,81F0,81F1,81F2,81F5,81F6,81F9,81FA,81DB,81DC,81DF,81E0,81E1,81E5,81E6,81ED,81EE,81F3,81F4,81F7,81F8,81DD,81DE,81E3,81E4,81E7,81E8,82F6,82F7,8305,8306)
+[12:37:43 PM] Run install command: c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd
+[12:37:47 PM] Return code: 0
+[12:37:47 PM] Size Extend: 237,188 Kbytes
+[12:37:47 PM] Metro Deliverable: No
+[12:37:47 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00NZ8B2.LOG]
+[4:35:08 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30
+[4:35:08 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\P00NZ8B2.CVA
+[4:35:08 AM] Deliverable Name: Windows 10 Redstone1 Recovery Manager Installer - CPS [16.30,A,3]
+[4:35:08 AM] Deliverable PN: P00NZ8-B2D
+[4:35:08 AM] Deliverable Size: 4,637 Kbytes
+[4:35:08 AM] Free Size: 452,990,640 Kbytes
+[4:35:08 AM] System Used Size: 22,805,836 Kbytes
+[4:35:08 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\install.cmd
+[4:35:11 AM] Return code: 0
+[4:35:11 AM] Size Extend: 18,012 Kbytes
+[4:35:11 AM] Metro Deliverable: No
+[4:35:11 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P5S00.LOG]
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00P62B2.LOG]
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PABB2.LOG]
+[12:40:07 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191
+[12:40:07 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\P00PABB2.CVA
+[12:40:07 PM] Deliverable Name: HP Orbit [1.0.0.191,A,1]
+[12:40:07 PM] Deliverable PN: P00PAB-B2V
+[12:40:07 PM] Deliverable Size: 10,457 Kbytes
+[12:40:07 PM] Free Size: 58,758,168 Kbytes
+[12:40:07 PM] System Used Size: 20,284,388 Kbytes
+[12:40:07 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd
+[12:40:14 PM] Return code: 0
+[12:40:14 PM] Size Extend: 43,276 Kbytes
+[12:40:14 PM] Metro Deliverable: No
+[12:40:14 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PF9B2.LOG]
+[4:26:57 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016
+[4:26:57 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\P00PF9B2.cva
+[4:26:57 AM] Deliverable Name: Realtek RTL8723BE/RTL8188EE 802.11b/g/n Wireless LAN Drivers [2023.40.801.2016,A,1]
+[4:26:57 AM] Deliverable PN: P00PF9-B2E
+[4:26:57 AM] Deliverable Size: 70,736 Kbytes
+[4:26:57 AM] Free Size: 454,131,912 Kbytes
+[4:26:57 AM] System Used Size: 21,664,564 Kbytes
+[4:26:57 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\install.cmd
+[4:27:41 AM] Return code: 0
+[4:27:41 AM] Size Extend: 133,276 Kbytes
+[4:27:41 AM] Metro Deliverable: No
+[4:27:41 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PK5B2.LOG]
+[4:35:13 AM] Install Folder: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309
+[4:35:13 AM] CVA File: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\P00PK5B2.CVA
+[4:35:13 AM] Deliverable Name: Cyberlink PowerDirector [14.0.2.3309,B,1]
+[4:35:13 AM] Deliverable PN: P00PK5-B2G
+[4:35:13 AM] Deliverable Size: 547,777 Kbytes
+[4:35:13 AM] Free Size: 452,972,616 Kbytes
+[4:35:13 AM] System Used Size: 22,823,860 Kbytes
+[4:35:13 AM] Run install command: c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\install.cmd
+[4:37:20 AM] Return code: 0
+[4:37:20 AM] Size Extend: 1,307,360 Kbytes
+[4:37:20 AM] Metro Deliverable: No
+[4:37:20 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PL3B2.LOG]
+[12:40:15 PM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0
+[12:40:15 PM] CVA File: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\P00PL3B2.CVA
+[12:40:15 PM] Deliverable Name: HP Audio Switch [1.0.138.0,A,1]
+[12:40:15 PM] Deliverable PN: P00PL3-B2K
+[12:40:15 PM] Deliverable Size: 2,651 Kbytes
+[12:40:15 PM] Free Size: 58,714,812 Kbytes
+[12:40:15 PM] System Used Size: 20,327,744 Kbytes
+[12:40:15 PM] Run install command: c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd
+[12:40:18 PM] Return code: 0
+[12:40:18 PM] Size Extend: 13,476 Kbytes
+[12:40:18 PM] Metro Deliverable: No
+[12:40:18 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PSCB2.LOG]
+[4:28:19 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0
+[4:28:19 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\P00PSCB2.CVA
+[4:28:19 AM] Deliverable Name: HP JumpStart [1.1.165.0,A,5]
+[4:28:19 AM] Deliverable PN: P00PSC-B2H
+[4:28:19 AM] Deliverable Size: 211,545 Kbytes
+[4:28:19 AM] Free Size: 453,784,572 Kbytes
+[4:28:19 AM] System Used Size: 22,011,904 Kbytes
+[4:28:19 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\install.cmd
+[4:30:01 AM] Return code: 0
+[4:30:01 AM] Size Extend: 358,336 Kbytes
+[4:30:01 AM] Metro Deliverable: Yes
+[4:30:01 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PUTB2.LOG]
+[12:40:19 PM] Install Folder: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0
+[12:40:19 PM] CVA File: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\P00PUTB2.CVA
+[12:40:19 PM] Deliverable Name: DropBox [3.1.12.0,A,4]
+[12:40:19 PM] Deliverable PN: P00PUT-B2C
+[12:40:19 PM] Deliverable Size: 11,425 Kbytes
+[12:40:19 PM] Free Size: 58,701,328 Kbytes
+[12:40:19 PM] System Used Size: 20,341,228 Kbytes
+[12:40:19 PM] Run install command: c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\install.cmd
+[12:40:28 PM] Return code: 0
+[12:40:28 PM] Size Extend: 13,040 Kbytes
+[12:40:28 PM] Metro Deliverable: No
+[12:40:28 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PWMB2.LOG]
+[4:23:06 AM] Install Folder: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922
+[4:23:06 AM] CVA File: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\P00PWMB2.CVA
+[4:23:06 AM] Deliverable Name: Realtek High-Definition (HD) Audio Driver [6.0.1.7922,A,29]
+[4:23:06 AM] Deliverable PN: P00PWM-B2F
+[4:23:06 AM] Deliverable Size: 897,861 Kbytes
+[4:23:06 AM] Free Size: 455,804,192 Kbytes
+[4:23:06 AM] System Used Size: 19,992,284 Kbytes
+[4:23:06 AM] Run install command: c:\SWSETUP\DRV\Audio\REALTEK\FP1.xReal_PPWMB2\6.0.1.7922\install.cmd
+[4:23:59 AM] Return code: 0
+[4:23:59 AM] Size Extend: 355,088 Kbytes
+[4:23:59 AM] Metro Deliverable: No
+[4:23:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00PZGB2.LOG]
+[12:37:30 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16
+[12:37:30 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\P00PZGB2.CVA
+[12:37:30 PM] Deliverable Name: WW-BTB Host and ISP Stub [3.16,K,1]
+[12:37:30 PM] Deliverable PN: P00PZG-B2D
+[12:37:30 PM] Deliverable Size: 8,535 Kbytes
+[12:37:30 PM] Free Size: 59,226,148 Kbytes
+[12:37:30 PM] System Used Size: 19,816,408 Kbytes
+[12:37:30 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\install.cmd
+[12:37:35 PM] Return code: 0
+[12:37:35 PM] Size Extend: 10,812 Kbytes
+[12:37:35 PM] Metro Deliverable: No
+[12:37:35 PM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\P00Q5XB2.LOG]
+[4:24:00 AM] Install Folder: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257
+[4:24:00 AM] CVA File: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\P00Q5XB2.CVA
+[4:24:00 AM] Deliverable Name: AMD High-Definition Graphics Driver [21.19.144.257,A,28]
+[4:24:00 AM] Deliverable PN: P00Q5X-B2D
+[4:24:00 AM] Deliverable Size: 736,426 Kbytes
+[4:24:00 AM] Free Size: 455,449,096 Kbytes
+[4:24:00 AM] System Used Size: 20,347,380 Kbytes
+[4:24:00 AM] Run install command: c:\SWSETUP\DRV\Graphics\AMD\FP1.xAMDH_QQ5XB2\21.19.144.257\install.cmd
+[4:25:59 AM] Return code: 0
+[4:25:59 AM] Size Extend: 1,295,576 Kbytes
+[4:25:59 AM] Metro Deliverable: No
+[4:25:59 AM] RESULT=PASSED
+
+[C:\System.sav\Logs\BB\Scaling_ImgEnh_Online.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:07.00] Beginning of the Scaling_ImgEnh_Online.CMD                              
+############################################################# 
+[ 4:52:07.00] ================ The Installation of Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting ================ 
+[ 4:52:07.00] Item=Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting 
+[ 4:52:07.02] Default delete c:\Recovery\OEM\Point_D\myDPI.lst 
+No C:\SYSTEM.SAV\Util\TDC\MCPP\dpi.lst, skip. 
+[ 4:52:07.02] Result of the Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting 
+RESULT=PASSED 
+[ 4:52:07.04] ============= End the Installation of Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting ================ 
+
+[C:\System.sav\Logs\BB\SetOSVar.log]
+BIOS don't support variable Win 10 RS1  
+[ 4:48:08.49] Result of the Setup OS BCU variable for Battery remaining report 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\StartPolicy_ImgEnh.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:44.54] Beginning of the StartPolicy_ImgEnh.CMD                              
+############################################################# 
+OSSkuFlag=5
+This is Stardand platform, set start policy to Desktop. 
+Load C:\Windows\System32\config\SOFTWARE hive file 
+The operation completed successfully.
+Query "HKLM\TempHive\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" 
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization
+    GoToDesktopOnSignIn    REG_DWORD    0x1
+
+Set "HKLM\TempHive\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" of DesktopOptimization=1 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization
+    GoToDesktopOnSignIn    REG_DWORD    0x1
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+Load C:\Users\Default\NTUSER.DAT hive file 
+The operation completed successfully.
+Query "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+
+HKEY_LOCAL_MACHINE\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage
+    OpenAtLogon    REG_DWORD    0x0
+
+Set "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage
+    OpenAtLogon    REG_DWORD    0x0
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:46.61] Result of the Windows 10 HP Image Enhancements - CPS - Start Policy Setting 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\StartPolicy_ImgEnh_Online.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:08.22] Beginning of the StartPolicy_ImgEnh_Online.CMD                              
+############################################################# 
+OSSkuFlag=5
+This is Stardand platform, set start policy to Desktop. 
+Query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" 
+
+
+Set "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" of DesktopOptimization=1 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization
+    GoToDesktopOnSignIn    REG_DWORD    0x1
+
+Load C:\Users\Default\NTUSER.DAT hive file 
+The operation completed successfully.
+Query "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+Set "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage
+    OpenAtLogon    REG_DWORD    0x0
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 4:52:08.60] Result of the Windows 10 HP Image Enhancements - CPS - Start Policy Setting 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WallpaperOk.log]
+Component: Windows 10 Wallpaper for - TDC 
+Timing: Pininst_BBV2Post 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WinPE_DRV.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\Win_Offline.LOG]
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:22:50.29] Beginning of the Win_Offline.CMD                              
+############################################################# 
+[12:22:50.29] Start Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+No Windows offline driver found.  
+[12:22:50.31] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for Windows 10 Offline 
+RESULT=PASSED 
+
+[C:\System.sav\Logs\BB\WriteCache.LOG]
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:50:35.62] Beginning of the WriteCache.CMD                              
+############################################################# 
+Could not found 1sthddcache.flg and 2ndhddcache.flg.  
+[ 4:50:35.63] Result of the TFS - Windows 10 HP Image Enhancements - TDC - Default HDD Write Cache Policy 
+RESULT=PASSED 
+

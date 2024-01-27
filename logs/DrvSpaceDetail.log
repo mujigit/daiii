@@ -1,0 +1,1721 @@
+
+============================================================
+[[[3/27/2017 11:58:18 AM]]]
+------------------------------------------------------------
+[PE] Boot into... [[PASS1_FIXUP]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 51657211904 (= 49,264 MB)
+  Size: 64424505344 (= 61,440 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 566079488 (= 540 MB)
+  Size: 1069547520 (= 1,020 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 528384000 (= 504 MB)
+  Size: 530932736 (= 506 MB)
+
+----------------------------------------
+[C:\]
+  A      cln.flg (0 B = 0 MB)
+   D     [Appl.zip]
+   D     [hp]
+   D     [Recovery]
+   D     [RM]
+   D     [Sources]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D     [SYSTEM.SAV]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+  A      OSIndex.tmp (300 B = 0 MB)
+  A      IRSTweak.log (870 B = 0 MB)
+  A      WIMInfo.txt] (0 B = 0 MB)
+  A      CPUVEN.txt (66 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 49264 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:01:16 PM]]]
+------------------------------------------------------------
+[PE] Rebooting... [[PASS1_FIXUP]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 67866157056 (= 64,722 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152940544 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 527523840 (= 503 MB)
+  Size: 530072576 (= 506 MB)
+
+----------------------------------------
+[C:\]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [Recovery]
+   D     [RM]
+   D     [Sources]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D  H  [SYSTEM.SAV]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+  A      OSIndex.tmp (300 B = 0 MB)
+  A      IRSTweak.log (870 B = 0 MB)
+  A      WIMInfo.txt] (0 B = 0 MB)
+  A      CPUVEN.txt (66 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 64722 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:02:38 PM]]]
+------------------------------------------------------------
+[PE] Boot into... [[PASS1_INIT]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 66792509440 (= 63,698 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152940544 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 532021248 (= 507 MB)
+  Size: 534569984 (= 510 MB)
+
+----------------------------------------
+[C:\]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [Recovery]
+   D     [RM]
+   D     [Sources]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D  H  [SYSTEM.SAV]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 63698 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:06:07 PM]]]
+------------------------------------------------------------
+[PE] Information. [[PASS1_AFTER_BASEOS_IMAGE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 58427830272 (= 55,721 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152940544 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 527245312 (= 503 MB)
+  Size: 529794048 (= 505 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [Sources]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 55721 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:22:51 PM]]]
+------------------------------------------------------------
+[PE] Rebooting... [[PASS1_PREOS_EUE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 61891231744 (= 59,024 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152940544 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [S:][Local Disk (S:)][FAT32]
+  Free: 242196480 (= 231 MB)
+  Size: 268435456 (= 256 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 521658368 (= 497 MB)
+  Size: 524207104 (= 500 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+[S:\]
+   D     [EFI]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 59024 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:28:21 PM]]]
+------------------------------------------------------------
+[WIN] Boot into... [[PASS1_OSUPDATE_PI]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 58619555840 (= 55,904 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152932352 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487306752 B = 1,418 MB)
+  A  SH  pagefile.sys (1409286144 B = 1,344 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 55904 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:33:54 PM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS1_OSUPDATE_EUE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 60789182464 (= 57,973 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+   D  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 57973 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:37:39 PM]]]
+------------------------------------------------------------
+[WIN] Boot into... [[PASS1_INSTALL]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 60636475392 (= 57,827 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 57827 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:53:53 PM]]]
+------------------------------------------------------------
+[WIN] Information. [[PASS1_INSTALL_EUE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 59674558464 (= 56,910 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 56910 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 12:53:55 PM]]]
+------------------------------------------------------------
+[WIN] Information. [[PASS1_INSTALL2_EUE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 59674025984 (= 56,910 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 56910 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 1:47:29 PM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS1_PRECLEAN_EUE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 60772372480 (= 57,957 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 57957 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 1:59:14 PM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS1_CLEANUP_EUE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 60552265728 (= 57,747 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 57747 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 2:01:31 PM]]]
+------------------------------------------------------------
+[PE] Boot into... [[PASS1_TO_1ST_GS]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 62489755648 (= 59,595 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 535166976 (= 510 MB)
+  Size: 537715712 (= 513 MB)
+
+----------------------------------------
+[C:\]
+  A  SHR bootmgr (384322 B = 0 MB)
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [Appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 59595 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 2:12:15 PM]]]
+------------------------------------------------------------
+[PE] Rebooting... [[PASS1_AT_FBI_SUICIDE]]
+------------------------------------------------------------
+ [C:][Local Disk (C:)][NTFS]
+  Free: 53608730624 (= 51,125 MB)
+  Size: 80939577344 (= 77,190 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152920064 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 531202048 (= 507 MB)
+  Size: 533750784 (= 509 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SW]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 51125 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/27/2017 2:28:42 PM]]]
+------------------------------------------------------------
+[PE] Rebooting... [[PASS2_FUPDATE_EUE]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 466990125056 (= 445,356 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [Q:][BUILDPART (Q:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [R:][RECOVERY (R:)][NTFS]
+  Free: 1361551360 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+ [S:][Local Disk (S:)][FAT32]
+  Free: 241934336 (= 231 MB)
+  Size: 268435456 (= 256 MB)
+
+ [W:][Windows RE tools (W:)][NTFS]
+  Free: 676216832 (= 645 MB)
+  Size: 1027600384 (= 980 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 526221312 (= 502 MB)
+  Size: 528770048 (= 504 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[Q:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[R:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+[S:\]
+   D     [EFI]
+[W:\]
+  A      HPRERMTH.flg (67 B = 0 MB)
+   D     [Recovery]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+  A      SetPEDrv.cmd (379 B = 0 MB)
+  A      IRSTweak.log (533 B = 0 MB)
+  A      SystemID.txt (97 B = 0 MB)
+  A      FFSInfo.txt (0 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 445356 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 4:20:00 AM]]]
+------------------------------------------------------------
+[WIN] Boot into... [[PASS2_BBV1]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 464316071936 (= 442,806 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487302656 B = 1,418 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 442806 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 4:30:04 AM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS2_BBV1]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 464308092928 (= 442,799 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 442799 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 4:37:34 AM]]]
+------------------------------------------------------------
+[WIN] Boot into... [[PASS2_BBV2]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 462636105728 (= 441,204 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 441204 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 4:37:50 AM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS2_BBV2]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 462649217024 (= 441,217 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 441217 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 4:45:58 AM]]]
+------------------------------------------------------------
+[WIN] Boot into... [[PASS2_BBV2POST]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 462875566080 (= 441,433 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 441433 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 4:52:58 AM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS2_BBV_LAST]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 461619093504 (= 440,234 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+ [S:][Local Disk (S:)][FAT32]
+  Free: 186224640 (= 178 MB)
+  Size: 268435456 (= 256 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487302656 B = 1,418 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D     [appl.zip]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+[S:\]
+   D     [EFI]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 440234 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 5:20:58 AM]]]
+------------------------------------------------------------
+[PE] Boot into... [[PASS2_2ND_CAP]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 457672028160 (= 436,470 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 535183360 (= 510 MB)
+  Size: 537732096 (= 513 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487302656 B = 1,418 MB)
+  A  SH  pagefile.sys (1048576000 B = 1,000 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+   D SH  [$RECYCLE.BIN]
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 436470 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 5:23:14 AM]]]
+------------------------------------------------------------
+[PE] Rebooting... [[PASS2_2ND_CAP]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 460164739072 (= 438,847 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1361526784 (= 1,298 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+ [S:][Local Disk (S:)][FAT32]
+  Free: 186216448 (= 178 MB)
+  Size: 268435456 (= 256 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 531251200 (= 507 MB)
+  Size: 533799936 (= 509 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+   D SH  [$RECYCLE.BIN]
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+[S:\]
+   D     [EFI]
+   D SH  [System Volume Information]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 438847 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 5:33:59 AM]]]
+------------------------------------------------------------
+[WIN] Rebooting... [[PASS3]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 457274736640 (= 436,091 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1360285696 (= 1,297 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487302656 B = 1,418 MB)
+  A  SH  pagefile.sys (1409286144 B = 1,344 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI_BP]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+   D SH  [$RECYCLE.BIN]
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 436091 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 5:34:50 AM]]]
+------------------------------------------------------------
+[PE] Boot into... [[PASS3_LOGOUT]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 457275469824 (= 436,092 MB)
+  Size: 487215591424 (= 464,645 MB)
+
+ [D:][BUILDPART (D:)][FAT32]
+  Free: 152899584 (= 146 MB)
+  Size: 656408576 (= 626 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1360285696 (= 1,297 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 535187456 (= 510 MB)
+  Size: 537736192 (= 513 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487302656 B = 1,418 MB)
+  A  SH  pagefile.sys (1409286144 B = 1,344 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D SH  [Config.Msi]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [RM]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[D:\]
+  A      bootmgr (386976 B = 0 MB)
+  A      bootmgr.efi (1168736 B = 1 MB)
+   D     [Boot]
+   D     [EFI]
+   D     [Sources]
+   D     [SWSetup]
+   D     [system.sav]
+   D SH  [$RECYCLE.BIN]
+   D SH  [System Volume Information]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+   D SH  [$RECYCLE.BIN]
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+  A      HideScrn.flg (10 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 436092 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================
+
+============================================================
+[[[3/28/2017 5:36:01 AM]]]
+------------------------------------------------------------
+[PE] Rebooting... [[PASS3_LOGOUT]]
+------------------------------------------------------------
+ [C:][Windows (C:)][NTFS]
+  Free: 459421728768 (= 438,139 MB)
+  Size: 487876194304 (= 465,275 MB)
+
+ [E:][RECOVERY (E:)][NTFS]
+  Free: 1360285696 (= 1,297 MB)
+  Size: 10908332032 (= 10,403 MB)
+
+ [S:][Local Disk (S:)][FAT32]
+  Free: 177819648 (= 170 MB)
+  Size: 268435456 (= 256 MB)
+
+ [X:][Boot (X:)][NTFS]
+  Free: 530661376 (= 506 MB)
+  Size: 533210112 (= 509 MB)
+
+----------------------------------------
+[C:\]
+  A  SH  BOOTNXT (1 B = 0 MB)
+  A  SH  hiberfil.sys (1487302656 B = 1,418 MB)
+  A  SH  pagefile.sys (1409286144 B = 1,344 MB)
+  A  SH  swapfile.sys (268435456 B = 256 MB)
+   D SH  [$Recycle.Bin]
+   D  H  [hp]
+   D     [inetpub]
+   D     [PerfLogs]
+   D   R [Program Files]
+   D   R [Program Files (x86)]
+   D  H  [ProgramData]
+   D SH  [Recovery]
+   D     [SWSETUP]
+   D SH  [System Volume Information]
+  AD  H  [SYSTEM.SAV]
+   D   R [Users]
+   D     [Windows]
+[E:\]
+  A  SHR bootmgr (386976 B = 0 MB)
+  A  SHR bootmgr.efi (1168736 B = 1 MB)
+  A  SHR RP.ini (55 B = 0 MB)
+   D SH  [$RECYCLE.BIN]
+  AD SHR [Boot]
+  AD SHR [EFI]
+   D SHR [preload]
+   D S R [Recovery]
+  AD SHR [sources]
+   D SH  [System Volume Information]
+[S:\]
+   D     [EFI]
+   D SH  [System Volume Information]
+[X:\]
+     SH  $WIMDESC (1914 B = 0 MB)
+  A      HideScrn.flg (10 B = 0 MB)
+   D     [Program Files]
+   D     [Program Files (x86)]
+   D  H  [ProgramData]
+  AD     [tools]
+   D     [users]
+  AD     [windows]
+-----------------------------------------------
+ [C:] Windows Partition
+ Free Space      = 438139 (MB)
+ Threshold Value = 0 (MB)
+
+-----------------------------------------------
+
+
+============================================================

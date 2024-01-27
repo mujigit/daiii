@@ -1,0 +1,17 @@
+[12:07:31.72][RM_PASS1_PreOSEUE]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[12:07:31.72][RM_PASS1_PreOSEUE] ========================================================= 
+[12:07:31.72][RM_PASS1_PreOSEUE] PrepareRM_PASS1_PBR 
+[12:07:39.16][RM_PASS1_PreOSEUE] Process Time = 8 sec 
+[12:07:39.16][RM_PASS1_PreOSEUE] Result = 0 
+[12:07:39.16][RM_PASS1_PreOSEUE] ========================================================= 
+[12:07:39.16][RM_PASS1_PreOSEUE] PrepareRM_PASS1_HPRM 
+[12:07:40.46][RM_PASS1_PreOSEUE] Process Time = 1 sec 
+[12:07:40.46][RM_PASS1_PreOSEUE] Result = 0 
+[12:07:40.46][RM_PASS1_PreOSEUE] ========================================================= 
+[12:07:40.46][RM_PASS1_PreOSEUE] DeployWinRE_1st 
+[12:15:00.79][RM_PASS1_PreOSEUE] Process Time = 440 sec 
+[12:15:00.81][RM_PASS1_PreOSEUE] Result = 0 
+[12:15:00.81][RM_PASS1_PreOSEUE.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS1_PreOSEUE.cmd] Mon 03/27/2017 12:15:00.81                
+********** FINISH RM_PASS1_PreOSEUE.cmd **********   
+RETURN CODE - 0          

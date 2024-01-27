@@ -1,0 +1,8 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:14.13] Beginning of the DTICON.CMD                              
+############################################################# 
+Remove Desktop Icon
+DELINK.vbs /List="c:\SYSTEM.SAV\Util\TDC\MCPP\EnhIcon.lst"
+[ 4:46:14.33] Result of the TFS - Windows 10 HP Image Enhancements - TDC - DTICON 
+RESULT=PASSED 

@@ -1,0 +1,31 @@
+[14:13:38.56] ************************************************** 
+[14:13:38.56]  [C:\SYSTEM.SAV\tweaks\P2\GetOrderPO.cmd] has started... 
+[14:13:38.58] -------------------------------------------------- 
+[14:13:38.59]   
+[14:13:38.61]  Check if [c:\system.sav\Logs\MySYSTEM.ini] file exists... 
+[14:13:38.61]   
+[14:13:38.62]  Get ATFPOFile value in [c:\system.sav\Logs\MySYSTEM.ini] 
+[14:13:38.64]   
+[14:13:38.67]    Found ATFPOFile = [ELCOT245G5] 
+[14:13:38.69]   
+[14:13:38.69] -------------------------------------------------- 
+[14:13:38.70]  File list in [C:\system.sav] 
+[14:13:38.72] -------------------------------------------------- 
+[14:13:38.75]    [c:\system.sav\CNB16WW3FPT601.ini] is not SWPO.ini. 
+[14:13:38.79]    [c:\system.sav\cpqdl.ini] is not SWPO.ini. 
+[14:13:38.83]    [c:\system.sav\CTO.TXT] is not SWPO.ini. 
+[14:13:38.86]    [c:\system.sav\CTOHW.TXT] is not SWPO.ini. 
+[14:13:38.87]    [c:\system.sav\D235641159F9_DPS] is _DPS file. 
+[14:13:38.90]    [c:\system.sav\D235641159F9_DPS.hw] is not SWPO.ini. 
+[14:13:38.97]    [c:\system.sav\ELCOT245G5] might be ATF PO for GM. 
+[14:13:39.08]    [c:\system.sav\Info.bom] is not SWPO.ini. 
+[14:13:39.11]    [c:\system.sav\REBOOT.ME] is not SWPO.ini. 
+[14:13:39.17]    [c:\system.sav\REGFLUSH.LOG] is not SWPO.ini. 
+[14:13:39.20]    [c:\system.sav\Result.ini] is not SWPO.ini. 
+[14:13:39.33]    [c:\system.sav\SYSINFO.LOG] is not SWPO.ini. 
+[14:13:39.34] -------------------------------------------------- 
+[14:13:39.36]  ORDER_PO was not defined... 
+[14:13:39.36] -------------------------------------------------- 
+[14:13:39.37] -------------------------------------------------- 
+[14:13:39.39]  [GetOrderPO.cmd] has completed... 
+[14:13:39.40] ************************************************** 

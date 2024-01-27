@@ -1,0 +1,877 @@
+
+C:\windows\system32>pushd c:\hp\HPQWare\BTBHost\ 
+
+c:\hp\HPQWare\BTBHost>set logs=c:\system.sav\logs\BTBHost 
+
+c:\hp\HPQWare\BTBHost>set WizlogSpec=c:\system.sav\logs\BTBHost\wizinstaller.log 
+
+c:\hp\HPQWare\BTBHost>set asgMetroLogSpec=c:\system.sav\logs\BTBHost\asgmetro.log 
+
+c:\hp\HPQWare\BTBHost>set asgTaskbarLogSpec=c:\system.sav\logs\BTBHost\asgtaskbar.log 
+
+c:\hp\HPQWare\BTBHost>set logSpec=c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>set LayoutModificationXML=C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml 
+
+c:\hp\HPQWare\BTBHost>set TaskbarLayoutModificationXML=C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\TaskbarLayoutModification.xml 
+
+c:\hp\HPQWare\BTBHost>if exist C:\system.sav\util\SetVariables.cmd (Call c:\system.sav\util\SetVariables.cmd )  else (echo [Tue 03/28/2017  4:45:30.38] SetVariables.cmd Not Found 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log ) 
+
+c:\hp\HPQWare\BTBHost>if exist C:\system.sav\util\TDCSetVariables.cmd (Call c:\system.sav\util\TDCSetVariables.cmd )  else (echo [Tue 03/28/2017  4:45:30.38] TDCSetVariables.cmd Not Found 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log ) 
+
+c:\hp\HPQWare\BTBHost>set BuildIDCHK=16WW3FPT601#SACJ#DACJ 
+
+c:\hp\HPQWare\BTBHost>set BuildID=16WW3FPT601 
+
+c:\hp\HPQWare\BTBHost>set Build ID=16WW3FPT601 
+
+c:\hp\HPQWare\BTBHost>set BID=16WW3FPT601 
+
+c:\hp\HPQWare\BTBHost>set MLBuildID=16WW3FPT601 
+
+c:\hp\HPQWare\BTBHost>set FBCHK=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he 
+
+c:\hp\HPQWare\BTBHost>set FEATUREBYTE=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek 
+
+c:\hp\HPQWare\BTBHost>set CYCLEAV= 
+
+c:\hp\HPQWare\BTBHost>set LO.ACJ=1 
+
+c:\hp\HPQWare\BTBHost>set PN.ACJ=1 
+
+c:\hp\HPQWare\BTBHost>set SKUNumber=1ZX23PC#ACJ 
+
+c:\hp\HPQWare\BTBHost>set HPFamily=103C_5336AN G=N L=SMB B=HP S=245         
+
+c:\hp\HPQWare\BTBHost>set languagecode=ACJ 
+
+c:\hp\HPQWare\BTBHost>set BuildType=WW 
+
+c:\hp\HPQWare\BTBHost>set BuildCycle=16 
+
+c:\hp\HPQWare\BTBHost>set BuildProj=3FP 
+
+c:\hp\HPQWare\BTBHost>set OS=MSV 
+
+c:\hp\HPQWare\BTBHost>set Vos.B=1 
+
+c:\hp\HPQWare\BTBHost>set ATF_HAL.64=1 
+
+c:\hp\HPQWare\BTBHost>set SEG.SBSO=1 
+
+c:\hp\HPQWare\BTBHost>set SL.MAI=1 
+
+c:\hp\HPQWare\BTBHost>set PCBR.HP=1 
+
+c:\hp\HPQWare\BTBHost>set ATF_PALTc2=1 
+
+c:\hp\HPQWare\BTBHost>set Estar=1 
+
+c:\hp\HPQWare\BTBHost>set NaAc=1 
+
+c:\hp\HPQWare\BTBHost>set GPT=1 
+
+c:\hp\HPQWare\BTBHost>set OA3=1 
+
+c:\hp\HPQWare\BTBHost>set FAST=1 
+
+c:\hp\HPQWare\BTBHost>set CT.NB=1 
+
+c:\hp\HPQWare\BTBHost>set R_STD=1 
+
+c:\hp\HPQWare\BTBHost>set GAME_HDD=1 
+
+c:\hp\HPQWare\BTBHost>set CC_BLK=1 
+
+c:\hp\HPQWare\BTBHost>set IS_M30d=1 
+
+c:\hp\HPQWare\BTBHost>set DPK_W10=1 
+
+c:\hp\HPQWare\BTBHost>set ATF_OS.T=1 
+
+c:\hp\HPQWare\BTBHost>set WINT_X=1 
+
+c:\hp\HPQWare\BTBHost>set DPK_STR=1 
+
+c:\hp\HPQWare\BTBHost>set bin=C:\system.sav\util 
+
+c:\hp\HPQWare\BTBHost>set log=C:\system.sav\logs 
+
+c:\hp\HPQWare\BTBHost>set DiskStyle=GPT 
+
+c:\hp\HPQWare\BTBHost>if exist c:\system.sav\util\ExtraEnv.cmd (CALL c:\system.sav\util\ExtraEnv.cmd ) 
+
+c:\hp\HPQWare\BTBHost>SET MEMSIZE=4 
+
+c:\hp\HPQWare\BTBHost>SET DISK_SIZE_GB=500 
+
+c:\hp\HPQWare\BTBHost>REM --- Appended by MASTER_IMG.txt --- 
+
+c:\hp\HPQWare\BTBHost>SET BaseOS_Arch=x64 
+
+c:\hp\HPQWare\BTBHost>SET BaseOS_VER=10.0.14393 
+
+c:\hp\HPQWare\BTBHost>SET BaseOS_Image=W10 
+
+c:\hp\HPQWare\BTBHost>SET OSHAL=x64 
+
+c:\hp\HPQWare\BTBHost>md "C:\ProgramData\HP\Images" 
+
+c:\hp\HPQWare\BTBHost>if /I "" == "Presario" (copy "c:\hp\HPQWare\BTBHost\Images\cpq_wc_logo.png" "C:\ProgramData\HP\Images\wc_logo.png" /y )  else (copy "c:\hp\HPQWare\BTBHost\Images\hp_wc_logo.png" "C:\ProgramData\HP\Images\wc_logo.png" /y ) 
+        1 file(s) copied.
+
+c:\hp\HPQWare\BTBHost>if "" == "1" (
+echo  1>>c:\system.sav\flags\BtBR_MIC.flg  
+ if exist c:\hp\bin\Rstone.ini (if exist c:\system.sav\flags\BtBOSWin10RS.flg (
+echo Copy MFU_cNB.ini for cNB RedStone MSSI  1>>c:\system.sav\logs\BTBHost\asgmetro.log  
+ copy /y c:\hp\HPQWare\BTBHost\\Signature\RedStone\MFU_cNB.ini c:\hp\HPQWare\BTBHost\\MFU.ini  1>>c:\system.sav\logs\BTBHost\asgmetro.log 2>&1 
+)  else (
+echo Copy MFU_cNB.ini for cNB MSSI  1>>c:\system.sav\logs\BTBHost\asgmetro.log  
+ copy /y c:\hp\HPQWare\BTBHost\\Signature\MFU_cNB.ini c:\hp\HPQWare\BTBHost\\MFU.ini  1>>c:\system.sav\logs\BTBHost\asgmetro.log 2>&1 
+) )  else (if exist c:\system.sav\flags\BtBOSWin10RS.flg (
+echo Copy MFU.ini for cPC RedStone MSSI  1>>c:\system.sav\logs\BTBHost\asgmetro.log  
+ copy /y c:\hp\HPQWare\BTBHost\\Signature\RedStone\MFU.ini c:\hp\HPQWare\BTBHost\\MFU.ini  1>>c:\system.sav\logs\BTBHost\asgmetro.log 2>&1 
+)  else (
+echo Copy MFU.ini for cPC MSSI  1>>c:\system.sav\logs\BTBHost\asgmetro.log  
+ copy /y c:\hp\HPQWare\BTBHost\\Signature\MFU.ini c:\hp\HPQWare\BTBHost\\MFU.ini  1>>c:\system.sav\logs\BTBHost\asgmetro.log 2>&1 
+) ) 
+) 
+
+c:\hp\HPQWare\BTBHost>c:\hp\hpqware\btbhost\MetroXmlProcessor.exe c:\swsetup\  1>>c:\system.sav\logs\BTBHost\asgmetro.log 
+
+c:\hp\HPQWare\BTBHost>echo.  1>>c:\system.sav\logs\BTBHost\asgmetro.log 
+
+c:\hp\HPQWare\BTBHost>if exist c:\system.sav\flags\BtBOSWin10.flg if NOT exist \system.sav\flags\BtBPinTileByReg.flg (
+if exist C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml c:\hp\hpqware\btbhost\RemoveXMLNS.vbs C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml  
+ copy /y C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml c:\system.sav\logs\BTBHost 
+) 
+        1 file(s) copied.
+
+c:\hp\HPQWare\BTBHost>c:\hp\hpqware\btbhost\TaskbarProcessor.exe  1>>c:\system.sav\logs\BTBHost\asgtaskbar.log 
+
+c:\hp\HPQWare\BTBHost>echo. 	 1>>c:\system.sav\logs\BTBHost\asgtaskbar.log 
+
+c:\hp\HPQWare\BTBHost>if exist c:\system.sav\flags\BtBOSWin10RS.flg if exist C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\TaskbarLayoutModification.xml (
+echo delete c:\HP\HPQWare\BTBHost\PBR\RegSrc\Taskbar.ini  1>>c:\system.sav\logs\BTBHost\asgtaskbar.log  
+ del c:\HP\HPQWare\BTBHost\PBR\RegSrc\Taskbar.ini  1>>c:\system.sav\logs\BTBHost\asgtaskbar.log 2>&1  
+ reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer /v "LayoutXMLPath" /t REG_SZ /d C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\TaskbarLayoutModification.xml /f  1>>c:\system.sav\logs\BTBHost\asgtaskbar.log 2>&1  
+ c:\hp\hpqware\btbhost\RemoveXMLNS.vbs C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\TaskbarLayoutModification.xml  
+ copy /y C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\TaskbarLayoutModification.xml c:\system.sav\logs\BTBHost 
+) 
+        1 file(s) copied.
+
+c:\hp\HPQWare\BTBHost>if NOT exist \system.sav\flags\BtBPinTileByReg.flg goto NoFillerPresent 
+
+c:\hp\HPQWare\BTBHost>echo.1>>c:\system.sav\logs\BTBHost\asgmetro.log 
+
+c:\hp\HPQWare\BTBHost>c:\system.sav\util\WizInstaller.exe c:\hp\hpqware\btbhost\SCMID.ini  1>>c:\system.sav\logs\BTBHost\wizinstaller.log 
+
+c:\hp\HPQWare\BTBHost>set postProcessDest=c:\system.sav\util\2postprocess 
+
+c:\hp\HPQWare\BTBHost>if NOT exist c:\system.sav\util\2postprocess md c:\system.sav\util\2postprocess 
+
+c:\hp\HPQWare\BTBHost>echo==========Tue 03/28/2017  4:45:38.10 BTB Post Install Start 2pp setup========== 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>set customDataDest=c:\system.sav\util\2postprocess\customdata 
+
+c:\hp\HPQWare\BTBHost>if NOT exist c:\system.sav\util\2postprocess\customdata md c:\system.sav\util\2postprocess\customdata  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\hp\HPQWare\BTBHost>xcopy /y /f BtBCustomData.cmd c:\system.sav\util\2postprocess  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\hp\HPQWare\BTBHost>xcopy /y /f customData.cmd c:\system.sav\util\2postprocess\customdata  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\hp\HPQWare\BTBHost>xcopy /y /f customData.ini c:\system.sav\util\2postprocess\customdata  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\hp\HPQWare\BTBHost>echo==========Tue 03/28/2017  4:45:38.23 BTB Post Install End 2pp setup========== 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>set cNB=0 
+
+c:\hp\HPQWare\BTBHost>echo [Tue 03/28/2017  4:45:38.23] PlatformCode=AN 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>if exist c:\hp\bin\Rstone.ini set cNB=1 
+
+c:\hp\HPQWare\BTBHost>if 1 == 1 (goto CNB )  else (goto DEFAULT ) 
+
+c:\hp\HPQWare\BTBHost>if exist \system.sav\flags\BtBPinTileByReg.flg (
+echo reg import C:\hp\HPQware\Metro\All\All\Metro.reg  1>>c:\system.sav\logs\BTBHost\asgmetro.log  
+ reg import C:\hp\HPQware\Metro\All\All\Metro.reg  1>>c:\system.sav\logs\BTBHost\asgmetro.log 2>&1 
+) 
+
+c:\hp\HPQWare\BTBHost>echo ====================Tue 03/28/2017  4:45:38.23  Setup PromoteOEMTiles Setting================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>set MSSIG=1 
+
+c:\hp\HPQWare\BTBHost>if exist c:\system.sav\flags\mssign.flg set MSSIG=0 
+
+c:\hp\HPQWare\BTBHost>if "" == "1" set MSSIG=0 
+
+c:\hp\HPQWare\BTBHost>If "1" == "1" (
+echo adding OEM tile promotion to registry  1>>c:\system.sav\logs\BTBHost\asgmetro.log  
+ reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\SVDEn /v "PromoteOEMTiles" /t REG_DWORD /d 1 /f  1>>c:\system.sav\logs\BTBHost\asgmetro.log 2>&1 
+) 
+
+c:\hp\HPQWare\BTBHost>echo ====================Tue 03/28/2017  4:45:38.26  Finish Setup PromoteOEMTiles setting:1================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>goto :END 
+
+c:\hp\HPQWare\BTBHost>echo==========Tue 03/28/2017  4:45:38.26 Call BtBCustomData========== 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\hp\HPQWare\BTBHost>if NOT exist \system.sav\flags\GM2PP.FLG (
+echo GM2PP.FLG not presen, Call BtBCustomDatat 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ pushd c:\system.sav\util\2postprocess  
+ call BtBCustomData.cmd  
+ popd
+) 
+
+c:\SYSTEM.SAV\Util\2postprocess>set customLogSpec=c:\system.sav\logs\BTBHost\customData2pp.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo==========Tue 03/28/2017  4:45:38.28 BtBCustomData start========== 1>>c:\system.sav\logs\BTBHost\customData2pp.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>pushd c:\SYSTEM.SAV\Util\2postprocess\ 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo Working dir is c:\SYSTEM.SAV\Util\2postprocess 1>>c:\system.sav\logs\BTBHost\customData2pp.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>if exist c:\system.sav\util\TDCsetVariables.cmd call c:\system.sav\util\TDCsetVariables.cmd 
+
+c:\SYSTEM.SAV\Util\2postprocess>set BuildIDCHK=16WW3FPT601#SACJ#DACJ 
+
+c:\SYSTEM.SAV\Util\2postprocess>set BuildID=16WW3FPT601 
+
+c:\SYSTEM.SAV\Util\2postprocess>set Build ID=16WW3FPT601 
+
+c:\SYSTEM.SAV\Util\2postprocess>set BID=16WW3FPT601 
+
+c:\SYSTEM.SAV\Util\2postprocess>set MLBuildID=16WW3FPT601 
+
+c:\SYSTEM.SAV\Util\2postprocess>set FBCHK=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he 
+
+c:\SYSTEM.SAV\Util\2postprocess>set FEATUREBYTE=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek 
+
+c:\SYSTEM.SAV\Util\2postprocess>set CYCLEAV= 
+
+c:\SYSTEM.SAV\Util\2postprocess>set LO.ACJ=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set PN.ACJ=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set SKUNumber=1ZX23PC#ACJ 
+
+c:\SYSTEM.SAV\Util\2postprocess>set HPFamily=103C_5336AN G=N L=SMB B=HP S=245         
+
+c:\SYSTEM.SAV\Util\2postprocess>set languagecode=ACJ 
+
+c:\SYSTEM.SAV\Util\2postprocess>set BuildType=WW 
+
+c:\SYSTEM.SAV\Util\2postprocess>set BuildCycle=16 
+
+c:\SYSTEM.SAV\Util\2postprocess>set BuildProj=3FP 
+
+c:\SYSTEM.SAV\Util\2postprocess>set OS=MSV 
+
+c:\SYSTEM.SAV\Util\2postprocess>set Vos.B=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set ATF_HAL.64=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set SEG.SBSO=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set SL.MAI=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set PCBR.HP=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set ATF_PALTc2=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set Estar=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set NaAc=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set GPT=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set OA3=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set FAST=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set CT.NB=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set R_STD=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set GAME_HDD=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set CC_BLK=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set IS_M30d=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set DPK_W10=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set ATF_OS.T=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set WINT_X=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set DPK_STR=1 
+
+c:\SYSTEM.SAV\Util\2postprocess>set bin=C:\system.sav\util 
+
+c:\SYSTEM.SAV\Util\2postprocess>set log=C:\system.sav\logs 
+
+c:\SYSTEM.SAV\Util\2postprocess>set DiskStyle=GPT 
+
+c:\SYSTEM.SAV\Util\2postprocess>if exist c:\system.sav\util\ExtraEnv.cmd (CALL c:\system.sav\util\ExtraEnv.cmd ) 
+
+c:\SYSTEM.SAV\Util\2postprocess>SET MEMSIZE=4 
+
+c:\SYSTEM.SAV\Util\2postprocess>SET DISK_SIZE_GB=500 
+
+c:\SYSTEM.SAV\Util\2postprocess>REM --- Appended by MASTER_IMG.txt --- 
+
+c:\SYSTEM.SAV\Util\2postprocess>SET BaseOS_Arch=x64 
+
+c:\SYSTEM.SAV\Util\2postprocess>SET BaseOS_VER=10.0.14393 
+
+c:\SYSTEM.SAV\Util\2postprocess>SET BaseOS_Image=W10 
+
+c:\SYSTEM.SAV\Util\2postprocess>SET OSHAL=x64 
+
+c:\SYSTEM.SAV\Util\2postprocess>if exist c:\system.sav\util\setVariables.cmd call c:\system.sav\util\setVariables.cmd 
+
+c:\SYSTEM.SAV\Util\2postprocess>c:\system.sav\util\WizInstaller.exe c:\system.sav\util\2postprocess\customdata\customData.ini 1>>c:\system.sav\logs\BTBHost\WizInstaller.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>rd /s/q customdata 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo==========Tue 03/28/2017  4:45:40.57 BtBCustomData end========== 1>>c:\system.sav\logs\BTBHost\customData2pp.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo==========Tue 03/28/2017  4:45:40.57 Copy custom.data for Sprout Workspace========== 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>set customDataSprout=C:\ProgramData\HP\SproutWorkspace 
+
+c:\SYSTEM.SAV\Util\2postprocess>if NOT exist C:\ProgramData\HP\SproutWorkspace md C:\ProgramData\HP\SproutWorkspace  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>copy /y c:\Users\Default\Documents\hp.system.package.metadata\custom.hpdata "C:\ProgramData\HP\SproutWorkspace\custom.data"  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo==========Tue 03/28/2017  4:45:40.59 Copy custom.data for HP Welcome========== 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>set customDataHPWelcome=C:\Program Files\HP\HP Welcome 
+
+c:\SYSTEM.SAV\Util\2postprocess>if exist C:\Program Files\HP\HP Welcome ( 
+
+c:\SYSTEM.SAV\Util\2postprocess>copy /y c:\Users\Default\Documents\hp.system.package.metadata\custom.hpdata "C:\Program Files\HP\HP Welcome\custom.data"  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>if exist c:\system.sav\flags\BtBOSWin10.flg if NOT exist \system.sav\flags\BtBPinTileByReg.flg (
+if exist c:\system.sav\flags\Disney.flg (
+echo do not restore taskbar in Crunch 1.1 SE  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ del /f /q c:\hp\HPQWare\BTBHost\\PBR\RegSrc\Taskbar.ini  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+)  
+ echo call c:\hp\HPQWare\BTBHost\\PBR\ExportRegXML.cmd  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ call c:\hp\HPQWare\BTBHost\\PBR\ExportRegXML.cmd  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ if exist C:\Recovery\OEM\Point_B\ (
+echo copy PBR command to C:\Recovery\OEM\Point_B\  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ copy /y c:\hp\HPQWare\BTBHost\\PBR\BTBHostB_PBR.cmd C:\Recovery\OEM\Point_B\  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1  
+ if exist c:\hp\HPQWare\BTBHost\\PBR\BTBHost\ xcopy /e/i/y/f c:\hp\HPQWare\BTBHost\\PBR\BTBHost\*.* C:\Recovery\OEM\Point_B\BTBHost\*.*  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+)  
+ if exist C:\Recovery\OEM\Point_D\ (
+echo copy PBR command to C:\Recovery\OEM\Point_D\  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ copy /y c:\hp\HPQWare\BTBHost\\PBR\BTBHostD_PBR.cmd C:\Recovery\OEM\Point_D\  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1  
+ if exist c:\hp\HPQWare\BTBHost\\PBR\BTBHost\ xcopy /e/i/y/f c:\hp\HPQWare\BTBHost\\PBR\BTBHost\*.* C:\Recovery\OEM\Point_D\BTBHost\*.*  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+) 
+) 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo ====================Tue 03/28/2017  4:45:41.17  Write BuildID begin ================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>set dpsPath="" 
+
+c:\SYSTEM.SAV\Util\2postprocess>for /F "tokens=*" %a in ('dir c:\system.sav\*_DPS /b /s') do set dpsPath=%a 
+
+c:\SYSTEM.SAV\Util\2postprocess>set dpsPath=c:\system.sav\D235641159F9_DPS 
+
+c:\SYSTEM.SAV\Util\2postprocess>set dpsPath=c:\system.sav\logs\MASTER_DPS 
+
+c:\SYSTEM.SAV\Util\2postprocess>if exist c:\system.sav\logs\MASTER_DPS (
+echo Try to parse c:\system.sav\logs\MASTER_DPS ...  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ for /F "tokens=1,2 eol=: delims==" %a in (c:\system.sav\logs\MASTER_DPS) do if "%a" == "; BuildID" set BuildID=%b 
+) 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";**************** the inputPO is ***************************" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";InputPO" == "; BuildID" set BuildID=ELCOT245G5 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";***********************************************************" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";**********  ATF Output  **********" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";Build_ID" == "; BuildID" set BuildID=16WW3FPT601#SACJ#DACJ 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";Feature_Byte" == "; BuildID" set BuildID=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";PCR_File" == "; BuildID" set BuildID=D:\Plant_Panthnagar\Instance_PAN\DATA\PCRMANAGER\PCR_CURRENT\245G5_847195_161017_S1.PCR 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";SCMX_File" == "; BuildID" set BuildID=D:\Plant_Panthnagar\Instance_PAN\DATA\SCMxFiles\Current\Fajita6U1x_HP_ALC_L_Rev-56-0-0-b.SCMX 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";ML_Prefix" == "; BuildID" set BuildID=CNB 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";CRM" == "; BuildID" set BuildID=D6 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";MMN" == "; BuildID" set BuildID=BU IDS UMA Pro A4-3350B 245 G5 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";ATF_Version" == "; BuildID" set BuildID=0.9.13.0 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";**********************************" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";This PO file was created by DPS on Mon 03/27/2017 11:05:29.14 using ML: 16WW3FPT601" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";***********************************************************************" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; FACTORY Mode    (v)" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "CNB16WW3FPT601,MLini,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; Estar" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P006MA-B2P,Energy Star,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\HPQ6001" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P009C2-B2T,HP Wireless Button Driver for ,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00EDU-B2M,Bing Search for IE11,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00F6B-B2D,TFS - OCA Marker File - TDC,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00GXS-B2Z,HP Support Assistant,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00H08-B2U,IE Home,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,SEG.SBSO,R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00HUY-B2N,Discover HP Touchpoint Manager,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,SEG.SBSO,R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00HV0-B2P,Discover HP Touchpoint Manager,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00J6J-B2K,Preinstall Log Collector - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KFS-B2N,HP UEFI BIOS Configuration Uti,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KH9-B2C,Windows HP File Based Installe,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KML-B2D,TFS - Windows MSC GPT 60GB Add,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,PCBR.HP" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KPS-B2F,TFS - GBUHook support PML shar,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KSB-B2M,Windows 10 System Default Sett,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; IS_M30d" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KTX-B2Q,McAfee LiveSafe Install Rules ,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; CT.NB" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00KWE-B2K,TFS - Dynamic MSC,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00L6E-B2Q,HP PC Hardware Diagnostics UEF,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LC7-B2C,Windows 10 Preinstall Diagnost,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; IS_M30d" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LDM-B2G,McAfee Checkbox,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LEM-B2P,Windows 10 DPK - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LEX-B2D,Retail Demo - Video Attract Lo,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LMK-B2S,HP Setup Integrated OOBE Win10,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LUT-B2X,HP Sure Connect,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; SEG.SBSO" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00LWZ-B2A,MSC - NTFS (26GB / 1.5GB),0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00MGE-B2X,Power Media Player,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00MMP-B2Q,DMI_INI - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,SEG.SBSO,R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00N20-B2L,Netflix-Metro,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00N24-B2J,Priceline,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00N3D-B2M,FP1.x - Realtek Card Reader Dr,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_10EC&DEV_8168&SUBSYS_81E5103C" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00N3E-B2H,FP1.x - Realtek Local Area Net,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\ETD0711" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00N4K-B2S,FP1.x - Elan Touchpad Driver,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00N89-B2K,HP ePrint,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NBC-B2J,HP System Event Utility,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NC3-B2F,HP Documentation 1613,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NCU-B2C,TFS - GBUHook support Drive Or,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NDP-B2P,Windows 10 PIN AddOn - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NEJ-B2E,Windows 10 WDT SDV - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NGN-B2A,Windows Big File Tweaks - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; IS_M30d" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NHP-B2U,McAfee LiveSafe,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NQ0-B2B,Dump BTO and CMD after MD5 Hoo,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NQT-B2P,Windows 10 Redstone 1 Base Ima,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NQU-B2T,Windows 10 Redstone 1 WinPE - ,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,SL.MAI" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NXS-B2H,DPS tweaks - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NYH-B2N,Windows 10 RedStone 1 LP FOD S,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NZ2-B2L,Windows 10 RedStone 1 HP OS En,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00NZ8-B2D,Windows 10 Redstone1 Recovery ,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P02-B2P,Windows 10 Redstone1 Push Butt,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P03-B2N,Windows 10 Redstone1 RE Recove,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P12-B2P,Microsoft Office 2016 and Offi,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P5S-00E,Microsoft Office 2016 and Offi,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P62-B2E,Microsoft Office 2016 and Offi,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P9V-B2V,Windows 10 HP Image Enhancemen,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00P9Y-B2F,Windows 10 Image Customization,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PAB-B2V,HP Orbit,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PC9-B2E,Windows 10 RedStone 1 Regional,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PCB-B2C,Windows 10 RedStone 1 HP EULA ,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PDU-B2J,Fusion RStone Detection Tweaks,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_10EC&DEV_8179" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PF9-B2E,Realtek RTL8723BE/RTL8188EE 80,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PK5-B2G,Cyberlink PowerDirector Deskto,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PL3-B2K,HP Audio Switch,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PLJ-B2M,HP Windows Image Diagnostic To,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PLU-B2K,Windows 10 RedStone 1 MS Start,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PNH-B2X,MS Windows PIN Process - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PPA-B2C,Windows 10 Wallpaper - CPS,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PSC-B2H,HP JumpStart,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PUF-B2G,PF 1.x - Image Tweaks for Win1,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ,SEG.SBSO" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PUT-B2C,DropBox,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PWM-B2F,FP1.x - Realtek High-Definitio,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00PZG-B2D,WW-BTB Host and ISP Stub,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1002&DEV_9851" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "P00Q5X-B2D,FP1.x - AMD High-Definition Gr,0" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; *****   Image-specific SMBIOS settings   ***** " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; LO.ACJ" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PN.ACJ" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; BuildID" == "; BuildID" set BuildID=16WW3FPT601   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; BID" == "; BuildID" set BuildID=16WW3FPT601   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; Build ID" == "; BuildID" set BuildID=16WW3FPT601   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; OS" == "; BuildID" set BuildID=MSV   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; SEG.SBSO" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; SL.MAI" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCBR.HP" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; Estar" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; CT.NB" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; R_STD" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; IS_M30d" == "; BuildID" set BuildID=1   
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; *****   Detected PnP-IDs   ***** " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1002&DEV_9851&SUBSYS_81E5103C&REV_40\3&2411E6FE&0&08:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1002&DEV_9840&SUBSYS_81E5103C&REV_00\3&2411E6FE&0&09:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1581&SUBSYS_00000000&REV_00\3&2411E6FE&0&C1:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&90:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&98:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1537&SUBSYS_15371022&REV_00\3&2411E6FE&0&40:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1566&SUBSYS_81E5103C&REV_00\3&2411E6FE&0&00:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_780B&SUBSYS_81E5103C&REV_42\3&2411E6FE&0&A0:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1583&SUBSYS_00000000&REV_00\3&2411E6FE&0&C3:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1580&SUBSYS_00000000&REV_00\3&2411E6FE&0&C0:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&0&12:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&0&13:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_780D&SUBSYS_81E5103C&REV_02\3&2411E6FE&0&A2:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_7814&SUBSYS_81E5103C&REV_11\3&2411E6FE&0&80:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1585&SUBSYS_00000000&REV_00\3&2411E6FE&0&C5:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_10EC&DEV_8179&SUBSYS_81BF103C&REV_01\4&23C471C0&0&0013:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1582&SUBSYS_00000000&REV_00\3&2411E6FE&0&C2:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_10EC&DEV_8168&SUBSYS_81E5103C&REV_15\4&110AC11B&0&0012:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_780E&SUBSYS_81E5103C&REV_11\3&2411E6FE&0&A3:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_156B&SUBSYS_00000000&REV_00\3&2411E6FE&0&10:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; PCI\VEN_1022&DEV_1584&SUBSYS_00000000&REV_00\3&2411E6FE&0&C4:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\VID_064E&PID_C346&MI_00\7&28AD1DF0&0&0000  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\VID_064E&PID_C346\HF1017-P83L-OV01-REV0102  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\VID_0438&PID_7900\5&3B9196FD&0&1  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\VID_0438&PID_7900\5&9535BF8&0&1  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\ROOT_HUB20\4&1737DEEB&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\ROOT_HUB30\4&B66B6AD&0&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; USB\ROOT_HUB20\4&175FD1E6&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5&REV_1000\4&22C94DEF&0&0001:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1005\4&27ECBAF2&0&0001:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\ETD0711\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0200\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\HPQ8001\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C0A\1  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C0B\0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\MSFT0101\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\HPQ6001\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\THERMALZONE\TZ0_  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\THERMALZONE\TZ1_  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C14\0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C04\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\ACPI0003\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C02\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\ASD0001\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0800\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C0D\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0103\3&2411E6FE&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C09\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0100\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\SMB0001\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ROOT\ACPI_HAL\0000  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_0:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_1:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_2:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_3:  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0A08\1  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C0C\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI_HAL\PNP0C08\0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI_HAL\UEFI\0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\FIXEDBUTTON\2&DABA3FF&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C02\90  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0B00\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C01\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0000\4&1E609E49&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ACPI\PNP0C02\3&2411E6FE&0  " == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ***************************" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; *** Dashing Information ***" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "; ***************************" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";Imaging Mode" == "; BuildID" set BuildID=Network Download 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";PRISMSERVER" == "; BuildID" set BuildID=PAN002SQL 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";DPS_Mode" == "; BuildID" set BuildID=Direct ML from PRISM 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";DPS_version" == "; BuildID" set BuildID=0.10.4.3 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";MACADDRESS" == "; BuildID" set BuildID=705A0F8492BE 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";WDT_Mode" == "; BuildID" set BuildID=Factory 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";WDT_version" == "; BuildID" set BuildID=56.51.1 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";SOSDToolset version" == "; BuildID" set BuildID=WDT.16.21 
+
+c:\SYSTEM.SAV\Util\2postprocess>if ";Date of the DPS PO creation" == "; BuildID" set BuildID=Mon 03/27/2017 11:05:29.75 
+
+c:\SYSTEM.SAV\Util\2postprocess>if "" == "; BuildID" set BuildID= 
+
+c:\SYSTEM.SAV\Util\2postprocess>if not exist c:\system.sav\logs\MASTER_DPS (echo Cannot find c:\system.sav\*_DPS  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log )  else if not exist c:\system.sav\flags\BtBDisableJSKey.flg (if defined BuildID (
+echo Write BuildID="16WW3FPT601  " to registry  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log  
+ reg add "HKLM\Software\HP\System Properties" /v "BuildID" /t REG_SZ /d 16WW3FPT601   /f  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+)  else (echo Cannot find BuildID in c:\system.sav\logs\MASTER_DPS 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log ) )  else (echo BtBDisableJSKey.flg found, ignore to write BuildID="16WW3FPT601  " to registry 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log ) 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo ====================Tue 03/28/2017  4:45:42.10  Write BuildID finish ================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo ====================Tue 03/28/2017  4:45:42.10  HPMUIDIR begin ================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>pushd C:\Windows\System32 
+
+C:\Windows\System32>.\HPMUIDir.exe
+
+C:\Windows\System32>popd
+
+c:\SYSTEM.SAV\Util\2postprocess>echo ====================Tue 03/28/2017  4:45:42.26  HPMUIDIR finish ================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo ====================Tue 03/28/2017  4:45:42.28  Export StartAppList begin ================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>Powershell.exe -executionpolicy remotesigned -File  c:\hp\HPQWare\BTBHost\\get-startapps.ps1 
+
+c:\SYSTEM.SAV\Util\2postprocess>echo ====================Tue 03/28/2017  4:45:56.89  Export StartAppList finish ================= 1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 
+
+c:\SYSTEM.SAV\Util\2postprocess>if not exist c:\system.sav\logs\BTBHost md c:\system.sav\logs\BTBHost 
+
+c:\SYSTEM.SAV\Util\2postprocess>reg export "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SVDEn" c:\system.sav\logs\BTBHost\Reg.asgmetro.log /y  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>reg export "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Store" c:\system.sav\logs\BTBHost\Reg.SCMID.log /y  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>reg export "HKLM\SOFTWARE\HP\System Properties" c:\system.sav\logs\BTBHost\Reg.SysProp.log /y  1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>reg export "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" c:\system.sav\logs\BTBHost\Reg.EnvVar.log /y   1>>c:\system.sav\logs\BTBHost\BTBHostBBV2.bat.log 2>&1 
+
+c:\SYSTEM.SAV\Util\2postprocess>popd

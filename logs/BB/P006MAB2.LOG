@@ -1,0 +1,12 @@
+[4:31:58 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10
+[4:31:58 AM] CVA File: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\P006MAB2.CVA
+[4:31:58 AM] Deliverable Name: Energy Star [1.10,A,2]
+[4:31:58 AM] Deliverable PN: P006MA-B2P
+[4:31:58 AM] Deliverable Size: 4,886 Kbytes
+[4:31:58 AM] Free Size: 453,494,996 Kbytes
+[4:31:58 AM] System Used Size: 22,301,480 Kbytes
+[4:31:59 AM] Run install command: c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\install.cmd
+[4:32:05 AM] Return code: 0
+[4:32:05 AM] Size Extend: -720 Kbytes
+[4:32:05 AM] Metro Deliverable: No
+[4:32:05 AM] RESULT=PASSED

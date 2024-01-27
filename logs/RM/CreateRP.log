@@ -1,0 +1,110 @@
+[14:18:13.19][CreateRP] Create [C:\system.sav\logs\RM\CreateRP.FAILURE.FLG]. If PASS, delete it.
+[14:18:13.19][CreateRP.cmd] Query Number of Disk
+[14:18:13.19][CreateRP.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QryDiskNum.vbs
+[14:18:13.27][CreateRP.cmd] DISK Number = 1
+[14:18:13.27][CreateRP.cmd] Query OS Disk Index
+[14:18:13.30][CreateRP.cmd] OS DISK = 0
+[14:18:13.30][CreateRP.cmd] OS DISK Index = 0
+[14:18:13.30][CreateRP.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\PartInfo_CreateRP.cmd HPRM
+[14:18:13.40][CreateRP.cmd] Query OS Disk Size
+HPRM DISK 0 SIZE 500107862016  
+[14:18:13.52][CreateRP.cmd] CRM.OS.DISK.SIZE.GB=466
+[14:18:13.52][CreateRP.cmd] CRM.OS.DISK.SIZE.KB=488386584
+[14:18:13.52][CreateRP.cmd] CRM.OS.DISK.SIZE.BYTE=500107862016
+[14:18:13.52][CreateRP.cmd] Query the minimum disk size for RP
+[14:18:13.59][CreateRP.cmd] CALL C:\system.sav\util\RMInSize.cmd
+[14:18:13.59][CreateRP.cmd] Min Disk Size For RP =  100 GB
+[14:18:13.59][CreateRP.cmd] Check RP Disk Index
+[14:18:13.59][CreateRP.cmd] Disk Number   = 1
+[14:18:13.59][CreateRP.cmd] OS DISK Index = 0
+[14:18:13.59][CreateRP.cmd] RP DISK Index = 0
+[14:18:13.59][CreateRP.cmd] Removed Drive Letter R:
+[14:18:13.59][CreateRP.cmd] CMD /C C:\RM\RERM\DeployRP\RemoveDrvLetter.cmd R:
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+
+The volume you selected is not valid or does not exist.
+
+There is no volume selected.
+[14:18:13.95][CreateRP.cmd] END
+        1 file(s) copied.
+        1 file(s) copied.
+[14:18:13.95][CreateRP.cmd] CSCRIPT //NOLOGO C:\RM\RERM\DeployRP\CalRPSize.vbs C:\system.sav\logs\RM\Estimate_RP_FileList.txt C:\system.sav\logs\RM\Estimate_RP_FolderList.txt 11 200
+[14:18:13.95][CreateRP.cmd] File:C:\RM\BootRM\winucrd.wim  Size=323565121
+[14:18:13.95][CreateRP.cmd] Folder:C:\RM\Image\  Size=9135972150
+[14:18:13.95][CreateRP.cmd] Folder:C:\RM\RERM\DeployRP\BootFile4UCRM\  Size=39375444
+[14:18:13.95][CreateRP.cmd] Folder:C:\RM\RERM\DeployRP\RM_PATCH\  Size=3097
+[14:18:13.95][CreateRP.cmd] Folder:C:\RM\RERM\DeployRP\RM_Reserve\  Size=3548
+[14:18:13.95][CreateRP.cmd] 10403
+[14:18:14.05][CreateRP.cmd] Estimated Recovery Partition Size : 10403 MB
+[14:18:14.05][CreateRP.cmd] CSCRIPT //NOLOGO C:\RM\RERM\DeployRP\QryFFS.vbs
+[14:18:14.19][CreateRP.cmd] FFS SIZE = 0 
+[14:18:14.19][CreateRP.cmd] Calculate RP Offset
+[14:18:14.19][CreateRP.cmd] CSCRIPT //NOLOGO C:\RM\RERM\DeployRP\CalRPOffset.vbs 500107862016 10403 0 5
+[14:18:14.23][CreateRP.cmd] RP Offset = 477728792 KB
+[14:18:14.25][CreateRP.cmd] CREAT RECOVERY PARTITION
+[14:18:14.25][CreateRP.cmd] CALL DISKPART /S C:\RM\RERM\DeployRP\CreateRP.sp
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+
+DiskPart succeeded in creating the specified partition.
+
+    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed  100 percent completed
+
+DiskPart successfully formatted the volume.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+DiskPart successfully shrunk the volume by: 5120 KB
+
+DiskPart successfully assigned the attributes to the selected GPT partition.
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+  Partition 5    Primary             10 GB   455 GB
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+  Partition 5    Primary             10 GB   455 GB
+
+Leaving DiskPart...
+[14:18:17.35][CreateRP.cmd] MKDIR "R:\Recovery\"
+[14:18:17.35][CreateRP.cmd] R:\Recovery\_CNBRP2.FLG CREATED
+[14:18:17.36][CreateRP.cmd] Delete [C:\system.sav\logs\RM\CreateRP.FAILURE.FLG]...
+[CreateRP.cmd] Mon 03/27/2017 14:18:17.36
+********** FINISH CreateRP.cmd **********
+RETURN CODE - 0

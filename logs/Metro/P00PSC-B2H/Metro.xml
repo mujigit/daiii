@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<MetroApp AppID="AD2F1837.HPJumpStart_v10z8vjag6ke6!App">
+     <TileDef Lang="XX-XX" Country="XXX" Order="0" TileType="Desktop" LockScreen="False" />
+	 <UnivTileDef Region="ALL" TileType="2x2" Order="0"/>
+</MetroApp>

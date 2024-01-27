@@ -1,0 +1,63 @@
+[14:16:21.66][PrepareRM_PASS2] Create [C:\system.sav\logs\RM\PrepareRM_PASS2.FAILURE.FLG]. If PASS, delete it.
+[14:16:21.66][PrepareRM_PASS2.cmd] Query disk quantity
+[14:16:21.66][PrepareRM_PASS2.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QryDiskNum.vbs
+[14:16:21.74][PrepareRM_PASS2.cmd] Disk quantity = 1
+[14:16:21.74][PrepareRM_PASS2.cmd] Query OS Disk Index
+[14:16:21.74][PrepareRM_PASS2.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QryOSDisk.vbs
+OS_DISK = 0
+[14:16:21.87][PrepareRM_PASS2.cmd] OS DISK Index = 0
+[14:16:21.87][PrepareRM_PASS2.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\PartInfo_PrepareRM_PASS2.cmd HPRM
+[14:16:22.13][PrepareRM_PASS2.cmd] Query OS Disk Size
+HPRM DISK 0 SIZE 500107862016  
+[14:16:22.25][PrepareRM_PASS2.cmd] CRM.OS.DISK.SIZE.GB=466
+[14:16:22.25][PrepareRM_PASS2.cmd] CRM.OS.DISK.SIZE.KB=488386584
+[14:16:22.25][PrepareRM_PASS2.cmd] CRM.OS.DISK.SIZE.BYTE=500107862016
+[14:16:22.27][PrepareRM_PASS2.cmd] GM Type = MLGM
+[14:16:22.28][PrepareRM_PASS2.cmd] OS DISK Type = HDD
+[14:16:22.29][PrepareRM_PASS2.cmd] Update BP Size
+[14:16:22.29][PrepareRM_PASS2.cmd] BP Size = 0
+[14:16:22.32][PrepareRM_PASS2] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\
+        1 file(s) copied.
+[14:16:22.40][PrepareRM_PASS2] COPY /Y C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode.cmd C:\Recovery\OEM\Point_A\Install.PI\
+        1 file(s) copied.
+[14:16:22.42][PrepareRM_PASS2] COPY /Y C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode.cmd C:\Recovery\OEM\Point_C\Install.PI\
+        1 file(s) copied.
+[14:16:22.43][PrepareRM_PASS2] COPY /Y C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode.cmd C:\Recovery\OEM\Point_D\Install.PI\
+        1 file(s) copied.
+[14:16:22.45][PrepareRM_PASS2.cmd] MKDIR "C:\Recovery\OEM\Point_A\Install.PI\EnableDebugMode\"
+[14:16:22.45][PrepareRM_PASS2] XCOPY /S /E /Y /I /R H C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\*.* C:\Recovery\OEM\Point_A\Install.PI\EnableDebugMode\
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\AssignDrvLetter.sp
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\AssignDrvLetterByPartIndex.cmd
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\DASHPartition.ini
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\EnableDebugModeByBCD.cmd
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\PartInfo.exe
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\QueryBootLoaderID.vbs
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\RemoveDrvLetter.sp
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\RemoveDrvLetterFromPart.sp
+8 File(s) copied
+[14:16:22.51][PrepareRM_PASS2.cmd] MKDIR "C:\Recovery\OEM\Point_C\Install.PI\EnableDebugMode\"
+[14:16:22.51][PrepareRM_PASS2] XCOPY /S /E /Y /I /R H C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\*.* C:\Recovery\OEM\Point_C\Install.PI\EnableDebugMode\
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\AssignDrvLetter.sp
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\AssignDrvLetterByPartIndex.cmd
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\DASHPartition.ini
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\EnableDebugModeByBCD.cmd
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\PartInfo.exe
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\QueryBootLoaderID.vbs
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\RemoveDrvLetter.sp
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\RemoveDrvLetterFromPart.sp
+8 File(s) copied
+[14:16:22.55][PrepareRM_PASS2.cmd] MKDIR "C:\Recovery\OEM\Point_D\Install.pi\EnableDebugMode\"
+[14:16:22.55][PrepareRM_PASS2] XCOPY /S /E /Y /I /R H C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\*.* C:\Recovery\OEM\Point_D\Install.PI\EnableDebugMode\
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\AssignDrvLetter.sp
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\AssignDrvLetterByPartIndex.cmd
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\DASHPartition.ini
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\EnableDebugModeByBCD.cmd
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\PartInfo.exe
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\QueryBootLoaderID.vbs
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\RemoveDrvLetter.sp
+C:\Recovery\OEM\Point_B\Install.PI\EnableDebugMode\RemoveDrvLetterFromPart.sp
+8 File(s) copied
+[14:16:22.58][PrepareRM_PASS2.cmd] Delete [C:\system.sav\logs\RM\PrepareRM_PASS2.FAILURE.FLG]...
+[PrepareRM_PASS2.cmd] Mon 03/27/2017 14:16:22.58
+********** FINISH PrepareRM_PASS2.cmd **********
+RETURN CODE - 0

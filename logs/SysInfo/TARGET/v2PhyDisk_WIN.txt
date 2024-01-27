@@ -1,0 +1,19 @@
+DeviceId               =[0]
+FriendlyName           =[HGST HTS725050A7E630]
+Description            =[]
+Manufacturer           =[]
+Model                  =[HGST HTS725050A7E630]
+SerialNumber           =[RCF50ACF06EH5K]
+PartNumber             =[]
+FirmwareVersion        =[GS2OA3C0]
+Size                   =[500107862016] = 465.76 GiB
+AllocatedSize          =[500102619136]
+BusType                =[11] (Serial ATA (SATA))
+PhysicalSectorSize     =[4096]
+LogicalSectorSize      =[512]
+SpindleSpeed           =[-1]
+
+Advnced Formatted - e512
+
+
+

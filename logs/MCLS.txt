@@ -1,0 +1,174 @@
+========== Set OSFlag ==================
+"OSHAL:64" 
+========== Set Config =================
+========== Match Rules with Platform values ==================
+Match Rule in [Rule01-1]
+Match Rule in [Rule08]
+AFFID:1081_431
+========== Match Rules with Platform values Finish ============
+Matched values:: SKUOptionConfig:ACJ; ChannelID:00; Family:AN; BrandName:HPB; ChannelType:BTO; McAfeeLength:IS_M30d; AFFID:1081_431 
+========== Set McAfeee Install Paramsters ==========
+========== Set terms ==========
+GXT30D 
+========== Set chassisType ==========
+9 
+========== Tue 03/28/2017  4:38:03.68 block begin ======
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Administrator\AppData\Roaming
+ATF_HAL.64=1
+ATF_OS.T=1
+ATF_PALTc2=1
+BaseOS_Arch=x64
+BaseOS_Image=W10
+BaseOS_VER=10.0.14393
+BID=16WW3FPT601
+bin=C:\system.sav\util
+block=C:\SWSETUP\APP\Applications\McAfee\src\
+Build ID=16WW3FPT601
+BuildCycle=16
+BuildID=16WW3FPT601
+BuildIDCHK=16WW3FPT601#SACJ#DACJ
+BuildProj=3FP
+BuildType=WW
+CALLERCMD=BBV2_EUE.cmd
+CC_BLK=1
+chassisType=9
+ChkChar= 
+CMDLOGFILE="C:\system.sav\logs\PINPROC\BBV2_EUE.cmd.log"
+CMD_TYPE=PINPROC
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=MI99TIARDRJ78
+ComSpec=C:\windows\system32\cmd.exe
+CT.NB=1
+curArea=[Rule19]
+DATACOLL_INI=C:\system.sav\EXCLUDE\Logs\DATACOLL.log
+DiskStyle=GPT
+DISK_SIZE_GB=500
+DPK_STR=1
+DPK_W10=1
+Estar=1
+EXTRAENV_CMD=C:\system.sav\util\ExtraEnv.cmd
+FAILFLAG="C:\system.sav\BBV2_EUE.cmd.FAILURE.flg"
+FAST=1
+FBCHK=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+FEATUREBYTE=3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek
+file=C:\hp\McAfeeRules\cNBrule.ini
+FULLSETVAR_CMD=C:\system.sav\util\TDCSetVariables.cmd
+GAME_HDD=1
+GPT=1
+HOMEDRIVE=C:
+HOMEPATH=\Users\Administrator
+HPFamily=103C_5336AN G=N L=SMB B=HP S=245        
+IsBTO=1ZX23PC#ACJ
+IsMatchOPCode=0
+IsMatchRule=0
+IS_M30d=1
+key=AFFID
+languagecode=ACJ
+ln=AFFID=1126_431
+LO.ACJ=1
+LOCALAPPDATA=C:\Users\Administrator\AppData\Local
+log=C:\system.sav\logs
+LOGFILE=C:\system.sav\logs\PINPROC\PASS2_PROC.log
+LogIt=CALL C:\System.sav\ExitProc\LogIt.cmd
+LogItOut=CALL C:\System.sav\ExitProc\LogItOut.cmd
+LOGONSERVER=\\MI99TIARDRJ78
+logSpec=C:\system.sav\logs\MCLS.txt
+logSpec2=C:\system.sav\logs\BB\McAfee.txt
+MEMSIZE=4
+MISsuiteID=1081_431
+MLBuildID=16WW3FPT601
+MYSYSTEM_INI=C:\system.sav\Logs\MYSYSTEM.ini
+NaAc=1
+NUMBER_OF_PROCESSORS=4
+OA3=1
+oem=oemresf_1081_431.dll
+OnlineServices=Online Services
+OS=MSV
+OSHAL=64
+outAFFID=1081_431
+Path=C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PCBR.HP=1
+platformcode=AN
+PN.ACJ=1
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=AMD64 Family 22 Model 48 Stepping 1, AuthenticAMD
+PROCESSOR_LEVEL=22
+PROCESSOR_REVISION=3001
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+RegionCode=APJ
+RTNCODE=0
+R_STD=1
+SCRIPT_FOLDER=C:\system.sav\P2PP\BBV2.eue
+SEG.SBSO=1
+SESSIONNAME=Console
+SETVAR_CMD=TDCSetVariables.cmd
+SKUNumber=1ZX23PC#ACJ
+SL.MAI=1
+STR_HOUR=04
+STR_MIN=37
+STR_SEC=54
+SystemDrive=C:
+SystemRoot=C:\windows
+tar3DWebcam=0
+tarBrand=HPB
+tarChannel=BTO
+tarDPK=10
+tarLength=IS_M30d
+tarOPCode=ACJ
+tarRetail=00
+tarSegment=AN
+tarSystemid=81E5
+TDCEnvCalled=TRUE
+TEMP=C:\Users\ADMINI~1\AppData\Local\Temp
+terms=GXT30D
+TMP=C:\Users\ADMINI~1\AppData\Local\Temp
+tmpErrorlevel=0
+USERDOMAIN=MI99TIARDRJ78
+USERDOMAIN_ROAMINGPROFILE=MI99TIARDRJ78
+USERNAME=Administrator
+USERPROFILE=C:\Users\Administrator
+val=1126_431
+Vos.B=1
+windir=C:\windows
+WINI=CSCRIPT.exe /nologo C:\System.sav\ExitProc\WriteIni.vbs
+WINT_X=1
+
+HKEY_LOCAL_MACHINE\Software\microsoft\windows\currentversion\setup\state
+    ImageState    REG_SZ    IMAGE_STATE_UNDEPLOYABLE
+
+===== Tue 03/28/2017  4:38:03.81 LiveSafe install begin =====
+mcafee parameters: oem:oemresf_1081_431.dll /suiteid:1081_431 /terms:GXT30D /jeula:1 /report:chassistype=9 /rid:1357 
+ERRORLEVEL:0 
+===== Tue 03/28/2017  4:40:59.75 LiveSafe Patch-II install begin =====
+pathDst=C:\SWSETUP\APP\Applications\McAfee\src\ 
+===== Tue 03/28/2017  4:41:00.36 LiveSafe Patch-II install finish =====
+===== Tue 03/28/2017  4:41:00.36 LiveSafe Patch-III (OMEN only) install begin =====
+This is NOT an OMEN platform 
+===== Tue 03/28/2017  4:41:00.38 LiveSafe Patch-III (OMEN only) install finish =====
+===== Tue 03/28/2017  4:41:00.38 LiveSafe Patch-V install begin =====
+tarOPCodePaV=0 
+tarOPCodePaV=0 
+===== Tue 03/28/2017  4:41:00.41 LiveSafe Patch-V install finish =====
+===== Tue 03/28/2017  4:41:00.41 LiveSafe Patch-VI install begin =====
+===== Tue 03/28/2017  4:43:40.97 LiveSafe Patch-VI install finish =====
+===== Tue 03/28/2017  4:43:40.98 LiveSafe install finish =====
+===== Tue 03/28/2017  4:43:41.00 PIN to Start Tile Begin =====
+SKUOptionConfig=ACJ
+Current Working Directory:C:\SWSETUP\APP\Applications\McAfee\src\ 
+DPK:10 
+chasisType=9 
+"Other SKUOptionConfig=ACJ" 
+C:\SWSETUP\APP\Applications\McAfee\src\Metro.xml
+1 File(s) copied
+===== Tue 03/28/2017  4:43:41.17 PIN to Start Tile Finish =====
+===== Tue 03/28/2017  4:43:47.60 block finish =====

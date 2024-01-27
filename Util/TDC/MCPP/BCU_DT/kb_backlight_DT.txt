@@ -1,0 +1,4 @@
+English
+OOBE
+	No
+	*Yes

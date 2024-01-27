@@ -1,0 +1,13 @@
+########################################################################################## 
+## [Mon 03/27/2017]                                                                                
+## [12:07:22.02] Begining of QFE copy files listed under "C:\SwSetup\OSEnh\QFE\Win10.xx\"     	
+########################################################################################## 
+[12:07:22.02] KB offline installation for Windows 10 Nov 15 Update, PASS1... 
+[12:07:22.02] Check if image is 64bit or not 
+[12:07:22.02] This is a Windows 10 Nov 15 Update 64bit system. Copy QFEs under "C:\SwSetup\OSEnh\QFE\Win10.64\" to "C:\". 
+C:\SwSetup\OSEnh\QFE\Win10.64\Appl.zip\QFEs\Windows10.0-KB3193494-x64.msu
+1 File(s) copied
+[12:07:28.10] XCOPY completed errorlevel: 0. 
+########################################################################################## 
+## [12:07:28.10] End of QFE copy files listed under "C:\SwSetup\OSEnh\QFE\Win10.xx\"         	
+########################################################################################## 

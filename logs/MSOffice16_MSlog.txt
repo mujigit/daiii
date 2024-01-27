@@ -1,0 +1,8 @@
+Mode = OEMTA 
+echo Referral = 7019 
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.

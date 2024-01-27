@@ -1,0 +1,209 @@
+[11:58:05.17][Deploy-RP.cmd] UP Drive Letter = C: 
+[11:58:05.17][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  UpdateFilesFromBP 
+########################################################################## 
+[11:58:05.18][Deploy-RP.cmd] UpdateFilesFromBP : START 
+[11:58:05.18][Deploy-RP.cmd] cmd /c C:\RM\RERM\UpdateFilesFromBP.cmd  
+[11:58:14.53][Deploy-RP.cmd] UpdateFilesFromBP : END 
+[Deploy-RP.cmd] Mon 03/27/2017 11:58:14.53 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[11:58:15.72][Deploy-RP.cmd] UP Drive Letter = C: 
+[11:58:15.72][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CheckImage 
+########################################################################## 
+[11:58:15.73][Deploy-RP.cmd] CheckImage : START 
+[11:58:15.73][Deploy-RP.cmd] cmd /c C:\RM\RERM\CheckImage.cmd  
+[11:58:16.88][Deploy-RP.cmd] CheckImage : END 
+[Deploy-RP.cmd] Mon 03/27/2017 11:58:16.88 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[12:07:32.21][Deploy-RP.cmd] UP Drive Letter = C: 
+[12:07:32.22][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  PrepareRM_PASS1_PBR 
+########################################################################## 
+[12:07:32.24][Deploy-RP.cmd] PrepareRM_PASS1_PBR : START 
+[12:07:32.24][Deploy-RP.cmd] cmd /c C:\RM\RERM\PrepareRM_PASS1_PBR.cmd  
+[12:07:39.09][Deploy-RP.cmd] PrepareRM_PASS1_PBR : END 
+[Deploy-RP.cmd] Mon 03/27/2017 12:07:39.09 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[12:07:39.39][Deploy-RP.cmd] UP Drive Letter = C: 
+[12:07:39.39][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  PrepareRM_PASS1_HPRM 
+########################################################################## 
+[12:07:39.41][Deploy-RP.cmd] PrepareRM_PASS1_HPRM : START 
+[12:07:39.41][Deploy-RP.cmd] cmd /c C:\RM\RERM\PrepareRM_PASS1_HPRM.cmd  
+[12:07:40.40][Deploy-RP.cmd] PrepareRM_PASS1_HPRM : END 
+[Deploy-RP.cmd] Mon 03/27/2017 12:07:40.40 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[12:07:40.70][Deploy-RP.cmd] UP Drive Letter = C: 
+[12:07:40.70][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  DeployWinRE_1st 
+########################################################################## 
+[12:07:40.72][Deploy-RP.cmd] DeployWinRE_1st : START 
+[12:07:40.72][Deploy-RP.cmd] cmd /c C:\RM\RERM\DeployWinRE_1st.cmd  
+[12:15:00.73][Deploy-RP.cmd] DeployWinRE_1st : END 
+[Deploy-RP.cmd] Mon 03/27/2017 12:15:00.73 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[12:37:37.89][Deploy-RP.cmd] UP Drive Letter = C: 
+[12:37:37.91][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  Regsvr2OS 
+########################################################################## 
+[12:37:37.92][Deploy-RP.cmd] Regsvr2OS : START 
+[12:37:37.92][Deploy-RP.cmd] cmd /c C:\RM\RERM\Regsvr2OS.cmd  
+[12:37:38.07][Deploy-RP.cmd] Regsvr2OS : END 
+[Deploy-RP.cmd] Mon 03/27/2017 12:37:38.07 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:03:25.91][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:03:25.92][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CaptureIndex1 
+########################################################################## 
+[14:03:25.92][Deploy-RP.cmd] CaptureIndex1 : START 
+[14:03:25.92][Deploy-RP.cmd] cmd /c C:\RM\RERM\CaptureIndex1.cmd  
+[14:12:00.13][Deploy-RP.cmd] CaptureIndex1 : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:12:00.15 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:12:00.68][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:12:00.68][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CaptureBP 
+########################################################################## 
+[14:12:00.70][Deploy-RP.cmd] CaptureBP : START 
+[14:12:00.71][Deploy-RP.cmd] cmd /c C:\RM\RERM\CaptureBP.cmd  
+[14:12:13.21][Deploy-RP.cmd] CaptureBP : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:12:13.21 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:14:50.84][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:14:50.86][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CaptureFU 
+########################################################################## 
+[14:14:50.86][Deploy-RP.cmd] CaptureFU : START 
+[14:14:50.86][Deploy-RP.cmd] cmd /c C:\RM\RERM\CaptureFU.cmd  
+[14:14:51.52][Deploy-RP.cmd] CaptureFU : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:14:51.53 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:16:21.62][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:16:21.62][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  PrepareRM_PASS2 
+########################################################################## 
+[14:16:21.63][Deploy-RP.cmd] PrepareRM_PASS2 : START 
+[14:16:21.63][Deploy-RP.cmd] cmd /c C:\RM\RERM\PrepareRM_PASS2.cmd  
+[14:16:22.59][Deploy-RP.cmd] PrepareRM_PASS2 : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:16:22.59 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:16:22.91][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:16:22.92][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  DeployWinRE_2nd 
+########################################################################## 
+[14:16:22.92][Deploy-RP.cmd] DeployWinRE_2nd : START 
+[14:16:22.92][Deploy-RP.cmd] cmd /c C:\RM\RERM\DeployWinRE_2nd.cmd  
+[14:17:24.81][Deploy-RP.cmd] DeployWinRE_2nd : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:17:24.81 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:17:25.12][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:17:25.12][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  DeployUCRM 
+########################################################################## 
+[14:17:25.14][Deploy-RP.cmd] DeployUCRM : START 
+[14:17:25.14][Deploy-RP.cmd] cmd /c C:\RM\RERM\DeployUCRM.cmd  
+[14:18:12.81][Deploy-RP.cmd] DeployUCRM : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:18:12.81 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:18:13.13][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:18:13.13][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CreateRP 
+########################################################################## 
+[14:18:13.15][Deploy-RP.cmd] CreateRP : START 
+[14:18:13.15][Deploy-RP.cmd] cmd /c C:\RM\RERM\CreateRP.cmd  
+[14:18:17.36][Deploy-RP.cmd] CreateRP : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:18:17.36 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:18:17.68][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:18:17.68][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  DeployRP 
+########################################################################## 
+[14:18:17.70][Deploy-RP.cmd] DeployRP : START 
+[14:18:17.70][Deploy-RP.cmd] cmd /c C:\RM\RERM\DeployRP.cmd  
+[14:22:21.93][Deploy-RP.cmd] DeployRP : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:22:21.95 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:22:22.74][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:22:22.74][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CreateRTP 
+########################################################################## 
+[14:22:22.75][Deploy-RP.cmd] CreateRTP : START 
+[14:22:22.75][Deploy-RP.cmd] cmd /c C:\RM\RERM\CreateRTP.cmd  
+[14:22:31.50][Deploy-RP.cmd] CreateRTP : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:22:31.50 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[14:22:31.81][Deploy-RP.cmd] UP Drive Letter = C: 
+[14:22:31.81][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  DeployRTP 
+########################################################################## 
+[14:22:31.83][Deploy-RP.cmd] DeployRTP : START 
+[14:22:31.83][Deploy-RP.cmd] cmd /c C:\RM\RERM\DeployRTP.cmd  
+[14:22:48.03][Deploy-RP.cmd] DeployRTP : END 
+[Deploy-RP.cmd] Mon 03/27/2017 14:22:48.05 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[ 4:53:03.58][Deploy-RP.cmd] UP Drive Letter = C: 
+[ 4:53:03.63][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CapturePPKG 
+########################################################################## 
+[ 4:53:03.65][Deploy-RP.cmd] CapturePPKG : START 
+[ 4:53:03.65][Deploy-RP.cmd] cmd /c C:\RM\RERM\CapturePPKG.cmd  
+[ 5:17:11.81][Deploy-RP.cmd] CapturePPKG : END 
+[Deploy-RP.cmd] Tue 03/28/2017  5:17:11.83 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[ 5:22:50.13][Deploy-RP.cmd] UP Drive Letter = C: 
+[ 5:22:50.15][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CheckPPKG 
+########################################################################## 
+[ 5:22:50.16][Deploy-RP.cmd] CheckPPKG : START 
+[ 5:22:50.16][Deploy-RP.cmd] cmd /c C:\RM\RERM\CheckPPKG.cmd  
+[ 5:22:50.32][Deploy-RP.cmd] CheckPPKG : END 
+[Deploy-RP.cmd] Tue 03/28/2017  5:22:50.33 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 
+[ 5:22:50.74][Deploy-RP.cmd] UP Drive Letter = C: 
+[ 5:22:50.74][Deploy-RP.cmd] BP Drive Letter = D: 
+########################################################################## 
+  CaptureESP 
+########################################################################## 
+[ 5:22:50.75][Deploy-RP.cmd] CaptureESP : START 
+[ 5:22:50.75][Deploy-RP.cmd] cmd /c C:\RM\RERM\CaptureESP.cmd  
+[ 5:22:55.06][Deploy-RP.cmd] CaptureESP : END 
+[Deploy-RP.cmd] Tue 03/28/2017  5:22:55.07 
+********** FINISH DEPLOY-RP.CMD ********** 
+RETURN CODE - 0 

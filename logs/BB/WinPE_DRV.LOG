@@ -1,0 +1,10 @@
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [11:58:45.69] Beginning of the WinPE_DRV.CMD                              
+############################################################# 
+[11:58:45.69] Start Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+[11:58:45.69] wpeinit.exe 
+[11:58:46.95] Errorlevel=0 
+No WinPE driver found.  
+[11:58:46.96] Result of the Windows 10 HP Image Enhancements - CPS - Driver Install for WinPE 
+RESULT=PASSED 

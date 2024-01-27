@@ -1,0 +1,15 @@
+************************************************************
+  Disk Controller and Driver's information
+************************************************************
+Name   : AMD SATA Controller
+PNP    : PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88
+Service: amdsata
+Driver : X:\windows\System32\drivers\amdsata.sys
+Version: 1.1.3.277
+
+Name   : Microsoft Storage Spaces Controller
+PNP    : ROOT\SPACEPORT\0000
+Service: spaceport
+Driver : X:\windows\System32\drivers\spaceport.sys
+Version: 10.0.14393.0
+

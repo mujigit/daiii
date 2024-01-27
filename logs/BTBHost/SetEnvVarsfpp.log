@@ -1,0 +1,24 @@
+Running SetEnvVars.bat
+Value of "OnlineServices" variable is Online Services
+Value of "Release" variable is 171
+Value of "PCBrand" variable is Pavilion
+Value of "Platform" variable is BNB
+Value of "PlatformCode" variable is AN
+Value of "cycle" variable is 
+Value of "WallpaperID" variable is 
+Value of "ChannelId" variable is 00
+Value of "BBUY" variable is 
+Value of "pcseller" variable is -1
+Value of "productnumber" variable is 1ZX23PC#ACJ
+Value of "modelnumber" variable is 
+Value of "SerialNumber" variable is D235641159
+Value of "productname" variable is HP 245 G5 Notebook PC
+Value of "buildtype" variable is WW
+Value of "OSBit" variable is 
+Value of "SystemBoardProductId" variable is 81E5
+Value of "vantage" variable is 
+Value of "brand" variable is HP
+Value of "subbrand" variable is HPB
+Value of "hardwaretype" variable is Notebook
+Value of "segment" variable is SBSO
+Finished running SetEnvVars.bat

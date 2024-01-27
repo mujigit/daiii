@@ -1,0 +1,9 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:12.84] Beginning of the DisableDefender.cmd                              
+############################################################# 
+[ 4:46:12.85] Start Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+[ 4:46:12.85] RS1 Detection 
+For RS1, offline disable defender.  
+[ 4:46:12.87] Result of the Windows 10 HP Image Enhancements - CPS - Disable MS Defender 
+RESULT=PASSED 

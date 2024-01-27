@@ -1,0 +1,11 @@
+[11:57:37.61]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo BaseOS_WIMBOOT FALSE c:\system.sav\fbi\custom.ini] 
+[11:57:37.67]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs BaseOSImage WIMBOOT FALSE c:\system.sav\fbi\custom.ini] 
+[11:57:37.71]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo BaseOS_Arch x64 c:\system.sav\fbi\custom.ini 
+[11:57:37.76]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo OSHAL x64 c:\system.sav\fbi\custom.ini] 
+[11:57:37.84]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo BaseOS_MAJ_VER 10 c:\system.sav\fbi\custom.ini] 
+[11:57:37.90]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo BaseOS_MIN_VER 0 c:\system.sav\fbi\custom.ini] 
+[11:57:37.95]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo BaseOS_SP_BUILD UNKNOWN c:\system.sav\fbi\custom.ini] 
+[11:57:37.99]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo PEHAL 64 c:\system.sav\fbi\custom.ini] 
+[11:57:38.03]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo OSIMG W10 c:\system.sav\fbi\custom.ini] 
+[11:57:38.07]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo OSVER W10 c:\system.sav\fbi\custom.ini] 
+[11:57:38.12]   * [CSCRIPT.exe /nologo C:\System.sav\tweaks\WriteIni.vbs cNBImageInfo BaseOS_Image W10 c:\system.sav\fbi\custom.ini] 

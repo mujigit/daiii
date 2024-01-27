@@ -1,0 +1,13 @@
+Availability: 
+Caption: AMD SATA Controller
+ConfigManagerErrorCode: 0
+Description: AMD SATA Controller
+DeviceID: PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88
+ErrorCleared: 
+ErrorDescription: 
+InstallDate: 
+LastErrorCode: 
+Manufacturer: AMD
+Name: AMD SATA Controller
+PNPDeviceID: PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88
+Status: OK

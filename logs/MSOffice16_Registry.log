@@ -1,0 +1,67 @@
+[ 4:37:22.16][Office_Reg.cmd] DPS File : C:\system.sav\D235641159F9_DPS 
+[ 4:37:22.25][Office_Reg.cmd] CNB 
+ 
+ 
+=============================== 
+Feature Byte: 
+=============================== 
+SEG.ENT  :  
+SEG.SBSO : 1 
+SEG.CON  :  
+SEG.PRM  :  
+SEG.WKS  :  
+SEG.RPS  :  
+SEG.TC   :  
+CT.AIO   :  
+CT.MT    :  
+CT.TC    :  
+ 
+ 
+ 
+ 
+=============================== 
+Variable Matrix: 
+=============================== 
+BrandName         : HPB  
+OSSKU             : 5 
+Family            : 103C_5336AN G  
+ImageID           : 0 
+OSFlag            : 3 
+OfficeOA3         : 0 
+SKUOptionConfig   : ACJ 
+cNB/cDT detection : CNB 
+ 
+ 
+=================== 
+  Setup Bounty Code 
+=================== 
+BountyCode = 7019 
+ 
+ 
+=================== 
+  Detect AFO/ non-AFO 
+=================== 
+Start from OPK16.1, all should change to OEMTA in order to support late binding. 
+ 
+call oemsetup.cmd Mode=OEMTA Referral=7019 
+Mode = OEMTA
+Referral = 7019
+The operation completed successfully.
+SUCCESS: The scheduled task "Microsoft\Office\Microsoft Office Touchless Attach Notification" has successfully been created.
+Successfully processed 1 files; Failed processing 0 files
+ErrorNum[0] 
+copy C:\Users\ADMINI~1\AppData\Local\Temp\oobe.log C:\System.sav\logs\MSOffice16_MSlog.txt 
+        1 file(s) copied.
+reg query HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Common\OEM 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Common\OEM
+    OOBE    REG_SZ    {6E20AECF-F2F5-D78E-3EB4-A70A0FBA37CD}
+    OOBEMode    REG_SZ    OEMTA
+
+reg query HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Common\OEM 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Common\OEM
+    OOBE    REG_SZ    {6E20AECF-F2F5-D78E-3EB4-A70A0FBA37CD}
+    OOBEMode    REG_SZ    OEMTA
+
+Finished.. 

@@ -1,0 +1,12 @@
+[4:26:57 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016
+[4:26:57 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\P00PF9B2.cva
+[4:26:57 AM] Deliverable Name: Realtek RTL8723BE/RTL8188EE 802.11b/g/n Wireless LAN Drivers [2023.40.801.2016,A,1]
+[4:26:57 AM] Deliverable PN: P00PF9-B2E
+[4:26:57 AM] Deliverable Size: 70,736 Kbytes
+[4:26:57 AM] Free Size: 454,131,912 Kbytes
+[4:26:57 AM] System Used Size: 21,664,564 Kbytes
+[4:26:57 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\RealtekRT_PPF9B2\2023.40.801.2016\install.cmd
+[4:27:41 AM] Return code: 0
+[4:27:41 AM] Size Extend: 133,276 Kbytes
+[4:27:41 AM] Metro Deliverable: No
+[4:27:41 AM] RESULT=PASSED

@@ -1,0 +1,4 @@
+English
+Win 10 RS1
+	*Yes
+	No

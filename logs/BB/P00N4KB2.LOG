@@ -1,0 +1,12 @@
+[4:27:49 AM] Install Folder: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1
+[4:27:49 AM] CVA File: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\P00N4KB2.CVA
+[4:27:49 AM] Deliverable Name: ELAN Touchpad Driver (Windows 10 v1607) [15.2.14.1,A,17]
+[4:27:49 AM] Deliverable PN: P00N4K-B2S
+[4:27:49 AM] Deliverable Size: 174,912 Kbytes
+[4:27:49 AM] Free Size: 453,957,996 Kbytes
+[4:27:49 AM] System Used Size: 21,838,480 Kbytes
+[4:27:49 AM] Run install command: c:\SWSETUP\DRV\DriverOther\Elan\FP1.xElan_NN4KB2\15.2.14.1\install.cmd
+[4:28:04 AM] Return code: 0
+[4:28:04 AM] Size Extend: 173,128 Kbytes
+[4:28:04 AM] Metro Deliverable: No
+[4:28:04 AM] RESULT=PASSED

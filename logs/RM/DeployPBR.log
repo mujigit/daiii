@@ -1,0 +1,33 @@
+[ 5:31:40.26][DeployPBR.cmd] Query partition Information
+[ 5:31:40.26][DeployPBR.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini  C:\system.sav\logs\RM\PartInfo_DeployPBR.cmd HPRM
+[ 5:31:40.86][DeployPBR.cmd] Find the Data Partition and size=0 bytes
+[ 5:31:40.95][DeployPBR.cmd] Find the Data Partition and size=0 MB
+[ 5:31:41.03][DeployPBR.cmd] ESP Size = 260 MB
+[ 5:31:41.11][DeployPBR.cmd] ESP OFFSET = 1024 KB
+[ 5:31:41.19][DeployPBR.cmd] MSR Size = 16 MB
+[ 5:31:41.28][DeployPBR.cmd] MSR OFFSET = 1024 KB
+[ 5:31:41.35][DeployPBR.cmd] UP Size = 464645 MB
+[ 5:31:41.42][DeployPBR.cmd] UP OFFSET = 283648 KB
+[ 5:31:41.50][DeployPBR.cmd] WINRE Size = 980 MB
+[ 5:31:41.58][DeployPBR.cmd] WINRE OFFSET = 476725248 KB
+[ 5:31:41.62][DeployPBR.cmd] RM Reserve
+[ 5:31:41.62][DeployPBR.cmd] CSCRIPT.EXE /NOLOGO C:\RM\RERM\DeployRP\\RM_RESERVE\RevFile.vbs C:\RM\RERM\DeployRP\\RM_RESERVE\Reserve.log C: C:\RM\RERM\DeployRP\\RM_RESERVE\
+Src=C:\system.sav\util\install.log           Dest=C:\RM\RERM\DeployRP\\RM_RESERVE\system.sav\util\
+Src=C:\System.sav\Logs\INSTALL_PASS1.log           Dest=C:\RM\RERM\DeployRP\\RM_RESERVE\System.sav\Logs\
+[ 5:31:41.90][DeployPBR.cmd] Move Reserved File to RP Path
+[ 5:31:41.92][DeployPBR.cmd] MKDIR "C:\Recovery\OEM\RM_RESERVE\"
+[ 5:31:41.92][DeployPBR.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\DeployRP\\RM_RESERVE\*.* "C:\Recovery\OEM\RM_RESERVE\"
+C:\RM\RERM\DeployRP\\RM_RESERVE\Reserve.log
+C:\RM\RERM\DeployRP\\RM_RESERVE\ReturnFile.vbs
+C:\RM\RERM\DeployRP\\RM_RESERVE\RevFile.vbs
+C:\RM\RERM\DeployRP\\RM_RESERVE\system.sav\Logs\INSTALL_PASS1.log
+C:\RM\RERM\DeployRP\\RM_RESERVE\system.sav\util\INSTALL.LOG
+5 File(s) copied
+[ 5:31:42.00][DeployPBR.cmd] RM Patch
+[ 5:31:42.00][DeployPBR.cmd] Move RM Patch File to RP Path
+[ 5:31:42.01][DeployPBR.cmd] MKDIR "C:\Recovery\OEM\RM_PATCH\"
+[ 5:31:42.01][DeployPBR.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\DeployRP\RM_PATCH\*.* "C:\Recovery\OEM\RM_PATCH\"
+C:\RM\RERM\DeployRP\RM_PATCH\ExtPoint_PostRecovery.cmd
+C:\RM\RERM\DeployRP\RM_PATCH\ExtPoint_PreRecovery.cmd
+C:\RM\RERM\DeployRP\RM_PATCH\ExtPoint_Start.cmd
+3 File(s) copied

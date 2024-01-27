@@ -1,0 +1,28 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:08.22] Beginning of the StartPolicy_ImgEnh_Online.CMD                              
+############################################################# 
+OSSkuFlag=5
+This is Stardand platform, set start policy to Desktop. 
+Query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" 
+
+
+Set "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization" of DesktopOptimization=1 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DesktopOptimization
+    GoToDesktopOnSignIn    REG_DWORD    0x1
+
+Load C:\Users\Default\NTUSER.DAT hive file 
+The operation completed successfully.
+Query "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+Set "HKLM\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage" 
+The operation completed successfully.
+
+HKEY_LOCAL_MACHINE\TempHive\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage
+    OpenAtLogon    REG_DWORD    0x0
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 4:52:08.60] Result of the Windows 10 HP Image Enhancements - CPS - Start Policy Setting 
+RESULT=PASSED 

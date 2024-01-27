@@ -1,0 +1,12 @@
+[4:32:24 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00
+[4:32:24 AM] CVA File: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\P00F6BB2.CVA
+[4:32:24 AM] Deliverable Name: TFS - OCA Marker File - TDC [1.00,A,4]
+[4:32:24 AM] Deliverable PN: P00F6B-B2D
+[4:32:24 AM] Deliverable Size: 33 Kbytes
+[4:32:24 AM] Free Size: 453,476,788 Kbytes
+[4:32:24 AM] System Used Size: 22,319,688 Kbytes
+[4:32:24 AM] Run install command: c:\SWSETUP\APP\Applications\HP\TFSOCAMar_FF6BB2\1.00\install.cmd
+[4:32:28 AM] Return code: 0
+[4:32:28 AM] Size Extend: -7,716 Kbytes
+[4:32:28 AM] Metro Deliverable: No
+[4:32:28 AM] RESULT=PASSED

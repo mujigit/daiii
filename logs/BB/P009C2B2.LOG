@@ -1,0 +1,12 @@
+[4:32:07 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1
+[4:32:07 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\P009C2B2.CVA
+[4:32:07 AM] Deliverable Name: HP Wireless Button Driver [1.1.18.1,A,1]
+[4:32:07 AM] Deliverable PN: P009C2-B2T
+[4:32:07 AM] Deliverable Size: 4,711 Kbytes
+[4:32:07 AM] Free Size: 453,495,668 Kbytes
+[4:32:07 AM] System Used Size: 22,300,808 Kbytes
+[4:32:07 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\install.cmd
+[4:32:22 AM] Return code: 0
+[4:32:22 AM] Size Extend: 18,872 Kbytes
+[4:32:22 AM] Metro Deliverable: No
+[4:32:22 AM] RESULT=PASSED

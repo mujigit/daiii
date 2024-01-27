@@ -1,0 +1,36 @@
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [12:30:21.02] Beginning of the ImageDiag_EarlyStage.CMD  [PASS1]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[12:30:21.05] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[12:30:21.19] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[12:30:21.22] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[12:30:21.24] === Enclosure type Checking for MDA2017 Completed === 
+[12:30:21.24] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[12:30:21.61] === Trusted Root Certificates Inital backup Completed === 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:20:47.76] Beginning of the ImageDiag_EarlyStage.CMD  [PASS2]                        
+############################################################# 
+Get CNB CDT 
+Start of platform search.
+[ 4:20:47.87] DPS File=[C:\system.sav\D235641159F9_DPS] 
+[ 4:20:47.98] ML prefix=[CNB] 
+Get cycle info 
+yearcycle_cycle=[3] 
+yearcycle_year=[16] 
+Channel check only start from 1c17  
+[ 4:20:48.06] === Channel Checking Completed === 
+Enclosure Type check only start from 1c17  
+[ 4:20:48.07] === Enclosure type Checking for MDA2017 Completed === 
+[ 4:20:48.09] === ITEM=Trusted Root Certificates Inital backup ... === 
+RESULT=PASSED 
+[ 4:20:48.76] === Trusted Root Certificates Inital backup Completed === 

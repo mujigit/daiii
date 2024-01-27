@@ -1,0 +1,13 @@
+########################################################################################## 		
+## [Mon 03/27/2017]                                                                                		
+## [12:07:29.38] Begining of QFE installation listed under "C:\SwSetup\OSEnh_QFE_FU\Win10.xx\QFEs\"    	
+########################################################################################## 		
+[12:07:29.38] MD C:\System.sav\FactoryUpdate\QFEs 
+[12:07:29.38] KB offline installation for Windows 10 Nov 15 Update... 
+[12:07:29.38] Check if image is 64bit or not 
+[12:07:29.38] This is a Windows 10 Nov 15 Update 64bit system. Copy QFEs under "C:\SwSetup\OSEnh_QFE_FU\Win10.64\QFEs" to "C:\System.sav\FactoryUpdate\QFEs". 
+0 File(s) copied
+[12:07:29.42] XCOPY completed errorlevel: 0. 
+########################################################################################## 		
+## [12:07:29.42] End of QFE installation listed under "C:\SwSetup\OSEnh_QFE_FU\Win10.xx\QFEs\"     		
+########################################################################################## 		

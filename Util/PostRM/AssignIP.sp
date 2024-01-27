@@ -1,0 +1,13 @@
+REM ============================================
+REM ASSIGNIP.SP
+REM DATE: 2014-05-27
+REM ============================================
+
+SELECT DISK %HPRM.IP.DISKINDEX%
+LIST PART
+LIST VOL
+SELECT PARTITION %HPRM.IP.PARTINDEX%
+ASSIGN LETTER=%CRM.IP.DRVLETTER%
+LIST PART
+LIST VOL
+EXIT

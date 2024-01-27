@@ -1,0 +1,67 @@
+-----------------------------------
+Win32_OperatingSystem instance
+-----------------------------------
+BootDevice: \Device\HarddiskVolume1
+BuildNumber: 14393
+BuildType: Multiprocessor Free
+Caption: Microsoft Windows 10 Pro
+CodeSet: 1252
+CountryCode: 1
+CreationClassName: Win32_OperatingSystem
+CSCreationClassName: Win32_ComputerSystem
+CSDVersion: 
+CSName: MI99TIARDRJ78
+CurrentTimeZone: -420
+DataExecutionPrevention_32BitApplications: True
+DataExecutionPrevention_Available: True
+DataExecutionPrevention_Drivers: True
+DataExecutionPrevention_SupportPolicy: 2
+Debug: False
+Description: 
+Distributed: False
+EncryptionLevel: 256
+ForegroundApplicationBoost: 2
+FreePhysicalMemory: 2597964
+FreeSpaceInPagingFiles: 1024000
+FreeVirtualMemory: 3661600
+InstallDate: 20170328044514.000000-420
+LargeSystemCache: 
+LastBootUpTime: 20170328044420.496331-420
+LocalDateTime: 20170328044605.046000-420
+Locale: 0409
+Manufacturer: Microsoft Corporation
+MaxNumberOfProcesses: -1
+MaxProcessMemorySize: 137438953344
+MUILanguages: en-US
+Name: Microsoft Windows 10 Pro|C:\windows|\Device\Harddisk0\Partition3
+NumberOfLicensedUsers: 0
+NumberOfProcesses: 67
+NumberOfUsers: 1
+OperatingSystemSKU: 48
+Organization: HP
+OSArchitecture: 64-bit
+OSLanguage: 1033
+OSProductSuite: 256
+OSType: 18
+OtherTypeDescription: 
+PAEEnabled: 
+PlusProductID: 
+PlusVersionNumber: 
+PortableOperatingSystem: False
+Primary: True
+ProductType: 1
+RegisteredUser: HP
+SerialNumber: 00330-80000-00000-AA669
+ServicePackMajorVersion: 0
+ServicePackMinorVersion: 0
+SizeStoredInPagingFiles: 1024000
+Status: OK
+SuiteMask: 272
+SystemDevice: \Device\HarddiskVolume3
+SystemDirectory: C:\windows\system32
+SystemDrive: C:
+TotalSwapSpaceSize: 
+TotalVirtualMemorySize: 4655112
+TotalVisibleMemorySize: 3631112
+Version: 10.0.14393
+WindowsDirectory: C:\windows

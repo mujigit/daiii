@@ -1,0 +1,27 @@
+Tue 03/28/2017  4:28:19.54  ********************************************** 
+Tue 03/28/2017  4:28:19.54    HP JumpStart UWP, Bridge, and AutoStart      
+Tue 03/28/2017  4:28:19.54  ********************************************** 
+Tue 03/28/2017  4:28:19.54  set variables 
+Tue 03/28/2017  4:28:19.90 OptionCode= ACJ isUS= 0 
+Tue 03/28/2017  4:28:19.98   Segment = SBSO 
+Tue 03/28/2017  4:28:19.99   Platform is Consumer Notebook = 1 
+Tue 03/28/2017  4:28:20.01   platform is Commercial = 0 
+Tue 03/28/2017  4:28:20.01 square tile Consumer S1 
+Tue 03/28/2017  4:28:20.10  Finish copy metro.xml: Error Level 0 
+Tue 03/28/2017  4:28:20.10  Installing Visual C++ 2015 Update 1 runtime libraries x86 
+Tue 03/28/2017  4:28:23.49  Finish Installing Visual C++ 2015 Update 1 runtime libraries x86 : Error Level 0 
+Tue 03/28/2017  4:28:23.49  Installing Visual C++ 2015 Update 1 runtime libraries x64 
+Tue 03/28/2017  4:28:28.28  Finish Installing Visual C++ 2015 Update 1 runtime libraries x64 : Error Level 0 
+Tue 03/28/2017  4:28:28.28  install HP Clean Start UWP 
+Tue 03/28/2017  4:28:47.24  Finish install HP Clean Start UWP: Error Level 0 
+Tue 03/28/2017  4:28:47.26  Starting HP Bridge MSI installer 
+Tue 03/28/2017  4:29:56.59  Finish Install HP Bridge : Error Level 0 
+Tue 03/28/2017  4:29:56.61  Creating All Users - Start Menu - Startup shortcut for AutoStartUWP 
+Tue 03/28/2017  4:29:58.91  Finish Install SetupAutoStartUWP : Error Level 0 
+Tue 03/28/2017  4:29:58.91  Adding loopback exemption for UWP app 
+OK.
+Tue 03/28/2017  4:29:59.06  Finished installing  
+Tue 03/28/2017  4:29:59.06  copy Metro.xml to pin tile 
+Tue 03/28/2017  4:30:00.86  Finish copy Metro.xml : Error Level 0 
+Tue 03/28/2017  4:30:00.86  Add schedule task for provider 
+Tue 03/28/2017  4:30:01.29  Add schedule task for provider complete : Error Level 0 

@@ -1,0 +1,17 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:47.80] Beginning of the EnableService.cmd                              
+############################################################# 
+[ 5:22:48.16] Loaded hive Sucessfully 
+[ 5:22:48.16] Found tiledatamodelsvc, Enable it. 
+The operation completed successfully.
+[ 5:22:48.16] Enable tiledatamodelsvc Service success. 
+[ 5:22:48.16] Re-query tiledatamodelsve value. 
+
+HKEY_LOCAL_MACHINE\TempHive\ControlSet001\Services\tiledatamodelsvc
+    start    REG_DWORD    0x2
+
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:48.31] Result of the Image tweaks for tiledatamodelsvc enable 
+RESULT=PASSED 

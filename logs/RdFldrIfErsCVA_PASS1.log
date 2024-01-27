@@ -1,0 +1,61 @@
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:03:20.48] Beginning of the RdFldrIfErsCVA.cmd                              
+############################################################# 
+Checking "c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\" 
+ 
+ 
+[14:03:20.91] Result of the Windows 10 HP Image Enhancements - CPS - Delete folder if deleting CVA failed. 
+RESULT=PASSED 
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:03:20.91] End of the RdFldrIfErsCVA.cmd                                    
+############################################################# 

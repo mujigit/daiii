@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Applications/>
+  <Documents/>
+  <WindowsComponents>
+    <component displayname="wifitowlan" migrate="yes" ID="wifitowlan"/>
+    <component displayname="microsoft-windows-identity-foundation-migration" migrate="yes" ID="microsoft-windows-identity-foundation-migration"/>
+    <component displayname="microsoft-windows-identityserver-migration" migrate="yes" ID="microsoft-windows-identityserver-migration"/>
+    <component displayname="Microsoft-Windows-WICAMigrationAv" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wicamigrationav/microsoft-windows-wicamigrationav/settings"/>
+    <component displayname="Microsoft-CertificateServices-MSCEP-ServerUpgrade-Replacement" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-certificateservices-mscep-serverupgrade-replacement/microsoft-certificateservices-mscep-serverupgrade-replacement/settings"/>
+    <component displayname="WCF-NonHTTP-Activation" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/wcf-nonhttp-activation/wcf-nonhttp-activation/settings"/>
+    <component displayname="Microsoft-Windows-Authentication-AuthUI" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-authentication-authui/microsoft-windows-authentication-authui/settings"/>
+    <component displayname="WCF-HTTP-Activation" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/wcf-http-activation/wcf-http-activation/settings"/>
+    <component displayname="TSPortalWebPart" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/tsportalwebpart/tsportalwebpart/settings"/>
+    <component displayname="Microsoft-Windows-ServerManager-Shell" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-servermanager-shell/microsoft-windows-servermanager-shell/settings"/>
+    <component displayname="Microsoft-CertificateServices-CA-ServerUpgrade-Replacement" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-certificateservices-ca-serverupgrade-replacement/microsoft-certificateservices-ca-serverupgrade-replacement/settings"/>
+    <component displayname="Microsoft-CertificateServices-Policy-ServerUpgrade" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-certificateservices-policy-serverupgrade/microsoft-certificateservices-policy-serverupgrade/settings"/>
+    <component displayname="Microsoft-Windows-SoftwareInventoryLogging-ScheduledTasks" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-softwareinventorylogging-scheduledtasks/microsoft-windows-softwareinventorylogging-scheduledtasks/settings"/>
+    <component displayname="Microsoft-CertificateAuthority-Enrollment-ServerUpgrade" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-certificateauthority-enrollment-serverupgrade/microsoft-certificateauthority-enrollment-serverupgrade/settings"/>
+    <component displayname="UpdateServices-Common" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/updateservices-common/updateservices-common/settings"/>
+    <component displayname="UpdateServices-Services" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/updateservices-services/updateservices-services/settings"/>
+    <component displayname="TSPortalWeb" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/tsportalweb/tsportalweb/settings"/>
+    <component displayname="Microsoft-CertificateServices-OCSP-ServerUpgrade-Replacement" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-certificateservices-ocsp-serverupgrade-replacement/microsoft-certificateservices-ocsp-serverupgrade-replacement/settings"/>
+    <component displayname="Microsoft-Windows-NetFx4-RM" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-netfx4-rm/microsoft-windows-netfx4-rm/settings"/>
+    <component displayname="Microsoft-ActiveDirectory-WebServices" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-activedirectory-webservices/microsoft-activedirectory-webservices/settings"/>
+    <component displayname="Microsoft-CertificateServices-WebEnrollment-ServerUpgrade-Replacement" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-certificateservices-webenrollment-serverupgrade-replacement/microsoft-certificateservices-webenrollment-serverupgrade-replacement/settings"/>
+    <component displayname="Microsoft-Windows-Slb-Mux" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-slb-mux/microsoft-windows-slb-mux/settings"/>
+    <component displayname="Microsoft-Windows-GroupPolicy-Admin-Gpedit-Snapin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-grouppolicy-admin-gpedit-snapin/microsoft-windows-grouppolicy-admin-gpedit-snapin/settings"/>
+    <component displayname="Windows-SenseClient-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-senseclient-service/windows-senseclient-service/settings"/>
+    <component displayname="Microsoft-Windows-AppManagement-AppVClient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-appmanagement-appvclient/microsoft-windows-appmanagement-appvclient/settings"/>
+    <component displayname="Microsoft-Windows-AppManagement-UEVAgent" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-appmanagement-uevagent/microsoft-windows-appmanagement-uevagent/settings"/>
+    <component displayname="Microsoft-Windows-AppManagement-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-appmanagement-migration/microsoft-windows-appmanagement-migration/settings"/>
+    <component displayname="Microsoft-Windows-GroupPolicy-GPMC" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-grouppolicy-gpmc/microsoft-windows-grouppolicy-gpmc/settings"/>
+    <component displayname="Microsoft-Windows-MobilePC-PresentationSettings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mobilepc-presentationsettings/microsoft-windows-mobilepc-presentationsettings/settings"/>
+    <component displayname="Microsoft-Windows-GroupPolicy-GPMC-Api" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-grouppolicy-gpmc-api/microsoft-windows-grouppolicy-gpmc-api/settings"/>
+    <component displayname="Microsoft-Windows-DeviceGuard-GPEXT" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-deviceguard-gpext/microsoft-windows-deviceguard-gpext/settings"/>
+    <component displayname="Microsoft-Windows-GroupPolicy-CSE-SoftwareInstallation" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-grouppolicy-cse-softwareinstallation/microsoft-windows-grouppolicy-cse-softwareinstallation/settings"/>
+    <component displayname="Microsoft-Windows-PeerDist-Upgrade" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-peerdist-upgrade/microsoft-windows-peerdist-upgrade/settings"/>
+    <component displayname="Microsoft-Windows-Security-SecondaryAuthFactor-Adm" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-secondaryauthfactor-adm/microsoft-windows-security-secondaryauthfactor-adm/settings"/>
+    <component displayname="Microsoft-Windows-Management-SecureAssessment-Config" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-management-secureassessment-config/microsoft-windows-management-secureassessment-config/settings"/>
+    <component displayname="Microsoft-Windows-TerminalServices-RemoteApplications-ClientSku" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-remoteapplications-clientsku/microsoft-windows-terminalservices-remoteapplications-clientsku/settings"/>
+    <component displayname="Microsoft-Windows-TerminalServices-Publishing-WMIProvider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-publishing-wmiprovider/microsoft-windows-terminalservices-publishing-wmiprovider/settings"/>
+    <component displayname="Microsoft-Windows-OfflineFiles-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-offlinefiles-core/microsoft-windows-offlinefiles-core/settings"/>
+    <component displayname="Microsoft-Windows-Embedded-EmbeddedAppLauncher-Client" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-embedded-embeddedapplauncher-client/microsoft-windows-embedded-embeddedapplauncher-client/settings"/>
+    <component displayname="Microsoft-Windows-Security-Passport-Adm" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-passport-adm/microsoft-windows-security-passport-adm/settings"/>
+    <component displayname="Microsoft-Windows-SettingSync" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-settingsync/microsoft-windows-settingsync/settings"/>
+    <component displayname="Microsoft-Windows-Application-Experience-Program-Data" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-application-experience-program-data/microsoft-windows-application-experience-program-data/settings"/>
+    <component displayname="Microsoft-Windows-InputService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-inputservice/microsoft-windows-inputservice/settings"/>
+    <component displayname="Microsoft-Windows-DeliveryOptimization" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-deliveryoptimization/microsoft-windows-deliveryoptimization/settings"/>
+    <component displayname="Microsoft-Windows-Security-NTLM" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-ntlm/microsoft-windows-security-ntlm/settings"/>
+    <component displayname="Microsoft-Windows-Provisioning-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-provisioning-core/microsoft-windows-provisioning-core/settings"/>
+    <component displayname="Microsoft-Windows-Pnidui" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-pnidui/microsoft-windows-pnidui/settings"/>
+    <component displayname="Microsoft-Windows-SystemSettingsThreshold" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-systemsettingsthreshold/microsoft-windows-systemsettingsthreshold/settings"/>
+    <component displayname="Microsoft-Windows-Analog-FaceRecognitionCredentialProvider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-analog-facerecognitioncredentialprovider/microsoft-windows-analog-facerecognitioncredentialprovider/settings"/>
+    <component displayname="Microsoft-Windows-DeviceCensus" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-devicecensus/microsoft-windows-devicecensus/settings"/>
+    <component displayname="Microsoft-Windows-OneCoreUAP-Wlansvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-onecoreuap-wlansvc/microsoft-windows-onecoreuap-wlansvc/settings"/>
+    <component displayname="Microsoft-Windows-TwinUI" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-twinui/microsoft-windows-twinui/settings"/>
+    <component displayname="Microsoft-Windows-TerminalServices-ClientActiveXCore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-clientactivexcore/microsoft-windows-terminalservices-clientactivexcore/settings"/>
+    <component displayname="Microsoft-Windows-MediaPlayer-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mediaplayer-core/microsoft-windows-mediaplayer-core/settings"/>
+    <component displayname="Microsoft-Windows-Time-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-time-service/microsoft-windows-time-service/settings"/>
+    <component displayname="Microsoft-Windows-Analog-FaceRecognitionAdapters" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-analog-facerecognitionadapters/microsoft-windows-analog-facerecognitionadapters/settings"/>
+    <component displayname="Microsoft-Windows-MFSrcSnk" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mfsrcsnk/microsoft-windows-mfsrcsnk/settings"/>
+    <component displayname="Microsoft-Media-Capture-Internal-BroadcastDVR" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-media-capture-internal-broadcastdvr/microsoft-media-capture-internal-broadcastdvr/settings"/>
+    <component displayname="Microsoft-Windows-Bits-Client-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-bits-client-core/microsoft-windows-bits-client-core/settings"/>
+    <component displayname="Microsoft-Windows-MFPlat" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mfplat/microsoft-windows-mfplat/settings"/>
+    <component displayname="Microsoft-Windows-Web-App-Host" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-web-app-host/microsoft-windows-web-app-host/settings"/>
+    <component displayname="Microsoft-Client-License-Platform-Service-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-client-license-platform-service-migration/microsoft-client-license-platform-service-migration/settings"/>
+    <component displayname="Microsoft-Windows-IE-AdminKitBranding" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ie-adminkitbranding/microsoft-windows-ie-adminkitbranding/settings"/>
+    <component displayname="Microsoft-Windows-PartitionManager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-partitionmanager/microsoft-windows-partitionmanager/settings"/>
+    <component displayname="Microsoft-Windows-WindowsUpdateClient-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-windowsupdateclient-core/microsoft-windows-windowsupdateclient-core/settings"/>
+    <component displayname="Microsoft-Windows-TCPIP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tcpip/microsoft-windows-tcpip/settings"/>
+    <component displayname="Microsoft-Windows-BrokerInfrastructure" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-brokerinfrastructure/microsoft-windows-brokerinfrastructure/settings"/>
+    <component displayname="Microsoft-Windows-International-TimeZones" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-international-timezones/microsoft-windows-international-timezones/settings"/>
+    <component displayname="Microsoft-Windows-WindowsUpdateClient-InstallAgent" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-windowsupdateclient-installagent/microsoft-windows-windowsupdateclient-installagent/settings"/>
+    <component displayname="Microsoft-Windows-SettingSyncCore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-settingsynccore/microsoft-windows-settingsynccore/settings"/>
+    <component displayname="Microsoft-Windows-TerminalServices-TerminalServicesClient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-terminalservicesclient/microsoft-windows-terminalservices-terminalservicesclient/settings"/>
+    <component displayname="Microsoft-Windows-Security-Kerberos" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-kerberos/microsoft-windows-security-kerberos/settings"/>
+    <component displayname="Microsoft-Windows-ModernExecServer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-modernexecserver/microsoft-windows-modernexecserver/settings"/>
+    <component displayname="Microsoft-Windows-Authentication-AuthUI-Component" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-authentication-authui-component/microsoft-windows-authentication-authui-component/settings"/>
+    <component displayname="Microsoft-Windows-AppX-Deployment-Server" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-appx-deployment-server/microsoft-windows-appx-deployment-server/settings"/>
+    <component displayname="Microsoft-Windows-Auto-Time-Zone-Updater-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-auto-time-zone-updater-service/microsoft-windows-auto-time-zone-updater-service/settings"/>
+    <component displayname="Microsoft-Windows-WMPNSS-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wmpnss-service/microsoft-windows-wmpnss-service/settings"/>
+    <component displayname="Microsoft-Windows-StorageService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-storageservice/microsoft-windows-storageservice/settings"/>
+    <component displayname="Microsoft-Windows-Store-Runtime" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-store-runtime/microsoft-windows-store-runtime/settings"/>
+    <component displayname="Microsoft-Windows-MSMPEG2VDEC" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-msmpeg2vdec/microsoft-windows-msmpeg2vdec/settings"/>
+    <component displayname="Microsoft-Windows-NTFS" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ntfs/microsoft-windows-ntfs/settings"/>
+    <component displayname="Microsoft-Windows-Security-SPP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-spp/microsoft-windows-security-spp/settings"/>
+    <component displayname="Microsoft-Windows-WinMDE" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-winmde/microsoft-windows-winmde/settings"/>
+    <component displayname="Microsoft-Windows-Security-Schannel" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-schannel/microsoft-windows-security-schannel/settings"/>
+    <component displayname="Microsoft-Windows-IIS-SharedLibraries" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-iis-sharedlibraries/microsoft-windows-iis-sharedlibraries/settings"/>
+    <component displayname="Microsoft-Windows-NETFX35LinqComp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-netfx35linqcomp/microsoft-windows-netfx35linqcomp/settings"/>
+    <component displayname="Microsoft-Windows-WCFCoreComp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wcfcorecomp/microsoft-windows-wcfcorecomp/settings"/>
+    <component displayname="Microsoft-Windows-NETFXCoreComp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-netfxcorecomp/microsoft-windows-netfxcorecomp/settings"/>
+    <component displayname="Microsoft-Windows-NETFX35CDFComp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-netfx35cdfcomp/microsoft-windows-netfx35cdfcomp/settings"/>
+    <component displayname="Microsoft-Windows-MobilePC-Sensors-CPL" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mobilepc-sensors-cpl/microsoft-windows-mobilepc-sensors-cpl/settings"/>
+    <component displayname="Microsoft-Windows-MobilePC-Sensors-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mobilepc-sensors-service/microsoft-windows-mobilepc-sensors-service/settings"/>
+    <component displayname="Microsoft-Windows-MobilePC-Sensors-DriverClassExtension" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mobilepc-sensors-driverclassextension/microsoft-windows-mobilepc-sensors-driverclassextension/settings"/>
+    <component displayname="Microsoft-Windows-Disk-Failure-Diagnostic-Module" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-disk-failure-diagnostic-module/microsoft-windows-disk-failure-diagnostic-module/settings"/>
+    <component displayname="snippingtool_settings" migrate="yes" ID="snippingtool_settings">
+      <component displayname="Microsoft-Windows-SnippingTool-App" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-snippingtool-app/microsoft-windows-snippingtool-app/settings"/>
+    </component>
+    <component displayname="Microsoft-Windows-SystemMaintenanceService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-systemmaintenanceservice/microsoft-windows-systemmaintenanceservice/settings"/>
+    <component displayname="Microsoft-Windows-Resource-Exhaustion-Resolver-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-resource-exhaustion-resolver-core/microsoft-windows-resource-exhaustion-resolver-core/settings"/>
+    <component displayname="Microsoft-Windows-CoreMmRes" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-coremmres/microsoft-windows-coremmres/settings"/>
+    <component displayname="Microsoft-Windows-Cortana-BrokeredApi-Desktop" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-cortana-brokeredapi-desktop/microsoft-windows-cortana-brokeredapi-desktop/settings"/>
+    <component displayname="Microsoft-Windows-WMI-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wmi-core/microsoft-windows-wmi-core/settings"/>
+    <component displayname="Microsoft-Windows-fontext" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fontext/microsoft-windows-fontext/settings"/>
+    <component displayname="Microsoft-Windows-TetheringMgr" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tetheringmgr/microsoft-windows-tetheringmgr/settings"/>
+    <component displayname="Microsoft-Windows-ManagementRegistration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-managementregistration/microsoft-windows-managementregistration/settings"/>
+    <component displayname="FDResPub" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/fdrespub/fdrespub/settings"/>
+    <component displayname="Microsoft-Windows-PhotoAcquire" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-photoacquire/microsoft-windows-photoacquire/settings"/>
+    <component displayname="Microsoft-Windows-GroupPolicy-Admin-Gpedit" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-grouppolicy-admin-gpedit/microsoft-windows-grouppolicy-admin-gpedit/settings"/>
+    <component displayname="Microsoft-Windows-Cryptography-CryptoEccCurves" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-cryptography-cryptoecccurves/microsoft-windows-cryptography-cryptoecccurves/settings"/>
+    <component displayname="Microsoft-Windows-Shutdown-Event-Tracker" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-shutdown-event-tracker/microsoft-windows-shutdown-event-tracker/settings"/>
+    <component displayname="Microsoft-Windows-HtmlHelp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-htmlhelp/microsoft-windows-htmlhelp/settings"/>
+    <component displayname="FunDisc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/fundisc/fundisc/settings"/>
+    <component displayname="Microsoft-Windows-ScriptedDiagnosticsClient-Scheduled" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-scripteddiagnosticsclient-scheduled/microsoft-windows-scripteddiagnosticsclient-scheduled/settings"/>
+    <component displayname="Microsoft-Windows-ReliabilityAnalysisConfig" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-reliabilityanalysisconfig/microsoft-windows-reliabilityanalysisconfig/settings"/>
+    <component displayname="Microsoft-Windows-DCP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dcp/microsoft-windows-dcp/settings"/>
+    <component displayname="Microsoft-Windows-Application-Experience-Infrastructure" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-application-experience-infrastructure/microsoft-windows-application-experience-infrastructure/settings"/>
+    <component displayname="Microsoft-Windows-MMDeviceAPI" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mmdeviceapi/microsoft-windows-mmdeviceapi/settings"/>
+    <component displayname="Microsoft-Windows-Netshell" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-netshell/microsoft-windows-netshell/settings"/>
+    <component displayname="Microsoft-Windows-ContentDeliveryManager-Utilities" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-contentdeliverymanager-utilities/microsoft-windows-contentdeliverymanager-utilities/settings"/>
+    <component displayname="Microsoft-Windows-DFSClient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dfsclient/microsoft-windows-dfsclient/settings"/>
+    <component displayname="Windows-ID-Connected-Account-Provider-Configuration-Production" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-id-connected-account-provider-configuration-production/windows-id-connected-account-provider-configuration-production/settings"/>
+    <component displayname="Microsoft-Windows-TetheringStation" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tetheringstation/microsoft-windows-tetheringstation/settings"/>
+    <component displayname="Microsoft-Windows-Volsnap" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-volsnap/microsoft-windows-volsnap/settings"/>
+    <component displayname="Microsoft-Windows-DataIntegrityScan" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dataintegrityscan/microsoft-windows-dataintegrityscan/settings"/>
+    <component displayname="Microsoft-Windows-RasServer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasserver/microsoft-windows-rasserver/settings"/>
+    <component displayname="Microsoft-Windows-CDPSvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-cdpsvc/microsoft-windows-cdpsvc/settings"/>
+    <component displayname="Microsoft-Windows-powercpl" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-powercpl/microsoft-windows-powercpl/settings"/>
+    <component displayname="Microsoft-Windows-ELAM" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-elam/microsoft-windows-elam/settings"/>
+    <component displayname="Microsoft-Windows-AdvertisingId" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-advertisingid/microsoft-windows-advertisingid/settings"/>
+    <component displayname="Microsoft-Windows-UsbMigPlugin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-usbmigplugin/microsoft-windows-usbmigplugin/settings"/>
+    <component displayname="Microsoft-Windows-Active-Directory-Services-Interface-WinNT-Provider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-active-directory-services-interface-winnt-provider/microsoft-windows-active-directory-services-interface-winnt-provider/settings"/>
+    <component displayname="Microsoft-Windows-Network-Security-Domain-Clients-Svc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-network-security-domain-clients-svc/microsoft-windows-network-security-domain-clients-svc/settings"/>
+    <component displayname="Microsoft-Windows-MapControl-Desktop" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mapcontrol-desktop/microsoft-windows-mapcontrol-desktop/settings"/>
+    <component displayname="Microsoft-Windows-TerminalServices-RDP-WinStationExtensions" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-rdp-winstationextensions/microsoft-windows-terminalservices-rdp-winstationextensions/settings"/>
+    <component displayname="Microsoft-Windows-SruMon" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-srumon/microsoft-windows-srumon/settings"/>
+    <component displayname="Microsoft-Windows-BootEnvironment-DVD-minkernel" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-bootenvironment-dvd-minkernel/microsoft-windows-bootenvironment-dvd-minkernel/settings"/>
+    <component displayname="Microsoft-Windows-Winlogon" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-winlogon/microsoft-windows-winlogon/settings"/>
+    <component displayname="Microsoft-Windows-PushNotifications-Platform-Library" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-pushnotifications-platform-library/microsoft-windows-pushnotifications-platform-library/settings"/>
+    <component displayname="Microsoft-Windows-NetworkProfile" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-networkprofile/microsoft-windows-networkprofile/settings"/>
+    <component displayname="Windows-ID-Connected-Account-Provider-WLIDSsp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-id-connected-account-provider-wlidssp/windows-id-connected-account-provider-wlidssp/settings"/>
+    <component displayname="Microsoft-Windows-WebDAVRedir-MrxDAV" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-webdavredir-mrxdav/microsoft-windows-webdavredir-mrxdav/settings"/>
+    <component displayname="Microsoft-Windows-SecureStartup-DeviceEncryption" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-securestartup-deviceencryption/microsoft-windows-securestartup-deviceencryption/settings"/>
+    <component displayname="Microsoft-Windows-Extensible-Authentication-Protocol-Host-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-extensible-authentication-protocol-host-service/microsoft-windows-extensible-authentication-protocol-host-service/settings"/>
+    <component displayname="Microsoft-Windows-WBioSrvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wbiosrvc/microsoft-windows-wbiosrvc/settings"/>
+    <component displayname="Microsoft-Windows-SystemEventsBroker-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-systemeventsbroker-migration/microsoft-windows-systemeventsbroker-migration/settings"/>
+    <component displayname="Microsoft-Windows-Unified-Telemetry-Client" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-unified-telemetry-client/microsoft-windows-unified-telemetry-client/settings"/>
+    <component displayname="Microsoft-Windows-AdvancedTaskManager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-advancedtaskmanager/microsoft-windows-advancedtaskmanager/settings"/>
+    <component displayname="Microsoft-Windows-RasmanService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasmanservice/microsoft-windows-rasmanservice/settings"/>
+    <component displayname="Windows-ID-Connected-Account-Provider-Configuration-Int" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-id-connected-account-provider-configuration-int/windows-id-connected-account-provider-configuration-int/settings"/>
+    <component displayname="Microsoft-Windows-HelpAndSupport" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-helpandsupport/microsoft-windows-helpandsupport/settings"/>
+    <component displayname="Microsoft-Windows-WwanSvc-ServerCfg" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wwansvc-servercfg/microsoft-windows-wwansvc-servercfg/settings"/>
+    <component displayname="Microsoft-Windows-EnterpriseClientSync-Host" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-enterpriseclientsync-host/microsoft-windows-enterpriseclientsync-host/settings"/>
+    <component displayname="Microsoft-Windows-Client-SQM-Consolidator" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-client-sqm-consolidator/microsoft-windows-client-sqm-consolidator/settings"/>
+    <component displayname="Microsoft-Windows-WPD-BusEnumService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wpd-busenumservice/microsoft-windows-wpd-busenumservice/settings"/>
+    <component displayname="NETFX4CLIENTCoreComp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/netfx4clientcorecomp/netfx4clientcorecomp/settings"/>
+    <component displayname="Microsoft-Windows-BootEnvironment-DVD-EFI" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-bootenvironment-dvd-efi/microsoft-windows-bootenvironment-dvd-efi/settings"/>
+    <component displayname="Microsoft-Windows-TaskScheduler-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-taskscheduler-service/microsoft-windows-taskscheduler-service/settings"/>
+    <component displayname="Microsoft-Windows-fdeploy" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fdeploy/microsoft-windows-fdeploy/settings"/>
+    <component displayname="Microsoft-Windows-Security-ExchangeActiveSyncProvisioning" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-exchangeactivesyncprovisioning/microsoft-windows-security-exchangeactivesyncprovisioning/settings"/>
+    <component displayname="Microsoft-Windows-propsys" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-propsys/microsoft-windows-propsys/settings"/>
+    <component displayname="Microsoft-Windows-AppIDCore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-appidcore/microsoft-windows-appidcore/settings"/>
+    <component displayname="Microsoft-Windows-DafDockingProvider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dafdockingprovider/microsoft-windows-dafdockingprovider/settings"/>
+    <component displayname="tablet_pc_settings" migrate="yes" ID="tablet_pc_settings">
+      <component displayname="tablet_pc_settings\handwriting_recognition" migrate="yes" ID="tablet_pc_settings\handwriting_recognition">
+        <component displayname="Microsoft-Windows-TabletPC-InputPersonalization" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tabletpc-inputpersonalization/microsoft-windows-tabletpc-inputpersonalization/settings"/>
+        <component displayname="Microsoft-Windows-TabletPC-CoreInkRecognition" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tabletpc-coreinkrecognition/microsoft-windows-tabletpc-coreinkrecognition/settings"/>
+      </component>
+      <component displayname="tablet_pc_settings\tablet_pc_input_panel" migrate="yes" ID="tablet_pc_settings\tablet_pc_input_panel">
+        <component displayname="Microsoft-Windows-TabletPC-InputPanel" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tabletpc-inputpanel/microsoft-windows-tabletpc-inputpanel/settings"/>
+      </component>
+      <component displayname="tablet_pc_settings\tablet_pc_general_options" migrate="yes" ID="tablet_pc_settings\tablet_pc_general_options">
+        <component displayname="Microsoft-Windows-TabletPC-Platform-Input-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tabletpc-platform-input-core/microsoft-windows-tabletpc-platform-input-core/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-WebDAVRedir-ClientOnly" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-webdavredir-clientonly/microsoft-windows-webdavredir-clientonly/settings"/>
+    <component displayname="Microsoft.Windows.PowerShell.Common" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft.windows.powershell.common/microsoft.windows.powershell.common/settings"/>
+    <component displayname="Microsoft-Windows-WindowsSystemAssessmentTool" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-windowssystemassessmenttool/microsoft-windows-windowssystemassessmenttool/settings"/>
+    <component displayname="Microsoft-Windows-HomeGroup-ListSvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-homegroup-listsvc/microsoft-windows-homegroup-listsvc/settings"/>
+    <component displayname="Microsoft-Windows-Media-Import-API" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-media-import-api/microsoft-windows-media-import-api/settings"/>
+    <component displayname="Microsoft-Windows-QuickActions-Definitions" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-quickactions-definitions/microsoft-windows-quickactions-definitions/settings"/>
+    <component displayname="Microsoft-Windows-SMBServer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-smbserver/microsoft-windows-smbserver/settings"/>
+    <component displayname="Networking-MPSSVC" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/networking-mpssvc/networking-mpssvc/settings"/>
+    <component displayname="Microsoft-Windows-SecureStartup-FilterDriver" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-securestartup-filterdriver/microsoft-windows-securestartup-filterdriver/settings"/>
+    <component displayname="Microsoft-Windows-HTTP-API" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-http-api/microsoft-windows-http-api/settings"/>
+    <component displayname="Microsoft-Windows-Security-Digest" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-digest/microsoft-windows-security-digest/settings"/>
+    <component displayname="Microsoft-Windows-ALG" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-alg/microsoft-windows-alg/settings"/>
+    <component displayname="Microsoft-Windows-SecurityCenter-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-securitycenter-core/microsoft-windows-securitycenter-core/settings"/>
+    <component displayname="Microsoft-Windows-TPM-Driver-WMI" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tpm-driver-wmi/microsoft-windows-tpm-driver-wmi/settings"/>
+    <component displayname="Microsoft-Windows-RecoveryServices" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-recoveryservices/microsoft-windows-recoveryservices/settings"/>
+    <component displayname="Microsoft-Windows-Active-Directory-Services-Interface-LDAP-Extensions" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-active-directory-services-interface-ldap-extensions/microsoft-windows-active-directory-services-interface-ldap-extensions/settings"/>
+    <component displayname="accessibility" migrate="yes" ID="accessibility">
+      <component displayname="accessibility\accessibility_settings" migrate="yes" ID="accessibility\accessibility_settings">
+        <component displayname="Microsoft-Windows-accessibilitycpl" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-accessibilitycpl/microsoft-windows-accessibilitycpl/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-DeviceRegistration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-deviceregistration/microsoft-windows-deviceregistration/settings"/>
+    <component displayname="Microsoft-Windows-Security-Biometrics-CredentialProvider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-biometrics-credentialprovider/microsoft-windows-security-biometrics-credentialprovider/settings"/>
+    <component displayname="Microsoft-Windows-DeviceAssociationFramework" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-deviceassociationframework/microsoft-windows-deviceassociationframework/settings"/>
+    <component displayname="Microsoft-Windows-CoreOS" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-coreos/microsoft-windows-coreos/settings"/>
+    <component displayname="Microsoft.Windows.WinHTTP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft.windows.winhttp/microsoft.windows.winhttp/settings"/>
+    <component displayname="Microsoft-Windows-Application-Experience-Program-Compatibility-Assistant" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-application-experience-program-compatibility-assistant/microsoft-windows-application-experience-program-compatibility-assistant/settings"/>
+    <component displayname="Windows-Defender-AM-Sigs" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-defender-am-sigs/windows-defender-am-sigs/settings"/>
+    <component displayname="Microsoft-Windows-FileHistory-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-filehistory-core/microsoft-windows-filehistory-core/settings"/>
+    <component displayname="Microsoft-Windows-NetworkBridge" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-networkbridge/microsoft-windows-networkbridge/settings"/>
+    <component displayname="Microsoft-Windows-Font-TrueType-FontsRegistrySettingsMigration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-font-truetype-fontsregistrysettingsmigration/microsoft-windows-font-truetype-fontsregistrysettingsmigration/settings"/>
+    <component displayname="Microsoft-Windows-Update-Ux-MusScnHandlers" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-update-ux-musscnhandlers/microsoft-windows-update-ux-musscnhandlers/settings"/>
+    <component displayname="Microsoft-Windows-Flighting-Settings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-flighting-settings/microsoft-windows-flighting-settings/settings"/>
+    <component displayname="Microsoft-Windows-ncrypt-platformKeyStorage-dll" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ncrypt-platformkeystorage-dll/microsoft-windows-ncrypt-platformkeystorage-dll/settings"/>
+    <component displayname="Microsoft-Windows-mmsys" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mmsys/microsoft-windows-mmsys/settings"/>
+    <component displayname="Microsoft-Windows-UserInit" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-userinit/microsoft-windows-userinit/settings"/>
+    <component displayname="Microsoft-Windows-ProfsvcExt" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-profsvcext/microsoft-windows-profsvcext/settings"/>
+    <component displayname="Microsoft-Windows-PeerToPeerPNRP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-peertopeerpnrp/microsoft-windows-peertopeerpnrp/settings"/>
+    <component displayname="Microsoft-Windows-HAL" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-hal/microsoft-windows-hal/settings"/>
+    <component displayname="Microsoft-Windows-TabletPC-Tabbtn" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tabletpc-tabbtn/microsoft-windows-tabletpc-tabbtn/settings"/>
+    <component displayname="Microsoft-Windows-Networking-Internet_Authentication_Service_Runtime" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-networking-internet_authentication_service_runtime/microsoft-windows-networking-internet_authentication_service_runtime/settings"/>
+    <component displayname="Microsoft-Windows-Shell-Sounds" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-shell-sounds/microsoft-windows-shell-sounds/settings"/>
+    <component displayname="WindowsSearchEngine" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windowssearchengine/windowssearchengine/settings"/>
+    <component displayname="Microsoft-Windows-DeviceAccess" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-deviceaccess/microsoft-windows-deviceaccess/settings"/>
+    <component displayname="Microsoft-Windows-OS-Kernel-MinWin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-os-kernel-minwin/microsoft-windows-os-kernel-minwin/settings"/>
+    <component displayname="Networking-MPSSVC-Admin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/networking-mpssvc-admin/networking-mpssvc-admin/settings"/>
+    <component displayname="Microsoft-Windows-MFMPEG2SrcSnk" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mfmpeg2srcsnk/microsoft-windows-mfmpeg2srcsnk/settings"/>
+    <component displayname="Microsoft-Windows-HTTP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-http/microsoft-windows-http/settings"/>
+    <component displayname="Microsoft-Windows-Sxs" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-sxs/microsoft-windows-sxs/settings"/>
+    <component displayname="Microsoft-Windows-Winsock-Core-Infrastructure" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-winsock-core-infrastructure/microsoft-windows-winsock-core-infrastructure/settings"/>
+    <component displayname="WSDApi" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/wsdapi/wsdapi/settings"/>
+    <component displayname="Microsoft-Windows-Authentication-SmartcardCredentialProvider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-authentication-smartcardcredentialprovider/microsoft-windows-authentication-smartcardcredentialprovider/settings"/>
+    <component displayname="Microsoft-Windows-Resource-Exhaustion-Detector-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-resource-exhaustion-detector-core/microsoft-windows-resource-exhaustion-detector-core/settings"/>
+    <component displayname="Microsoft-Windows-SystemRestore-Main" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-systemrestore-main/microsoft-windows-systemrestore-main/settings"/>
+    <component displayname="Microsoft-Windows-Security-NGC-PopKeySrv" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-ngc-popkeysrv/microsoft-windows-security-ngc-popkeysrv/settings"/>
+    <component displayname="Microsoft-Windows-Security-Netlogon" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-netlogon/microsoft-windows-security-netlogon/settings"/>
+    <component displayname="Microsoft-Windows-DeviceMetadataRetrievalClient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-devicemetadataretrievalclient/microsoft-windows-devicemetadataretrievalclient/settings"/>
+    <component displayname="Microsoft-Windows-Security-CloudAP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-cloudap/microsoft-windows-security-cloudap/settings"/>
+    <component displayname="Microsoft-Windows-IE-PDM-Configuration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ie-pdm-configuration/microsoft-windows-ie-pdm-configuration/settings"/>
+    <component displayname="Microsoft-Windows-GPIOButtons" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-gpiobuttons/microsoft-windows-gpiobuttons/settings"/>
+    <component displayname="Microsoft-Windows-Power-Policy-Definitions" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-power-policy-definitions/microsoft-windows-power-policy-definitions/settings"/>
+    <component displayname="Microsoft-Windows-TerminalServices-LocalSessionManager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-localsessionmanager/microsoft-windows-terminalservices-localsessionmanager/settings"/>
+    <component displayname="Microsoft-Windows-TpmScrMigPlugin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tpmscrmigplugin/microsoft-windows-tpmscrmigplugin/settings"/>
+    <component displayname="Microsoft-Windows-HotspotAuth" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-hotspotauth/microsoft-windows-hotspotauth/settings"/>
+    <component displayname="Microsoft-Windows-X509CertificateEnrollment" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-x509certificateenrollment/microsoft-windows-x509certificateenrollment/settings"/>
+    <component displayname="Microsoft-Windows-Audio-VolumeControl" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-audio-volumecontrol/microsoft-windows-audio-volumecontrol/settings"/>
+    <component displayname="Microsoft-Windows-Geolocation-Framework" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-geolocation-framework/microsoft-windows-geolocation-framework/settings"/>
+    <component displayname="Microsoft-Windows-DisplayConfigSettings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-displayconfigsettings/microsoft-windows-displayconfigsettings/settings"/>
+    <component displayname="Microsoft-Windows-BootEnvironment-DVD-PCAT" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-bootenvironment-dvd-pcat/microsoft-windows-bootenvironment-dvd-pcat/settings"/>
+    <component displayname="Windows-ID-Connected-Account-Provider-WLIDSvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-id-connected-account-provider-wlidsvc/windows-id-connected-account-provider-wlidsvc/settings"/>
+    <component displayname="Microsoft-Windows-BootEnvironment-DVD" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-bootenvironment-dvd/microsoft-windows-bootenvironment-dvd/settings"/>
+    <component displayname="Microsoft-Windows-Wininit" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wininit/microsoft-windows-wininit/settings"/>
+    <component displayname="NetFx-WCF-TcpPortSharing" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/netfx-wcf-tcpportsharing/netfx-wcf-tcpportsharing/settings"/>
+    <component displayname="NETFX4-WCF-EXTENDED" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/netfx4-wcf-extended/netfx4-wcf-extended/settings"/>
+    <component displayname="Microsoft-Windows-VssService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-vssservice/microsoft-windows-vssservice/settings"/>
+    <component displayname="Microsoft-Windows-DNS-Client-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dns-client-core/microsoft-windows-dns-client-core/settings"/>
+    <component displayname="Microsoft-Windows-NetworkDiagnostics-Package" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-networkdiagnostics-package/microsoft-windows-networkdiagnostics-package/settings"/>
+    <component displayname="Networking-MPSSVC-Svc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/networking-mpssvc-svc/networking-mpssvc-svc/settings"/>
+    <component displayname="Microsoft-Windows-AppX-AllUserStore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-appx-alluserstore/microsoft-windows-appx-alluserstore/settings"/>
+    <component displayname="Microsoft-Windows-Security-IdentityStore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-identitystore/microsoft-windows-security-identitystore/settings"/>
+    <component displayname="Microsoft-Windows-ntshrui" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ntshrui/microsoft-windows-ntshrui/settings"/>
+    <component displayname="Microsoft-Windows-Mup" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mup/microsoft-windows-mup/settings"/>
+    <component displayname="Microsoft-Windows-Kernel-PnP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-kernel-pnp/microsoft-windows-kernel-pnp/settings"/>
+    <component displayname="Microsoft-Windows-BLB-Engine-Main" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-blb-engine-main/microsoft-windows-blb-engine-main/settings"/>
+    <component displayname="Microsoft-Windows-CodeIntegrity" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-codeintegrity/microsoft-windows-codeintegrity/settings"/>
+    <component displayname="Microsoft-Windows-Winsock-Core-Infrastructure-Upgrade" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-winsock-core-infrastructure-upgrade/microsoft-windows-winsock-core-infrastructure-upgrade/settings"/>
+    <component displayname="Microsoft-Windows-Sensors-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-sensors-core/microsoft-windows-sensors-core/settings"/>
+    <component displayname="Microsoft-Windows-Memory-Diagnostic-Task-Handler" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-memory-diagnostic-task-handler/microsoft-windows-memory-diagnostic-task-handler/settings"/>
+    <component displayname="Microsoft-Windows-Network-Security-Domain-Clients" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-network-security-domain-clients/microsoft-windows-network-security-domain-clients/settings"/>
+    <component displayname="Microsoft-Windows-ErrorReportingFaults" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-errorreportingfaults/microsoft-windows-errorreportingfaults/settings"/>
+    <component displayname="network_and_internet" migrate="yes" ID="network_and_internet">
+      <component displayname="network_and_internet\internet_options" migrate="yes" ID="network_and_internet\internet_options">
+        <component displayname="Microsoft-Windows-ieframe" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ieframe/microsoft-windows-ieframe/settings"/>
+        <component displayname="Microsoft-Windows-IE-Feeds-Platform" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ie-feeds-platform/microsoft-windows-ie-feeds-platform/settings"/>
+        <component displayname="Microsoft-Windows-IE-ClientNetworkProtocolImplementation" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ie-clientnetworkprotocolimplementation/microsoft-windows-ie-clientnetworkprotocolimplementation/settings"/>
+        <component displayname="Microsoft-Windows-IE-InternetExplorer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ie-internetexplorer/microsoft-windows-ie-internetexplorer/settings"/>
+      </component>
+      <component displayname="network_and_internet\networking_connections" migrate="yes" ID="network_and_internet\networking_connections">
+        <component displayname="Microsoft-Windows-RasApi" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasapi/microsoft-windows-rasapi/settings"/>
+        <component displayname="Microsoft-Windows-Wlansvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wlansvc/microsoft-windows-wlansvc/settings"/>
+        <component displayname="Microsoft-Windows-VWiFi" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-vwifi/microsoft-windows-vwifi/settings"/>
+        <component displayname="Microsoft-Windows-Native-80211" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-native-80211/microsoft-windows-native-80211/settings"/>
+        <component displayname="Microsoft-Windows-Dot3svc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dot3svc/microsoft-windows-dot3svc/settings"/>
+        <component displayname="Microsoft-Windows-RasConnectionManager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasconnectionmanager/microsoft-windows-rasconnectionmanager/settings"/>
+        <component displayname="Microsoft-Windows-MPR" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mpr/microsoft-windows-mpr/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-sysdm" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-sysdm/microsoft-windows-sysdm/settings"/>
+    <component displayname="Microsoft-Windows-PeerToPeerGraphing" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-peertopeergraphing/microsoft-windows-peertopeergraphing/settings"/>
+    <component displayname="Microsoft-Windows-Active-Directory-Services-Interface-Router" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-active-directory-services-interface-router/microsoft-windows-active-directory-services-interface-router/settings"/>
+    <component displayname="Windows-Defender-AM-Engine" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/windows-defender-am-engine/windows-defender-am-engine/settings"/>
+    <component displayname="Microsoft-Windows-ParentalControlsSettings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-parentalcontrolssettings/microsoft-windows-parentalcontrolssettings/settings"/>
+    <component displayname="Microsoft-Windows-DNS-Client-MinWin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dns-client-minwin/microsoft-windows-dns-client-minwin/settings"/>
+    <component displayname="Microsoft-Windows-TaskScheduler-Compatibility" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-taskscheduler-compatibility/microsoft-windows-taskscheduler-compatibility/settings"/>
+    <component displayname="Microsoft-Windows-PeerToPeerGrouping" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-peertopeergrouping/microsoft-windows-peertopeergrouping/settings"/>
+    <component displayname="Microsoft-Windows-LUA-Settings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-lua-settings/microsoft-windows-lua-settings/settings"/>
+    <component displayname="Microsoft-Windows-Active-Directory-Services-Interface-LDAP-Provider" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-active-directory-services-interface-ldap-provider/microsoft-windows-active-directory-services-interface-ldap-provider/settings"/>
+    <component displayname="Microsoft-Windows-BTH-USER" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-bth-user/microsoft-windows-bth-user/settings"/>
+    <component displayname="Microsoft-Windows-ConfigurationClient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-configurationclient/microsoft-windows-configurationclient/settings"/>
+    <component displayname="sound_and_speech_recognition" migrate="yes" ID="sound_and_speech_recognition">
+      <component displayname="sound_and_speech_recognition\speech_recognition" migrate="yes" ID="sound_and_speech_recognition\speech_recognition">
+        <component displayname="Microsoft-Windows-SpeechCommon-OneCore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-speechcommon-onecore/microsoft-windows-speechcommon-onecore/settings"/>
+        <component displayname="Microsoft-Windows-SpeechCommon" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-speechcommon/microsoft-windows-speechcommon/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-Security-NGC-LocalAccountMigPlugin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-ngc-localaccountmigplugin/microsoft-windows-security-ngc-localaccountmigplugin/settings"/>
+    <component displayname="Microsoft-OneCore-TetheringService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-onecore-tetheringservice/microsoft-onecore-tetheringservice/settings"/>
+    <component displayname="Microsoft-Windows-PerformanceCounterInfrastructureConsumer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-performancecounterinfrastructureconsumer/microsoft-windows-performancecounterinfrastructureconsumer/settings"/>
+    <component displayname="Microsoft-Windows-Network-Security" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-network-security/microsoft-windows-network-security/settings"/>
+    <component displayname="Microsoft-Windows-Network-Security-Domain-Clients-Netsh" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-network-security-domain-clients-netsh/microsoft-windows-network-security-domain-clients-netsh/settings"/>
+    <component displayname="fdWSD" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/fdwsd/fdwsd/settings"/>
+    <component displayname="Microsoft-Windows-StorageMigration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-storagemigration/microsoft-windows-storagemigration/settings"/>
+    <component displayname="Security-Malware-Windows-Defender" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/security-malware-windows-defender/security-malware-windows-defender/settings"/>
+    <component displayname="Microsoft-Windows-RasBase-RasSstp" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasbase-rassstp/microsoft-windows-rasbase-rassstp/settings"/>
+    <component displayname="Microsoft-Windows-HomeGroup-ProvSvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-homegroup-provsvc/microsoft-windows-homegroup-provsvc/settings"/>
+    <component displayname="Microsoft-Windows-CloudStore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-cloudstore/microsoft-windows-cloudstore/settings"/>
+    <component displayname="Microsoft-Windows-GameUXMig" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-gameuxmig/microsoft-windows-gameuxmig/settings"/>
+    <component displayname="Microsoft-Windows-Resource-Leak-Diagnostic-Settings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-resource-leak-diagnostic-settings/microsoft-windows-resource-leak-diagnostic-settings/settings"/>
+    <component displayname="Microsoft-Windows-Unimodem-Config" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-unimodem-config/microsoft-windows-unimodem-config/settings"/>
+    <component displayname="Microsoft-Windows-Registry-Editor" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-registry-editor/microsoft-windows-registry-editor/settings"/>
+    <component displayname="Microsoft-Windows-Desktop_Technologies-Text_Input_Services-IME-EAShared-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-desktop_technologies-text_input_services-ime-eashared-migration/microsoft-windows-desktop_technologies-text_input_services-ime-eashared-migration/settings"/>
+    <component displayname="Microsoft-Windows-RetailDemo-Service.Deployment" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-retaildemo-service.deployment/microsoft-windows-retaildemo-service.deployment/settings"/>
+    <component displayname="Microsoft-Windows-IPv4IPv6CoexistenceMigration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ipv4ipv6coexistencemigration/microsoft-windows-ipv4ipv6coexistencemigration/settings"/>
+    <component displayname="Microsoft-Windows-LanguagesDB" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-languagesdb/microsoft-windows-languagesdb/settings"/>
+    <component displayname="Microsoft-Windows-WindowsMobileDevice-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-windowsmobiledevice-migration/microsoft-windows-windowsmobiledevice-migration/settings"/>
+    <component displayname="Microsoft-Windows-DeviceManagement-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-devicemanagement-migration/microsoft-windows-devicemanagement-migration/settings"/>
+    <component displayname="Microsoft-Windows-SafeDocs-Main" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-safedocs-main/microsoft-windows-safedocs-main/settings"/>
+    <component displayname="Microsoft-Windows-WorkstationService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-workstationservice/microsoft-windows-workstationservice/settings"/>
+    <component displayname="Microsoft-Windows-EventCollector" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-eventcollector/microsoft-windows-eventcollector/settings"/>
+    <component displayname="Microsoft-Windows-Type1-Fonts" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-type1-fonts/microsoft-windows-type1-fonts/settings"/>
+    <component displayname="Microsoft-Windows-Network-Setup" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-network-setup/microsoft-windows-network-setup/settings"/>
+    <component displayname="Microsoft-Windows-UDFS" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-udfs/microsoft-windows-udfs/settings"/>
+    <component displayname="policy.keys" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/policy.keys/policy.keys/settings"/>
+    <component displayname="date_time_language_and_region" migrate="yes" ID="date_time_language_and_region">
+      <component displayname="date_time_language_and_region\regional_language_options" migrate="yes" ID="date_time_language_and_region\regional_language_options">
+        <component displayname="Microsoft-Windows-MUI-Settings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mui-settings/microsoft-windows-mui-settings/settings"/>
+        <component displayname="Microsoft-Windows-IME-Traditional-Chinese-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ime-traditional-chinese-core/microsoft-windows-ime-traditional-chinese-core/settings"/>
+        <component displayname="Microsoft-Windows-TableDrivenTextService-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tabledriventextservice-migration/microsoft-windows-tabledriventextservice-migration/settings"/>
+        <component displayname="Microsoft-Windows-International-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-international-core/microsoft-windows-international-core/settings"/>
+        <component displayname="Microsoft-Windows-TextServicesFramework-Migration" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-textservicesframework-migration/microsoft-windows-textservicesframework-migration/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-RMAPI" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rmapi/microsoft-windows-rmapi/settings"/>
+    <component displayname="Microsoft-Windows-eudcedit" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-eudcedit/microsoft-windows-eudcedit/settings"/>
+    <component displayname="Microsoft-Windows-FSD" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fsd/microsoft-windows-fsd/settings"/>
+    <component displayname="Microsoft-Windows-DiagCpl" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-diagcpl/microsoft-windows-diagcpl/settings"/>
+    <component displayname="Microsoft-Windows-SharedAccess" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-sharedaccess/microsoft-windows-sharedaccess/settings"/>
+    <component displayname="Microsoft-Windows-Kernel32" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-kernel32/microsoft-windows-kernel32/settings"/>
+    <component displayname="Microsoft-Windows-ETW-core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-etw-core/microsoft-windows-etw-core/settings"/>
+    <component displayname="Microsoft-Windows-DHCP-Client-Dll-MinWin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dhcp-client-dll-minwin/microsoft-windows-dhcp-client-dll-minwin/settings"/>
+    <component displayname="Networking-MPSSVC-Netsh" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/networking-mpssvc-netsh/networking-mpssvc-netsh/settings"/>
+    <component displayname="programs" migrate="yes" ID="programs">
+      <component displayname="programs\media_center_settings" migrate="yes" ID="programs\media_center_settings">
+        <component displayname="Microsoft-Windows-Video-TVVideoControl" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-video-tvvideocontrol/microsoft-windows-video-tvvideocontrol/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-Smss-MinWin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-smss-minwin/microsoft-windows-smss-minwin/settings"/>
+    <component displayname="Microsoft-Windows-Font-FMS" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-font-fms/microsoft-windows-font-fms/settings"/>
+    <component displayname="Microsoft-Windows-PeerToPeerBase" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-peertopeerbase/microsoft-windows-peertopeerbase/settings"/>
+    <component displayname="Microsoft-Windows-Fault-Tolerant-Heap-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fault-tolerant-heap-core/microsoft-windows-fault-tolerant-heap-core/settings"/>
+    <component displayname="Microsoft-Windows-Networking-Internet_Authentication_Service_MigPlugin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-networking-internet_authentication_service_migplugin/microsoft-windows-networking-internet_authentication_service_migplugin/settings"/>
+    <component displayname="security" migrate="yes" ID="security">
+      <component displayname="Microsoft-Windows-Rights-Management-Client-v2-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rights-management-client-v2-core/microsoft-windows-rights-management-client-v2-core/settings"/>
+      <component displayname="Microsoft-Windows-Rights-Management-Client-v1-API" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rights-management-client-v1-api/microsoft-windows-rights-management-client-v1-api/settings"/>
+      <component displayname="Microsoft-Windows-Rights-Management-Client-Office-Protectors" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rights-management-client-office-protectors/microsoft-windows-rights-management-client-office-protectors/settings"/>
+      <component displayname="security\ngcsvc" migrate="yes" ID="security\ngcsvc">
+        <component displayname="Microsoft-Windows-Security-NGC-KSPSvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-ngc-kspsvc/microsoft-windows-security-ngc-kspsvc/settings"/>
+      </component>
+      <component displayname="security\secondaryauthfactorcredprovider" migrate="yes" ID="security\secondaryauthfactorcredprovider">
+        <component displayname="Microsoft-Windows-Security-SecondaryAuthFactor-CredProv" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-secondaryauthfactor-credprov/microsoft-windows-security-secondaryauthfactor-credprov/settings"/>
+      </component>
+      <component displayname="security\security_options" migrate="yes" ID="security\security_options">
+        <component displayname="Microsoft-Windows-Security-NGC-CredProv" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-ngc-credprov/microsoft-windows-security-ngc-credprov/settings"/>
+        <component displayname="Microsoft-Windows-Credential-Manager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-credential-manager/microsoft-windows-credential-manager/settings"/>
+        <component displayname="Microsoft-Windows-Security-Vault" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-vault/microsoft-windows-security-vault/settings"/>
+        <component displayname="Microsoft-Windows-SmartCardSubsystem" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-smartcardsubsystem/microsoft-windows-smartcardsubsystem/settings"/>
+      </component>
+      <component displayname="security\secondaryauthfactor" migrate="yes" ID="security\secondaryauthfactor">
+        <component displayname="Microsoft-Windows-Security-SecondaryAuthFactor-Client" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-secondaryauthfactor-client/microsoft-windows-security-secondaryauthfactor-client/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-notepad" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-notepad/microsoft-windows-notepad/settings"/>
+    <component displayname="Microsoft-Windows-PowerShell-V3" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-powershell-v3/microsoft-windows-powershell-v3/settings"/>
+    <component displayname="Microsoft-Windows-Winsock-Core-Infrastructure-other-MinWin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-winsock-core-infrastructure-other-minwin/microsoft-windows-winsock-core-infrastructure-other-minwin/settings"/>
+    <component displayname="Microsoft-Windows-PowerShell" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-powershell/microsoft-windows-powershell/settings"/>
+    <component displayname="communications_and_sync" migrate="yes" ID="communications_and_sync">
+      <component displayname="communications_and_sync\windows_mail" migrate="yes" ID="communications_and_sync\windows_mail">
+        <component displayname="Microsoft-Windows-Mail" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-mail/microsoft-windows-mail/settings"/>
+        <component displayname="Microsoft-Windows-WAB" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-wab/microsoft-windows-wab/settings"/>
+      </component>
+      <component displayname="communications_and_sync\windows_fax_and_scan" migrate="yes" ID="communications_and_sync\windows_fax_and_scan">
+        <component displayname="Microsoft-Windows-Fax-Client-Feature" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fax-client-feature/microsoft-windows-fax-client-feature/settings"/>
+        <component displayname="Microsoft-Windows-Fax-Common" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fax-common/microsoft-windows-fax-common/settings"/>
+      </component>
+      <component displayname="communications_and_sync\fax" migrate="yes" ID="communications_and_sync\fax">
+        <component displayname="Microsoft-Windows-Fax-Status-Monitor" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fax-status-monitor/microsoft-windows-fax-status-monitor/settings"/>
+        <component displayname="Microsoft-Windows-Fax-Client-Applications" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fax-client-applications/microsoft-windows-fax-client-applications/settings"/>
+        <component displayname="Microsoft-Windows-Fax-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-fax-service/microsoft-windows-fax-service/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-Services-ServiceController-MinWin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-services-servicecontroller-minwin/microsoft-windows-services-servicecontroller-minwin/settings"/>
+    <component displayname="Microsoft-Windows-VirtualDiskService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-virtualdiskservice/microsoft-windows-virtualdiskservice/settings"/>
+    <component displayname="Microsoft-Windows-Cryptography-CryptoConfig" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-cryptography-cryptoconfig/microsoft-windows-cryptography-cryptoconfig/settings"/>
+    <component displayname="Microsoft-Windows-BrowserService" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-browserservice/microsoft-windows-browserservice/settings"/>
+    <component displayname="hardware" migrate="yes" ID="hardware">
+      <component displayname="hardware\phone_and_modem" migrate="yes" ID="hardware\phone_and_modem">
+        <component displayname="Microsoft-Windows-TapiSetup" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-tapisetup/microsoft-windows-tapisetup/settings"/>
+      </component>
+      <component displayname="hardware\printers_and_faxes" migrate="yes" ID="hardware\printers_and_faxes">
+        <component displayname="Microsoft-Windows-Printing-LocalPrinting" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-printing-localprinting/microsoft-windows-printing-localprinting/settings"/>
+        <component displayname="Microsoft-Windows-Printing-Spooler-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-printing-spooler-core/microsoft-windows-printing-spooler-core/settings"/>
+        <component displayname="Microsoft-Windows-Printing-Spooler-Core-Localspl" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-printing-spooler-core-localspl/microsoft-windows-printing-spooler-core-localspl/settings"/>
+        <component displayname="Microsoft-Windows-Printing-Spooler-Networkclient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-printing-spooler-networkclient/microsoft-windows-printing-spooler-networkclient/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-PerformanceCounterInfrastructure" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-performancecounterinfrastructure/microsoft-windows-performancecounterinfrastructure/settings"/>
+    <component displayname="Microsoft-Windows-Unified-Telemetry-Client-AutoLogger-Default" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-unified-telemetry-client-autologger-default/microsoft-windows-unified-telemetry-client-autologger-default/settings"/>
+    <component displayname="additional_options" migrate="yes" ID="additional_options">
+      <component displayname="additional_options\help_settings" migrate="yes" ID="additional_options\help_settings">
+        <component displayname="Microsoft-Windows-Help-Client" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-help-client/microsoft-windows-help-client/settings"/>
+      </component>
+      <component displayname="additional_options\windows_core_settings" migrate="yes" ID="additional_options\windows_core_settings">
+        <component displayname="Microsoft-Windows-COM-Base" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-com-base/microsoft-windows-com-base/settings"/>
+        <component displayname="Microsoft-Windows-RPC-Local" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rpc-local/microsoft-windows-rpc-local/settings"/>
+        <component displayname="Microsoft-Windows-Microsoft-Data-Access-Components-(MDAC)-ODBC-DriverManager-Dll" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-microsoft-data-access-components-(mdac)-odbc-drivermanager-dll/microsoft-windows-microsoft-data-access-components-(mdac)-odbc-drivermanager-dll/settings"/>
+        <component displayname="Microsoft-Windows-feclient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-feclient/microsoft-windows-feclient/settings"/>
+        <component displayname="Microsoft-Windows-Web-Services-for-Management-Core" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-web-services-for-management-core/microsoft-windows-web-services-for-management-core/settings"/>
+        <component displayname="Microsoft-Windows-RasMprDdm" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasmprddm/microsoft-windows-rasmprddm/settings"/>
+        <component displayname="Microsoft-Windows-ICM-Profiles" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-icm-profiles/microsoft-windows-icm-profiles/settings"/>
+        <component displayname="fdPHost" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/fdphost/fdphost/settings"/>
+        <component displayname="Microsoft-Windows-Security-NGC-CtnrSvc" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-ngc-ctnrsvc/microsoft-windows-security-ngc-ctnrsvc/settings"/>
+        <component displayname="Microsoft-Windows-dpapi-keys" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-dpapi-keys/microsoft-windows-dpapi-keys/settings"/>
+        <component displayname="Microsoft-Windows-RPC-HTTP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rpc-http/microsoft-windows-rpc-http/settings"/>
+        <component displayname="Microsoft-Windows-UPnPControlPoint" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-upnpcontrolpoint/microsoft-windows-upnpcontrolpoint/settings"/>
+        <component displayname="Microsoft-Windows-Crypto-keys" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-crypto-keys/microsoft-windows-crypto-keys/settings"/>
+        <component displayname="Microsoft-Windows-RasBase" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasbase/microsoft-windows-rasbase/settings"/>
+        <component displayname="Microsoft-Windows-TerminalServices-RemoteConnectionManager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-remoteconnectionmanager/microsoft-windows-terminalservices-remoteconnectionmanager/settings"/>
+        <component displayname="Microsoft-Windows-CAPI2-certs" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-capi2-certs/microsoft-windows-capi2-certs/settings"/>
+        <component displayname="Microsoft-Windows-COM-ComPlus-Setup" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-com-complus-setup/microsoft-windows-com-complus-setup/settings"/>
+        <component displayname="Microsoft-Windows-UPnPDeviceHost" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-upnpdevicehost/microsoft-windows-upnpdevicehost/settings"/>
+        <component displayname="Microsoft-Windows-SQM-Consolidator-Base" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-sqm-consolidator-base/microsoft-windows-sqm-consolidator-base/settings"/>
+        <component displayname="Microsoft-Windows-COM-DTC-Setup" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-com-dtc-setup/microsoft-windows-com-dtc-setup/settings"/>
+        <component displayname="Microsoft-Windows-Rasppp-NonEap" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasppp-noneap/microsoft-windows-rasppp-noneap/settings"/>
+        <component displayname="Microsoft-Windows-Win32k-Settings" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-win32k-settings/microsoft-windows-win32k-settings/settings"/>
+        <component displayname="Microsoft-Windows-Rasppp-Eap" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasppp-eap/microsoft-windows-rasppp-eap/settings"/>
+        <component displayname="Microsoft-Windows-TerminalServices-Drivers" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-terminalservices-drivers/microsoft-windows-terminalservices-drivers/settings"/>
+        <component displayname="Microsoft-Windows-RPC-Remote" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rpc-remote/microsoft-windows-rpc-remote/settings"/>
+        <component displayname="Microsoft-Windows-SQMApi" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-sqmapi/microsoft-windows-sqmapi/settings"/>
+        <component displayname="Microsoft-Windows-UPnPSSDP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-upnpssdp/microsoft-windows-upnpssdp/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-Speech-UserExperience" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-speech-userexperience/microsoft-windows-speech-userexperience/settings"/>
+    <component displayname="NETFX4-WCF-CLIENT" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/netfx4-wcf-client/netfx4-wcf-client/settings"/>
+    <component displayname="Microsoft-Windows-RasBase-RasMobilitymanager" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-rasbase-rasmobilitymanager/microsoft-windows-rasbase-rasmobilitymanager/settings"/>
+    <component displayname="Microsoft-Windows-Security-CredSSP" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-security-credssp/microsoft-windows-security-credssp/settings"/>
+    <component displayname="performance_and_maintenance" migrate="yes" ID="performance_and_maintenance">
+      <component displayname="performance_and_maintenance\system_settings" migrate="yes" ID="performance_and_maintenance\system_settings">
+        <component displayname="Microsoft-Windows-GroupPolicy-Base" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-grouppolicy-base/microsoft-windows-grouppolicy-base/settings"/>
+      </component>
+      <component displayname="performance_and_maintenance\error_reporting" migrate="yes" ID="performance_and_maintenance\error_reporting">
+        <component displayname="Microsoft-Windows-ErrorReportingCore" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-errorreportingcore/microsoft-windows-errorreportingcore/settings"/>
+      </component>
+      <component displayname="performance_and_maintenance\diagnostics" migrate="yes" ID="performance_and_maintenance\diagnostics">
+        <component displayname="Microsoft-Windows-RemoteAssistance-Exe" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-remoteassistance-exe/microsoft-windows-remoteassistance-exe/settings"/>
+        <component displayname="Microsoft-Windows-Feedback-Service" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-feedback-service/microsoft-windows-feedback-service/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-DesktopWindowManager-uDWM" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-desktopwindowmanager-udwm/microsoft-windows-desktopwindowmanager-udwm/settings"/>
+    <component displayname="Desktop_Shell-Search-SrchAdmin" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/desktop_shell-search-srchadmin/desktop_shell-search-srchadmin/settings"/>
+    <component displayname="Microsoft-Windows-LDAP-Client" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ldap-client/microsoft-windows-ldap-client/settings"/>
+    <component displayname="Microsoft-Windows-Unified-Telemetry-Client-Settings-WindowsClient" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-unified-telemetry-client-settings-windowsclient/microsoft-windows-unified-telemetry-client-settings-windowsclient/settings"/>
+    <component displayname="appearance_and_display" migrate="yes" ID="appearance_and_display">
+      <component displayname="appearance_and_display\user_tile" migrate="yes" ID="appearance_and_display\user_tile">
+        <component displayname="Microsoft-Windows-WindowsUIImmersive" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-windowsuiimmersive/microsoft-windows-windowsuiimmersive/settings"/>
+      </component>
+      <component displayname="appearance_and_display\start_menu_customization" migrate="yes" ID="appearance_and_display\start_menu_customization">
+        <component displayname="Microsoft-Windows-UI-Shell-Component" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-ui-shell-component/microsoft-windows-ui-shell-component/settings"/>
+      </component>
+      <component displayname="appearance_and_display\taskbar_and_start_menu" migrate="yes" ID="appearance_and_display\taskbar_and_start_menu">
+        <component displayname="Microsoft-Windows-stobject" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-stobject/microsoft-windows-stobject/settings"/>
+        <component displayname="Microsoft-Windows-explorer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-explorer/microsoft-windows-explorer/settings"/>
+      </component>
+      <component displayname="appearance_and_display\personalized_settings" migrate="yes" ID="appearance_and_display\personalized_settings">
+        <component displayname="Microsoft-Windows-shell32" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-shell32/microsoft-windows-shell32/settings"/>
+        <component displayname="Microsoft-Windows-uxtheme" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-uxtheme/microsoft-windows-uxtheme/settings"/>
+        <component displayname="Microsoft-Windows-shmig" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-shmig/microsoft-windows-shmig/settings"/>
+        <component displayname="Microsoft-Windows-CommandPrompt" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-commandprompt/microsoft-windows-commandprompt/settings"/>
+        <component displayname="Microsoft-Windows-themeui" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-themeui/microsoft-windows-themeui/settings"/>
+      </component>
+      <component displayname="appearance_and_display\windows_games_settings" migrate="yes" ID="appearance_and_display\windows_games_settings">
+        <component displayname="Microsoft-Windows-GameExplorer" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-gameexplorer/microsoft-windows-gameexplorer/settings"/>
+      </component>
+    </component>
+    <component displayname="Microsoft-Windows-PerformanceCounterInfrastructureNonExecutable" migrate="yes" ID="http://www.microsoft.com/migration/1.0/migxmlext/cmi/microsoft-windows-performancecounterinfrastructurenonexecutable/microsoft-windows-performancecounterinfrastructurenonexecutable/settings"/>
+  </WindowsComponents>
+  <Policies>
+    <ErrorControl>
+      <!--   Example:
+
+          <fileError>
+            <nonFatal errorCode="33">* [*]</nonFatal>
+            <fatal errorCode="any">C:\Users\* [*]</fatal>
+          </fileError>
+          <registryError>
+            <nonFatal errorCode="5">* [*]</nonFatal>
+          </registryError>
+      -->
+    </ErrorControl>
+  </Policies>
+</Configuration>

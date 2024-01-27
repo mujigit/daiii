@@ -1,0 +1,1063 @@
+[11:58:44.36] [CreateNOSDV.cmd] ************************************************** 
+[11:58:44.37] [CreateNOSDV.cmd]  [C:\SYSTEM.SAV\ExitProc\CreateNOSDV.cmd] has started... 
+[11:58:44.37] [CreateNOSDV.cmd] -------------------------------------------------- 
+[11:58:44.39] [CreateNOSDV.cmd] FIND /I GM_GENERATION=TYPE1 C:\system.sav\Flags\PINCTRLTwk.pf 
+[11:58:44.40] [CreateNOSDV.cmd] Return Code = [0] 
+[11:58:44.42] [CreateNOSDV.cmd] Find the keyword GM_GENERATION=TYPE1 
+[11:58:44.42] [CreateNOSDV.cmd]  
+[11:58:44.43] [CreateNOSDV.cmd] FIND /I GM_TYPE=MLGM C:\system.sav\Flags\PINCTRLTwk.pf 
+[11:58:44.46] [CreateNOSDV.cmd] Return Code = [0] 
+[11:58:44.46] [CreateNOSDV.cmd] Find the keyword GM_TYPE=MLGM 
+[11:58:44.48] [CreateNOSDV.cmd] Don't need create c:\system.sav\flags\nosdv.flg 
+[11:58:44.50] [CreateNOSDV.cmd] DEL /F /Q "C:\system.sav\CreateNOSDV.cmd.FAILURE.flg" 
+[11:58:44.51] [CreateNOSDV.cmd] -------------------------------------------------- 
+[11:58:44.51] [CreateNOSDV.cmd]  [CreateNOSDV.cmd] has completed... 
+[11:58:44.53] [CreateNOSDV.cmd] ************************************************** 
+[11:58:48.18] [ExtendMSCU.cmd] ************************************************** 
+[11:58:48.20] [ExtendMSCU.cmd]  [C:\Appl.zip\ExtMSC\ExtendMSCU.cmd] has started... 
+[11:58:48.20] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:58:48.21] [ExtendMSCU.cmd]   Extend MSC size based on CustomMSC.ini... 
+[11:58:48.21] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:58:48.23] [ExtendMSCU.cmd]   generate ["C:\system.sav\ExtendMSCU.cmd.FAILURE.flg"]... 
+[11:58:48.24] [ExtendMSCU.cmd]   
+[11:58:49.49] [ExtendMSCU.cmd]   Check D:\System.sav\Flags\BP.flg file to confirm BP's drive letter... 
+[11:58:49.49] [ExtendMSCU.cmd]   The flag file exists... BP's drive letter is [D:] 
+[11:58:49.51] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:58:49.52] [ExtendMSCU.cmd]   
+[11:58:49.54] [ExtendMSCU.cmd]   Default MSC size = 75 . 
+[11:58:49.54] [ExtendMSCU.cmd]   Target MSC size = 75 . 
+[11:58:49.56] [ExtendMSCU.cmd]   
+[11:58:49.57] [ExtendMSCU.cmd]   run CScript.exe /nologo C:\appl.zip\ExtMSC\ExtendMSCU.vbs 75  
+[11:58:49.64] [ExtendMSCU.cmd]   check ["C:\system.sav\logs\PINPROC\ExtendMSCU.cmd.log"] file... 
+[11:58:49.66] [ExtendMSCU.cmd]   
+[11:58:49.66] [ExtendMSCU.cmd]   
+[11:58:49.67] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:58:49.69] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:58:49.69] [ExtendMSCU.cmd]   
+[11:58:49.70] [ExtendMSCU.cmd]   copy BP's files to temp folder...  
+[11:58:49.72] [ExtendMSCU.cmd]   XCopy D:\*.* C:\System.sav\BP\ /cherky  
+[11:58:57.86] [ExtendMSCU.cmd]   
+[11:58:57.86] [ExtendMSCU.cmd]   run diskpart with script to recreate BP and extend UP...  
+[11:58:57.87] [ExtendMSCU.cmd]   diskpart.exe /s C:\System.sav\Logs\ExtMSC.txt   
+[11:58:57.89] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:59:02.20] [ExtendMSCU.cmd]   
+[11:59:02.22] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:59:02.22] [ExtendMSCU.cmd]   
+[11:59:02.23] [ExtendMSCU.cmd]   
+[11:59:02.25] [ExtendMSCU.cmd]   diskpart.exe returned 0. 
+[11:59:02.25] [ExtendMSCU.cmd]   
+[11:59:02.26] [ExtendMSCU.cmd]   copy back BP's file from temp folder to BP. 
+[11:59:07.18] [ExtendMSCU.cmd]   delete temp folder [C:\System.sav\BP]... 
+[11:59:07.29] [ExtendMSCU.cmd]   
+[11:59:07.31] [ExtendMSCU.cmd]   delete ["C:\system.sav\ExtendMSCU.cmd.FAILURE.flg"] since .cmd completed properly... 
+[11:59:07.31] [ExtendMSCU.cmd]   
+[11:59:07.32] [ExtendMSCU.cmd]  RESULT=PASSED 
+[11:59:07.34] [ExtendMSCU.cmd]   
+[11:59:07.35] [ExtendMSCU.cmd] -------------------------------------------------- 
+[11:59:07.37] [ExtendMSCU.cmd]  [ExtendMSCU.cmd] has completed... 
+[11:59:07.37] [ExtendMSCU.cmd] ************************************************** 
+[12:00:59.83] [ChkMPM.cmd] ************************************************** 
+[12:00:59.83] [ChkMPM.cmd]  [c:\SYSTEM.SAV\ExitProc\ChkMPM.cmd] has started... 
+[12:00:59.85] [ChkMPM.cmd] -------------------------------------------------- 
+[12:00:59.85] [ChkMPM.cmd]   
+[12:00:59.86] [ChkMPM.cmd]  Create ["C:\system.sav\ChkMPM.cmd.FAILURE.flg"]... 
+[12:00:59.88] [ChkMPM.cmd]   
+[12:00:59.89] [ChkMPM.cmd]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[12:00:59.89] [ChkMPM.cmd]    Workaround for BCU to run WMI service... 
+[12:00:59.91] [ChkMPM.cmd]   
+[12:01:00.48] [ChkMPM.cmd]   
+[12:01:00.50] [ChkMPM.cmd]  MPM status checking... 
+[12:01:00.50] [ChkMPM.cmd]   
+[12:01:04.46] [ChkMPM.cmd]    MPMStatus=[Unlock] 
+[12:01:04.47] [ChkMPM.cmd]    MPM is UNLOCKED... 
+[12:01:04.47] [ChkMPM.cmd]   
+[12:01:04.49] [ChkMPM.cmd]  Result is as expected. 
+[12:01:04.50] [ChkMPM.cmd]   
+[12:01:04.50] [ChkMPM.cmd]  Delete ["C:\system.sav\ChkMPM.cmd.FAILURE.flg"] file since no error detected... 
+[12:01:04.52] [ChkMPM.cmd] -------------------------------------------------- 
+[12:01:04.54] [ChkMPM.cmd]  [ChkMPM.cmd] has completed... 
+[12:01:04.54] [ChkMPM.cmd] ************************************************** 
+[12:01:08.41] [ClrBiosKey.cmd] ************************************************** 
+[12:01:08.42] [ClrBiosKey.cmd]  [c:\SYSTEM.SAV\ExitProc\ClrBiosKey.cmd] has started... 
+[12:01:08.44] [ClrBiosKey.cmd] -------------------------------------------------- 
+[12:01:08.44] [ClrBiosKey.cmd]   
+[12:01:08.45] [ClrBiosKey.cmd]  Detect ML prefix [CNB or CDT] 
+[12:01:08.45] [ClrBiosKey.cmd]   
+[12:01:08.49] [ClrBiosKey.cmd]    ML_PREFIX = [NB] 
+[12:01:08.50] [ClrBiosKey.cmd]   
+[12:01:08.50] [ClrBiosKey.cmd]    No need to clear BIOS platform key for NB. 
+[12:01:08.52] [ClrBiosKey.cmd] -------------------------------------------------- 
+[12:01:08.53] [ClrBiosKey.cmd]  [ClrBiosKey.cmd] has completed... 
+[12:01:08.53] [ClrBiosKey.cmd] ************************************************** 
+[12:02:04.05] [ChkBiosKey.cmd] ************************************************** 
+[12:02:04.06] [ChkBiosKey.cmd]  [c:\Appl.zip\VITTDC\ChkBiosKey.cmd] has started... 
+[12:02:04.08] [ChkBiosKey.cmd] -------------------------------------------------- 
+[12:02:04.08] [ChkBiosKey.cmd]   
+[12:02:04.09] [ChkBiosKey.cmd]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[12:02:04.11] [ChkBiosKey.cmd]    Workaround for BCU to run WMI service... 
+[12:02:04.11] [ChkBiosKey.cmd]   
+[12:02:16.06] [ChkBiosKey.cmd]   
+[12:02:16.08] [ChkBiosKey.cmd]  Key enrollment checking... 
+[12:02:16.08] [ChkBiosKey.cmd]   
+[12:02:20.20] [ChkBiosKey.cmd]    KeyType=[Clear] 
+[12:02:20.20] [ChkBiosKey.cmd]   
+[12:02:20.22] [ChkBiosKey.cmd]  Check BIOS platform key 
+[12:02:20.23] [ChkBiosKey.cmd]   
+[12:02:20.23] [ChkBiosKey.cmd]   
+[12:02:20.25] [ChkBiosKey.cmd]    BIOS platform key is not enrolled. 
+[12:02:20.26] [ChkBiosKey.cmd]   
+[12:02:20.26] [ChkBiosKey.cmd]  Delete ["C:\system.sav\ChkBiosKey.cmd.FAILURE.flg"] file since no error detected... 
+[12:02:20.28] [ChkBiosKey.cmd] -------------------------------------------------- 
+[12:02:20.30] [ChkBiosKey.cmd]  [ChkBiosKey.cmd] has completed... 
+[12:02:20.30] [ChkBiosKey.cmd] ************************************************** 
+[12:02:29.59] [PF4WPE.cmd] ************************************************** 
+[12:02:29.61] [PF4WPE.cmd]  [PF4WPE.cmd] has started... 
+[12:02:29.61] [PF4WPE.cmd] -------------------------------------------------- 
+[12:02:29.62] [PF4WPE.cmd]  Create 1GB pagefile for WinPE use 
+[12:02:29.62] [PF4WPE.cmd] -------------------------------------------------- 
+[12:02:29.64] [PF4WPE.cmd]   
+[12:02:29.64] [PF4WPE.cmd]  Create ["C:\system.sav\PF4WPE.cmd.FAILURE.flg"] file... 
+[12:02:29.65] [PF4WPE.cmd]   
+[12:02:29.67] [PF4WPE.cmd]  Detect target drive for WinPE pagefile... 
+[12:02:29.68] [PF4WPE.cmd]   
+[12:02:29.98] [PF4WPE.cmd]  Target drive = [C:] 
+[12:02:29.98] [PF4WPE.cmd]   
+[12:02:29.99] [PF4WPE.cmd]  Create pagefile for WinPE... 
+[12:02:29.99] [PF4WPE.cmd]   
+
+The command completed successfully.
+[12:02:30.07] [PF4WPE.cmd]    ErrorLevel=[0] 
+[12:02:30.07] [PF4WPE.cmd]   
+[12:02:30.08] [PF4WPE.cmd]  Delete ["C:\system.sav\PF4WPE.cmd.FAILURE.flg"] file since no errors detected... 
+[12:02:30.08] [PF4WPE.cmd] -------------------------------------------------- 
+[12:02:30.10] [PF4WPE.cmd]  [PF4WPE.cmd] has completed... 
+[12:02:30.12] [PF4WPE.cmd] ************************************************** 
+[12:02:38.95] [apply.cmd] ************************************************** 
+[12:02:38.95] [apply.cmd]  [apply.cmd] has started... 
+[12:02:38.96] [apply.cmd] -------------------------------------------------- 
+[12:02:38.98] [apply.cmd]  Apply BaseOS.wim to C:\ 
+[12:02:38.98] [apply.cmd] -------------------------------------------------- 
+[12:02:38.99] [apply.cmd]   
+[12:02:38.99] [apply.cmd]  Create ["C:\system.sav\apply.cmd.FAILURE.flg"] file... 
+[12:02:39.01] [apply.cmd]   
+[12:02:39.03] [apply.cmd]  Run [DISM.exe /Apply-Image /ImageFile=c:\sources\BaseOS.wim /Index:1 /ApplyDir=c:\ ] 
+[12:06:07.63] [apply.cmd]    DISM.exe returned [0]... 
+[12:06:07.64] [apply.cmd]   
+[12:06:07.66] [apply.cmd]  No Error detected... 
+[12:06:07.66] [apply.cmd]   
+[12:06:07.68] [apply.cmd]  Delete ["C:\system.sav\apply.cmd.FAILURE.flg"]... 
+[12:06:07.69] [apply.cmd] -------------------------------------------------- 
+[12:06:07.69] [apply.cmd]  [apply.cmd] has completed... 
+[12:06:07.71] [apply.cmd] ************************************************** 
+[12:06:17.70] [Find4QFEPreReq.cmd] ************************************************** 
+[12:06:17.70] [Find4QFEPreReq.cmd]  [Find4QFEPreReq.cmd] has started... 
+[12:06:17.72] [Find4QFEPreReq.cmd] -------------------------------------------------- 
+[12:06:17.74] [Find4QFEPreReq.cmd]  Offline QFE installation 
+[12:06:17.74] [Find4QFEPreReq.cmd] -------------------------------------------------- 
+[12:06:17.75] [Find4QFEPreReq.cmd]   
+[12:06:17.77] [Find4QFEPreReq.cmd]  Create ["C:\system.sav\Find4QFEPreReq.cmd.FAILURE.flg"] file... 
+[12:06:17.77] [Find4QFEPreReq.cmd]   
+[12:06:17.78] [Find4QFEPreReq.cmd]  Detect target drive for Sandbox... 
+[12:06:17.78] [Find4QFEPreReq.cmd]   
+[12:06:18.05] [Find4QFEPreReq.cmd]    Target drive = [C:] 
+[12:06:18.06] [Find4QFEPreReq.cmd]   
+[12:06:18.08] [Find4QFEPreReq.cmd]  Install QFEs under [C:\Appl.zip\QFEsPreReq]... 
+[12:06:18.08] [Find4QFEPreReq.cmd]   
+[12:06:18.09] [Find4QFEPreReq.cmd]   
+[12:06:18.11] [Find4QFEPreReq.cmd]  Delete Sandbox... 
+[12:06:18.13] [Find4QFEPreReq.cmd]   
+[12:06:18.13] [Find4QFEPreReq.cmd]    ErrorLevel=[0] 
+[12:06:18.14] [Find4QFEPreReq.cmd]   
+[12:06:18.16] [Find4QFEPreReq.cmd]  Delete QFE folder [C:\Appl.zip\QFEsPreReq]... 
+[12:06:18.16] [Find4QFEPreReq.cmd]   
+[12:06:18.17] [Find4QFEPreReq.cmd]    ErrorLevel=[0] 
+[12:06:18.19] [Find4QFEPreReq.cmd]   
+[12:06:18.19] [Find4QFEPreReq.cmd]  Check result for QFE installation... 
+[12:06:18.20] [Find4QFEPreReq.cmd]   
+[12:06:18.24] [Find4QFEPreReq.cmd]    ErrorLevel=[1] 
+[12:06:18.25] [Find4QFEPreReq.cmd]   
+[12:06:18.25] [Find4QFEPreReq.cmd]  Delete ["C:\system.sav\Find4QFEPreReq.cmd.FAILURE.flg"] file since no errors detected... 
+[12:06:18.27] [Find4QFEPreReq.cmd] -------------------------------------------------- 
+[12:06:18.28] [Find4QFEPreReq.cmd]  [Find4QFEPreReq.cmd] has completed... 
+[12:06:18.28] [Find4QFEPreReq.cmd] ************************************************** 
+[12:06:34.65] [CreateESP.cmd] ************************************************** 
+[12:06:34.65] [CreateESP.cmd]  [c:\Appl.zip\UEFI\CreateESP.cmd] has started... 
+[12:06:34.67] [CreateESP.cmd] -------------------------------------------------- 
+[12:06:34.67] [CreateESP.cmd]  [[Create ESP]] at PreOS.pi [PASS1]  
+[12:06:34.69] [CreateESP.cmd] -------------------------------------------------- 
+[12:06:34.70] [CreateESP.cmd]   
+[12:06:34.70] [CreateESP.cmd]  Creating ["C:\system.sav\CreateESP.cmd.FAILURE.flg"] to indicate the script started. 
+[12:06:34.72] [CreateESP.cmd]   
+[12:06:34.73] [CreateESP.cmd]  CScript.exe /nologo C:\appl.zip\UEFI\CreateESP.vbs 
+[12:06:34.84] [CreateESP.cmd]   
+[12:06:34.86] [CreateESP.cmd]    CreateESP.vbs completed without error... 
+[12:06:34.86] [CreateESP.cmd]   
+[12:06:34.87] [CreateESP.cmd]  Run DiskPart.exe /s C:\appl.zip\UEFI\CreateESP.txt 
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MINWINPC
+
+Volume 1 is the selected volume.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    Primary             75 GB   277 MB
+  Partition 2    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+* Volume 1     C                NTFS   Partition     75 GB  Healthy    Pagefile
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+
+DiskPart succeeded in creating the specified partition.
+
+DiskPart succeeded in creating the specified partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+    0 percent completed  100 percent completed
+
+DiskPart successfully formatted the volume.
+
+Please wait while DiskPart scans your configuration...
+
+DiskPart has finished scanning your configuration.
+
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+* Disk 0    Online          465 GB   389 GB        *
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Pagefile
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 4    System             260 MB  1024 KB
+  Partition 3    Reserved            16 MB   261 MB
+  Partition 1    Primary             75 GB   277 MB
+  Partition 2    Primary            630 MB    75 GB
+[12:06:38.56] [CreateESP.cmd]  ErrorLevel=[0] 
+[12:06:38.56] [CreateESP.cmd]   
+[12:06:38.57] [CreateESP.cmd]  Run [BCDBoot.exe c:\windows] to copy boot files to ESP. 
+Boot files successfully created.
+[12:06:40.50] [CreateESP.cmd]  ErrorLevel=[0] 
+[12:06:40.50] [CreateESP.cmd]   
+[12:06:40.52] [CreateESP.cmd]  RESULT=PASSED 
+[12:06:40.53] [CreateESP.cmd]   
+[12:06:40.53] [CreateESP.cmd]  Delete ["C:\system.sav\CreateESP.cmd.FAILURE.flg"] because no error detected... 
+[12:06:40.55] [CreateESP.cmd] -------------------------------------------------- 
+[12:06:40.56] [CreateESP.cmd]  [CreateESP.cmd] has completed... 
+[12:06:40.56] [CreateESP.cmd] ************************************************** 
+[12:06:43.32] [InactiveSP.cmd] ************************************************** 
+[12:06:43.34] [InactiveSP.cmd]  [InactiveSP.cmd] has started... 
+[12:06:43.34] [InactiveSP.cmd] -------------------------------------------------- 
+[12:06:43.35] [InactiveSP.cmd]  Inactive System Parition... 
+[12:06:43.37] [InactiveSP.cmd] -------------------------------------------------- 
+[12:06:43.37] [InactiveSP.cmd]   
+[12:06:43.38] [InactiveSP.cmd]  Create ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"]... 
+[12:06:43.40] [InactiveSP.cmd]   
+[12:06:43.40] [InactiveSP.cmd]  Inactive ESP...  
+[12:06:43.41] [InactiveSP.cmd]   
+[12:06:43.45] [DrvLtr2ESP.cmd] ************************************************** 
+[12:06:43.46] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[12:06:43.46] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[12:06:43.48] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[12:06:43.49] [DrvLtr2ESP.cmd]   
+[12:06:43.49] [DrvLtr2ESP.cmd]   
+[12:06:43.51] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[12:06:43.51] [DrvLtr2ESP.cmd]   
+[12:06:43.62] [DrvLtr2ESP.cmd]  ESP partition index = [4] 
+[12:06:43.62] [DrvLtr2ESP.cmd]  ESP drive letter = [S:] 
+[12:06:43.63] [DrvLtr2ESP.cmd]   
+[12:06:43.65] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[12:06:43.65] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MINWINPC
+
+Volume 1 is the selected volume.
+
+Partition 4 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 4    System             260 MB  1024 KB
+  Partition 3    Reserved            16 MB   261 MB
+  Partition 1    Primary             75 GB   277 MB
+  Partition 2    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Pagefile
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+
+DiskPart successfully removed the drive letter or mount point.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 4    System             260 MB  1024 KB
+  Partition 3    Reserved            16 MB   261 MB
+  Partition 1    Primary             75 GB   277 MB
+  Partition 2    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Pagefile
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+[12:06:44.24] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[12:06:44.24] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[12:06:44.26] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[12:06:44.27] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[12:06:44.27] [DrvLtr2ESP.cmd] ************************************************** 
+[12:06:44.31] [InactiveSP.cmd]  Inactive ESP successfully. 
+[12:06:44.31] [InactiveSP.cmd]   
+[12:06:44.32] [InactiveSP.cmd]  Active BP... 
+[12:06:44.34] [InactiveSP.cmd]   
+[12:06:44.37] [InactiveSP.cmd]  BP drive letter = [D:] 
+[12:06:44.38] [InactiveSP.cmd]  BP is already active. 
+[12:06:44.38] [InactiveSP.cmd]   
+[12:06:44.40] [InactiveSP.cmd]  Delete ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[12:06:44.41] [InactiveSP.cmd] -------------------------------------------------- 
+[12:06:44.43] [InactiveSP.cmd]  [InactiveSP.cmd] has completed... 
+[12:06:44.43] [InactiveSP.cmd] ************************************************** 
+[12:06:55.61] [GetOSInfo.cmd] ************************************************** 
+[12:06:55.62] [GetOSInfo.cmd]  [c:\Appl.zip\VITTDC\GetOSInfo.cmd] has started... 
+[12:06:55.62] [GetOSInfo.cmd] -------------------------------------------------- 
+[12:06:55.64] [GetOSInfo.cmd]  HOOK FBI 
+[12:06:55.65] [GetOSInfo.cmd] -------------------------------------------------- 
+[12:06:55.65] [GetOSInfo.cmd]   
+[12:06:55.67] [GetOSInfo.cmd]  Run [reg.exe load HKLM\TempSW c:\windows\system32\config\SOFTWARE]... 
+[12:06:58.67] [GetOSInfo.cmd]   
+[12:06:58.68] [GetOSInfo.cmd]    Loaded hive : c:\windows\system32\config\SOFTWARE. 
+[12:06:58.68] [GetOSInfo.cmd]   
+[12:06:58.70] [GetOSInfo.cmd]  Run [cscript.exe /nologo c:\Appl.zip\VITTDC\GetOSEdt.vbs]... 
+[12:06:58.84] [GetOSInfo.cmd]   
+[12:06:58.86] [GetOSInfo.cmd]    Got OS information properly ... 
+[12:06:58.87] [GetOSInfo.cmd]   
+[12:06:58.87] [GetOSInfo.cmd]  Run [reg.exe unload HKLM\TempSW]... 
+[12:07:00.17] [GetOSInfo.cmd]   
+[12:07:00.17] [GetOSInfo.cmd]    Unloaded hive : c:\windows\system32\config\SOFTWARE... 
+[12:07:00.18] [GetOSInfo.cmd]   
+[12:07:00.18] [GetOSInfo.cmd]  Delete ["C:\system.sav\GetOSInfo.cmd.FAILURE.flg"] since OS information is detected as expected... 
+[12:07:00.20] [GetOSInfo.cmd] -------------------------------------------------- 
+[12:07:00.21] [GetOSInfo.cmd]  [GetOSInfo.cmd] has completed... 
+[12:07:00.23] [GetOSInfo.cmd] ************************************************** 
+[12:15:03.37] [DisableSR.cmd] ************************************************** 
+[12:15:03.38] [DisableSR.cmd]  [C:\Appl.zip\VITTDC\DisableSR.cmd] has started... 
+[12:15:03.38] [DisableSR.cmd] -------------------------------------------------- 
+[12:15:03.40] [DisableSR.cmd]  Disable MS System Restore Point function... 
+[12:15:03.40] [DisableSR.cmd] -------------------------------------------------- 
+[12:15:03.41] [DisableSR.cmd]   
+[12:15:03.43] [DisableSR.cmd]  Run [reg.exe load HKLM\TempSW c:\windows\system32\config\SOFTWARE]... 
+[12:15:04.32] [DisableSR.cmd]   
+[12:15:04.32] [DisableSR.cmd]    Loaded hive : c:\windows\system32\config\SOFTWARE. 
+[12:15:04.34] [DisableSR.cmd]   
+[12:15:04.35] [DisableSR.cmd]  Run [reg.exe ADD HKLM\TempSW\Microsoft\Windows NT\CurrentVersion\SystemRestore\Setup_Last /v Generalize_DisableSR /t REG_DWORD /d 1 /f]... 
+[12:15:04.37] [DisableSR.cmd]   
+[12:15:04.38] [DisableSR.cmd]    Added [Generalize_DisableSR] to Setup_Last key... 
+[12:15:04.38] [DisableSR.cmd]   
+[12:15:04.40] [DisableSR.cmd]  Run [reg.exe ADD HKLM\TempSW\\Microsoft\Windows NT\CurrentVersion\SystemRestore\Setup\Generalize /v DisableSR /t REG_DWORD /d 1 /f]... 
+[12:15:04.41] [DisableSR.cmd]   
+[12:15:04.43] [DisableSR.cmd]    Added [Generalize_DisableSR] to Setup_Last key... 
+[12:15:04.45] [DisableSR.cmd]   
+[12:15:04.45] [DisableSR.cmd]  Run [reg.exe unload HKLM\TempSW]... 
+[12:15:04.57] [DisableSR.cmd]   
+[12:15:04.57] [DisableSR.cmd]    Unloaded hive : c:\windows\system32\config\SOFTWARE... 
+[12:15:04.59] [DisableSR.cmd]   
+[12:15:04.60] [DisableSR.cmd]  Delete ["C:\system.sav\DisableSR.cmd.FAILURE.flg"] since FBI is hooked as expected... 
+[12:15:04.62] [DisableSR.cmd] -------------------------------------------------- 
+[12:15:04.62] [DisableSR.cmd]  [DisableSR.cmd] has completed... 
+[12:15:04.63] [DisableSR.cmd] ************************************************** 
+[12:15:09.57] [Find4QFE.cmd] ************************************************** 
+[12:15:09.58] [Find4QFE.cmd]  [Find4QFE.cmd] has started... 
+[12:15:09.58] [Find4QFE.cmd] -------------------------------------------------- 
+[12:15:09.60] [Find4QFE.cmd]  Offline QFE installation 
+[12:15:09.60] [Find4QFE.cmd] -------------------------------------------------- 
+[12:15:09.62] [Find4QFE.cmd]   
+[12:15:09.62] [Find4QFE.cmd]  Create ["C:\system.sav\Find4QFE.cmd.FAILURE.flg"] file... 
+[12:15:09.63] [Find4QFE.cmd]   
+[12:15:09.65] [Find4QFE.cmd]  Detect target drive for Sandbox... 
+[12:15:09.66] [Find4QFE.cmd]   
+[12:15:09.74] [Find4QFE.cmd]    Target drive = [C:] 
+[12:15:09.76] [Find4QFE.cmd]   
+[12:15:09.76] [Find4QFE.cmd]  Install QFEs under [c:\Appl.zip\QFEs]... 
+[12:15:09.77] [Find4QFE.cmd]   
+[12:22:42.05] [Find4QFE.cmd]   
+[12:22:42.08] [Find4QFE.cmd]  Delete Sandbox... 
+[12:22:42.10] [Find4QFE.cmd]   
+[12:22:42.12] [Find4QFE.cmd]    ErrorLevel=[0] 
+[12:22:42.13] [Find4QFE.cmd]   
+[12:22:42.15] [Find4QFE.cmd]  Delete QFE folder [c:\Appl.zip\QFEs]... 
+[12:22:42.16] [Find4QFE.cmd]   
+[12:22:42.18] [Find4QFE.cmd]    ErrorLevel=[0] 
+[12:22:42.18] [Find4QFE.cmd]   
+[12:22:42.19] [Find4QFE.cmd]  Check result for QFE installation... 
+[12:22:42.19] [Find4QFE.cmd]   
+[12:22:42.24] [Find4QFE.cmd]    ErrorLevel=[1] 
+[12:22:42.24] [Find4QFE.cmd]   
+[12:22:42.26] [Find4QFE.cmd]  Delete ["C:\system.sav\Find4QFE.cmd.FAILURE.flg"] file since no errors detected... 
+[12:22:42.27] [Find4QFE.cmd] -------------------------------------------------- 
+[12:22:42.27] [Find4QFE.cmd]  [Find4QFE.cmd] has completed... 
+[12:22:42.29] [Find4QFE.cmd] ************************************************** 
+[12:22:56.55] [HOOKFBI.cmd] ************************************************** 
+[12:22:56.57] [HOOKFBI.cmd]  [C:\Appl.zip\VITTDC\HOOKFBI.cmd] has started... 
+[12:22:56.57] [HOOKFBI.cmd] -------------------------------------------------- 
+[12:22:56.58] [HOOKFBI.cmd]  HOOK FBI 
+[12:22:56.60] [HOOKFBI.cmd] -------------------------------------------------- 
+[12:22:56.60] [HOOKFBI.cmd]   
+[12:22:56.61] [HOOKFBI.cmd]  Run [reg.exe load HKLM\TempSW c:\windows\system32\config\SOFTWARE]... 
+[12:22:57.57] [HOOKFBI.cmd]   
+[12:22:57.57] [HOOKFBI.cmd]    Loaded hive : c:\windows\system32\config\SOFTWARE. 
+[12:22:57.58] [HOOKFBI.cmd]   
+[12:22:57.58] [HOOKFBI.cmd]  Run [reg.exe add "HKLM\TempSW\Microsoft\Windows\CurrentVersion\Run" /v "RUNFBI" /t REG_SZ /d "c:\system.sav\fbi\fbism.exe" /f]... 
+[12:22:57.61] [HOOKFBI.cmd]   
+[12:22:57.63] [HOOKFBI.cmd]    Added [fbism.exe] into Run key... 
+[12:22:57.63] [HOOKFBI.cmd]   
+[12:22:57.64] [HOOKFBI.cmd]  Run [reg.exe unload HKLM\TempSW]... 
+[12:22:57.77] [HOOKFBI.cmd]   
+[12:22:57.79] [HOOKFBI.cmd]    Unloaded hive : c:\windows\system32\config\SOFTWARE... 
+[12:22:57.79] [HOOKFBI.cmd]   
+[12:22:57.80] [HOOKFBI.cmd]  Delete ["C:\system.sav\HOOKFBI.cmd.FAILURE.flg"] since FBI is hooked as expected... 
+[12:22:57.82] [HOOKFBI.cmd] -------------------------------------------------- 
+[12:22:57.82] [HOOKFBI.cmd]  [HOOKFBI.cmd] has completed... 
+[12:22:57.83] [HOOKFBI.cmd] ************************************************** 
+[12:23:00.32] [ActiveSP.cmd] ************************************************** 
+[12:23:00.34] [ActiveSP.cmd]  [ActiveSP.cmd] has started... 
+[12:23:00.34] [ActiveSP.cmd] -------------------------------------------------- 
+[12:23:00.36] [ActiveSP.cmd]  Active System Parition... 
+[12:23:00.36] [ActiveSP.cmd] -------------------------------------------------- 
+[12:23:00.37] [ActiveSP.cmd]   
+[12:23:00.39] [ActiveSP.cmd]  Create ["C:\system.sav\ActiveSP.cmd.FAILURE.flg"] file... 
+[12:23:00.39] [ActiveSP.cmd]   
+[12:23:00.40] [ActiveSP.cmd]  Active ESP... 
+[12:23:00.40] [ActiveSP.cmd]   
+[12:23:00.45] [DrvLtr2ESP.cmd] ************************************************** 
+[12:23:00.45] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[12:23:00.46] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[12:23:00.48] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[12:23:00.48] [DrvLtr2ESP.cmd]   
+[12:23:00.50] [DrvLtr2ESP.cmd]   
+[12:23:00.51] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[12:23:00.51] [DrvLtr2ESP.cmd]   
+[12:23:00.79] [DrvLtr2ESP.cmd]  ESP partition index = [4] 
+[12:23:00.79] [DrvLtr2ESP.cmd]  ESP drive letter = [S:] 
+[12:23:00.80] [DrvLtr2ESP.cmd]   
+[12:23:00.82] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[12:23:00.82] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-A7GHO4K
+
+Volume 1 is the selected volume.
+
+Partition 4 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 4    System             260 MB  1024 KB
+  Partition 3    Reserved            16 MB   261 MB
+  Partition 1    Primary             75 GB   277 MB
+  Partition 2    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Pagefile
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+
+DiskPart successfully removed the drive letter or mount point.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 4    System             260 MB  1024 KB
+  Partition 3    Reserved            16 MB   261 MB
+  Partition 1    Primary             75 GB   277 MB
+  Partition 2    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Pagefile
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+[12:23:01.35] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[12:23:01.35] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[12:23:01.37] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[12:23:01.38] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[12:23:01.38] [DrvLtr2ESP.cmd] ************************************************** 
+[12:23:01.41] [ActiveSP.cmd]  Active ESP successfully. 
+[12:23:01.43] [ActiveSP.cmd]   
+[12:23:01.44] [ActiveSP.cmd]  Inactive BP... 
+[12:23:01.44] [ActiveSP.cmd]   
+[12:23:01.49] [ActiveSP.cmd]  BP drive letter = [D:] 
+        1 dir(s) moved.
+[12:23:01.51] [ActiveSP.cmd]  Inactive BP successfully. 
+[12:23:01.52] [ActiveSP.cmd]   
+[12:23:01.52] [ActiveSP.cmd]  Delete ["C:\system.sav\ActiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[12:23:01.54] [ActiveSP.cmd] -------------------------------------------------- 
+[12:23:01.55] [ActiveSP.cmd]  [ActiveSP.cmd] has completed... 
+[12:23:01.57] [ActiveSP.cmd] ************************************************** 
+[12:28:29.35] [DelPF4WPE.cmd] ************************************************** 
+[12:28:29.52] [DelPF4WPE.cmd]  [DelPF4WPE.cmd] has started... 
+[12:28:29.61] [DelPF4WPE.cmd] -------------------------------------------------- 
+[12:28:29.63] [DelPF4WPE.cmd]  Delete pagefile for WinPE use 
+[12:28:29.66] [DelPF4WPE.cmd] -------------------------------------------------- 
+[12:28:29.68] [DelPF4WPE.cmd]   
+[12:28:29.79] [DelPF4WPE.cmd]  Create ["C:\system.sav\DelPF4WPE.cmd.FAILURE.flg"] file... 
+[12:28:29.94] [DelPF4WPE.cmd]   
+[12:28:30.00] [DelPF4WPE.cmd]  Detect target drive for WinPE pagefile... 
+[12:28:30.04] [DelPF4WPE.cmd]   
+[12:28:33.71] [DelPF4WPE.cmd]  Target drive = [C:] 
+[12:28:33.72] [DelPF4WPE.cmd]   
+[12:28:33.74] [DelPF4WPE.cmd]  Delete pagefile for WinPE... 
+[12:28:33.77] [DelPF4WPE.cmd]   
+[12:28:34.43] [DelPF4WPE.cmd]    ErrorLevel=[0] 
+[12:28:34.46] [DelPF4WPE.cmd]    ErrorLevel=[0] 
+[12:28:34.49] [DelPF4WPE.cmd]   
+[12:28:34.50] [DelPF4WPE.cmd]  Delete ["C:\system.sav\DelPF4WPE.cmd.FAILURE.flg"] file since no errors detected... 
+[12:28:34.52] [DelPF4WPE.cmd] -------------------------------------------------- 
+[12:28:34.54] [DelPF4WPE.cmd]  [DelPF4WPE.cmd] has completed... 
+[12:28:34.55] [DelPF4WPE.cmd] ************************************************** 
+[12:30:24.14] [MS_StartAPP_Resource.cmd]  [12:30:24.12] 
+[12:30:24.18] [MS_StartAPP_Resource.cmd] ************************************************** 
+[12:30:24.20] [MS_StartAPP_Resource.cmd]  [C:\SWSETUP\MS_StartApp_Resource\MS_StartAPP_Resource.cmd] has started... 
+[12:30:24.23] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:24.24] [MS_StartAPP_Resource.cmd]   
+[12:30:24.26] [MS_StartAPP_Resource.cmd]  Detect OS bits 
+[12:30:24.28] [MS_StartAPP_Resource.cmd]   
+[12:30:24.31] [MS_StartAPP_Resource.cmd]   
+[12:30:24.32] [MS_StartAPP_Resource.cmd]    OS Bit = [x64] 
+[12:30:24.34] [MS_StartAPP_Resource.cmd]   
+[12:30:24.35] [MS_StartAPP_Resource.cmd]   
+[12:30:24.39] [MS_StartAPP_Resource.cmd]  Run [CD /D C:\SWSETUP\MS_StartApp_Resource\] to move directory.. 
+[12:30:24.40] [MS_StartAPP_Resource.cmd]   
+[12:30:24.43] [MS_StartAPP_Resource.cmd] **************************************************************************************************** 
+[12:30:24.45] [MS_StartAPP_Resource.cmd]   FULL 
+[12:30:24.48] [MS_StartAPP_Resource.cmd] **************************************************************************************************** 
+[12:30:24.53] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:24.54] [MS_StartAPP_Resource.cmd]  START : Install [Alarms] 
+[12:30:24.57] [MS_StartAPP_Resource.cmd]   
+[12:30:37.48] [MS_StartAPP_Resource.cmd]   
+[12:30:37.50] [MS_StartAPP_Resource.cmd]    PASSED [Alarms] 
+[12:30:37.53] [MS_StartAPP_Resource.cmd]   
+[12:30:37.55] [MS_StartAPP_Resource.cmd]  END : Install [Alarms] 
+[12:30:37.56] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:37.59] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:37.61] [MS_StartAPP_Resource.cmd]  START : Install [Builder3D] 
+[12:30:37.64] [MS_StartAPP_Resource.cmd]   
+[12:30:43.67] [MS_StartAPP_Resource.cmd]   
+[12:30:43.69] [MS_StartAPP_Resource.cmd]    PASSED [Builder3D] 
+[12:30:43.70] [MS_StartAPP_Resource.cmd]   
+[12:30:43.72] [MS_StartAPP_Resource.cmd]  END : Install [Builder3D] 
+[12:30:43.73] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:43.78] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:43.80] [MS_StartAPP_Resource.cmd]  START : Install [Getstarted] 
+[12:30:43.81] [MS_StartAPP_Resource.cmd]   
+[12:30:51.58] [MS_StartAPP_Resource.cmd]   
+[12:30:51.61] [MS_StartAPP_Resource.cmd]    PASSED [Getstarted] 
+[12:30:51.64] [MS_StartAPP_Resource.cmd]   
+[12:30:51.66] [MS_StartAPP_Resource.cmd]  END : Install [Getstarted] 
+[12:30:51.67] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:51.72] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:51.73] [MS_StartAPP_Resource.cmd]  START : Install [Messaging] 
+[12:30:51.77] [MS_StartAPP_Resource.cmd]   
+[12:30:57.86] [MS_StartAPP_Resource.cmd]   
+[12:30:57.87] [MS_StartAPP_Resource.cmd]    PASSED [Messaging] 
+[12:30:57.91] [MS_StartAPP_Resource.cmd]   
+[12:30:57.92] [MS_StartAPP_Resource.cmd]  END : Install [Messaging] 
+[12:30:57.95] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:58.00] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:30:58.02] [MS_StartAPP_Resource.cmd]  START : Install [Maps.Windows] 
+[12:30:58.05] [MS_StartAPP_Resource.cmd]   
+[12:31:08.71] [MS_StartAPP_Resource.cmd]   
+[12:31:08.71] [MS_StartAPP_Resource.cmd]    PASSED [Maps.Windows] 
+[12:31:08.72] [MS_StartAPP_Resource.cmd]   
+[12:31:08.76] [MS_StartAPP_Resource.cmd]  END : Install [Maps.Windows] 
+[12:31:08.77] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:08.80] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:08.83] [MS_StartAPP_Resource.cmd]  START : Install [Music] 
+[12:31:08.85] [MS_StartAPP_Resource.cmd]   
+[12:31:17.86] [MS_StartAPP_Resource.cmd]   
+[12:31:17.88] [MS_StartAPP_Resource.cmd]    PASSED [Music] 
+[12:31:17.90] [MS_StartAPP_Resource.cmd]   
+[12:31:17.91] [MS_StartAPP_Resource.cmd]  END : Install [Music] 
+[12:31:17.93] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:17.97] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:17.99] [MS_StartAPP_Resource.cmd]  START : Install [officehubim] 
+[12:31:18.02] [MS_StartAPP_Resource.cmd]   
+[12:31:24.85] [MS_StartAPP_Resource.cmd]   
+[12:31:24.86] [MS_StartAPP_Resource.cmd]    PASSED [officehubim] 
+[12:31:24.88] [MS_StartAPP_Resource.cmd]   
+[12:31:24.90] [MS_StartAPP_Resource.cmd]  END : Install [officehubim] 
+[12:31:24.93] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:24.96] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:24.99] [MS_StartAPP_Resource.cmd]  START : Install [onenoteim] 
+[12:31:25.01] [MS_StartAPP_Resource.cmd]   
+[12:31:38.52] [MS_StartAPP_Resource.cmd]   
+[12:31:38.54] [MS_StartAPP_Resource.cmd]    PASSED [onenoteim] 
+[12:31:38.55] [MS_StartAPP_Resource.cmd]   
+[12:31:38.58] [MS_StartAPP_Resource.cmd]  END : Install [onenoteim] 
+[12:31:38.60] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:38.65] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:38.68] [MS_StartAPP_Resource.cmd]  START : Install [CommApps] 
+[12:31:38.69] [MS_StartAPP_Resource.cmd]   
+[12:31:58.52] [MS_StartAPP_Resource.cmd]   
+[12:31:58.54] [MS_StartAPP_Resource.cmd]    PASSED [CommApps] 
+[12:31:58.55] [MS_StartAPP_Resource.cmd]   
+[12:31:58.57] [MS_StartAPP_Resource.cmd]  END : Install [CommApps] 
+[12:31:58.60] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:58.63] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:31:58.65] [MS_StartAPP_Resource.cmd]  START : Install [People] 
+[12:31:58.68] [MS_StartAPP_Resource.cmd]   
+[12:32:04.79] [MS_StartAPP_Resource.cmd]   
+[12:32:04.80] [MS_StartAPP_Resource.cmd]    PASSED [People] 
+[12:32:04.82] [MS_StartAPP_Resource.cmd]   
+[12:32:04.83] [MS_StartAPP_Resource.cmd]  END : Install [People] 
+[12:32:04.85] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:04.90] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:04.91] [MS_StartAPP_Resource.cmd]  START : Install [SkypeApp] 
+[12:32:04.93] [MS_StartAPP_Resource.cmd]   
+[12:32:15.90] [MS_StartAPP_Resource.cmd]   
+[12:32:15.92] [MS_StartAPP_Resource.cmd]    PASSED [SkypeApp] 
+[12:32:15.93] [MS_StartAPP_Resource.cmd]   
+[12:32:15.96] [MS_StartAPP_Resource.cmd]  END : Install [SkypeApp] 
+[12:32:15.98] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:16.01] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:16.02] [MS_StartAPP_Resource.cmd]  START : Install [Solitaire] 
+[12:32:16.04] [MS_StartAPP_Resource.cmd]   
+[12:32:30.89] [MS_StartAPP_Resource.cmd]   
+[12:32:30.91] [MS_StartAPP_Resource.cmd]    PASSED [Solitaire] 
+[12:32:30.92] [MS_StartAPP_Resource.cmd]   
+[12:32:30.94] [MS_StartAPP_Resource.cmd]  END : Install [Solitaire] 
+[12:32:30.95] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:30.98] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:31.00] [MS_StartAPP_Resource.cmd]  START : Install [Video] 
+[12:32:31.02] [MS_StartAPP_Resource.cmd]   
+[12:32:37.63] [MS_StartAPP_Resource.cmd]   
+[12:32:37.65] [MS_StartAPP_Resource.cmd]    PASSED [Video] 
+[12:32:37.68] [MS_StartAPP_Resource.cmd]   
+[12:32:37.69] [MS_StartAPP_Resource.cmd]  END : Install [Video] 
+[12:32:37.71] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:37.74] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:37.76] [MS_StartAPP_Resource.cmd]  START : Install [Weather] 
+[12:32:37.77] [MS_StartAPP_Resource.cmd]   
+[12:32:43.50] [MS_StartAPP_Resource.cmd]   
+[12:32:43.53] [MS_StartAPP_Resource.cmd]    PASSED [Weather] 
+[12:32:43.55] [MS_StartAPP_Resource.cmd]   
+[12:32:43.56] [MS_StartAPP_Resource.cmd]  END : Install [Weather] 
+[12:32:43.58] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:43.61] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:43.63] [MS_StartAPP_Resource.cmd]  START : Install [Windows.Photos] 
+[12:32:43.64] [MS_StartAPP_Resource.cmd]   
+[12:32:51.46] [MS_StartAPP_Resource.cmd]   
+[12:32:51.47] [MS_StartAPP_Resource.cmd]    PASSED [Windows.Photos] 
+[12:32:51.50] [MS_StartAPP_Resource.cmd]   
+[12:32:51.52] [MS_StartAPP_Resource.cmd]  END : Install [Windows.Photos] 
+[12:32:51.54] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:51.57] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:51.58] [MS_StartAPP_Resource.cmd]  START : Install [WindowsCalculator] 
+[12:32:51.60] [MS_StartAPP_Resource.cmd]   
+[12:32:56.16] [MS_StartAPP_Resource.cmd]   
+[12:32:56.17] [MS_StartAPP_Resource.cmd]    PASSED [WindowsCalculator] 
+[12:32:56.19] [MS_StartAPP_Resource.cmd]   
+[12:32:56.20] [MS_StartAPP_Resource.cmd]  END : Install [WindowsCalculator] 
+[12:32:56.22] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:56.26] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:32:56.28] [MS_StartAPP_Resource.cmd]  START : Install [WindowsCamera] 
+[12:32:56.30] [MS_StartAPP_Resource.cmd]   
+[12:33:01.42] [MS_StartAPP_Resource.cmd]   
+[12:33:01.42] [MS_StartAPP_Resource.cmd]    PASSED [WindowsCamera] 
+[12:33:01.45] [MS_StartAPP_Resource.cmd]   
+[12:33:01.48] [MS_StartAPP_Resource.cmd]  END : Install [WindowsCamera] 
+[12:33:01.49] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:01.53] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:01.54] [MS_StartAPP_Resource.cmd]  START : Install [WindowsSoundRecorder] 
+[12:33:01.56] [MS_StartAPP_Resource.cmd]   
+[12:33:06.43] [MS_StartAPP_Resource.cmd]   
+[12:33:06.45] [MS_StartAPP_Resource.cmd]    PASSED [WindowsSoundRecorder] 
+[12:33:06.47] [MS_StartAPP_Resource.cmd]   
+[12:33:06.50] [MS_StartAPP_Resource.cmd]  END : Install [WindowsSoundRecorder] 
+[12:33:06.51] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:06.54] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:06.56] [MS_StartAPP_Resource.cmd]  START : Install [WindowsStore] 
+[12:33:06.59] [MS_StartAPP_Resource.cmd]   
+[12:33:13.81] [MS_StartAPP_Resource.cmd]   
+[12:33:13.82] [MS_StartAPP_Resource.cmd]    PASSED [WindowsStore] 
+[12:33:13.86] [MS_StartAPP_Resource.cmd]   
+[12:33:13.87] [MS_StartAPP_Resource.cmd]  END : Install [WindowsStore] 
+[12:33:13.89] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:13.93] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:13.95] [MS_StartAPP_Resource.cmd]  START : Install [XboxApp] 
+[12:33:13.97] [MS_StartAPP_Resource.cmd]   
+[12:33:21.48] [MS_StartAPP_Resource.cmd]   
+[12:33:21.52] [MS_StartAPP_Resource.cmd]    PASSED [XboxApp] 
+[12:33:21.54] [MS_StartAPP_Resource.cmd]   
+[12:33:21.55] [MS_StartAPP_Resource.cmd]  END : Install [XboxApp] 
+[12:33:21.57] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:21.62] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:21.63] [MS_StartAPP_Resource.cmd]  START : Install [XboxIdentityProvider] 
+[12:33:21.65] [MS_StartAPP_Resource.cmd]   
+[12:33:25.65] [MS_StartAPP_Resource.cmd]   
+[12:33:25.68] [MS_StartAPP_Resource.cmd]    PASSED [XboxIdentityProvider] 
+[12:33:25.70] [MS_StartAPP_Resource.cmd]   
+[12:33:25.71] [MS_StartAPP_Resource.cmd]  END : Install [XboxIdentityProvider] 
+[12:33:25.73] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:25.76] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:25.78] [MS_StartAPP_Resource.cmd]  START : Install [StickyNotes] 
+[12:33:25.79] [MS_StartAPP_Resource.cmd]   
+[12:33:31.50] [MS_StartAPP_Resource.cmd]   
+[12:33:31.52] [MS_StartAPP_Resource.cmd]    PASSED [StickyNotes] 
+[12:33:31.55] [MS_StartAPP_Resource.cmd]   
+[12:33:31.56] [MS_StartAPP_Resource.cmd]  END : Install [StickyNotes] 
+[12:33:31.58] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:31.61] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:31.63] [MS_StartAPP_Resource.cmd]  START : Install [OneConnect] 
+[12:33:31.64] [MS_StartAPP_Resource.cmd]   
+[12:33:36.75] [MS_StartAPP_Resource.cmd]   
+[12:33:36.77] [MS_StartAPP_Resource.cmd]    PASSED [OneConnect] 
+[12:33:36.80] [MS_StartAPP_Resource.cmd]   
+[12:33:36.81] [MS_StartAPP_Resource.cmd]  END : Install [OneConnect] 
+[12:33:36.83] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:36.86] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:36.88] [MS_StartAPP_Resource.cmd]  START : Install [WinFeedback] 
+[12:33:36.89] [MS_StartAPP_Resource.cmd]   
+[12:33:43.33] [MS_StartAPP_Resource.cmd]   
+[12:33:43.34] [MS_StartAPP_Resource.cmd]    PASSED [WinFeedback] 
+[12:33:43.36] [MS_StartAPP_Resource.cmd]   
+[12:33:43.38] [MS_StartAPP_Resource.cmd]  END : Install [WinFeedback] 
+[12:33:43.39] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:43.42] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:43.44] [MS_StartAPP_Resource.cmd]  START : Install [DTAppInstaller] 
+[12:33:43.47] [MS_StartAPP_Resource.cmd]   
+[12:33:47.91] [MS_StartAPP_Resource.cmd]   
+[12:33:47.94] [MS_StartAPP_Resource.cmd]    PASSED [DTAppInstaller] 
+[12:33:47.95] [MS_StartAPP_Resource.cmd]   
+[12:33:47.97] [MS_StartAPP_Resource.cmd]  END : Install [DTAppInstaller] 
+[12:33:47.99] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:48.03] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:48.05] [MS_StartAPP_Resource.cmd]  START : Install [StorePurchaseApp] 
+[12:33:48.06] [MS_StartAPP_Resource.cmd]   
+[12:33:51.25] [MS_StartAPP_Resource.cmd]   
+[12:33:51.27] [MS_StartAPP_Resource.cmd]    PASSED [StorePurchaseApp] 
+[12:33:51.28] [MS_StartAPP_Resource.cmd]   
+[12:33:51.30] [MS_StartAPP_Resource.cmd]  END : Install [StorePurchaseApp] 
+[12:33:51.31] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:51.34] [MS_StartAPP_Resource.cmd]  [12:33:51.33] 
+[12:33:51.36] [MS_StartAPP_Resource.cmd]   
+[12:33:51.38] [MS_StartAPP_Resource.cmd]   
+[12:33:51.39] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:51.41] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:51.42] [MS_StartAPP_Resource.cmd]   
+[12:33:51.44] [MS_StartAPP_Resource.cmd]  PASSED : INSTALL APPS TO FULL IMAGE... 
+[12:33:51.45] [MS_StartAPP_Resource.cmd]   
+[12:33:51.47] [MS_StartAPP_Resource.cmd]  PASSED : COMPLETED... 
+[12:33:51.49] [MS_StartAPP_Resource.cmd]  [12:33:51.47] 
+[12:33:51.50] [MS_StartAPP_Resource.cmd] -------------------------------------------------- 
+[12:33:51.53] [MS_StartAPP_Resource.cmd]  [MS_StartAPP_Resource.cmd] has completed... 
+[12:33:51.55] [MS_StartAPP_Resource.cmd] ************************************************** 
+[12:33:51.56] [MS_StartAPP_Resource.cmd]  [12:33:51.55] 
+[13:57:59.90] [CheckFailureFlags.cmd] ************************************************** 
+[13:57:59.93] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has started... 
+[13:57:59.96] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[13:57:59.98] [CheckFailureFlags.cmd]  Check FAILURE.flg at [PASS1Cln] 
+[13:57:59.99] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[13:58:02.67] [CheckFailureFlags.cmd]   
+[13:58:02.68] [CheckFailureFlags.cmd]  No FAILURE.flg was found in C:\SwSetup folder 
+[13:58:02.70] [CheckFailureFlags.cmd]   
+[13:58:02.74] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[13:58:02.76] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has completed... 
+[13:58:02.78] [CheckFailureFlags.cmd] ************************************************** 
+[14:00:26.06] [InactiveSP.cmd] ************************************************** 
+[14:00:26.08] [InactiveSP.cmd]  [InactiveSP.cmd] has started... 
+[14:00:26.09] [InactiveSP.cmd] -------------------------------------------------- 
+[14:00:26.11] [InactiveSP.cmd]  Inactive System Parition... 
+[14:00:26.13] [InactiveSP.cmd] -------------------------------------------------- 
+[14:00:26.14] [InactiveSP.cmd]   
+[14:00:26.16] [InactiveSP.cmd]  Create ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"]... 
+[14:00:26.19] [InactiveSP.cmd]   
+[14:00:26.20] [InactiveSP.cmd]  Inactive ESP...  
+[14:00:26.22] [InactiveSP.cmd]   
+[14:00:26.28] [DrvLtr2ESP.cmd] ************************************************** 
+[14:00:26.30] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[14:00:26.31] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[14:00:26.34] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[14:00:26.36] [DrvLtr2ESP.cmd]   
+[14:00:26.38] [DrvLtr2ESP.cmd]   
+[14:00:26.39] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[14:00:26.41] [DrvLtr2ESP.cmd]   
+[14:00:26.78] [DrvLtr2ESP.cmd]  ESP partition index = [1] 
+[14:00:26.81] [DrvLtr2ESP.cmd]  ESP drive letter = [NONE] 
+[14:00:26.83] [DrvLtr2ESP.cmd]   
+[14:00:26.86] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[14:00:26.88] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: WIN-SHHAUHQ7E8C
+
+Volume 1 is the selected volume.
+
+Partition 1 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3                      FAT32  Partition    260 MB  Healthy    System  
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    System  
+[14:00:29.96] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[14:00:29.97] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:00:30.01] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[14:00:30.02] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[14:00:30.04] [DrvLtr2ESP.cmd] ************************************************** 
+[14:00:30.10] [InactiveSP.cmd]  Inactive ESP successfully. 
+[14:00:30.11] [InactiveSP.cmd]   
+[14:00:30.15] [InactiveSP.cmd]  Active BP... 
+[14:00:30.16] [InactiveSP.cmd]   
+[14:00:30.22] [InactiveSP.cmd]  BP drive letter = [D:] 
+        1 dir(s) moved.
+[14:00:30.26] [InactiveSP.cmd]  Active BP successfully. 
+[14:00:30.27] [InactiveSP.cmd]   
+[14:00:30.29] [InactiveSP.cmd]  Delete ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:00:30.30] [InactiveSP.cmd] -------------------------------------------------- 
+[14:00:30.32] [InactiveSP.cmd]  [InactiveSP.cmd] has completed... 
+[14:00:30.35] [InactiveSP.cmd] ************************************************** 
+[14:01:34.45] [UHOOKFBI.cmd] ************************************************** 
+[14:01:34.48] [UHOOKFBI.cmd]  [c:\Appl.zip\VITTDC\UHOOKFBI.cmd] has started... 
+[14:01:34.50] [UHOOKFBI.cmd] -------------------------------------------------- 
+[14:01:34.50] [UHOOKFBI.cmd]  HOOK FBI 
+[14:01:34.51] [UHOOKFBI.cmd] -------------------------------------------------- 
+[14:01:34.53] [UHOOKFBI.cmd]   
+[14:01:34.53] [UHOOKFBI.cmd]  Run [reg.exe load HKLM\TempSW c:\windows\system32\config\SOFTWARE]... 
+The operation completed successfully.
+[14:01:36.06] [UHOOKFBI.cmd]   
+[14:01:36.06] [UHOOKFBI.cmd]    Loaded hive : c:\windows\system32\config\SOFTWARE. 
+[14:01:36.07] [UHOOKFBI.cmd]   
+[14:01:36.09] [UHOOKFBI.cmd]  Run [reg.exe DELETE HKLM\TempSW\Microsoft\Windows\CurrentVersion\Run /v RUNFBI /f]... 
+ERROR: The system was unable to find the specified registry key or value.
+[14:01:36.11] [UHOOKFBI.cmd]   
+[14:01:36.12] [UHOOKFBI.cmd]    Reg.exe returned [1] 
+[14:01:36.14] [UHOOKFBI.cmd]    Failed to delete [RUNFBI] because it was not in registry... 
+[14:01:36.14] [UHOOKFBI.cmd]    This is not critical error... 
+[14:01:36.15] [UHOOKFBI.cmd]   
+[14:01:36.17] [UHOOKFBI.cmd]  Run [reg.exe unload HKLM\TempSW]... 
+The operation completed successfully.
+[14:01:36.41] [UHOOKFBI.cmd]   
+[14:01:36.41] [UHOOKFBI.cmd]    Unloaded hive : c:\windows\system32\config\SOFTWARE... 
+[14:01:36.43] [UHOOKFBI.cmd]   
+[14:01:36.43] [UHOOKFBI.cmd]  Delete ["C:\system.sav\UHOOKFBI.cmd.FAILURE.flg"] since FBI is hooked as expected... 
+[14:01:36.44] [UHOOKFBI.cmd] -------------------------------------------------- 
+[14:01:36.46] [UHOOKFBI.cmd]  [UHOOKFBI.cmd] has completed... 
+[14:01:36.46] [UHOOKFBI.cmd] ************************************************** 
+[14:02:11.44] [ChkError.cmd] ************************************************** 
+[14:02:11.46] [ChkError.cmd]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[14:02:11.47] [ChkError.cmd] -------------------------------------------------- 
+[14:02:11.47] [ChkError.cmd]  Check SW Error... 
+[14:02:11.49] [ChkError.cmd] -------------------------------------------------- 
+[14:02:11.50] [ChkError.cmd]   
+[14:02:11.50] [ChkError.cmd]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[14:02:11.52] [ChkError.cmd]   
+[14:02:11.54] [ChkError.cmd]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS1_Before_Capture_Index_2_and_3.log]... 
+[14:02:11.54] [ChkError.cmd]   
+[14:02:11.55] [ChkError.cmd]  Check 2nd parameter [PASS1B4CAP] 
+[14:02:11.57] [ChkError.cmd]   
+[14:02:11.57] [ChkError.cmd]  Error Checking items : [MEMDUMP,APPSLOG,TIMEOUT,BADLINE,FAILUREFLG] 
+[14:02:11.58] [ChkError.cmd]  -------------------------------------------------- 
+[14:02:11.60] [ChkError.cmd]  Checking : Memory Dump 
+[14:02:11.61] [ChkError.cmd]    Could not find memory dump... 
+[14:02:11.61] [ChkError.cmd]   
+[14:02:11.63] [ChkError.cmd]  [DumpFile] 
+[14:02:11.64] [ChkError.cmd]  Result=PASSED 
+[14:02:11.66] [ChkError.cmd]  -------------------------------------------------- 
+[14:02:11.66] [ChkError.cmd]  Checking : Apps' log 
+[14:02:11.68] [ChkError.cmd]   
+[14:02:12.60] [ChkError.cmd]  [AppsLog] 
+[14:02:12.81] [ChkError.cmd]  Result=PASSED 
+[14:02:13.06] [ChkError.cmd]  -------------------------------------------------- 
+[14:02:13.28] [ChkError.cmd]  Checking : Timeout in INSTALL.log 
+[14:02:13.50] [ChkError.cmd]   
+[14:02:13.72] [ChkError.cmd]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[14:02:14.79] [ChkError.cmd]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[14:02:15.37] [ChkError.cmd]   There is NO timeout in install.log file. 
+[14:02:15.39] [ChkError.cmd]   
+[14:02:15.42] [ChkError.cmd]  [TIMEOUT] 
+[14:02:15.43] [ChkError.cmd]  Result=PASSED 
+[14:02:15.47] [ChkError.cmd]  -------------------------------------------------- 
+[14:02:15.48] [ChkError.cmd]  Checking : Bad Line in INSTALL.log 
+[14:02:15.50] [ChkError.cmd]   
+[14:02:15.53] [ChkError.cmd]  Run [cscript.exe c:\System.sav\ExitProc\ErrorChk\BadLine.vbs] 
+[14:02:15.77] [ChkError.cmd]   No BadLine in install.log file. 
+[14:02:15.79] [ChkError.cmd]   
+[14:02:15.80] [ChkError.cmd]  [BADLINE] 
+[14:02:15.82] [ChkError.cmd]  Result=PASSED 
+[14:02:15.85] [ChkError.cmd]  -------------------------------------------------- 
+[14:02:15.86] [ChkError.cmd]  Checking : FAILURE.flg 
+[14:02:16.05] [CheckFailureFlags.cmd] ************************************************** 
+[14:02:16.07] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has started... 
+[14:02:16.08] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[14:02:16.08] [CheckFailureFlags.cmd]  Check FAILURE.flg at [PASS1_Before_Capture_Index_2_and_3] 
+[14:02:16.10] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[14:02:18.02] [CheckFailureFlags.cmd]   
+[14:02:18.02] [CheckFailureFlags.cmd]  No FAILURE.flg was found in C:\SwSetup folder 
+[14:02:18.04] [CheckFailureFlags.cmd]   
+[14:02:18.05] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[14:02:18.07] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has completed... 
+[14:02:18.08] [CheckFailureFlags.cmd] ************************************************** 
+[14:02:18.10] [ChkError.cmd]   
+[14:02:18.13] [ChkError.cmd]  [FAILURE_FLAG] 
+[14:02:18.15] [ChkError.cmd]  Result=PASSED 
+[14:02:18.18] [ChkError.cmd]   
+[14:02:18.19] [ChkError.cmd]  -------------------------------------------------- 
+[14:02:18.22] [ChkError.cmd]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[14:02:18.26] [ChkError.cmd]   
+[14:02:18.27] [ChkError.cmd]    No SW issue found... 
+[14:02:18.29] [ChkError.cmd]   
+[14:02:18.32] [ChkError.cmd] -------------------------------------------------- 
+[14:02:18.33] [ChkError.cmd]  [ChkError.cmd] has completed... 
+[14:02:18.35] [ChkError.cmd] ************************************************** 
+[14:12:17.26] [ChkIndex.cmd] ************************************************** 
+[14:12:17.28] [ChkIndex.cmd]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkIndex.cmd] has started... 
+[14:12:17.30] [ChkIndex.cmd] -------------------------------------------------- 
+[14:12:17.30] [ChkIndex.cmd]  Check Base.wim includes 1 index 
+[14:12:17.31] [ChkIndex.cmd] -------------------------------------------------- 
+[14:12:17.33] [ChkIndex.cmd]   
+[14:12:17.33] [ChkIndex.cmd]    Found [C:\RM\Image\Base.wim] 
+[14:12:17.34] [ChkIndex.cmd]  Run [DISM.exe /get-wiminfo /wimfile=C:\RM\Image\Base.wim /index:1] 
+[14:12:17.42] [ChkIndex.cmd]   
+[14:12:17.42] [ChkIndex.cmd]    Found Index#1 in .wim file... 
+[14:12:17.44] [ChkIndex.cmd]   
+[14:12:17.50] [ChkIndex.cmd]   
+[14:12:17.51] [ChkIndex.cmd] -------------------------------------------------- 
+[14:12:17.51] [ChkIndex.cmd]  [ChkIndex.cmd] has completed... 
+[14:12:17.53] [ChkIndex.cmd] ************************************************** 
+[14:12:17.75] [ChkError.cmd] ************************************************** 
+[14:12:17.76] [ChkError.cmd]  [c:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[14:12:17.76] [ChkError.cmd] -------------------------------------------------- 
+[14:12:17.78] [ChkError.cmd]  Check SW Error... 
+[14:12:17.80] [ChkError.cmd] -------------------------------------------------- 
+[14:12:17.80] [ChkError.cmd]   
+[14:12:17.81] [ChkError.cmd]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[14:12:17.81] [ChkError.cmd]   
+[14:12:17.83] [ChkError.cmd]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS1_1stGS_CHECK.log]... 
+[14:12:17.84] [ChkError.cmd]   
+[14:12:17.84] [ChkError.cmd]  Check 2nd parameter [PASS1GS] 
+[14:12:17.86] [ChkError.cmd]   
+[14:12:17.87] [ChkError.cmd]  Error Checking items : [MEMDUMP,APPSLOG,TIMEOUT,BADLINE,FAILUREFLG,RMFAIL] 
+[14:12:17.89] [ChkError.cmd]  -------------------------------------------------- 
+[14:12:17.89] [ChkError.cmd]  Checking : Memory Dump 
+[14:12:17.91] [ChkError.cmd]    Could not find memory dump... 
+[14:12:17.91] [ChkError.cmd]   
+[14:12:17.92] [ChkError.cmd]  [DumpFile] 
+[14:12:17.94] [ChkError.cmd]  Result=PASSED 
+[14:12:17.95] [ChkError.cmd]  -------------------------------------------------- 
+[14:12:17.95] [ChkError.cmd]  Checking : Apps' log 
+[14:12:17.97] [ChkError.cmd]   
+[14:12:18.84] [ChkError.cmd]  [AppsLog] 
+[14:12:19.06] [ChkError.cmd]  Result=PASSED 
+[14:12:19.33] [ChkError.cmd]  -------------------------------------------------- 
+[14:12:19.58] [ChkError.cmd]  Checking : Timeout in INSTALL.log 
+[14:12:19.81] [ChkError.cmd]   
+[14:12:20.06] [ChkError.cmd]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[14:12:21.19] [ChkError.cmd]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[14:12:21.83] [ChkError.cmd]   There is NO timeout in install.log file. 
+[14:12:21.86] [ChkError.cmd]   
+[14:12:21.88] [ChkError.cmd]  [TIMEOUT] 
+[14:12:21.89] [ChkError.cmd]  Result=PASSED 
+[14:12:21.93] [ChkError.cmd]  -------------------------------------------------- 
+[14:12:21.96] [ChkError.cmd]  Checking : Bad Line in INSTALL.log 
+[14:12:21.97] [ChkError.cmd]   
+[14:12:22.00] [ChkError.cmd]  Run [cscript.exe c:\System.sav\ExitProc\ErrorChk\BadLine.vbs] 
+[14:12:22.22] [ChkError.cmd]   No BadLine in install.log file. 
+[14:12:22.24] [ChkError.cmd]   
+[14:12:22.26] [ChkError.cmd]  [BADLINE] 
+[14:12:22.29] [ChkError.cmd]  Result=PASSED 
+[14:12:22.32] [ChkError.cmd]  -------------------------------------------------- 
+[14:12:22.33] [ChkError.cmd]  Checking : FAILURE.flg 
+[14:12:22.52] [CheckFailureFlags.cmd] ************************************************** 
+[14:12:22.54] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has started... 
+[14:12:22.54] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[14:12:22.55] [CheckFailureFlags.cmd]  Check FAILURE.flg at [PASS1_1stGS_CHECK] 
+[14:12:22.57] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[14:12:23.80] [CheckFailureFlags.cmd]   
+[14:12:23.80] [CheckFailureFlags.cmd]  No FAILURE.flg was found in C:\SwSetup folder 
+[14:12:23.82] [CheckFailureFlags.cmd]   
+[14:12:23.84] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[14:12:23.84] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has completed... 
+[14:12:23.85] [CheckFailureFlags.cmd] ************************************************** 
+[14:12:23.88] [ChkError.cmd]   
+[14:12:23.90] [ChkError.cmd]  [FAILURE_FLAG] 
+[14:12:23.93] [ChkError.cmd]  Result=PASSED 
+[14:12:23.96] [ChkError.cmd]   
+[14:12:23.99] [ChkError.cmd]  -------------------------------------------------- 
+[14:12:24.01] [ChkError.cmd]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[14:12:24.04] [ChkError.cmd]   
+[14:12:24.05] [ChkError.cmd]    No SW issue found... 
+[14:12:24.09] [ChkError.cmd]   
+[14:12:24.10] [ChkError.cmd] -------------------------------------------------- 
+[14:12:24.13] [ChkError.cmd]  [ChkError.cmd] has completed... 
+[14:12:24.15] [ChkError.cmd] ************************************************** 
+[14:12:24.50] [ListBTO.cmd] ************************************************** 
+[14:12:24.50] [ListBTO.cmd]  [c:\SYSTEM.SAV\ExitProc\DataColl\ListBTO.cmd] has started... 
+[14:12:24.51] [ListBTO.cmd] -------------------------------------------------- 
+[14:12:24.53] [ListBTO.cmd]  list .bto file at [PASS1_END] stage under: 
+[14:12:24.53] [ListBTO.cmd]    c:\appl.zip 
+[14:12:24.54] [ListBTO.cmd]    c:\system.sav 
+[14:12:24.56] [ListBTO.cmd]   to see which .BTO file might not be processed. 
+[14:12:24.56] [ListBTO.cmd] -------------------------------------------------- 
+[14:12:24.57] [ListBTO.cmd]   
+[14:12:24.57] [ListBTO.cmd]  Run [dir /s c:\appl.zip\*.bto] 
+[14:12:24.59] [ListBTO.cmd]   
+[14:12:24.60] [ListBTO.cmd]   
+[14:12:24.60] [ListBTO.cmd] -------------------------------------------------- 
+[14:12:24.62] [ListBTO.cmd]   
+[14:12:24.62] [ListBTO.cmd]  Run [dir /s c:\system.sav\*.bto] 
+[14:12:24.64] [ListBTO.cmd]   
+[14:12:24.85] [ListBTO.cmd]   
+[14:12:24.85] [ListBTO.cmd] -------------------------------------------------- 
+[14:12:24.87] [ListBTO.cmd] -------------------------------------------------- 
+[14:12:24.89] [ListBTO.cmd]  [ListBTO.cmd] has completed... 
+[14:12:24.89] [ListBTO.cmd] ************************************************** 

@@ -1,0 +1,22 @@
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [13:48:57.49] Beginning of the Ngen.CMD                              
+############################################################# 
+[13:48:57.49] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[13:57:55.07] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:22.60] Beginning of the Ngen.CMD                              
+############################################################# 
+[ 4:46:22.62] Start TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe eqi 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update /queue 
+Run C:\windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe eqi 
+[ 4:48:04.44] Result of the TFS - Windows 10 HP Image Enhancements - TDC - ngen.exe to improve performance 
+RESULT=PASSED 

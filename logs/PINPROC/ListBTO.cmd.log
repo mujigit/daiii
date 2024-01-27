@@ -1,0 +1,218 @@
+[14:12:24.50] ************************************************** 
+[14:12:24.51]  [c:\SYSTEM.SAV\ExitProc\DataColl\ListBTO.cmd] has started... 
+[14:12:24.51] -------------------------------------------------- 
+[14:12:24.53]  list .bto file at [PASS1_END] stage under: 
+[14:12:24.53]    c:\appl.zip 
+[14:12:24.54]    c:\system.sav 
+[14:12:24.56]   to see which .BTO file might not be processed. 
+[14:12:24.56] -------------------------------------------------- 
+[14:12:24.57]   
+[14:12:24.57]  Run [dir /s c:\appl.zip\*.bto] 
+[14:12:24.59]   
+[14:12:24.60]   
+[14:12:24.60] -------------------------------------------------- 
+[14:12:24.62]   
+[14:12:24.64]  Run [dir /s c:\system.sav\*.bto] 
+[14:12:24.64]   
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of c:\system.sav\bbv
+
+06/03/2016  02:09 PM             7,332 diskut.bto
+               1 File(s)          7,332 bytes
+
+ Directory of c:\system.sav\P2PP\2ndCap
+
+01/03/2016  10:29 PM               234 0EnablePM.BTO
+10/17/2016  05:42 AM               647 Anoise.bto
+01/15/2016  02:47 PM               614 StartPolicy.BTO
+10/17/2016  05:42 AM               417 ZZEnableService.bto
+04/17/2014  06:26 AM               260 z_RM_PASS2_2ndCap.bto
+05/02/2013  11:20 AM                99 z_zBFDelPartFusion.bto
+               6 File(s)          2,271 bytes
+
+ Directory of c:\system.sav\P2PP\2ndCap.eue
+
+05/18/2016  02:55 PM               648 ExtendWP.bto
+06/02/2016  10:58 AM             3,460 ZZ_ENDPROC.bto
+               2 File(s)          4,108 bytes
+
+ Directory of c:\system.sav\P2PP\2ndCap.pi
+
+05/05/2016  02:11 PM             4,125 2ndCapPI.bto
+07/20/2015  06:50 PM               353 BackupDPK.bto
+08/22/2016  04:06 PM             1,063 CleanP2PP.bto
+01/06/2016  10:58 AM               594 ClnDhcpDomain.bto
+04/21/2016  10:23 AM               774 CUST2ndCap.BTO
+12/23/2015  10:44 AM               572 ImgEnd.bto
+01/08/2016  03:25 PM               226 MSSR_ON.bto
+07/19/2016  11:32 AM               606 OfflineDisableDefender.BTO
+01/03/2016  10:28 PM               377 ZZ_B4_2CAP.bto
+               9 File(s)          8,690 bytes
+
+ Directory of c:\system.sav\P2PP\BBV1
+
+04/22/2016  03:46 PM               676 BB1_W10SDS.bto
+12/23/2014  04:55 PM               425 ChkQFE.BTO
+04/28/2016  09:29 AM               422 ClnWinSxS_ImgEnh.bto
+10/17/2016  05:42 AM               419 ZZDisableService.bto
+10/15/2013  05:40 PM               467 ZZZDrv.bto
+               5 File(s)          2,409 bytes
+
+ Directory of c:\system.sav\P2PP\BBV2
+
+06/27/2016  04:11 PM             5,693 BB2_W10SDS.bto
+02/24/2016  05:36 PM             3,856 BB_W10Wallpaper.bto
+06/06/2016  02:08 PM             2,159 BB_W10Wallpaper_PBR.bto
+11/10/2015  01:56 PM               780 CLNTWEK.bto
+12/01/2014  04:28 PM               607 CollData.BTO
+12/09/2015  01:36 AM               548 DisOSKonSTDNB.bto
+03/13/2014  05:25 PM               505 OA3OptInfo.bto
+07/20/2015  06:46 PM               542 OA3PKPN.bto
+04/07/2016  06:32 PM               404 QryWinSxS_ImgEnh.bto
+06/18/2015  06:21 PM               494 ResetHiber.bto
+12/25/2015  05:20 PM                91 UpdModel.bto
+10/15/2013  05:42 PM               242 ZZZDRVSp.BTO
+              12 File(s)         15,921 bytes
+
+ Directory of c:\system.sav\P2PP\BBV2.pi
+
+03/13/2014  05:26 PM               662 0_PreCMD.bto
+11/23/2015  03:14 PM               749 ExtMSCB2.BTO
+10/17/2016  05:42 AM               357 ZAASyshang.bto
+               3 File(s)          1,768 bytes
+
+ Directory of c:\system.sav\P2PP\BBV2Post
+
+01/26/2016  06:20 PM               800 AppendBiosReadbackToBbv3.bto
+08/04/2016  03:35 PM               682 ASGPinTileTool.bto
+06/22/2016  03:19 PM               589 BBPost.bto
+02/24/2015  12:32 PM               862 CollData.BTO
+04/20/2016  03:22 PM               596 CUSTBBV2POST.BTO
+02/26/2015  07:01 PM               596 DisableDefender.BTO
+02/26/2015  07:05 PM               585 DTICON.BTO
+07/11/2016  04:25 PM               772 ImageDiag.BTO
+08/09/2016  06:15 AM               839 InsertPostOOBEM.BTO
+02/26/2015  07:05 PM               609 Ngen.BTO
+03/11/2016  02:49 PM               688 OSEnhWOL.BTO
+08/01/2016  02:32 PM               603 SetOSVar.BTO
+03/11/2016  02:49 PM             1,215 WinSAT.BTO
+02/26/2015  07:06 PM               602 WriteCache.BTO
+10/17/2016  05:42 AM               404 ZAASyshang.bto
+03/11/2016  02:49 PM               641 ZZ_OESnhCleanUp.bto
+              16 File(s)         11,083 bytes
+
+ Directory of c:\system.sav\P2PP\BBVClean
+
+06/03/2016  02:10 PM             2,305 BBClean.bto
+11/23/2015  06:23 PM             1,765 BBCleanSysPrep.bto
+02/24/2015  12:27 PM               280 BBPRERUN.bto
+04/20/2016  01:50 PM               545 ClnDhcpDomain.bto
+06/03/2016  09:59 AM               302 ClnSwSetup.bto
+11/09/2015  04:31 PM               253 ColSysInfo.bto
+06/29/2015  05:20 PM             1,318 CPFBIRES.bto
+04/22/2016  03:32 PM               536 CUSTClnDhcp.BTO
+04/06/2014  01:53 AM               101 DEF_OA3.bto
+02/19/2016  03:03 PM               242 PinProc4PBR.bto
+02/23/2016  12:15 PM               612 RdFldrIfErsCVA_PASS2.BTO
+04/20/2016  02:32 PM               614 Scaling_ImgEnh.BTO
+04/20/2016  02:56 PM               628 StartPolicy.BTO
+02/25/2016  10:37 AM               280 x_RM_PASS2_BBVClean.bto
+              14 File(s)          9,781 bytes
+
+ Directory of c:\system.sav\P2PP\BBVLast
+
+08/17/2016  01:34 PM             3,173 0_BBVLast.bto
+10/17/2016  05:42 AM               670 BypassCount2.bto
+10/17/2016  05:42 AM               789 resumeS3.bto
+11/11/2015  10:18 AM               263 y_RM_PASS2_BBVLAST.bto
+08/17/2016  01:36 PM             1,446 ZBBVLast.bto
+               5 File(s)          6,341 bytes
+
+ Directory of c:\system.sav\P2PP\FixUps
+
+07/05/2016  09:51 AM             1,232 0_Tweaks.bto
+01/26/2016  02:41 PM               999 1GenRStone.BTO
+11/02/2015  04:35 PM               258 1_RM_PASS2_FixUps.bto
+10/23/2015  02:32 PM               269 2_FPatch.bto
+02/26/2015  07:05 PM             1,962 IGNORE.BTO
+08/23/2016  02:16 PM             1,552 ZChkMPM.bto
+               6 File(s)          6,272 bytes
+
+ Directory of c:\system.sav\P2PP\FUpdate
+
+03/25/2016  04:00 PM             1,106 3_CreateSP.bto
+11/03/2015  05:27 PM               262 4_RM_PASS2_FUpdate.bto
+05/18/2016  02:56 PM               694 5_ExtendWP.BTO
+10/23/2015  02:44 PM               194 7_SSRxTwk.BTO
+03/24/2016  07:20 PM             1,680 9_FUP_PI.BTO
+02/10/2013  02:39 AM               353 A_RSTPrep.bto
+05/02/2013  11:45 AM                96 BFMergeFusion.bto
+05/26/2015  02:35 PM               692 ChkBrandName.bto
+05/26/2015  02:35 PM               866 ChkOSSku.bto
+05/26/2015  02:35 PM               877 ChkSysID.bto
+05/26/2015  02:35 PM               882 ChkWinCfg.bto
+01/25/2016  02:54 PM               274 DeviceForm.bto
+12/25/2015  04:43 PM               619 FFSPrep.bto
+08/17/2016  01:35 PM               237 FUPDATE.BTO
+02/26/2015  07:05 PM               659 MSAPPS.BTO
+03/25/2016  04:03 PM             1,171 OFFQFE.BTO
+03/11/2016  02:49 PM               727 OSEnh_AppReadi.BTO
+05/26/2015  02:35 PM               508 RmvPinDiag.bto
+01/22/2016  02:31 PM             2,962 RSFW10_Script.bto
+03/13/2015  04:11 PM               784 RSFW10_Script_2.bto
+05/26/2016  02:26 PM               952 W10Eula.bto
+              21 File(s)         16,595 bytes
+
+ Directory of c:\system.sav\P2PP\FUpdate.eue
+
+07/27/2014  03:25 AM                31 CleanCVA.BTO
+04/21/2016  11:15 AM               587 CUSTWAV.BTO
+07/04/2016  11:27 AM             2,451 ZZ_FU_END.BTO
+               3 File(s)          3,069 bytes
+
+ Directory of c:\system.sav\P2PP\FUpdate.pi
+
+09/07/2015  07:33 AM               250 DelCLN.BTO
+05/27/2015  06:54 PM               269 FormatDsk.bto
+03/25/2016  04:03 PM             2,969 IgnoreTasks.BTO
+03/03/2016  05:00 PM               833 ZZLoadBiosKey.BTO
+               4 File(s)          4,321 bytes
+
+ Directory of c:\system.sav\P2PP\OSUpdate
+
+07/11/2016  04:27 PM               570 ImageDiag_EarlyStage.BTO
+04/22/2016  03:46 PM             1,868 OSUpdate_W10SDS.bto
+08/09/2016  06:07 PM               475 PullInJumpstartBTO.bto
+10/17/2016  05:42 AM               355 ZAASyshang.bto
+               4 File(s)          3,268 bytes
+
+ Directory of c:\system.sav\P2PP\OSUpdate.pi
+
+03/10/2016  03:23 PM             2,146 0_PreCMD.bto
+05/19/2016  04:49 PM               436 1_ChkBiosKey.BTO
+12/01/2014  04:26 PM             1,029 CollData.BTO
+03/24/2016  07:32 PM               364 DeletePF.bto
+11/23/2015  03:14 PM               749 ExtMSCB1.BTO
+03/13/2014  05:31 PM               485 ZZClnFilterFld.BTO
+               6 File(s)          5,209 bytes
+
+ Directory of c:\system.sav\P2PP\PreInit
+
+09/18/2013  03:33 PM            12,036 2_FBIRES.BTO
+               1 File(s)         12,036 bytes
+
+ Directory of c:\system.sav\P2PP\PreinstallTools
+
+11/06/2015  05:37 AM               573 P00P122.bto
+               1 File(s)            573 bytes
+
+     Total Files Listed:
+             119 File(s)        121,047 bytes
+               0 Dir(s)  53,608,550,400 bytes free
+[14:12:24.85]   
+[14:12:24.85] -------------------------------------------------- 
+[14:12:24.87] -------------------------------------------------- 
+[14:12:24.89]  [ListBTO.cmd] has completed... 
+[14:12:24.89] ************************************************** 

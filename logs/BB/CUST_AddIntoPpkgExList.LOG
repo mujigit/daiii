@@ -1,0 +1,8 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:51:52.75] Beginning of the CUST_AddIntoPpkgExList.CMD during BBVClean phase              
+############################################################# 
+%SystemDrive%\SWSetup\CustTweak\* [*]
+%SystemDrive%\SWSetup\hpImgEnh\* [*]
+[ 4:51:52.83] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 

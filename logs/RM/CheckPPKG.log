@@ -1,0 +1,10 @@
+[ 5:22:50.22][CheckPPKG] Create [C:\system.sav\logs\RM\CheckPPKG.FAILURE.FLG]. If PASS, delete it.
+[ 5:22:50.23][CheckPPKG.cmd] CSCRIPT //NOLOGO C:\RM\RERM\DeployRP\CalFileSize.vbs C:\Recovery\Customizations\usmt.ppkg
+[ 5:22:50.23][CheckPPKG.cmd] FileSize.BYTE=4165513937
+[ 5:22:50.23][CheckPPKG.cmd] FileSize.KB=4067885
+[ 5:22:50.23][CheckPPKG.cmd] FileSize.MB=3973
+[ 5:22:50.30][CheckPPKG.cmd] File: C:\Recovery\Customizations\usmt.ppkg , Size : 0 bytes or 3973 MB
+[ 5:22:50.32][CheckPPKG.cmd] Delete [C:\system.sav\logs\RM\CheckPPKG.FAILURE.FLG]...
+[CheckPPKG.cmd] Tue 03/28/2017  5:22:50.32
+********** FINISH CheckPPKG.cmd **********
+RETURN CODE - 0

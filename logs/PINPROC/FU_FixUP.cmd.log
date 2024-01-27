@@ -1,0 +1,26 @@
+[14:14:55.06]    Finish: [C:\system.sav\FactoryUpdate\FixUp\CleanSW.cmd] 
+[14:14:55.08]   
+[14:14:55.08]    Start:  [C:\system.sav\FactoryUpdate\FixUp\FUNAME.CMD] 
+[14:14:55.17]    Finish: [C:\system.sav\FactoryUpdate\FixUp\FUNAME.CMD] 
+[14:14:55.17]   
+[14:14:55.19]  Looking for FixUp.cmd in [C:\system.sav\FactoryUpdate] subfolders... 
+[14:14:55.19] -------------------------------------------------- 
+[14:14:55.20]   
+[14:14:55.22]    [C:\system.sav\FactoryUpdate\DMI_20160926] is found... 
+[14:14:55.23]      Missing [C:\system.sav\FactoryUpdate\DMI_20160926\FixUp.cmd]... Skip this folder. 
+[14:14:55.23]   
+[14:14:55.25]    [C:\system.sav\FactoryUpdate\FixUp] is found... 
+[14:14:55.26]      Skip this folder. 
+[14:14:55.26]   
+[14:14:55.28]    [C:\system.sav\FactoryUpdate\Part] is found... 
+[14:14:55.29]      Skip this folder. 
+[14:14:55.29]   
+[14:14:55.31]    [C:\system.sav\FactoryUpdate\QFEs] is found... 
+[14:14:55.33]      Skip this folder. 
+[14:14:55.33]   
+[14:14:55.34]  All FixUp.cmd in [C:\system.sav\FactoryUpdate] subfolders have been launched. 
+[14:14:55.36]   
+[14:14:55.36]  Delete ["C:\system.sav\FU_FixUP.cmd.FAILURE.flg"] since all FixUp.cmd file[s] should be launched... 
+[14:14:55.37] -------------------------------------------------- 
+[14:14:55.39]  [FU_FixUP.cmd] has completed... 
+[14:14:55.39] ************************************************** 

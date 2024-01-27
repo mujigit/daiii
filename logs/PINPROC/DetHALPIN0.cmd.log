@@ -1,0 +1,32 @@
+[11:57:37.22] ************************************************** 
+[11:57:37.24]  [C:\SYSTEM.SAV\tweaks\FixUps\DetHALPIN0.cmd] has started... 
+[11:57:37.24] -------------------------------------------------- 
+[11:57:37.25]   
+[11:57:37.25]  Check image's OS version... 
+[11:57:37.27]    This is NOT [Win7] image.... Check the number of index in BaseOS.wim file... 
+[11:57:37.27]   
+[11:57:37.27]  Run [DISM.exe /Get-WimInfo /WimFile=c:\Sources\BaseOS.wim /index:2] 
+[11:57:37.29]   
+[11:57:37.29]    [NOTE] 
+[11:57:37.30]      if [Error :87] returned, this image doesn't have 2nd index... 
+[11:57:37.30]      Nothing to do here and this is not issue. 
+[11:57:37.32]   
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+
+Error: 87
+
+An error occurred while processing the command.
+Ensure that the command-line arguments are valid. For more information, review the log file.
+
+The DISM log file can be found at X:\windows\Logs\DISM\dism.log
+[11:57:37.39]   
+[11:57:37.39]    Could not find Index#2 in BaseOS.wim file. 
+[11:57:37.39]    Nothing to do here... EXIT... 
+[11:57:37.41]   
+[11:57:37.41]   
+[11:57:37.43] -------------------------------------------------- 
+[11:57:37.43]  [DetHALPIN0.cmd] has completed... 
+[11:57:37.44] ************************************************** 

@@ -1,0 +1,23 @@
+[11:57:36.50] ************************************************** 
+[11:57:36.52]  [C:\SYSTEM.SAV\tweaks\FixUps\CustomINI.cmd] has started... 
+[11:57:36.52] -------------------------------------------------- 
+[11:57:36.53]  update custom.ini for common infomation... 
+[11:57:36.53] -------------------------------------------------- 
+[11:57:36.55]   
+[11:57:36.55]   Check if [c:\system.sav\fbi\custom.ini] exists... 
+[11:57:36.56]   
+[11:57:36.56]   
+[11:57:36.58]    Found [c:\system.sav\fbi\custom.ini]. 
+[11:57:36.58]   
+[11:57:36.58]  Check if [WIMBoot] FB is specified... 
+[11:57:36.59]   
+[11:57:36.59]    Update [cNBImageInfo] WIMBOOT=FALSE] in [c:\system.sav\fbi\custom.ini]. 
+[11:57:36.67]   
+[11:57:36.67]  Check if [COMPACT] FB is specified... 
+[11:57:36.69]   
+[11:57:36.69]    Update [cNBImageInfo] COMPACT=FALSE] in [c:\system.sav\fbi\custom.ini]. 
+[11:57:36.80]    [6b=ATF_HAL.64] has been detected in FB... 
+[11:57:36.88]    [PROCESSOR_ARCHITECTURE] = [AMD64] 
+[11:57:36.94] -------------------------------------------------- 
+[11:57:36.96]  [CustomINI.cmd] has completed... 
+[11:57:36.96] ************************************************** 

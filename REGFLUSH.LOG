@@ -1,0 +1,10 @@
+RegFlush> Starting...
+RegFlush> attempting to flush ->HKEY_CLASSES_ROOT
+RegFlush> Successfully flushed
+RegFlush> attempting to flush ->HKEY_CURRENT_USER
+RegFlush> Successfully flushed
+RegFlush> attempting to flush ->HKEY_LOCAL_MACHINE
+RegFlush> Successfully flushed
+RegFlush> attempting to flush ->HKEY_USERS
+RegFlush> Successfully flushed
+RegFlush> Done...

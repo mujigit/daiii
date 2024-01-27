@@ -1,0 +1,966 @@
+[14:13:23.43] ************************************************** 
+[14:13:23.43]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[14:13:23.43] -------------------------------------------------- 
+[14:13:23.43]  STAGE : [2nd_BOOT_AT_PASS2] 
+[14:13:23.43] -------------------------------------------------- 
+
+[14:13:23.43]  Collect Factory Mode settings...
+[14:13:23.43] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[14:13:23.69]  Collect BIOS config settings...
+[14:13:23.69] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-27" Time="14:13:27" UTC="-8"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	*Enable
+	Disable
+Internal Network Adapter Boot
+	*Enable
+	Disable
+Secure Boot
+	Enable
+	*Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	0
+	*5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	*Clear
+	HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[14:13:27.88] 
+[14:13:27.88] -------------------------------------------------- 
+[14:13:27.89]  [DumpBIOS.cmd] has completed... 
+[14:13:27.89] ************************************************** 
+[14:14:19.44] ************************************************** 
+[14:14:19.44]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[14:14:19.44] -------------------------------------------------- 
+[14:14:19.44]  STAGE : [PASS2_TDC_DPS] 
+[14:14:19.44] -------------------------------------------------- 
+
+[14:14:19.44]  Collect Factory Mode settings...
+[14:14:19.44] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[14:14:19.69]  Collect BIOS config settings...
+[14:14:19.69] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-27" Time="14:14:23" UTC="-8"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	*Enable
+	Disable
+Internal Network Adapter Boot
+	*Enable
+	Disable
+Secure Boot
+	Enable
+	*Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	0
+	*5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	*Clear
+	HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[14:14:23.71] 
+[14:14:23.71] -------------------------------------------------- 
+[14:14:23.71]  [DumpBIOS.cmd] has completed... 
+[14:14:23.71] ************************************************** 
+[ 4:20:31.28] ************************************************** 
+[ 4:20:31.30]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[ 4:20:31.30] -------------------------------------------------- 
+[ 4:20:31.32]  STAGE : [PASS2_OSUPDATE_PI] 
+[ 4:20:31.32] -------------------------------------------------- 
+
+[ 4:20:31.32]  Collect Factory Mode settings...
+[ 4:20:31.32] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[ 4:20:31.70]  Collect BIOS config settings...
+[ 4:20:31.70] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-28" Time="04:20:32" UTC="-7"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	Enable
+	*Disable
+Internal Network Adapter Boot
+	Enable
+	*Disable
+Secure Boot
+	*Enable
+	Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	0
+	*5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[ 4:20:32.48] 
+[ 4:20:32.50] -------------------------------------------------- 
+[ 4:20:32.50]  [DumpBIOS.cmd] has completed... 
+[ 4:20:32.51] ************************************************** 
+[ 4:37:36.80] ************************************************** 
+[ 4:37:36.82]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[ 4:37:36.82] -------------------------------------------------- 
+[ 4:37:36.82]  STAGE : [PASS2_BBV2] 
+[ 4:37:36.82] -------------------------------------------------- 
+
+[ 4:37:36.82]  Collect Factory Mode settings...
+[ 4:37:36.82] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[ 4:37:37.24]  Collect BIOS config settings...
+[ 4:37:37.24] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-28" Time="04:37:38" UTC="-7"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	Enable
+	*Disable
+Internal Network Adapter Boot
+	Enable
+	*Disable
+Secure Boot
+	*Enable
+	Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	*0
+	5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[ 4:37:38.95] 
+[ 4:37:38.95] -------------------------------------------------- 
+[ 4:37:38.95]  [DumpBIOS.cmd] has completed... 
+[ 4:37:38.95] ************************************************** 
+[ 5:31:48.19] ************************************************** 
+[ 5:31:48.21]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[ 5:31:48.23] -------------------------------------------------- 
+[ 5:31:48.23]  STAGE : [PASS3_BEFORE_OA3_EXIT] 
+[ 5:31:48.23] -------------------------------------------------- 
+
+[ 5:31:48.23]  Collect Factory Mode settings...
+[ 5:31:48.23] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[ 5:31:48.59]  Collect BIOS config settings...
+[ 5:31:48.59] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-28" Time="05:31:50" UTC="-7"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	Enable
+	*Disable
+Internal Network Adapter Boot
+	Enable
+	*Disable
+Secure Boot
+	*Enable
+	Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	0
+	*5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[ 5:31:50.34] 
+[ 5:31:50.34] -------------------------------------------------- 
+[ 5:31:50.34]  [DumpBIOS.cmd] has completed... 
+[ 5:31:50.34] ************************************************** 
+[ 5:34:52.30] ************************************************** 
+[ 5:34:52.33]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[ 5:34:52.34] -------------------------------------------------- 
+[ 5:34:52.34]  STAGE : [PASS3_LOGOUT] 
+[ 5:34:52.34] -------------------------------------------------- 
+
+[ 5:34:52.34]  Collect Factory Mode settings...
+[ 5:34:52.34] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[ 5:35:03.85]  Collect BIOS config settings...
+[ 5:35:03.85] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-28" Time="05:35:08" UTC="-8"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	Enable
+	*Disable
+Internal Network Adapter Boot
+	Enable
+	*Disable
+Secure Boot
+	*Enable
+	Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	*0
+	5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[ 5:35:08.34] 
+[ 5:35:08.34] -------------------------------------------------- 
+[ 5:35:08.34]  [DumpBIOS.cmd] has completed... 
+[ 5:35:08.36] ************************************************** 
+[ 5:35:51.30] ************************************************** 
+[ 5:35:51.30]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBIOS.cmd] has started... 
+[ 5:35:51.30] -------------------------------------------------- 
+[ 5:35:51.30]  STAGE : [AFTER_DISABLE_SB] 
+[ 5:35:51.31] -------------------------------------------------- 
+
+[ 5:35:51.31]  Collect Factory Mode settings...
+[ 5:35:51.31] 
+Type 0x29
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  0 : Enable Primary Boot from Network[Bit 0].
+  0 : Bypass check Product Information Check[Bit 1].
+  0 : Keep WWAN module enabled[Bit 2].
+
+
+[ 5:35:51.60]  Collect BIOS config settings...
+[ 5:35:51.60] 
+
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.11.1
+;     Date="2017-03-28" Time="05:35:51" UTC="-8"
+;
+;     Found 31 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	Enable
+	*Disable
+Internal Network Adapter Boot
+	*Enable
+	Disable
+Secure Boot
+	Enable
+	*Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	*0
+	5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+
+[ 5:35:51.92] 
+[ 5:35:51.92] -------------------------------------------------- 
+[ 5:35:51.92]  [DumpBIOS.cmd] has completed... 
+[ 5:35:51.92] ************************************************** 

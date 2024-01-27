@@ -1,0 +1,21 @@
+Tue 03/28/2017  4:34:44.13   Starting WizInstaller... 
+
+Memory 3547 MB
+Executing on .\wizinstaller.ini  on Tuesday, March 28, 2017 at 4:34:45 AM for en_in
+
+Checking Filter 'CustomData_Copy_Desktop'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Checking Filter 'CustomData_Copy_Notebook'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Checking Filter 'CustomData_Copy_Tablet'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Copying from '.\CustomData\Tablet' to 'c:\hp\hpqware\Netflix'
+Wizinstaller Instance ID	 : {D9ED8240-0E62-40DC-A11C-E1D3002A7771}
+Init	 : 1109
+Action	 : 110
+Uninit	 : 15
+Tue 03/28/2017  4:34:45.61   Finishing WizInstaller. 
+Tue 03/28/2017  4:34:45.85   Self extracting src.exe 
+Tue 03/28/2017  4:34:45.85   Run DISM now.. 
+Tue 03/28/2017  4:35:04.19   Finish DISM. 
+========== Tue 03/28/2017  4:35:04.19 DISMResultErorlevel:0 ==========
+Tue 03/28/2017  4:35:04.21   ErrorLevel 0 
+Tue 03/28/2017  4:35:04.25   ----- Finish Netflix for HP block ----- 
+.

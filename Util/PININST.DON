@@ -1,0 +1,69 @@
+[Settings]
+; ------------------------------------------------------------------------
+; PININST_BBV.ini
+; ------------------------------------------------------------------------
+; DO NOT modify these:
+LogFile=C:\SYSTEM.SAV\LOGS\PININST_BBV3.LOG
+BackGroundDLL=C:\SYSTEM.SAV\UTIL\BACKGRND.dll
+BackGroundEXE=C:\SYSTEM.SAV\UTIL\BACKGRND.EXE
+HideAllEXE=C:\SYSTEM.SAV\UTIL\HIDEALL.EXE
+HideAll=1
+DebugMode=0
+ProgressBarINI=C:\SYSTEM.SAV\UTIL\PBARINFO_BBV3.INI
+; ------------------------------------------------------------------------
+
+; CurrentState => "RunOnceThese"|"RunThese"|"DONE"
+CurrentState=DONE
+; RebootAfter => 0|1
+RebootAfter=0
+; Maximum time (in seconds) allowed a command to finish before next command gets executed.
+MaxTime=1800
+; Interval time (in seconds) to wait and check for completion.
+WaitTime=5
+OSType=Vista
+xResolution=1366
+yResolution=768
+
+; *NOTES: The sections below will be processed in this order:
+;   (1) "RunOnceThese"
+;   (2) "RunThese"
+;   (3) "RunLastThese"
+;   (4) "DeleteThese"
+
+; To launch a command and not to wait for completion, add "|NO_WAIT" to the end of line:
+; For example: C:\Test\Test.exe |NO_WAIT
+
+; ------------------------------------------------------------------------
+; Remove files or directories after "RunThese" section has been processed.
+; ------------------------------------------------------------------------
+[DeleteThese]
+
+; ------------------------------------------------------------------------
+; DO NOT USE
+; ------------------------------------------------------------------------
+[RunLastThese]
+
+
+; ------------------------------------------------------------------------
+; This section is used to launch stuffs that need OS & Desktop up and running ONLY.
+; ------------------------------------------------------------------------
+[RunThese]
+CMD.exe /c C:\system.sav\Util\2postprocess\BtBCustomData.cmd|DIS_W64FR
+CMD.exe /c c:\Recovery\OEM\Point_D\BiosReadBack\BiosReadback.cmd|DIS_W64FR
+CMD.exe /c c:\System.sav\ExitProc\PASS3\ResetHiber.cmd|DIS_W64FR
+CMD.exe /c c:\System.sav\ExitProc\PASS3\DisOSKonSTDNB.cmd|DIS_W64FR
+CMD.exe /c C:\system.sav\ExitProc\PASS3\zz_RM_BBV3.cmd|DIS_W64FR|WAIT_TIME=7200
+CMD.exe /c c:\System.sav\ExitProc\PASS3\LoadBiosKey.cmd|DIS_W64FR
+CMD.exe /c c:\System.sav\ExitProc\PASS3\DumpCBCD.cmd|DIS_W64FR
+CMD.exe /c c:\System.sav\ExitProc\PASS3\SetTo0.cmd|DIS_W64FR
+CMD.exe /c c:\System.sav\ExitProc\PASS3\CheckIfTimeOut4PINIST.cmd|DIS_W64FR
+
+; ------------------------------------------------------------------------
+; DO NOT USE!!
+; This section MUST BE LAST on this INI file. Everything that need to be executed
+; after OOBE should be placed under this section. All the commands will be launched at RunOnce
+; 
+; DO NOT ADD ANY LINE FOR SOFTWARE.
+; "RunOnceThese" section is for process preparation.
+; ------------------------------------------------------------------------
+[RunOnceThese]

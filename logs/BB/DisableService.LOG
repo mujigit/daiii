@@ -1,0 +1,9 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:30:02.72] Beginning of the DisableService.cmd                              
+############################################################# 
+Found tiledatamodelsvc, disable it. 
+The operation completed successfully.
+Schedule task disable success. 
+[ 4:30:02.80] Result of the Image tweaks for tiledatamodelsvc disable 
+RESULT=PASSED 

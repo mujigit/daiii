@@ -1,0 +1,111 @@
+[Tue 03/28/2017  4:45:30.38] SetVariables.cmd Not Found
+=========Tue 03/28/2017  4:45:38.10 BTB Post Install Start 2pp setup==========
+C:\hp\HPQWare\BTBHost\BtBCustomData.cmd -> C:\system.sav\util\2postprocess\BtBCustomData.cmd
+1 File(s) copied
+C:\hp\HPQWare\BTBHost\customData.cmd -> C:\system.sav\util\2postprocess\customdata\customData.cmd
+1 File(s) copied
+C:\hp\HPQWare\BTBHost\customData.ini -> C:\system.sav\util\2postprocess\customdata\customData.ini
+1 File(s) copied
+=========Tue 03/28/2017  4:45:38.23 BTB Post Install End 2pp setup==========
+[Tue 03/28/2017  4:45:38.23] PlatformCode=AN
+====================Tue 03/28/2017  4:45:38.23  Setup PromoteOEMTiles Setting=================
+====================Tue 03/28/2017  4:45:38.26  Finish Setup PromoteOEMTiles setting:1=================
+=========Tue 03/28/2017  4:45:38.26 Call BtBCustomData==========
+GM2PP.FLG not presen, Call BtBCustomDatat
+=========Tue 03/28/2017  4:45:40.57 Copy custom.data for Sprout Workspace==========
+        1 file(s) copied.
+=========Tue 03/28/2017  4:45:40.59 Copy custom.data for HP Welcome==========
+The system cannot find the path specified.
+        0 file(s) copied.
+call c:\hp\HPQWare\BTBHost\\PBR\ExportRegXML.cmd 
+
+c:\SYSTEM.SAV\Util\2postprocess>pushd c:\hp\HPQWare\BTBHost\PBR\ 
+
+c:\hp\HPQWare\BTBHost\PBR>if exist BTBHost rmdir /S /Q BTBHost 
+
+c:\hp\HPQWare\BTBHost\PBR>md BTBHost 
+
+c:\hp\HPQWare\BTBHost\PBR>set TaskbarLayoutModificationXML=C:\\Users\\Default\\AppData\\Local\\Microsoft\\Windows\\Shell\\TaskbarLayoutModification.xml 
+
+c:\hp\HPQWare\BTBHost\PBR>copy C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml "c:\hp\HPQWare\BTBHost\PBR\\BTBHost\LayoutModification.xml" /y 
+        1 file(s) copied.
+
+c:\hp\HPQWare\BTBHost\PBR>if exist C:\\Users\\Default\\AppData\\Local\\Microsoft\\Windows\\Shell\\TaskbarLayoutModification.xml copy C:\\Users\\Default\\AppData\\Local\\Microsoft\\Windows\\Shell\\TaskbarLayoutModification.xml "c:\hp\HPQWare\BTBHost\PBR\\BTBHost\TaskbarLayoutModification.xml" /y 
+        1 file(s) copied.
+
+c:\hp\HPQWare\BTBHost\PBR>setlocal enabledelayedexpansion 
+
+c:\hp\HPQWare\BTBHost\PBR>pushd RegSrc 
+
+c:\hp\HPQWare\BTBHost\PBR\RegSrc>for %a in (*.ini) do (
+set count=0  
+ for /F "tokens=*" %i in (%a) do (
+reg export "%i" c:\hp\HPQWare\BTBHost\PBR\\BTBHost\%a_!count!.reg  
+ call c:\hp\HPQWare\BTBHost\PBR\\ReplaceString c:\hp\HPQWare\BTBHost\PBR\\BTBHost\%a_!count!.reg \SOFTWARE\ \SOFT\  
+ set /a count=!count!+1 
+) 
+) 
+
+c:\hp\HPQWare\BTBHost\PBR\RegSrc>(
+set count=0  
+ for /F "tokens=*" %i in (MFU.ini) do (
+reg export "%i" c:\hp\HPQWare\BTBHost\PBR\\BTBHost\MFU.ini_!count!.reg  
+ call c:\hp\HPQWare\BTBHost\PBR\\ReplaceString c:\hp\HPQWare\BTBHost\PBR\\BTBHost\MFU.ini_!count!.reg \SOFTWARE\ \SOFT\  
+ set /a count=!count!+1 
+) 
+) 
+
+c:\hp\HPQWare\BTBHost\PBR\RegSrc>(
+reg export "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SMDEn" c:\hp\HPQWare\BTBHost\PBR\\BTBHost\MFU.ini_!count!.reg  
+ call c:\hp\HPQWare\BTBHost\PBR\\ReplaceString c:\hp\HPQWare\BTBHost\PBR\\BTBHost\MFU.ini_!count!.reg \SOFTWARE\ \SOFT\  
+ set /a count=!count!+1 
+) 
+The operation completed successfully.
+
+c:\hp\HPQWare\BTBHost\PBR\RegSrc>(
+set count=0  
+ for /F "tokens=*" %i in (Store.ini) do (
+reg export "%i" c:\hp\HPQWare\BTBHost\PBR\\BTBHost\Store.ini_!count!.reg  
+ call c:\hp\HPQWare\BTBHost\PBR\\ReplaceString c:\hp\HPQWare\BTBHost\PBR\\BTBHost\Store.ini_!count!.reg \SOFTWARE\ \SOFT\  
+ set /a count=!count!+1 
+) 
+) 
+
+c:\hp\HPQWare\BTBHost\PBR\RegSrc>(
+reg export "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Store" c:\hp\HPQWare\BTBHost\PBR\\BTBHost\Store.ini_!count!.reg  
+ call c:\hp\HPQWare\BTBHost\PBR\\ReplaceString c:\hp\HPQWare\BTBHost\PBR\\BTBHost\Store.ini_!count!.reg \SOFTWARE\ \SOFT\  
+ set /a count=!count!+1 
+) 
+The operation completed successfully.
+
+c:\hp\HPQWare\BTBHost\PBR\RegSrc>popd
+
+c:\hp\HPQWare\BTBHost\PBR>endlocal
+
+c:\hp\HPQWare\BTBHost\PBR>popd
+copy PBR command to C:\Recovery\OEM\Point_B\ 
+        1 file(s) copied.
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\LayoutModification.xml -> C:\Recovery\OEM\Point_B\BTBHost\LayoutModification.xml
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\MFU.ini_0.reg -> C:\Recovery\OEM\Point_B\BTBHost\MFU.ini_0.reg
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\Store.ini_0.reg -> C:\Recovery\OEM\Point_B\BTBHost\Store.ini_0.reg
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\TaskbarLayoutModification.xml -> C:\Recovery\OEM\Point_B\BTBHost\TaskbarLayoutModification.xml
+4 File(s) copied
+copy PBR command to C:\Recovery\OEM\Point_D\ 
+        1 file(s) copied.
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\LayoutModification.xml -> C:\Recovery\OEM\Point_D\BTBHost\LayoutModification.xml
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\MFU.ini_0.reg -> C:\Recovery\OEM\Point_D\BTBHost\MFU.ini_0.reg
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\Store.ini_0.reg -> C:\Recovery\OEM\Point_D\BTBHost\Store.ini_0.reg
+C:\hp\HPQWare\BTBHost\PBR\BTBHost\TaskbarLayoutModification.xml -> C:\Recovery\OEM\Point_D\BTBHost\TaskbarLayoutModification.xml
+4 File(s) copied
+====================Tue 03/28/2017  4:45:41.17  Write BuildID begin =================
+Try to parse c:\system.sav\logs\MASTER_DPS ... 
+BtBDisableJSKey.flg found, ignore to write BuildID="16WW3FPT601  " to registry
+====================Tue 03/28/2017  4:45:42.10  Write BuildID finish =================
+====================Tue 03/28/2017  4:45:42.10  HPMUIDIR begin =================
+====================Tue 03/28/2017  4:45:42.26  HPMUIDIR finish =================
+====================Tue 03/28/2017  4:45:42.28  Export StartAppList begin =================
+====================Tue 03/28/2017  4:45:56.89  Export StartAppList finish =================
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.

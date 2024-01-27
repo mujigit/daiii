@@ -1,0 +1,706 @@
+[14:16:22.99][DeployWinRE_2nd] Create [C:\system.sav\logs\RM\DeployWinRE_2nd.FAILURE.FLG]. If PASS, delete it.
+[14:16:22.99][DeployWinRE_2nd.cmd] Update Platform Information
+[14:16:22.99][DeployWinRE_2nd.cmd] CALL C:\system.sav\util\RStone.exe
+[14:16:23.74][DeployWinRE_2nd.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI2CMD.vbs C:\system.sav\util\RSTONE.INI C:\system.sav\logs\RM\RSTONE.CMD
+[14:16:23.85][DeployWinRE_2nd.cmd] CALL C:\system.sav\logs\RM\RSTONE.CMD
+[14:16:23.91][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini HPRM DASH.BuildID 1ZX23PC#ACJ
+[14:16:24.08][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini HPRM Current.BuildID 1ZX23PC#ACJ
+[14:16:24.20][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini HPRM DASH.OSSKU 5 
+[14:16:24.33][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini HPRM Current.OSSKU 5
+[14:16:24.45][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini HPRM DASH.OPTIONCODE ACJ
+[14:16:24.58][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini HPRM Current.OPTIONCODE ACJ 
+[14:16:24.72][DeployWinRE_2nd.cmd] Prepare About Info Files 
+[14:16:24.72][DeployWinRE_2nd.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\CommonSolution\AboutInfo\*.* C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\
+C:\RM\RERM\CommonSolution\AboutInfo\AboutInfo.cmd
+C:\RM\RERM\CommonSolution\AboutInfo\AboutInfo.ini
+C:\RM\RERM\CommonSolution\AboutInfo\ENString.ini
+C:\RM\RERM\CommonSolution\AboutInfo\INI2CMD.vbs
+C:\RM\RERM\CommonSolution\AboutInfo\INI_Write.vbs
+C:\RM\RERM\CommonSolution\AboutInfo\QueryProductNumber.vbs
+C:\RM\RERM\CommonSolution\AboutInfo\QuerySerialNumber.vbs
+C:\RM\RERM\CommonSolution\AboutInfo\SaveAsUniCode.vbs
+8 File(s) copied
+[14:16:25.01][DeployWinRE_2nd.cmd] Update Information for About Info
+[14:16:25.01][DeployWinRE_2nd.cmd] Main Version : 1.1630.1.0
+[14:16:25.01][DeployWinRE_2nd.cmd] Sub Version : 1.1630.1.0 
+[14:16:25.01][DeployWinRE_2nd.cmd] Product Number : 1ZX23PC#ACJ
+[14:16:25.01][DeployWinRE_2nd.cmd] Serial Number  : D235641159
+[14:16:25.01][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AboutInfo.ini MEDIA ProductNumber 1ZX23PC#ACJ
+[14:16:25.07][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AboutInfo.ini MEDIA SerialNumber D235641159
+[14:16:25.13][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AboutInfo.ini VERSION MAIN 1.1630.1.0
+[14:16:25.18][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI_Write.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AboutInfo.ini VERSION SUB 1.1630.1.0 
+[14:16:25.24][DeployWinRE_2nd.cmd] Update DASH Partition Information
+[14:16:25.24][DeployWinRE_2nd.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\DASHPartition4WinRE.cmd HPRM
+[14:16:25.35][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\UpdatePartInfo2INI.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini C:\RM\RERM\DeployRP\INI_Write.vbs
+[14:16:26.95][DeployWinRE_2nd.cmd] CMD /C CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\UpdatePartInfo2RestorePartInfo.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\UserPart.ini C:\RM\RERM\DeployRP\INI_Write.vbs
+[14:16:27.59][DeployWinRE_2nd.cmd] COPY /Y C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini C:\system.sav\logs\RM\
+        1 file(s) copied.
+[14:16:27.61][DeployWinRE_2nd.cmd] COPY /Y C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\UserPart.ini C:\system.sav\logs\RM\
+        1 file(s) copied.
+[14:16:27.61][DeployWinRE_2nd.cmd] Get Windows and WinPE Current build#
+[14:16:27.61][DeployWinRE_2nd.cmd] Reg load HKLM\test C:\windows\system32\config\software
+The operation completed successfully.
+[14:16:29.05][DeployWinRE_2nd.cmd] Reg query "HKLM\TEST\Microsoft\Windows NT\CurrentVersion" /v CurrentBuild
+HKEY_LOCAL_MACHINE\TEST\Microsoft\Windows NT\CurrentVersion 
+CurrentBuild REG_SZ 14393
+[14:16:29.06][DeployWinRE_2nd.cmd] Reg unload HKLM\test
+The operation completed successfully.
+[14:16:29.20][DeployWinRE_2nd.cmd]  WINDOWS VERSION=14393
+[14:16:29.20][DeployWinRE_2nd.cmd] Reg query "HKLM\software\Microsoft\Windows NT\CurrentVersion" /v CurrentBuild
+HKEY_LOCAL_MACHINE\software\Microsoft\Windows NT\CurrentVersion 
+CurrentBuild REG_SZ 14393
+[14:16:29.22][DeployWinRE_2nd.cmd] WinPE VERSION=14393
+[14:16:29.22][DeployWinRE_2nd.cmd] Before Mount WinRE : Query UP Free Space
+[14:16:29.22][DeployWinRE_2nd.cmd] CALL :QueryDrvFreeSpace C:
+[14:16:29.22][DeployWinRE_2nd.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QueryDrvFreeSpace.vbs C:
+[14:16:29.30][DeployWinRE_2nd.cmd] THE FREE SPACE OF C: is 51107 MB
+[14:16:29.30][DeployWinRE_2nd.cmd] UP Free Space = 51107 MB
+[14:16:29.30][DeployWinRE_2nd.cmd] END
+[14:16:29.30][DeployWinRE_2nd.cmd] Before Mount winre.wim, Run "wpeinit"
+[14:16:29.30][DeployWinRE_2nd.cmd] wpeinit
+[14:16:30.50][DeployWinRE_2nd.cmd] ATTRIB -S -H -R C:\RM\BootRM\winre.wim
+A            C:\RM\BootRM\winre.wim
+[14:16:30.53][DeployWinRE_2nd.cmd] MOUNT PATH C:\RM\MountRM\ WAS EXIST
+[14:16:30.53][DeployWinRE_2nd.cmd] MOUNT C:\RM\BootRM\winre.wim
+[14:16:30.53][DeployWinRE_2nd.cmd] START /B /W CMD /C DISM.EXE /Mount-Wim /wimfile:C:\RM\BootRM\winre.wim /index:1 /MountDir:C:\RM\MountRM\ /ScratchDir:C:\RM\TempRM\ /English
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Mounting image
+[                           1.0%                           ] 
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[========                   15.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[============               22.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[================           29.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================64.0%=====                     ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================72.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================83.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================88.0%===================       ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+The operation completed successfully.
+[14:16:44.31][DeployWinRE_2nd.cmd] DISM SET SCRATCH SPACE 256 MB
+[14:16:44.31][DeployWinRE_2nd.cmd] START /B /W CMD /C DISM.EXE /image:C:\RM\MountRM\ /Set-ScratchSpace:256 /English 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+Scratch Space : 256MB
+
+The operation completed successfully.
+[14:16:48.21][DeployWinRE_2nd.cmd] Inject Language Pack 
+[14:16:48.21][DeployWinRE_2nd.cmd] There are not any LPs Files in the C:\RM\RERM\WinPE_LangPacks\64\
+[14:16:48.21][DeployWinRE_2nd.cmd] Inject QFE
+[14:16:48.22][DeployWinRE_2nd.cmd] Source: C:\SwSetup\RMQFE\Win10.64\ 
+[14:16:48.22][DeployWinRE_2nd.cmd] After Injected QFE, RERM delete all files in the C:\SwSetup\RMQFE\Win10.64\
+[14:16:48.22][DeployWinRE_2nd.cmd] DEL /S /F /Q C:\SwSetup\RMQFE\Win10.64\*.*
+[14:16:48.22][DeployWinRE_2nd.cmd] End
+[14:16:48.22][DeployWinRE_2nd.cmd] Not Found "C:\System.sav\WinPE_DRV\"
+[14:16:48.22][DeployWinRE_2nd] NO ONLINE WINPE DRIVER
+[14:16:48.24][DeployWinRE_2nd.cmd] Prepare Required Files and Folders 
+[14:16:48.24][DeployWinRE_2nd.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\DeployWinRE\*.* C:\RM\MountRM\
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\WinREConfig.xml
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\HPRM_START.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\HPRM_WINRE.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\RunCmd.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AboutInfo.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AboutInfo.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AssignDrvLetter.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AssignDrvLetter.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AssignDrvLetterByGUID.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AssignDrvLetterByGUID.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\AssignESPLetter.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\BootSeq.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\BurnLibrary.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Byte2KBMBGB.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CalFileSize.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CalShrinkSizeFromWP.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CheckIfUCRMPBRU.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Chk2DiskDetachablePlatform.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CopyRequireLog.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateAllPart.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateAllPartExWinRE.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateBuildPart.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateHPTOOLS.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateUPBP.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateWinRE.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CreateWinREData.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DdCommon.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\destorder.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DetectBootRamdiskSourceType.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DetectDock.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DetectDrv.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DetectLang.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DetectResolution.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DiscVerifierLib.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\drives.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DrvLetter2DiskIndex.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DrvLetter2DiskIndex.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\DrvLetter2DiskIndex.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ENString.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ExclusionList.txt
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ExtendUP.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileBkup.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileBkup.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileBrowser.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FindDrvUCRD.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FindPhDrv.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FindPhPart.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FindRPDrv.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FormatSP.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FormatUP.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\GenSSRDFlg.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\GetLangFromIniFile.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\GetPartInfo.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\HD_MSATA.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\HPFileMgr.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\HPRecovery.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\HPRM_START.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\HPRPGuard.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Image.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\INI2CMD.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\INI_Write.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\MBRINST-ORG.VBS
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\MBRINST.VBS
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\oledlg.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\PartInfo.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\PIDGen.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Prewelcome.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\QryOSDisk.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\QryWinRELang.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\QueryImageIndex.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\QueryProductNumber.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\QuerySerialNumber.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Redir.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemoveDrvLetter.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemoveDrvLetter.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemoveDrvLetterByGUID.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemoveEFI.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemovePartitionExRP.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemovePartitionExRPWinRE.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RemoveSP.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ResChanger.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ResetSPBCD.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ReturnFile.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\RunCmd.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\SaveAsUniCode.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\SetRPDrv.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\SetRPLetter.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\SetWinRELetter.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ShowMsgBox.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\ShrinkFromWP.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Sleep.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Table_LP2Location.txt
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\TypeList.txt
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\UNIT_DOCK.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\UserPart.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\wimgapi.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\winpeshl.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\WipeoutHDD.sp
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\cDT.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\F11_SR_PreparePartition_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\F11_SR_PreparePartition_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\F11_SR_Restore_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\F11_SR_Restore_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_FR_PreparePartition.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_FR_PreparePartition.cm_
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_FR_Restore.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_FR_Restore.cm_
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_SR_PreparePartition_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_SR_PreparePartition_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_SR_Restore_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UCRM_SR_Restore_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cDT\UpdateCurrentProdInfo.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\CNB.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\F11_SR_PreparePartition_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\F11_SR_PreparePartition_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\F11_SR_Restore_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\F11_SR_Restore_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UCRM_FR_PreparePartition.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UCRM_FR_Restore.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UCRM_SR_PreparePartition_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UCRM_SR_PreparePartition_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UCRM_SR_Restore_2ndCap.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UCRM_SR_Restore_GM.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\cNB\UpdateCurrentProdInfo.cmd
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\BurnLibrary.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\deletefolder.vbs
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\DiscVerifierLib.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\FileBrowser.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\HPFileMgr.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\oledlg.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\Restore.exe
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\FileRestore\wimgapi.dll
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Fonts\HPSimplified_Bd.ttf
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Fonts\HPSimplified_BdIt.ttf
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Fonts\HPSimplified_It.ttf
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Fonts\HPSimplified_Lt.ttf
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Fonts\HPSimplified_LtIt.ttf
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Fonts\HPSimplified_Rg.ttf
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\AR-SA.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\BG-BG.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\CS-CZ.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\DA-DK.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\DE-DE.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\EL-GR.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\EN-US.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ES-ES.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ES-MX.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ET-EE.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\FI-FI.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\FR-CA.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\FR-FR.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\HE-IL.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\HR-HR.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\HU-HU.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\IT-IT.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\JA-JP.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\KO-KR.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\LT-LT.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\LV-LV.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\NB-NO.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\NL-NL.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\PL-PL.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\PT-BR.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\PT-PT.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\RO-RO.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\RU-RU.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\SK-SK.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\SL-SI.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\SR-LATN-CS.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\SR-LATN-RS.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\SV-SE.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\TH-TH.INI
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\TR-TR.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\UK-UA.INI
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ZH-CN.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ZH-HK.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ZH-TW.ini
+C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\ZH-TZ.ini
+178 File(s) copied
+[14:16:49.03][DeployWinRE_2nd.cmd] MOVE HPRM_START.cmd and HPRM_WINRE.CMD
+[14:16:49.05][DeployWinRE_2nd.cmd] MOVE C:\RM\MountRM\sources\recovery\tools\HP\Rita-Tool\CNB\CNB.ini C:\RM\MountRM\sources\recovery\tools\HP\
+        1 file(s) moved.
+[14:16:49.05][DeployWinRE_2nd.cmd] Created BU Flag
+[14:16:49.05][DeployWinRE_2nd.cmd] Created C:\RM\MountRM\sources\recovery\tools\HP\CNB.flg
+[14:16:49.05][DeployWinRE_2nd.cmd] NORP.flg 
+[14:16:49.05][DeployWinRE_2nd.cmd] Copy RStone Tool
+[14:16:49.05][DeployWinRE_2nd.cmd] COPY /Y C:\system.sav\util\RStone.* C:\RM\MountRM\sources\recovery\tools\SysLock\
+C:\system.sav\util\RStone.dat
+C:\system.sav\util\RStone.exe
+C:\system.sav\util\RStone.ini
+C:\system.sav\util\RStone.log
+        4 file(s) copied.
+[14:16:49.08][DeployWinRE_2nd.cmd] Output Injected LPs and Driver
+[14:16:53.70][DeployWinRE_2nd.cmd] END
+[14:16:53.70][DeployWinRE_2nd.cmd] unmount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image File : C:\RM\BootRM\winre.wim
+Image Index : 1
+Saving image
+[                           1.0%                           ] 
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================64.0%=====                     ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================83.0%================          ] 
+[===========================84.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================88.0%===================       ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================96.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+Unmounting image
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[========                   15.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[============               22.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[================           29.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================64.0%=====                     ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================72.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================83.0%================          ] 
+[===========================84.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================88.0%===================       ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================96.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+The operation completed successfully.
+[14:17:18.83][DeployWinRE_2nd] Export Image for 2nd reduce winre size
+[14:17:18.83][DeployWinRE_2nd] RENAME winre.wim WinRE_TEMP.wim
+[14:17:18.83][DeployWinRE_2nd] START /B /W CMD /C DISM.EXE /export-image /sourceimagefile:WinRE_TEMP.wim /sourceindex:1 /destinationimagefile:winre.wim /ScratchDir:C:\RM\TempRM\ /English
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Exporting image
+[                           1.0%                           ] 
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[========                   15.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[============               22.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[================           29.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================64.0%=====                     ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================72.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================84.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================96.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+The operation completed successfully.
+[14:17:24.73][DeployWinRE_2nd] DEL /F /Q WinRE_TEMP.wim
+[14:17:24.78][DeployWinRE_2nd.cmd] END
+[14:17:24.78][DeployWinRE_2nd.cmd] RD /s /q C:\RM\MountRM\
+[14:17:24.80][DeployWinRE_2nd.cmd] RD /s /q C:\RM\TempRM\
+[14:17:24.80][DeployWinRE_2nd.cmd] END
+[14:17:24.80][DeployWinRE_2nd.cmd] Delete [C:\system.sav\logs\RM\DeployWinRE_2nd.FAILURE.FLG]...
+[DeployWinRE_2nd.cmd] Mon 03/27/2017 14:17:24.80
+********** FINISH DeployWinRE_2nd.cmd **********
+RETURN CODE - 0

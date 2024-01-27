@@ -1,0 +1,127 @@
+[14:22:31.89][DeployRTP] Create [C:\system.sav\logs\RM\DeployRTP.FAILURE.FLG]. If PASS, delete it.
+[14:22:31.89][DeployRTP.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\PartInfo_DeployRTP.cmd HPRM
+[14:22:32.01][DeployRTP.cmd] Assign WinRE Drive Letter
+[14:22:32.01][DeployRTP.cmd] CMD.EXE /C C:\RM\RERM\DeployRP\AssignDrvLetterByPartIndex.cmd 0 6 W:
+[14:22:32.02][AssignDrvLetterByPartIndex.cmd] REMOVE DRIVE LETTER W:
+[14:22:32.02][AssignDrvLetterByPartIndex.cmd] DISKPART /S "C:\RM\RERM\DeployRP\RemoveDrvLetter.sp"
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Volume 5 is the selected volume.
+
+DiskPart successfully removed the drive letter or mount point.
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+* Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Leaving DiskPart...
+[14:22:32.47][AssignDrvLetterByPartIndex.cmd] REMOVE DRIVE LETTER W:
+[14:22:32.47][AssignDrvLetterByPartIndex.cmd] DISKPART /S "C:\RM\RERM\DeployRP\RemoveDrvLetterFromPart.sp"
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Disk 0 is now the selected disk.
+
+Partition 6 is now the selected partition.
+
+Virtual Disk Service error:
+The specified drive letter is invalid.
+
+[14:22:32.67][AssignDrvLetterByPartIndex.cmd] REMOVE DRIVE LETTER W:
+[14:22:32.67][AssignDrvLetterByPartIndex.cmd] DISKPART /S "C:\RM\RERM\DeployRP\AssignDrvLetter.sp"
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Partition 6 is now the selected partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+* Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Leaving DiskPart...
+[AssignDrvLetterByPartIndex.cmd] Mon 03/27/2017 14:22:32.89
+********** FINISH AssignDrvLetterByPartIndex.cmd **********
+RETURN CODE - 0
+[14:22:32.90][DeployRTP.cmd] Prepare winre.wim for F11
+[14:22:32.90][DeployRTP.cmd] MKDIR "W:\Recovery\WindowsRE\"
+[14:22:32.90][DeployRTP.cmd] COPY /Y C:\RM\BootRM\winre.wim W:\recovery\WindowsRE\winre.wim
+        1 file(s) copied.
+[14:22:35.89][DeployRTP.cmd] End
+[14:22:35.89][DeployRTP.cmd] Add Diagnostics Tool To PBR Menu
+[14:22:35.89][DeployRTP.cmd] MKDIR "W:\Recovery\BootMenu\"
+[14:22:35.92][DeployRTP.cmd] COPY /Y C:\Recovery\OEM\ReCustomization.xml W:\Recovery\BootMenu\AddDiagnosticsToolToBootMenu.xml
+        1 file(s) copied.
+[14:22:35.96][DeployRTP.cmd] End
+[14:22:35.96][DeployRTP.cmd] Reagentc Function
+[14:22:35.96][DeployRTP.cmd] CMD.EXE /C C:\system.sav\util\PostRM\ReagentcSetting.cmd W: C: R:
+[14:22:38.77][ReagentcSetting.cmd] OSGUID={f5661e2c-133a-11e7-9176-705a0f8492be}
+[14:22:48.03][DeployRTP.cmd] End
+[14:22:48.03][DeployRTP.cmd] Delete [C:\system.sav\logs\RM\DeployRTP.FAILURE.FLG]...
+[DeployRTP.cmd] Mon 03/27/2017 14:22:48.03
+********** FINISH DeployRTP.cmd **********
+RETURN CODE - 0

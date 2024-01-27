@@ -1,0 +1,70 @@
+﻿2017-03-28 05:22:53, Info                  DISM   PID=1396 TID=1384 Scratch directory set to 'X:\windows\TEMP\'. - CDISMManager::put_ScratchDir
+2017-03-28 05:22:53, Info                  DISM   PID=1396 TID=1384 DismCore.dll version: 10.0.14393.0 - CDISMManager::FinalConstruct
+2017-03-28 05:22:53, Info                  DISM   PID=1396 TID=1384 Scratch directory set to 'C:\RM\ScratchDir\'. - CDISMManager::put_ScratchDir
+2017-03-28 05:22:53, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-28 05:22:53, Info                  DISM   PID=1396 TID=1384 Successfully loaded the ImageSession at "X:\windows\System32\Dism" - CDISMManager::LoadLocalImageSession
+2017-03-28 05:22:53, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Manager: PID=1396 TID=1384 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: 
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: 
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.14393, Running architecture=amd64, Number of processors=4
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.14393.0
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Executing command line: DISM  /Capture-Image /ImageFile:"C:\RM\Image\ESP.wim" /CaptureDir:P:\\ /Name:"ESP" /ConfigFile:"C:\RM\RERM\DeployRP\ExclusionList\ESP.ini" /ScratchDir:C:\RM\ScratchDir\ /logpath:C:\system.sav\logs\DISM_ESP.LOG
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Getting the collection of providers from a local provider store type. - CDISMProviderStore::GetProviderCollection
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\FolderProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Connecting to the provider located at X:\windows\System32\Dism\FolderProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\WimProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Connecting to the provider located at X:\windows\System32\Dism\WimProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\VHDProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Connecting to the provider located at X:\windows\System32\Dism\VHDProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\ImagingProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Connecting to the provider located at X:\windows\System32\Dism\ImagingProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\CompatProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Connecting to the provider located at X:\windows\System32\Dism\CompatProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\FfuProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Connecting to the provider located at X:\windows\System32\Dism\FfuProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Loading Provider from location X:\windows\System32\Dism\SiloedPackageProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:53, Warning               DISM   DISM Provider Store: PID=1396 TID=1384 Failed to Load the provider: X:\windows\System32\Dism\SiloedPackageProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Got the collection of providers. Now enumerating them to build the command table.
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Log Provider
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: FolderManager
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: WimManager
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: WimManager.
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: VHDManager
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: GenericImagingManager
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: GenericImagingManager.
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: Compatibility Manager
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: Compatibility Manager.
+2017-03-28 05:22:53, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: FfuManager
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Getting Provider WimManager - CDISMProviderStore::GetProvider
+2017-03-28 05:22:53, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-28 05:22:54, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2017-03-28 05:22:54, Info                  DISM   DISM.EXE: 
+2017-03-28 05:22:54, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2017-03-28 05:22:54, Info                  DISM   DISM.EXE: 
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Disconnecting Provider: WimManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Disconnecting Provider: VHDManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Disconnecting Provider: GenericImagingManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Disconnecting Provider: Compatibility Manager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Disconnecting Provider: FfuManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-28 05:22:54, Info                  DISM   DISM Provider Store: PID=1396 TID=1384 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider

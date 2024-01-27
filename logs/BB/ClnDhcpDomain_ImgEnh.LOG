@@ -1,0 +1,11 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:12.07] Beginning of the ClnDhcpDomain_ImgEnh.cmd                              
+############################################################# 
+Argument=[] 
+Load hive... 
+The operation completed successfully.
+Unload HKLM\TempHive 
+The operation completed successfully.
+[ 5:22:12.73] Result of the Windows 10 HP Image Enhancements - CPS - DHCP Information Clean and add into exclusion list. 
+RESULT=PASSED 

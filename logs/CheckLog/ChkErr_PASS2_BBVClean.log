@@ -1,0 +1,109 @@
+[ 4:50:40.74] ************************************************** 
+[ 4:50:40.80]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[ 4:50:40.82] -------------------------------------------------- 
+[ 4:50:40.85]  Check SW Error... 
+[ 4:50:40.87] -------------------------------------------------- 
+[ 4:50:40.88]   
+[ 4:50:40.90]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[ 4:50:40.93]   
+[ 4:50:40.96]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_BBVClean.log]... 
+[ 4:50:40.98]   
+[ 4:50:40.99]  Check 2nd parameter [BBVClean] 
+[ 4:50:41.02]   
+[ 4:50:41.04]  Error Checking items : [MEMDUMP,APPSLOG,REGDEV,TIMEOUT,WINSAT,FAILUREFLG] 
+[ 4:50:41.07]  -------------------------------------------------- 
+[ 4:50:41.10]  Checking : Memory Dump 
+[ 4:50:41.12]    Could not find memory dump... 
+[ 4:50:41.15]   
+[ 4:50:41.16]  [DumpFile] 
+[ 4:50:41.20]  Result=PASSED 
+[ 4:50:41.23]  -------------------------------------------------- 
+[ 4:50:41.24]  Checking : Apps' log 
+[ 4:50:41.26]   
+[ 4:50:44.82]  [AppsLog] 
+[ 4:50:44.91]  Result=PASSED 
+[ 4:50:45.05]  -------------------------------------------------- 
+[ 4:50:45.16]  Checking : Yellow-Bang 
+[ 4:50:45.27]   
+[ 4:50:45.41]  Run [PINChkT.exe /dev /s] 
+[ 4:50:47.07]   
+[ 4:50:47.20]  Append [REGDEVT_PASS2_BBVClean.LOG] to [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_BBVClean.log]... 
+[RegistryDevicesCheck]
+Result=PASSED
+
+[ 4:50:47.30]   
+[ 4:50:47.43]  Run [FIND.exe /I 'Result=FAILED' C:\SYSTEM.SAV\Logs\PINPROC\REGDEVT_PASS2_BBVClean.LOG] 
+[ 4:50:47.59]    No Yellow-bang device found... 
+[ 4:50:47.70]   
+[ 4:50:47.82]  -------------------------------------------------- 
+[ 4:50:47.93]  Checking : Timeout in INSTALL.log 
+[ 4:50:48.04]   
+[ 4:50:48.15]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[ 4:50:50.02]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[ 4:50:50.52]   There is NO timeout in install.log file. 
+[ 4:50:50.65]   
+[ 4:50:50.79]  [TIMEOUT] 
+[ 4:50:50.93]  Result=PASSED 
+[ 4:50:51.12]  -------------------------------------------------- 
+[ 4:50:51.26]  Checking : WinSAT 
+[ 4:50:51.38]   
+[ 4:50:51.52]  [WinSAT] 
+[ 4:50:51.62]  Result=PASSED 
+[ 4:50:51.76]  -------------------------------------------------- 
+[ 4:50:51.87]  Checking : FAILURE.flg 
+[ 4:50:52.12] ************************************************** 
+[ 4:50:52.13]  [CheckFailureFlags.cmd] has started... 
+[ 4:50:52.16] -------------------------------------------------- 
+[ 4:50:52.18]  Check FAILURE.flg at [PASS2_BBVClean] 
+[ 4:50:52.21] -------------------------------------------------- 
+[ 4:51:12.20]   
+[ 4:51:12.21]  No FAILURE.flg was found in C:\SwSetup folder 
+[ 4:51:12.24]   
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of c:\system.sav
+
+03/27/2017  03:23 PM    <DIR>          2ndCap
+03/28/2017  04:37 AM    <DIR>          bbv
+03/28/2017  04:50 AM                46 ChkError.cmd.FAILURE.flg
+10/21/2016  06:24 PM            80,477 CNB16WW3FPT601.ini
+03/27/2017  01:06 PM    <DIR>          CONFIG
+03/27/2017  04:08 AM             5,443 cpqdl.ini
+03/27/2017  04:07 AM             2,774 CTO.TXT
+03/27/2017  04:08 AM               173 CTOHW.TXT
+03/27/2017  04:05 AM             8,051 D235641159F9_DPS
+03/27/2017  02:39 AM               188 D235641159F9_DPS.hw
+03/27/2017  02:39 AM               464 ELCOT245G5
+03/27/2017  03:14 PM    <DIR>          EXCLUDE
+03/27/2017  03:28 PM    <DIR>          ExitProc
+03/27/2017  03:27 PM    <DIR>          FactoryUpdate
+03/27/2017  01:07 PM    <DIR>          fbi
+03/28/2017  04:50 AM    <DIR>          Flags
+03/27/2017  12:55 PM             5,466 Info.bom
+03/28/2017  04:50 AM    <DIR>          logs
+03/27/2017  04:22 AM    <DIR>          P2PP
+05/27/1997  02:42 AM                46 REBOOT.ME
+03/27/2017  02:00 PM               368 REGFLUSH.LOG
+03/28/2017  04:50 AM               139 Result.ini
+03/27/2017  12:37 PM    <DIR>          support
+03/27/2017  01:58 PM           495,920 SYSINFO.LOG
+03/28/2017  04:37 AM    <DIR>          WDT
+03/27/2017  01:00 PM    <DIR>          WSDVTDC
+              13 File(s)        599,555 bytes
+              13 Dir(s)  462,854,455,296 bytes free
+[ 4:51:12.27] -------------------------------------------------- 
+[ 4:51:12.29]  [CheckFailureFlags.cmd] has completed... 
+[ 4:51:12.32] ************************************************** 
+[ 4:51:12.41]   
+[ 4:51:12.52]  [FAILURE_FLAG] 
+[ 4:51:12.66]  Result=PASSED 
+[ 4:51:12.79]   
+[ 4:51:12.90]  -------------------------------------------------- 
+[ 4:51:12.99]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[ 4:51:13.13]   
+[ 4:51:13.24]    No SW issue found... 
+[ 4:51:13.35]   
+[ 4:51:13.46] -------------------------------------------------- 
+[ 4:51:13.57]  [ChkError.cmd] has completed... 
+[ 4:51:13.68] ************************************************** 

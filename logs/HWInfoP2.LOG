@@ -1,0 +1,791 @@
+======== List XboxComposite Class ========= 
+======== End of XboxComposite Class =========
+======== List RemotePosDevice Class ========= 
+======== End of RemotePosDevice Class =========
+======== List DigitalMediaDevices Class ========= 
+======== End of DigitalMediaDevices Class =========
+======== List PrintQueue Class ========= 
+SWD\PRINTENUM\{406D73ED-4760-44EC-BEE3-EB625F582B65}         :  Microsoft Print to PDF
+SWD\PRINTENUM\PRINTQUEUES                                    :  Root Print Queue
+SWD\PRINTENUM\{EF0DF901-9304-44C6-BBB7-CD76BBF15F85}         :  Send To OneNote 2016
+SWD\PRINTENUM\{5333BB2F-86A6-4582-B0CD-15011320C1F7}         :  Microsoft XPS Document Writer
+SWD\PRINTENUM\{2DDD84FB-5903-41F8-ADA5-274B1B17580E}         :  HP ePrint + JetAdvantage
+SWD\PRINTENUM\{B224D042-1B24-4F38-AFAE-D883B6E23ADD}         :  Fax
+======== End of PrintQueue Class =========
+======== List WCEUSBS Class ========= 
+======== End of WCEUSBS Class =========
+======== List Security Class ========= 
+======== End of Security Class =========
+======== List HidMsr Class ========= 
+======== End of HidMsr Class =========
+======== List USB Class ========= 
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&90 :  Standard Enhanced PCI to USB Host Controller
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&90
+    Name: Standard Enhanced PCI to USB Host Controller
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is EHCI.Dev
+    Driver description is Standard Enhanced PCI to USB Host Controller
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719877
+    Driver node flags are 00142044
+        Inf is digitally signed
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&98
+    Name: Standard Enhanced PCI to USB Host Controller
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is EHCI.Dev
+    Driver description is Standard Enhanced PCI to USB Host Controller
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719877
+    Driver node flags are 00142044
+        Inf is digitally signed
+2 matching device(s) found.
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&98 :  Standard Enhanced PCI to USB Host Controller
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&90
+    Name: Standard Enhanced PCI to USB Host Controller
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is EHCI.Dev
+    Driver description is Standard Enhanced PCI to USB Host Controller
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719877
+    Driver node flags are 00142044
+        Inf is digitally signed
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&98
+    Name: Standard Enhanced PCI to USB Host Controller
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is EHCI.Dev
+    Driver description is Standard Enhanced PCI to USB Host Controller
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719877
+    Driver node flags are 00142044
+        Inf is digitally signed
+2 matching device(s) found.
+USB\VID_064E&PID_C346\HF1017-P83L-OV01-REV0102               :  USB Composite Device
+USB\VID_064E&PID_C346\HF1017-P83L-OV01-REV0102
+    Name: USB Composite Device
+Driver node #0:
+    Inf file is C:\windows\INF\usb.inf
+    Inf section is Composite.Dev
+    Driver description is USB Composite Device
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719875
+    Driver node flags are 00142044
+        Inf is digitally signed
+1 matching device(s) found.
+USB\VID_0438&PID_7900\5&3B9196FD&0&1                         :  Generic USB Hub
+USB\VID_0438&PID_7900\5&3B9196FD&0&1
+    Name: Generic USB Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usb.inf
+    Inf section is StandardHub.Dev
+    Driver description is Generic USB Hub
+    Manufacturer name is (Generic USB Hub)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719874
+    Driver node flags are 00142044
+        Inf is digitally signed
+USB\VID_0438&PID_7900\5&9535BF8&0&1
+    Name: Generic USB Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usb.inf
+    Inf section is StandardHub.Dev
+    Driver description is Generic USB Hub
+    Manufacturer name is (Generic USB Hub)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719874
+    Driver node flags are 00142044
+        Inf is digitally signed
+2 matching device(s) found.
+USB\VID_0438&PID_7900\5&9535BF8&0&1                          :  Generic USB Hub
+USB\VID_0438&PID_7900\5&3B9196FD&0&1
+    Name: Generic USB Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usb.inf
+    Inf section is StandardHub.Dev
+    Driver description is Generic USB Hub
+    Manufacturer name is (Generic USB Hub)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719874
+    Driver node flags are 00142044
+        Inf is digitally signed
+USB\VID_0438&PID_7900\5&9535BF8&0&1
+    Name: Generic USB Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usb.inf
+    Inf section is StandardHub.Dev
+    Driver description is Generic USB Hub
+    Manufacturer name is (Generic USB Hub)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719874
+    Driver node flags are 00142044
+        Inf is digitally signed
+2 matching device(s) found.
+USB\ROOT_HUB20\4&1737DEEB&0                                  :  USB Root Hub
+USB\ROOT_HUB20\4&1737DEEB&0
+    Name: USB Root Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is ROOTHUB.Dev
+    Driver description is USB Root Hub
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711682
+    Driver node flags are 00142044
+        Inf is digitally signed
+USB\ROOT_HUB20\4&175FD1E6&0
+    Name: USB Root Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is ROOTHUB.Dev
+    Driver description is USB Root Hub
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711682
+    Driver node flags are 00142044
+        Inf is digitally signed
+2 matching device(s) found.
+USB\ROOT_HUB30\4&B66B6AD&0&0                                 :  USB Root Hub (xHCI)
+USB\ROOT_HUB30\4&B66B6AD&0&0
+    Name: USB Root Hub (xHCI)
+Driver node #0:
+    Inf file is C:\windows\INF\usbhub3.inf
+    Inf section is Generic.Install
+    Driver description is USB Root Hub (xHCI)
+    Manufacturer name is (Standard USB HUBs)
+    Provider name is Microsoft
+    Driver date is 7/15/2016
+    Driver version is 10.0.14393.0
+    Driver node rank is 8388610
+    Driver node flags are 00142044
+        Inf is digitally signed
+1 matching device(s) found.
+PCI\VEN_1022&DEV_7814&SUBSYS_81E5103C&REV_11\3&2411E6FE&0&80 :  AMD USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+PCI\VEN_1022&DEV_7814&SUBSYS_81E5103C&REV_11\3&2411E6FE&0&80
+    Name: AMD USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+Driver node #0:
+    Inf file is C:\windows\INF\usbxhci.inf
+    Inf section is Generic.Install
+    Driver description is USB xHCI Compliant Host Controller
+    Manufacturer name is Generic USB xHCI Host Controller
+    Provider name is Microsoft
+    Driver date is 7/15/2016
+    Driver version is 10.0.14393.0
+    Driver node rank is 8396805
+    Driver node flags are 00142044
+        Inf is digitally signed
+1 matching device(s) found.
+USB\ROOT_HUB20\4&175FD1E6&0                                  :  USB Root Hub
+USB\ROOT_HUB20\4&1737DEEB&0
+    Name: USB Root Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is ROOTHUB.Dev
+    Driver description is USB Root Hub
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711682
+    Driver node flags are 00142044
+        Inf is digitally signed
+USB\ROOT_HUB20\4&175FD1E6&0
+    Name: USB Root Hub
+Driver node #0:
+    Inf file is C:\windows\INF\usbport.inf
+    Inf section is ROOTHUB.Dev
+    Driver description is USB Root Hub
+    Manufacturer name is (Standard USB Host Controller)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711682
+    Driver node flags are 00142044
+        Inf is digitally signed
+2 matching device(s) found.
+======== End of USB Class =========
+======== List ContentScreener Class ========= 
+======== End of ContentScreener Class =========
+======== List Media Class ========= 
+HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5&REV_1000\4&22C94DEF&0&0001 :  Realtek High Definition Audio
+HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5&REV_1000\4&22C94DEF&0&0001
+    Name: Realtek High Definition Audio
+Driver node #0:
+    Inf file is C:\windows\INF\hdaudio.inf
+    Inf section is HdAudModel
+    Driver description is High Definition Audio Device
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 7/15/2016
+    Driver version is 10.0.14393.0
+    Driver node rank is 16723980
+    Driver node flags are 00102044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem4.inf
+    Inf section is IntcAzAudModelSRS_FB_HP2014_cNB
+    Driver description is Realtek High Definition Audio
+    Manufacturer name is Realtek
+    Provider name is Realtek Semiconductor Corp.
+    Driver date is 8/29/2016
+    Driver version is 6.0.1.7922
+    Driver node rank is 16711681
+    Driver node flags are 00042040
+        Inf is digitally signed
+1 matching device(s) found.
+HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1005\4&27ECBAF2&0&0001 :  AMD High Definition Audio Device
+HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1005\4&27ECBAF2&0&0001
+    Name: AMD High Definition Audio Device
+Driver node #0:
+    Inf file is C:\windows\INF\hdaudio.inf
+    Inf section is HdAudModel
+    Driver description is High Definition Audio Device
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 7/15/2016
+    Driver version is 10.0.14393.0
+    Driver node rank is 16723980
+    Driver node flags are 00102044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem7.inf
+    Inf section is HDAudioInstall
+    Driver description is AMD High Definition Audio Device
+    Manufacturer name is Advanced Micro Devices
+    Provider name is Advanced Micro Devices
+    Driver date is 7/13/2016
+    Driver version is 10.0.1.0
+    Driver node rank is 16711680
+    Driver node flags are 00042044
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of Media Class =========
+======== List Dot4 Class ========= 
+======== End of Dot4 Class =========
+======== List Replication Class ========= 
+======== End of Replication Class =========
+======== List Dot4Print Class ========= 
+======== End of Dot4Print Class =========
+======== List CDROM Class ========= 
+SCSI\CDROM&VEN_HP&PROD_DVDRW_GUD1N\4&1649041&0&010000        :  hp       DVDRW GUD1N
+======== End of CDROM Class =========
+======== List Computer Class ========= 
+ROOT\ACPI_HAL\0000                                           :  ACPI x64-based PC
+======== End of Computer Class =========
+======== List DiskDrive Class ========= 
+SCSI\DISK&VEN_HGST&PROD_HTS725050A7E630\4&1649041&0&000000   :  HGST HTS725050A7E630
+======== End of DiskDrive Class =========
+======== List Display Class ========= 
+PCI\VEN_1002&DEV_9851&SUBSYS_81E5103C&REV_40\3&2411E6FE&0&08 :  AMD Radeon(TM) R4 Graphics
+PCI\VEN_1002&DEV_9851&SUBSYS_81E5103C&REV_40\3&2411E6FE&0&08
+    Name: AMD Radeon(TM) R4 Graphics
+Driver node #0:
+    Inf file is C:\windows\INF\display.inf
+    Inf section is MSBDA
+    Driver description is Microsoft Basic Display Adapter
+    Manufacturer name is (Standard display types)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16457734
+    Driver node flags are 00102044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem5.inf
+    Inf section is ati2mtag_MullinsPA_MobileDS
+    Driver description is AMD Radeon(TM) R4 Graphics
+    Manufacturer name is Advanced Micro Devices, Inc.
+    Provider name is Advanced Micro Devices, Inc.
+    Driver date is 10/6/2016
+    Driver version is 21.19.144.257
+    Driver node rank is 13697024
+    Driver node flags are 00042044
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of Display Class =========
+======== List FDC Class ========= 
+======== End of FDC Class =========
+======== List HDC Class ========= 
+PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88 :  AMD SATA Controller
+PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88
+    Name: AMD SATA Controller
+Driver node #0:
+    Inf file is C:\windows\INF\amdsata.inf
+    Inf section is amdsata_inst
+    Driver description is AMD SATA Controller
+    Manufacturer name is AMD
+    Provider name is AMD
+    Driver date is 4/15/2015
+    Driver version is 1.3.1.277
+    Driver node rank is 16711683
+    Driver node flags are 00142044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\mshdc.inf
+    Inf section is msahci_Inst
+    Driver description is Standard SATA AHCI Controller
+    Manufacturer name is Standard SATA AHCI Controller
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719877
+    Driver node flags are 00102044
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of HDC Class =========
+======== List Keyboard Class ========= 
+ACPI\HPQ8001\4&1E609E49&0                                    :  Standard PS/2 Keyboard
+ACPI\HPQ8001\4&1E609E49&0
+    Name: Standard PS/2 Keyboard
+Driver node #0:
+    Inf file is C:\windows\INF\keyboard.inf
+    Inf section is STANDARD_Inst
+    Driver description is Standard PS/2 Keyboard
+    Manufacturer name is (Standard keyboards)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719872
+    Driver node flags are 00142040
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of Keyboard Class =========
+======== List MEDIA Class ========= 
+HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5&REV_1000\4&22C94DEF&0&0001 :  Realtek High Definition Audio
+HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5&REV_1000\4&22C94DEF&0&0001
+    Name: Realtek High Definition Audio
+Driver node #0:
+    Inf file is C:\windows\INF\hdaudio.inf
+    Inf section is HdAudModel
+    Driver description is High Definition Audio Device
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 7/15/2016
+    Driver version is 10.0.14393.0
+    Driver node rank is 16723980
+    Driver node flags are 00102044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem4.inf
+    Inf section is IntcAzAudModelSRS_FB_HP2014_cNB
+    Driver description is Realtek High Definition Audio
+    Manufacturer name is Realtek
+    Provider name is Realtek Semiconductor Corp.
+    Driver date is 8/29/2016
+    Driver version is 6.0.1.7922
+    Driver node rank is 16711681
+    Driver node flags are 00042040
+        Inf is digitally signed
+1 matching device(s) found.
+HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1005\4&27ECBAF2&0&0001 :  AMD High Definition Audio Device
+HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1005\4&27ECBAF2&0&0001
+    Name: AMD High Definition Audio Device
+Driver node #0:
+    Inf file is C:\windows\INF\hdaudio.inf
+    Inf section is HdAudModel
+    Driver description is High Definition Audio Device
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 7/15/2016
+    Driver version is 10.0.14393.0
+    Driver node rank is 16723980
+    Driver node flags are 00102044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem7.inf
+    Inf section is HDAudioInstall
+    Driver description is AMD High Definition Audio Device
+    Manufacturer name is Advanced Micro Devices
+    Provider name is Advanced Micro Devices
+    Driver date is 7/13/2016
+    Driver version is 10.0.1.0
+    Driver node rank is 16711680
+    Driver node flags are 00042044
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of MEDIA Class =========
+======== List Modem Class ========= 
+======== End of Modem Class =========
+======== List Monitor Class ========= 
+DISPLAY\CMN1490\4&7DBB3CD&0&UID256                           :  Generic PnP Monitor
+======== End of Monitor Class =========
+======== List Mouse Class ========= 
+ACPI\ETD0711\4&1E609E49&0                                    :  ELAN Touchpad
+ACPI\ETD0711\4&1E609E49&0
+    Name: ELAN Touchpad
+Driver node #0:
+    Inf file is C:\windows\INF\msmouse.inf
+    Inf section is PS2_Inst
+    Driver description is PS/2 Compatible Mouse
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16719873
+    Driver node flags are 00102040
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem14.inf
+    Inf section is ETD_STD_Inst
+    Driver description is ELAN Clickpad
+    Manufacturer name is ELAN
+    Provider name is ELAN
+    Driver date is 10/3/2016
+    Driver version is 15.2.14.1
+    Driver node rank is 16326656
+    Driver node flags are 00002040
+        Inf is digitally signed
+Driver node #2:
+    Inf file is C:\windows\INF\oem14.inf
+    Inf section is ETD_STD_Inst
+    Driver description is ELAN Touchpad
+    Manufacturer name is ELAN
+    Provider name is ELAN
+    Driver date is 10/3/2016
+    Driver version is 15.2.14.1
+    Driver node rank is 16318465
+    Driver node flags are 0004A040
+        Inf is digitally signed
+Driver node #3:
+    Inf file is C:\windows\INF\oem14.inf
+    Inf section is ETD_STD_Inst
+    Driver description is ELAN Touchpad
+    Manufacturer name is ELAN
+    Provider name is ELAN
+    Driver date is 10/3/2016
+    Driver version is 15.2.14.1
+    Driver node rank is 16318466
+    Driver node flags are 0000A040
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of Mouse Class =========
+======== List MultiFunction Class ========= 
+======== End of MultiFunction Class =========
+======== List Net Class ========= 
+SWD\IP_TUNNEL_VBUS\ISATAP_0                                  :  Microsoft ISATAP Adapter
+ROOT\KDNIC\0000                                              :  Microsoft Kernel Debug Network Adapter
+PCI\VEN_10EC&DEV_8179&SUBSYS_81BF103C&REV_01\4&23C471C0&0&0013 :  Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+PCI\VEN_10EC&DEV_8179&SUBSYS_81BF103C&REV_01\4&23C471C0&0&0013
+    Name: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+Driver node #0:
+    Inf file is C:\windows\INF\oem12.inf
+    Inf section is 16_HP8188ee.ndi
+    Driver description is Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+    Manufacturer name is Realtek Semiconductor Corp.
+    Provider name is Realtek Semiconductor Corp.
+    Driver date is 8/29/2016
+    Driver version is 2023.40.801.2016
+    Driver node rank is 16711681
+    Driver node flags are 00043044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\netrtwlane.inf
+    Inf section is 16_HP8188ee.ndi
+    Driver description is Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+    Manufacturer name is Realtek Semiconductor Corp.
+    Provider name is Realtek Semiconductor Corp.
+    Driver date is 3/23/2016
+    Driver version is 2023.30.301.2016
+    Driver node rank is 16711681
+    Driver node flags are 00103044
+        Inf is digitally signed
+1 matching device(s) found.
+PCI\VEN_10EC&DEV_8168&SUBSYS_81E5103C&REV_15\4&110AC11B&0&0012 :  Realtek PCIe GBE Family Controller
+PCI\VEN_10EC&DEV_8168&SUBSYS_81E5103C&REV_15\4&110AC11B&0&0012
+    Name: Realtek PCIe GBE Family Controller
+Driver node #0:
+    Inf file is C:\windows\INF\oem11.inf
+    Inf section is RTL8168H.ndi
+    Driver description is Realtek PCIe GBE Family Controller
+    Manufacturer name is Realtek
+    Provider name is Realtek
+    Driver date is 7/14/2016
+    Driver version is 10.10.714.2016
+    Driver node rank is 16719872
+    Driver node flags are 0000B044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\oem11.inf
+    Inf section is RTL8168H.ndi
+    Driver description is Realtek PCIe GBE Family Controller
+    Manufacturer name is Realtek
+    Provider name is Realtek
+    Driver date is 7/14/2016
+    Driver version is 10.10.714.2016
+    Driver node rank is 16711680
+    Driver node flags are 0004B044
+        Inf is digitally signed
+Driver node #2:
+    Inf file is C:\windows\INF\rt640x64.inf
+    Inf section is RTL8168.ndi
+    Driver description is Realtek PCIe GBE Family Controller
+    Manufacturer name is Realtek
+    Provider name is Realtek
+    Driver date is 4/5/2015
+    Driver version is 9.1.404.2015
+    Driver node rank is 16719872
+    Driver node flags are 00103044
+        Inf is digitally signed
+1 matching device(s) found.
+{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&4C10840&1&12 :  Microsoft Wi-Fi Direct Virtual Adapter #2
+======== End of Net Class =========
+======== List NetClient Class ========= 
+======== End of NetClient Class =========
+======== List NetService Class ========= 
+======== End of NetService Class =========
+======== List NetTrans Class ========= 
+======== End of NetTrans Class =========
+======== List PCMCIA Class ========= 
+======== End of PCMCIA Class =========
+======== List SCSIAdapter Class ========= 
+ROOT\SPACEPORT\0000                                          :  Microsoft Storage Spaces Controller
+======== End of SCSIAdapter Class =========
+======== List Unknown Class ========= 
+======== End of Unknown Class =========
+======== List Processor Class ========= 
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_0 :  AMD A6-7310 APU with AMD Radeon R4 Graphics    
+No matching devices found.
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_1 :  AMD A6-7310 APU with AMD Radeon R4 Graphics    
+No matching devices found.
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_2 :  AMD A6-7310 APU with AMD Radeon R4 Graphics    
+No matching devices found.
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_3 :  AMD A6-7310 APU with AMD Radeon R4 Graphics    
+No matching devices found.
+======== End of Processor Class =========
+======== List Memory Class ========= 
+======== End of Memory Class =========
+======== List SmartCardReader Class ========= 
+======== End of SmartCardReader Class =========
+======== List Sensor Class ========= 
+======== End of Sensor Class =========
+======== List ScmDisk Class ========= 
+======== End of ScmDisk Class =========
+======== List Biometric Class ========= 
+======== End of Biometric Class =========
+======== List Proximity Class ========= 
+======== End of Proximity Class =========
+======== List AudioProcessingObject Class ========= 
+======== End of AudioProcessingObject Class =========
+======== List SoftwareComponent Class ========= 
+======== End of SoftwareComponent Class =========
+======== List SoftwareDevice Class ========= 
+SWD\RADIO\{176A070F-C1DC-4231-8287-06FA7FEDCE18}             :  Wi-Fi
+SWD\IP_TUNNEL_VBUS\IP_TUNNEL_DEVICE_ROOT                     :  Microsoft IPv4 IPv6 Transition Adapter Bus
+SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}             :  Microsoft Radio Device Enumeration Bus
+SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}             :  Microsoft Device Association Root Enumerator
+SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH                       :  Microsoft GS Wavetable Synth
+======== End of SoftwareDevice Class =========
+======== List PhysicalQuotaManagement Class ========= 
+======== End of PhysicalQuotaManagement Class =========
+======== List 1394 Class ========= 
+======== End of 1394 Class =========
+======== List Infrared Class ========= 
+======== End of Infrared Class =========
+======== List Image Class ========= 
+USB\VID_064E&PID_C346&MI_00\7&28AD1DF0&0&0000                :  HP TrueVision HD
+USB\VID_064E&PID_C346&MI_00\7&28AD1DF0&0&0000
+    Name: HP TrueVision HD
+Driver node #0:
+    Inf file is C:\windows\INF\usbvideo.inf
+    Inf section is USBVideo
+    Driver description is USB Video Device
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.82
+    Driver node rank is 16719874
+    Driver node flags are 00142044
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of Image Class =========
+======== List ContinuousBackup Class ========= 
+======== End of ContinuousBackup Class =========
+======== List Battery Class ========= 
+ACPI\PNP0C0A\1                                               :  Microsoft ACPI-Compliant Control Method Battery
+ACPI\PNP0C0A\1
+    Name: Microsoft ACPI-Compliant Control Method Battery
+Driver node #0:
+    Inf file is C:\windows\INF\cmbatt.inf
+    Inf section is CmBatt_Inst
+    Driver description is Microsoft ACPI-Compliant Control Method Battery
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711681
+    Driver node flags are 00142044
+        Inf is digitally signed
+1 matching device(s) found.
+ACPI\ACPI0003\2&DABA3FF&1                                    :  Microsoft AC Adapter
+ACPI\ACPI0003\2&DABA3FF&1
+    Name: Microsoft AC Adapter
+Driver node #0:
+    Inf file is C:\windows\INF\cmbatt.inf
+    Inf section is AcAdapter_Inst
+    Driver description is Microsoft AC Adapter
+    Manufacturer name is Microsoft
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711681
+    Driver node flags are 00142044
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of Battery Class =========
+======== List HIDClass Class ========= 
+ACPI\HPQ6001\2&DABA3FF&1                                     :  HP Wireless Button Driver
+ACPI\HPQ6001\2&DABA3FF&1
+    Name: HP Wireless Button Driver
+Driver node #0:
+    Inf file is C:\windows\INF\oem16.inf
+    Inf section is HPWirelessButtonDriverInstall.ntamd64
+    Driver description is HP Wireless Button Driver
+    Manufacturer name is HP
+    Provider name is HP
+    Driver date is 7/21/2016
+    Driver version is 1.1.18.1
+    Driver node rank is 16711681
+    Driver node flags are 00042040
+        Inf is digitally signed
+1 matching device(s) found.
+HID\HPQ6001\3&3229B8BB&0&0000                                :  HID-compliant wireless radio controls
+======== End of HIDClass Class =========
+======== List HidCashDrawer Class ========= 
+======== End of HidCashDrawer Class =========
+======== List QuotaManagement Class ========= 
+======== End of QuotaManagement Class =========
+======== List TS_Generic Class ========= 
+======== End of TS_Generic Class =========
+======== List USBDevice Class ========= 
+======== End of USBDevice Class =========
+======== List CopyProtection Class ========= 
+======== End of CopyProtection Class =========
+======== List SmartCard Class ========= 
+======== End of SmartCard Class =========
+======== List Ramdisk Class ========= 
+======== End of Ramdisk Class =========
+======== List EhStorSilo Class ========= 
+======== End of EhStorSilo Class =========
+======== List SDHost Class ========= 
+======== End of SDHost Class =========
+======== List Encryption Class ========= 
+======== End of Encryption Class =========
+======== List AntiVirus Class ========= 
+======== End of AntiVirus Class =========
+======== List ActivityMonitor Class ========= 
+======== End of ActivityMonitor Class =========
+======== List USBFunctionController Class ========= 
+======== End of USBFunctionController Class =========
+======== List AVC Class ========= 
+======== End of AVC Class =========
+======== List AudioEndpoint Class ========= 
+SWD\MMDEVAPI\{0.0.0.00000000}.{3E58D12C-FDDF-4A30-8250-2CCE29625BCB} :  Speakers (Realtek High Definition Audio)
+SWD\MMDEVAPI\{0.0.1.00000000}.{B1D95025-BA0D-4880-941C-A425DEE474A7} :  Microphone (Realtek High Definition Audio)
+======== End of AudioEndpoint Class =========
+======== List BarcodeScanner Class ========= 
+======== End of BarcodeScanner Class =========
+======== List CFSMetadataServer Class ========= 
+======== End of CFSMetadataServer Class =========
+======== List MediumChanger Class ========= 
+======== End of MediumChanger Class =========
+======== List SecurityEnhancer Class ========= 
+======== End of SecurityEnhancer Class =========
+======== List Miracast Class ========= 
+======== End of Miracast Class =========
+======== List SBP2 Class ========= 
+======== End of SBP2 Class =========
+======== List HSM Class ========= 
+======== End of HSM Class =========
+======== List SecurityDevices Class ========= 
+ACPI\MSFT0101\2&DABA3FF&1                                    :  Trusted Platform Module 2.0
+ACPI\MSFT0101\2&DABA3FF&1
+    Name: Trusted Platform Module 2.0
+Driver node #0:
+    Inf file is C:\windows\INF\tpm.inf
+    Inf section is Tpm2BaseInstall
+    Driver description is Trusted Platform Module 2.0
+    Manufacturer name is (Standard)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711681
+    Driver node flags are 0014A044
+        Inf is digitally signed
+Driver node #1:
+    Inf file is C:\windows\INF\tpm.inf
+    Inf section is Tpm2BaseInstall
+    Driver description is Trusted Platform Module 2.0
+    Manufacturer name is (Standard)
+    Provider name is Microsoft
+    Driver date is 6/21/2006
+    Driver version is 10.0.14393.0
+    Driver node rank is 16711682
+    Driver node flags are 0010A044
+        Inf is digitally signed
+1 matching device(s) found.
+PCI\VEN_1022&DEV_1537&SUBSYS_15371022&REV_00\3&2411E6FE&0&40 :  AMD PSP 1.0 Device
+PCI\VEN_1022&DEV_1537&SUBSYS_15371022&REV_00\3&2411E6FE&0&40
+    Name: AMD PSP 1.0 Device
+Driver node #0:
+    Inf file is C:\windows\INF\oem10.inf
+    Inf section is amdpsp_Device_10
+    Driver description is AMD PSP 1.0 Device
+    Manufacturer name is Advanced Micro Devices Inc.
+    Provider name is Advanced Micro Devices Inc.
+    Driver date is 8/17/2016
+    Driver version is 3.1.0.0
+    Driver node rank is 16719873
+    Driver node flags are 00042040
+        Inf is digitally signed
+1 matching device(s) found.
+======== End of SecurityDevices Class =========
+======== List SmartCardFilter Class ========= 
+======== End of SmartCardFilter Class =========
+======== List Bluetooth Class ========= 
+======== End of Bluetooth Class =========
+======== List Extension Class ========= 
+======== End of Extension Class =========
+======== List Infrastructure Class ========= 
+======== End of Infrastructure Class =========
+======== List WPD Class ========= 
+======== End of WPD Class =========
+======== List Firmware Class ========= 
+UEFI\RES_{ABEAEA64-EF28-47E5-8CAB-132D53F42DAF}\0            :  Firmware Resource
+======== End of Firmware Class =========
+======== List Compression Class ========= 
+======== End of Compression Class =========
+======== List Virtualization Class ========= 
+======== End of Virtualization Class =========
+======== List OpenFileBackup Class ========= 
+======== End of OpenFileBackup Class =========
+======== List Undelete Class ========= 
+======== End of Undelete Class =========

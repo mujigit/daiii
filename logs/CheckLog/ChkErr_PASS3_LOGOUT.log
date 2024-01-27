@@ -1,0 +1,98 @@
+[ 5:35:25.40] ************************************************** 
+[ 5:35:25.43]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[ 5:35:25.45] -------------------------------------------------- 
+[ 5:35:25.46]  Check SW Error... 
+[ 5:35:25.48] -------------------------------------------------- 
+[ 5:35:25.50]   
+[ 5:35:25.51]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[ 5:35:25.53]   
+[ 5:35:25.53]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS3_LOGOUT.log]... 
+[ 5:35:25.56]   
+[ 5:35:25.57]  Check 2nd parameter [LOGOUT] 
+[ 5:35:25.59]   
+[ 5:35:25.61]  Error Checking items : [MEMDUMP,APPSLOG,TIMEOUT,BADLINE,FAILUREFLG] 
+[ 5:35:25.62]  -------------------------------------------------- 
+[ 5:35:25.64]  Checking : Memory Dump 
+[ 5:35:25.65]    Could not find memory dump... 
+[ 5:35:25.67]   
+[ 5:35:25.68]  [DumpFile] 
+[ 5:35:25.70]  Result=PASSED 
+[ 5:35:25.71]  -------------------------------------------------- 
+[ 5:35:25.73]  Checking : Apps' log 
+[ 5:35:25.75]   
+[ 5:35:29.40]  [AppsLog] 
+[ 5:35:29.48]  Result=PASSED 
+[ 5:35:29.59]  -------------------------------------------------- 
+[ 5:35:29.70]  Checking : Timeout in INSTALL.log 
+[ 5:35:29.79]   
+[ 5:35:29.89]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[ 5:35:32.96]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[ 5:35:34.45]   There is NO timeout in install.log file. 
+[ 5:35:34.48]   
+[ 5:35:34.51]  [TIMEOUT] 
+[ 5:35:34.54]  Result=PASSED 
+[ 5:35:34.59]  -------------------------------------------------- 
+[ 5:35:34.62]  Checking : Bad Line in INSTALL.log 
+[ 5:35:34.65]   
+[ 5:35:34.68]  Run [cscript.exe c:\System.sav\ExitProc\ErrorChk\BadLine.vbs] 
+passed : DATA CORRUPTION
+RESULT=PASSED
+
+[ 5:35:35.20]   No BadLine in install.log file. 
+[ 5:35:35.23]   
+[ 5:35:35.26]  [BADLINE] 
+[ 5:35:35.29]  Result=PASSED 
+[ 5:35:35.32]  -------------------------------------------------- 
+[ 5:35:35.37]  Checking : FAILURE.flg 
+[ 5:35:35.54] ************************************************** 
+[ 5:35:35.56]  [CheckFailureFlags.cmd] has started... 
+[ 5:35:35.57] -------------------------------------------------- 
+[ 5:35:35.59]  Check FAILURE.flg at [PASS3_LOGOUT] 
+[ 5:35:35.61] -------------------------------------------------- 
+[ 5:35:39.69]   
+[ 5:35:39.71]  No FAILURE.flg was found in C:\SwSetup folder 
+[ 5:35:39.72]   
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of c:\system.sav
+
+03/27/2017  02:23 PM    <DIR>          2ndCap
+03/28/2017  05:35 AM                46 ChkError.cmd.FAILURE.flg
+10/21/2016  05:24 PM            80,477 CNB16WW3FPT601.ini
+03/27/2017  12:06 PM    <DIR>          CONFIG
+03/27/2017  03:08 AM             5,443 cpqdl.ini
+03/27/2017  03:07 AM             2,774 CTO.TXT
+03/27/2017  03:08 AM               173 CTOHW.TXT
+03/27/2017  03:05 AM             8,051 D235641159F9_DPS
+03/27/2017  01:39 AM               188 D235641159F9_DPS.hw
+03/27/2017  01:39 AM               464 ELCOT245G5
+03/27/2017  02:14 PM    <DIR>          EXCLUDE
+03/28/2017  04:34 AM    <DIR>          ExitProc
+03/28/2017  05:34 AM    <DIR>          Flags
+03/27/2017  11:55 AM             5,466 Info.bom
+03/28/2017  04:33 AM    <DIR>          logs
+05/27/1997  01:42 AM                46 REBOOT.ME
+03/27/2017  01:00 PM               368 REGFLUSH.LOG
+03/28/2017  05:34 AM               125 Result.ini
+03/27/2017  11:37 AM    <DIR>          support
+03/27/2017  12:58 PM           495,920 SYSINFO.LOG
+03/28/2017  03:37 AM    <DIR>          WDT
+03/28/2017  04:32 AM    <DIR>          WSDVTDC
+              13 File(s)        599,541 bytes
+               9 Dir(s)  458,721,644,544 bytes free
+[ 5:35:39.74] -------------------------------------------------- 
+[ 5:35:39.75]  [CheckFailureFlags.cmd] has completed... 
+[ 5:35:39.78] ************************************************** 
+[ 5:35:39.83]   
+[ 5:35:39.85]  [FAILURE_FLAG] 
+[ 5:35:39.89]  Result=PASSED 
+[ 5:35:39.92]   
+[ 5:35:39.96]  -------------------------------------------------- 
+[ 5:35:39.99]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[ 5:35:40.03]   
+[ 5:35:40.07]    No SW issue found... 
+[ 5:35:40.10]   
+[ 5:35:40.13] -------------------------------------------------- 
+[ 5:35:40.16]  [ChkError.cmd] has completed... 
+[ 5:35:40.19] ************************************************** 

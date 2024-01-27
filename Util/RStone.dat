@@ -1,0 +1,484 @@
+[ChannelID]
+;Default
+@@=00
+;Best Buy and Premiun load (BBUY,SL.PRE)
+5F7N=22
+;Best Buy Standard (BBUY)
+5F=02
+;Retailer: Walmart (is set for Walmart skus) (R_WM)
+3a=03
+;Retail Amazon (R_AMZ)
+bx=0B
+;Retail T-Mobile (R_TMO)
+by=0D
+;Retailer Costco (R_CostCo)
+9C=14
+;Retail: Sam's Club (R_SAM)
+aN=21
+;Retail Fnac (R_FNAC)
+cf=23
+;Microsoft Signature (R_MIC)
+bg=25
+
+[ChannelType]
+;Default
+@@=0
+;CTO Channel (Chan=CTO)
+3H=1
+
+[OSSkuFlag]
+;Default
+@@=0
+;Free Dos Only (ATF_OS.FD)
+6E=0
+;Linux OS only (ATF_OS.LX)
+6D=0
+;Windows 7 OS (ATF_OS.7)
+67=2
+;Windows 8 OS (ATF_OS.8)
+a3=3
+;Windows 8.1 OS (ATF_OS.8_1)
+bS=4
+;Windows 8.1 OS + WimBoot (ATF_OS.V)
+68=4
+;Windows 10 OS (ATF_OS.T)
+dp=5
+;Windows 10 Compact OS (ATF_OS.X)
+69=5
+
+[WinConfigurationFlag]
+;Default
+@@=0
+;Windows 8.1 Pro for Education (Vos.STU)
+cD=7
+;Windows 8 MultiLanguage - Mature Markets With Bing (Vos.ML,WBing)
+ascC=6
+;Windows 8 MultiLanguage - Mature Markets With Bing 2015 (Vos.ML,WBing15)
+asdy=6
+;Windows 8 Single Language - Emerging Market With Bing (Vos.SL,WBing)
+arcC=5
+;Windows 8 Single Language - Emerging Market With Bing 2015 (Vos.SL,WBing15)
+ardy=5
+;Vista Ultimate or Windows 7 Ultimate operating system (Vos.U)
+48=4
+;Windows 8 Single Language - China Only With Bing (Vos.CH,WBing)
+atcC=4
+;Windows 8 Single Language - China Only With Bing 2015 (Vos.CH,WBing15)
+atdy=4
+;Vista Bus., Win 7 Pro., or Win 8 Pro. operating system (Vos.B)
+47=3
+;Vista Home Premium or Windows 7 Home Premium operating system (Vos.P)
+46=2
+;Windows 8 MultiLanguage - Mature Markets (Vos.ML)
+as=2
+;Vista Home Basic or Windows 7 Home Basic operating system (Vos.H)
+45=1
+;Windows 8 Single Language - Emerging Market (Vos.SL)
+ar=1
+;Vista Starter or Windows 7 Starter operating system (Vos.S)
+49=0
+;Windows 8 Single Language - China Only (Vos.CH)
+at=0
+
+[OSSubversionFlag]
+;Default
+@@=0
+;Connected (With Bing and Microsoft Office 365 Personal for Small Tablet under 9 inch) (WBing,PROD_MSOFF365PERS,TAB9)
+cCcJcU=A
+;Connected (With Bing 2015 and Microsoft Office 365 Personal for Small Tablet under 9 inch) (WBing15,PROD_MSOFF365PERS,TAB9)
+dycJcU=A
+;Connected (With Bing and Microsoft Office 365 Personal for Tablet and detachable 10.1 inch or smaller) (WBing,PROD_MSOFF365PERS,TABDET10)
+cCcJcV=9
+;Connected (With Bing 2015 and Microsoft Office 365 Personal for Tablet and detachable 10.1 inch or smaller) (WBing15,PROD_MSOFF365PERS,TABDET10)
+dycJcV=9
+;Connected (With Bing for Small Tablet under 9 inch) (WBing,TAB9)
+cCcU=8
+;Connected (With Bing 2015 for Small Tablet under 9 inch) (WBing15,TAB9)
+dycU=8
+;Connected (With Bing for Tablet and detachable 10.1 inch or smaller) (WBing,TABDET10)
+cCcV=7
+;Connected (With Bing 2015 for Tablet and detachable 10.1 inch or smaller) (WBing15,TABDET10)
+dycV=7
+;Windows 8.1 Pro for Education (Vos.STU)
+cD=6
+;Connected (With Bing) (WBing)
+cC=5
+;Connected (With Bing 2015) (WBing15)
+dy=5
+;Emerging Market (EmMA)
+aS=4
+;National Academic (NaAc)
+aQ=3
+;High Volume National Academic (HVNaAc)
+aP=2
+;Small Screen Touch (SST)
+bw=1
+
+[ChassisType]
+;Default
+@@=0
+;AIO Chassis type (CT.AIO)
+7S=1
+;Desktop, SFF, MT, uT Chassis Type (CT.MT)
+7T=2
+;Chassis type: Notebook (CT.NB)
+aw=3
+;Chassis Type: Thin Client (CT.TC)
+bY=4
+;Chassis Type : Tablet (CT.TAB)
+bT=5
+
+[ChassisSubType]
+;Default
+@@=0
+;Chassis sub-Type: Convertible (CTS_CONV)
+bV=1
+;Chassis sub-Type: Detachable (CTS_DET)
+bW=2
+;Chassis sub-Type: Ultraslim (CTS_Ultra)
+bU=3
+
+[WallpaperFlag]
+;Default
+@@=00
+;Chassis Color: Black (CC_BLK)
+bz=01
+;Chassis Color: Blue (CC_BLU)
+bB=02
+;Chassis Color: Gray (CC_Gra)
+bF=03
+;Chassis Color: Purple (CC_PUR)
+bC=04
+;Chassis Color: Red (CC_RED)
+bD=05
+;Chassis Color: Silver (CC_Sil)
+bE=06
+;Chassis Color: White (CC_WHI)
+bA=07
+
+[ODDConfigurationFlag]
+;Default
+@@=3
+;DVD-ROM (DVDr)
+3P=7
+;DVD Writer (DVDRW)
+3Q=8
+;BluRay Disk (BD) read capability (BDr)
+5h=9
+;BluRay Disk (BD) read & write (BDrw)
+5j=10
+;4K BlyRay Drive (4KBDrw)
+fZ=11
+
+[EStarLogoFlag]
+;Default
+@@=0
+;Digital ESTAR (Estar)
+aB=1
+
+[McAfeeLength]
+;Default
+@@=7
+;Macfee 30 days (IS_M30d)
+cb=0
+;Macfee 6 months (IS_M6m)
+cc=1
+;Macfee 1 year (IS_M1y)
+8A=2
+;Macfee 2 year (IS_M2y)
+cu=3
+;Macfee 3 year (IS_M3y)
+cv=4
+
+[McAfeeFlag]
+;Default
+@@=7
+;Macfee 30 days for volume (IS_M30d,SEG.CON)
+cb7K=0
+;Macfee 30 days for Premiun (IS_M30d,SEG.PRM)
+cbaH=0
+;Macfee 30 days for SBSO segment (IS_M30d,SEG.SBSO)
+cb7J=1
+;Macfee 6 months for volume (IS_M6m,SEG.CON)
+cc7K=2
+;Macfee 1 year for volume (IS_M1y,SEG.CON)
+8A7K=3
+;Macfee 1 year for Premiun (IS_M1y,SEG.PRM)
+8AaH=4
+;Macfee 1 year for Enterprise (IS_M1y,SEG.ENT)
+8A7H=4
+;Macfee 2 year for volume (IS_M2y,SEG.CON)
+cu7K=5
+;Macfee 2 year for Premiun (IS_M2y,SEG.PRM)
+cuaH=5
+;Macfee 3 year for volume (IS_M3y,SEG.CON)
+cv7K=6
+;Macfee 3 year for Premiun (IS_M3y,SEG.PRM)
+cvaH=6
+
+[KeyboardFlag]
+;Default
+@@=0
+;Bios keyboard Options US (BO_KEY_US)
+cj=0
+;Bios keyboard Options Japan (BO_KEY_JP)
+cm=1
+;Bios keyboard Options Europe (BO_KEY_EU)
+ck=2
+
+[KeyboardType]
+;Default
+@@=0
+;Bluetooth Keyboard Enable (KBD_Blue)
+cG=1
+
+[MSOfficeFlag]
+;Default
+@@=0
+;Activation for Office with Volume Office OPP (AFO,VOOPP)
+d8ev=2
+;Activation for Office (AFO)
+d8=1
+
+[PremiumOfficeFlag]
+;Default
+@@=0
+;Microsoft Office Premium Family (JP Only) (PROD_MSOFFPRE)
+dr=1
+
+[OfficeSKUFlag]
+;Default
+@@=0
+;Microsoft Office Home & Business (PROD_MSOFFHB)
+6H=1
+;Microsoft Office Home & Business 2016 ( JP Only ) (PROD_MSOFFHB16)
+fE=1
+;MS Office Personal (PROD_MSOFFPER)
+4F=2
+;MS Office Personal 2016 ( JP Only ) (PROD_MSOFFPER16)
+fF=2
+;MS Office Professional Edition (any year) (PROD_MSOFFPRO)
+3f=3
+;MS Office Professional Edition 2016 ( JP Only ) (PROD_MSOFFPRO16)
+fG=3
+
+[DPK]
+;Default
+@@=0
+;ENTRY SKU Type (DPK_Entry)
+dT=1
+;Gift Card for Windows 10 (DPK_GIFT)
+ej=2
+;High End Type (DPK_High-End)
+dX=3
+;IO For Korea AFO Special deal (DPK_KP)
+dM=4
+;one drive (DPK_ONED)
+eb=5
+;SEA program for Windows Pro (DPK_PSEA)
+e9=6
+;SEAT countries special deal (DPK_SEA)
+dN=7
+;STEP-UP SKU Type (DPK_Step-up)
+dS=8
+;STICK PC (DPK_STI)
+e8=9
+;windows 10 MSNA Strategic (DPK_STR)
+ek=10
+;VALUE SKU type (DPK_Value)
+dR=11
+;DPK Gift Card for Back to School 2016 for Windows 10 (DPK_GIFT_BTS16)
+fe=12
+
+[CPUBranding]
+;Default
+@@=0
+;HP Brand CPU Enable (BO_HP_CPU)
+cH=1
+
+[OEMActivation21]
+;Default
+@@=0
+;OEM Activation 2 1 (OS=MSV)
+3X=1
+
+[OEMActivation30]
+;Default
+@@=0
+;OEM Activation 3.0 for Windows 8 (OA3)
+aq=1
+
+[ImageIDFlag]
+;Default
+@@=0
+;Windows 7 Downgrade (ATF_OS.7,Vos.B,OA3)
+6747aq=4
+
+[WimBoot]
+;Default
+@@=0
+;WIMboot Enable SKU (WIMBoot)
+cN=1
+;COMPACT OS (COMPACT)
+dY=2
+
+[Compact]
+;Default
+@@=0
+;COMPACT OS (COMPACT)
+dY=1
+
+[Half-cover]
+;Default
+@@=0
+;Sku will have an Half Cover type cover (BO_HC)
+cY=1
+
+[DemoApp]
+;Default
+@@=0
+;Retail Demo application (DEMO)
+eg=1
+
+[SpecialEdition]
+;Default
+@@=00
+;Special Edition (R_SE)
+e2=1
+
+[FeatureByteBrandName]
+;Default
+@@=Unknow
+;Consumer Budget for HP (SEG.CON,SL.BUD,PCBR.HP)
+7K7P7W=HPC
+;Consumer Budget for Compaq (SEG.CON,SL.BUD,PCBR.CPQ)
+7K7P7X=Presario
+;Consumer Main (SEG.CON,SL.MAI)
+7K7M=Pavilion
+;Segment Consumer & Software load premiun (SEG.CON,SL.PRE)
+7K7N=Envy
+;Segment Workstation & Software load premiun (SEG.WKS,SL.PRE)
+7U7N=Envy
+;Enterprise Premium (SEG.ENT,SL.PRE)
+7H7N=Premium
+;Premium Premium (SEG.PRM,SL.PRE)
+aH7N=Premium
+;Premium OMEN (SEG.PRM,SL.GAM)
+aHfd=OMEN
+;SBSO Main (SEG.SBSO,SL.MAI)
+7J7M=HPB
+;SBSO Budget (SEG.SBSO,SL.BUD)
+7J7P=Compaq
+
+[BrandName]
+HP OMEN=OMEN,OMEN
+OMEN=OMEN,OMEN
+Compaq CQ=Presario,Presario
+Compaq 1=Presario,Presario
+HP 1=HPC,HPC
+HP 2000=HPC,HPC
+HP G=HPC,HPC
+HP Laptop=HPC,HPC
+HP Notebook=HPC,HPC
+HP x2=HPC,HPC
+HP Pavilion=Pavilion,Pavilion
+HP Beats=Pavilion,Pavilion
+HP Stream=Pavilion,Pavilion
+HP Convertible=Pavilion,Pavilion
+Spectre=Premium,Premium
+Palace=Premium,Premium
+Envy=Envy,Envy
+Split=Envy,Envy
+HP 2=HPB,HPB
+HP 3=HPB,HPB
+HP 4=HPB,HPB
+HP Pro=HPB,HPB
+HP x360=HPB,HPB
+Compaq 2=Compaq,Compaq
+
+[BrandNameSSID]
+22A3=Pavilion,Pavilion
+22A4=Pavilion,Pavilion
+22A5=Pavilion,Pavilion
+
+[NISFlag]
+;Default
+@@=8
+;Internet Security-Norton 60 day (default starting 52 cycle) for volume (IS.N60d,SEG.CON)
+337K=0
+;Norton 60 days for SBSO segment (IS.N60d,SEG.SBSO)
+337J=1
+;Norton Internet Security 6 monthes for volume (IS.N6m,SEG.CON)
+3A7K=2
+;Internet Security-Norton 1 year for volume (IS.N1y,SEG.CON)
+347K=3
+;Internet Security-Norton 15 mth for volume (IS.N15m,SEG.CON)
+2e7K=4
+;Segment Premiun with NIs 24 months (IS.N24m,SEG.PRM)
+3kaH=5
+;Segment consumer with NIS 24 months (IS.N24m,SEG.CON)
+3k7K=6
+;Internet Security-Norton 3 yr for volume (IS.N3y,SEG.CON)
+2f7K=7
+
+[TVTUNER]
+;Default
+@@=0
+;TV Tuner (Hardware) (TVTUNER)
+4f=1
+;TVTuner External (TVExt)
+aK=2
+;TVTuner External 2 (TVExt2)
+ba=3
+
+[WebcamHid]
+;Default
+@@=0
+;Hidden Webcam : Project clean start (WebcamHid)
+fb=1
+
+[3DWebcam]
+;Default
+@@=0
+;Bell Cliff webcam (BCWebC)
+ec=1
+;Falcon Cliff Web cam (FCWebC)
+eZ=2
+
+[ChassisModel]
+;Default
+@@=0
+;Chassis: VIKI (C_VIK)
+ds=1
+;Chassis: HAL (C_HAL)
+du=2
+;Chassis: Ariia (C_ARI)
+dt=3
+
+[VirtualReality]
+;Default
+@@=0
+;Retail VR (R_VR)
+ez=1
+
+[Goggle]
+;Default
+@@=0
+;Oculus VR (OCULUS)
+fk=1
+
+[OLED]
+;Default
+@@=0
+;OLED Panel (OLED)
+fD=1
+
+[Pen]
+;Default
+@@=0
+;Support PEN (Pen)
+d6=1
+
+[RStoneDataInfo]
+Version=3.07
+ReleaseDate=2016/08/23

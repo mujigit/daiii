@@ -1,0 +1,73 @@
+﻿2016-07-29 05:33:06, Info                  CBS    Starting TiWorker initialization.
+2016-07-29 05:33:06, Info                  CBS    Ending TiWorker initialization.
+2016-07-29 05:33:06, Info                  CBS    Starting the TiWorker main loop.
+2016-07-29 05:33:06, Info                  CBS    TiWorker starts successfully.
+2016-07-29 05:33:06, Info                  CBS    Universal Time is: 2016-07-29 12:33:06.203
+2016-07-29 05:33:06, Info                  CBS    Loaded Servicing Stack v10.0.14393.0 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.14393.0_none_36d3ccc3ddfd1ecb\cbscore.dll
+2016-07-29 05:33:06, Info                  CSI    00000001@2016/7/29:12:33:06.228 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7ffd1a796c49 @0x7ffd1ad155bb @0x7ffd1ad16372 @0x7ff7bbb82d9d @0x7ff7bbb83d1a @0x7ffd29f47d63)
+2016-07-29 05:33:06, Info                  CBS    Scavenge starvation report has never been sent.
+2016-07-29 05:33:06, Info                  CBS    Startup: BlockTime: 10800000ms, BlockTimeIncrement: 900000ms
+2016-07-29 05:33:06, Info                  CBS    SetProgressMessage: progressMessageStage: 0, ExecuteState: ExecuteStateNone, SubStage: 0
+2016-07-29 05:33:06, Info                  CBS    Setting ServicingInProgress flag to 2
+2016-07-29 05:33:06, Info                  CBS    Retrieved original failure status: 0x00000000, last forward execute state: CbsExecuteStateStageDrivers
+2016-07-29 05:33:06, Info                  CBS    SetProgressMessage: progressMessageStage: 0, ExecuteState: ExecuteStateNone, SubStage: 0
+2016-07-29 05:33:06, Info                  CBS    Setting ExecuteState key to: CbsExecuteStateStageDrivers
+2016-07-29 05:33:06, Info                  CBS    Setting RollbackFailed flag to 0
+2016-07-29 05:33:06, Info                  CBS    Clearing HangDetect value
+2016-07-29 05:33:06, Info                  CBS    Saved last global progress. Current: 0, Limit: 1, ExecuteState: ExecuteStateNone
+2016-07-29 05:33:06, Info                  CBS    Execute state was not set.  Assuming ExecuteStateStart.
+2016-07-29 05:33:06, Info                  CBS    Startup: current ExecuteState is CbsExecuteStateStageDrivers
+2016-07-29 05:33:06, Info                  CBS    SetProgressMessage: progressMessageStage: 0, ExecuteState: CbsExecuteStateStageDrivers, SubStage: 0
+2016-07-29 05:33:06, Info                  CBS    Disabling LKG boot option
+2016-07-29 05:33:06, Info                  CBS    Startup: Initializing driver operations queue.
+2016-07-29 05:33:06, Info                  CBS    Startup: Initializing advanced operation queue.
+2016-07-29 05:33:06, Info                  CSI    00000002 CSI Store 2593955779184 initialized
+2016-07-29 05:33:06, Info                  CBS    Startup: Waiting for SC autostart event
+2016-07-29 05:33:06, Info                  CBS    Startup: SC autostart event signaled
+2016-07-29 05:33:06, Info                  CBS    Failed reading PoqexecCmdline registry key [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2016-07-29 05:33:06, Info                  CBS    Failed to get poqexec cmdline from Components\Configuration. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2016-07-29 05:33:06, Info                  CBS    Setting ExecuteState key to: CbsExecuteStateResolvePending
+2016-07-29 05:33:06, Info                  CBS    SetProgressMessage: progressMessageStage: -1, ExecuteState: CbsExecuteStateResolvePending, SubStage: 0
+2016-07-29 05:33:06, Info                  CBS    Startup: Processing advanced operation queue, startupPhase: 0
+2016-07-29 05:33:06, Info                  CSI    00000003 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 0000000a, progress = NULL, phase = 0, pdwDisposition = @0xff9adfd948
+2016-07-29 05:33:06, Info                  CSI    00000004 Poqexec successfully registered in [l:12 ml:13]'SetupExecute'
+2016-07-29 05:33:06, Info                  CBS    Setting ExecuteState key to: CbsExecuteStateComplete
+2016-07-29 05:33:06, Info                  CBS    SetProgressMessage: progressMessageStage: -1, ExecuteState: CbsExecuteStateComplete, SubStage: 0
+2016-07-29 05:33:06, Info                  CBS    SQM: Failed to read RptTime time value from registry. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2016-07-29 05:33:06, Info                  CBS    SQM: Failed to read RptCount count value from registry. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2016-07-29 05:33:06, Info                  CBS    Clearing HangDetect value
+2016-07-29 05:33:06, Info                  CBS    Saved last global progress. Current: 1, Limit: 1, ExecuteState: CbsExecuteStateComplete
+2016-07-29 05:33:06, Info                  CBS    No pending packages, why was store asked to process pending packages?
+2016-07-29 05:33:06, Info                  CBS    Clearing original failure status: 0x00000000
+2016-07-29 05:33:06, Info                  CBS    Setting ExecuteState key to: ExecuteStateNone
+2016-07-29 05:33:06, Info                  CBS    Setting RollbackFailed flag to 0
+2016-07-29 05:33:06, Info                  CBS    Clearing HangDetect value
+2016-07-29 05:33:06, Info                  CBS    Saved last global progress. Current: 0, Limit: 1, ExecuteState: ExecuteStateNone
+2016-07-29 05:33:06, Info                  CBS    Startup: Retrying failed packages.
+2016-07-29 05:33:06, Info                  CBS    Startup: Processing complete. [HRESULT = 0x00000000 - S_OK]
+2016-07-29 05:33:06, Info                  CBS    Enabling LKG boot option
+2016-07-29 05:33:06, Info                  CBS    Setting ServicingInProgress flag to 0
+2016-07-29 05:33:06, Info                  CBS    TiWorker signaled for shutdown, going to exit.
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2016-07-29 05:33:06, Info                  CBS    Ending the TiWorker main loop.
+2016-07-29 05:33:06, Info                  CBS    Starting TiWorker finalization.
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: ManifestCacheFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: WcpUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: DrupUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: DpxUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: SrUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2016-07-29 05:33:06, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2016-07-29 05:33:06, Info                  CBS    Ending TiWorker finalization.

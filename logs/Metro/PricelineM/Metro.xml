@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<MetroApp DtAppLinkPath="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk" >
+	<TileDef Lang="XX-XX" Country="XXX" Order="7" TileType="Desktop" LockScreen="False" />
+	<UnivTileDef Region="ALL" TileType="2x2" Order="7"/>
+
+</MetroApp>

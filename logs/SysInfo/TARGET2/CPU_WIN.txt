@@ -1,0 +1,48 @@
+AddressWidth: 64
+Architecture: 9
+Availability: 3
+Caption: AMD64 Family 22 Model 48 Stepping 1
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CpuStatus: 1
+CurrentClockSpeed: 2000
+CurrentVoltage: 12
+DataWidth: 64
+Description: AMD64 Family 22 Model 48 Stepping 1
+DeviceID: CPU0
+ErrorCleared: 
+ErrorDescription: 
+ExtClock: 100
+Family: 72
+InstallDate: 
+L2CacheSize: 2048
+L2CacheSpeed: 
+L3CacheSize: 0
+L3CacheSpeed: 0
+LastErrorCode: 
+Level: 22
+LoadPercentage: 20
+Manufacturer: AuthenticAMD
+MaxClockSpeed: 2000
+Name: AMD A6-7310 APU with AMD Radeon R4 Graphics    
+NumberOfCores: 4
+NumberOfLogicalProcessors: 4
+OtherFamilyDescription: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProcessorId: 178BFBFF00730F01
+ProcessorType: 3
+Revision: 12289
+Role: CPU
+SecondLevelAddressTranslationExtensions: True
+SocketDesignation: Socket FT3b
+Status: OK
+StatusInfo: 3
+Stepping: 1
+UniqueId: 
+UpgradeMethod: 6
+Version: Model 0, Stepping 1
+VirtualizationFirmwareEnabled: False
+VMMonitorModeExtensions: True
+VoltageCaps: 

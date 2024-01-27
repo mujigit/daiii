@@ -1,0 +1,12 @@
+[12:40:05 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1
+[12:40:05 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\P00P62B2.CVA
+[12:40:05 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file [OPK16.2.1,A,1]
+[12:40:05 PM] Deliverable PN: P00P62-B2E
+[12:40:05 PM] Deliverable Size: 1,161,745 Kbytes
+[12:40:05 PM] Free Size: 58,758,180 Kbytes
+[12:40:05 PM] System Used Size: 20,284,384 Kbytes
+[12:40:05 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP62B2\OPK16.2.1\install.cmd
+[12:40:05 PM] Return code: 0
+[12:40:05 PM] Size Extend: -12 Kbytes
+[12:40:05 PM] Metro Deliverable: No
+[12:40:05 PM] RESULT=PASSED

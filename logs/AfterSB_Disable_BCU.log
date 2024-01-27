@@ -1,0 +1,100 @@
+English
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Legacy Boot Order
+	Notebook Hard Drive
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Enter Feature Byte
+	3X476b7J7M7W7zaBaQapaqauawbhbpbzcbdUdpdqek.he
+Enter Build ID
+	16WW3FPT601#SACJ#DACJ
+SKU Number
+	1ZX23PC#ACJ
+Serial Number
+	D235641159
+Notebook Model
+	HP 245 G5 Notebook PC
+GUID Number
+	0000000000000000
+UUID Number
+	5D581FC3404F004089F95B6C5BB1D1C3
+Mac Address
+	000000000000
+System Board CT Number
+	PFXDN00WB17036
+Keyboard Type
+	00
+MS Digital Marker
+	010000000000000001000000000000001D000000514D4652422D4E384D32482D4D4746344A2D4D425748562D464A524332
+Legacy Support
+	Enable
+	*Disable
+Internal Network Adapter Boot
+	*Enable
+	Disable
+Secure Boot
+	Enable
+	*Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+	IPv4 (Legacy)
+Fan Always On
+	*Enable
+	Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	*0
+	5
+	10
+	15
+	20
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	Enable
+	*Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	No prompts
+	*Allow user to reject
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom
+Restore Security Defaults
+	Yes
+	*No

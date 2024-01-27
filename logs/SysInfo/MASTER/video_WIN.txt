@@ -1,0 +1,18 @@
+AdapterCompatibility: (Standard display types)
+AdapterRAM: 0 =[0 MB]
+Availability: 3
+Caption: Microsoft Basic Display Adapter
+DeviceID: VideoController1
+DeviceSpecificPens: 
+DitherType: 0
+DriverDate: 20060621000000.000000-000
+DriverVersion: 10.0.14393.0
+InfFilename: display.inf
+InfSection: MSBDA
+InstallDate: 
+InstalledDisplayDrivers: 
+LastErrorCode: 
+Name: Microsoft Basic Display Adapter
+PNPDeviceID: PCI\VEN_1002&DEV_9851&SUBSYS_81E5103C&REV_40\3&2411E6FE&0&08
+Status: OK
+VideoProcessor: AMD ATOMBIOS

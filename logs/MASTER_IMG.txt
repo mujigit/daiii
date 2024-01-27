@@ -1,0 +1,6 @@
+
+REM --- Appended by MASTER_IMG.txt ---
+SET BaseOS_Arch=x64
+SET BaseOS_VER=10.0.14393
+SET BaseOS_Image=W10
+SET OSHAL=x64

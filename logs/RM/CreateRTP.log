@@ -1,0 +1,111 @@
+[14:22:22.80][CreateRTP] Create [C:\system.sav\logs\RM\CreateRTP.FAILURE.FLG]. If PASS, delete it.
+[14:22:22.80][CreateRTP.cmd] Query OS Disk
+[14:22:22.85][CreateRTP.cmd] OS DISK = 0
+[14:22:22.85][CreateRTP.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\PartInfo_CreateRTP1.cmd HPRM
+[14:22:23.09][CreateRTP.cmd] Query OS Disk Size
+HPRM DISK 0 SIZE 500107862016  
+[14:22:23.23][CreateRTP.cmd] CRM.OS.DISK.SIZE.GB=466
+[14:22:23.23][CreateRTP.cmd] CRM.OS.DISK.SIZE.KB=488386584
+[14:22:23.23][CreateRTP.cmd] CRM.OS.DISK.SIZE.BYTE=500107862016
+[14:22:23.23][CreateRTP.cmd] CSCRIPT //NOLOGO C:\RM\RERM\DeployRP\CalFileSize.vbs C:\RM\BootRM\winre.wim
+[14:22:23.23][CreateRTP.cmd] FileSize.BYTE=323564879
+[14:22:23.23][CreateRTP.cmd] FileSize.KB=315981
+[14:22:23.23][CreateRTP.cmd] FileSize.MB=309
+[14:22:23.27][CreateRTP.cmd] File: C:\RM\BootRM\winre.wim , Size : 323564879 bytes
+[14:22:23.27][CreateRTP.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\PartInfo_CreateRTP2.cmd HPRM
+[14:22:23.37][CreateRTP.cmd] Find RP, SET /A CRM.RESERVE.MB=0 
+[14:22:23.37][CreateRTP.cmd] Query WinRE Offset
+[14:22:23.37][CreateRTP.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\CalRTPOffset2.vbs 0 500107862016 323564879 400 0
+[14:22:23.37][CreateRTP.cmd] UPOffset = 290455552
+[14:22:23.37][CreateRTP.cmd] Find Offset = 489194258432
+[14:22:23.37][CreateRTP.cmd] AfterUPOffset = 489194258432
+[14:22:23.37][CreateRTP.cmd] WINRE.SIZE.BYTE=1027604480
+[14:22:23.37][CreateRTP.cmd] WINRE.SIZE.MB=980
+[14:22:23.37][CreateRTP.cmd] WINRE.OFFSET.BYTE=488166653952
+[14:22:23.37][CreateRTP.cmd] WINRE.OFFSET.KB=476725248
+[14:22:23.37][CreateRTP.cmd] WINRE.OFFSET.MB=465552
+[14:22:23.37][CreateRTP.cmd] WINRE.OFFSET.GB=455
+[14:22:23.45][CreateRTP.cmd] WINRE OFFSET : 476725248 KB
+[14:22:23.45][CreateRTP.cmd] Removed Drive Letter W:
+[14:22:23.45][CreateRTP.cmd] CMD /C C:\RM\RERM\DeployRP\RemoveDrvLetter.cmd W:
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+The volume you selected is not valid or does not exist.
+
+There is no volume selected.
+[14:22:26.02][CreateRTP.cmd] END
+[14:22:26.02][CreateRTP.cmd] CREAT WINRE PARTITION
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.Name=Windows RE tools
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.FS=NTFS
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.OFFSET=488166653952  bytes
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.OFFSET.KB=476725248 KB
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.SIZE.MB=980 MB
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.DrvLetter=W:
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.GUID=de94bba4-06d1-4d40-a16a-bfd50179d6ac
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.ATTRIBUTE=0x8000000000000001
+[14:22:26.02][CreateRTP.cmd] CRM.WINRE.CHECKFILE=W:\Recovery\_CNBRP.FLG
+[14:22:26.02][CreateRTP.cmd] CRM.RESERVE.MB=0
+[14:22:26.02][CreateRTP.cmd] CALL DISKPART /S C:\RM\RERM\DeployRP\CreateRTP.sp
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+  Partition 5    Primary             10 GB   455 GB
+
+DiskPart succeeded in creating the specified partition.
+
+    0 percent completed    0 percent completed    0 percent completed  100 percent completed
+
+DiskPart successfully formatted the volume.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+Virtual Disk Service error:
+The specified shrink size is less than then minimum shrink size allowed.
+
+
+DiskPart successfully set the partition ID.
+
+DiskPart successfully assigned the attributes to the selected GPT partition.
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+Leaving DiskPart...
+[14:22:31.41][CreateRTP.cmd] MKDIR "W:\Recovery\"
+[14:22:31.50][CreateRTP.cmd] W:\Recovery\_CNBRP.FLG CREATED
+[14:22:31.50][CreateRTP.cmd] Delete [C:\system.sav\logs\RM\CreateRTP.FAILURE.FLG]...
+[CreateRTP.cmd] Mon 03/27/2017 14:22:31.50
+********** FINISH CreateRTP.cmd **********
+RETURN CODE - 0

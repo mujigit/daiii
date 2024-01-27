@@ -1,0 +1,12 @@
+[4:27:42 AM] Install Folder: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228
+[4:27:42 AM] CVA File: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\P00N3DB2.CVA
+[4:27:42 AM] Deliverable Name: Realtek Card Reader Driver [10.0.14393.31228,A,12]
+[4:27:42 AM] Deliverable PN: P00N3D-B2M
+[4:27:42 AM] Deliverable Size: 38,935 Kbytes
+[4:27:42 AM] Free Size: 453,998,624 Kbytes
+[4:27:42 AM] System Used Size: 21,797,852 Kbytes
+[4:27:42 AM] Run install command: c:\SWSETUP\DRV\Storage\REALTEK\FP1.xReal_NN3DB2\10.0.14393.31228\install.cmd
+[4:27:48 AM] Return code: 0
+[4:27:48 AM] Size Extend: 40,620 Kbytes
+[4:27:48 AM] Metro Deliverable: No
+[4:27:48 AM] RESULT=PASSED

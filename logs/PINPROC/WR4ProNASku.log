@@ -1,0 +1,59 @@
+[ 5:35:14.61][WR4ProNASku.cmd] Get Windows Current build#
+[ 5:35:14.62][WR4ProNASku.cmd] Reg load HKLM\test C:\windows\system32\config\software
+The operation completed successfully.
+[ 5:35:16.34][WR4ProNASku.cmd] Reg query "HKLM\TEST\Microsoft\Windows NT\CurrentVersion" /v CurrentBuild
+HKEY_LOCAL_MACHINE\TEST\Microsoft\Windows NT\CurrentVersion 
+CurrentBuild REG_SZ 14393
+[ 5:35:16.37][WR4ProNASku.cmd] Reg unload HKLM\test
+The operation completed successfully.
+[ 5:35:16.50][WR4ProNASku.cmd] WINDOWS VERSION=14393
+[ 5:35:16.50][WR4ProNASku.cmd] FIND /I "Vos.B=1" C:\SYSTEM.SAV\Util\VARS.ini  
+
+---------- C:\SYSTEM.SAV\UTIL\VARS.INI
+Vos.B=1
+[ 5:35:16.52][WR4ProNASku.cmd] FIND /I "NaAc=1" C:\SYSTEM.SAV\Util\VARS.ini  
+
+---------- C:\SYSTEM.SAV\UTIL\VARS.INI
+NaAc=1
+[ 5:35:16.53][WR4ProNASku.cmd] This Image is Pro(Vos.B) and NA(NaAc)
+[ 5:35:16.53][WR4ProNASku.cmd] reg.exe load HKLM\test C:\windows\system32\config\Software
+The operation completed successfully.
+[ 5:35:18.20][WR4ProNASku.cmd] reg.exe query "HKLM\TEST\microsoft\Windows\CurrentVersion\Setup\OOBE" 
+
+HKEY_LOCAL_MACHINE\TEST\microsoft\Windows\CurrentVersion\Setup\OOBE
+    InstallType    REG_DWORD    0x0
+
+[ 5:35:18.22][WR4ProNASku.cmd] reg.exe add "HKLM\TEST\microsoft\Windows\CurrentVersion\Setup\OOBE" /v SetupDisplayedProductKey /t REG_DWORD /d 1 /f 
+The operation completed successfully.
+[ 5:35:18.24][WR4ProNASku.cmd] reg.exe query "HKLM\TEST\microsoft\Windows\CurrentVersion\Setup\OOBE" 
+
+HKEY_LOCAL_MACHINE\TEST\microsoft\Windows\CurrentVersion\Setup\OOBE
+    InstallType    REG_DWORD    0x0
+    SetupDisplayedProductKey    REG_DWORD    0x1
+
+[ 5:35:18.25][WR4ProNASku.cmd] reg.exe unload HKLM\test
+The operation completed successfully.
+[ 5:35:18.44][WR4ProNASku.cmd] reg.exe load HKLM\test C:\windows\system32\config\SYSTEM
+The operation completed successfully.
+[ 5:35:18.83][WR4ProNASku.cmd] reg.exe query "HKLM\TEST\ControlSet001\Services\ClipSVC\Parameters" 
+
+HKEY_LOCAL_MACHINE\TEST\ControlSet001\Services\ClipSVC\Parameters
+    InactivityShutdownDelay    REG_DWORD    0x12c
+    RefreshRequired    REG_DWORD    0x2
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\System32\ClipSVC.dll
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+    ProcessBiosKey    REG_DWORD    0x1
+
+[ 5:35:18.86][WR4ProNASku.cmd] reg.exe DELETE "HKLM\TEST\ControlSet001\Services\ClipSVC\Parameters" /v ProcessBiosKey /f 
+The operation completed successfully.
+[ 5:35:18.86][WR4ProNASku.cmd] reg.exe query "HKLM\TEST\ControlSet001\Services\ClipSVC\Parameters" 
+
+HKEY_LOCAL_MACHINE\TEST\ControlSet001\Services\ClipSVC\Parameters
+    InactivityShutdownDelay    REG_DWORD    0x12c
+    RefreshRequired    REG_DWORD    0x2
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\System32\ClipSVC.dll
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+
+[ 5:35:18.89][WR4ProNASku.cmd] reg.exe unload HKLM\test
+The operation completed successfully.
+[ 5:35:18.98][WR4ProNASku.cmd] END

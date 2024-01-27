@@ -1,0 +1,12 @@
+[4:35:08 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30
+[4:35:08 AM] CVA File: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\P00NZ8B2.CVA
+[4:35:08 AM] Deliverable Name: Windows 10 Redstone1 Recovery Manager Installer - CPS [16.30,A,3]
+[4:35:08 AM] Deliverable PN: P00NZ8-B2D
+[4:35:08 AM] Deliverable Size: 4,637 Kbytes
+[4:35:08 AM] Free Size: 452,990,640 Kbytes
+[4:35:08 AM] System Used Size: 22,805,836 Kbytes
+[4:35:08 AM] Run install command: c:\SWSETUP\APP\Applications\HP\Windows10_NNZ8B2\16.30\install.cmd
+[4:35:11 AM] Return code: 0
+[4:35:11 AM] Size Extend: 18,012 Kbytes
+[4:35:11 AM] Metro Deliverable: No
+[4:35:11 AM] RESULT=PASSED

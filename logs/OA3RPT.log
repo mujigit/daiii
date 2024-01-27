@@ -1,0 +1,136 @@
+[ 5:33:16.95] OA3Rpt.cmd : Rename current unattend.xml to unattend.oa3... 
+[ 5:33:16.95] OA3Rpt.cmd : COPY /Y c:\windows\panther\unattend\unattend.xml c:\windows\panther\unattend\unattend.oa3 
+        1 file(s) copied.
+[ 5:33:16.97] OA3Rpt.cmd : ErrorLevel=[0] 
+[ 5:33:17.06] OA3Rpt.cmd : Restore OOBE's unattend.xml... 
+[ 5:33:17.06] OA3Rpt.cmd : COPY /Y c:\windows\panther\unattend\unattend.oobe c:\windows\panther\unattend\unattend.xml 
+        1 file(s) copied.
+[ 5:33:17.10] OA3Rpt.cmd : ErrorLevel=[0] 
+[ 5:33:17.13] OA3Rpt.cmd : ---------------------------------------- 
+[ 5:33:17.13] OA3Rpt.cmd : Before generating OA3 report... 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\system.sav\WDT
+
+03/28/2017  04:37 AM    <DIR>          .
+03/28/2017  04:37 AM    <DIR>          ..
+03/27/2017  04:53 AM            26,270 Application.INI
+03/27/2017  04:53 AM             6,344 FDAPM.COM
+03/27/2017  04:53 AM           286,208 LogUploader.exe
+03/27/2017  04:53 AM         4,421,192 mfc110.dll
+03/27/2017  04:53 AM           535,008 msvcp110.dll
+03/27/2017  04:53 AM           875,472 msvcr110.dll
+03/28/2017  04:37 AM                72 OA3PKPN.xml
+03/28/2017  05:33 AM             4,845 OSChanger.log
+03/27/2017  04:53 AM         2,212,352 OSChanger32.exe
+03/27/2017  04:53 AM         2,814,464 OSChanger64.exe
+03/27/2017  04:53 AM         2,163,712 OSChangerARM.exe
+03/27/2017  04:53 AM         2,609,136 OSChangerL_m64
+03/27/2017  04:53 AM            19,795 OSCHGDOS.EXE
+03/28/2017  05:33 AM               118 Result.ini
+03/28/2017  04:37 AM               186 ShareData.INI
+03/27/2017  04:53 AM            21,866 UBER.INI
+03/27/2017  04:53 AM               367 vssver2.scc
+              17 File(s)     15,997,407 bytes
+               2 Dir(s)  457,263,923,200 bytes free
+[ 5:33:17.13] OA3Rpt.cmd : ---------------------------------------- 
+[ 5:33:17.16] OA3Rpt.cmd : OA3PPReport=N, skip generating OA3 report... 
+[ 5:33:17.17] OA3Rpt.cmd : --------------------------------------------------------- 
+[ 5:33:17.17] OA3Rpt.cmd : SysPrep /OOBE... 
+[ 5:33:59.28] OA3Rpt.cmd : Sysprep /OOBE successfully 
+[ 5:33:59.29] OA3Rpt.cmd : --------------------------------------------------------- 
+[ 5:34:00.47] OA3Rpt.cmd : --------------------------------------------------------- 
+[ 5:34:00.47] OA3Rpt.cmd :  Check BIOS platform key enrolled for HWD 
+[ 5:34:00.47] OA3Rpt.cmd : --------------------------------------------------------- 
+[ 5:34:00.49] OA3Rpt.cmd : --------------------------------------------------------- 
+[ 5:34:00.49] OA3Rpt.cmd :  Inactive ESP [Active BP] 
+[ 5:34:00.49] OA3Rpt.cmd : --------------------------------------------------------- 
+[ 5:34:00.68] [InactiveSP.cmd] ************************************************** 
+[ 5:34:00.72] [InactiveSP.cmd]  [InactiveSP.cmd] has started... 
+[ 5:34:00.74] [InactiveSP.cmd] -------------------------------------------------- 
+[ 5:34:00.76] [InactiveSP.cmd]  Inactive System Parition... 
+[ 5:34:00.79] [InactiveSP.cmd] -------------------------------------------------- 
+[ 5:34:00.80] [InactiveSP.cmd]   
+[ 5:34:00.82] [InactiveSP.cmd]  Create ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"]... 
+[ 5:34:00.85] [InactiveSP.cmd]   
+[ 5:34:00.87] [InactiveSP.cmd]  Inactive ESP...  
+[ 5:34:00.88] [InactiveSP.cmd]   
+[ 5:34:00.96] [DrvLtr2ESP.cmd] ************************************************** 
+[ 5:34:00.97] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[ 5:34:00.99] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[ 5:34:01.01] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[ 5:34:01.04] [DrvLtr2ESP.cmd]   
+[ 5:34:01.05] [DrvLtr2ESP.cmd]   
+[ 5:34:01.07] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[ 5:34:01.10] [DrvLtr2ESP.cmd]   
+[ 5:34:01.56] [DrvLtr2ESP.cmd]  ESP partition index = [1] 
+[ 5:34:01.57] [DrvLtr2ESP.cmd]  ESP drive letter = [NONE] 
+[ 5:34:01.59] [DrvLtr2ESP.cmd]   
+[ 5:34:01.60] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[ 5:34:01.62] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: 0KVBEC2IA47SU
+
+Volume 1 is the selected volume.
+
+Partition 1 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4                      FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     S                FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+[ 5:34:06.16] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[ 5:34:06.18] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[ 5:34:06.21] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[ 5:34:06.23] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[ 5:34:06.24] [DrvLtr2ESP.cmd] ************************************************** 
+[ 5:34:06.32] [InactiveSP.cmd]  Inactive ESP successfully. 
+[ 5:34:06.34] [InactiveSP.cmd]   
+[ 5:34:06.35] [InactiveSP.cmd]  Active BP... 
+[ 5:34:06.37] [InactiveSP.cmd]   
+[ 5:34:06.44] [InactiveSP.cmd]  BP drive letter = [D:] 
+        1 dir(s) moved.
+[ 5:34:06.49] [InactiveSP.cmd]  Active BP successfully. 
+[ 5:34:06.51] [InactiveSP.cmd]   
+[ 5:34:06.54] [InactiveSP.cmd]  Delete ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[ 5:34:06.55] [InactiveSP.cmd] -------------------------------------------------- 
+[ 5:34:06.57] [InactiveSP.cmd]  [InactiveSP.cmd] has completed... 
+[ 5:34:06.60] [InactiveSP.cmd] ************************************************** 
+[ 5:34:06.62] OA3Rpt.cmd : Preparing to enter Logout WinPE... 

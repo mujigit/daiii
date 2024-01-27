@@ -1,0 +1,9 @@
+[14:14:50.36][RM_PASS2_FixUps]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[14:14:50.37][RM_PASS2_FixUps] ========================================================= 
+[14:14:50.37][RM_PASS2_FixUps] CaptureFU 
+[14:14:51.58][RM_PASS2_FixUps] Process Time = 1 sec 
+[14:14:51.58][RM_PASS2_FixUps] Result = 0 
+[14:14:51.58][RM_PASS2_FixUps.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS2_FixUps.cmd] Mon 03/27/2017 14:14:51.58                
+********** FINISH RM_PASS2_FixUps.cmd **********   
+RETURN CODE - 0          

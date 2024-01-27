@@ -1,0 +1,53 @@
+================================================
+Start of Sys_Mem_Check.vbs script file
+================================================
+================================================
+Read RStone.ini for ChannelID
+  ChannelID: 00
+  Wal-Mart / Sam's Club ChannelID not found
+================================================
+================================================
+Start checking for MSSIGN.flg
+  MSSIGN.flg not found
+================================================
+================================================
+No errors found for image settings of ChannelID Special Edition or MS Signature Image
+================================================
+================================================
+System Memory:4
+  CMD file used is: cmd /C c:\swsetup\powerset\pwrmgm_5.cmd
+  This System has 4GB system memory, pwrmgm_5.cmd will applied.
+================================================
+================================================
+End of Sys_Mem_Check.vbs script file
+================================================
+[ 4:20:54.15] : ---------------------------------------------------------------------
+[ 4:20:54.15] :   End of "sys_mem_check.vbs" 
+[ 4:20:54.15] : ---------------------------------------------------------------------
+RStone.ini PWRLow = 12, value found in SMBIOS 
+ [ 4:20:54.43] PWRLow: 12			
+ [ 4:20:54.43] PWRCritical: 7	
+ [ 4:20:54.43] PWRReserve: 10		
+[ 4:20:54.43] : -------------------------------------------------------------------
+[ 4:20:54.43] :   Start to set up HP Recommended Power Setting - pwrmgm_5.cmd .... 
+[ 4:20:54.45] : -------------------------------------------------------------------
+[ 4:20:54.45] : Modifying MS Balanced power plan to HP Recommended Power Plan settings... 
+[ 4:20:54.59] :   Power Plan rename is OK ... 
+[ 4:20:55.45] : ----------------------------------------------------------------------
+[ 4:20:55.45] :   End of setting up HP Recommended power setting - pwrmgm_5.cmd  .... 
+[ 4:20:55.45] : ----------------------------------------------------------------------
+[ 4:20:55.45] : ----------------------------------------------------------------------------------
+[ 4:20:55.45] :   Start to set up MS Power Saver and High Performance Setting - pwrmgm_5.cmd .... 
+[ 4:20:55.45] : ----------------------------------------------------------------------------------
+[ 4:20:55.46] : Modifying MS Power Saver and High Performance Critical battery action, Low, Reserve, Critical battery level settings to be aligned with HP Recommended and BIOS values... Ensuring wake from sleep to hibernate works as designed 
+[ 4:20:56.07] : --------------------------------------------------------------------------------
+[ 4:20:56.09] :   End to set up MS Power Saver and High Performance Setting - pwrmgm_5.cmd .... 
+[ 4:20:56.09] : --------------------------------------------------------------------------------
+[ 4:37:24.54] : -------------------------------------------------
+[ 4:37:24.56] :   Start to delete HP unbundle power plan and set 
+[ 4:37:24.56] :   HP Recommended power plan as default			 
+[ 4:37:24.56] : -------------------------------------------------
+[ 4:37:25.35] :   Active OK ... 
+[ 4:37:25.35] : ------------------------------------------------------
+[ 4:37:25.37] :   End of setting default HP Recommended power plan 	  
+[ 4:37:25.37] : ------------------------------------------------------

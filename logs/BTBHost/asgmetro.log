@@ -1,0 +1,63 @@
+
+=== Processing  c:\swsetup\\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\src\Metro.xml ===
+Appid=AD2F1837.DiscoverHPTouchpointManager_v10z8vjag6ke6!App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=All, Country=, Order=2, TileType=2x2
+	Append tile
+=== Processing  c:\swsetup\\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\src\Metro.xml ===
+Appid=AD2F1837.HPJumpStart_v10z8vjag6ke6!App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=0, TileType=2x2
+	Append tile
+=== Processing  c:\swsetup\\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\src\Metro.xml ===
+Appid=4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=3, TileType=2x2
+	Append tile
+=== Processing  c:\swsetup\\Metro\HPCleanStart\Metro.xml ===
+Appid=AD2F1837.HPJumpStart_v10z8vjag6ke6!App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=0, TileType=2x2
+->Duplicated Metro.xml!
+=== Processing  c:\swsetup\\Metro\McAfeeLSM\Metro.xml ===
+Appid=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\McAfee\McAfee LiveSafe.lnk, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=6, TileType=2x2
+	Append tile
+=== Processing  c:\swsetup\\Metro\NetflixM\Metro.xml ===
+Appid=4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=3, TileType=2x2
+->Duplicated Metro.xml!
+=== Processing  c:\swsetup\\Metro\Office16\Metro.xml ===
+=== Processing  c:\swsetup\\Metro\P00HUY-B2N\Metro.xml ===
+Appid=AD2F1837.DiscoverHPTouchpointManager_v10z8vjag6ke6!App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=All, Country=, Order=2, TileType=2x2
+->Duplicated Metro.xml!
+=== Processing  c:\swsetup\\Metro\P00N20-B2L\Metro.xml ===
+Appid=4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=3, TileType=2x2
+->Duplicated Metro.xml!
+=== Processing  c:\swsetup\\Metro\P00PSC-B2H\Metro.xml ===
+Appid=AD2F1837.HPJumpStart_v10z8vjag6ke6!App, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=0, TileType=2x2
+->Duplicated Metro.xml!
+=== Processing  c:\swsetup\\Metro\PricelineM\Metro.xml ===
+Appid=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk, CurEnvRegion=APJ, CurRegRegion=APJ, Region=ALL, Country=, Order=7, TileType=2x2
+	Append tile
+====== vUnivTiles ======
+#00, Order= 2, TileType=2x2, Country=, Appid=AD2F1837.DiscoverHPTouchpointManager_v10z8vjag6ke6!App
+#01, Order= 0, TileType=2x2, Country=, Appid=AD2F1837.HPJumpStart_v10z8vjag6ke6!App
+#02, Order= 3, TileType=2x2, Country=, Appid=4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App
+#03, Order= 6, TileType=2x2, Country=, Appid=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\McAfee\McAfee LiveSafe.lnk
+#04, Order= 7, TileType=2x2, Country=, Appid=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk
+Ignore FindAndNormalizeRegEntries() for Metro.reg output
+
+====== Default ======
+[UnivTile] Order= 0, Group=1, Col= 0, Row= 0, Size=2x2, AppType=AppID	AppID=AD2F1837.HPJumpStart_v10z8vjag6ke6!App
+[UnivTile] Order= 2, Group=1, Col= 2, Row= 0, Size=2x2, AppType=AppID	AppID=AD2F1837.DiscoverHPTouchpointManager_v10z8vjag6ke6!App
+[UnivTile] Order= 3, Group=1, Col= 4, Row= 0, Size=2x2, AppType=AppID	AppID=4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App
+[UnivTile] Order= 6, Group=2, Col= 0, Row= 0, Size=2x2, AppType=DtAppLinkPath	AppID=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\McAfee\McAfee LiveSafe.lnk
+[UnivTile] Order= 7, Group=2, Col= 2, Row= 0, Size=2x2, AppType=DtAppLinkPath	AppID=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk
+
+TileLayout (The number represents tile order shown as above):
+
++--+--+--+--+--+--+ +--+--+--+--+--+--+
+| 000 | 002 | 003 | | 006 | 007 |     |
+|     |     |     | |     |     |     |
++--+--+--+--+--+--+ +--+--+--+--+--+--+
+|     |     |     | |     |     |     |
+|     |     |     | |     |     |     |
++--+--+--+--+--+--+ +--+--+--+--+--+--+
+
+[UnivTile] AppendOfficeSuite
+[UnivTile] AppendOfficeSuiteChoice
+[MFU] OEM2 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox 25 GB.lnk 
+
+adding OEM tile promotion to registry 
+The operation completed successfully.

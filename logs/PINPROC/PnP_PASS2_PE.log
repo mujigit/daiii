@@ -1,0 +1,88 @@
+ACPI\ETD0711\4&1E609E49&0                                   : PS/2 Compatible Mouse
+ACPI\PNP0200\4&1E609E49&0                                   : Direct memory access controller
+PCI\VEN_1002&DEV_9851&SUBSYS_81E5103C&REV_40\3&2411E6FE&0&08: Video Controller (VGA Compatible)
+ACPI\HPQ8001\4&1E609E49&0                                   : Standard PS/2 Keyboard
+ACPI\PNP0C0A\1                                              : Microsoft ACPI-Compliant Control Method Battery
+ACPI\PNP0C0B\0                                              : ACPI Fan
+PCI\VEN_1002&DEV_9840&SUBSYS_81E5103C&REV_00\3&2411E6FE&0&09: High Definition Audio Controller
+ROOT\VOLMGR\0000                                            : Volume Manager
+PCI\VEN_1022&DEV_1581&SUBSYS_00000000&REV_00\3&2411E6FE&0&C1: PCI standard host CPU bridge
+ACPI\MSFT0101\2&DABA3FF&0                                   : Trusted Platform Module 2.0
+STORAGE\VOLUME\{87C764DB-133A-11E7-9176-806E6F6E6963}#0000000010500000: Volume
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&90: Standard Enhanced PCI to USB Host Controller
+PCI\VEN_1022&DEV_7808&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&98: Standard Enhanced PCI to USB Host Controller
+SCSI\CDROM&VEN_HP&PROD_DVDRW_GUD1N\4&1649041&0&010000       : hp       DVDRW GUD1N
+STORAGE\VOLUME\{87C764DB-133A-11E7-9176-806E6F6E6963}#0000000000100000: Volume
+ROOT\BASICDISPLAY\0000                                      : Microsoft Basic Display Driver
+ACPI\HPQ6001\2&DABA3FF&0
+UEFI\RES_{ABEAEA64-EF28-47E5-8CAB-132D53F42DAF}\0           : Firmware Resource
+ACPI\THERMALZONE\TZ0_                                       : ACPI Thermal Zone
+ACPI\THERMALZONE\TZ1_                                       : ACPI Thermal Zone
+USB\VID_064E&PID_C346&MI_00\7&28AD1DF0&0&0000               : HP TrueVision HD
+PCI\VEN_1022&DEV_1537&SUBSYS_15371022&REV_00\3&2411E6FE&0&40: PCI Encryption/Decryption Controller
+ACPI\PNP0C14\0                                              : Microsoft Windows Management Interface for ACPI
+USB\VID_064E&PID_C346\HF1017-P83L-OV01-REV0102              : USB Composite Device
+ACPI\PNP0C04\4&1E609E49&0                                   : Numeric data processor
+USB\VID_0438&PID_7900\5&3B9196FD&0&1                        : Generic USB Hub
+PCI\VEN_1022&DEV_1566&SUBSYS_81E5103C&REV_00\3&2411E6FE&0&00: PCI standard host CPU bridge
+PCI\VEN_1022&DEV_780B&SUBSYS_81E5103C&REV_42\3&2411E6FE&0&A0: SM Bus Controller
+ROOT\VDRVROOT\0000                                          : Microsoft Virtual Drive Enumerator
+USB\VID_0438&PID_7900\5&9535BF8&0&1                         : Generic USB Hub
+ACPI\ACPI0003\2&DABA3FF&0                                   : Microsoft AC Adapter
+ROOT\SPACEPORT\0000                                         : Microsoft Storage Spaces Controller
+ROOT\KDNIC\0000                                             : Microsoft Kernel Debug Network Adapter
+ACPI\PNP0C02\4&1E609E49&0                                   : Motherboard resources
+ACPI\ASD0001\2&DABA3FF&0
+ACPI\PNP0800\4&1E609E49&0                                   : System speaker
+USB\ROOT_HUB20\4&1737DEEB&0                                 : USB Root Hub
+ACPI\PNP0C0D\2&DABA3FF&0                                    : ACPI Lid
+PCI\VEN_1022&DEV_1583&SUBSYS_00000000&REV_00\3&2411E6FE&0&C3: PCI standard host CPU bridge
+HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C81E5&REV_1000\4&22C94DEF&0&0001: Audio Device on High Definition Audio Bus
+ROOT\RAMDISK\0000
+RAMDISK\RAMVOLUME\{D9B257FC-684E-4DCB-AB79-03CFA2F6B750}    : RamDisk
+ACPI\PNP0103\3&2411E6FE&0                                   : High precision event timer
+ROOT\UMBUS\0000                                             : UMBus Root Bus Enumerator
+ACPI\PNP0C09\4&1E609E49&0                                   : Microsoft ACPI-Compliant Embedded Controller
+ACPI\PNP0100\4&1E609E49&0                                   : System timer
+ACPI\SMB0001\2&DABA3FF&0
+PCI\VEN_1022&DEV_1580&SUBSYS_00000000&REV_00\3&2411E6FE&0&C0: PCI standard host CPU bridge
+ROOT\ACPI_HAL\0000                                          : ACPI x64-based PC
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_0: AMD A6-7310 APU with AMD Radeon R4 Graphics    
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_1: AMD A6-7310 APU with AMD Radeon R4 Graphics    
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_2: AMD A6-7310 APU with AMD Radeon R4 Graphics    
+ACPI\AUTHENTICAMD_-_AMD64_FAMILY_22_MODEL_48_-_AMD_A6-7310_APU_WITH_AMD_RADEON_R4_GRAPHICS____\_3: AMD A6-7310 APU with AMD Radeon R4 Graphics    
+ACPI\PNP0A08\1                                              : PCI Express Root Complex
+PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&0&12: PCI-to-PCI Bridge
+PCI\VEN_1022&DEV_1439&SUBSYS_12341022&REV_00\3&2411E6FE&0&13: PCI-to-PCI Bridge
+USB\ROOT_HUB30\4&B66B6AD&0&0                                : USB Root Hub (xHCI)
+ACPI\PNP0C0C\2&DABA3FF&0                                    : ACPI Power Button
+ACPI_HAL\PNP0C08\0                                          : Microsoft ACPI-Compliant System
+HTREE\ROOT\0
+ROOT\BASICRENDER\0000                                       : Microsoft Basic Render Driver
+PCI\VEN_1022&DEV_780D&SUBSYS_81E5103C&REV_02\3&2411E6FE&0&A2: High Definition Audio Controller
+ACPI_HAL\UEFI\0                                             : Microsoft UEFI-Compliant System
+PCI\VEN_1022&DEV_7814&SUBSYS_81E5103C&REV_11\3&2411E6FE&0&80: AMD USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+PCI\VEN_1022&DEV_7804&SUBSYS_81E5103C&REV_39\3&2411E6FE&0&88: AMD SATA Controller
+PCI\VEN_1022&DEV_1585&SUBSYS_00000000&REV_00\3&2411E6FE&0&C5: PCI standard host CPU bridge
+ACPI\FIXEDBUTTON\2&DABA3FF&0                                : ACPI Fixed Feature Button
+DISPLAY\CMN1490\1&8713BCA&0&UID0                            : Generic Monitor
+ACPI\PNP0C02\90                                             : Motherboard resources
+PCI\VEN_10EC&DEV_8179&SUBSYS_81BF103C&REV_01\4&23C471C0&0&0013: Network Controller
+PCI\VEN_1022&DEV_1582&SUBSYS_00000000&REV_00\3&2411E6FE&0&C2: PCI standard host CPU bridge
+ROOT\NDISVIRTUALBUS\0000                                    : NDIS Virtual Network Adapter Enumerator
+PCI\VEN_10EC&DEV_8168&SUBSYS_81E5103C&REV_15\4&110AC11B&0&0012: Realtek PCIe GBE Family Controller
+USB\ROOT_HUB20\4&175FD1E6&0                                 : USB Root Hub
+STORAGE\VOLUME\{87C764DB-133A-11E7-9176-806E6F6E6963}#00000012E9B00000: Volume
+ACPI\PNP0B00\4&1E609E49&0                                   : System CMOS/real time clock
+ACPI\PNP0C01\4&1E609E49&0                                   : System board
+PCI\VEN_1022&DEV_780E&SUBSYS_81E5103C&REV_11\3&2411E6FE&0&A3: PCI standard ISA bridge
+ROOT\MSSMBIOS\0000                                          : Microsoft System Management BIOS Driver
+ACPI\PNP0000\4&1E609E49&0                                   : Programmable interrupt controller
+SCSI\DISK&VEN_HGST&PROD_HTS725050A7E630\4&1649041&0&000000  : HGST HTS725050A7E630
+ROOT\SYSTEM\0000                                            : Plug and Play Software Device Enumerator
+ACPI\PNP0C02\3&2411E6FE&0                                   : Motherboard resources
+STORAGE\VOLUME\{87C764DB-133A-11E7-9176-806E6F6E6963}#0000000011500000: Volume
+PCI\VEN_1022&DEV_156B&SUBSYS_00000000&REV_00\3&2411E6FE&0&10: PCI standard host CPU bridge
+PCI\VEN_1022&DEV_1584&SUBSYS_00000000&REV_00\3&2411E6FE&0&C4: PCI standard host CPU bridge
+HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1005\4&27ECBAF2&0&0001: Audio Device on High Definition Audio Bus
+87 matching device(s) found.

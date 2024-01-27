@@ -1,0 +1,9 @@
+[ 4:53:02.79][RM_PASS2_BBVLAST]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[ 4:53:02.80][RM_PASS2_BBVLAST] ========================================================= 
+[ 4:53:02.82][RM_PASS2_BBVLAST] CapturePPKG 
+[ 5:17:11.99][RM_PASS2_BBVLAST] Process Time = 1449 sec 
+[ 5:17:11.99][RM_PASS2_BBVLAST] Result = 0 
+[ 5:17:11.99][RM_PASS2_BBVLAST.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS2_BBVLAST.cmd] Tue 03/28/2017  5:17:12.00                
+********** FINISH RM_PASS2_BBVLAST.cmd **********   
+RETURN CODE - 0          

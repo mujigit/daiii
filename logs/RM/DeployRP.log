@@ -1,0 +1,238 @@
+[14:18:17.76][DeployRP] Create [C:\system.sav\logs\RM\DeployRP.FAILURE.FLG]. If PASS, delete it.
+[14:18:17.76][DeployRP.cmd] Find RP Drive Letter
+[14:18:17.78][DeployRP.cmd] RP Drive Letter = r:
+[14:18:17.81][DeployRP.cmd] Check if FR or BareMetal by C:\system.sav\flags\RMFactRecovery.flg and C:\system.sav\flags\PBRBareMetal.flg
+[14:18:17.81][DeployRP.cmd] Splite WIM File
+[14:18:17.81][DeployRP.cmd] start /b /w cmd /c Dism /Split-Image /ImageFile:C:\RM\Image\base.wim /SWMFile:r:\preload\install.swm /FileSize:300 /logpath:C:\system.sav\logs\RM\hprm-SplitUPWimFile.log
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+The operation completed successfully.
+[14:21:57.79][DeployRP.cmd] DEL /F /Q C:\RM\Image\base.wim
+[14:21:58.29][DeployRP.cmd] Check if the Split file size was more than 4096
+[14:21:58.29][DeployRP.cmd] cscript //nologo C:\RM\RERM\DeployRP\HPCheckFileSize.vbs r:\preload\ swm 4096
+[14:21:59.01][DeployRP.cmd] Return value = 0
+[14:21:59.06][DeployRP.cmd] MKDIR "r:\preload\FactoryUpdate\"
+[14:21:59.06][DeployRP.cmd] Check if the C:\RM\Image\FactoryUpdate.wim was more than 300 MB
+[14:21:59.06][DeployRP.cmd] cscript //nologo C:\RM\RERM\DeployRP\CalFileSize.vbs C:\RM\Image\FactoryUpdate.wim
+[14:21:59.06][DeployRP.cmd] FileSize.BYTE=52312
+[14:21:59.06][DeployRP.cmd] FileSize.KB=51
+[14:21:59.06][DeployRP.cmd] FileSize.MB=0
+[14:21:59.12][DeployRP.cmd] Size = 0 MB
+[14:21:59.12][DeployRP.cmd] Don't Split C:\RM\Image\FactoryUpdate.wim, and Directly move it to r:\preload\FactoryUpdate\
+        1 file(s) copied.
+[14:21:59.17][DeployRP.cmd] Support Softpaq for HP Recovery Solution
+[14:21:59.17][DeployRP.cmd] MKDIR r:\preload\FactoryUpdate\UserDLSoftpaq\
+[14:21:59.21][DeployRP.cmd]COPY /Y C:\RM\Image\Build.wim "r:\preload\Build.wim"
+        1 file(s) copied.
+[14:22:08.32][DeployRP.cmd] MKDIR "r:\Recovery\WindowsRE\"
+[14:22:08.34][DeployRP.cmd] COPY /Y C:\RM\BootRM\winucrd.wim "r:\Recovery\WindowsRE\winucrd.wim"
+        1 file(s) copied.
+[14:22:15.25][DeployRP.cmd] End
+[14:22:15.25][DeployRP.cmd] RM Reserve
+[14:22:15.25][DeployRP.cmd] CSCRIPT.EXE /NOLOGO C:\RM\RERM\DeployRP\RM_Reserve\RevFile.vbs C:\RM\RERM\DeployRP\RM_Reserve\Reserve.log C: C:\RM\RERM\DeployRP\RM_Reserve\
+Src=C:\system.sav\util\install.log           Dest=C:\RM\RERM\DeployRP\RM_Reserve\system.sav\util\
+Src=C:\System.sav\Logs\INSTALL_PASS1.log           Dest=C:\RM\RERM\DeployRP\RM_Reserve\System.sav\Logs\
+[14:22:16.44][DeployRP.cmd] Move Reserved File to RP Path
+[14:22:16.45][DeployRP.cmd] MKDIR "r:\preload\RM_Reserve\"
+[14:22:16.45][DeployRP.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\DeployRP\RM_Reserve\*.* "r:\preload\RM_Reserve\"
+C:\RM\RERM\DeployRP\RM_Reserve\Reserve.log
+C:\RM\RERM\DeployRP\RM_Reserve\ReturnFile.vbs
+C:\RM\RERM\DeployRP\RM_Reserve\RevFile.vbs
+C:\RM\RERM\DeployRP\RM_Reserve\system.sav\Logs\INSTALL_PASS1.log
+C:\RM\RERM\DeployRP\RM_Reserve\system.sav\util\INSTALL.LOG
+5 File(s) copied
+[14:22:18.44][DeployRP.cmd] RM Patch
+[14:22:18.44][DeployRP.cmd] Move RM Patch File to RP Path
+[14:22:18.44][DeployRP.cmd] MKDIR "r:\preload\RM_PATCH\"
+[14:22:18.46][DeployRP.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\DeployRP\RM_PATCH\*.* "r:\preload\RM_PATCH\"
+C:\RM\RERM\DeployRP\RM_PATCH\ExtPoint_PostRecovery.cmd
+C:\RM\RERM\DeployRP\RM_PATCH\ExtPoint_PreRecovery.cmd
+C:\RM\RERM\DeployRP\RM_PATCH\ExtPoint_Start.cmd
+3 File(s) copied
+[14:22:18.51][DeployRP.cmd] UCRM Boot Files
+[14:22:18.51][DeployRP.cmd] XCOPY /S /E /Y /I /R /H C:\RM\RERM\DeployRP\BootFile4UCRM\*.* "r:\"
+C:\RM\RERM\DeployRP\BootFile4UCRM\bootmgr
+C:\RM\RERM\DeployRP\BootFile4UCRM\bootmgr.efi
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\BCD
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\boot.sdi
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\bootfix.bin
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\memtest.exe
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\bg-bg\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\cs-cz\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\cs-cz\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\da-dk\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\da-dk\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\de-de\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\de-de\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\el-gr\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\el-gr\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\en-gb\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\en-us\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\en-us\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\es-es\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\es-es\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\es-mx\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\et-ee\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\fi-fi\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\fi-fi\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\chs_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\cht_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\jpn_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\kor_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\malgunn_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\malgun_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\meiryon_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\meiryo_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\msjhn_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\msjh_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\msyhn_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\msyh_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\segmono_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\segoen_slboot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\segoe_slboot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Fonts\wgl4_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\fr-ca\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\fr-fr\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\fr-fr\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\hr-hr\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\hu-hu\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\hu-hu\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\it-it\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\it-it\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ja-jp\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ja-jp\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ko-kr\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ko-kr\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\lt-lt\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\lv-lv\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\nb-no\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\nb-no\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\nl-nl\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\nl-nl\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\pl-pl\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\pl-pl\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\pt-br\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\pt-br\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\pt-pt\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\pt-pt\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\Resources\bootres.dll
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ro-ro\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ru-ru\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\ru-ru\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\sk-sk\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\sl-si\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\sr-latn-rs\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\sv-se\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\sv-se\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\tr-tr\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\tr-tr\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\uk-ua\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\zh-cn\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\zh-cn\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\zh-hk\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\zh-hk\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\zh-tw\bootmgr.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\Boot\zh-tw\memtest.exe.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Boot\bootx64.efi
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Boot\en-us\bootx64.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\BCD
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\memtest.efi
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\cs-cz\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\da-dk\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\de-de\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\el-gr\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\en-us\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\es-es\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\fi-fi\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\chs_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\cht_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\jpn_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\kor_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\malgun_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\meiryo_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\msjh_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\msyh_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\segmono_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\segoe_slboot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Fonts\wgl4_boot.ttf
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\fr-fr\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\hu-hu\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\it-it\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\ja-jp\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\ko-kr\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\nb-no\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\nl-nl\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\pl-pl\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\pt-br\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\pt-pt\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\Resources\bootres.dll
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\ru-ru\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\sv-se\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\tr-tr\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\zh-cn\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\zh-hk\memtest.efi.mui
+C:\RM\RERM\DeployRP\BootFile4UCRM\EFI\Microsoft\Boot\zh-tw\memtest.efi.mui
+121 File(s) copied
+[14:22:19.39][DeployRP.cmd] BCDEdit /STORE r:\boot\bcd /SET {default} device ramdisk=[boot]\Recovery\WindowsRE\winre.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+The operation completed successfully.
+[14:22:20.12][DeployRP.cmd] BCDEdit /STORE r:\boot\bcd /SET {default} osdevice ramdisk=[boot]\Recovery\WindowsRE\winre.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+The operation completed successfully.
+[14:22:20.40][DeployRP.cmd] BCDEdit /STORE r:\EFI\Microsoft\boot\bcd /SET {default} device ramdisk=[boot]\Recovery\WindowsRE\winre.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+The operation completed successfully.
+[14:22:20.62][DeployRP.cmd] BCDEdit /STORE r:\EFI\Microsoft\boot\bcd /SET {default} osdevice ramdisk=[boot]\Recovery\WindowsRE\winre.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+The operation completed successfully.
+[14:22:20.99][DeployRP.cmd] BCDEdit /STORE r:\EFI\Microsoft\boot\bcd /SET {default} path \windows\system32\boot\winload.efi
+The operation completed successfully.
+[14:22:21.43][DeployRP.cmd] RP Protection
+[14:22:21.43][DeployRP.cmd] COPY /Y C:\RM\RERM\DeployRP\Desktop_ini r:\Boot\Desktop.ini
+        1 file(s) copied.
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H /S /D "r:\Boot\*.*"
+Not resetting system file - R:\Boot\bcd.LOG
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +H /S /D "r:\Boot\*.*"
+Not resetting system file - R:\Boot\bcd.LOG
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H "r:\Boot"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +S +H "r:\Boot"
+[14:22:21.43][DeployRP.cmd] COPY /Y C:\RM\RERM\DeployRP\Desktop_ini r:\EFI\Desktop.ini
+        1 file(s) copied.
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H /S /D "r:\EFI\*.*"
+Not resetting system file - R:\EFI\Microsoft\Boot\bcd.LOG
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +H /S /D "r:\EFI\*.*"
+Not resetting system file - R:\EFI\Microsoft\Boot\bcd.LOG
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H "r:\EFI"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +S +H "r:\EFI"
+[14:22:21.43][DeployRP.cmd] COPY /Y C:\RM\RERM\DeployRP\Desktop_ini r:\preload\Desktop.ini
+        1 file(s) copied.
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H /S /D "r:\preload\*.*"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +H /S /D "r:\preload\*.*"
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H "r:\preload"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +S +H "r:\preload"
+[14:22:21.43][DeployRP.cmd] COPY /Y C:\RM\RERM\DeployRP\Desktop_ini r:\Recovery\Desktop.ini
+        1 file(s) copied.
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H /S /D "r:\Recovery\*.*"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +H /S /D "r:\Recovery\*.*"
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H "r:\Recovery"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +S +H "r:\Recovery"
+[14:22:21.43][DeployRP.cmd] COPY /Y C:\RM\RERM\DeployRP\Desktop_ini r:\sources\Desktop.ini
+        1 file(s) copied.
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H /S /D "r:\sources\*.*"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +H /S /D "r:\sources\*.*"
+[14:22:21.43][DeployRP.cmd] ATTRIB -R -H "r:\sources"
+[14:22:21.43][DeployRP.cmd] ATTRIB +R +S +H "r:\sources"
+[14:22:21.74][DeployRP.cmd] ATTRIB -R -H "r:\bootmgr"
+[14:22:21.74][DeployRP.cmd] ATTRIB +R +S +H "r:\bootmgr"
+[14:22:21.74][DeployRP.cmd] ATTRIB -R -H "r:\bootmgr.efi"
+[14:22:21.74][DeployRP.cmd] ATTRIB +R +S +H "r:\bootmgr.efi"
+[14:22:21.74][DeployRP.cmd] ATTRIB -R -H "r:\RP.ini"
+[14:22:21.74][DeployRP.cmd] ATTRIB +R +S +H "r:\RP.ini"
+[14:22:21.80][DeployRP.cmd] ATTRIB +R +S -H r:\recovery 
+[14:22:21.82][DeployRP.cmd] ATTRIB +R +H r:\preload\* /S /D 
+[14:22:21.83][DeployRP.cmd] ATTRIB -R -H -S "r:\preload\RM_PATCH"
+[14:22:21.85][DeployRP.cmd] ATTRIB -R -H -S "r:\preload\RM_RESERVE"
+[14:22:21.85][DeployRP.cmd] ATTRIB -R -H -S /S /D "r:\preload\RM_PATCH\*"
+[14:22:21.87][DeployRP.cmd] ATTRIB -R -H -S /S /D "r:\preload\RM_Reserve\*"
+[14:22:21.88][DeployRP.cmd] Delete [C:\system.sav\logs\RM\DeployRP.FAILURE.FLG]...
+[DeployRP.cmd] Mon 03/27/2017 14:22:21.88
+********** FINISH DeployRP.cmd **********
+RETURN CODE - 0

@@ -1,0 +1,48 @@
+[ 4:51:54.18] ************************************************** 
+[ 4:51:54.21]  [C:\SYSTEM.SAV\bbv\defkey.cmd] has started... 
+[ 4:51:54.22] -------------------------------------------------- 
+[ 4:51:54.25]  Windows 10 default key 
+[ 4:51:54.27] -------------------------------------------------- 
+[ 4:51:54.30]   
+[ 4:51:54.32]  Check OS Edition's FeatureByte... 
+[ 4:51:54.43]    Found [Vos.B] in FB 
+[ 4:51:54.44]    For Professional Edition... 
+[ 4:51:54.55]   
+[ 4:51:54.57]  Run [cscript.exe C:\windows\system32\slmgr.vbs /ipk NF6HC-QH89W-F8WYV-WWXV4-WFG6P] 
+[ 4:51:57.74]  slmgr.vbs returned [0]. 
+ 
+ 
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Software licensing service version: 10.0.14393.187
+
+Name: Windows(R), Professional edition
+Description: Windows(R) Operating System, OEM_DM channel
+Activation ID: bd3762d7-270d-4760-8fb3-d829ca45278a
+Application ID: 55c92734-d682-4d71-983e-d6ec3f16059f
+Extended PID: 03612-03305-000-000000-02-1033-14393.0000-0872017
+Product Key Channel: OEM:DM
+Installation ID: 071190558977147176303055303655188750448635083447307658206422006
+Use License URL: https://activation-v2.sls.microsoft.com/SLActivateProduct/SLActivateProduct.asmx?configextension=DM
+Validation URL: https://validation-v2.sls.microsoft.com/SLWGA/slwga.asmx
+Partial Product Key: WFG6P
+License Status: Notification
+Notification Reason: 0xC004F034.
+Remaining Windows rearm count: 999
+Remaining SKU rearm count: 1001
+Trusted time: 3/28/2017 4:51:58 AM
+
+
+ 
+ 
+[ 4:51:58.68]  PART_PK1=WFG6P 
+[ 4:51:58.69]   
+[ 4:51:58.94]  checked PartialProductKey. 
+[ 4:51:58.96]   
+[ 4:51:58.97]    PartialProductKey="WFG6P". 
+[ 4:51:59.00]    RESULT=PASSED 
+[ 4:51:59.02]   
+[ 4:51:59.05] -------------------------------------------------- 
+[ 4:51:59.07]  [defkey.cmd] has completed... 
+[ 4:51:59.10] ************************************************** 

@@ -1,0 +1,19 @@
+[ 5:31:35.81][ReagentcSetting.cmd] C:\Windows\System32\Reagentc.exe /Setreimage /Path "W:\Recovery\WindowsRE" /Target C:\Windows  
+[ 5:31:36.57][ReagentcSetting.cmd] C:\Windows\System32\Reagentc.exe /setbootshelllink /configfile W:\Recovery\BootMenu\AddDiagnosticsToolToBootMenu.xml /target C:\windows  
+Directory set to: CUSTOM
+
+[ 5:31:38.25][ReagentcSetting.cmd] C:\Windows\System32\Reagentc.exe /Enable /osguid {f5661e2c-133a-11e7-9176-705a0f8492be} 
+[ 5:31:38.33][ReagentcSetting.cmd] C:\Windows\System32\Reagentc.exe /Enable /auditmode 
+[ 5:31:39.66][ReagentcSetting.cmd] C:\Windows\System32\Reagentc.exe /info /target C:\Windows  
+Windows Recovery Environment (Windows RE) and system reset configuration
+Information:
+
+    Windows RE status:         Enabled
+    Windows RE location:       \\?\GLOBALROOT\device\harddisk0\partition5\Recovery\WindowsRE
+    Boot Configuration Data (BCD) identifier: f7e68e53-13b1-11e7-9450-48e24473c348
+    Recovery image location:   
+    Recovery image index:      0
+    Custom image location:     
+    Custom image index:        0
+
+[ 5:31:40.16][ReagentcSetting.cmd] END  

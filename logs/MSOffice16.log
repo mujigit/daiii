@@ -1,0 +1,74 @@
+****************************************************************************** 
+                         Start language pack script 
+****************************************************************************** 
+en-us
+en-us
+Set Lang to en-us 
+****************************************************************************** 
+**                                                                          ** 
+**           Microsoft Office 2016 Copy     Lang Pack - [en-us] File       ** 
+**                                                                          ** 
+****************************************************************************** 
+ 
+ 
+Move Language Pack files to C:\SWSetup\Office16\ 
+en-us\Office\Data\SetupO365HomePremRetail.x86.en-us.exe
+en-us\Office\Data\v32.cab
+en-us\Office\Data\v64.cab
+en-us\Office\Data\16.0.6965.2079\i320.cab
+en-us\Office\Data\16.0.6965.2079\i321033.cab
+en-us\Office\Data\16.0.6965.2079\i640.cab
+en-us\Office\Data\16.0.6965.2079\i641033.cab
+en-us\Office\Data\16.0.6965.2079\s320.cab
+en-us\Office\Data\16.0.6965.2079\s321033.cab
+en-us\Office\Data\16.0.6965.2079\s640.cab
+en-us\Office\Data\16.0.6965.2079\s641033.cab
+en-us\Office\Data\16.0.6965.2079\stream.x86.en-us.dat
+12 File(s) copied
+ 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\SWSetup\Office16
+
+[.]         [Merged]    SETUP.cmd   [SKU]       
+[..]        metro.xml   setup.exe   
+               3 File(s)      3,148,873 bytes
+               4 Dir(s)  60,168,380,416 bytes free
+ 
+****************************************************************************** 
+                         END language pack script 
+****************************************************************************** 
+ 
+ 
+****************************************************************************** 
+                         Start language pack script 
+****************************************************************************** 
+Common_file
+Common_file
+Set Lang to Common_file 
+****************************************************************************** 
+**                                                                          ** 
+**           Microsoft Office 2016 Copy     Lang Pack - [Common_file] File       ** 
+**                                                                          ** 
+****************************************************************************** 
+ 
+ 
+Move Language Pack files to C:\SWSetup\Office16\ 
+        1 dir(s) moved.
+ 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\SWSetup\Office16
+
+[.]           [Common_file] metro.xml     setup.exe     
+[..]          [Merged]      SETUP.cmd     [SKU]         
+               3 File(s)      3,148,873 bytes
+               5 Dir(s)  60,168,380,416 bytes free
+ 
+****************************************************************************** 
+                         END language pack script 
+****************************************************************************** 
+ 
+ 

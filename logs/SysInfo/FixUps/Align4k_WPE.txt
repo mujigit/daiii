@@ -1,0 +1,26 @@
+DiskId                 =[\\?\scsi#disk&ven_hgst&prod_hts725050a7e630#4&1649041&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}]
+DiskNumber             =[0]
+PartitionNumber        =[1]
+DriveLetter            =[C:]
+Offset                 =[290455552]
+	Offset is 4K aligned.
+Size                   =[80939581440]
+	Size is 4K aligned.
+GptType                =[{ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}] (Basic Data)
+Guid                   =[{ac93f070-e34b-4209-8924-8c0ca64cad48}]
+NoDefaultDriveLetter   =[False]
+
+
+DiskId                 =[\\?\scsi#disk&ven_hgst&prod_hts725050a7e630#4&1649041&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}]
+DiskNumber             =[0]
+PartitionNumber        =[2]
+DriveLetter            =[D:]
+Offset                 =[81230036992]
+	Offset is 4K aligned.
+Size                   =[660602880]
+	Size is 4K aligned.
+GptType                =[{ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}] (Basic Data)
+Guid                   =[{0fc366c1-cdad-4e18-a332-a96b649cde55}]
+NoDefaultDriveLetter   =[False]
+
+

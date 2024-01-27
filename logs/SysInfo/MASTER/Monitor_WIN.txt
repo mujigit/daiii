@@ -1,0 +1,8 @@
+-----------------------------------
+WmiMonitorBasicDisplayParams instance
+-----------------------------------
+Active: True
+DisplayTransferCharacteristic: 120
+InstanceName: DISPLAY\CMN1490\4&7dbb3cd&0&UID0_0
+MaxHorizontalImageSize: 31
+MaxVerticalImageSize: 17

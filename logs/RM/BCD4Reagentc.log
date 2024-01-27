@@ -1,0 +1,32 @@
+
+Windows Boot Manager
+--------------------
+identifier              {9dea862c-5cdd-4e70-acc1-f32b344d4795}
+device                  partition=S:
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {7ea2e1ac-2e61-4728-aaa3-896d9d0a9f0e}
+default                 {f5661e2c-133a-11e7-9176-705a0f8492be}
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+displayorder            {f5661e2c-133a-11e7-9176-705a0f8492be}
+toolsdisplayorder       {b2721d73-1db4-4c62-bf78-c548a880142d}
+timeout                 30
+
+Windows Boot Loader
+-------------------
+identifier              {f5661e2c-133a-11e7-9176-705a0f8492be}
+device                  partition=C:
+path                    \windows\system32\winload.efi
+description             Windows 10
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+recoverysequence        {f7e68e53-13b1-11e7-9450-48e24473c348}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                partition=C:
+systemroot              \windows
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+nx                      OptIn
+bootmenupolicy          Standard

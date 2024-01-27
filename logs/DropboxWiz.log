@@ -1,0 +1,15 @@
+
+Memory 3547 MB
+Executing on .\WizInstaller.ini on Monday, March 27, 2017 at 12:40:28 PM for en_us
+
+Creating Registry Entry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Post Platform, H9P=0
+Creating Registry Entry HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Post Platform, H9P=0
+Checking Filter 'RunPinTaskbar'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Executing '.\PinTaskbar.bat', Param '', Working Directory 'c:\SWSETUP\APP\Applications\DropBox\DropBox_PPUTB2\3.1.12.0\src'
+Checking Filter 'CreateTaskbarXml'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Creating MFU SBOEM0 pointing to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox 25 GB.lnk in C:HPHPQWareBTBHostTaskbar.ini
+Creating MFU OEM2 pointing to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox 25 GB.lnk in C:HPHPQWareBTBHostMFU.ini
+Wizinstaller Instance ID	 : {1308BF0C-A099-4A85-B0D2-D3AEF3C4C93E}
+Init	 : 47
+Action	 : 141
+Uninit	 : 93

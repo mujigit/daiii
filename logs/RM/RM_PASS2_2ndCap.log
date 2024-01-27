@@ -1,0 +1,13 @@
+[ 5:22:49.54][RM_PASS2_2ndCap]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[ 5:22:49.55][RM_PASS2_2ndCap] ========================================================= 
+[ 5:22:49.55][RM_PASS2_2ndCap] CheckPPKG 
+[ 5:22:50.41][RM_PASS2_2ndCap] Process Time = 1 sec 
+[ 5:22:50.41][RM_PASS2_2ndCap] Result = 0 
+[ 5:22:50.41][RM_PASS2_2ndCap] ========================================================= 
+[ 5:22:50.41][RM_PASS2_2ndCap] CaptureESP 
+[ 5:22:55.15][RM_PASS2_2ndCap] Process Time = 5 sec 
+[ 5:22:55.15][RM_PASS2_2ndCap] Result = 0 
+[ 5:22:55.15][RM_PASS2_2ndCap.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS2_2ndCap.cmd] Tue 03/28/2017  5:22:55.15                
+********** FINISH RM_PASS2_2ndCap.cmd **********   
+RETURN CODE - 0          

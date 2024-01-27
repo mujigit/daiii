@@ -1,0 +1,12 @@
+[4:32:40 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0
+[4:32:40 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\P00L6EB2.CVA
+[4:32:40 AM] Deliverable Name: HP PC Hardware Diagnostics UEFI [6.2.0.0,A,1.0]
+[4:32:40 AM] Deliverable PN: P00L6E-B2Q
+[4:32:41 AM] Deliverable Size: 75,675 Kbytes
+[4:32:41 AM] Free Size: 453,481,740 Kbytes
+[4:32:41 AM] System Used Size: 22,314,736 Kbytes
+[4:32:41 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\install.cmd
+[4:32:50 AM] Return code: 0
+[4:32:50 AM] Size Extend: 82,240 Kbytes
+[4:32:50 AM] Metro Deliverable: No
+[4:32:50 AM] RESULT=PASSED

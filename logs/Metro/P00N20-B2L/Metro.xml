@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<MetroApp AppID="4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App">
+     <TileDef Lang="XX-XX" Country="XXX" TileType="Desktop" Order="3" LockScreen="False" />
+     <UnivTileDef Region="ALL" TileType="2x2" Order="3"/>
+</MetroApp>

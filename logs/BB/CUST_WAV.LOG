@@ -1,0 +1,58 @@
+############################################################# 
+ [Mon 03/27/2017]                                                     
+ [14:28:18.32] Beginning of the CUST_WAV.CMD during FUpdateEue phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  466,990,198,784 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  466,990,194,688 bytes free
+Not Win10 Nov15 OS, skip.  
+[14:28:18.37] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 5:22:16.50] Beginning of the CUST_WAV.CMD during 2ndCap phase              
+############################################################# 
+WAV info before replace 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           213,624 Windows Background.wav
+07/16/2016  03:42 AM           190,348 Windows Foreground.wav
+               2 File(s)        403,972 bytes
+               0 Dir(s)  460,209,078,272 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Media
+
+07/16/2016  03:42 AM           216,472 Windows Notify Calendar.wav
+07/16/2016  03:42 AM           161,876 Windows Notify Email.wav
+07/16/2016  03:42 AM           171,424 Windows Notify Messaging.wav
+07/16/2016  03:42 AM           193,940 Windows Notify System Generic.wav
+07/16/2016  03:42 AM           227,372 Windows Notify.wav
+               5 File(s)        971,084 bytes
+               0 Dir(s)  460,209,078,272 bytes free
+Not Win10 Nov15 OS, skip.  
+[ 5:22:16.55] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 

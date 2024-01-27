@@ -1,0 +1,20 @@
+[14:03:26.17][IMAGE_Capture.cmd] ========= Drive-C ========= 
+[14:03:26.17][IMAGE_Capture.cmd] Before Capture                              
+[14:03:26.17][IMAGE_Capture.cmd] UP Free Space = 59843 MB          
+[14:12:00.10][IMAGE_Capture.cmd] After Capture 
+[14:12:00.10][IMAGE_Capture.cmd] UP Free Space = 51579 MB 
+[14:12:00.85][IMAGE_Capture.cmd] ========= BuildPartition ========= 
+[14:12:00.85][IMAGE_Capture.cmd] Before Capture                              
+[14:12:00.85][IMAGE_Capture.cmd] UP Free Space = 51579 MB          
+[14:12:13.20][IMAGE_Capture.cmd] After Capture 
+[14:12:13.20][IMAGE_Capture.cmd] UP Free Space = 51125 MB 
+[14:14:51.04][IMAGE_Capture.cmd] ========= FactoryUpdate ========= 
+[14:14:51.05][IMAGE_Capture.cmd] Before Capture                              
+[14:14:51.05][IMAGE_Capture.cmd] UP Free Space = 51122 MB          
+[14:14:51.50][IMAGE_Capture.cmd] After Capture 
+[14:14:51.50][IMAGE_Capture.cmd] UP Free Space = 51122 MB 
+[ 5:22:53.47][IMAGE_Capture.cmd] ========= ESP ========= 
+[ 5:22:53.49][IMAGE_Capture.cmd] Before Capture                              
+[ 5:22:53.49][IMAGE_Capture.cmd] UP Free Space = 438891 MB          
+[ 5:22:54.97][IMAGE_Capture.cmd] After Capture 
+[ 5:22:54.97][IMAGE_Capture.cmd] UP Free Space = 438869 MB 

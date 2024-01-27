@@ -1,0 +1,9 @@
+[ 4:52:51.57][CheckWPFreeSpace.cmd] CSCRIPT /NOLOGO C:\System.sav\ExitProc\QryDrvFreeSpace.vbs C:
+[ 4:52:51.57][CheckWPFreeSpace.cmd] FREESPACE.BYTE=463107026944
+[ 4:52:51.57][CheckWPFreeSpace.cmd] FREESPACE.KB=452252956
+[ 4:52:51.57][CheckWPFreeSpace.cmd] FREESPACE.MB=441653
+[ 4:52:51.57][CheckWPFreeSpace.cmd] FREESPACE.GB=431
+[ 4:52:51.75][CheckWPFreeSpace.cmd] WP free space = 431 GB
+[CheckWPFreeSpace.cmd] Tue 03/28/2017  4:52:51.77
+********** FINISH CheckWPFreeSpace.cmd **********
+RETURN CODE - 0

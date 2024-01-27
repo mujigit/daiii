@@ -1,0 +1,13 @@
+English
+Load HP Factory Default Keys
+	No
+	*Yes
+Key Ownership
+	*HP Keys
+	Custom Keys
+	MSFT Debug keys
+Secure Boot Keys
+	Clear
+	*HP
+	MSFT
+	Custom

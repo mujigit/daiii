@@ -1,0 +1,3258 @@
+[14:14:52.81] ---------------------------------------------------------------------
+[14:14:52.81] FixUps.cmd...
+[14:14:54.69] [FU_FixUP.cmd] ************************************************** 
+[14:14:54.70] [FU_FixUP.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\FU_FixUP.cmd] has started... 
+[14:14:54.72] [FU_FixUP.cmd] -------------------------------------------------- 
+[14:14:54.72] [FU_FixUP.cmd]   
+[14:14:54.73] [FU_FixUP.cmd]  Create ["C:\system.sav\FU_FixUP.cmd.FAILURE.flg"]... 
+[14:14:54.75] [FU_FixUP.cmd]   
+[14:14:54.75] [FU_FixUP.cmd]  Looking for *.cmd in [C:\system.sav\FactoryUpdate\FixUp] folder... 
+[14:14:54.76] [FU_FixUP.cmd] -------------------------------------------------- 
+[14:14:54.78] [FU_FixUP.cmd]   
+[14:14:54.78] [FU_FixUP.cmd]    Start:  [C:\system.sav\FactoryUpdate\FixUp\CleanSW.cmd] 
+[14:14:54.86] [CleanSW.cmd] ************************************************** 
+[14:14:54.87] [CleanSW.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\FixUp\CleanSW.cmd] has started... 
+[14:14:54.89] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.89] [CleanSW.cmd]   Create ["C:\system.sav\CleanSW.cmd.FAILURE.flg"]... 
+[14:14:54.90] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.92] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.92] [CleanSW.cmd]   DIR C:\ 
+[14:14:54.94] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.95] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.95] [CleanSW.cmd]   DIR C:\SW if exists 
+[14:14:54.97] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.98] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:54.98] [CleanSW.cmd]   cleaned C:\SW folder properly... 
+[14:14:55.00] [CleanSW.cmd]   delete ["C:\system.sav\CleanSW.cmd.FAILURE.flg"] 
+[14:14:55.00] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:55.01] [CleanSW.cmd] -------------------------------------------------- 
+[14:14:55.03] [CleanSW.cmd]  [CleanSW.cmd] has completed... 
+[14:14:55.03] [CleanSW.cmd] ************************************************** 
+[14:14:55.06] [FU_FixUP.cmd]    Finish: [C:\system.sav\FactoryUpdate\FixUp\CleanSW.cmd] 
+[14:14:55.08] [FU_FixUP.cmd]   
+[14:14:55.08] [FU_FixUP.cmd]    Start:  [C:\system.sav\FactoryUpdate\FixUp\FUNAME.CMD] 
+[14:14:55.15] [FU_FixUP.cmd]    Finish: [C:\system.sav\FactoryUpdate\FixUp\FUNAME.CMD] 
+[14:14:55.17] [FU_FixUP.cmd]   
+[14:14:55.19] [FU_FixUP.cmd]  Looking for FixUp.cmd in [C:\system.sav\FactoryUpdate] subfolders... 
+[14:14:55.19] [FU_FixUP.cmd] -------------------------------------------------- 
+[14:14:55.20] [FU_FixUP.cmd]   
+[14:14:55.22] [FU_FixUP.cmd]    [C:\system.sav\FactoryUpdate\DMI_20160926] is found... 
+[14:14:55.23] [FU_FixUP.cmd]      Missing [C:\system.sav\FactoryUpdate\DMI_20160926\FixUp.cmd]... Skip this folder. 
+[14:14:55.23] [FU_FixUP.cmd]   
+[14:14:55.25] [FU_FixUP.cmd]    [C:\system.sav\FactoryUpdate\FixUp] is found... 
+[14:14:55.26] [FU_FixUP.cmd]      Skip this folder. 
+[14:14:55.26] [FU_FixUP.cmd]   
+[14:14:55.28] [FU_FixUP.cmd]    [C:\system.sav\FactoryUpdate\Part] is found... 
+[14:14:55.29] [FU_FixUP.cmd]      Skip this folder. 
+[14:14:55.29] [FU_FixUP.cmd]   
+[14:14:55.31] [FU_FixUP.cmd]    [C:\system.sav\FactoryUpdate\QFEs] is found... 
+[14:14:55.33] [FU_FixUP.cmd]      Skip this folder. 
+[14:14:55.33] [FU_FixUP.cmd]   
+[14:14:55.34] [FU_FixUP.cmd]  All FixUp.cmd in [C:\system.sav\FactoryUpdate] subfolders have been launched. 
+[14:14:55.36] [FU_FixUP.cmd]   
+[14:14:55.36] [FU_FixUP.cmd]  Delete ["C:\system.sav\FU_FixUP.cmd.FAILURE.flg"] since all FixUp.cmd file[s] should be launched... 
+[14:14:55.37] [FU_FixUP.cmd] -------------------------------------------------- 
+[14:14:55.39] [FU_FixUP.cmd]  [FU_FixUP.cmd] has completed... 
+[14:14:55.39] [FU_FixUP.cmd] ************************************************** 
+[14:14:55.40] FixUps.cmd completed...
+[14:14:55.40] ---------------------------------------------------------------------
+[14:15:05.39] [ChkMPM.cmd] ************************************************** 
+[14:15:05.40] [ChkMPM.cmd]  [c:\SYSTEM.SAV\ExitProc\ChkMPM.cmd] has started... 
+[14:15:05.42] [ChkMPM.cmd] -------------------------------------------------- 
+[14:15:05.42] [ChkMPM.cmd]   
+[14:15:05.44] [ChkMPM.cmd]  Create ["C:\system.sav\ChkMPM.cmd.FAILURE.flg"]... 
+[14:15:05.45] [ChkMPM.cmd]   
+[14:15:05.47] [ChkMPM.cmd]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[14:15:05.47] [ChkMPM.cmd]    Workaround for BCU to run WMI service... 
+[14:15:05.48] [ChkMPM.cmd]   
+[14:15:05.85] [ChkMPM.cmd]   
+[14:15:05.87] [ChkMPM.cmd]  MPM status checking... 
+[14:15:05.87] [ChkMPM.cmd]   
+[14:15:09.74] [ChkMPM.cmd]    MPMStatus=[Unlock] 
+[14:15:09.74] [ChkMPM.cmd]    MPM is UNLOCKED... 
+[14:15:09.75] [ChkMPM.cmd]   
+[14:15:09.75] [ChkMPM.cmd]  Result is as expected. 
+[14:15:09.77] [ChkMPM.cmd]   
+[14:15:09.78] [ChkMPM.cmd]  Delete ["C:\system.sav\ChkMPM.cmd.FAILURE.flg"] file since no error detected... 
+[14:15:09.80] [ChkMPM.cmd] -------------------------------------------------- 
+[14:15:09.80] [ChkMPM.cmd]  [ChkMPM.cmd] has completed... 
+[14:15:09.81] [ChkMPM.cmd] ************************************************** 
+[14:15:14.53] [ClrBiosKey.cmd] ************************************************** 
+[14:15:14.55] [ClrBiosKey.cmd]  [c:\SYSTEM.SAV\ExitProc\ClrBiosKey.cmd] has started... 
+[14:15:14.55] [ClrBiosKey.cmd] -------------------------------------------------- 
+[14:15:14.56] [ClrBiosKey.cmd]   
+[14:15:14.58] [ClrBiosKey.cmd]  Detect ML prefix [CNB or CDT] 
+[14:15:14.58] [ClrBiosKey.cmd]   
+[14:15:14.61] [ClrBiosKey.cmd]    ML_PREFIX = [NB] 
+[14:15:14.61] [ClrBiosKey.cmd]   
+[14:15:14.63] [ClrBiosKey.cmd]    No need to clear BIOS platform key for NB. 
+[14:15:14.64] [ClrBiosKey.cmd] -------------------------------------------------- 
+[14:15:14.64] [ClrBiosKey.cmd]  [ClrBiosKey.cmd] has completed... 
+[14:15:14.66] [ClrBiosKey.cmd] ************************************************** 
+[14:15:19.48] [FormatDsk.cmd] ************************************************** 
+[14:15:19.48] [FormatDsk.cmd]  [FormatDsk.cmd] has started... 
+[14:15:19.49] [FormatDsk.cmd] -------------------------------------------------- 
+[14:15:19.51] [FormatDsk.cmd]  Format data disks if size is over 64GB  
+[14:15:19.51] [FormatDsk.cmd] -------------------------------------------------- 
+[14:15:19.53] [FormatDsk.cmd]   
+[14:15:19.54] [FormatDsk.cmd]  Create ["C:\system.sav\FormatDsk.cmd.FAILURE.flg"]... 
+[14:15:19.54] [FormatDsk.cmd]   
+[14:15:19.56] [FormatDsk.cmd]  DiskStyle = [GPT] 
+[14:15:19.57] [FormatDsk.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+[14:15:19.98] [FormatDsk.cmd]    ErrorLevel=[0] 
+[14:15:19.98] [FormatDsk.cmd]   
+[14:15:20.00] [FormatDsk.cmd]  All commands run properly... delete ["C:\system.sav\FormatDsk.cmd.FAILURE.flg"] 
+[14:15:20.00] [FormatDsk.cmd]   
+[14:15:20.01] [FormatDsk.cmd]  RESULT=PASSED 
+[14:15:20.03] [FormatDsk.cmd]   
+[14:15:20.03] [FormatDsk.cmd] -------------------------------------------------- 
+[14:15:20.05] [FormatDsk.cmd]  [FormatDsk.cmd] has completed... 
+[14:15:20.06] [FormatDsk.cmd] ************************************************** 
+[14:15:30.60] [LoadBiosKey.cmd] ************************************************** 
+[14:15:30.61] [LoadBiosKey.cmd]  [c:\SYSTEM.SAV\ExitProc\LoadBiosKey.cmd] has started... 
+[14:15:30.61] [LoadBiosKey.cmd] -------------------------------------------------- 
+[14:15:30.63] [LoadBiosKey.cmd]   
+[14:15:30.64] [LoadBiosKey.cmd]  Create ["C:\system.sav\LoadBiosKey.cmd.FAILURE.flg"]... 
+[14:15:30.64] [LoadBiosKey.cmd]   
+[14:15:30.66] [LoadBiosKey.cmd]  Detect WinPE if it is 32bit or 64bit 
+[14:15:30.67] [LoadBiosKey.cmd]   
+[14:15:30.67] [LoadBiosKey.cmd]    WinPE is 64bit. 
+[14:15:30.69] [LoadBiosKey.cmd]   
+[14:15:30.70] [LoadBiosKey.cmd]  Detect BIOS vendor 
+[14:15:30.70] [LoadBiosKey.cmd]   
+[14:15:30.72] [LoadBiosKey.cmd]    BIOS vendor = [INSYDE] 
+[14:15:30.72] [LoadBiosKey.cmd]   
+[14:15:30.74] [LoadBiosKey.cmd]   
+[14:15:30.75] [LoadBiosKey.cmd]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[14:15:30.75] [LoadBiosKey.cmd]    Workaround for BCU to run WMI service... 
+[14:15:30.77] [LoadBiosKey.cmd]   
+[14:15:31.04] [LoadBiosKey.cmd]   
+[14:15:31.05] [LoadBiosKey.cmd]  Start key enrollment... 
+[14:15:31.05] [LoadBiosKey.cmd]   
+[14:15:34.82] [LoadBiosKey.cmd]    KeyType=[Clear] 
+[14:15:34.83] [LoadBiosKey.cmd]   
+[14:15:34.83] [LoadBiosKey.cmd]  Load BIOS platform key 
+[14:15:34.85] [LoadBiosKey.cmd]   
+<BIOSCONFIG Version="2.60.13.1" Computername="MININT-HMF7FC9" Date="2017/03/27" Time="14:15:35" UTC="-8" >
+<SETTING changeStatus="warning" name="Load HP Factory Default Keys" reason="BCU: Invalid setting name" returnCode="20">
+	<OLDVALUE><![CDATA[N\A]]></OLDVALUE>
+	<NEWVALUE><![CDATA[N\A]]></NEWVALUE>
+</SETTING>
+<SETTING changeStatus="warning" name="Key Ownership" reason="BCU: Invalid setting name" returnCode="20">
+	<OLDVALUE><![CDATA[N\A]]></OLDVALUE>
+	<NEWVALUE><![CDATA[N\A]]></NEWVALUE>
+</SETTING>
+<SETTING changeStatus="pass" name="Secure Boot Keys" reason="" returnCode="0">
+	<OLDVALUE><![CDATA[Clear]]></OLDVALUE>
+	<NEWVALUE><![CDATA[HP]]></NEWVALUE>
+</SETTING>
+<SUCCESS msg="Successfully set BIOS config." />
+<Information msg="BCU return value" real="0" translated="0" />
+</BIOSCONFIG>[14:15:39.10] [LoadBiosKey.cmd]    ErrorLevel=[0] 
+[14:15:39.12] [LoadBiosKey.cmd]   
+[14:15:39.13] [LoadBiosKey.cmd]   
+[14:15:39.13] [LoadBiosKey.cmd]  BIOS key was loaded successfully. 
+[14:15:39.15] [LoadBiosKey.cmd]   
+[14:15:39.15] [LoadBiosKey.cmd]  Delete ["C:\system.sav\LoadBiosKey.cmd.FAILURE.flg"] file since no error detected... 
+[14:15:39.17] [LoadBiosKey.cmd] -------------------------------------------------- 
+[14:15:39.18] [LoadBiosKey.cmd]  [LoadBiosKey.cmd] has completed... 
+[14:15:39.20] [LoadBiosKey.cmd] ************************************************** 
+[14:15:42.32] [EnableSB.cmd] ************************************************** 
+[14:15:42.33] [EnableSB.cmd]  [C:\SYSTEM.SAV\ExitProc\EnableSB.cmd] has started... 
+[14:15:42.33] [EnableSB.cmd] -------------------------------------------------- 
+[14:15:42.35] [EnableSB.cmd]   
+[14:15:42.36] [EnableSB.cmd]  Detect WinPE if it is 32bit or 64bit 
+[14:15:42.36] [EnableSB.cmd]   
+[14:15:42.38] [EnableSB.cmd]    WinPE is 64bit. 
+[14:15:42.39] [EnableSB.cmd]   
+[14:15:42.39] [EnableSB.cmd]  Detect BIOS vendor 
+[14:15:42.41] [EnableSB.cmd]   
+[14:15:42.41] [EnableSB.cmd]    BIOS vendor = [INSYDE] 
+[14:15:42.42] [EnableSB.cmd]   
+[14:15:42.44] [EnableSB.cmd]   
+[14:15:42.44] [EnableSB.cmd]  Detect ML prefix [CNB or CDT] 
+[14:15:42.46] [EnableSB.cmd]   
+[14:15:42.47] [EnableSB.cmd]    ML_PREFIX = [NB] 
+[14:15:42.49] [EnableSB.cmd]   
+[14:15:42.50] [EnableSB.cmd]   
+[14:15:42.50] [EnableSB.cmd]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[14:15:42.52] [EnableSB.cmd]    Workaround for BCU to run WMI service... 
+[14:15:42.53] [EnableSB.cmd]   
+[14:15:42.87] [EnableSB.cmd]   
+[14:15:42.88] [EnableSB.cmd]  Enable SecureBoot [Disable PXE]... 
+[14:15:42.90] [EnableSB.cmd]   
+[14:15:42.91] [EnableSB.cmd] C:\system.sav\Exclude\BiosConfig\INSYDE\BiosConfigUtility_x64.exe /SetConfig:C:\system.sav\Exclude\BiosConfig\INSYDE\SB_Enable_NB.txt /verbose 
+<BIOSCONFIG Version="2.60.13.1" Computername="MININT-HMF7FC9" Date="2017/03/27" Time="14:15:42" UTC="-8" >
+<SETTING changeStatus="pass" name="Legacy Support" reason="" returnCode="0">
+	<OLDVALUE><![CDATA[Enable]]></OLDVALUE>
+	<NEWVALUE><![CDATA[Disable]]></NEWVALUE>
+</SETTING>
+<SETTING changeStatus="pass" name="Secure Boot" reason="" returnCode="0">
+	<OLDVALUE><![CDATA[Disable]]></OLDVALUE>
+	<NEWVALUE><![CDATA[Enable]]></NEWVALUE>
+</SETTING>
+<SETTING changeStatus="pass" name="Internal Network Adapter Boot" reason="" returnCode="0">
+	<OLDVALUE><![CDATA[Enable]]></OLDVALUE>
+	<NEWVALUE><![CDATA[Disable]]></NEWVALUE>
+</SETTING>
+<SETTING changeStatus="warning" name="Network Boot" reason="BCU: Invalid setting name" returnCode="20">
+	<OLDVALUE><![CDATA[N\A]]></OLDVALUE>
+	<NEWVALUE><![CDATA[N\A]]></NEWVALUE>
+</SETTING>
+<SUCCESS msg="Successfully set BIOS config." />
+<Information msg="BCU return value" real="0" translated="0" />
+</BIOSCONFIG>[14:15:43.49] [EnableSB.cmd]    ErrorLevel=[0] 
+[14:15:43.49] [EnableSB.cmd]   
+[14:15:43.51] [EnableSB.cmd] -------------------------------------------------- 
+[14:15:43.52] [EnableSB.cmd]  [EnableSB.cmd] has completed... 
+[14:15:43.52] [EnableSB.cmd] ************************************************** 
+[14:15:56.99] [CreateE.cmd] ************************************************** 
+[14:15:57.00] [CreateE.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\CreateE.cmd] has started... 
+[14:15:57.00] [CreateE.cmd] -------------------------------------------------- 
+[14:15:57.02] [CreateE.cmd]   Start CreatE.cmd at FactoryUpdate... PASS2 
+[14:15:57.03] [CreateE.cmd] -------------------------------------------------- 
+[14:15:57.03] [CreateE.cmd]   Create ["C:\system.sav\CreateE.cmd.FAILURE.flg"]... 
+[14:15:57.05] [CreateE.cmd]   
+[14:15:57.05] [CreateE.cmd]   
+[14:15:57.06] [CreateE.cmd]   
+[14:15:57.08] [CreateE.cmd]  ************************************************************ 
+[14:15:57.08] [CreateE.cmd]  ************************************************************ 
+I'm on \\?\PhysicalDrive0...
+REQ : Delete ESP...
+REQ : Delete MSR...
+Target device to modify is \\?\PhysicalDrive0...
+
+
+----------------------------------------
+Name          : \\?\PhysicalDrive0
+AdaptorName   : AMD SATA Controller
+DevicePath    : \\?\scsi#disk&ven_hgst&prod_hts725050a7e630#4&1649041&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+FriendlyName  : HGST HTS725050A7E630
+DeviceType    : 7
+MediaType     : 12
+Signature     : -1179867662
+Size in Byte  : 500107862016
+Size in GB    : 465
+Bytes/Sector  : 512
+PartitionStyle: GPT
+Flags         : 5000
+----------------------------------------
+Num of Partition = 4
+----------------------------------------
+ Flags        : 0
+ Offset       : 1048576
+ Size         : 272629760
+ attributes   : 0000000000000000
+ name         : EFI system partition
+ Partition ID : 74FA1B5D-8A76-45AE-B8B6-F79A0C6C5BAE
+ PartitionType: C12A7328-F81F-11D2-BA4B-00A0C93EC93B
+
+ PASSED : Delete ESP partition...
+
+----------------------------------------
+ Flags        : 0
+ Offset       : 273678336
+ Size         : 16777216
+ attributes   : 0000000000000000
+ name         : Microsoft reserved partition
+ Partition ID : 9A63DBC3-0D22-419C-9DEB-EE4679119205
+ PartitionType: E3C9E316-0B5C-4DB8-817D-F92DF00215AE
+
+ PASSED : Delete MSR partition...
+
+----------------------------------------
+ Flags        : 0
+ Offset       : 290455552
+ Size         : 80939581440
+ attributes   : 0000000000000000
+ name         : Basic data partition
+ Partition ID : AC93F070-E34B-4209-8924-8C0CA64CAD48
+ PartitionType: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+----------------------------------------
+ Flags        : 0
+ Offset       : 81230036992
+ Size         : 660602880
+ attributes   : 0000000000000000
+ name         : Basic data partition
+ Partition ID : 0FC366C1-CDAD-4E18-A332-A96B649CDE55
+ PartitionType: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+----------------------------------------
+[14:15:57.47] [CreateE.cmd]  ************************************************************ 
+[14:15:57.47] [CreateE.cmd]  ************************************************************ 
+[14:15:57.48] [CreateE.cmd]   
+[14:15:57.50] [CreateE.cmd]   
+[14:15:57.58] [CreateE.cmd]  -------------------------------------------------- 
+[14:15:57.59] [CreateE.cmd]   [CreateDESP.txt] 
+[14:15:57.59] [CreateE.cmd]  -------------------------------------------------- 
+REM size   =[80939581440]
+REM offset =[290455552] Bytes
+REM nOffset  =[283648]
+REM ESP size =[260]
+sel vol c
+list part
+list vol
+create part MSR offset=267264
+create part EFI offset=1024
+assign letter=s
+format fs=FAT32 quick
+rescan
+list disk
+list vol
+list part
+
+[14:15:57.61] [CreateE.cmd]  -------------------------------------------------- 
+[14:15:57.62] [CreateE.cmd]   
+[14:15:57.62] [CreateE.cmd]  run DiskPart.exe /s C:\System.sav\FactoryUpdate\CreateDESP.txt 
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Volume 1 is the selected volume.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+* Volume 1     C                NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+
+DiskPart succeeded in creating the specified partition.
+
+DiskPart succeeded in creating the specified partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+    0 percent completed  100 percent completed
+
+DiskPart successfully formatted the volume.
+
+Please wait while DiskPart scans your configuration...
+
+DiskPart has finished scanning your configuration.
+
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+* Disk 0    Online          465 GB   389 GB        *
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+[14:15:59.61] [CreateE.cmd]  ErrorLevel=[0] 
+[14:15:59.62] [CreateE.cmd]   
+[14:15:59.64] [CreateE.cmd]  Run [BCDBoot.exe c:\windows] to copy boot files to ESP. 
+Boot files successfully created.
+[14:16:01.85] [CreateE.cmd]  ErrorLevel=[0] 
+[14:16:01.87] [CreateE.cmd]   
+[14:16:01.88] [CreateE.cmd]  RESULT=PASSED 
+[14:16:01.90] [CreateE.cmd]   
+[14:16:01.90] [CreateE.cmd]  Delete ["C:\system.sav\CreateE.cmd.FAILURE.flg"] because no error detected... 
+[14:16:01.91] [CreateE.cmd] -------------------------------------------------- 
+[14:16:01.93] [CreateE.cmd]  [CreateE.cmd] has completed... 
+[14:16:01.93] [CreateE.cmd] ************************************************** 
+[14:16:06.49] [InactiveSP.cmd] ************************************************** 
+[14:16:06.51] [InactiveSP.cmd]  [InactiveSP.cmd] has started... 
+[14:16:06.51] [InactiveSP.cmd] -------------------------------------------------- 
+[14:16:06.52] [InactiveSP.cmd]  Inactive System Parition... 
+[14:16:06.54] [InactiveSP.cmd] -------------------------------------------------- 
+[14:16:06.54] [InactiveSP.cmd]   
+[14:16:06.56] [InactiveSP.cmd]  Create ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"]... 
+[14:16:06.57] [InactiveSP.cmd]   
+[14:16:06.57] [InactiveSP.cmd]  Inactive ESP...  
+[14:16:06.59] [InactiveSP.cmd]   
+[14:16:06.62] [DrvLtr2ESP.cmd] ************************************************** 
+[14:16:06.63] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[14:16:06.65] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[14:16:06.65] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[14:16:06.67] [DrvLtr2ESP.cmd]   
+[14:16:06.67] [DrvLtr2ESP.cmd]   
+[14:16:06.68] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[14:16:06.70] [DrvLtr2ESP.cmd]   
+[14:16:06.93] [DrvLtr2ESP.cmd]  ESP partition index = [2] 
+[14:16:06.93] [DrvLtr2ESP.cmd]  ESP drive letter = [S:] 
+[14:16:06.95] [DrvLtr2ESP.cmd]   
+[14:16:06.96] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[14:16:06.96] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Volume 1 is the selected volume.
+
+Partition 2 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+
+DiskPart successfully removed the drive letter or mount point.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C                NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+* Volume 3     S                FAT32  Partition    260 MB  Healthy    Hidden  
+[14:16:07.38] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[14:16:07.40] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:16:07.42] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[14:16:07.42] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[14:16:07.43] [DrvLtr2ESP.cmd] ************************************************** 
+[14:16:07.46] [InactiveSP.cmd]  Inactive ESP successfully. 
+[14:16:07.46] [InactiveSP.cmd]   
+[14:16:07.48] [InactiveSP.cmd]  Active BP... 
+[14:16:07.48] [InactiveSP.cmd]   
+[14:16:07.53] [InactiveSP.cmd]  BP drive letter = [D:] 
+[14:16:07.54] [InactiveSP.cmd]  BP is already active. 
+[14:16:07.54] [InactiveSP.cmd]   
+[14:16:07.56] [InactiveSP.cmd]  Delete ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:16:07.57] [InactiveSP.cmd] -------------------------------------------------- 
+[14:16:07.57] [InactiveSP.cmd]  [InactiveSP.cmd] has completed... 
+[14:16:07.59] [InactiveSP.cmd] ************************************************** 
+[14:16:16.46] [Partition.cmd] ************************************************** 
+[14:16:16.71] [Partition.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\Partition.cmd] has started... 
+[14:16:16.95] [Partition.cmd] -------------------------------------------------- 
+[14:16:17.18] [Partition.cmd]   
+[14:16:17.21] [Partition.cmd]  Create ["C:\system.sav\Partition.cmd.FAILURE.flg"]... 
+[14:16:17.24] [Partition.cmd]   
+[14:16:17.27] [Partition.cmd]   This is NOT China image, 
+[14:16:17.29] [Partition.cmd]   Skip DATA partition creation... 
+[14:16:17.31] [Partition.cmd]   
+[14:16:17.34] [Partition.cmd]  -------------------------------------------------- 
+[14:16:17.35] [Partition.cmd]  Set Volume label if required... 
+[14:16:17.38] [Partition.cmd]  -------------------------------------------------- 
+[14:16:17.48] [Partition.cmd]  Delete ["C:\system.sav\Partition.cmd.FAILURE.flg"]... 
+[14:16:17.51] [Partition.cmd] -------------------------------------------------- 
+[14:16:17.52] [Partition.cmd]  [Partition.cmd] has completed... 
+[14:16:17.56] [Partition.cmd] ************************************************** 
+[14:22:49.52] [PushbackBP.cmd] ************************************************** 
+[14:22:49.74] [PushbackBP.cmd]  [C:\SYSTEM.SAV\2ndCap\PushbackBP.cmd] has started... 
+[14:22:49.75] [PushbackBP.cmd] -------------------------------------------------- 
+[14:22:49.77] [PushbackBP.cmd]   
+[14:22:49.77] [PushbackBP.cmd]  Create ["C:\system.sav\PushbackBP.cmd.FAILURE.flg"]... 
+[14:22:49.78] [PushbackBP.cmd]   
+[14:22:49.78] [PushbackBP.cmd]  Detect WinRE offset... 
+[14:22:49.80] [PushbackBP.cmd]   
+[14:22:50.05] [PushbackBP.cmd]  BP partition size = [660602880] B 
+[14:22:50.05] [PushbackBP.cmd]  BP ending offset = [488166653952] B 
+[14:22:50.12] [PushbackBP.cmd]  BP starting offset = [476080128] KB 
+[14:22:50.13] [PushbackBP.cmd]   
+[14:22:50.15] [PushbackBP.cmd]  Create new BP... 
+[14:22:50.15] [PushbackBP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Volume 1 is the selected volume.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+* Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+* Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+DiskPart succeeded in creating the specified partition.
+
+    0 percent completed  100 percent completed
+
+DiskPart successfully formatted the volume.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+  Partition 4    Primary            630 MB    75 GB
+* Partition 7    Primary            630 MB   454 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+* Volume 7     Q   BUILDPART    FAT32  Partition    630 MB  Healthy            
+[14:22:51.68] [PushbackBP.cmd]   
+[14:22:51.70] [PushbackBP.cmd]  Clone BP's content 
+[14:22:51.71] [PushbackBP.cmd]   
+D:\bootmgr
+D:\bootmgr.efi
+D:\Boot\BCD
+D:\Boot\boot.sdi
+D:\Boot\bootfix.bin
+D:\Boot\memtest.exe
+D:\Boot\bg-bg\bootmgr.exe.mui
+D:\Boot\cs-cz\bootmgr.exe.mui
+D:\Boot\cs-cz\memtest.exe.mui
+D:\Boot\da-dk\bootmgr.exe.mui
+D:\Boot\da-dk\memtest.exe.mui
+D:\Boot\de-de\bootmgr.exe.mui
+D:\Boot\de-de\memtest.exe.mui
+D:\Boot\el-gr\bootmgr.exe.mui
+D:\Boot\el-gr\memtest.exe.mui
+D:\Boot\en-gb\bootmgr.exe.mui
+D:\Boot\en-us\bootmgr.exe.mui
+D:\Boot\en-us\memtest.exe.mui
+D:\Boot\es-es\bootmgr.exe.mui
+D:\Boot\es-es\memtest.exe.mui
+D:\Boot\es-mx\bootmgr.exe.mui
+D:\Boot\et-ee\bootmgr.exe.mui
+D:\Boot\fi-fi\bootmgr.exe.mui
+D:\Boot\fi-fi\memtest.exe.mui
+D:\Boot\Fonts\chs_boot.ttf
+D:\Boot\Fonts\cht_boot.ttf
+D:\Boot\Fonts\jpn_boot.ttf
+D:\Boot\Fonts\kor_boot.ttf
+D:\Boot\Fonts\malgunn_boot.ttf
+D:\Boot\Fonts\malgun_boot.ttf
+D:\Boot\Fonts\meiryon_boot.ttf
+D:\Boot\Fonts\meiryo_boot.ttf
+D:\Boot\Fonts\msjhn_boot.ttf
+D:\Boot\Fonts\msjh_boot.ttf
+D:\Boot\Fonts\msyhn_boot.ttf
+D:\Boot\Fonts\msyh_boot.ttf
+D:\Boot\Fonts\segmono_boot.ttf
+D:\Boot\Fonts\segoen_slboot.ttf
+D:\Boot\Fonts\segoe_slboot.ttf
+D:\Boot\Fonts\wgl4_boot.ttf
+D:\Boot\fr-ca\bootmgr.exe.mui
+D:\Boot\fr-fr\bootmgr.exe.mui
+D:\Boot\fr-fr\memtest.exe.mui
+D:\Boot\hr-hr\bootmgr.exe.mui
+D:\Boot\hu-hu\bootmgr.exe.mui
+D:\Boot\hu-hu\memtest.exe.mui
+D:\Boot\it-it\bootmgr.exe.mui
+D:\Boot\it-it\memtest.exe.mui
+D:\Boot\ja-jp\bootmgr.exe.mui
+D:\Boot\ja-jp\memtest.exe.mui
+D:\Boot\ko-kr\bootmgr.exe.mui
+D:\Boot\ko-kr\memtest.exe.mui
+D:\Boot\lt-lt\bootmgr.exe.mui
+D:\Boot\lv-lv\bootmgr.exe.mui
+D:\Boot\nb-no\bootmgr.exe.mui
+D:\Boot\nb-no\memtest.exe.mui
+D:\Boot\nl-nl\bootmgr.exe.mui
+D:\Boot\nl-nl\memtest.exe.mui
+D:\Boot\pl-pl\bootmgr.exe.mui
+D:\Boot\pl-pl\memtest.exe.mui
+D:\Boot\pt-br\bootmgr.exe.mui
+D:\Boot\pt-br\memtest.exe.mui
+D:\Boot\pt-pt\bootmgr.exe.mui
+D:\Boot\pt-pt\memtest.exe.mui
+D:\Boot\Resources\bootres.dll
+D:\Boot\ro-ro\bootmgr.exe.mui
+D:\Boot\ru-ru\bootmgr.exe.mui
+D:\Boot\ru-ru\memtest.exe.mui
+D:\Boot\sk-sk\bootmgr.exe.mui
+D:\Boot\sl-si\bootmgr.exe.mui
+D:\Boot\sr-latn-rs\bootmgr.exe.mui
+D:\Boot\sv-se\bootmgr.exe.mui
+D:\Boot\sv-se\memtest.exe.mui
+D:\Boot\tr-tr\bootmgr.exe.mui
+D:\Boot\tr-tr\memtest.exe.mui
+D:\Boot\uk-ua\bootmgr.exe.mui
+D:\Boot\zh-cn\bootmgr.exe.mui
+D:\Boot\zh-cn\memtest.exe.mui
+D:\Boot\zh-hk\bootmgr.exe.mui
+D:\Boot\zh-hk\memtest.exe.mui
+D:\Boot\zh-tw\bootmgr.exe.mui
+D:\Boot\zh-tw\memtest.exe.mui
+D:\EFI\Boot\bootx64.efi
+D:\EFI\Boot\en-us\bootx64.efi.mui
+D:\EFI\Microsoft\Boot\BCD
+D:\EFI\Microsoft\Boot\memtest.efi
+D:\EFI\Microsoft\Boot\BCD.LOG
+D:\EFI\Microsoft\Boot\cs-cz\memtest.efi.mui
+D:\EFI\Microsoft\Boot\da-dk\memtest.efi.mui
+D:\EFI\Microsoft\Boot\de-de\memtest.efi.mui
+D:\EFI\Microsoft\Boot\el-gr\memtest.efi.mui
+D:\EFI\Microsoft\Boot\en-us\memtest.efi.mui
+D:\EFI\Microsoft\Boot\es-es\memtest.efi.mui
+D:\EFI\Microsoft\Boot\fi-fi\memtest.efi.mui
+D:\EFI\Microsoft\Boot\Fonts\chs_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\cht_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\jpn_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\kor_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\malgun_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\meiryo_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\msjh_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\msyh_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\segmono_boot.ttf
+D:\EFI\Microsoft\Boot\Fonts\segoe_slboot.ttf
+D:\EFI\Microsoft\Boot\Fonts\wgl4_boot.ttf
+D:\EFI\Microsoft\Boot\fr-fr\memtest.efi.mui
+D:\EFI\Microsoft\Boot\hu-hu\memtest.efi.mui
+D:\EFI\Microsoft\Boot\it-it\memtest.efi.mui
+D:\EFI\Microsoft\Boot\ja-jp\memtest.efi.mui
+D:\EFI\Microsoft\Boot\ko-kr\memtest.efi.mui
+D:\EFI\Microsoft\Boot\nb-no\memtest.efi.mui
+D:\EFI\Microsoft\Boot\nl-nl\memtest.efi.mui
+D:\EFI\Microsoft\Boot\pl-pl\memtest.efi.mui
+D:\EFI\Microsoft\Boot\pt-br\memtest.efi.mui
+D:\EFI\Microsoft\Boot\pt-pt\memtest.efi.mui
+D:\EFI\Microsoft\Boot\Resources\bootres.dll
+D:\EFI\Microsoft\Boot\ru-ru\memtest.efi.mui
+D:\EFI\Microsoft\Boot\sv-se\memtest.efi.mui
+D:\EFI\Microsoft\Boot\tr-tr\memtest.efi.mui
+D:\EFI\Microsoft\Boot\zh-cn\memtest.efi.mui
+D:\EFI\Microsoft\Boot\zh-hk\memtest.efi.mui
+D:\EFI\Microsoft\Boot\zh-tw\memtest.efi.mui
+D:\Sources\boot.wim
+D:\SWSetup\sw_ver\P00NQUB2.CVA
+D:\system.sav\Flags\BP.flg
+D:\$RECYCLE.BIN\desktop.ini
+D:\System Volume Information\IndexerVolumeGuid
+D:\System Volume Information\WPSettings.dat
+128 File(s) copied
+[14:23:03.29] [PushbackBP.cmd]   
+[14:23:03.30] [PushbackBP.cmd]  Delete original BP then extend WP 
+[14:23:03.30] [PushbackBP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Volume 2 is the selected volume.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary             75 GB   277 MB
+* Partition 4    Primary            630 MB    75 GB
+  Partition 7    Primary            630 MB   454 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition     75 GB  Healthy            
+* Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     Q   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 4     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 5     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 6     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 7     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+DiskPart successfully deleted the volume.
+
+Volume 1 is the selected volume.
+
+DiskPart successfully extended the volume.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+* Partition 3    Primary            453 GB   277 MB
+  Partition 7    Primary            630 MB   454 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+* Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 3     Q   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 4     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 5     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 6     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 7     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+[14:23:07.90] [PushbackBP.cmd]  Delete ["C:\system.sav\PushbackBP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:23:07.92] [PushbackBP.cmd] -------------------------------------------------- 
+[14:23:07.94] [PushbackBP.cmd]  [PushbackBP.cmd] has completed... 
+[14:23:07.94] [PushbackBP.cmd] ************************************************** 
+[14:23:09.29] [SSRDTwks.cmd] ************************************************** 
+[14:23:09.29] [SSRDTwks.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\SSRDTwks.cmd] has started... 
+[14:23:09.31] [SSRDTwks.cmd] -------------------------------------------------- 
+[14:23:09.32] [SSRDTwks.cmd]   
+[14:23:09.32] [SSRDTwks.cmd]  SSRD Tweaks to change user default locale... 
+[14:23:09.34] [SSRDTwks.cmd]   
+[14:23:09.36] [SSRDTwks.cmd]   
+[14:23:09.37] [SSRDTwks.cmd]  SSRD_LANG.flg file was not detected... SKIP. 
+[14:23:09.39] [SSRDTwks.cmd]   
+[14:23:09.39] [SSRDTwks.cmd]   
+[14:23:09.40] [SSRDTwks.cmd] -------------------------------------------------- 
+[14:23:09.42] [SSRDTwks.cmd]  [SSRDTwks.cmd] has completed... 
+[14:23:09.42] [SSRDTwks.cmd] ************************************************** 
+[14:23:12.61] [PF4WPE.cmd] ************************************************** 
+[14:23:12.61] [PF4WPE.cmd]  [PF4WPE.cmd] has started... 
+[14:23:12.62] [PF4WPE.cmd] -------------------------------------------------- 
+[14:23:12.64] [PF4WPE.cmd]  Create 1GB pagefile for WinPE use 
+[14:23:12.64] [PF4WPE.cmd] -------------------------------------------------- 
+[14:23:12.65] [PF4WPE.cmd]   
+[14:23:12.65] [PF4WPE.cmd]  Create ["C:\system.sav\PF4WPE.cmd.FAILURE.flg"] file... 
+[14:23:12.67] [PF4WPE.cmd]   
+[14:23:12.69] [PF4WPE.cmd]  Detect target drive for WinPE pagefile... 
+[14:23:12.69] [PF4WPE.cmd]   
+[14:23:12.87] [PF4WPE.cmd]  Target drive = [C:] 
+[14:23:12.89] [PF4WPE.cmd]   
+[14:23:12.90] [PF4WPE.cmd]  Create pagefile for WinPE... 
+[14:23:12.90] [PF4WPE.cmd]   
+
+The command completed successfully.
+[14:23:12.98] [PF4WPE.cmd]    ErrorLevel=[0] 
+[14:23:12.98] [PF4WPE.cmd]   
+[14:23:13.00] [PF4WPE.cmd]  Delete ["C:\system.sav\PF4WPE.cmd.FAILURE.flg"] file since no errors detected... 
+[14:23:13.01] [PF4WPE.cmd] -------------------------------------------------- 
+[14:23:13.03] [PF4WPE.cmd]  [PF4WPE.cmd] has completed... 
+[14:23:13.03] [PF4WPE.cmd] ************************************************** 
+[14:26:57.48] [SKUDef.cmd] ************************************************** 
+[14:26:57.49] [SKUDef.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\SKUDef.cmd] has started... 
+[14:26:57.51] [SKUDef.cmd] -------------------------------------------------- 
+[14:26:57.51] [SKUDef.cmd]  Reset default country and locale 
+[14:26:57.53] [SKUDef.cmd] -------------------------------------------------- 
+[14:26:57.54] [SKUDef.cmd]   
+[14:26:57.54] [SKUDef.cmd]  Create ["C:\system.sav\SKUDef.cmd.FAILURE.flg"]... 
+[14:26:59.28] [SKUDef.cmd] ECHO [14:26:59.28][SKUDef.cmd] WINDOWS VERSION=14393 
+[14:26:59.30] [SKUDef.cmd] CScript.exe /nologo C:\SYSTEM.SAV\FactoryUpdate\SKUDef.vbs ACJ @ C:\SYSTEM.SAV\FactoryUpdate\SKUDef_CNB_RS1.ini   
+[14:26:59.36] [SKUDef.cmd]  SKU_DEF_COUNTRY=[113] 
+[14:26:59.37] [SKUDef.cmd]  SKU_DEF_SYS_LOC=[HI-IN] 
+[14:26:59.39] [SKUDef.cmd]  ----------------------------------- 
+[14:26:59.39] [SKUDef.cmd]  Reset country in administrator... 
+[14:26:59.41] [SKUDef.cmd]  ----------------------------------- 
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+[14:26:59.53] [SKUDef.cmd]  ----------------------------------- 
+[14:26:59.55] [SKUDef.cmd]  Reset country in Default user... 
+[14:26:59.55] [SKUDef.cmd]  ----------------------------------- 
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+[14:26:59.73] [SKUDef.cmd]  ----------------------------------- 
+[14:26:59.74] [SKUDef.cmd]  Reset System locale... 
+[14:26:59.74] [SKUDef.cmd]  ----------------------------------- 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+Reporting offline international settings.
+
+Default system UI language : en-US
+System locale : en-US
+Default time zone : Pacific Standard Time
+User locale for default user : en-US
+Location : India (GEOID = 113)
+Active keyboard(s) : 0409:00000409
+Keyboard layered driver : PC/AT Enhanced Keyboard (101/102-Key)
+
+Installed language(s): en-US
+  Type : Fully localized language.
+
+The operation completed successfully.
+[14:27:07.13] [SKUDef.cmd]   
+[14:27:07.14] [SKUDef.cmd]  Delete ["C:\system.sav\SKUDef.cmd.FAILURE.flg"]... 
+[14:27:07.16] [SKUDef.cmd] -------------------------------------------------- 
+[14:27:07.16] [SKUDef.cmd]  [SKUDef.cmd] has completed... 
+[14:27:07.18] [SKUDef.cmd] ************************************************** 
+[14:27:10.27] ---------------------------------------------------------------------
+[14:27:10.27] PIN Tweaks to hide All for BurnBoot BBV and BBV2 on restored image...
+[14:27:10.27] ---------------------------------------- 
+[14:27:10.27] Tweaks for OOBE's Unattend.xml 
+[14:27:10.29]  to pick up the proper file... 
+[14:27:10.29] ---------------------------------------- 
+[14:27:10.30] ---------------------------------------- 
+[14:27:10.30] without Light Sensor.. 
+[14:27:10.30] ---------------------------------------- 
+[14:27:10.32] ---------------------------------------------------------------------
+[14:27:12.24] ---------------------------------------------------------------------
+[14:27:12.24] [MIR Tweaks] ...
+[14:27:12.24] ---------------------------------------------------------------------
+[14:27:15.53] [RSTPrep.cmd] ************************************************** 
+[14:27:15.55] [RSTPrep.cmd]  [c:\SYSTEM.SAV\FactoryUpdate\RSTPrep.cmd] has started... 
+[14:27:15.55] [RSTPrep.cmd] -------------------------------------------------- 
+[14:27:15.56] [RSTPrep.cmd]  Start RST Preparation... 
+[14:27:15.56] [RSTPrep.cmd] -------------------------------------------------- 
+[14:27:15.58] [RSTPrep.cmd]  Generate ["C:\system.sav\RSTPrep.cmd.FAILURE.flg"]... 
+[14:27:15.59] [RSTPrep.cmd]   
+[14:27:15.59] [RSTPrep.cmd]  Checking if system requires RST configuration... 
+[14:27:15.61] [RSTPrep.cmd]   
+[14:27:15.61] [RSTPrep.cmd]   Cannot find C:\System.sav\Util\RST.ini 
+[14:27:15.62] [RSTPrep.cmd]   Skip RAID0/SRT configuration... 
+[14:27:15.69] [RSTPrep.cmd] -------------------------------------------------- 
+[14:27:15.69] [RSTPrep.cmd]  [RSTPrep.cmd] has completed... 
+[14:27:15.70] [RSTPrep.cmd] ************************************************** 
+[14:27:40.36] [DeviceForm.cmd] ************************************************** 
+[14:27:40.36] [DeviceForm.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\DeviceForm.cmd] has started... 
+[14:27:40.38] [DeviceForm.cmd] -------------------------------------------------- 
+[14:27:40.39] [DeviceForm.cmd]  Set DeviceForm on the selected systems 
+[14:27:40.39] [DeviceForm.cmd] -------------------------------------------------- 
+[14:27:40.41] [DeviceForm.cmd]   
+[14:27:40.42] [DeviceForm.cmd]  Check if the system is Win 10 [not Win 7]... 
+[14:27:40.44] [DeviceForm.cmd]   
+[14:27:40.44] [DeviceForm.cmd]  Check feature byte... 
+[14:27:40.45] [DeviceForm.cmd]    This system is NB-Standard. 
+[14:27:40.47] [DeviceForm.cmd]   
+[14:27:40.47] [DeviceForm.cmd]  Write DeviceForm for PBR... 
+[14:27:40.52] [DeviceForm.cmd]   
+[14:27:40.52] [DeviceForm.cmd]    Added DeviceForm=[4] for PBR. 
+[14:27:40.53] [DeviceForm.cmd]   
+[14:27:40.55] [DeviceForm.cmd]  Write DeviceForm to Unattend.xml... 
+[14:27:40.58] [DeviceForm.cmd]   
+[14:27:40.58] [DeviceForm.cmd]    Added DeviceForm=[4] to Unattend.xml. 
+[14:27:40.59] [DeviceForm.cmd] -------------------------------------------------- 
+[14:27:40.61] [DeviceForm.cmd]  [DeviceForm.cmd] has completed... 
+[14:27:40.61] [DeviceForm.cmd] ************************************************** 
+[14:27:44.29] [FFSPrep.cmd] ************************************************** 
+[14:27:44.31] [FFSPrep.cmd]  [C:\SYSTEM.SAV\Util\FFS\FFSPrep.cmd] has started... 
+[14:27:44.33] [FFSPrep.cmd] -------------------------------------------------- 
+[14:27:44.33] [FFSPrep.cmd]  Start FFS partition creation... 
+[14:27:44.34] [FFSPrep.cmd] -------------------------------------------------- 
+[14:27:44.36] [FFSPrep.cmd]  Generate ["C:\system.sav\FFSPrep.cmd.FAILURE.flg"]... 
+[14:27:44.36] [FFSPrep.cmd]   
+[14:27:44.37] [FFSPrep.cmd]  Checking if FFS partition exists... 
+[14:27:44.39] [FFSPrep.cmd]   
+[14:27:44.67] [FFSPrep.cmd]    NO FFS partition detected... 
+[14:27:44.67] [FFSPrep.cmd]   
+[14:27:44.69] [FFSPrep.cmd]  Checking FFS creation by flag file... 
+[14:27:44.69] [FFSPrep.cmd]   
+[14:27:44.71] [FFSPrep.cmd]    No flag is detected. Check RStone.ini to decide to run FFS creation. 
+[14:27:44.72] [FFSPrep.cmd]   
+[14:27:44.74] [FFSPrep.cmd]  Checking FFS creation by RStone. 
+[14:27:44.77] [FFSPrep.cmd]   
+[14:27:44.77] [FFSPrep.cmd]    RStone.ini doesn't show iFFS=1. 
+[14:27:44.78] [FFSPrep.cmd]   
+[14:27:44.80] [FFSPrep.cmd]    FFS is not required... 
+[14:27:44.80] [FFSPrep.cmd]   
+[14:27:44.81] [FFSPrep.cmd]  Delete ["C:\system.sav\FFSPrep.cmd.FAILURE.flg"] because no FFS is required... NO MORE CREATE ACTION. 
+[14:27:44.92] [FFSPrep.cmd]   
+[14:27:44.94] [FFSPrep.cmd] -------------------------------------------------- 
+[14:27:44.96] [FFSPrep.cmd]  FFS partition is NOT found... 
+[14:27:44.96] [FFSPrep.cmd]   
+[14:27:44.97] [FFSPrep.cmd]   iFFS=NO_DETECTED 
+[14:27:45.02] [FFSPrep.cmd]   iFFSPart=NOT_EXIST 
+[14:27:45.08] [FFSPrep.cmd] -------------------------------------------------- 
+[14:27:45.09] [FFSPrep.cmd]  [FFSPrep.cmd] has completed... 
+[14:27:45.09] [FFSPrep.cmd] ************************************************** 
+[14:27:55.23] [Find4QFE.cmd] ************************************************** 
+[14:27:55.23] [Find4QFE.cmd]  [Find4QFE.cmd] has started... 
+[14:27:55.25] [Find4QFE.cmd] -------------------------------------------------- 
+[14:27:55.26] [Find4QFE.cmd]  Offline QFE installation 
+[14:27:55.26] [Find4QFE.cmd] -------------------------------------------------- 
+[14:27:55.28] [Find4QFE.cmd]   
+[14:27:55.30] [Find4QFE.cmd]  Create ["C:\system.sav\Find4QFE.cmd.FAILURE.flg"] file... 
+[14:27:55.30] [Find4QFE.cmd]   
+[14:27:55.31] [Find4QFE.cmd]  Detect target drive for Sandbox... 
+[14:27:55.33] [Find4QFE.cmd]   
+[14:27:55.50] [Find4QFE.cmd]    Target drive = [C:] 
+[14:27:55.51] [Find4QFE.cmd]   
+[14:27:55.53] [Find4QFE.cmd]  Install QFEs under [C:\System.sav\FactoryUpdate\QFEs]... 
+[14:27:55.53] [Find4QFE.cmd]   
+[14:27:55.55] [Find4QFE.cmd]   
+[14:27:55.56] [Find4QFE.cmd]  Delete Sandbox... 
+[14:27:55.58] [Find4QFE.cmd]   
+[14:27:55.58] [Find4QFE.cmd]    ErrorLevel=[0] 
+[14:27:55.59] [Find4QFE.cmd]   
+[14:27:55.61] [Find4QFE.cmd]  Delete QFE folder [C:\System.sav\FactoryUpdate\QFEs]... 
+[14:27:55.61] [Find4QFE.cmd]   
+[14:27:55.62] [Find4QFE.cmd]    ErrorLevel=[0] 
+[14:27:55.64] [Find4QFE.cmd]   
+[14:27:55.64] [Find4QFE.cmd]  Check result for QFE installation... 
+[14:27:55.65] [Find4QFE.cmd]   
+[14:27:55.69] [Find4QFE.cmd]    ErrorLevel=[1] 
+[14:27:55.69] [Find4QFE.cmd]   
+[14:27:55.70] [Find4QFE.cmd]  Delete ["C:\system.sav\Find4QFE.cmd.FAILURE.flg"] file since no errors detected... 
+[14:27:55.72] [Find4QFE.cmd] -------------------------------------------------- 
+[14:27:55.73] [Find4QFE.cmd]  [Find4QFE.cmd] has completed... 
+[14:27:55.73] [Find4QFE.cmd] ************************************************** 
+[14:28:11.92] [HPEULA_Alignment.cmd] ************************************************** 
+[14:28:12.19] [HPEULA_Alignment.cmd]  [C:\hp\HPEULA\HPEULA_Alignment.cmd] has started... 
+[14:28:12.45] [HPEULA_Alignment.cmd] -------------------------------------------------- 
+[14:28:12.69] [HPEULA_Alignment.cmd]  [HP EULA] 
+[14:28:12.75] [HPEULA_Alignment.cmd]   This will get EULA type [McAfee/MS Sign/Normal]  
+[14:28:12.77] [HPEULA_Alignment.cmd]  as parameter to decide the source folder. 
+[14:28:12.78] [HPEULA_Alignment.cmd]  And, it refers Option Code to copy proper 
+[14:28:12.81] [HPEULA_Alignment.cmd]  EULA.rtf file[s] to proper folder. 
+[14:28:12.83] [HPEULA_Alignment.cmd] -------------------------------------------------- 
+[14:28:12.88] [HPEULA_Alignment.cmd]  EULA folder = [McAfee] is required... 
+[14:28:12.91] [HPEULA_Alignment.cmd]  Option Code = [ACJ]. 
+[14:28:12.95] [HPEULA_Alignment.cmd]   
+[14:28:12.97] [HPEULA_Alignment.cmd] -------------------------------------------------- 
+[14:28:12.99] [HPEULA_Alignment.cmd]  Source EULA path [C:\hp\HPEULA\McAfee\37\EULA.rtf] 
+[14:28:13.02] [HPEULA_Alignment.cmd]  Target path [ROOT] 
+[14:28:13.05] [HPEULA_Alignment.cmd]  Target is root.. 
+[14:28:13.06] [HPEULA_Alignment.cmd]  Target folder [C:\Windows\system32\oobe\info] 
+[14:28:13.08] [HPEULA_Alignment.cmd]   
+[14:28:13.14] [HPEULA_Alignment.cmd]  Run [cscript.exe /nologo C:\hp\HPEULA\UpdateXML.vbs C:\hp\HPEULA\McAfee\37\EULA.rtf C:\Windows\system32\oobe\info C:\hp\HPEULA\] 
+[14:28:13.33] [HPEULA_Alignment.cmd]   [C:\Windows\system32\oobe\info\EULA.rtf] is copied proerply... 
+[14:28:13.35] [HPEULA_Alignment.cmd]   OOBE.xml is updated proerply... 
+[14:28:13.37] [HPEULA_Alignment.cmd]   
+[14:28:13.40] [HPEULA_Alignment.cmd]  Copied EULA.rtf properly... delete ["C:\system.sav\HPEULA_Alignment.cmd.FAILURE.flg"] 
+[14:28:13.43] [HPEULA_Alignment.cmd] -------------------------------------------------- 
+[14:28:13.44] [HPEULA_Alignment.cmd]  RESULT=PASSED 
+[14:28:13.46] [HPEULA_Alignment.cmd] -------------------------------------------------- 
+[14:28:13.49] [HPEULA_Alignment.cmd]  [HPEULA_Alignment.cmd] has completed... 
+[14:28:13.51] [HPEULA_Alignment.cmd] ************************************************** 
+[14:28:19.71] [ChkError.cmd] ************************************************** 
+[14:28:19.72] [ChkError.cmd]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[14:28:19.72] [ChkError.cmd] -------------------------------------------------- 
+[14:28:19.74] [ChkError.cmd]  Check SW Error... 
+[14:28:19.75] [ChkError.cmd] -------------------------------------------------- 
+[14:28:19.75] [ChkError.cmd]   
+[14:28:19.77] [ChkError.cmd]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[14:28:19.77] [ChkError.cmd]   
+[14:28:19.79] [ChkError.cmd]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_FUpdate_END.log]... 
+[14:28:19.80] [ChkError.cmd]   
+[14:28:19.80] [ChkError.cmd]  Check 2nd parameter [PASS2FU] 
+[14:28:19.82] [ChkError.cmd]   
+[14:28:19.83] [ChkError.cmd]  Error Checking items : [MEMDUMP,REGDEV,TIMEOUT,BADLINE] 
+[14:28:19.85] [ChkError.cmd]  -------------------------------------------------- 
+[14:28:19.85] [ChkError.cmd]  Checking : Memory Dump 
+[14:28:19.86] [ChkError.cmd]    Could not find memory dump... 
+[14:28:19.88] [ChkError.cmd]   
+[14:28:19.88] [ChkError.cmd]  [DumpFile] 
+[14:28:19.89] [ChkError.cmd]  Result=PASSED 
+[14:28:19.91] [ChkError.cmd]  -------------------------------------------------- 
+[14:28:19.93] [ChkError.cmd]  Checking : Yellow-Bang 
+[14:28:19.93] [ChkError.cmd]   
+[14:28:19.94] [ChkError.cmd]  This is under WinPE environment... 
+[14:28:19.96] [ChkError.cmd]  Skip Yellow-bang checking... 
+[14:28:19.96] [ChkError.cmd]  [RegistryDevicesCheck] 
+[14:28:19.97] [ChkError.cmd]  Result=IGNORED_BECAUSE_WINPE_ENV 
+[14:28:19.99] [ChkError.cmd]  -------------------------------------------------- 
+[14:28:20.00] [ChkError.cmd]  Checking : Timeout in INSTALL.log 
+[14:28:20.00] [ChkError.cmd]   
+[14:28:20.02] [ChkError.cmd]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[14:28:20.52] [ChkError.cmd]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[14:28:21.00] [ChkError.cmd]   There is NO timeout in install.log file. 
+[14:28:21.02] [ChkError.cmd]   
+[14:28:21.04] [ChkError.cmd]  [TIMEOUT] 
+[14:28:21.04] [ChkError.cmd]  Result=PASSED 
+[14:28:21.05] [ChkError.cmd]  -------------------------------------------------- 
+[14:28:21.07] [ChkError.cmd]  Checking : Bad Line in INSTALL.log 
+[14:28:21.08] [ChkError.cmd]   
+[14:28:21.08] [ChkError.cmd]  Run [cscript.exe c:\System.sav\ExitProc\ErrorChk\BadLine.vbs] 
+[14:28:21.32] [ChkError.cmd]   No BadLine in install.log file. 
+[14:28:21.33] [ChkError.cmd]   
+[14:28:21.33] [ChkError.cmd]  [BADLINE] 
+[14:28:21.35] [ChkError.cmd]  Result=PASSED 
+[14:28:21.36] [ChkError.cmd]   
+[14:28:21.36] [ChkError.cmd]  -------------------------------------------------- 
+[14:28:21.38] [ChkError.cmd]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[14:28:21.39] [ChkError.cmd]   
+[14:28:21.41] [ChkError.cmd]    No SW issue found... 
+[14:28:21.41] [ChkError.cmd]   
+[14:28:21.43] [ChkError.cmd] -------------------------------------------------- 
+[14:28:21.44] [ChkError.cmd]  [ChkError.cmd] has completed... 
+[14:28:21.44] [ChkError.cmd] ************************************************** 
+[14:28:24.48] [ResetLoc.cmd] ************************************************** 
+[14:28:24.49] [ResetLoc.cmd]  [C:\SYSTEM.SAV\FactoryUpdate\ResetLoc.cmd] has started... 
+[14:28:24.51] [ResetLoc.cmd] -------------------------------------------------- 
+[14:28:24.51] [ResetLoc.cmd]  Reset locale 
+[14:28:24.52] [ResetLoc.cmd] -------------------------------------------------- 
+[14:28:24.54] [ResetLoc.cmd]   
+[14:28:24.54] [ResetLoc.cmd]  Create ["C:\system.sav\ResetLoc.cmd.FAILURE.flg"]... 
+[14:28:24.82] [ResetLoc.cmd]  System BCD exists... 
+The operation completed successfully.
+The operation completed successfully.
+[14:28:25.12] [ResetLoc.cmd]   
+[14:28:25.13] [ResetLoc.cmd]  Run [bcdedit.exe /enum all] 
+[14:28:25.13] [ResetLoc.cmd] -------------------------------------------------- 
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {bootmgr}
+                        {f5661e9c-133a-11e7-9176-705a0f8492be}
+                        {f5661e32-133a-11e7-9176-705a0f8492be}
+                        {f5661e9a-133a-11e7-9176-705a0f8492be}
+                        {f5661e9b-133a-11e7-9176-705a0f8492be}
+                        {f5661e2d-133a-11e7-9176-705a0f8492be}
+                        {f5661e2e-133a-11e7-9176-705a0f8492be}
+timeout                 5
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=S:
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {default}
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+displayorder            {default}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2d-133a-11e7-9176-705a0f8492be}
+description             USB Drive (UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2e-133a-11e7-9176-705a0f8492be}
+description             Internal CD/DVD ROM Drive (UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e30-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e31-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e32-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e33-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e34-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e35-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e36-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e37-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e38-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e39-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e40-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e41-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e42-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e43-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e44-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e45-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e46-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e47-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e48-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e49-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e50-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e51-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e52-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e53-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e54-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e55-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e56-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e57-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e58-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e59-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e60-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e61-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e62-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e63-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e64-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e65-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e66-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e67-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e68-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e69-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e70-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e71-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e72-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e73-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e74-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e75-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e76-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e77-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e78-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e79-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e80-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e81-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e82-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e83-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e84-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e85-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e86-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e87-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e88-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e89-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e90-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e91-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e92-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e93-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e94-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e95-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e96-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e97-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e98-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e99-133a-11e7-9176-705a0f8492be}
+description             Notebook Hard Drive
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e9a-133a-11e7-9176-705a0f8492be}
+description             Network Adapter (IPv4 UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e9b-133a-11e7-9176-705a0f8492be}
+description             Network Adapter (IPv6 UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e9d-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  partition=C:
+path                    \windows\system32\winload.efi
+description             Windows 10
+locale                  en-US
+inherit                 {bootloadersettings}
+recoverysequence        {f5661e9e-133a-11e7-9176-705a0f8492be}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                partition=C:
+systemroot              \windows
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+nx                      OptIn
+bootmenupolicy          Standard
+
+Windows Boot Loader
+-------------------
+identifier              {f5661e9e-133a-11e7-9176-705a0f8492be}
+device                  ramdisk=[W:]\Recovery\WindowsRE\Winre.wim,{f5661e9f-133a-11e7-9176-705a0f8492be}
+path                    \windows\system32\winload.efi
+description             Windows Recovery Environment
+locale                  en-us
+inherit                 {bootloadersettings}
+displaymessage          Recovery
+osdevice                ramdisk=[W:]\Recovery\WindowsRE\Winre.wim,{f5661e9f-133a-11e7-9176-705a0f8492be}
+systemroot              \windows
+nx                      OptIn
+bootmenupolicy          Standard
+winpe                   Yes
+
+Resume from Hibernate
+---------------------
+identifier              {f5661e2b-133a-11e7-9176-705a0f8492be}
+device                  partition=C:
+path                    \windows\system32\winresume.efi
+description             Windows Resume Application
+locale                  en-us
+inherit                 {resumeloadersettings}
+recoverysequence        {f5661e9e-133a-11e7-9176-705a0f8492be}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+filepath                \hiberfil.sys
+bootmenupolicy          Standard
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  partition=S:
+path                    \EFI\Microsoft\Boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-us
+inherit                 {globalsettings}
+badmemoryaccess         Yes
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 No
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Local
+
+RAM Defects
+-----------
+identifier              {badmemory}
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+                        {badmemory}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Resume Loader Settings
+----------------------
+identifier              {resumeloadersettings}
+inherit                 {globalsettings}
+
+Device options
+--------------
+identifier              {f5661e9f-133a-11e7-9176-705a0f8492be}
+description             Windows Recovery
+ramdisksdidevice        partition=W:
+ramdisksdipath          \Recovery\WindowsRE\boot.sdi
+[14:28:25.39] [ResetLoc.cmd] -------------------------------------------------- 
+[14:28:25.39] [ResetLoc.cmd]   
+[14:28:25.41] [ResetLoc.cmd]  Delete ["C:\system.sav\ResetLoc.cmd.FAILURE.flg"]... 
+[14:28:25.41] [ResetLoc.cmd] -------------------------------------------------- 
+[14:28:25.42] [ResetLoc.cmd]  [ResetLoc.cmd] has completed... 
+[14:28:25.44] [ResetLoc.cmd] ************************************************** 
+[14:28:30.42] [ActiveSP.cmd] ************************************************** 
+[14:28:30.42] [ActiveSP.cmd]  [ActiveSP.cmd] has started... 
+[14:28:30.44] [ActiveSP.cmd] -------------------------------------------------- 
+[14:28:30.45] [ActiveSP.cmd]  Active System Parition... 
+[14:28:30.45] [ActiveSP.cmd] -------------------------------------------------- 
+[14:28:30.47] [ActiveSP.cmd]   
+[14:28:30.49] [ActiveSP.cmd]  Create ["C:\system.sav\ActiveSP.cmd.FAILURE.flg"] file... 
+[14:28:30.49] [ActiveSP.cmd]   
+[14:28:30.50] [ActiveSP.cmd]  Active ESP... 
+[14:28:30.50] [ActiveSP.cmd]   
+[14:28:30.55] [DrvLtr2ESP.cmd] ************************************************** 
+[14:28:30.55] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[14:28:30.56] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[14:28:30.58] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[14:28:30.58] [DrvLtr2ESP.cmd]   
+[14:28:30.59] [DrvLtr2ESP.cmd]   
+[14:28:30.61] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[14:28:30.61] [DrvLtr2ESP.cmd]   
+[14:28:30.81] [DrvLtr2ESP.cmd]  ESP partition index = [2] 
+[14:28:30.81] [DrvLtr2ESP.cmd]  ESP drive letter = [S:] 
+[14:28:30.83] [DrvLtr2ESP.cmd]   
+[14:28:30.84] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[14:28:30.84] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MININT-HMF7FC9
+
+Volume 1 is the selected volume.
+
+Partition 2 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 7    Primary            630 MB   454 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Pagefile
+  Volume 2     Q   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+DiskPart successfully removed the drive letter or mount point.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 2    System             260 MB  1024 KB
+  Partition 1    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 7    Primary            630 MB   454 GB
+  Partition 6    Recovery           980 MB   454 GB
+  Partition 5    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Pagefile
+  Volume 2     Q   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     R   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     R   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+[14:28:31.91] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[14:28:31.91] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:28:31.92] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[14:28:31.94] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[14:28:31.94] [DrvLtr2ESP.cmd] ************************************************** 
+[14:28:31.98] [ActiveSP.cmd]  Active ESP successfully. 
+[14:28:31.98] [ActiveSP.cmd]   
+[14:28:32.00] [ActiveSP.cmd]  Inactive BP... 
+[14:28:32.02] [ActiveSP.cmd]   
+[14:28:32.06] [ActiveSP.cmd]  BP drive letter = [Q:] 
+        1 dir(s) moved.
+[14:28:32.08] [ActiveSP.cmd]  Inactive BP successfully. 
+[14:28:32.09] [ActiveSP.cmd]   
+[14:28:32.09] [ActiveSP.cmd]  Delete ["C:\system.sav\ActiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[14:28:32.11] [ActiveSP.cmd] -------------------------------------------------- 
+[14:28:32.13] [ActiveSP.cmd]  [ActiveSP.cmd] has completed... 
+[14:28:32.13] [ActiveSP.cmd] ************************************************** 
+[14:28:39.41] [DumpBCD.cmd] ************************************************** 
+[14:28:39.41] [DumpBCD.cmd]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBCD.cmd] has started... 
+[14:28:39.42] [DumpBCD.cmd] -------------------------------------------------- 
+[14:28:39.44] [DumpBCD.cmd]  STAGE : [PASS2_FUPDATE_EUE] 
+[14:28:39.44] [DumpBCD.cmd]   Dump BCD... 
+[14:28:39.45] [DumpBCD.cmd] -------------------------------------------------- 
+[14:28:39.45] [DumpBCD.cmd]   
+[14:28:39.47] [DumpBCD.cmd]   
+[14:28:40.02] [DumpBCD.cmd]   
+[14:28:40.02] [DumpBCD.cmd] -------------------------------------------------- 
+[14:28:40.03] [DumpBCD.cmd]  [DumpBCD.cmd] has completed... 
+[14:28:40.03] [DumpBCD.cmd] ************************************************** 
+[ 4:20:02.94] [DumpBCD.cmd] ************************************************** 
+[ 4:20:03.02] [DumpBCD.cmd]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBCD.cmd] has started... 
+[ 4:20:03.04] [DumpBCD.cmd] -------------------------------------------------- 
+[ 4:20:03.07] [DumpBCD.cmd]  STAGE : [PASS2_BBV1] 
+[ 4:20:03.10] [DumpBCD.cmd]   Dump BCD... 
+[ 4:20:03.13] [DumpBCD.cmd] -------------------------------------------------- 
+[ 4:20:03.15] [DumpBCD.cmd]   
+[ 4:20:03.18] [DumpBCD.cmd]   
+[ 4:20:04.47] [DumpBCD.cmd]   
+[ 4:20:04.51] [DumpBCD.cmd] -------------------------------------------------- 
+[ 4:20:04.52] [DumpBCD.cmd]  [DumpBCD.cmd] has completed... 
+[ 4:20:04.55] [DumpBCD.cmd] ************************************************** 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\
+
+07/16/2016  04:43 AM                 1 BOOTNXT
+03/28/2017  04:17 AM     1,048,576,000 pagefile.sys
+03/28/2017  04:17 AM       268,435,456 swapfile.sys
+               3 File(s)  1,317,011,457 bytes
+               0 Dir(s)  465,803,083,776 bytes free
+[ 4:20:11.71] [ChkBiosKey.cmd] ************************************************** 
+[ 4:20:11.79] [ChkBiosKey.cmd]  [c:\SYSTEM.SAV\ExitProc\ChkBiosKey.cmd] has started... 
+[ 4:20:11.87] [ChkBiosKey.cmd] -------------------------------------------------- 
+[ 4:20:11.93] [ChkBiosKey.cmd]   
+[ 4:20:12.00] [ChkBiosKey.cmd]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[ 4:20:12.06] [ChkBiosKey.cmd]    Workaround for BCU to run WMI service... 
+[ 4:20:12.12] [ChkBiosKey.cmd]   
+[ 4:20:16.34] [ChkBiosKey.cmd]   
+[ 4:20:16.40] [ChkBiosKey.cmd]  Key enrollment checking... 
+[ 4:20:16.45] [ChkBiosKey.cmd]   
+[ 4:20:18.43] [ChkBiosKey.cmd]    KeyType=[HP] 
+[ 4:20:18.50] [ChkBiosKey.cmd]   
+[ 4:20:18.54] [ChkBiosKey.cmd]  Check BIOS platform key 
+[ 4:20:18.57] [ChkBiosKey.cmd]   
+[ 4:20:18.64] [ChkBiosKey.cmd]   
+[ 4:20:18.68] [ChkBiosKey.cmd]  BIOS key is enrolled. 
+[ 4:20:18.73] [ChkBiosKey.cmd]   
+[ 4:20:18.78] [ChkBiosKey.cmd]  Delete ["C:\system.sav\ChkBiosKey.cmd.FAILURE.flg"] file since no error detected... 
+[ 4:20:18.85] [ChkBiosKey.cmd] -------------------------------------------------- 
+[ 4:20:18.90] [ChkBiosKey.cmd]  [ChkBiosKey.cmd] has completed... 
+[ 4:20:18.95] [ChkBiosKey.cmd] ************************************************** 
+[ 4:20:29.53] [DumpBCD.cmd] ************************************************** 
+[ 4:20:29.57] [DumpBCD.cmd]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBCD.cmd] has started... 
+[ 4:20:29.60] [DumpBCD.cmd] -------------------------------------------------- 
+[ 4:20:29.61] [DumpBCD.cmd]  STAGE : [PASS2_OSUPDATE_PI] 
+[ 4:20:29.64] [DumpBCD.cmd]   Dump BCD... 
+[ 4:20:29.66] [DumpBCD.cmd] -------------------------------------------------- 
+[ 4:20:29.69] [DumpBCD.cmd]   
+[ 4:20:29.72] [DumpBCD.cmd]   
+[ 4:20:30.91] [DumpBCD.cmd]   
+[ 4:20:30.97] [DumpBCD.cmd] -------------------------------------------------- 
+[ 4:20:31.02] [DumpBCD.cmd]  [DumpBCD.cmd] has completed... 
+[ 4:20:31.07] [DumpBCD.cmd] ************************************************** 
+[ 4:20:33.92] [DelPF4WPE.cmd] ************************************************** 
+[ 4:20:33.93] [DelPF4WPE.cmd]  [DelPF4WPE.cmd] has started... 
+[ 4:20:33.98] [DelPF4WPE.cmd] -------------------------------------------------- 
+[ 4:20:34.00] [DelPF4WPE.cmd]  Delete pagefile for WinPE use 
+[ 4:20:34.03] [DelPF4WPE.cmd] -------------------------------------------------- 
+[ 4:20:34.06] [DelPF4WPE.cmd]   
+[ 4:20:34.07] [DelPF4WPE.cmd]  Create ["C:\system.sav\DelPF4WPE.cmd.FAILURE.flg"] file... 
+[ 4:20:34.12] [DelPF4WPE.cmd]   
+[ 4:20:34.14] [DelPF4WPE.cmd]  Detect target drive for WinPE pagefile... 
+[ 4:20:34.17] [DelPF4WPE.cmd]   
+[ 4:20:34.82] [DelPF4WPE.cmd]  Target drive = [C:] 
+[ 4:20:34.86] [DelPF4WPE.cmd]   
+[ 4:20:34.87] [DelPF4WPE.cmd]  Delete pagefile for WinPE... 
+[ 4:20:34.90] [DelPF4WPE.cmd]   
+[ 4:20:34.98] [DelPF4WPE.cmd]    ErrorLevel=[0] 
+[ 4:20:35.00] [DelPF4WPE.cmd]    ErrorLevel=[0] 
+[ 4:20:35.03] [DelPF4WPE.cmd]   
+[ 4:20:35.04] [DelPF4WPE.cmd]  Delete ["C:\system.sav\DelPF4WPE.cmd.FAILURE.flg"] file since no errors detected... 
+[ 4:20:35.09] [DelPF4WPE.cmd] -------------------------------------------------- 
+[ 4:20:35.12] [DelPF4WPE.cmd]  [DelPF4WPE.cmd] has completed... 
+[ 4:20:35.15] [DelPF4WPE.cmd] ************************************************** 
+[ 4:20:36.73] [ExtMSC.cmd] ************************************************** 
+[ 4:20:36.75] [ExtMSC.cmd]  [c:\SYSTEM.SAV\bbv\ExtMSC.cmd] has started... 
+[ 4:20:36.78] [ExtMSC.cmd] -------------------------------------------------- 
+[ 4:20:36.81] [ExtMSC.cmd]  check [C:\System.sav\flags\EnableDebugMode.flg] ... 
+[ 4:20:36.82] [ExtMSC.cmd] -------------------------------------------------- 
+[ 4:20:36.84] [ExtMSC.cmd]  No [C:\System.sav\flags\EnableDebugMode.flg] ... EXIT... 
+[ 4:20:38.23] [PreBBV1Cln.cmd] ************************************************** 
+[ 4:20:38.25] [PreBBV1Cln.cmd]  [C:\SYSTEM.SAV\bbv\PreBBV1Cln.cmd] has started... 
+[ 4:20:38.28] [PreBBV1Cln.cmd] -------------------------------------------------- 
+[ 4:20:38.29] [PreBBV1Cln.cmd]  Delete C:\FILTERED folder 
+[ 4:20:38.32] [PreBBV1Cln.cmd] -------------------------------------------------- 
+[ 4:20:38.36] [PreBBV1Cln.cmd]   
+[ 4:20:38.39] [PreBBV1Cln.cmd]  Check if [C:\FILTERED] exists... 
+[ 4:20:38.40] [PreBBV1Cln.cmd]    [C:\FILTERED] folder... Exit 
+[ 4:20:38.43] [PreBBV1Cln.cmd] -------------------------------------------------- 
+[ 4:20:38.47] [PreBBV1Cln.cmd]  [PreBBV1Cln.cmd] has completed... 
+[ 4:20:38.48] [PreBBV1Cln.cmd] ************************************************** 
+[ 4:31:40.97] [PreBBV2.cmd] ************************************************** 
+[ 4:31:41.04] [PreBBV2.cmd]  [C:\SYSTEM.SAV\bbv\PreBBV2.cmd] has started... 
+[ 4:31:41.05] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:41.07] [PreBBV2.cmd]   
+[ 4:31:41.10] [PreBBV2.cmd]  Create ["C:\system.sav\PreBBV2.cmd.FAILURE.flg"]... 
+[ 4:31:41.12] [PreBBV2.cmd]   
+[ 4:31:41.15] [PreBBV2.cmd]   
+[ 4:31:41.16] [PreBBV2.cmd]  Set UIA Error Code to 954. 
+[ 4:31:42.18] [PreBBV2.cmd]   
+[ 4:31:42.19] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:42.22] [PreBBV2.cmd]   
+[ 4:31:42.24] [PreBBV2.cmd]  Check Error for PININST_BBV.... 
+[ 4:31:42.47] [ChkError.cmd] ************************************************** 
+[ 4:31:42.52] [ChkError.cmd]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[ 4:31:42.54] [ChkError.cmd] -------------------------------------------------- 
+[ 4:31:42.55] [ChkError.cmd]  Check SW Error... 
+[ 4:31:42.57] [ChkError.cmd] -------------------------------------------------- 
+[ 4:31:42.58] [ChkError.cmd]   
+[ 4:31:42.62] [ChkError.cmd]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[ 4:31:42.63] [ChkError.cmd]   
+[ 4:31:42.65] [ChkError.cmd]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_BBV1.log]... 
+[ 4:31:42.66] [ChkError.cmd]   
+[ 4:31:42.68] [ChkError.cmd]  Check 2nd parameter [PASS2AFTERBBV1] 
+[ 4:31:42.71] [ChkError.cmd]   
+[ 4:31:42.72] [ChkError.cmd]  Error Checking items : [MEMDUMP,APPSLOG,TIMEOUT] 
+[ 4:31:42.74] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:31:42.77] [ChkError.cmd]  Checking : Memory Dump 
+[ 4:31:42.79] [ChkError.cmd]    Could not find memory dump... 
+[ 4:31:42.80] [ChkError.cmd]   
+[ 4:31:42.82] [ChkError.cmd]  [DumpFile] 
+[ 4:31:42.83] [ChkError.cmd]  Result=PASSED 
+[ 4:31:42.87] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:31:42.88] [ChkError.cmd]  Checking : Apps' log 
+[ 4:31:42.90] [ChkError.cmd]   
+[ 4:31:45.74] [ChkError.cmd]  [AppsLog] 
+[ 4:31:45.85] [ChkError.cmd]  Result=PASSED 
+[ 4:31:45.97] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:31:46.08] [ChkError.cmd]  Checking : Timeout in INSTALL.log 
+[ 4:31:46.19] [ChkError.cmd]   
+[ 4:31:46.30] [ChkError.cmd]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[ 4:31:47.68] [ChkError.cmd]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[ 4:31:48.04] [ChkError.cmd]   There is NO timeout in install.log file. 
+[ 4:31:48.15] [ChkError.cmd]   
+[ 4:31:48.26] [ChkError.cmd]  [TIMEOUT] 
+[ 4:31:48.38] [ChkError.cmd]  Result=PASSED 
+[ 4:31:48.52] [ChkError.cmd]   
+[ 4:31:48.62] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:31:48.72] [ChkError.cmd]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[ 4:31:48.87] [ChkError.cmd]   
+[ 4:31:48.96] [ChkError.cmd]    No SW issue found... 
+[ 4:31:49.07] [ChkError.cmd]   
+[ 4:31:49.18] [ChkError.cmd] -------------------------------------------------- 
+[ 4:31:49.29] [ChkError.cmd]  [ChkError.cmd] has completed... 
+[ 4:31:49.40] [ChkError.cmd] ************************************************** 
+[ 4:31:49.55] [PreBBV2.cmd]   
+[ 4:31:49.58] [PreBBV2.cmd]   
+[ 4:31:49.60] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:49.63] [PreBBV2.cmd]  Disable Hibernation... 
+[ 4:31:49.65] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:49.66] [PreBBV2.cmd]   
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\
+
+07/16/2016  04:43 AM                 1 BOOTNXT
+03/28/2017  04:30 AM     1,048,576,000 pagefile.sys
+03/28/2017  04:30 AM       268,435,456 swapfile.sys
+               3 File(s)  1,317,011,457 bytes
+               0 Dir(s)  464,395,845,632 bytes free
+[ 4:31:49.76] [PreBBV2.cmd]   
+[ 4:31:49.77] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:49.79] [PreBBV2.cmd]   
+[ 4:31:49.80] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:49.82] [PreBBV2.cmd]  Drive Space at BBV2. 
+[ 4:31:49.83] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:51.49] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:51.52] [PreBBV2.cmd]  Create RStone_BBV2.INI at BBV2. 
+[ 4:31:51.54] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:54.38] [PreBBV2.cmd] FeatureByteBrandName from RStone.ini is HPB. 
+[ 4:31:54.41] [PreBBV2.cmd]   
+[ 4:31:54.43] [PreBBV2.cmd]  Delete ["C:\system.sav\PreBBV2.cmd.FAILURE.flg"] because no error detected... 
+[ 4:31:54.46] [PreBBV2.cmd] -------------------------------------------------- 
+[ 4:31:54.48] [PreBBV2.cmd]  [PreBBV2.cmd] has completed... 
+[ 4:31:54.49] [PreBBV2.cmd] ************************************************** 
+[ 4:31:55.81] [ExtMSC.cmd] ************************************************** 
+[ 4:31:55.82] [ExtMSC.cmd]  [c:\SYSTEM.SAV\bbv\ExtMSC.cmd] has started... 
+[ 4:31:55.84] [ExtMSC.cmd] -------------------------------------------------- 
+[ 4:31:55.87] [ExtMSC.cmd]  check [C:\System.sav\flags\EnableDebugMode.flg] ... 
+[ 4:31:55.88] [ExtMSC.cmd] -------------------------------------------------- 
+[ 4:31:55.90] [ExtMSC.cmd]  No [C:\System.sav\flags\EnableDebugMode.flg] ... EXIT... 
+[ 4:37:41.95] [OA3OptInfo.cmd] ************************************************** 
+[ 4:37:41.98] [OA3OptInfo.cmd]  [C:\SYSTEM.SAV\bbv\OA3OptInfo.cmd] has started... 
+[ 4:37:41.99] [OA3OptInfo.cmd] -------------------------------------------------- 
+[ 4:37:42.01] [OA3OptInfo.cmd]   Initialize the default value to set... 
+[ 4:37:42.03] [OA3OptInfo.cmd] -------------------------------------------------- 
+[ 4:37:42.15] [OA3OptInfo.cmd]   
+[ 4:37:42.16] [OA3OptInfo.cmd]  Detect MS Office HP PN... 
+[ 4:37:42.18] [OA3OptInfo.cmd]   
+[ 4:37:42.19] [OA3OptInfo.cmd]  Detect FORMFACTOR_CL1 and FORMFACTOR_CL2... 
+[ 4:37:42.22] [OA3OptInfo.cmd]    Proper FB was found for FORMFACTOR_CL1... 
+[ 4:37:42.24] [OA3OptInfo.cmd]   
+[ 4:37:42.37] [OA3OptInfo.cmd]    Found [#] mark in [1ZX23PC#ACJ] 
+[ 4:37:42.38] [OA3OptInfo.cmd]   
+[ 4:37:42.40] [OA3OptInfo.cmd]    PRODNUM    =[1ZX23PC#ACJ] 
+[ 4:37:42.41] [OA3OptInfo.cmd]    SKUNUMBER  =[1ZX23PC] 
+[ 4:37:42.43] [OA3OptInfo.cmd]    SKUOPTCFG  =[ACJ] 
+[ 4:37:42.44] [OA3OptInfo.cmd]    MODELSKU   =[1ZX23PC-ACJ] 
+[ 4:37:42.47] [OA3OptInfo.cmd]    SYSID      =[81E5] 
+[ 4:37:42.49] [OA3OptInfo.cmd]    MARKETNAME =[HP 245 G5 Notebook PC] 
+[ 4:37:42.51] [OA3OptInfo.cmd]   
+[ 4:37:43.20] [OA3OptInfo.cmd]   
+[ 4:37:43.21] [OA3OptInfo.cmd]  Output to [c:\system.sav\WDT\ShareData.ini] 
+[ 4:37:43.23] [OA3OptInfo.cmd]   
+[ 4:37:43.68] [OA3OptInfo.cmd]    Single FormFactor's FB was set... PASSED. 
+[ 4:37:43.71] [OA3OptInfo.cmd] -------------------------------------------------- 
+[ 4:37:43.73] [OA3OptInfo.cmd]  [OA3OptInfo.cmd] has completed... 
+[ 4:37:43.75] [OA3OptInfo.cmd] ************************************************** 
+[ 4:37:48.63] [UpdModel.cmd] ************************************************** 
+[ 4:37:48.65] [UpdModel.cmd]  [c:\SYSTEM.SAV\bbv\UpdModel.cmd] has started... 
+[ 4:37:48.66] [UpdModel.cmd] -------------------------------------------------- 
+[ 4:37:48.68] [UpdModel.cmd]  Check if MLGM is required. 
+[ 4:37:48.70] [UpdModel.cmd]   also, check if MLGM without 1st GS for RD. 
+[ 4:37:48.71] [UpdModel.cmd] -------------------------------------------------- 
+[ 4:37:48.73] [UpdModel.cmd]   
+[ 4:37:48.82] [UpdModel.cmd] -------------------------------------------------- 
+[ 4:37:48.84] [UpdModel.cmd]  [UpdModel.cmd] has completed... 
+[ 4:37:48.85] [UpdModel.cmd] ************************************************** 
+[ 4:37:54.96] [BBV2_EUE.cmd] ************************************************** 
+[ 4:37:54.97] [BBV2_EUE.cmd]  [C:\SYSTEM.SAV\bbv\BBV2_EUE.cmd] has started... 
+[ 4:37:54.99] [BBV2_EUE.cmd] -------------------------------------------------- 
+[ 4:37:55.00] [BBV2_EUE.cmd]  Looking for *.cmd in [C:\system.sav\P2PP\BBV2.eue] folder... 
+[ 4:37:55.02] [BBV2_EUE.cmd] -------------------------------------------------- 
+[ 4:37:55.04] [BBV2_EUE.cmd]   
+[ 4:37:55.05] [BBV2_EUE.cmd]   Start:  [C:\system.sav\P2PP\BBV2.eue\install.cmd] 
+[ 4:43:47.65] [BBV2_EUE.cmd]   Finish: [C:\system.sav\P2PP\BBV2.eue\install.cmd] 
+[ 4:43:47.68] [BBV2_EUE.cmd]   
+[ 4:43:47.71] [BBV2_EUE.cmd]   All *.cmd in [C:\system.sav\P2PP\BBV2.eue] folder have been called. 
+[ 4:43:47.75] [BBV2_EUE.cmd]   
+[ 4:43:47.79] [BBV2_EUE.cmd] -------------------------------------------------- 
+[ 4:43:47.82] [BBV2_EUE.cmd]  Error checking 
+[ 4:43:47.85] [BBV2_EUE.cmd]  Looking for *.log in [C:\system.sav\Logs\BB] folder... 
+[ 4:43:47.89] [BBV2_EUE.cmd] -------------------------------------------------- 
+[ 4:43:47.93] [BBV2_EUE.cmd]   
+[ 4:43:47.98] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\CPUFlag.LOG] is found. 
+[ 4:43:48.09] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\CUST_WAV.LOG] is found. 
+[ 4:43:48.18] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\DisableService.LOG] is found. 
+[ 4:43:48.26] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\ImageDiag_EarlyStage.LOG] is found. 
+[ 4:43:48.34] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\MSAppsOrder.LOG] is found. 
+[ 4:43:48.42] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\Ngen.LOG] is found. 
+[ 4:43:48.50] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\OCAMark.log] is found. 
+[ 4:43:48.56] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P006MAB2.LOG] is found. 
+[ 4:43:48.64] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P009C2B2.LOG] is found. 
+[ 4:43:48.72] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00EDUB2.LOG] is found. 
+[ 4:43:48.81] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00F6BB2.LOG] is found. 
+[ 4:43:48.87] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00GXSB2.LOG] is found. 
+[ 4:43:48.97] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00H08B2.LOG] is found. 
+[ 4:43:49.05] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00HUYB2.LOG] is found. 
+[ 4:43:49.12] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00HV0B2.LOG] is found. 
+[ 4:43:49.20] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00KTXB2.LOG] is found. 
+[ 4:43:49.28] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00L6EB2.LOG] is found. 
+[ 4:43:49.36] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00LDMB2.LOG] is found. 
+[ 4:43:49.42] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00LEXB2.LOG] is found. 
+[ 4:43:49.50] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00LMKB2.LOG] is found. 
+[ 4:43:49.58] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00LUTB2.LOG] is found. 
+[ 4:43:49.66] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00MGEB2.LOG] is found. 
+[ 4:43:49.73] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00N20B2.LOG] is found. 
+[ 4:43:49.81] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00N24B2.LOG] is found. 
+[ 4:43:49.89] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00N3DB2.LOG] is found. 
+[ 4:43:49.97] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00N3EB2.LOG] is found. 
+[ 4:43:50.06] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00N4KB2.LOG] is found. 
+[ 4:43:50.14] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00N89B2.LOG] is found. 
+[ 4:43:50.22] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00NBCB2.LOG] is found. 
+[ 4:43:50.28] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00NC3B2.LOG] is found. 
+[ 4:43:50.37] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00NZ8B2.LOG] is found. 
+[ 4:43:50.45] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00P5S00.LOG] is found. 
+[ 4:43:50.53] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00P62B2.LOG] is found. 
+[ 4:43:50.61] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PABB2.LOG] is found. 
+[ 4:43:50.69] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PF9B2.LOG] is found. 
+[ 4:43:50.78] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PK5B2.LOG] is found. 
+[ 4:43:50.86] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PL3B2.LOG] is found. 
+[ 4:43:50.94] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PSCB2.LOG] is found. 
+[ 4:43:51.02] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PUTB2.LOG] is found. 
+[ 4:43:51.08] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PWMB2.LOG] is found. 
+[ 4:43:51.16] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00PZGB2.LOG] is found. 
+[ 4:43:51.24] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\P00Q5XB2.LOG] is found. 
+[ 4:43:51.31] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\WallpaperOk.log] is found. 
+[ 4:43:51.39] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\WinPE_DRV.LOG] is found. 
+[ 4:43:51.47] [BBV2_EUE.cmd]  [C:\system.sav\Logs\BB\Win_Offline.LOG] is found. 
+[ 4:43:51.53] [BBV2_EUE.cmd]  All *.log in [C:\system.sav\Logs\BB] folder has been scanned. 
+[ 4:43:51.58] [BBV2_EUE.cmd] Create C:\system.sav\P2PP\BBV2.eue\BBV2.eue.don 
+[ 4:43:51.63] [BBV2_EUE.cmd] -------------------------------------------------- 
+[ 4:43:51.66] [BBV2_EUE.cmd]  [BBV2_EUE.cmd] has completed... 
+[ 4:43:51.69] [BBV2_EUE.cmd] ************************************************** 
+[ 4:45:59.23] [PostPININST_BBV.cmd] ************************************************** 
+[ 4:45:59.28] [PostPININST_BBV.cmd]  [C:\SYSTEM.SAV\bbv\PostPININST_BBV.cmd] has started... 
+[ 4:45:59.31] [PostPININST_BBV.cmd] -------------------------------------------------- 
+[ 4:45:59.32] [PostPININST_BBV.cmd]   
+[ 4:45:59.35] [PostPININST_BBV.cmd]  Create FAILURE.flg for this batch file... 
+[ 4:45:59.37] [PostPININST_BBV.cmd]   
+[ 4:45:59.39] [PostPININST_BBV.cmd]  Set UIA Error Code to 956. 
+[ 4:46:00.65] [PostPININST_BBV.cmd]   
+[ 4:46:00.68] [PostPININST_BBV.cmd]  Delete ["C:\system.sav\PostPININST_BBV.cmd.FAILURE.flg"] file... since the command reached here... 
+[ 4:46:00.71] [PostPININST_BBV.cmd] -------------------------------------------------- 
+[ 4:46:00.73] [PostPININST_BBV.cmd]  [PostPININST_BBV.cmd] has completed... 
+[ 4:46:00.76] [PostPININST_BBV.cmd] ************************************************** 
+[ 4:50:40.74] [ChkError.cmd] ************************************************** 
+[ 4:50:40.80] [ChkError.cmd]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[ 4:50:40.82] [ChkError.cmd] -------------------------------------------------- 
+[ 4:50:40.84] [ChkError.cmd]  Check SW Error... 
+[ 4:50:40.87] [ChkError.cmd] -------------------------------------------------- 
+[ 4:50:40.88] [ChkError.cmd]   
+[ 4:50:40.90] [ChkError.cmd]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[ 4:50:40.93] [ChkError.cmd]   
+[ 4:50:40.95] [ChkError.cmd]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_BBVClean.log]... 
+[ 4:50:40.98] [ChkError.cmd]   
+[ 4:50:40.99] [ChkError.cmd]  Check 2nd parameter [BBVClean] 
+[ 4:50:41.02] [ChkError.cmd]   
+[ 4:50:41.04] [ChkError.cmd]  Error Checking items : [MEMDUMP,APPSLOG,REGDEV,TIMEOUT,WINSAT,FAILUREFLG] 
+[ 4:50:41.07] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:50:41.09] [ChkError.cmd]  Checking : Memory Dump 
+[ 4:50:41.12] [ChkError.cmd]    Could not find memory dump... 
+[ 4:50:41.13] [ChkError.cmd]   
+[ 4:50:41.16] [ChkError.cmd]  [DumpFile] 
+[ 4:50:41.18] [ChkError.cmd]  Result=PASSED 
+[ 4:50:41.23] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:50:41.24] [ChkError.cmd]  Checking : Apps' log 
+[ 4:50:41.26] [ChkError.cmd]   
+[ 4:50:44.80] [ChkError.cmd]  [AppsLog] 
+[ 4:50:44.91] [ChkError.cmd]  Result=PASSED 
+[ 4:50:45.04] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:50:45.15] [ChkError.cmd]  Checking : Yellow-Bang 
+[ 4:50:45.26] [ChkError.cmd]   
+[ 4:50:45.41] [ChkError.cmd]  Run [PINChkT.exe /dev /s] 
+[ 4:50:47.07] [ChkError.cmd]   
+[ 4:50:47.18] [ChkError.cmd]  Append [REGDEVT_PASS2_BBVClean.LOG] to [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_BBVClean.log]... 
+[ 4:50:47.30] [ChkError.cmd]   
+[ 4:50:47.41] [ChkError.cmd]  Run [FIND.exe /I 'Result=FAILED' C:\SYSTEM.SAV\Logs\PINPROC\REGDEVT_PASS2_BBVClean.LOG] 
+[ 4:50:47.57] [ChkError.cmd]    No Yellow-bang device found... 
+[ 4:50:47.68] [ChkError.cmd]   
+[ 4:50:47.82] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:50:47.93] [ChkError.cmd]  Checking : Timeout in INSTALL.log 
+[ 4:50:48.04] [ChkError.cmd]   
+[ 4:50:48.15] [ChkError.cmd]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[ 4:50:50.02] [ChkError.cmd]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[ 4:50:50.51] [ChkError.cmd]   There is NO timeout in install.log file. 
+[ 4:50:50.65] [ChkError.cmd]   
+[ 4:50:50.77] [ChkError.cmd]  [TIMEOUT] 
+[ 4:50:50.93] [ChkError.cmd]  Result=PASSED 
+[ 4:50:51.10] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:50:51.24] [ChkError.cmd]  Checking : WinSAT 
+[ 4:50:51.37] [ChkError.cmd]   
+[ 4:50:51.51] [ChkError.cmd]  [WinSAT] 
+[ 4:50:51.62] [ChkError.cmd]  Result=PASSED 
+[ 4:50:51.76] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:50:51.87] [ChkError.cmd]  Checking : FAILURE.flg 
+[ 4:50:52.12] [CheckFailureFlags.cmd] ************************************************** 
+[ 4:50:52.13] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has started... 
+[ 4:50:52.16] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[ 4:50:52.18] [CheckFailureFlags.cmd]  Check FAILURE.flg at [PASS2_BBVClean] 
+[ 4:50:52.20] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[ 4:51:12.20] [CheckFailureFlags.cmd]   
+[ 4:51:12.21] [CheckFailureFlags.cmd]  No FAILURE.flg was found in C:\SwSetup folder 
+[ 4:51:12.23] [CheckFailureFlags.cmd]   
+[ 4:51:12.27] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[ 4:51:12.29] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has completed... 
+[ 4:51:12.30] [CheckFailureFlags.cmd] ************************************************** 
+[ 4:51:12.40] [ChkError.cmd]   
+[ 4:51:12.52] [ChkError.cmd]  [FAILURE_FLAG] 
+[ 4:51:12.65] [ChkError.cmd]  Result=PASSED 
+[ 4:51:12.77] [ChkError.cmd]   
+[ 4:51:12.88] [ChkError.cmd]  -------------------------------------------------- 
+[ 4:51:12.99] [ChkError.cmd]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[ 4:51:13.13] [ChkError.cmd]   
+[ 4:51:13.24] [ChkError.cmd]    No SW issue found... 
+[ 4:51:13.35] [ChkError.cmd]   
+[ 4:51:13.45] [ChkError.cmd] -------------------------------------------------- 
+[ 4:51:13.57] [ChkError.cmd]  [ChkError.cmd] has completed... 
+[ 4:51:13.66] [ChkError.cmd] ************************************************** 
+[ 4:51:16.77] BBClean.cmd  :
+[ 4:51:16.77] BBClean.cmd  : ----------------------------------------
+[ 4:51:16.77] BBClean.cmd  : 5. Run c:\hp\bin\precmdline.cmd 
+[ 4:51:16.77] BBClean.cmd  : ----------------------------------------
+[ 4:51:16.79] BBClean.cmd  : Run commands from Specialize section - Precmdline.cmd
+[ 4:51:54.18] [defkey.cmd] ************************************************** 
+[ 4:51:54.21] [defkey.cmd]  [C:\SYSTEM.SAV\bbv\defkey.cmd] has started... 
+[ 4:51:54.22] [defkey.cmd] -------------------------------------------------- 
+[ 4:51:54.24] [defkey.cmd]  Windows 10 default key 
+[ 4:51:54.27] [defkey.cmd] -------------------------------------------------- 
+[ 4:51:54.29] [defkey.cmd]   
+[ 4:51:54.32] [defkey.cmd]  Check OS Edition's FeatureByte... 
+[ 4:51:54.43] [defkey.cmd]    Found [Vos.B] in FB 
+[ 4:51:54.44] [defkey.cmd]    For Professional Edition... 
+[ 4:51:54.55] [defkey.cmd]   
+[ 4:51:54.57] [defkey.cmd]  Run [cscript.exe C:\windows\system32\slmgr.vbs /ipk NF6HC-QH89W-F8WYV-WWXV4-WFG6P] 
+[ 4:51:57.72] [defkey.cmd]  slmgr.vbs returned [0]. 
+[ 4:51:58.68] [defkey.cmd]  PART_PK1=WFG6P 
+[ 4:51:58.69] [defkey.cmd]   
+[ 4:51:58.94] [defkey.cmd]  checked PartialProductKey. 
+[ 4:51:58.96] [defkey.cmd]   
+[ 4:51:58.97] [defkey.cmd]    PartialProductKey="WFG6P". 
+[ 4:51:59.00] [defkey.cmd]    RESULT=PASSED 
+[ 4:51:59.02] [defkey.cmd]   
+[ 4:51:59.04] [defkey.cmd] -------------------------------------------------- 
+[ 4:51:59.07] [defkey.cmd]  [defkey.cmd] has completed... 
+[ 4:51:59.08] [defkey.cmd] ************************************************** 
+[ 4:52:51.90] BBVLast.cmd  : Enable hibernation... 
+[ 4:52:52.36] BBVLast.cmd  : Reset pagefile settings... 
+Updating property(s) of '\\MI99TIARDRJ78\ROOT\CIMV2:Win32_ComputerSystem.Name="MI99TIARDRJ78"'
+Property(s) update successful.
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\
+
+07/16/2016  04:43 AM                 1 BOOTNXT
+03/28/2017  04:52 AM     1,487,302,656 hiberfil.sys
+03/28/2017  04:44 AM     1,048,576,000 pagefile.sys
+03/28/2017  04:44 AM       268,435,456 swapfile.sys
+               4 File(s)  2,804,314,113 bytes
+               0 Dir(s)  461,619,695,616 bytes free
+[ 4:52:53.05] BBVLast.cmd  : Delete Sysprep_succeeded.tag... 
+[ 4:52:53.47] [InactiveSP.cmd] ************************************************** 
+[ 4:52:53.50] [InactiveSP.cmd]  [InactiveSP.cmd] has started... 
+[ 4:52:53.54] [InactiveSP.cmd] -------------------------------------------------- 
+[ 4:52:53.57] [InactiveSP.cmd]  Inactive System Parition... 
+[ 4:52:53.60] [InactiveSP.cmd] -------------------------------------------------- 
+[ 4:52:53.63] [InactiveSP.cmd]   
+[ 4:52:53.66] [InactiveSP.cmd]  Create ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"]... 
+[ 4:52:53.69] [InactiveSP.cmd]   
+[ 4:52:53.72] [InactiveSP.cmd]  Inactive ESP...  
+[ 4:52:53.75] [InactiveSP.cmd]   
+[ 4:52:53.85] [DrvLtr2ESP.cmd] ************************************************** 
+[ 4:52:53.88] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[ 4:52:53.90] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[ 4:52:53.93] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[ 4:52:53.96] [DrvLtr2ESP.cmd]   
+[ 4:52:53.99] [DrvLtr2ESP.cmd]   
+[ 4:52:54.02] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[ 4:52:54.05] [DrvLtr2ESP.cmd]   
+[ 4:52:54.61] [DrvLtr2ESP.cmd]  ESP partition index = [1] 
+[ 4:52:54.65] [DrvLtr2ESP.cmd]  ESP drive letter = [NONE] 
+[ 4:52:54.68] [DrvLtr2ESP.cmd]   
+[ 4:52:54.71] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[ 4:52:54.74] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MI99TIARDRJ78
+
+Volume 1 is the selected volume.
+
+Partition 1 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4                      FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     S                FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+[ 4:52:57.68] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[ 4:52:57.71] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[ 4:52:57.74] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[ 4:52:57.75] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[ 4:52:57.77] [DrvLtr2ESP.cmd] ************************************************** 
+[ 4:52:57.83] [InactiveSP.cmd]  Inactive ESP successfully. 
+[ 4:52:57.85] [InactiveSP.cmd]   
+[ 4:52:57.86] [InactiveSP.cmd]  Active BP... 
+[ 4:52:57.90] [InactiveSP.cmd]   
+[ 4:52:57.99] [InactiveSP.cmd]  BP drive letter = [D:] 
+        1 dir(s) moved.
+[ 4:52:58.05] [InactiveSP.cmd]  Active BP successfully. 
+[ 4:52:58.07] [InactiveSP.cmd]   
+[ 4:52:58.08] [InactiveSP.cmd]  Delete ["C:\system.sav\InactiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[ 4:52:58.11] [InactiveSP.cmd] -------------------------------------------------- 
+[ 4:52:58.13] [InactiveSP.cmd]  [InactiveSP.cmd] has completed... 
+[ 4:52:58.15] [InactiveSP.cmd] ************************************************** 
+[ 5:21:07.44] [UHOOKFBI.cmd] ************************************************** 
+[ 5:21:07.50] [UHOOKFBI.cmd]  [C:\SYSTEM.SAV\2ndCap\UHOOKFBI.cmd] has started... 
+[ 5:21:07.51] [UHOOKFBI.cmd] -------------------------------------------------- 
+[ 5:21:07.53] [UHOOKFBI.cmd]  HOOK FBI 
+[ 5:21:07.55] [UHOOKFBI.cmd] -------------------------------------------------- 
+[ 5:21:07.55] [UHOOKFBI.cmd]   
+[ 5:21:07.56] [UHOOKFBI.cmd]  Run [reg.exe load HKLM\TempSW c:\windows\system32\config\SOFTWARE]... 
+The operation completed successfully.
+[ 5:21:09.34] [UHOOKFBI.cmd]   
+[ 5:21:09.36] [UHOOKFBI.cmd]    Loaded hive : c:\windows\system32\config\SOFTWARE. 
+[ 5:21:09.37] [UHOOKFBI.cmd]   
+[ 5:21:09.39] [UHOOKFBI.cmd]  Run [reg.exe DELETE HKLM\TempSW\Microsoft\Windows\CurrentVersion\Run /v RUNFBI /f]... 
+ERROR: The system was unable to find the specified registry key or value.
+[ 5:21:09.42] [UHOOKFBI.cmd]   
+[ 5:21:09.44] [UHOOKFBI.cmd]    Reg.exe returned [1] 
+[ 5:21:09.45] [UHOOKFBI.cmd]    Failed to delete [RUNFBI] because it was not in registry... 
+[ 5:21:09.47] [UHOOKFBI.cmd]    This is not critical error... 
+[ 5:21:09.48] [UHOOKFBI.cmd]   
+[ 5:21:09.50] [UHOOKFBI.cmd]  Run [reg.exe unload HKLM\TempSW]... 
+The operation completed successfully.
+[ 5:21:09.81] [UHOOKFBI.cmd]   
+[ 5:21:09.83] [UHOOKFBI.cmd]    Unloaded hive : c:\windows\system32\config\SOFTWARE... 
+[ 5:21:09.84] [UHOOKFBI.cmd]   
+[ 5:21:09.86] [UHOOKFBI.cmd]  Delete ["C:\system.sav\UHOOKFBI.cmd.FAILURE.flg"] since FBI is hooked as expected... 
+[ 5:21:09.88] [UHOOKFBI.cmd] -------------------------------------------------- 
+[ 5:21:09.89] [UHOOKFBI.cmd]  [UHOOKFBI.cmd] has completed... 
+[ 5:21:09.91] [UHOOKFBI.cmd] ************************************************** 
+[ 5:21:16.42] [CLNB42NDC.cmd] ************************************************** 
+[ 5:21:16.43] [CLNB42NDC.cmd]  [C:\SYSTEM.SAV\2ndCap\CLNB42NDC.cmd] has started... 
+[ 5:21:16.45] [CLNB42NDC.cmd] -------------------------------------------------- 
+[ 5:21:16.46] [CLNB42NDC.cmd]   
+[ 5:21:16.48] [CLNB42NDC.cmd]  Create ["C:\system.sav\CLNB42NDC.cmd.FAILURE.flg"]... 
+[ 5:21:16.57] [CLNB42NDC.cmd]   
+[ 5:21:16.57] [CLNB42NDC.cmd]  Delete pagefile 
+[ 5:21:16.59] [CLNB42NDC.cmd]   
+[ 5:21:16.64] [CLNB42NDC.cmd]   
+[ 5:21:16.65] [CLNB42NDC.cmd]  Delete hibernation file 
+[ 5:21:16.67] [CLNB42NDC.cmd]   
+processed file: C:\hiberfil.sys
+Successfully processed 1 files; Failed processing 1 files
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of c:\
+
+07/16/2016  03:43 AM                 1 BOOTNXT
+03/28/2017  03:44 AM       268,435,456 swapfile.sys
+               2 File(s)    268,435,457 bytes
+               0 Dir(s)  460,207,894,528 bytes free
+[ 5:21:43.02] [CLNB42NDC.cmd]   
+[ 5:21:43.04] [CLNB42NDC.cmd]  Delete unnecessary files 
+[ 5:21:43.05] [CLNB42NDC.cmd]   
+[ 5:21:43.09] [CLNB42NDC.cmd]  Delete [c:\windows\panther\unattend.xml]... 
+[ 5:21:43.10] [CLNB42NDC.cmd]  Delete [c:\system.sav\logs\SP_Active.txt]... 
+[ 5:21:43.12] [CLNB42NDC.cmd]  Delete [c:\system.sav\logs\SP_Active_Log.txt]... 
+[ 5:21:43.15] [CLNB42NDC.cmd]  Delete [c:\system.sav\logs\BBFindE0.log]... 
+[ 5:21:43.16] [CLNB42NDC.cmd]  Delete [c:\system.sav\logs\BBFindEr.log]... 
+[ 5:21:43.18] [CLNB42NDC.cmd]  Delete [C:\System.sav\Util\postpin\POSTBBV2.CMD]... 
+[ 5:21:43.19] [CLNB42NDC.cmd]  Delete [C:\System.sav\Util\postpin\PostPININST_BBV.CMD]... 
+[ 5:21:43.23] [CLNB42NDC.cmd]  Delete [c:\System.sav\bbv]... 
+[ 5:21:43.26] [CLNB42NDC.cmd]  Delete [c:\System.sav\FactoryUpdate]... 
+[ 5:21:43.29] [CLNB42NDC.cmd]  Delete ["C:\system.sav\CLNB42NDC.cmd.FAILURE.flg"] file since no errors detected... 
+[ 5:21:43.32] [CLNB42NDC.cmd] -------------------------------------------------- 
+[ 5:21:43.34] [CLNB42NDC.cmd]  [CLNB42NDC.cmd] has completed... 
+[ 5:21:43.35] [CLNB42NDC.cmd] ************************************************** 
+[ 5:22:26.84] [ChkError.cmd] ************************************************** 
+[ 5:22:26.86] [ChkError.cmd]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[ 5:22:26.87] [ChkError.cmd] -------------------------------------------------- 
+[ 5:22:26.87] [ChkError.cmd]  Check SW Error... 
+[ 5:22:26.89] [ChkError.cmd] -------------------------------------------------- 
+[ 5:22:26.90] [ChkError.cmd]   
+[ 5:22:26.92] [ChkError.cmd]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[ 5:22:26.94] [ChkError.cmd]   
+[ 5:22:26.94] [ChkError.cmd]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_PRE_2NDCAP.log]... 
+[ 5:22:26.95] [ChkError.cmd]   
+[ 5:22:26.97] [ChkError.cmd]  Check 2nd parameter [PRE_2NDCAP] 
+[ 5:22:26.98] [ChkError.cmd]   
+[ 5:22:27.00] [ChkError.cmd]  Error Checking items : [MEMDUMP,APPSLOG,TIMEOUT,BADLINE,FAILUREFLG] 
+[ 5:22:27.01] [ChkError.cmd]  -------------------------------------------------- 
+[ 5:22:27.03] [ChkError.cmd]  Checking : Memory Dump 
+[ 5:22:27.04] [ChkError.cmd]    Could not find memory dump... 
+[ 5:22:27.06] [ChkError.cmd]   
+[ 5:22:27.08] [ChkError.cmd]  [DumpFile] 
+[ 5:22:27.09] [ChkError.cmd]  Result=PASSED 
+[ 5:22:27.11] [ChkError.cmd]  -------------------------------------------------- 
+[ 5:22:27.12] [ChkError.cmd]  Checking : Apps' log 
+[ 5:22:27.12] [ChkError.cmd]   
+[ 5:22:30.26] [ChkError.cmd]  [AppsLog] 
+[ 5:22:30.53] [ChkError.cmd]  Result=PASSED 
+[ 5:22:30.84] [ChkError.cmd]  -------------------------------------------------- 
+[ 5:22:31.12] [ChkError.cmd]  Checking : Timeout in INSTALL.log 
+[ 5:22:31.42] [ChkError.cmd]   
+[ 5:22:31.72] [ChkError.cmd]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[ 5:22:35.00] [ChkError.cmd]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[ 5:22:36.72] [ChkError.cmd]   There is NO timeout in install.log file. 
+[ 5:22:36.73] [ChkError.cmd]   
+[ 5:22:36.76] [ChkError.cmd]  [TIMEOUT] 
+[ 5:22:36.80] [ChkError.cmd]  Result=PASSED 
+[ 5:22:36.84] [ChkError.cmd]  -------------------------------------------------- 
+[ 5:22:36.87] [ChkError.cmd]  Checking : Bad Line in INSTALL.log 
+[ 5:22:36.90] [ChkError.cmd]   
+[ 5:22:36.94] [ChkError.cmd]  Run [cscript.exe c:\System.sav\ExitProc\ErrorChk\BadLine.vbs] 
+[ 5:22:37.45] [ChkError.cmd]   No BadLine in install.log file. 
+[ 5:22:37.48] [ChkError.cmd]   
+[ 5:22:37.50] [ChkError.cmd]  [BADLINE] 
+[ 5:22:37.53] [ChkError.cmd]  Result=PASSED 
+[ 5:22:37.58] [ChkError.cmd]  -------------------------------------------------- 
+[ 5:22:37.61] [ChkError.cmd]  Checking : FAILURE.flg 
+[ 5:22:37.86] [CheckFailureFlags.cmd] ************************************************** 
+[ 5:22:37.87] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has started... 
+[ 5:22:37.87] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[ 5:22:37.89] [CheckFailureFlags.cmd]  Check FAILURE.flg at [PASS2_PRE_2NDCAP] 
+[ 5:22:37.90] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[ 5:22:40.76] [CheckFailureFlags.cmd]   
+[ 5:22:40.78] [CheckFailureFlags.cmd]  No FAILURE.flg was found in C:\SwSetup folder 
+[ 5:22:40.80] [CheckFailureFlags.cmd]   
+[ 5:22:40.81] [CheckFailureFlags.cmd] -------------------------------------------------- 
+[ 5:22:40.83] [CheckFailureFlags.cmd]  [CheckFailureFlags.cmd] has completed... 
+[ 5:22:40.84] [CheckFailureFlags.cmd] ************************************************** 
+[ 5:22:40.89] [ChkError.cmd]   
+[ 5:22:40.92] [ChkError.cmd]  [FAILURE_FLAG] 
+[ 5:22:40.95] [ChkError.cmd]  Result=PASSED 
+[ 5:22:41.00] [ChkError.cmd]   
+[ 5:22:41.01] [ChkError.cmd]  -------------------------------------------------- 
+[ 5:22:41.05] [ChkError.cmd]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[ 5:22:41.09] [ChkError.cmd]   
+[ 5:22:41.12] [ChkError.cmd]    No SW issue found... 
+[ 5:22:41.14] [ChkError.cmd]   
+[ 5:22:41.17] [ChkError.cmd] -------------------------------------------------- 
+[ 5:22:41.20] [ChkError.cmd]  [ChkError.cmd] has completed... 
+[ 5:22:41.23] [ChkError.cmd] ************************************************** 
+[ 5:23:00.59] [ActiveSP.cmd] ************************************************** 
+[ 5:23:00.61] [ActiveSP.cmd]  [ActiveSP.cmd] has started... 
+[ 5:23:00.62] [ActiveSP.cmd] -------------------------------------------------- 
+[ 5:23:00.64] [ActiveSP.cmd]  Active System Parition... 
+[ 5:23:00.64] [ActiveSP.cmd] -------------------------------------------------- 
+[ 5:23:00.65] [ActiveSP.cmd]   
+[ 5:23:00.67] [ActiveSP.cmd]  Create ["C:\system.sav\ActiveSP.cmd.FAILURE.flg"] file... 
+[ 5:23:00.68] [ActiveSP.cmd]   
+[ 5:23:00.70] [ActiveSP.cmd]  Active ESP... 
+[ 5:23:00.70] [ActiveSP.cmd]   
+[ 5:23:00.76] [DrvLtr2ESP.cmd] ************************************************** 
+[ 5:23:00.78] [DrvLtr2ESP.cmd]  [C:\SYSTEM.SAV\ExitProc\DrvLtr2ESP.cmd] has started... 
+[ 5:23:00.79] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[ 5:23:00.81] [DrvLtr2ESP.cmd]   Create ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file... 
+[ 5:23:00.82] [DrvLtr2ESP.cmd]   
+[ 5:23:00.84] [DrvLtr2ESP.cmd]   
+[ 5:23:00.86] [DrvLtr2ESP.cmd]  Detect ESP partition index... 
+[ 5:23:00.86] [DrvLtr2ESP.cmd]   
+[ 5:23:01.17] [DrvLtr2ESP.cmd]  ESP partition index = [1] 
+[ 5:23:01.18] [DrvLtr2ESP.cmd]  ESP drive letter = [P:] 
+[ 5:23:01.20] [DrvLtr2ESP.cmd]   
+[ 5:23:01.21] [DrvLtr2ESP.cmd]  Assign drive letter to ESP... 
+[ 5:23:01.23] [DrvLtr2ESP.cmd]   
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MINWINPC
+
+Volume 1 is the selected volume.
+
+Partition 1 is now the selected partition.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     P                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     E   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+DiskPart successfully removed the drive letter or mount point.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     S                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     E   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+[ 5:23:01.96] [DrvLtr2ESP.cmd]  Succeed in assigning drive letter to ESP 
+[ 5:23:01.97] [DrvLtr2ESP.cmd]  Delete ["C:\system.sav\DrvLtr2ESP.cmd.FAILURE.flg"] file since no errors detected... 
+[ 5:23:01.99] [DrvLtr2ESP.cmd] -------------------------------------------------- 
+[ 5:23:02.01] [DrvLtr2ESP.cmd]  [DrvLtr2ESP.cmd] has completed... 
+[ 5:23:02.02] [DrvLtr2ESP.cmd] ************************************************** 
+[ 5:23:02.08] [ActiveSP.cmd]  Active ESP successfully. 
+[ 5:23:02.10] [ActiveSP.cmd]   
+[ 5:23:02.11] [ActiveSP.cmd]  Inactive BP... 
+[ 5:23:02.11] [ActiveSP.cmd]   
+[ 5:23:02.19] [ActiveSP.cmd]  BP drive letter = [D:] 
+        1 dir(s) moved.
+[ 5:23:02.23] [ActiveSP.cmd]  Inactive BP successfully. 
+[ 5:23:02.24] [ActiveSP.cmd]   
+[ 5:23:02.26] [ActiveSP.cmd]  Delete ["C:\system.sav\ActiveSP.cmd.FAILURE.flg"] file since no errors detected... 
+[ 5:23:02.27] [ActiveSP.cmd] -------------------------------------------------- 
+[ 5:23:02.29] [ActiveSP.cmd]  [ActiveSP.cmd] has completed... 
+[ 5:23:02.29] [ActiveSP.cmd] ************************************************** 
+[ 5:23:16.44] [DumpBCD.cmd] ************************************************** 
+[ 5:23:16.46] [DumpBCD.cmd]  [C:\SYSTEM.SAV\ExitProc\DataColl\DumpBCD.cmd] has started... 
+[ 5:23:16.48] [DumpBCD.cmd] -------------------------------------------------- 
+[ 5:23:16.49] [DumpBCD.cmd]  STAGE : [PASS2_2NDCAP_LAST] 
+[ 5:23:16.51] [DumpBCD.cmd]   Dump BCD... 
+[ 5:23:16.51] [DumpBCD.cmd] -------------------------------------------------- 
+[ 5:23:16.52] [DumpBCD.cmd]   
+[ 5:23:16.54] [DumpBCD.cmd]   
+[ 5:23:16.98] [DumpBCD.cmd]   
+[ 5:23:16.98] [DumpBCD.cmd] -------------------------------------------------- 
+[ 5:23:16.99] [DumpBCD.cmd]  [DumpBCD.cmd] has completed... 
+[ 5:23:17.01] [DumpBCD.cmd] ************************************************** 
+[ 5:28:22.41] [OSGUID.cmd] ************************************************** 
+[ 5:28:22.46] [OSGUID.cmd]  [OSGUID.cmd] has started... 
+[ 5:28:22.47] [OSGUID.cmd] -------------------------------------------------- 
+[ 5:28:22.47] [OSGUID.cmd]  Enum current BCD settings 
+[ 5:28:22.49] [OSGUID.cmd]  at the beginning of [2nd] Specialize for OOBE. 
+[ 5:28:22.50] [OSGUID.cmd] -------------------------------------------------- 
+[ 5:28:22.52] [OSGUID.cmd]   
+[ 5:28:22.91] [OSGUID.cmd]  System BCD exists... 
+[ 5:28:22.92] [OSGUID.cmd]  Run [bcdedit.exe /default {current}] 
+[ 5:28:22.94] [OSGUID.cmd]   
+[ 5:28:22.97] [OSGUID.cmd]   
+[ 5:28:22.99] [OSGUID.cmd]  Run [bcdedit.exe /enum all] 
+[ 5:28:23.00] [OSGUID.cmd] -------------------------------------------------- 
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {5fc6f2d0-13b1-11e7-9450-806e6f6e6963}
+                        {f5661e31-133a-11e7-9176-705a0f8492be}
+                        {f5661e2d-133a-11e7-9176-705a0f8492be}
+                        {f5661e2e-133a-11e7-9176-705a0f8492be}
+timeout                 0
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {current}
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+displayorder            {current}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {5fc6f2d0-13b1-11e7-9450-806e6f6e6963}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2d-133a-11e7-9176-705a0f8492be}
+description             USB Drive (UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2e-133a-11e7-9176-705a0f8492be}
+description             Internal CD/DVD ROM Drive (UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e30-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e31-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e32-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e33-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e34-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e35-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e36-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e37-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e38-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e39-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e40-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e41-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e42-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e43-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e44-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e45-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e46-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e47-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e48-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e49-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e50-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e51-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e52-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e53-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e54-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e55-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e56-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e57-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e58-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e59-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e60-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e61-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e62-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e63-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e64-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e65-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e66-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e67-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e68-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e69-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e70-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e71-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e72-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e73-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e74-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e75-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e76-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e77-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e78-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e79-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e80-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e81-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e82-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e83-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e84-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e85-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e86-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e87-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e88-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e89-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e90-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e91-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e92-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e93-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e94-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e95-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e96-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e97-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e98-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e9d-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Windows Boot Loader
+-------------------
+identifier              {current}
+device                  partition=C:
+path                    \windows\system32\winload.efi
+description             Windows 10
+locale                  en-US
+inherit                 {bootloadersettings}
+recoverysequence        {f7e68e53-13b1-11e7-9450-48e24473c348}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                partition=C:
+systemroot              \windows
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+nx                      OptIn
+bootmenupolicy          Standard
+
+Windows Boot Loader
+-------------------
+identifier              {f7e68e53-13b1-11e7-9450-48e24473c348}
+device                  ramdisk=[\Device\HarddiskVolume5]\Recovery\WindowsRE\Winre.wim,{f7e68e54-13b1-11e7-9450-48e24473c348}
+path                    \windows\system32\winload.efi
+description             Windows Recovery Environment
+locale                  en-US
+inherit                 {bootloadersettings}
+displaymessage          Recovery
+osdevice                ramdisk=[\Device\HarddiskVolume5]\Recovery\WindowsRE\Winre.wim,{f7e68e54-13b1-11e7-9450-48e24473c348}
+systemroot              \windows
+nx                      OptIn
+bootmenupolicy          Standard
+winpe                   Yes
+
+Resume from Hibernate
+---------------------
+identifier              {f5661e2b-133a-11e7-9176-705a0f8492be}
+device                  partition=C:
+path                    \windows\system32\winresume.efi
+description             Windows Resume Application
+locale                  en-US
+inherit                 {resumeloadersettings}
+recoverysequence        {f7e68e53-13b1-11e7-9450-48e24473c348}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+filedevice              partition=C:
+filepath                \hiberfil.sys
+bootmenupolicy          Standard
+debugoptionenabled      No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-US
+inherit                 {globalsettings}
+badmemoryaccess         Yes
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 No
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Local
+
+RAM Defects
+-----------
+identifier              {badmemory}
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+                        {badmemory}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Resume Loader Settings
+----------------------
+identifier              {resumeloadersettings}
+inherit                 {globalsettings}
+
+Device options
+--------------
+identifier              {f7e68e54-13b1-11e7-9450-48e24473c348}
+description             Windows Recovery
+ramdisksdidevice        partition=\Device\HarddiskVolume5
+ramdisksdipath          \Recovery\WindowsRE\boot.sdi
+[ 5:28:23.57] [OSGUID.cmd] -------------------------------------------------- 
+[ 5:28:23.58] [OSGUID.cmd]   
+[ 5:28:23.60] [OSGUID.cmd] -------------------------------------------------- 
+[ 5:28:23.61] [OSGUID.cmd]  [OSGUID.cmd] has completed... 
+[ 5:28:23.63] [OSGUID.cmd] ************************************************** 

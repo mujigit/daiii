@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+
+<MetroApp AppID="AD2F1837.DiscoverHPTouchpointManager_v10z8vjag6ke6!App" >
+	<TileDef Lang="XX-XX" Country="XXX" Order="1" TileType="Desktop" LockScreen="False" />
+	<UnivTileDef Region="All" TileType="2x2" Order="2"/>
+</MetroApp>

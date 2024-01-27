@@ -1,0 +1,273 @@
+﻿2017-03-27 12:30:24, Info                  DISM   PID=4132 TID=532 Scratch directory set to 'C:\Users\ADMINI~1\AppData\Local\Temp\'. - CDISMManager::put_ScratchDir
+2017-03-27 12:30:24, Info                  DISM   PID=4132 TID=532 DismCore.dll version: 10.0.14393.0 - CDISMManager::FinalConstruct
+2017-03-27 12:30:24, Info                  DISM   PID=4132 TID=532 Scratch directory set to 'C:\Sandbox'. - CDISMManager::put_ScratchDir
+2017-03-27 12:30:24, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-27 12:30:24, Info                  DISM   PID=4132 TID=532 Successfully loaded the ImageSession at "C:\windows\System32\Dism" - CDISMManager::LoadLocalImageSession
+2017-03-27 12:30:24, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:24, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Manager: PID=4132 TID=532 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM.EXE: 
+2017-03-27 12:30:24, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2017-03-27 12:30:24, Info                  DISM   DISM.EXE: 
+2017-03-27 12:30:24, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.14393, Running architecture=amd64, Number of processors=4
+2017-03-27 12:30:24, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.14393.0
+2017-03-27 12:30:24, Info                  DISM   DISM.EXE: Executing command line: DISM.exe  /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsAlarms_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.WindowsAlarms_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Alarms.log
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Getting Provider FolderManager - CDISMProviderStore::GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Loading Provider from location C:\windows\System32\Dism\FolderProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Connecting to the provider located at C:\windows\System32\Dism\FolderProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:24, Info                  DISM   DISM Manager: PID=4132 TID=532 physical location path: C:\ - CDISMManager::CreateImageSession
+2017-03-27 12:30:24, Info                  DISM   DISM Manager: PID=4132 TID=532 Event name for current DISM session is Global\{71E2DC23-AF22-4EF8-BA0B-563E2830315C} - CDISMManager::CheckSessionAndLock
+2017-03-27 12:30:24, Info                  DISM   DISM Manager: PID=4132 TID=532 Create session event 0x16c for current DISM session and event name is Global\{71E2DC23-AF22-4EF8-BA0B-563E2830315C}  - CDISMManager::CheckSessionAndLock
+2017-03-27 12:30:24, Info                  DISM   DISM Manager: PID=4132 TID=532 Copying DISM from "C:\windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2017-03-27 12:30:25, Info                  DISM   DISM Manager: PID=4132 TID=532 Successfully loaded the ImageSession at "C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D" - CDISMManager::LoadRemoteImageSession
+2017-03-27 12:30:25, Info                  DISM   DISM Image Session: PID=2716 TID=3128 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\OSProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:25, Info                  DISM   DISM OS Provider: PID=2716 TID=3128 Defaulting SystemPath to C:\ - CDISMOSServiceManager::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM OS Provider: PID=2716 TID=3128 Defaulting Windows folder to C:\Windows - CDISMOSServiceManager::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM OS Provider: PID=2716 TID=3128 Host OS verion is 10.0 - CDISMOSServiceManager::SetDllSearchPath
+2017-03-27 12:30:25, Warning               DISM   DISM OS Provider: PID=2716 TID=3128 Unable to set the DLL search path to the servicing stack folder. C:\Windows may not point to a valid Windows folder. - CDISMOSServiceManager::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\LogProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:25, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\PEProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Warning               DISM   DISM Provider Store: PID=2716 TID=3128 Failed to Load the provider: C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-27 12:30:25, Info                  DISM   Try to initialize Panther logging 1 times, last error: 0x0
+2017-03-27 12:30:25, Info                  DISM   DISM Manager: PID=4132 TID=532 Image session successfully loaded from the temporary location: C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D - CDISMManager::CreateImageSession
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.14393.0, Image architecture=amd64
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Getting the collection of providers from an image provider store type. - CDISMProviderStore::GetProviderCollection
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\CbsProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\CbsProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:25, Info                  DISM   DISM Package Manager: PID=2716 TID=3128 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2017-03-27 12:30:25, Info                  DISM   DISM Package Manager: PID=2716 TID=3128 CBS is being initialized for online use. More information about CBS actions can be located at: %windir%\logs\cbs\cbs.log - CDISMPackageManager::Initialize
+2017-03-27 12:30:28, Info                  DISM   DISM Package Manager: PID=2716 TID=3128 Loaded servicing stack for online use only. - CDISMPackageManager::RefreshInstanceAndLock
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\MsiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\MsiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\IntlProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\IntlProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\IBSProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\IBSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\DmiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM OS Provider: PID=2716 TID=3128 Successfully loaded the hive. - CDISMOSServiceManager::DetermineBootDrive
+2017-03-27 12:30:28, Info                  DISM   DISM Driver Manager: PID=2716 TID=3128 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\UnattendProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\UnattendProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\SmiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\SmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\EmbeddedProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Warning               DISM   DISM Provider Store: PID=2716 TID=3128 Failed to Load the provider: C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\EmbeddedProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\AppxProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\AppxProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\ProvProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\ProvProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\AssocProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\AssocProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\GenericProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\GenericProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\OfflineSetupProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\OfflineSetupProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Loading Provider from location C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\TransmogProvider.dll - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Connecting to the provider located at C:\Sandbox\C930D997-117D-4378-AD14-B7DBD5E4902D\TransmogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Transmog Provider: PID=2716 TID=3128 Current image session is [ONLINE] - CTransmogManager::GetMode
+2017-03-27 12:30:28, Info                  DISM   DISM Transmog Provider: PID=2716 TID=3128 Audit Mode: [Yes] - CTransmogManager::Initialize
+2017-03-27 12:30:28, Info                  DISM   DISM Transmog Provider: PID=2716 TID=3128 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2017-03-27 12:30:28, Info                  DISM   DISM Transmog Provider: PID=2716 TID=3128 Product Type: [WinNT] - CTransmogManager::Initialize
+2017-03-27 12:30:28, Info                  DISM   DISM Transmog Provider: PID=2716 TID=3128 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Got the collection of providers. Now enumerating them to build the command table.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Log Provider
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: OSServices
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Package Manager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DISM Package Manager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: MsiManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: MsiManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: IntlManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: IntlManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: IBSManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DriverManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DriverManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Unattend Manager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DISM Unattend Manager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: SmiManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: AppxManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: AppxManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: ProvManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: ProvManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: AssocManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: AssocManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: GenericManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: GenericManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: OfflineSetupManager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: OfflineSetupManager.
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: Edition Manager
+2017-03-27 12:30:28, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: Edition Manager.
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Getting Provider AppxManager - CDISMProviderStore::GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2017-03-27 12:30:28, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Creating provisioning request. - CAppxManager::AddAllUserAppxPackage
+2017-03-27 12:30:28, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Adding main package to provisioning request. - CAppxManager::AddAllUserAppxPackage
+2017-03-27 12:30:29, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 File could not be read as an .Appx package, trying to read file as an .AppxBundle... - CPackageAdapter::CreateFromPath
+2017-03-27 12:30:29, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Found a main package: Microsoft.WindowsAlarms_2016.622.2118.0_neutral_~_8wekyb3d8bbwe - CDismRequest::GetMainPackage
+2017-03-27 12:30:29, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Adding: en-US as applicable language. - CDismContext::AvailableOSLangPacks
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Found a main package: Microsoft.WindowsAlarms_10.1605.1742.0_x86__8wekyb3d8bbwe - CDismRequest::GetMainPackage
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Found a main package: Microsoft.WindowsAlarms_10.1605.1742.0_x64__8wekyb3d8bbwe - CDismRequest::GetMainPackage
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Found a main package: Microsoft.WindowsAlarms_10.1605.1742.0_arm__8wekyb3d8bbwe - CDismRequest::GetMainPackage
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-am_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-af_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-az-latn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ar_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-be_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-bg_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-bn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ca_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-cs_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-da_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-el_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-de_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-es_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-et_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-eu_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-fa_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-fi_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-fil-latn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-fr_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-gl_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ha-latn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-he_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-hi_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-hr_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-hu_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-id_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-is_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-it_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-kk_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ja_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-kn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-km_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ko_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-lo_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-lt_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-lv_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-mk_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ml_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ms_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-nb_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-nl_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-pl_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-pt_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-qps-ploc_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-qps-plocm_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ru_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ro_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-sk_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-sl_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-sq_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-sr-latn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-sv_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-sw_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-ta_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-te_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-th_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-tr_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-uk_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-uz-latn_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-zh-hans_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-vi_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.language-zh-hant_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Code integrity footprint file not found for package Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.scale-100_8wekyb3d8bbwe. - PackageMonikerToPayload::CreateForPackageReader
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Code integrity footprint file not found for package Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.scale-125_8wekyb3d8bbwe. - PackageMonikerToPayload::CreateForPackageReader
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.scale-150_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Package 'Microsoft.WindowsAlarms_10.1605.1742.0_neutral_split.scale-400_8wekyb3d8bbwe' excluded as not applicable. - PackageSource::IsPackageApplicable
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Adding dependencies to provisioning request. - CAppxManager::AddAllUserAppxPackage
+2017-03-27 12:30:30, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Provisioning request. - CAppxManager::AddAllUserAppxPackage
+2017-03-27 12:30:37, Info                  DISM   DISM Appx Provider: PID=2716 TID=3128 Finalizing changes... - CAppxManager::AddAllUserAppxPackage
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Package Manager: PID=2716 TID=3128 Finalizing CBS core. - CDISMPackageManager::Finalize
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(MsiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: MsiManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(IntlManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: IntlManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(IBSManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: IBSManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(DriverManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: DriverManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(DISM Unattend Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: DISM Unattend Manager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(SmiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: SmiManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(AppxManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: AppxManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(ProvManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: ProvManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(AssocManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: AssocManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(GenericManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: GenericManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(OfflineSetupManager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: OfflineSetupManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Finalizing the servicing provider(Edition Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: Edition Manager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=2716 TID=3128 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Manager: PID=4132 TID=532 Closing session event handle 0x16c - CDISMManager::CloseImageSession
+2017-03-27 12:30:37, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2017-03-27 12:30:37, Info                  DISM   DISM.EXE: 
+2017-03-27 12:30:37, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2017-03-27 12:30:37, Info                  DISM   DISM.EXE: 
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
+2017-03-27 12:30:37, Info                  DISM   DISM Provider Store: PID=4132 TID=532 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider

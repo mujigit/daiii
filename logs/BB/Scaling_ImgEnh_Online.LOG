@@ -1,0 +1,11 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:07.00] Beginning of the Scaling_ImgEnh_Online.CMD                              
+############################################################# 
+[ 4:52:07.00] ================ The Installation of Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting ================ 
+[ 4:52:07.00] Item=Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting 
+[ 4:52:07.02] Default delete c:\Recovery\OEM\Point_D\myDPI.lst 
+No C:\SYSTEM.SAV\Util\TDC\MCPP\dpi.lst, skip. 
+[ 4:52:07.02] Result of the Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting 
+RESULT=PASSED 
+[ 4:52:07.04] ============= End the Installation of Windows 10 HP Image Enhancements - CPS - Scaling/DPI Setting ================ 

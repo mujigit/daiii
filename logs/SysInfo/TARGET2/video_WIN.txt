@@ -1,0 +1,18 @@
+AdapterCompatibility: Advanced Micro Devices, Inc.
+AdapterRAM: 536870912 =[512 MB]
+Availability: 3
+Caption: AMD Radeon(TM) R4 Graphics
+DeviceID: VideoController1
+DeviceSpecificPens: 
+DitherType: 0
+DriverDate: 20161006000000.000000-000
+DriverVersion: 21.19.144.257
+InfFilename: oem5.inf
+InfSection: ati2mtag_MullinsPA_MobileDS
+InstallDate: 
+InstalledDisplayDrivers: aticfx64.dll,aticfx64.dll,aticfx64.dll,amdxc64,aticfx32,aticfx32,aticfx32,amdxc32,atiumd64,atidxx64.dll,atidxx64.dll,atiumdag,atidxx32,atidxx32,atiumdva,atiumd6a.cap,atitmm64
+LastErrorCode: 
+Name: AMD Radeon(TM) R4 Graphics
+PNPDeviceID: PCI\VEN_1002&DEV_9851&SUBSYS_81E5103C&REV_40\3&2411E6FE&0&08
+Status: OK
+VideoProcessor: AMD Radeon Graphics Processor (0x9851)

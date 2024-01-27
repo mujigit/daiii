@@ -1,0 +1,21 @@
+﻿<LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1">
+	<LayoutOptions StartTileGroupCellWidth="6"/>
+	<RequiredStartGroupsCollection>
+		<RequiredStartGroups>
+			<AppendGroup>
+				<start:Tile AppUserModelID="AD2F1837.HPJumpStart_v10z8vjag6ke6!App" Size="2x2" Row="0" Column="0"/>
+				<start:Tile AppUserModelID="AD2F1837.DiscoverHPTouchpointManager_v10z8vjag6ke6!App" Size="2x2" Row="0" Column="2"/>
+				<start:Tile AppUserModelID="4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App" Size="2x2" Row="0" Column="4"/>
+			</AppendGroup>
+			<AppendGroup>
+				<start:DesktopApplicationTile DesktopApplicationLinkPath="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\McAfee\McAfee LiveSafe.lnk" Size="2x2" Row="0" Column="0"/>
+				<start:DesktopApplicationTile DesktopApplicationLinkPath="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.com.lnk" Size="2x2" Row="0" Column="2"/>
+			</AppendGroup>
+		</RequiredStartGroups>
+	</RequiredStartGroupsCollection>
+	<AppendOfficeSuite/>
+	<AppendOfficeSuiteChoice Choice="Desktop2016"/>
+	<TopMFUApps>
+		<DesktopApplicationTile LinkFilePath="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox 25 GB.lnk"/>
+	</TopMFUApps>
+</LayoutModificationTemplate>

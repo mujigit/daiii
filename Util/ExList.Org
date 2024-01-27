@@ -1,0 +1,21 @@
+[ExclusionList]
+C:\Hiberfil.sys
+C:\Pagefile.sys
+C:\Boot.ini
+C:\info.bom
+"system Volume Information"
+C:\system Volume Information
+C:\RECYCLER
+C:\from64imagex
+C:\sources
+C:\Compaq
+C:\SYSTEM.SAV
+C:\Appl.zip
+C:\Global
+C:\minint
+C:\Appl.zip
+C:\cspu.dat
+c:\autoexec.bat
+c:\config.sys
+c:\boot.wpe
+c:\bootsect.bak

@@ -1,0 +1,94 @@
+[Tue 03/28/2017  4:37:29.51] ========================================================================== 
+[Tue 03/28/2017  4:37:29.53] Copy files for CNB Notebooks 
+[Tue 03/28/2017  4:37:29.53] ========================================================================== 
+[Tue 03/28/2017  4:37:29.54] Run VBS to read INI file 
+Wallpaper installation log created:  3/28/2017 4:37:30 AM
+
+INFO >> Wallpaper Installation Starts:  3/28/2017 4:37:30 AM
+INFO >> Wallpaper Installer Version:  
+INFO >> Wallpaper Info File Version:  
+
+------------------------------------------------------------------------
+
+INFO >> System ID from RStone.ini = 81E5
+INFO >> Model Name from RStone.ini = HP 245 G5 Notebook PC
+INFO >> WallpaperFlag from RStone.ini = 01
+INFO >> WallpaperFlagName from Wallpaper.ini = 01 - bz - Chassis Color: Black
+INFO >> Windows version = 
+INFO >> System brand = 
+INFO >> System sub-brand = 
+INFO >> System brand and sub-brand section to use from INI file: HPB
+INFO >> Screen information from EDID structure  --> nRev = x, nPass = x, ScreenWidth = 1366, ScreenHeight = 768
+INFO >> Screen resolution  -->  1366x768
+INFO >>****  Start CopyLogoFile  ****
+
+INFO >>   Copying this image ---> C:\SWSetup\Wallpaper\Disk1\images\hp_logo_100x100.bmp
+INFO >>     To this location ---> C:\ProgramData\HP\images\hp_logo_100x100.bmp
+
+INFO >> ---  End CopyLogoFile  ---
+
+INFO >>****  Start CopyWallPaperFiles  ****
+
+INFO >>   Copying this image ---> C:\SWSetup\Wallpaper\Disk1\images\Snow_1366x768.jpg
+INFO >>     To this location ---> C:\Windows\Web\Wallpaper\HP Backgrounds\backgroundDefault.jpg
+
+INFO >> ---  End CopyWallpaperFiles  ---
+
+INFO >> Wallpaper Installation Completed:  3/28/2017 4:37:30 AM
+
+------------------------------------------------------------------------
+INFO >> Information below is for pre-install group
+
+[ResponseResult]
+
+ResultCode=0
+
+
+[Tue 03/28/2017  4:37:30.10] End of HP Wallpaper installation 
+[Tue 03/28/2017  4:37:30.10] ========================================================================== 
+[Tue 03/28/2017  4:37:30.25] ========================================================================== 
+[Tue 03/28/2017  4:37:30.25] Set HP or CQ Logo to System Properties 
+[Tue 03/28/2017  4:37:30.26] ========================================================================== 
+[Tue 03/28/2017  4:37:30.26] Found HP logo 
+num of arg=1
+Branding is HP, set HP logo
+
+==========================================================================
+Running of HP_CQ_Logo.vbs file
+Write registry key to set Logo for System Properties Page
+Write registry key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation\Logo=C:\ProgramData\HP\images\hp_logo_100x100.bmp
+==========================================================================
+[Tue 03/28/2017  4:37:30.45] End of Setting HP or CQ Logo to System Properties 
+[Tue 03/28/2017  4:37:30.46] ========================================================================== 
+[Tue 03/28/2017  4:37:30.59] ========================================================================== 
+[Tue 03/28/2017  4:37:30.60] Find HP or Compaq or Presario 
+[Tue 03/28/2017  4:37:30.62] If found, set registry key to assign default wallpaper with a themed name to show in Personalization 
+[Tue 03/28/2017  4:37:30.62] ========================================================================== 
+[Tue 03/28/2017  4:37:30.62] Run VBS to write Registry keys 
+
+==========================================================================
+Running of Default_Wallpaper.vbs file
+Write registry key to set Default Wallpaper
+Write registry key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\DesktopBackground=%WINDIR%\web\wallpaper\HP Backgrounds\backgroundDefault.jpg
+==========================================================================
+
+==========================================================================
+Running of Theme.vbs file
+Write registry key to set Window Color and Theme Name
+Write registry key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TransparentGlass\DefaultValue=1
+Write registry key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\WindowColor=Frost
+Write registry key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\ThemeName=Themed Backgrounds
+==========================================================================
+[Tue 03/28/2017  4:37:30.92] End of HP Wallpaper installation 
+[Tue 03/28/2017  4:37:30.92] ========================================================================== 
+[Tue 03/28/2017  4:37:31.07] ========================================================================== 
+[Tue 03/28/2017  4:37:31.07] Start script for installing HP Wallpaper to Start Background.				
+[Tue 03/28/2017  4:37:31.09] ========================================================================== 
+[Tue 03/28/2017  4:37:31.10] Staging HP Wallpaper to Start Background									
+[Tue 03/28/2017  4:37:31.10] Setting HP Wallpaper Registry Edits														
+[Tue 03/28/2017  4:37:31.17] Loaded registry HKLM\DEFAULTTEMP. Errorlevel=0 					
+[Tue 03/28/2017  4:37:31.23] Run HP_StartBackground.reg. Errorlevel=0 						
+[Tue 03/28/2017  4:37:31.45] Unloaded registry HKLM\DEFAULTTEMP. Errorlevel=0 				
+[Tue 03/28/2017  4:37:31.45] ========================================================================== 
+[Tue 03/28/2017  4:37:31.45] End of script for installing HP Wallpaper to Start Background.				
+[Tue 03/28/2017  4:37:31.46] ========================================================================== 

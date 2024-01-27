@@ -1,0 +1,12 @@
+[4:28:19 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0
+[4:28:19 AM] CVA File: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\P00PSCB2.CVA
+[4:28:19 AM] Deliverable Name: HP JumpStart [1.1.165.0,A,5]
+[4:28:19 AM] Deliverable PN: P00PSC-B2H
+[4:28:19 AM] Deliverable Size: 211,545 Kbytes
+[4:28:19 AM] Free Size: 453,784,572 Kbytes
+[4:28:19 AM] System Used Size: 22,011,904 Kbytes
+[4:28:19 AM] Run install command: c:\SWSETUP\APP\Applications\HP\HPJumpSta_PPSCB2\1.1.165.0\install.cmd
+[4:30:01 AM] Return code: 0
+[4:30:01 AM] Size Extend: 358,336 Kbytes
+[4:30:01 AM] Metro Deliverable: Yes
+[4:30:01 AM] RESULT=PASSED

@@ -1,0 +1,12 @@
+[4:21:10 AM] Install Folder: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639
+[4:21:10 AM] CVA File: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\P00LMKB2.CVA
+[4:21:10 AM] Deliverable Name: HP Setup Integrated OOBE Win10 [1.2.8357.5639,A,1]
+[4:21:10 AM] Deliverable PN: P00LMK-B2S
+[4:21:10 AM] Deliverable Size: 17,202 Kbytes
+[4:21:10 AM] Free Size: 455,941,512 Kbytes
+[4:21:10 AM] System Used Size: 19,854,964 Kbytes
+[4:21:10 AM] Run install command: c:\SWSETUP\APP\PreReq2\HP\HPSetupIn_LLMKB2\1.2.8357.5639\install.cmd
+[4:23:04 AM] Return code: 0
+[4:23:04 AM] Size Extend: 137,312 Kbytes
+[4:23:04 AM] Metro Deliverable: No
+[4:23:04 AM] RESULT=PASSED

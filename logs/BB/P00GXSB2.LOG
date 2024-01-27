@@ -1,0 +1,12 @@
+[12:35:11 PM] Install Folder: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23
+[12:35:11 PM] CVA File: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\P00GXSB2.cva
+[12:35:11 PM] Deliverable Name: HP Support Assistant [8.3.32.23,A,1]
+[12:35:11 PM] Deliverable PN: P00GXS-B2Z
+[12:35:11 PM] Deliverable Size: 51,965 Kbytes
+[12:35:11 PM] Free Size: 59,384,168 Kbytes
+[12:35:11 PM] System Used Size: 19,658,388 Kbytes
+[12:35:11 PM] Run install command: c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd
+[12:37:29 PM] Return code: 0
+[12:37:29 PM] Size Extend: 158,012 Kbytes
+[12:37:29 PM] Metro Deliverable: No
+[12:37:29 PM] RESULT=PASSED

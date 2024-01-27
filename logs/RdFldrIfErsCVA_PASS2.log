@@ -1,0 +1,102 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:04.58] Beginning of the RdFldrIfErsCVA.cmd                              
+############################################################# 
+Checking "c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Applications\CyberLink\Cyberlink_PPK5B2\14.0.2.3309\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Applications\CyberLink\PowerMedi_MMGEB2\14.0.5.6909\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\EnergySta_66MAB2\1.10\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Applications\HP\HPAudioSw_PPL3B2\1.0.138.0\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPPCHardw_LL6EB2\6.2.0.0\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPSureCon_LLUTB2\1.0.0.29\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPSystemE_NNBCB2\1.40\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Applications\HP\HPWireles_99C2B2\1.1.18.1\" 
+ 
+ 
+Checking "c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\" 
+ 
+ 
+[Skip] c:\SWSETUP\APP\Documentation\HP\HPDocumen_NNC3B2\1.01\src\install.cmd is in the src folder, skipped. 
+ 
+ 
+Checking "c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\install.cmd" 
+============= 
+REM Erase /F /Q *.CVA
+============= 
+[Mismatch] Keep the folder "c:\SWSETUP\APP\PreReq1\HP\HPSupport_GGXSB2\8.3.32.23\" 
+ 
+ 
+[ 4:52:05.75] Result of the Windows 10 HP Image Enhancements - CPS - Delete folder if deleting CVA failed. 
+RESULT=PASSED 
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:52:05.75] End of the RdFldrIfErsCVA.cmd                                    
+############################################################# 

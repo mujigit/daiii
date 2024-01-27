@@ -1,0 +1,12 @@
+[4:32:29 AM] Install Folder: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1
+[4:32:29 AM] CVA File: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\P00HUYB2.CVA
+[4:32:29 AM] Deliverable Name: Discover HP Touchpoint Manager - metro [1.0.13.1,A,2]
+[4:32:29 AM] Deliverable PN: P00HUY-B2N
+[4:32:29 AM] Deliverable Size: 3,162 Kbytes
+[4:32:29 AM] Free Size: 453,484,496 Kbytes
+[4:32:29 AM] System Used Size: 22,311,980 Kbytes
+[4:32:29 AM] Run install command: c:\SWSETUP\APP\Applications\HP\DiscoverH_HHUYB2\1.0.13.1\install.cmd
+[4:32:39 AM] Return code: 0
+[4:32:39 AM] Size Extend: 2,736 Kbytes
+[4:32:39 AM] Metro Deliverable: Yes
+[4:32:39 AM] RESULT=PASSED

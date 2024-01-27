@@ -1,0 +1,33 @@
+[14:16:21.34][RM_PASS2_FUpdate]ALWAYS Create RMFAIL.FLG. If PASS, delete it.  
+[14:16:21.36][RM_PASS2_FUpdate] ========================================================= 
+[14:16:21.36][RM_PASS2_FUpdate] PrepareRM_PASS2 
+[14:16:22.65][RM_PASS2_FUpdate] Process Time = 1 sec 
+[14:16:22.65][RM_PASS2_FUpdate] Result = 0 
+[14:16:22.65][RM_PASS2_FUpdate] ========================================================= 
+[14:16:22.65][RM_PASS2_FUpdate] DeployWinRE_2nd 
+[14:17:24.87][RM_PASS2_FUpdate] Process Time = 62 sec 
+[14:17:24.87][RM_PASS2_FUpdate] Result = 0 
+[14:17:24.87][RM_PASS2_FUpdate] ========================================================= 
+[14:17:24.87][RM_PASS2_FUpdate] DeployUCRM 
+[14:18:12.87][RM_PASS2_FUpdate] Process Time = 48 sec 
+[14:18:12.87][RM_PASS2_FUpdate] Result = 0 
+[14:18:12.87][RM_PASS2_FUpdate] ========================================================= 
+[14:18:12.87][RM_PASS2_FUpdate] CreateRP 
+[14:18:17.43][RM_PASS2_FUpdate] Process Time = 5 sec 
+[14:18:17.43][RM_PASS2_FUpdate] Result = 0 
+[14:18:17.43][RM_PASS2_FUpdate] ========================================================= 
+[14:18:17.43][RM_PASS2_FUpdate] DeployRP 
+[14:22:22.01][RM_PASS2_FUpdate] Process Time = 245 sec 
+[14:22:22.03][RM_PASS2_FUpdate] Result = 0 
+[14:22:22.04][RM_PASS2_FUpdate] ========================================================= 
+[14:22:22.04][RM_PASS2_FUpdate] CreateRTP 
+[14:22:31.56][RM_PASS2_FUpdate] Process Time = 9 sec 
+[14:22:31.56][RM_PASS2_FUpdate] Result = 0 
+[14:22:31.56][RM_PASS2_FUpdate] ========================================================= 
+[14:22:31.56][RM_PASS2_FUpdate] DeployRTP 
+[14:22:48.10][RM_PASS2_FUpdate] Process Time = 17 sec 
+[14:22:48.10][RM_PASS2_FUpdate] Result = 0 
+[14:22:48.10][RM_PASS2_FUpdate.cmd] DEL /F /Q C:\system.sav\flags\RMFail.flg  
+[RM_PASS2_FUpdate.cmd] Mon 03/27/2017 14:22:48.10                
+********** FINISH RM_PASS2_FUpdate.cmd **********   
+RETURN CODE - 0          

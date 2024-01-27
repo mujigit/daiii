@@ -1,0 +1,143 @@
+[ 5:31:30.97][PostRM.cmd] Find RP Drive Letter
+[ 5:31:31.02][PostRM.cmd] RP Drive Letter = e:
+[ 5:31:31.03][PostRM.cmd] RM Reserve
+[ 5:31:31.03][PostRM.cmd] CSCRIPT.EXE /NOLOGO "e:\preload\RM_RESERVE\RevFile.vbs" "e:\preload\RM_RESERVE\Reserve.log" C: "e:\preload\RM_RESERVE\"
+Src=C:\system.sav\util\install.log           Dest=e:\preload\RM_RESERVE\system.sav\util\
+Src=C:\System.sav\Logs\INSTALL_PASS1.log           Dest=e:\preload\RM_RESERVE\System.sav\Logs\
+[ 5:31:32.60][PostRM.cmd] Assign WinRE or ESP Drive Letter
+[ 5:31:32.62][PostRM.cmd] CALL C:\SYSTEM.SAV\Util\PostRM\PartInfo.exe C:\SYSTEM.SAV\Util\PostRM\WINREESP.ini C:\SYSTEM.SAV\LOGS\RM\2ndSPE-PartitionInfo.cmd HPRM
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: WIN-3KBIN702V2J
+
+The volume you selected is not valid or does not exist.
+
+There is no volume selected.
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: WIN-3KBIN702V2J
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     Z                FAT32  Partition    260 MB  Healthy    System  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+Partition 5 is now the selected partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+* Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     Z                FAT32  Partition    260 MB  Healthy    System  
+* Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+Leaving DiskPart...
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: WIN-3KBIN702V2J
+
+The volume you selected is not valid or does not exist.
+
+There is no volume selected.
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: WIN-3KBIN702V2J
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4     Z                FAT32  Partition    260 MB  Healthy    System  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+Partition 1 is now the selected partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+* Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy    Boot    
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     S                FAT32  Partition    260 MB  Healthy    System  
+  Volume 5     W   Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+
+Leaving DiskPart...
+[ 5:31:35.75][PostRM.cmd] Reagentc Function
+[ 5:31:35.75][PostRM.cmd] CMD.EXE /C C:\SYSTEM.SAV\Util\PostRM\ReagentcSetting.cmd W: C: e:
+[ 5:31:37.77][ReagentcSetting.cmd] OSGUID={f5661e2c-133a-11e7-9176-705a0f8492be}
+[ 5:31:40.16][PostRM.cmd] End
+[ 5:31:40.18][PostRM.cmd] Deploy PBR
+[ 5:31:40.18][PostRM.cmd] CMD.EXE /C C:\SYSTEM.SAV\Util\PostRM\DeployPBR.cmd
+[ 5:31:42.07][PostRM.cmd] End
+[ 5:31:42.09][PostRM.cmd] Output Information
+[ 5:31:42.09][PostRM.cmd] BCD Table
+[ 5:31:42.09][PostRM.cmd] BCDEDIT -enum all
+[ 5:31:42.54][PostRM.cmd] Reagentc Information
+[ 5:31:42.54][PostRM.cmd] Reagentc /info
+[ 5:31:43.01][PostRM.cmd] Big File
+[ 5:31:43.01][PostRM.cmd] CALL c:\system.sav\util\BFMergeForSR.cmd
+[ 5:31:43.26][PostRM.cmd] END
+[PostRM.cmd] Tue 03/28/2017  5:31:43.26
+********** FINISH PostRM.cmd **********
+RETURN CODE - 0
+[ 5:31:43.27][zz_RM_BBV3.cmd] RMDIR /S /Q C:\SwSetup\RMQFE\ 

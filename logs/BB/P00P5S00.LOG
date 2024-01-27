@@ -1,0 +1,12 @@
+[12:40:01 PM] Install Folder: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100
+[12:40:01 PM] CVA File: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\P00P5S00.CVA
+[12:40:01 PM] Deliverable Name: Microsoft Office 2016 and Office 365 for cNB/cDT [OPK16.2.1-00,A,2]
+[12:40:01 PM] Deliverable PN: P00P5S-00E
+[12:40:01 PM] Deliverable Size: 259,308 Kbytes
+[12:40:01 PM] Free Size: 58,758,184 Kbytes
+[12:40:01 PM] System Used Size: 20,284,372 Kbytes
+[12:40:01 PM] Run install command: c:\SWSETUP\APP\Applications\Microsoft\Microsoft_PP5S00\OPK16.2.100\install.cmd
+[12:40:03 PM] Return code: 0
+[12:40:03 PM] Size Extend: 0 Kbytes
+[12:40:03 PM] Metro Deliverable: No
+[12:40:03 PM] RESULT=PASSED

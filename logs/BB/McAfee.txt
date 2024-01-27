@@ -1,0 +1,4 @@
+===== Tue 03/28/2017  4:38:03.81 LiveSafe install begin =====
+[ Tue 03/28/2017  4:40:59.74] ERRORLEVEL:0 
+[ Tue 03/28/2017  4:40:59.75] RESULT=PASSED 
+===== Tue 03/28/2017  4:43:47.60 block finish =====

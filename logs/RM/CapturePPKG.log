@@ -1,0 +1,312 @@
+[ 4:53:03.71][CapturePPKG] Create [C:\system.sav\logs\RM\CapturePPKG.FAILURE.FLG]. If PASS, delete it.
+[ 4:53:03.74][CapturePPKG.cmd] COPY /Y C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml C:\Recovery\OEM\Point_D\Install.PI\sample\
+        1 file(s) copied.
+[ 4:53:03.75][CapturePPKG.cmd] MKDIR "C:\Recovery\OEM\Point_D\Install.pi\sample\Info\"
+[ 4:53:03.75][CapturePPKG.cmd] XCOPY /s /e /y /i /r /h C:\Windows\System32\oobe\info\*.* C:\Recovery\OEM\Point_D\Install.PI\sample\Info\
+C:\Windows\System32\oobe\info\EULA.rtf
+C:\Windows\System32\oobe\info\OOBE.xml
+C:\Windows\System32\oobe\info\pubkey.blob
+C:\Windows\System32\oobe\info\10\1033\linkfile1.html
+C:\Windows\System32\oobe\info\10\1033\linkfile2.html
+C:\Windows\System32\oobe\info\10\1033\linkfile3.html
+C:\Windows\System32\oobe\info\10\1033\oobe.xml
+C:\Windows\System32\oobe\info\108\1033\linkfile1.html
+C:\Windows\System32\oobe\info\108\1033\linkfile2.html
+C:\Windows\System32\oobe\info\108\1033\linkfile3.html
+C:\Windows\System32\oobe\info\108\1033\oobe.xml
+C:\Windows\System32\oobe\info\109\1033\linkfile1.html
+C:\Windows\System32\oobe\info\109\1033\linkfile2.html
+C:\Windows\System32\oobe\info\109\1033\linkfile3.html
+C:\Windows\System32\oobe\info\109\1033\oobe.xml
+C:\Windows\System32\oobe\info\11\1033\linkfile1.html
+C:\Windows\System32\oobe\info\11\1033\linkfile2.html
+C:\Windows\System32\oobe\info\11\1033\linkfile3.html
+C:\Windows\System32\oobe\info\11\1033\oobe.xml
+C:\Windows\System32\oobe\info\110\1033\linkfile1.html
+C:\Windows\System32\oobe\info\110\1033\linkfile2.html
+C:\Windows\System32\oobe\info\110\1033\linkfile3.html
+C:\Windows\System32\oobe\info\110\1033\oobe.xml
+C:\Windows\System32\oobe\info\114\1033\linkfile1.html
+C:\Windows\System32\oobe\info\114\1033\linkfile2.html
+C:\Windows\System32\oobe\info\114\1033\linkfile3.html
+C:\Windows\System32\oobe\info\114\1033\oobe.xml
+C:\Windows\System32\oobe\info\118\1033\linkfile1.html
+C:\Windows\System32\oobe\info\118\1033\linkfile2.html
+C:\Windows\System32\oobe\info\118\1033\linkfile3.html
+C:\Windows\System32\oobe\info\118\1033\oobe.xml
+C:\Windows\System32\oobe\info\12\1033\linkfile1.html
+C:\Windows\System32\oobe\info\12\1033\linkfile2.html
+C:\Windows\System32\oobe\info\12\1033\linkfile3.html
+C:\Windows\System32\oobe\info\12\1033\oobe.xml
+C:\Windows\System32\oobe\info\122\1033\linkfile1.html
+C:\Windows\System32\oobe\info\122\1033\linkfile2.html
+C:\Windows\System32\oobe\info\122\1033\linkfile3.html
+C:\Windows\System32\oobe\info\122\1033\oobe.xml
+C:\Windows\System32\oobe\info\134\1033\oobe.xml
+C:\Windows\System32\oobe\info\14\1033\linkfile1.html
+C:\Windows\System32\oobe\info\14\1033\linkfile2.html
+C:\Windows\System32\oobe\info\14\1033\linkfile3.html
+C:\Windows\System32\oobe\info\14\1033\oobe.xml
+C:\Windows\System32\oobe\info\140\1033\linkfile1.html
+C:\Windows\System32\oobe\info\140\1033\linkfile2.html
+C:\Windows\System32\oobe\info\140\1033\linkfile3.html
+C:\Windows\System32\oobe\info\140\1033\oobe.xml
+C:\Windows\System32\oobe\info\141\1033\linkfile1.html
+C:\Windows\System32\oobe\info\141\1033\linkfile2.html
+C:\Windows\System32\oobe\info\141\1033\linkfile3.html
+C:\Windows\System32\oobe\info\141\1033\oobe.xml
+C:\Windows\System32\oobe\info\143\1033\linkfile1.html
+C:\Windows\System32\oobe\info\143\1033\linkfile2.html
+C:\Windows\System32\oobe\info\143\1033\linkfile3.html
+C:\Windows\System32\oobe\info\143\1033\oobe.xml
+C:\Windows\System32\oobe\info\145\1033\linkfile1.html
+C:\Windows\System32\oobe\info\145\1033\linkfile2.html
+C:\Windows\System32\oobe\info\145\1033\linkfile3.html
+C:\Windows\System32\oobe\info\145\1033\oobe.xml
+C:\Windows\System32\oobe\info\147\1033\linkfile1.html
+C:\Windows\System32\oobe\info\147\1033\linkfile2.html
+C:\Windows\System32\oobe\info\147\1033\linkfile3.html
+C:\Windows\System32\oobe\info\147\1033\oobe.xml
+C:\Windows\System32\oobe\info\163\1033\linkfile1.html
+C:\Windows\System32\oobe\info\163\1033\linkfile2.html
+C:\Windows\System32\oobe\info\163\1033\linkfile3.html
+C:\Windows\System32\oobe\info\163\1033\oobe.xml
+C:\Windows\System32\oobe\info\167\1033\linkfile1.html
+C:\Windows\System32\oobe\info\167\1033\linkfile2.html
+C:\Windows\System32\oobe\info\167\1033\linkfile3.html
+C:\Windows\System32\oobe\info\167\1033\oobe.xml
+C:\Windows\System32\oobe\info\176\1033\linkfile1.html
+C:\Windows\System32\oobe\info\176\1033\linkfile2.html
+C:\Windows\System32\oobe\info\176\1033\linkfile3.html
+C:\Windows\System32\oobe\info\176\1033\oobe.xml
+C:\Windows\System32\oobe\info\177\1033\linkfile1.html
+C:\Windows\System32\oobe\info\177\1033\linkfile2.html
+C:\Windows\System32\oobe\info\177\1033\linkfile3.html
+C:\Windows\System32\oobe\info\177\1033\oobe.xml
+C:\Windows\System32\oobe\info\191\1033\linkfile1.html
+C:\Windows\System32\oobe\info\191\1033\linkfile2.html
+C:\Windows\System32\oobe\info\191\1033\linkfile3.html
+C:\Windows\System32\oobe\info\191\1033\oobe.xml
+C:\Windows\System32\oobe\info\193\1033\linkfile1.html
+C:\Windows\System32\oobe\info\193\1033\linkfile2.html
+C:\Windows\System32\oobe\info\193\1033\linkfile3.html
+C:\Windows\System32\oobe\info\193\1033\oobe.xml
+C:\Windows\System32\oobe\info\198\1033\linkfile1.html
+C:\Windows\System32\oobe\info\198\1033\linkfile2.html
+C:\Windows\System32\oobe\info\198\1033\linkfile3.html
+C:\Windows\System32\oobe\info\198\1033\oobe.xml
+C:\Windows\System32\oobe\info\20\1033\linkfile1.html
+C:\Windows\System32\oobe\info\20\1033\linkfile2.html
+C:\Windows\System32\oobe\info\20\1033\linkfile3.html
+C:\Windows\System32\oobe\info\20\1033\oobe.xml
+C:\Windows\System32\oobe\info\200\1033\linkfile1.html
+C:\Windows\System32\oobe\info\200\1033\linkfile2.html
+C:\Windows\System32\oobe\info\200\1033\linkfile3.html
+C:\Windows\System32\oobe\info\200\1033\oobe.xml
+C:\Windows\System32\oobe\info\202\1033\linkfile1.html
+C:\Windows\System32\oobe\info\202\1033\linkfile2.html
+C:\Windows\System32\oobe\info\202\1033\linkfile3.html
+C:\Windows\System32\oobe\info\202\1033\oobe.xml
+C:\Windows\System32\oobe\info\206\1033\linkfile1.html
+C:\Windows\System32\oobe\info\206\1033\linkfile2.html
+C:\Windows\System32\oobe\info\206\1033\linkfile3.html
+C:\Windows\System32\oobe\info\206\1033\oobe.xml
+C:\Windows\System32\oobe\info\21\1033\linkfile1.html
+C:\Windows\System32\oobe\info\21\1033\linkfile2.html
+C:\Windows\System32\oobe\info\21\1033\linkfile3.html
+C:\Windows\System32\oobe\info\21\1033\oobe.xml
+C:\Windows\System32\oobe\info\212\1033\linkfile1.html
+C:\Windows\System32\oobe\info\212\1033\linkfile2.html
+C:\Windows\System32\oobe\info\212\1033\linkfile3.html
+C:\Windows\System32\oobe\info\212\1033\oobe.xml
+C:\Windows\System32\oobe\info\217\1033\linkfile1.html
+C:\Windows\System32\oobe\info\217\1033\linkfile2.html
+C:\Windows\System32\oobe\info\217\1033\linkfile3.html
+C:\Windows\System32\oobe\info\217\1033\oobe.xml
+C:\Windows\System32\oobe\info\221\1033\linkfile1.html
+C:\Windows\System32\oobe\info\221\1033\linkfile2.html
+C:\Windows\System32\oobe\info\221\1033\linkfile3.html
+C:\Windows\System32\oobe\info\221\1033\oobe.xml
+C:\Windows\System32\oobe\info\223\1033\linkfile1.html
+C:\Windows\System32\oobe\info\223\1033\linkfile2.html
+C:\Windows\System32\oobe\info\223\1033\linkfile3.html
+C:\Windows\System32\oobe\info\223\1033\oobe.xml
+C:\Windows\System32\oobe\info\242\1033\linkfile1.html
+C:\Windows\System32\oobe\info\242\1033\linkfile2.html
+C:\Windows\System32\oobe\info\242\1033\linkfile3.html
+C:\Windows\System32\oobe\info\242\1033\oobe.xml
+C:\Windows\System32\oobe\info\244\1033\linkfile1.html
+C:\Windows\System32\oobe\info\244\1033\linkfile2.html
+C:\Windows\System32\oobe\info\244\1033\linkfile3.html
+C:\Windows\System32\oobe\info\244\1033\oobe.xml
+C:\Windows\System32\oobe\info\252\1033\linkfile1.html
+C:\Windows\System32\oobe\info\252\1033\linkfile2.html
+C:\Windows\System32\oobe\info\252\1033\linkfile3.html
+C:\Windows\System32\oobe\info\252\1033\oobe.xml
+C:\Windows\System32\oobe\info\300\1033\linkfile1.html
+C:\Windows\System32\oobe\info\300\1033\linkfile2.html
+C:\Windows\System32\oobe\info\300\1033\linkfile3.html
+C:\Windows\System32\oobe\info\300\1033\oobe.xml
+C:\Windows\System32\oobe\info\307\1033\linkfile1.html
+C:\Windows\System32\oobe\info\307\1033\linkfile2.html
+C:\Windows\System32\oobe\info\307\1033\linkfile3.html
+C:\Windows\System32\oobe\info\307\1033\oobe.xml
+C:\Windows\System32\oobe\info\315\1033\linkfile1.html
+C:\Windows\System32\oobe\info\315\1033\linkfile2.html
+C:\Windows\System32\oobe\info\315\1033\linkfile3.html
+C:\Windows\System32\oobe\info\315\1033\oobe.xml
+C:\Windows\System32\oobe\info\317\1033\linkfile1.html
+C:\Windows\System32\oobe\info\317\1033\linkfile2.html
+C:\Windows\System32\oobe\info\317\1033\linkfile3.html
+C:\Windows\System32\oobe\info\317\1033\oobe.xml
+C:\Windows\System32\oobe\info\318\1033\linkfile1.html
+C:\Windows\System32\oobe\info\318\1033\linkfile2.html
+C:\Windows\System32\oobe\info\318\1033\linkfile3.html
+C:\Windows\System32\oobe\info\318\1033\oobe.xml
+C:\Windows\System32\oobe\info\321\1033\linkfile1.html
+C:\Windows\System32\oobe\info\321\1033\linkfile2.html
+C:\Windows\System32\oobe\info\321\1033\linkfile3.html
+C:\Windows\System32\oobe\info\321\1033\oobe.xml
+C:\Windows\System32\oobe\info\322\1033\linkfile1.html
+C:\Windows\System32\oobe\info\322\1033\linkfile2.html
+C:\Windows\System32\oobe\info\322\1033\linkfile3.html
+C:\Windows\System32\oobe\info\322\1033\oobe.xml
+C:\Windows\System32\oobe\info\330\1033\linkfile1.html
+C:\Windows\System32\oobe\info\330\1033\linkfile2.html
+C:\Windows\System32\oobe\info\330\1033\linkfile3.html
+C:\Windows\System32\oobe\info\330\1033\oobe.xml
+C:\Windows\System32\oobe\info\331\1033\linkfile1.html
+C:\Windows\System32\oobe\info\331\1033\linkfile2.html
+C:\Windows\System32\oobe\info\331\1033\linkfile3.html
+C:\Windows\System32\oobe\info\331\1033\oobe.xml
+C:\Windows\System32\oobe\info\332\1033\linkfile1.html
+C:\Windows\System32\oobe\info\332\1033\linkfile2.html
+C:\Windows\System32\oobe\info\332\1033\linkfile3.html
+C:\Windows\System32\oobe\info\332\1033\oobe.xml
+C:\Windows\System32\oobe\info\334\1033\linkfile1.html
+C:\Windows\System32\oobe\info\334\1033\linkfile2.html
+C:\Windows\System32\oobe\info\334\1033\linkfile3.html
+C:\Windows\System32\oobe\info\334\1033\oobe.xml
+C:\Windows\System32\oobe\info\337\1033\linkfile1.html
+C:\Windows\System32\oobe\info\337\1033\linkfile2.html
+C:\Windows\System32\oobe\info\337\1033\linkfile3.html
+C:\Windows\System32\oobe\info\337\1033\oobe.xml
+C:\Windows\System32\oobe\info\339\1033\linkfile1.html
+C:\Windows\System32\oobe\info\339\1033\linkfile2.html
+C:\Windows\System32\oobe\info\339\1033\linkfile3.html
+C:\Windows\System32\oobe\info\339\1033\oobe.xml
+C:\Windows\System32\oobe\info\342\1033\linkfile1.html
+C:\Windows\System32\oobe\info\342\1033\linkfile2.html
+C:\Windows\System32\oobe\info\342\1033\linkfile3.html
+C:\Windows\System32\oobe\info\342\1033\oobe.xml
+C:\Windows\System32\oobe\info\343\1033\linkfile1.html
+C:\Windows\System32\oobe\info\343\1033\linkfile2.html
+C:\Windows\System32\oobe\info\343\1033\linkfile3.html
+C:\Windows\System32\oobe\info\343\1033\oobe.xml
+C:\Windows\System32\oobe\info\349\1033\linkfile1.html
+C:\Windows\System32\oobe\info\349\1033\linkfile2.html
+C:\Windows\System32\oobe\info\349\1033\linkfile3.html
+C:\Windows\System32\oobe\info\349\1033\oobe.xml
+C:\Windows\System32\oobe\info\35\1033\linkfile1.html
+C:\Windows\System32\oobe\info\35\1033\linkfile2.html
+C:\Windows\System32\oobe\info\35\1033\linkfile3.html
+C:\Windows\System32\oobe\info\35\1033\oobe.xml
+C:\Windows\System32\oobe\info\351\1033\linkfile1.html
+C:\Windows\System32\oobe\info\351\1033\linkfile2.html
+C:\Windows\System32\oobe\info\351\1033\linkfile3.html
+C:\Windows\System32\oobe\info\351\1033\oobe.xml
+C:\Windows\System32\oobe\info\352\1033\linkfile1.html
+C:\Windows\System32\oobe\info\352\1033\linkfile2.html
+C:\Windows\System32\oobe\info\352\1033\linkfile3.html
+C:\Windows\System32\oobe\info\352\1033\oobe.xml
+C:\Windows\System32\oobe\info\59\1033\linkfile1.html
+C:\Windows\System32\oobe\info\59\1033\linkfile2.html
+C:\Windows\System32\oobe\info\59\1033\linkfile3.html
+C:\Windows\System32\oobe\info\59\1033\oobe.xml
+C:\Windows\System32\oobe\info\61\1033\linkfile1.html
+C:\Windows\System32\oobe\info\61\1033\linkfile2.html
+C:\Windows\System32\oobe\info\61\1033\linkfile3.html
+C:\Windows\System32\oobe\info\61\1033\oobe.xml
+C:\Windows\System32\oobe\info\68\1033\linkfile1.html
+C:\Windows\System32\oobe\info\68\1033\linkfile2.html
+C:\Windows\System32\oobe\info\68\1033\linkfile3.html
+C:\Windows\System32\oobe\info\68\1033\oobe.xml
+C:\Windows\System32\oobe\info\70\1033\linkfile1.html
+C:\Windows\System32\oobe\info\70\1033\linkfile2.html
+C:\Windows\System32\oobe\info\70\1033\linkfile3.html
+C:\Windows\System32\oobe\info\70\1033\oobe.xml
+C:\Windows\System32\oobe\info\75\1033\linkfile1.html
+C:\Windows\System32\oobe\info\75\1033\linkfile2.html
+C:\Windows\System32\oobe\info\75\1033\linkfile3.html
+C:\Windows\System32\oobe\info\75\1033\oobe.xml
+C:\Windows\System32\oobe\info\77\1033\linkfile1.html
+C:\Windows\System32\oobe\info\77\1033\linkfile2.html
+C:\Windows\System32\oobe\info\77\1033\linkfile3.html
+C:\Windows\System32\oobe\info\77\1033\oobe.xml
+C:\Windows\System32\oobe\info\84\1033\linkfile1.html
+C:\Windows\System32\oobe\info\84\1033\linkfile2.html
+C:\Windows\System32\oobe\info\84\1033\linkfile3.html
+C:\Windows\System32\oobe\info\84\1033\oobe.xml
+C:\Windows\System32\oobe\info\90\1033\linkfile1.html
+C:\Windows\System32\oobe\info\90\1033\linkfile2.html
+C:\Windows\System32\oobe\info\90\1033\linkfile3.html
+C:\Windows\System32\oobe\info\90\1033\oobe.xml
+C:\Windows\System32\oobe\info\93\1033\linkfile1.html
+C:\Windows\System32\oobe\info\93\1033\linkfile2.html
+C:\Windows\System32\oobe\info\93\1033\linkfile3.html
+C:\Windows\System32\oobe\info\93\1033\oobe.xml
+C:\Windows\System32\oobe\info\94\1033\linkfile1.html
+C:\Windows\System32\oobe\info\94\1033\linkfile2.html
+C:\Windows\System32\oobe\info\94\1033\linkfile3.html
+C:\Windows\System32\oobe\info\94\1033\oobe.xml
+C:\Windows\System32\oobe\info\98\1033\linkfile1.html
+C:\Windows\System32\oobe\info\98\1033\linkfile2.html
+C:\Windows\System32\oobe\info\98\1033\linkfile3.html
+C:\Windows\System32\oobe\info\98\1033\oobe.xml
+C:\Windows\System32\oobe\info\Default\1033\linkfile1.html
+C:\Windows\System32\oobe\info\Default\1033\linkfile2.html
+C:\Windows\System32\oobe\info\Default\1033\linkfile3.html
+C:\Windows\System32\oobe\info\Default\1033\OOBE.xml
+264 File(s) copied
+[ 4:53:05.16][CapturePPKG.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\GenPPKGXML.vbs C:\RM\RERM\DeployRP\PPKGXML\ list C:\system.sav\logs\RM\IncludeAndExclude.xml
+C:\RM\RERM\DeployRP\PPKGXML\Exclude\RegistryKeys\RMReg.list 0
+C:\RM\RERM\DeployRP\PPKGXML\Exclude\Files\ImgCust.list 0
+C:\RM\RERM\DeployRP\PPKGXML\Exclude\Files\RMFile.list 0
+[ 4:53:05.58][CapturePPKG.cmd] Before Capture : Query UP Free Space
+[ 4:53:05.58][CapturePPKG.cmd] CALL :QueryDrvFreeSpace C:
+[ 4:53:05.60][CapturePPKG.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QueryDrvFreeSpace.vbs C:
+[ 4:53:05.72][CapturePPKG.cmd] THE FREE SPACE OF C: is 440230 MB
+[ 4:53:05.74][CapturePPKG.cmd] Before Capture
+[ 4:53:05.74][CapturePPKG.cmd] UP Free Space = 440230 MB
+[ 4:53:05.74][CapturePPKG.cmd] ============================================================ [1/3] ============================================================
+[ 4:53:05.74][CapturePPKG.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\Sleep.vbs 10
+[ 4:53:15.82][CapturePPKG.cmd] CALL C:\system.sav\util\Scanstate\scanstate.exe /apps /i:C:\system.sav\logs\RM\IncludeAndExclude.xml /config:C:\system.sav\logs\RM\PPKG_Config_Dest.xml /ppkg C:\Recovery\Customizations\usmt.ppkg /o /v:13 /l:C:\Recovery\OEM\Log\PPKG.log
+ 
+ S C A N S T A T E . E X E   V e r s i o n   1 0 . 0 . 1 4 3 9 3  
+ ( C )   2 0 1 2   M i c r o s o f t   C o r p o r a t i o n .   A l l   r i g h t s   r e s e r v e d .  
+  
+ L o g   m e s s a g e s   a r e   b e i n g   s e n t   t o   ' C : \ R e c o v e r y \ O E M \ L o g \ P P K G . l o g '  
+  
+ S t a r t i n g   t h e   m i g r a t i o n   p r o c e s s  
+  
+  E x t r a c t i n g   a p p l i c a t i o n s :       0   %  E x t r a c t i n g   a p p l i c a t i o n s :       1   %  E x t r a c t i n g   a p p l i c a t i o n s :       2   %  E x t r a c t i n g   a p p l i c a t i o n s :       3   %  E x t r a c t i n g   a p p l i c a t i o n s :       4   %  E x t r a c t i n g   a p p l i c a t i o n s :       5   %  E x t r a c t i n g   a p p l i c a t i o n s :       6   %  E x t r a c t i n g   a p p l i c a t i o n s :       7   %  E x t r a c t i n g   a p p l i c a t i o n s :       8   %  E x t r a c t i n g   a p p l i c a t i o n s :       9   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 0   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 1   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 2   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 3   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 4   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     1 9   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 0   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 1   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 2   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 3   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 4   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     2 9   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 0   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 1   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 2   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 3   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 4   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     3 9   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 0   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 1   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 2   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 3   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 4   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     4 9   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 0   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 1   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 2   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 3   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 4   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     5 9   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 0   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 1   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 2   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 3   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 4   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     6 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     9 5   %  E x t r a c t i n g   a p p l i c a t i o n s :     9 6   %  E x t r a c t i n g   a p p l i c a t i o n s :     9 7   %  E x t r a c t i n g   a p p l i c a t i o n s :     9 8   %  E x t r a c t i n g   a p p l i c a t i o n s :     9 9   %  E x t r a c t i n g   a p p l i c a t i o n s :   1 0 0   %  
+  
+ S u c c e s s .  
+ 
+ScanState return code: 0
+[ 5:17:11.39][CapturePPKG.cmd] Return Code = 0 
+[ 5:17:11.41][CapturePPKG.cmd] CSCRIPT //NOLOGO C:\RM\RERM\DeployRP\CalFileSize.vbs C:\Recovery\Customizations\usmt.ppkg
+[ 5:17:11.41][CapturePPKG.cmd] FileSize.BYTE=4165513937
+[ 5:17:11.41][CapturePPKG.cmd] CRM.PPKG.SIZE.BYTE = 4165513937
+[ 5:17:11.41][CapturePPKG.cmd] CRM.PPKG.SIZE.MB = 0
+[ 5:17:11.41][CapturePPKG.cmd] FileSize.KB=4067885
+[ 5:17:11.41][CapturePPKG.cmd] CRM.PPKG.SIZE.BYTE = 4165513937
+[ 5:17:11.41][CapturePPKG.cmd] CRM.PPKG.SIZE.MB = 0
+[ 5:17:11.41][CapturePPKG.cmd] FileSize.MB=3973
+[ 5:17:11.41][CapturePPKG.cmd] CRM.PPKG.SIZE.BYTE = 4165513937
+[ 5:17:11.41][CapturePPKG.cmd] CRM.PPKG.SIZE.MB = 3973
+[ 5:17:11.75][CapturePPKG.cmd] File: C:\Recovery\Customizations\usmt.ppkg , Size : 4165513937 bytes or 3973 MB
+[ 5:17:11.78][CapturePPKG.cmd] Delete [C:\system.sav\logs\RM\CapturePPKG.FAILURE.FLG]...
+[CapturePPKG.cmd] Tue 03/28/2017  5:17:11.80
+********** FINISH CapturePPKG.cmd **********
+RETURN CODE - 0

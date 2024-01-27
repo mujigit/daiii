@@ -1,0 +1,140 @@
+[12:11:17.33][DeployWinRE_1st.cmd] CALL DISM.EXE /image:C:\RM\MountRM\ /ScratchDir:C:\RM\TempRM\ /get-packages /English 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+Packages listing:
+
+Package Identity : Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:36 PM
+
+Package Identity : Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Foundation
+Install Time : 7/16/2016 12:14 PM
+
+Package Identity : Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.82.1.0
+State : Installed
+Release Type : Update
+Install Time : 3/27/2017 8:11 PM
+
+Package Identity : WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:45 PM
+
+Package Identity : WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:45 PM
+
+Package Identity : WinPE-FMAPI-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-Fonts-Legacy-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 1:00 PM
+
+Package Identity : WinPE-FontSupport-WinRE-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-HTA-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:59 PM
+
+Package Identity : WinPE-HTA-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:59 PM
+
+Package Identity : WinPE-Rejuv-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-Rejuv-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 1:00 PM
+
+Package Identity : WinPE-Scripting-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:43 PM
+
+Package Identity : WinPE-Scripting-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:43 PM
+
+Package Identity : WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:45 PM
+
+Package Identity : WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:44 PM
+
+Package Identity : WinPE-SRT-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:42 PM
+
+Package Identity : WinPE-SRT-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:42 PM
+
+Package Identity : WinPE-StorageWMI-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-StorageWMI-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-WDS-Tools-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:44 PM
+
+Package Identity : WinPE-WDS-Tools-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:43 PM
+
+Package Identity : WinPE-WiFi-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-WiFi-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 1:01 PM
+
+Package Identity : WinPE-WMI-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:42 PM
+
+Package Identity : WinPE-WMI-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 7/16/2016 12:41 PM
+
+The operation completed successfully.

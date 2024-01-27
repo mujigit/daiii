@@ -1,0 +1,12 @@
+[4:34:43 AM] Install Folder: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0
+[4:34:43 AM] CVA File: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\P00N20B2.CVA
+[4:34:43 AM] Deliverable Name: Netflix [6.11.33.0,A,3]
+[4:34:43 AM] Deliverable PN: P00N20-B2L
+[4:34:44 AM] Deliverable Size: 1,953 Kbytes
+[4:34:44 AM] Free Size: 452,994,484 Kbytes
+[4:34:44 AM] System Used Size: 22,801,992 Kbytes
+[4:34:44 AM] Run install command: c:\SWSETUP\APP\Applications\Netflix\NetflixMe_NN20B2\6.11.33.0\install.cmd
+[4:35:04 AM] Return code: 0
+[4:35:04 AM] Size Extend: 11,068 Kbytes
+[4:35:04 AM] Metro Deliverable: Yes
+[4:35:04 AM] RESULT=PASSED

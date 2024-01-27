@@ -1,0 +1,53 @@
+
+Memory 3547 MB
+Executing on .\wizinstaller.ini on Monday, March 27, 2017 at 12:37:32 PM for en_us
+
+Copying from '.\HPQWare' to 'c:\hp\HPQWare'
+Copying from '.\Shared' to 'C:\Program Files (x86)\HP\Shared'
+Executing '.\SetEnvVars.bat', Param '', Working Directory 'c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\src'
+Copying from 'c:\windows\system32\cmd.exe' to 'c:\hp\bin\cmd.exe'
+Copying from '.\muidir\' to 'c:\windows\system32'
+Wizinstaller Instance ID	 : {ED89AF90-998F-4809-84AC-48CA09511F3E}
+Init	 : 1203
+Action	 : 2141
+Uninit	 : 15
+
+Memory 3547 MB
+Executing on .\postinstall.ini on Monday, March 27, 2017 at 12:37:34 PM for en_us
+
+Executing '.\PostInstall.bat', Param '', Working Directory 'c:\SWSETUP\APP\PreReq1\HP\WWBTBHost_PPZGB2\3.16\src'
+Wizinstaller Instance ID	 : {6DC3DC92-6A1C-46CA-AC28-5C79D26D10B4}
+Init	 : 47
+Action	 : 1610
+Uninit	 : 0
+Tue 03/28/2017  4:45:30.36 BTB Post Install Start Running
+
+Memory 3547 MB
+Executing on c:\hp\hpqware\btbhost\SCMID.ini  on Tuesday, March 28, 2017 at 4:45:37 AM for en_in
+
+Executing 'c:\hp\hpqware\btbhost\SCMID.bat', Param '', Working Directory 'c:\hp\hpqware\btbhost'
+Wizinstaller Instance ID	 : {3B577737-C304-4C4E-AEA4-0925369AABB1}
+Init	 : 1719
+Action	 : 1031
+Uninit	 : 47
+
+Memory 3547 MB
+Executing on c:\system.sav\util\2postprocess\customdata\customData.ini on Tuesday, March 28, 2017 at 4:45:38 AM for en_in
+
+Executing 'c:\system.sav\util\2postprocess\customdata\customData.cmd', Param '', Working Directory 'c:\system.sav\util\2postprocess\customdata'
+Wizinstaller Instance ID	 : {2C8352DC-089B-411A-B589-497F3376554D}
+Init	 : 47
+Action	 : 2140
+Uninit	 : 16
+Tue 03/28/2017  4:45:57.02 BTB Post Install Finish Running
+
+Memory 3547 MB
+Executing on c:\system.sav\util\2postprocess\customdata\WizInstaller.ini on Tuesday, March 28, 2017 at 5:30:49 AM for en_in
+
+Wizinstaller Instance ID	 : {E6630DAF-C0BA-4D68-ADF0-71B0A83F79CA}
+Init	 : 2953
+Action	 : 0
+Uninit	 : 172
+ 
+11-05-2017  8:38:09.78 BtBHost postUser begin
+11-05-2017  8:38:14.77 BtBHost postUser finish

@@ -1,0 +1,30 @@
+[ 5:35:49.00] ************************************************** 
+[ 5:35:49.02]  [C:\SYSTEM.SAV\ExitProc\DisableSB.cmd] has started... 
+[ 5:35:49.03] -------------------------------------------------- 
+[ 5:35:49.05]   
+[ 5:35:49.06]  Detect WinPE if it is 32bit or 64bit 
+[ 5:35:49.08]   
+[ 5:35:49.08]    WinPE is 64bit. 
+[ 5:35:49.09]   
+[ 5:35:49.11]  Detect BIOS vendor 
+[ 5:35:49.12]   
+[ 5:35:49.14]    BIOS vendor = [INSYDE] 
+[ 5:35:49.16]   
+[ 5:35:49.16]   
+[ 5:35:49.17]  Detect ML prefix [CNB or CDT] 
+[ 5:35:49.19]   
+[ 5:35:49.23]    ML_PREFIX = [NB] 
+[ 5:35:49.23]   
+[ 5:35:49.25]   
+[ 5:35:49.27]  Run [DiskPart.exe /s C:\System.sav\ExitProc\SBWA.txt] 
+[ 5:35:49.28]    Workaround for BCU to run WMI service... 
+[ 5:35:49.30]   
+[ 5:35:49.62]   
+[ 5:35:49.62]  Disable SecureBoot [Enable PXE]... 
+[ 5:35:49.64]   
+[ 5:35:49.68] C:\system.sav\Exclude\BiosConfig\INSYDE\BiosConfigUtility_x64.exe /SetConfig:C:\system.sav\Exclude\BiosConfig\INSYDE\SB_Disable_NB.txt /verbose 
+[ 5:35:50.61]    ErrorLevel=[0] 
+[ 5:35:50.62]   
+[ 5:35:51.19] -------------------------------------------------- 
+[ 5:35:51.21]  [DisableSB.cmd] has completed... 
+[ 5:35:51.21] ************************************************** 

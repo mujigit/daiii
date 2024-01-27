@@ -1,0 +1,49 @@
+[ 5:35:10.78][WR4MSDTC.cmd] Get Windows Current build#
+[ 5:35:10.78][WR4MSDTC.cmd] Reg load HKLM\test C:\windows\system32\config\software
+The operation completed successfully.
+[ 5:35:12.45][WR4MSDTC.cmd] Reg query "HKLM\TEST\Microsoft\Windows NT\CurrentVersion" /v CurrentBuild
+HKEY_LOCAL_MACHINE\TEST\Microsoft\Windows NT\CurrentVersion 
+CurrentBuild REG_SZ 14393
+[ 5:35:12.47][WR4MSDTC.cmd] Reg unload HKLM\test
+The operation completed successfully.
+[ 5:35:12.64][WR4MSDTC.cmd] WINDOWS VERSION=14393
+[ 5:35:12.64][WR4MSDTC.cmd] reg.exe load HKLM\test C:\windows\system32\config\Software
+The operation completed successfully.
+[ 5:35:14.36][WR4MSDTC.cmd] reg.exe query "HKLM\TEST\Microsoft\MSDTC"
+
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC
+    AllowOnlySecureRpcCalls    REG_DWORD    0x1
+    FallbackToUnsecureRPCIfNecessary    REG_DWORD    0x0
+    MaxLogSize    REG_DWORD    0x200
+    TurnOffRpcSecurity    REG_DWORD    0x0
+    SysprepInProgress    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\KtmRm
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\MTxOCI
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\Security
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\Setup
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\Tracing
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\XADLL
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC  
+SysprepInProgress REG_DWORD 0x1
+[ 5:35:14.39][WR4MSDTC.cmd] SysprepInProgress = 0x1
+[ 5:35:14.39][WR4MSDTC.cmd] reg.exe add "HKLM\TEST\Microsoft\MSDTC" /v SysprepInProgress /t REG_DWORD /d 0 /f 
+The operation completed successfully.
+[ 5:35:14.41][WR4MSDTC.cmd] reg.exe query "HKLM\TEST\Microsoft\MSDTC"
+
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC
+    AllowOnlySecureRpcCalls    REG_DWORD    0x1
+    FallbackToUnsecureRPCIfNecessary    REG_DWORD    0x0
+    MaxLogSize    REG_DWORD    0x200
+    TurnOffRpcSecurity    REG_DWORD    0x0
+    SysprepInProgress    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\KtmRm
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\MTxOCI
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\Security
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\Setup
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\Tracing
+HKEY_LOCAL_MACHINE\TEST\Microsoft\MSDTC\XADLL
+[ 5:35:14.43][WR4MSDTC.cmd] reg.exe unload HKLM\test
+The operation completed successfully.
+[ 5:35:14.59][WR4MSDTC.cmd] END

@@ -1,0 +1,37 @@
+3/28/2017 4:32:25 AM
+root\cimv2,Win32_ComputerSystemProduct,Name,HP 245 G5 Notebook PC
+root\cimv2,Win32_ComputerSystemProduct,Vendor,HP
+root\wmi,ms_SystemInformation,SystemFamily,103C_5336AN G=N L=SMB B=HP S=245
+cimv2,Win32_SystemEnclosure,ChassisTypes,N10
+root\cimv2,win32_ComputerSystemProduct,IdentifyingNumber,D235641159
+bPCBuildFileName: D235641159F9_DPS
+root\cimv2,Win32_BaseBoard,Product,81E5
+root\cimv2,Win32_BaseBoard,Manufacturer,HP
+root\cimv2,Win32_BaseBoard,Version,KBC Version 73.12
+root\cimv2,win32_BIOS,SMBIOSBIOSVersion,B.11
+root\cimv2,win32_BIOS,ReleaseDate,20160310000000.000000+000
+root\cimv2,Win32_OperatingSystem,Caption,Microsoft Windows 10 Pro
+root\cimv2,Win32_OperatingSystem,OperatingSystemSKU,48
+root\cimv2,Win32_OperatingSystem,ServicePackMajorVersion,0
+root\cimv2,Win32_OperatingSystem,OSLanguage,1033
+root\cimv2,Win32_OperatingSystem,TotalVisibleMemorySize,3631112
+root\cimv2,win32_DiskDrive,Size,500105249280
+root\cimv2,win32_Processor,Manufacturer,AuthenticAMD
+root\cimv2,win32_Processor,ProcessorId,178BFBFF00730F01
+root\cimv2,win32_Processor,MaxClockSpeed,2000
+cimv2,win32_NetworkAdapter,PnPDeviceID,10EC8179;10EC8168
+root\wmi,ms_SystemInformation,SystemSKU,1ZX23PC#ACJ
+cimv2,Win32_SystemEnclosure,ChassisTypes,N10
+cimv2,win32_POTSModem,PnPDeviceID,
+root\cimv2,Win32_ComputerSystemProduct,Version,Type1ProductConfigId
+cimv2,win32_VideoController,PnPDeviceID,10029851
+root\cimv2,win32_CDROMDrive,Name,hp       DVDRW GUD1N
+root\cimv2,win32_DesktopMonitor,PNPDeviceID,DISPLAY\CMN1490\4&7DBB3CD&0&UID256
+root\cimv2,win32_DiskDrive,Model,HGST HTS725050A7E630
+root\cimv2,win32_VideoController,DriverVersion,21.19.144.257
+cimv2,win32_PCMCIAController,PnPDeviceID,
+root\cimv2,Win32_ComputerSystemProduct,Vendor,HP
+cimv2,win32_SCSIController,PnPDeviceID,
+cimv2,win32_SoundDevice,PnPDeviceID,
+cimv2,win32_USBController,PnPDeviceID,10227808;10227808;10227814
+cimv2,win32_1394Controller,PnPDeviceID,

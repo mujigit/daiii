@@ -1,0 +1,1 @@
+Tue 03/28/2017  4:28:20.10  add this flag to force disable BtBHost not to write BuildID to registry key. This should force HP JumpStart being pointed to production stack. 

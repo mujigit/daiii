@@ -1,0 +1,165 @@
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+Getting the list of app packages (.appx or .appxbundle) in this image...
+
+DisplayName : Microsoft.3DBuilder
+Version : 11.0.47.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.3DBuilder_11.0.47.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.BingWeather
+Version : 4.9.51.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.BingWeather_4.9.51.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.DesktopAppInstaller
+Version : 1.5.26001.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.DesktopAppInstaller_1.5.26001.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.Getstarted
+Version : 3.11.3.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.Getstarted_3.11.3.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.Messaging
+Version : 2.7.1001.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.Messaging_2.7.1001.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.MicrosoftOfficeHub
+Version : 2015.6801.23751.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.MicrosoftOfficeHub_2015.6801.23751.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.MicrosoftSolitaireCollection
+Version : 3.9.5100.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.MicrosoftSolitaireCollection_3.9.5100.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.MicrosoftStickyNotes
+Version : 1.0.136.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.MicrosoftStickyNotes_1.0.136.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.Office.OneNote
+Version : 2015.6868.57981.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.Office.OneNote_2015.6868.57981.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.OneConnect
+Version : 1.1605.17.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.OneConnect_1.1605.17.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.People
+Version : 2016.709.155.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.People_2016.709.155.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.SkypeApp
+Version : 11.4.86.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.SkypeApp_11.4.86.0_neutral_~_kzf8qxf38zg5c
+
+DisplayName : Microsoft.StorePurchaseApp
+Version : 1.0.454.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.StorePurchaseApp_1.0.454.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.Windows.Photos
+Version : 2016.511.9510.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.Windows.Photos_2016.511.9510.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsAlarms
+Version : 2016.622.2118.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsAlarms_2016.622.2118.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsCalculator
+Version : 2016.606.1706.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsCalculator_2016.606.1706.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsCamera
+Version : 2016.404.190.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsCamera_2016.404.190.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : microsoft.windowscommunicationsapps
+Version : 2015.6868.41201.0
+Architecture : neutral
+ResourceId : ~
+PackageName : microsoft.windowscommunicationsapps_2015.6868.41201.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsFeedbackHub
+Version : 1.3.1741.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsFeedbackHub_1.3.1741.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsMaps
+Version : 2016.701.2235.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsMaps_2016.701.2235.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsSoundRecorder
+Version : 2016.611.2.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsSoundRecorder_2016.611.2.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.WindowsStore
+Version : 11606.1001.394.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.WindowsStore_11606.1001.394.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.XboxApp
+Version : 2016.623.248.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.XboxApp_2016.623.248.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.XboxIdentityProvider
+Version : 2016.616.818.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.XboxIdentityProvider_2016.616.818.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.ZuneMusic
+Version : 2019.6.19261.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.ZuneMusic_2019.6.19261.0_neutral_~_8wekyb3d8bbwe
+
+DisplayName : Microsoft.ZuneVideo
+Version : 2019.6.19281.0
+Architecture : neutral
+ResourceId : ~
+PackageName : Microsoft.ZuneVideo_2019.6.19281.0_neutral_~_8wekyb3d8bbwe
+
+The operation completed successfully.

@@ -1,0 +1,12 @@
+[Mon 03/27/2017 14:28:04.34] ========================================================================== 
+[Mon 03/27/2017 14:28:04.34] Start of "AppReadi.cmd" to set registry key								
+[Mon 03/27/2017 14:28:04.34] Setting the Registry Key for AppReadinessPreShellTimeoutMS to 7 min		
+[Mon 03/27/2017 14:28:04.34] ========================================================================== 
+Setting Increase Timeout Registry up to 7 minutes 
+[Mon 03/27/2017 14:28:05.79] Loaded registry to HKLM\DEFAULTTEMP. Errorlevel=0  
+[Mon 03/27/2017 14:28:05.79] "Write registry key to set MS Default Wallpaper" 
+[Mon 03/27/2017 14:28:05.87] Run AppReadi.reg. Errorlevel=0 
+[Mon 03/27/2017 14:28:06.04] Unloaded registry HKLM\DEFAULTTEMP. Errorlevel=0 
+[Mon 03/27/2017 14:28:06.06] ========================================================================== 
+[Mon 03/27/2017 14:28:06.09] End of "AppReadi.cmd" to set registry key									
+[Mon 03/27/2017 14:28:06.10] ========================================================================== 

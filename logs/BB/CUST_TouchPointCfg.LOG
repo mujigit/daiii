@@ -1,0 +1,14 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:46:09.60] Beginning of the CUST_TouchPointCfg.CMD                              
+############################################################# 
+Clean XTU Desktop Icon
+cscript /nologo C:\SWSetup\CustTweak\DELINK.vbs /List="C:\SYSTEM.SAV\Util\TDC\MCPP\XTU_Icon.lst"
+Check C:\Users\Public\Desktop\HP Touchpoint Manager.lnk. (C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT, C:\Program Files (x86)\HP\HP Touchpoint Manager\Discover HP Touchpoint Manager\LHBeacon.exe, -launchURLFromDT)
+Comparing with PerfTuneIcon.B089625E_E454_492E_B2F2_7E934E4807F0.exe(-1,0,0,0,0)
+Comparing with Intel(R) Extreme Tuning Utility.lnk(-1,0,0,0,0)
+===> Keep
+ErrorLevel=0 
+Start of platform search.
+[ 4:46:10.40] Result of the Windows 10 Image Customization Tweaks for 3C16 - CPS 
+RESULT=PASSED 

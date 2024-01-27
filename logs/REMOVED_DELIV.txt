@@ -1,0 +1,54 @@
+ ------------------------------------------------------------ 
+  START : Filter deliv based on [R_xxx] FeatureByte
+          Keep deliverable for [R_STD]
+          The following deliverables don't belong to [R_STD]
+          those will be deleted.
+ ------------------------------------------------------------ 
+ ------------------------------------------------------------ 
+         Deleted 0 folder(s)...
+  END   : Filter deliv based on [R_xxx] FeatureByte
+ ------------------------------------------------------------ 
+ 
+ ------------------------------------------------------------ 
+  START : Filter deliv based on Option Code
+          Keep deliverable for [PN.ACJ] and [LO.ACJ]
+          The following deliverables don't belong to [D#ACJ] or [#SACJ]
+          those will be deleted.
+ ------------------------------------------------------------ 
+ ------------------------------------------------------------ 
+         Deleted 0 folder(s)...
+  END   : Filter deliv based on Option Code[S#ACJ] and [D#ACJ]
+ ------------------------------------------------------------ 
+ 
+ ------------------------------------------------------------
+  START : Filter deliv based on CPU Vendor...
+ ------------------------------------------------------------
+
+ ------------------------------------------------------------
+        Deleted  folder[s].
+  END   : Filter deliv based on CPU Vendor...
+ ------------------------------------------------------------
+
+ ------------------------------------------------------------ 
+  START : Filter deliv based on PnP IDs
+          The following deliverables don't belong to this system
+          those will be deleted.
+ ------------------------------------------------------------ 
+ ------------------------------------------------------------ 
+         Deleted 0 folder(s)...
+  END   : Filter deliv based on PnP ID(s)
+ ------------------------------------------------------------ 
+ 
+ ------------------------------------------------------------ 
+  START : Filter deliv based on Feature Byte(s)
+          The following deliverables don't belong to this system
+          those will be deleted.
+ 
+          [OS=MSV, Vos.B, ATF_HAL.64, SEG.SBSO, SL.MAI, PCBR.HP, ATF_PALTc2, Estar, NaAc, GPT, OA3, FAST, CT.NB, R_STD, GAME_HDD, CC_BLK, IS_M30d, DPK_W10, ATF_OS.T, WINT_X, DPK_STR, ]
+ 
+ ------------------------------------------------------------ 
+ ------------------------------------------------------------ 
+         Deleted 0 folder(s)...
+  END   : Filter deliv based on Feature Byte(s)
+ ------------------------------------------------------------ 
+ 

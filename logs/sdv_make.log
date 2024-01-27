@@ -1,0 +1,579 @@
+[12:00:02.89][MakeSDV] --- Start --- 
+[12:00:02.89][MakeSDV] Info, Run WPEinit.exe to fix can't mount wim file at WinPE 
+[12:00:04.07][MakeSDV] Info, Clone c:\system.sav\exclude\biosconfig to c:\system.sav\wsdvtdc\secureboot 
+C:\system.sav\exclude\biosconfig\BCU1.cmd -> C:\system.sav\wsdvtdc\secureboot\BCU1.cmd
+C:\system.sav\exclude\biosconfig\BCU2.cmd -> C:\system.sav\wsdvtdc\secureboot\BCU2.cmd
+C:\system.sav\exclude\biosconfig\listvol.txt -> C:\system.sav\wsdvtdc\secureboot\listvol.txt
+C:\system.sav\exclude\biosconfig\AMI\afuwin_x64.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\afuwin_x64.exe
+C:\system.sav\exclude\biosconfig\AMI\afuwin_x86.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\afuwin_x86.exe
+C:\system.sav\exclude\biosconfig\AMI\amifldrv32.sys -> C:\system.sav\wsdvtdc\secureboot\AMI\amifldrv32.sys
+C:\system.sav\exclude\biosconfig\AMI\amifldrv64.sys -> C:\system.sav\wsdvtdc\secureboot\AMI\amifldrv64.sys
+C:\system.sav\exclude\biosconfig\AMI\BiosConfigUtility_x64.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\BiosConfigUtility_x64.exe
+C:\system.sav\exclude\biosconfig\AMI\BiosConfigUtility_x86.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\BiosConfigUtility_x86.exe
+C:\system.sav\exclude\biosconfig\AMI\DMBin2MTXT.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\DMBin2MTXT.exe
+C:\system.sav\exclude\biosconfig\AMI\Erasekey.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\Erasekey.txt
+C:\system.sav\exclude\biosconfig\AMI\KeyCheckW_x64.EXE -> C:\system.sav\wsdvtdc\secureboot\AMI\KeyCheckW_x64.EXE
+C:\system.sav\exclude\biosconfig\AMI\KeyCheckW_x86.EXE -> C:\system.sav\wsdvtdc\secureboot\AMI\KeyCheckW_x86.EXE
+C:\system.sav\exclude\biosconfig\AMI\loaddebugkey.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\loaddebugkey.txt
+C:\system.sav\exclude\biosconfig\AMI\loadkey.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\loadkey.txt
+C:\system.sav\exclude\biosconfig\AMI\Lock.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\Lock.txt
+C:\system.sav\exclude\biosconfig\AMI\LS_Disable.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\LS_Disable.txt
+C:\system.sav\exclude\biosconfig\AMI\LS_Enable.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\LS_Enable.txt
+C:\system.sav\exclude\biosconfig\AMI\mpmcheck_x64.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\mpmcheck_x64.exe
+C:\system.sav\exclude\biosconfig\AMI\mpmcheck_x86.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\mpmcheck_x86.exe
+C:\system.sav\exclude\biosconfig\AMI\msvcp100.dll -> C:\system.sav\wsdvtdc\secureboot\AMI\msvcp100.dll
+C:\system.sav\exclude\biosconfig\AMI\msvcr100.dll -> C:\system.sav\wsdvtdc\secureboot\AMI\msvcr100.dll
+C:\system.sav\exclude\biosconfig\AMI\OOBE.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\OOBE.txt
+C:\system.sav\exclude\biosconfig\AMI\safuwin-AMD64.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\safuwin-AMD64.exe
+C:\system.sav\exclude\biosconfig\AMI\safuwin-x86.exe -> C:\system.sav\wsdvtdc\secureboot\AMI\safuwin-x86.exe
+C:\system.sav\exclude\biosconfig\AMI\samifldrv64.sys -> C:\system.sav\wsdvtdc\secureboot\AMI\samifldrv64.sys
+C:\system.sav\exclude\biosconfig\AMI\SB_Disable_NB.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\SB_Disable_NB.txt
+C:\system.sav\exclude\biosconfig\AMI\SB_Enable_NB.txt -> C:\system.sav\wsdvtdc\secureboot\AMI\SB_Enable_NB.txt
+C:\system.sav\exclude\biosconfig\BCU_DT\BiosConfigUtility.exe -> C:\system.sav\wsdvtdc\secureboot\BCU_DT\BiosConfigUtility.exe
+C:\system.sav\exclude\biosconfig\BCU_DT\BiosConfigUtility_x64.exe -> C:\system.sav\wsdvtdc\secureboot\BCU_DT\BiosConfigUtility_x64.exe
+C:\system.sav\exclude\biosconfig\BCU_DT\MpmLock_SecurityDefault.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_DT\MpmLock_SecurityDefault.txt
+C:\system.sav\exclude\biosconfig\BCU_DT\OOBE.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_DT\OOBE.txt
+C:\system.sav\exclude\biosconfig\BCU_DT\PinLoadDefaults.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_DT\PinLoadDefaults.txt
+C:\system.sav\exclude\biosconfig\BCU_DT\pxedefault_DT.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_DT\pxedefault_DT.txt
+C:\system.sav\exclude\biosconfig\BCU_NB\BiosConfigUtility.exe -> C:\system.sav\wsdvtdc\secureboot\BCU_NB\BiosConfigUtility.exe
+C:\system.sav\exclude\biosconfig\BCU_NB\BiosConfigUtility_x64.exe -> C:\system.sav\wsdvtdc\secureboot\BCU_NB\BiosConfigUtility_x64.exe
+C:\system.sav\exclude\biosconfig\BCU_NB\MpmLock_SecurityDefault.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_NB\MpmLock_SecurityDefault.txt
+C:\system.sav\exclude\biosconfig\BCU_NB\OOBE.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_NB\OOBE.txt
+C:\system.sav\exclude\biosconfig\BCU_NB\PinLoadDefaults.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_NB\PinLoadDefaults.txt
+C:\system.sav\exclude\biosconfig\BCU_NB\pxedefault_NB.txt -> C:\system.sav\wsdvtdc\secureboot\BCU_NB\pxedefault_NB.txt
+C:\system.sav\exclude\biosconfig\Insyde\BiosConfigUtility_x64.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\BiosConfigUtility_x64.exe
+C:\system.sav\exclude\biosconfig\Insyde\BiosConfigUtility_x86.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\BiosConfigUtility_x86.exe
+C:\system.sav\exclude\biosconfig\Insyde\Erasekey.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\Erasekey.txt
+C:\system.sav\exclude\biosconfig\Insyde\iskinst_x64.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\iskinst_x64.exe
+C:\system.sav\exclude\biosconfig\Insyde\iskinst_x86.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\iskinst_x86.exe
+C:\system.sav\exclude\biosconfig\Insyde\loaddebugkey.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\loaddebugkey.txt
+C:\system.sav\exclude\biosconfig\Insyde\loadkey.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\loadkey.txt
+C:\system.sav\exclude\biosconfig\Insyde\Lock.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\Lock.txt
+C:\system.sav\exclude\biosconfig\Insyde\LS_Disable.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\LS_Disable.txt
+C:\system.sav\exclude\biosconfig\Insyde\LS_Enable.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\LS_Enable.txt
+C:\system.sav\exclude\biosconfig\Insyde\mpmcheck_x64.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\mpmcheck_x64.exe
+C:\system.sav\exclude\biosconfig\Insyde\mpmcheck_x86.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\mpmcheck_x86.exe
+C:\system.sav\exclude\biosconfig\Insyde\OOBE.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\OOBE.txt
+C:\system.sav\exclude\biosconfig\Insyde\SB_Disable_NB.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\SB_Disable_NB.txt
+C:\system.sav\exclude\biosconfig\Insyde\SB_Enable_NB.txt -> C:\system.sav\wsdvtdc\secureboot\Insyde\SB_Enable_NB.txt
+C:\system.sav\exclude\biosconfig\Insyde\VarEdit_x64.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\VarEdit_x64.exe
+C:\system.sav\exclude\biosconfig\Insyde\VarEdit_x86.exe -> C:\system.sav\wsdvtdc\secureboot\Insyde\VarEdit_x86.exe
+57 File(s) copied
+D:\boot\boot.sdi -> C:\system.sav\wsdvtdc\boot.sdi
+1 File(s) copied
+D:\sources\boot.wim -> C:\system.sav\wsdvtdc\boot.wim
+1 File(s) copied
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Mounting image
+[                           1.0%                           ] 
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[========                   15.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[============               22.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[================           29.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================72.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================83.0%================          ] 
+[===========================84.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================88.0%===================       ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================96.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+The operation completed successfully.
+C:\system.sav\wsdvtdc\import\ver_44.txt -> C:\mount\ver_44.txt
+C:\system.sav\wsdvtdc\import\Rita-tool\CheckCTO.cmd -> C:\mount\Rita-tool\CheckCTO.cmd
+C:\system.sav\wsdvtdc\import\Rita-tool\DiskClean.sp -> C:\mount\Rita-tool\DiskClean.sp
+C:\system.sav\wsdvtdc\import\Rita-tool\DskIndexByFile.vbs -> C:\mount\Rita-tool\DskIndexByFile.vbs
+C:\system.sav\wsdvtdc\import\Rita-tool\FindPhUP.vbs -> C:\mount\Rita-tool\FindPhUP.vbs
+C:\system.sav\wsdvtdc\import\Rita-tool\GoWin.cmd -> C:\mount\Rita-tool\GoWin.cmd
+C:\system.sav\wsdvtdc\import\Rita-tool\LogFiles.txt -> C:\mount\Rita-tool\LogFiles.txt
+C:\system.sav\wsdvtdc\import\Rita-tool\QryESPMSR.vbs -> C:\mount\Rita-tool\QryESPMSR.vbs
+C:\system.sav\wsdvtdc\import\Rita-tool\Restore.cmd -> C:\mount\Rita-tool\Restore.cmd
+C:\system.sav\wsdvtdc\import\Rita-tool\ResultChk.vbs -> C:\mount\Rita-tool\ResultChk.vbs
+C:\system.sav\wsdvtdc\import\Rita-tool\RmLetterC.sp -> C:\mount\Rita-tool\RmLetterC.sp
+C:\system.sav\wsdvtdc\import\Rita-tool\RmLetterSDV.sp -> C:\mount\Rita-tool\RmLetterSDV.sp
+C:\system.sav\wsdvtdc\import\Rita-tool\RStone.dat -> C:\mount\Rita-tool\RStone.dat
+C:\system.sav\wsdvtdc\import\Rita-tool\RStone.ini -> C:\mount\Rita-tool\RStone.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\RunRM2.cmd -> C:\mount\Rita-tool\RunRM2.cmd
+C:\system.sav\wsdvtdc\import\Rita-tool\SaveLog.cmd -> C:\mount\Rita-tool\SaveLog.cmd
+C:\system.sav\wsdvtdc\import\Rita-tool\SdvCreation.sp -> C:\mount\Rita-tool\SdvCreation.sp
+C:\system.sav\wsdvtdc\import\Rita-tool\startsrv.sp -> C:\mount\Rita-tool\startsrv.sp
+C:\system.sav\wsdvtdc\import\Rita-tool\UpCreation.sp -> C:\mount\Rita-tool\UpCreation.sp
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_BG.ini -> C:\mount\Rita-tool\Lang\SSRD_BG.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_BR.ini -> C:\mount\Rita-tool\Lang\SSRD_BR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_CH.ini -> C:\mount\Rita-tool\Lang\SSRD_CH.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_CS.ini -> C:\mount\Rita-tool\Lang\SSRD_CS.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_DK.ini -> C:\mount\Rita-tool\Lang\SSRD_DK.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_ET.ini -> C:\mount\Rita-tool\Lang\SSRD_ET.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_FI.ini -> C:\mount\Rita-tool\Lang\SSRD_FI.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_FR.ini -> C:\mount\Rita-tool\Lang\SSRD_FR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_GK.ini -> C:\mount\Rita-tool\Lang\SSRD_GK.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_GR.ini -> C:\mount\Rita-tool\Lang\SSRD_GR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_HR.ini -> C:\mount\Rita-tool\Lang\SSRD_HR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_HU.ini -> C:\mount\Rita-tool\Lang\SSRD_HU.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_IL.ini -> C:\mount\Rita-tool\Lang\SSRD_IL.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_IT.ini -> C:\mount\Rita-tool\Lang\SSRD_IT.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_JP.ini -> C:\mount\Rita-tool\Lang\SSRD_JP.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_KR.ini -> C:\mount\Rita-tool\Lang\SSRD_KR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_LA.ini -> C:\mount\Rita-tool\Lang\SSRD_LA.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_LT.ini -> C:\mount\Rita-tool\Lang\SSRD_LT.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_LV.ini -> C:\mount\Rita-tool\Lang\SSRD_LV.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_NL.ini -> C:\mount\Rita-tool\Lang\SSRD_NL.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_NO.ini -> C:\mount\Rita-tool\Lang\SSRD_NO.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_PL.ini -> C:\mount\Rita-tool\Lang\SSRD_PL.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_PT.ini -> C:\mount\Rita-tool\Lang\SSRD_PT.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_RO.ini -> C:\mount\Rita-tool\Lang\SSRD_RO.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_RU.ini -> C:\mount\Rita-tool\Lang\SSRD_RU.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_SE.ini -> C:\mount\Rita-tool\Lang\SSRD_SE.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_SK.ini -> C:\mount\Rita-tool\Lang\SSRD_SK.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_SL.ini -> C:\mount\Rita-tool\Lang\SSRD_SL.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_SP.ini -> C:\mount\Rita-tool\Lang\SSRD_SP.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_SR.ini -> C:\mount\Rita-tool\Lang\SSRD_SR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_TR.ini -> C:\mount\Rita-tool\Lang\SSRD_TR.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_TW.ini -> C:\mount\Rita-tool\Lang\SSRD_TW.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_TZ.ini -> C:\mount\Rita-tool\Lang\SSRD_TZ.ini
+C:\system.sav\wsdvtdc\import\Rita-tool\Lang\SSRD_US.ini -> C:\mount\Rita-tool\Lang\SSRD_US.ini
+C:\system.sav\wsdvtdc\import\Tool-amd64\CabArc.Exe -> C:\mount\Tool-amd64\CabArc.Exe
+C:\system.sav\wsdvtdc\import\Tool-amd64\CTOCheckerGS.exe -> C:\mount\Tool-amd64\CTOCheckerGS.exe
+C:\system.sav\wsdvtdc\import\Tool-amd64\DdCab.exe -> C:\mount\Tool-amd64\DdCab.exe
+C:\system.sav\wsdvtdc\import\Tool-amd64\DdCommon.dll -> C:\mount\Tool-amd64\DdCommon.dll
+C:\system.sav\wsdvtdc\import\Tool-amd64\ResChanger.exe -> C:\mount\Tool-amd64\ResChanger.exe
+C:\system.sav\wsdvtdc\import\Tool-amd64\SsrdLog.exe -> C:\mount\Tool-amd64\SsrdLog.exe
+C:\system.sav\wsdvtdc\import\Tool-x86\CabArc.Exe -> C:\mount\Tool-x86\CabArc.Exe
+C:\system.sav\wsdvtdc\import\Tool-x86\CTOCheckerGS.exe -> C:\mount\Tool-x86\CTOCheckerGS.exe
+C:\system.sav\wsdvtdc\import\Tool-x86\DdCab.exe -> C:\mount\Tool-x86\DdCab.exe
+C:\system.sav\wsdvtdc\import\Tool-x86\DdCommon.dll -> C:\mount\Tool-x86\DdCommon.dll
+C:\system.sav\wsdvtdc\import\Tool-x86\ResChanger.exe -> C:\mount\Tool-x86\ResChanger.exe
+C:\system.sav\wsdvtdc\import\Tool-x86\SsrdLog.exe -> C:\mount\Tool-x86\SsrdLog.exe
+C:\system.sav\wsdvtdc\import\Windows\Drivers\Load.vbs -> C:\mount\Windows\Drivers\Load.vbs
+C:\system.sav\wsdvtdc\import\Windows\System32\PreStart.vbs -> C:\mount\Windows\System32\PreStart.vbs
+C:\system.sav\wsdvtdc\import\Windows\System32\startnet.cmd -> C:\mount\Windows\System32\startnet.cmd
+C:\system.sav\wsdvtdc\import\Windows\System32\StartProcess.vbs -> C:\mount\Windows\System32\StartProcess.vbs
+C:\system.sav\wsdvtdc\import\Windows\System32\Winpeshl.ini -> C:\mount\Windows\System32\Winpeshl.ini
+70 File(s) copied
+[12:00:21.57][MakeSDV] +------------------------------ 
+[12:00:21.57][MakeSDV] + reconfige toolset             
+[12:00:21.57][MakeSDV] +------------------------------ 
+[12:00:21.57][MakeSDV] Info, Detected x64 winpe. 
+[12:00:21.57][MakeSDV] Info, Using x64 toolset. 
+C:\mount\tool-amd64\CabArc.Exe -> C:\mount\Rita-tool\CabArc.Exe
+C:\mount\tool-amd64\CTOCheckerGS.exe -> C:\mount\Rita-tool\CTOCheckerGS.exe
+C:\mount\tool-amd64\DdCab.exe -> C:\mount\Rita-tool\DdCab.exe
+C:\mount\tool-amd64\DdCommon.dll -> C:\mount\Rita-tool\DdCommon.dll
+C:\mount\tool-amd64\ResChanger.exe -> C:\mount\Rita-tool\ResChanger.exe
+C:\mount\tool-amd64\SsrdLog.exe -> C:\mount\Rita-tool\SsrdLog.exe
+6 File(s) copied
+[12:00:21.61][MakeSDV] Info, Query drivers under SDV 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+Obtaining list of 3rd party drivers from the driver store...
+
+Driver packages listing:
+
+(No drivers found in the image matching the criteria)
+
+The operation completed successfully.
+[12:00:26.34][MakeSDV] Info, Query packages under SDV 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+The scratch directory size might be insufficient to perform this operation. This can cause unexpected behavior. 
+Use the /ScratchDir option to point to a folder with sufficient scratch space. The recommended size is at least 1024 MB.
+
+Packages listing:
+
+Package Identity : Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 7/16/2016 12:36 PM
+
+Package Identity : Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Foundation
+Install Time : 7/16/2016 12:14 PM
+
+Package Identity : Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.82.1.0
+State : Installed
+Release Type : Update
+Install Time : 8/31/2016 3:37 AM
+
+Package Identity : WinPE-FontSupport-JA-JP-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:34 PM
+
+Package Identity : WinPE-FontSupport-KO-KR-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:34 PM
+
+Package Identity : WinPE-FontSupport-ZH-CN-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:34 PM
+
+Package Identity : WinPE-FontSupport-ZH-HK-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:34 PM
+
+Package Identity : WinPE-FontSupport-ZH-TW-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:34 PM
+
+Package Identity : WinPE-HTA-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-HTA-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:34 PM
+
+Package Identity : WinPE-MDAC-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-MDAC-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-Scripting-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-Scripting-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-StorageWMI-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-StorageWMI-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-WMI-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0
+State : Installed
+Release Type : Language Pack
+Install Time : 8/15/2016 7:35 PM
+
+Package Identity : WinPE-WMI-Package~31bf3856ad364e35~amd64~~10.0.14393.0
+State : Installed
+Release Type : Feature Pack
+Install Time : 8/15/2016 7:35 PM
+
+The operation completed successfully.
+[12:00:28.39][MakeSDV] Info, Dism unmount 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image File : c:\system.sav\wsdvtdc\boot.wim
+Image Index : 1
+Saving image
+[                           1.0%                           ] 
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[========                   15.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[============               22.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[================           29.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================64.0%=====                     ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================72.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================83.0%================          ] 
+[===========================84.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================88.0%===================       ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================96.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+Unmounting image
+[=                          2.0%                           ] 
+[=                          3.0%                           ] 
+[==                         4.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       7.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      9.0%                           ] 
+[=====                      10.0%                          ] 
+[======                     11.0%                          ] 
+[======                     12.0%                          ] 
+[=======                    13.0%                          ] 
+[========                   14.0%                          ] 
+[========                   15.0%                          ] 
+[=========                  16.0%                          ] 
+[=========                  17.0%                          ] 
+[==========                 18.0%                          ] 
+[===========                19.0%                          ] 
+[===========                20.0%                          ] 
+[============               21.0%                          ] 
+[============               22.0%                          ] 
+[=============              23.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            26.0%                          ] 
+[===============            27.0%                          ] 
+[================           28.0%                          ] 
+[================           29.0%                          ] 
+[=================          30.0%                          ] 
+[=================          31.0%                          ] 
+[==================         32.0%                          ] 
+[===================        33.0%                          ] 
+[===================        34.0%                          ] 
+[====================       35.0%                          ] 
+[====================       36.0%                          ] 
+[=====================      37.0%                          ] 
+[======================     38.0%                          ] 
+[======================     39.0%                          ] 
+[=======================    40.0%                          ] 
+[=======================    41.0%                          ] 
+[========================   42.0%                          ] 
+[========================   43.0%                          ] 
+[=========================  44.0%                          ] 
+[========================== 45.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================48.0%                          ] 
+[===========================49.0%                          ] 
+[===========================50.0%                          ] 
+[===========================51.0%                          ] 
+[===========================52.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================56.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================58.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================60.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================62.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================64.0%=====                     ] 
+[===========================65.0%=====                     ] 
+[===========================66.0%======                    ] 
+[===========================67.0%======                    ] 
+[===========================68.0%=======                   ] 
+[===========================69.0%========                  ] 
+[===========================70.0%========                  ] 
+[===========================71.0%=========                 ] 
+[===========================72.0%=========                 ] 
+[===========================73.0%==========                ] 
+[===========================74.0%==========                ] 
+[===========================75.0%===========               ] 
+[===========================76.0%============              ] 
+[===========================77.0%============              ] 
+[===========================78.0%=============             ] 
+[===========================79.0%=============             ] 
+[===========================80.0%==============            ] 
+[===========================81.0%==============            ] 
+[===========================82.0%===============           ] 
+[===========================83.0%================          ] 
+[===========================84.0%================          ] 
+[===========================85.0%=================         ] 
+[===========================86.0%=================         ] 
+[===========================87.0%==================        ] 
+[===========================88.0%===================       ] 
+[===========================89.0%===================       ] 
+[===========================90.0%====================      ] 
+[===========================91.0%====================      ] 
+[===========================92.0%=====================     ] 
+[===========================93.0%=====================     ] 
+[===========================94.0%======================    ] 
+[===========================95.0%=======================   ] 
+[===========================96.0%=======================   ] 
+[===========================97.0%========================  ] 
+[===========================98.0%========================  ] 
+[===========================99.0%========================= ] 
+[==========================100.0%==========================] 
+The operation completed successfully.
+[12:00:52.32][MakeSDV] --- End --- 

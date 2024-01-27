@@ -1,0 +1,52 @@
+[14:28:11.95] ************************************************** 
+[14:28:12.21]  [C:\hp\HPEULA\HPEULA_Alignment.cmd] has started... 
+[14:28:12.47] -------------------------------------------------- 
+[14:28:12.70]  [HP EULA] 
+[14:28:12.75]   This will get EULA type [McAfee/MS Sign/Normal]  
+[14:28:12.77]  as parameter to decide the source folder. 
+[14:28:12.78]  And, it refers Option Code to copy proper 
+[14:28:12.81]  EULA.rtf file[s] to proper folder. 
+[14:28:12.83] -------------------------------------------------- 
+
+---------- C:\HP\BIN\RSTONE.INI
+[14:28:12.88]  EULA folder = [McAfee] is required... 
+[14:28:12.91]  Option Code = [ACJ]. 
+[14:28:12.95]   
+[14:28:12.97] -------------------------------------------------- 
+[14:28:13.00]  Source EULA path [C:\hp\HPEULA\McAfee\37\EULA.rtf] 
+[14:28:13.02]  Target path [ROOT] 
+[14:28:13.05]  Target is root.. 
+[14:28:13.06]  Target folder [C:\Windows\system32\oobe\info] 
+[14:28:13.09]   
+[14:28:13.14]  Run [cscript.exe /nologo C:\hp\HPEULA\UpdateXML.vbs C:\hp\HPEULA\McAfee\37\EULA.rtf C:\Windows\system32\oobe\info C:\hp\HPEULA\] 
+
+----------------------------------------------------------------------------------------------------
+
+ goSrcFile    = C:\hp\HPEULA\McAfee\37\EULA.rtf
+ goDstFolder  = C:\Windows\system32\oobe\info
+ goTmpOOBExml = C:\hp\HPEULA\OOBETEMP.xml
+
+
+ TargetFolder = [C:\Windows\system32\oobe\info]
+ Going to copy [C:\hp\HPEULA\McAfee\37\EULA.rtf] to [C:\Windows\system32\oobe\info]
+ Copied source file [C:\hp\HPEULA\McAfee\37\EULA.rtf] to destination folder [C:\Windows\system32\oobe\info]
+ copy OOBE.xml to destination = [C:\Windows\system32\oobe\info\OOBE.xml]
+ Found : [/FirstExperience/oobe/defaults]
+ Found : [/FirstExperience/oobe]
+ Selected Node : /FirstExperience/oobe/oem/eulafilename
+ appended : [eula.rtf]
+
+
+ saving as [C:\Windows\system32\oobe\info\OOBE.xml] ...
+ saved as [C:\Windows\system32\oobe\info\OOBE.xml] ...
+
+
+[14:28:13.33]   [C:\Windows\system32\oobe\info\EULA.rtf] is copied proerply... 
+[14:28:13.35]   OOBE.xml is updated proerply... 
+[14:28:13.37]   
+[14:28:13.40]  Copied EULA.rtf properly... delete ["C:\system.sav\HPEULA_Alignment.cmd.FAILURE.flg"] 
+[14:28:13.43] -------------------------------------------------- 
+[14:28:13.44]  RESULT=PASSED 
+[14:28:13.46] -------------------------------------------------- 
+[14:28:13.49]  [HPEULA_Alignment.cmd] has completed... 
+[14:28:13.51] ************************************************** 

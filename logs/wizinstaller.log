@@ -1,0 +1,57 @@
+
+Memory 3547 MB
+Executing on .\WizInstaller.ini on Tuesday, March 28, 2017 at 4:30:00 AM for en_in
+
+Copying from '.\Metro.xml' to 'C:\SWSetup\Metro\HPCleanStart\Metro.xml'
+Wizinstaller Instance ID	 : {0A38F619-1BF2-4707-9777-450642664DCD}
+Init	 : 1531
+Action	 : 62
+Uninit	 : 125
+
+Memory 3547 MB
+Executing on .\WizInstaller_Agoda.ini on Tuesday, March 28, 2017 at 4:35:05 AM for en_in
+
+Executing '.\LogEnvironment.bat', Param '', Working Directory 'c:\SWSETUP\APP\Applications\HP\Priceline_NN24B2\163\src'
+Copying from '.\Priceline' to 'C:\Program Files (x86)\Online Services\Priceline'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\SGP
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\SGP\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\SGP\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\THA
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\THA\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\THA\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\KOR
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\KOR\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\KOR\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\CHN
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\CHN\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\CHN\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\TWN
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\TWN\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\TWN\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\HKG
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\HKG\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\HKG\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\IDN
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\IDN\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\IDN\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\IND
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\IND\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\IND\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Dropping 'Agoda.com' Link Icon in C:\HP\HPQWare\StartMenuLink\All\All
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\All\Links
+Dropping 'Agoda.com' URL Icon in C:\HP\HPQware\Favs\All\All\HP
+Copying from '.\Metro_Agoda.xml' to 'C:\SWSetup\Metro\PricelineM\Metro.xml'
+Copying from 'C:\HP\HPQWare\StartMenuLink\All\All\Agoda.com.lnk' to 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\'
+Checking Filter 'CPLink_W7'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Wizinstaller Instance ID	 : {9C2AB1F2-5D68-42B6-A988-C84E3466F887}
+Init	 : 46
+Action	 : 1344
+Uninit	 : 78

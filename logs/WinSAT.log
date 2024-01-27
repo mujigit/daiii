@@ -1,0 +1,58 @@
+[ 4:48:09.71] Check if Skip WinSAT Flag (SkipWinSAT.flg) exists 
+[ 4:48:09.71] SkipWinSAT.flg does not exist 
+[ 4:48:09.71] Start running WinSAT PrePOP 
+[ 4:50:34.35] End running WinSAT PrePOP 
+[ 4:50:34.35] 
+[ 4:50:34.35] Collect WinSAT PrePOP errorlevel 
+[ 4:50:34.35] ErrorLevel: 0 
+[ 4:50:34.35] 
+[ 4:50:34.37] Check files created after running of WinSAT Prepop 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Performance\WinSAT\DataStore
+
+03/28/2017  04:50 AM    <DIR>          .
+03/28/2017  04:50 AM    <DIR>          ..
+03/28/2017  04:50 AM            43,034 0017-03-28 04.48.11.738 Cpu.Assessment (Prepop).WinSAT.xml
+03/28/2017  04:50 AM            50,560 0017-03-28 04.48.11.738 Disk.Assessment (Prepop).WinSAT.xml
+03/28/2017  04:50 AM            10,090 0017-03-28 04.48.11.738 DWM.Assessment (Prepop).WinSAT.xml
+03/28/2017  04:50 AM            39,574 0017-03-28 04.48.11.738 Graphics3D.Assessment (Prepop).WinSAT.xml
+03/28/2017  04:50 AM            18,530 0017-03-28 04.48.11.738 GraphicsMedia.Assessment (Prepop).WinSAT.xml
+03/28/2017  04:50 AM             9,384 0017-03-28 04.48.11.738 Mem.Assessment (Prepop).WinSAT.xml
+               6 File(s)        171,172 bytes
+               2 Dir(s)  462,854,574,080 bytes free
+[ 4:50:34.38] 
+[ 4:50:34.38] Start delete WinSAT_FAIL.flg 
+[ 4:50:34.38] End delete WinSAT_FAIL.flg 
+[ 5:35:25.13 WinSAT] -------------------------------------------------- 
+[ 5:35:25.14] Start running of WinSAT MOOBE 
+[ 5:35:25.14] Check if Skip WinSAT Flag (SkipWinSAT.flg) exists 
+[ 5:35:25.14] SkipWinSAT.flg does not exist 
+[ 5:35:25.14] Start running WinSAT MOOBE 
+[ 5:35:25.14] End running WinSAT MOOBE 
+[ 5:35:25.16] 
+[ 5:35:25.16] Collect WinSAT MOOBE errorlevel 
+[ 5:35:25.16] ErrorLevel: 9009 
+[ 5:35:25.16] 
+[ 5:35:25.16] Check files created after running of WinSAT MOOBE 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Windows\Performance\WinSAT\DataStore
+
+03/28/2017  03:50 AM    <DIR>          .
+03/28/2017  03:50 AM    <DIR>          ..
+03/28/2017  03:50 AM            43,034 0017-03-28 04.48.11.738 Cpu.Assessment (Prepop).WinSAT.xml
+03/28/2017  03:50 AM            50,560 0017-03-28 04.48.11.738 Disk.Assessment (Prepop).WinSAT.xml
+03/28/2017  03:50 AM            10,090 0017-03-28 04.48.11.738 DWM.Assessment (Prepop).WinSAT.xml
+03/28/2017  03:50 AM            39,574 0017-03-28 04.48.11.738 Graphics3D.Assessment (Prepop).WinSAT.xml
+03/28/2017  03:50 AM            18,530 0017-03-28 04.48.11.738 GraphicsMedia.Assessment (Prepop).WinSAT.xml
+03/28/2017  03:50 AM             9,384 0017-03-28 04.48.11.738 Mem.Assessment (Prepop).WinSAT.xml
+               6 File(s)        171,172 bytes
+               2 Dir(s)  458,722,234,368 bytes free
+[ 5:35:25.21] 
+[ 5:35:25.21] Start delete WinSAT_FAIL.flg 
+[ 5:35:25.21] End delete WinSAT_FAIL.flg 
+[ 5:35:25.21] End running of WinSAT MOOBE 
+[ 5:35:25.21 WinSAT] -------------------------------------------------- 

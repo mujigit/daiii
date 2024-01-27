@@ -1,0 +1,2 @@
+[ 5:32:00.11][CheckIfTimeOut4PINIST.cmd] FIND /I "Command did not finish in" C:\System.sav\Logs\PININST_BBV3.LOG 
+[ 5:32:00.14][CheckIfTimeOut4PINIST.cmd] Return Code = 1 

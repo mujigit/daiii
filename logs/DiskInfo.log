@@ -1,0 +1,181 @@
+========================================== 
+ Collect Disk Information at FixUPs @ FBI 
+========================================== 
+Devicenumber = 0
+\\.\PhysicalDrive0
+Word[027] Model Number        = HGST HTS725050A7E630                    €@
+Word[010] Serial Number       =       RCF50ACF06EH5K
+Word[023] Firmware Revision   = GS2OA3C0
+Word[217] RotationRate (RPM)  = 7200
+Word[106] Logical/Physical sec= 6003h
+Word[209] BlockAlignment      = 4000h
+
+This Disk is GPT based...
+ ---------------------------------------- 
+Name            = [Basic data partition]
+Partition ID    = AC93F070-E34B-4209-8924-8C0CA64CAD48
+Partition Type  = EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Starting Offset =        290455552 (0000000011500000h) bytes
+Length          =      80939581440 (00000000D8600000h) bytes
+Partition Number= 1
+ ---------------------------------------- 
+Name            = [Basic data partition]
+Partition ID    = 0FC366C1-CDAD-4E18-A332-A96B649CDE55
+Partition Type  = EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Starting Offset =      81230036992 (00000000E9B00000h) bytes
+Length          =        660602880 (0000000027600000h) bytes
+Partition Number= 2
+ ---------------------------------------- 
+
+
+
+
+I'm on \\?\PhysicalDrive0...
+Target device to modify is \\?\PhysicalDrive0...
+
+Vol name  : \\?\GLOBALROOT\Device\CdRom0
+Vol health: 1
+
+----------------------------------------
+Name          : \\?\PhysicalDrive0
+AdaptorName   : AMD SATA Controller
+DevicePath    : \\?\scsi#disk&ven_hgst&prod_hts725050a7e630#4&1649041&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+FriendlyName  : HGST HTS725050A7E630
+DeviceType    : 7
+MediaType     : 12
+Signature     : -1179867662
+Size in Byte  : 500107862016
+Size in GB    : 465
+Bytes/Sector  : 512
+PartitionStyle: GPT
+Flags         : 1000
+----------------------------------------
+Num of Partition = 2
+----------------------------------------
+ Flags        : 0
+ Offset       : 290455552
+ Size         : 80939581440
+ attributes   : 0000000000000000
+ name         : Basic data partition
+ Partition ID : AC93F070-E34B-4209-8924-8C0CA64CAD48
+ PartitionType: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+----------------------------------------
+ Flags        : 0
+ Offset       : 81230036992
+ Size         : 660602880
+ attributes   : 0000000000000000
+ name         : Basic data partition
+ Partition ID : 0FC366C1-CDAD-4E18-A332-A96B649CDE55
+ PartitionType: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+----------------------------------------
+Vol name  : \\?\GLOBALROOT\Device\HarddiskVolume1
+Vol health: 1
+Vol name  : \\?\GLOBALROOT\Device\HarddiskVolume3
+Vol health: 1
+ 
+ 
+======================================== 
+ Collect Disk Information at FixUPs 
+  during Factory Update Phase. 
+======================================== 
+Devicenumber = 0
+\\.\PhysicalDrive0
+Word[027] Model Number        = HGST HTS725050A7E630                    €@
+Word[010] Serial Number       =       RCF50ACF06EH5K
+Word[023] Firmware Revision   = GS2OA3C0
+Word[217] RotationRate (RPM)  = 7200
+Word[106] Logical/Physical sec= 6003h
+Word[209] BlockAlignment      = 4000h
+
+This Disk is GPT based...
+ ---------------------------------------- 
+Name            = [EFI system partition]
+Partition ID    = 74FA1B5D-8A76-45AE-B8B6-F79A0C6C5BAE
+Partition Type  = C12A7328-F81F-11D2-BA4B-00A0C93EC93B
+Starting Offset =          1048576 (0000000000100000h) bytes
+Length          =        272629760 (0000000010400000h) bytes
+Partition Number= 1
+ ---------------------------------------- 
+Name            = [Microsoft reserved partition]
+Partition ID    = 9A63DBC3-0D22-419C-9DEB-EE4679119205
+Partition Type  = E3C9E316-0B5C-4DB8-817D-F92DF00215AE
+Starting Offset =        273678336 (0000000010500000h) bytes
+Length          =         16777216 (0000000001000000h) bytes
+Partition Number= 2
+ ---------------------------------------- 
+Name            = [Basic data partition]
+Partition ID    = AC93F070-E34B-4209-8924-8C0CA64CAD48
+Partition Type  = EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Starting Offset =        290455552 (0000000011500000h) bytes
+Length          =      80939581440 (00000000D8600000h) bytes
+Partition Number= 3
+ ---------------------------------------- 
+Name            = [Basic data partition]
+Partition ID    = 0FC366C1-CDAD-4E18-A332-A96B649CDE55
+Partition Type  = EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Starting Offset =      81230036992 (00000000E9B00000h) bytes
+Length          =        660602880 (0000000027600000h) bytes
+Partition Number= 4
+ ---------------------------------------- 
+
+
+
+
+I'm on \\?\PhysicalDrive0...
+Target device to modify is \\?\PhysicalDrive0...
+
+Vol name  : \\?\GLOBALROOT\Device\CdRom0
+Vol health: 1
+
+----------------------------------------
+Name          : \\?\PhysicalDrive0
+AdaptorName   : AMD SATA Controller
+DevicePath    : \\?\scsi#disk&ven_hgst&prod_hts725050a7e630#4&1649041&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+FriendlyName  : HGST HTS725050A7E630
+DeviceType    : 7
+MediaType     : 12
+Signature     : -1179867662
+Size in Byte  : 500107862016
+Size in GB    : 465
+Bytes/Sector  : 512
+PartitionStyle: GPT
+Flags         : 5000
+----------------------------------------
+Num of Partition = 4
+----------------------------------------
+ Flags        : 0
+ Offset       : 1048576
+ Size         : 272629760
+ attributes   : 0000000000000000
+ name         : EFI system partition
+ Partition ID : 74FA1B5D-8A76-45AE-B8B6-F79A0C6C5BAE
+ PartitionType: C12A7328-F81F-11D2-BA4B-00A0C93EC93B
+----------------------------------------
+ Flags        : 0
+ Offset       : 273678336
+ Size         : 16777216
+ attributes   : 0000000000000000
+ name         : Microsoft reserved partition
+ Partition ID : 9A63DBC3-0D22-419C-9DEB-EE4679119205
+ PartitionType: E3C9E316-0B5C-4DB8-817D-F92DF00215AE
+----------------------------------------
+ Flags        : 0
+ Offset       : 290455552
+ Size         : 80939581440
+ attributes   : 0000000000000000
+ name         : Basic data partition
+ Partition ID : AC93F070-E34B-4209-8924-8C0CA64CAD48
+ PartitionType: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+----------------------------------------
+ Flags        : 0
+ Offset       : 81230036992
+ Size         : 660602880
+ attributes   : 0000000000000000
+ name         : Basic data partition
+ Partition ID : 0FC366C1-CDAD-4E18-A332-A96B649CDE55
+ PartitionType: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+----------------------------------------
+Vol name  : \\?\GLOBALROOT\Device\HarddiskVolume3
+Vol health: 1
+Vol name  : \\?\GLOBALROOT\Device\HarddiskVolume4
+Vol health: 1

@@ -1,0 +1,260 @@
+;
+; DATA Collection by PIN Proc
+; This will be in R&D DASHed image, but not in customer image if get 2nd GS.
+;
+[RUNTIME]
+
+[COMMON]
+;
+; Info for Deliverable size
+;	TOTAL_SW_SIZE : Total file size in C:\SW folder
+;	NUM_OF_DELIVES : number of P/N folders in C:\SW folder
+;
+
+TOTAL_SW_SIZE=11648.825
+NUM_OF_DELIVS=60
+MAX_DELIV_SIZE=3730.498
+MAX_DELIV_PN__=P00NQT-B2P
+MAX_DELIV_DESC=Windows 10 Redstone 1 Base Image SL 64 Bit - CPS
+[P006MA-B2P]
+DescInML=Energy Star
+SizeInByte=5002865
+SizeInMiB=4.771
+[P009C2-B2T]
+DescInML=HP Wireless Button Driver for cNB
+SizeInByte=4823600
+SizeInMiB=4.6
+[P00EDU-B2M]
+DescInML=Bing Search for IE11
+SizeInByte=123083
+SizeInMiB=0.117
+[P00F6B-B2D]
+DescInML=TFS - OCA Marker File - TDC
+SizeInByte=33502
+SizeInMiB=0.032
+[P00GXS-B2Z]
+DescInML=HP Support Assistant
+SizeInByte=53211858
+SizeInMiB=50.747
+[P00H08-B2U]
+DescInML=IE Home
+SizeInByte=59351
+SizeInMiB=0.057
+[P00HUY-B2N]
+DescInML=Discover HP Touchpoint Manager - metro - cNB
+SizeInByte=3237842
+SizeInMiB=3.088
+[P00HV0-B2P]
+DescInML=Discover HP Touchpoint Manager - cNB
+SizeInByte=3836647
+SizeInMiB=3.659
+[P00J6J-B2K]
+DescInML=Preinstall Log Collector - CPS
+SizeInByte=4808840
+SizeInMiB=4.586
+[P00KFS-B2N]
+DescInML=HP UEFI BIOS Configuration Utility - CPS
+SizeInByte=32135578
+SizeInMiB=30.647
+[P00KH9-B2C]
+DescInML=Windows HP File Based Installer
+SizeInByte=97239360
+SizeInMiB=92.735
+[P00KSB-B2M]
+DescInML=Windows 10 System Default Settings - CPS
+SizeInByte=1438276
+SizeInMiB=1.372
+[P00KTX-B2Q]
+DescInML=McAfee LiveSafe Install Rules Configuration
+SizeInByte=20104
+SizeInMiB=0.019
+[P00L6E-B2Q]
+DescInML=HP PC Hardware Diagnostics UEFI
+SizeInByte=77491008
+SizeInMiB=73.901
+[P00LC7-B2C]
+DescInML=Windows 10 Preinstall Diagnostic Tools - CPS
+SizeInByte=20676
+SizeInMiB=0.02
+[P00LDM-B2G]
+DescInML=McAfee Checkbox
+SizeInByte=85366
+SizeInMiB=0.081
+[P00LEM-B2P]
+DescInML=Windows 10 DPK - CPS
+SizeInByte=43736
+SizeInMiB=0.042
+[P00LEX-B2D]
+DescInML=Retail Demo - Video Attract Loop
+SizeInByte=168573654
+SizeInMiB=160.764
+[P00LMK-B2S]
+DescInML=HP Setup Integrated OOBE Win10
+SizeInByte=17614889
+SizeInMiB=16.799
+[P00LUT-B2X]
+DescInML=HP Sure Connect
+SizeInByte=4819658
+SizeInMiB=4.596
+[P00MGE-B2X]
+DescInML=Power Media Player
+SizeInByte=179836885
+SizeInMiB=171.506
+[P00N20-B2L]
+DescInML=Netflix-Metro
+SizeInByte=1999509
+SizeInMiB=1.907
+[P00N24-B2J]
+DescInML=Priceline
+SizeInByte=521092
+SizeInMiB=0.497
+[P00N3D-B2M]
+DescInML=FP1.x - Realtek Card Reader Driver
+SizeInByte=39869428
+SizeInMiB=38.022
+[P00N3E-B2H]
+DescInML=FP1.x - Realtek Local Area Network (LAN) Driver-Win10
+SizeInByte=22737096
+SizeInMiB=21.684
+[P00N4K-B2S]
+DescInML=FP1.x - Elan Touchpad Driver
+SizeInByte=179109993
+SizeInMiB=170.813
+[P00N89-B2K]
+DescInML=HP ePrint
+SizeInByte=59892157
+SizeInMiB=57.118
+[P00NBC-B2J]
+DescInML=HP System Event Utility
+SizeInByte=19669771
+SizeInMiB=18.759
+[P00NC3-B2F]
+DescInML=HP Documentation 1613
+SizeInByte=242191268
+SizeInMiB=230.972
+[P00NDP-B2P]
+DescInML=Windows 10 PIN AddOn - CPS
+SizeInByte=127596
+SizeInMiB=0.122
+[P00NEJ-B2E]
+DescInML=Windows 10 WDT SDV - CPS
+SizeInByte=8350701
+SizeInMiB=7.964
+[P00NGN-B2A]
+DescInML=Windows Big File Tweaks - CPS
+SizeInByte=7885393
+SizeInMiB=7.52
+[P00NHP-B2U]
+DescInML=McAfee LiveSafe
+SizeInByte=846849541
+SizeInMiB=807.619
+[P00NQT-B2P]
+DescInML=Windows 10 Redstone 1 Base Image SL 64 Bit - CPS
+SizeInByte=3911711033
+SizeInMiB=3730.498
+[P00NYH-B2N]
+DescInML=Windows 10 RedStone 1 LP FOD Supplement - CPS
+SizeInByte=208889601
+SizeInMiB=199.213
+[P00NZ2-B2L]
+DescInML=Windows 10 RedStone 1 HP OS Enhancement - CPS
+SizeInByte=728639740
+SizeInMiB=694.885
+[P00NZ8-B2D]
+DescInML=Windows 10 Redstone1 Recovery Manager Installer - CPS
+SizeInByte=4748571
+SizeInMiB=4.529
+[P00P02-B2P]
+DescInML=Windows 10 Redstone1 Push Button Reset Recovery - CPS
+SizeInByte=13587643
+SizeInMiB=12.958
+[P00P03-B2N]
+DescInML=Windows 10 Redstone1 RE Recovery Manager Installer - CPS
+SizeInByte=61979234
+SizeInMiB=59.108
+[P00P12-B2P]
+DescInML=Microsoft Office 2016 and Office 365 for cNB/cDT - Install_Tool
+SizeInByte=4912485
+SizeInMiB=4.685
+[P00P5S-00E]
+DescInML=Microsoft Office 2016 and Office 365 for cNB/cDT
+SizeInByte=265531391
+SizeInMiB=253.23
+[P00P62-B2E]
+DescInML=Microsoft Office 2016 and Office 365 for cNB/cDT - Base_file
+SizeInByte=1189626809
+SizeInMiB=1134.517
+[P00P9V-B2V]
+DescInML=Windows 10 HP Image Enhancements - CPS
+SizeInByte=30062205
+SizeInMiB=28.67
+[P00P9Y-B2F]
+DescInML=Windows 10 Image Customization Tweaks - CPS
+SizeInByte=7859755
+SizeInMiB=7.496
+[P00PAB-B2V]
+DescInML=HP Orbit
+SizeInByte=10707732
+SizeInMiB=10.212
+[P00PC9-B2E]
+DescInML=Windows 10 RedStone 1 Regional Settings Flag - CPS
+SizeInByte=587914
+SizeInMiB=0.561
+[P00PCB-B2C]
+DescInML=Windows 10 RedStone 1 HP EULA - CPS
+SizeInByte=11321237
+SizeInMiB=10.797
+[P00PF9-B2E]
+DescInML=Realtek RTL8723BE/RTL8188EE 802.11b/g/n Wireless LAN Drivers
+SizeInByte=72434003
+SizeInMiB=69.078
+[P00PK5-B2G]
+DescInML=Cyberlink PowerDirector Desktop
+SizeInByte=560923180
+SizeInMiB=534.938
+[P00PL3-B2K]
+DescInML=HP Audio Switch
+SizeInByte=2714133
+SizeInMiB=2.588
+[P00PLJ-B2M]
+DescInML=HP Windows Image Diagnostic Tools - CPS
+SizeInByte=151453
+SizeInMiB=0.144
+[P00PLU-B2K]
+DescInML=Windows 10 RedStone 1 MS Start App Resources - CPS
+SizeInByte=932620927
+SizeInMiB=889.417
+[P00PNH-B2X]
+DescInML=MS Windows PIN Process - CPS
+SizeInByte=60566028
+SizeInMiB=57.76
+[P00PPA-B2C]
+DescInML=Windows 10 Wallpaper - CPS
+SizeInByte=140856689
+SizeInMiB=134.331
+[P00PSC-B2H]
+DescInML=HP JumpStart
+SizeInByte=216621787
+SizeInMiB=206.587
+[P00PUF-B2G]
+DescInML=PF 1.x - Image Tweaks for Win10 RS1
+SizeInByte=16888
+SizeInMiB=0.016
+[P00PUT-B2C]
+DescInML=DropBox
+SizeInByte=11699594
+SizeInMiB=11.158
+[P00PWM-B2F]
+DescInML=FP1.x - Realtek High-Definition (HD) Audio Driver
+SizeInByte=919409186
+SizeInMiB=876.817
+[P00PZG-B2D]
+DescInML=WW-BTB Host and ISP Stub
+SizeInByte=8739399
+SizeInMiB=8.335
+[P00Q5X-B2D]
+DescInML=FP1.x - AMD High-Definition Graphics Driver-Fajita
+SizeInByte=754099765
+SizeInMiB=719.166
+[BASE_WIM_SZIE]
+SIZE_AT_1GS=8659789122

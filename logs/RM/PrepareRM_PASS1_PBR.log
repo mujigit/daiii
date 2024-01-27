@@ -1,0 +1,45 @@
+[12:07:32.29][PrepareRM_PASS1_PBR] Create [C:\system.sav\logs\RM\PrepareRM_PASS1_PBR.FAILURE.FLG]. If PASS, delete it.
+[12:07:32.29][PrepareRM_PASS1_PBR] Query OS Language
+[12:07:32.29][PrepareRM_PASS1_PBR] START /W CMD /C CSCRIPT C:\RM\RERM\DeployRP\QryOSLang.vbs OFFLINE C:\system.sav\logs\RM\ OSLang_List.log
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+[12:07:38.16][PrepareRM_PASS1_PBR] Created: C:\system.sav\logs\RM\OSLang_List.log
+[12:07:38.16][PrepareRM_PASS1_PBR] Remove un-support OS Language Package
+[12:07:38.17][PrepareRM_PASS1_PBR] CMD /C CSCRIPT C:\RM\RERM\DeployRP\RemoveNonUsedLP.vbs C:\system.sav\logs\RM\OSLang_List.log C:\RM\RERM\WinPE_LangPacks\64 C:\system.sav\logs\RM\hprm-RemoveLPs.cmd
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+[12:07:38.28][PrepareRM_PASS1_PBR] CALL C:\system.sav\logs\RM\hprm-RemoveLPs.cmd
+[12:07:38.69][PrepareRM_PASS1_PBR] Removed LPs in the C:\RM\RERM\WinPE_LangPacks\64
+[12:07:38.69][PrepareRM_PASS1_PBR] Removing LPs in the C:\RM\RERM\WinPE_LangPacks\32
+[12:07:38.69][PrepareRM_PASS1_PBR] RD /s /q C:\RM\RERM\WinPE_LangPacks\32
+[12:07:38.69][PrepareRM_PASS1_PBR] Removed
+[12:07:38.69][PrepareRM_PASS1_PBR] END
+[12:07:38.71][PrepareRM_PASS1_PBR] Pure WinRE "C:\windows\system32\recovery\winre.wim" was exist.
+[12:07:38.71][PrepareRM_PASS1_PBR] MOVE /Y C:\windows\system32\recovery\winre.wim C:\RM\BootRM\winre.wim
+        1 file(s) moved.
+[12:07:38.71][PrepareRM_PASS1_PBR] END
+[12:07:38.72][PrepareRM_PASS1_PBR] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\system.sav\util\PostRM\
+        1 file(s) copied.
+[12:07:38.79][PrepareRM_PASS1_PBR] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\RM\RERM\DeployRP\
+        1 file(s) copied.
+[12:07:38.85][PrepareRM_PASS1_PBR] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\Recovery\OEM\Point_D\Install.PI\RestoreESP\
+        1 file(s) copied.
+[12:07:38.88][PrepareRM_PASS1_PBR] COPY /Y C:\RM\RERM\FileBackup\64\FileRestore\*.dll C:\RM\RERM\FileBackup\64\
+C:\RM\RERM\FileBackup\64\FileRestore\BurnLibrary.dll
+C:\RM\RERM\FileBackup\64\FileRestore\DiscVerifierLib.dll
+C:\RM\RERM\FileBackup\64\FileRestore\FileBrowser.dll
+C:\RM\RERM\FileBackup\64\FileRestore\HPFileMgr.dll
+C:\RM\RERM\FileBackup\64\FileRestore\oledlg.dll
+C:\RM\RERM\FileBackup\64\FileRestore\wimgapi.dll
+        6 file(s) copied.
+[12:07:39.00][PrepareRM_PASS1_PBR] COPY /Y C:\RM\RERM\FileBackup\64\FileRestore\Restore.exe C:\RM\RERM\FileBackup\64\FileBkup.exe
+        1 file(s) copied.
+[12:07:39.05][PrepareRM_PASS1_PBR] RD /S /Q C:\RM\RERM\FileBackup\32\
+[12:07:39.08][PrepareRM_PASS1_PBR] Create RM 32/64 Flag
+[12:07:39.08][PrepareRM_PASS1_PBR] Created C:\system.sav\flags\RM64.flg
+[12:07:39.08][PrepareRM_PASS1_PBR.cmd] Delete [C:\system.sav\logs\RM\PrepareRM_PASS1_PBR.FAILURE.FLG]...
+[PrepareRM_PASS1_PBR.cmd] Mon 03/27/2017 12:07:39.08
+********** FINISH PrepareRM_PASS1_PBR.cmd **********
+RETURN CODE - 0

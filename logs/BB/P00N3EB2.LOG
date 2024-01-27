@@ -1,0 +1,12 @@
+[4:26:01 AM] Install Folder: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016
+[4:26:01 AM] CVA File: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\P00N3EB2.CVA
+[4:26:01 AM] Deliverable Name: Realtek Local Area Network (LAN) Driver-Win10 [10.10.714.2016,A,7]
+[4:26:01 AM] Deliverable PN: P00N3E-B2H
+[4:26:01 AM] Deliverable Size: 22,204 Kbytes
+[4:26:01 AM] Free Size: 454,153,508 Kbytes
+[4:26:01 AM] System Used Size: 21,642,968 Kbytes
+[4:26:01 AM] Run install command: c:\SWSETUP\DRV\Network\REALTEK\FP1.xReal_NN3EB2\10.10.714.2016\install.cmd
+[4:26:56 AM] Return code: 0
+[4:26:56 AM] Size Extend: 21,464 Kbytes
+[4:26:56 AM] Metro Deliverable: No
+[4:26:56 AM] RESULT=PASSED

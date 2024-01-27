@@ -1,0 +1,13 @@
+==================== Mon 03/27/2017 12:38:30.33 Start Installing ePrint ================ 
+
+Memory 3547 MB
+Executing on .\WizInstaller.ini on Monday, March 27, 2017 at 12:38:30 PM for en_us
+
+Checking Filter 'InstallePrint32'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Checking Filter 'InstallePrint64'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Executing '.\SilentInstallerx64.exe', Param '/log C:\system.sav\Logs\eprint5.txt', Working Directory '.\src\64bit'
+Wizinstaller Instance ID	 : {E9CA418F-6C1E-46E8-95DF-8E7AB6C79215}
+Init	 : 46
+Action	 : 82907
+Uninit	 : 31
+==================== Mon 03/27/2017 12:39:53.39 ePrint Installed ================ 

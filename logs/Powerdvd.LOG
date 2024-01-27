@@ -1,0 +1,14 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:32:52.37] Beginning of the install.cmd                              
+############################################################# 
+[ 4:32:52.37] Start Powerdvd 
+#######################script start###################################### 
+Checking Region  
+ACJ 
+Starts Installation 
+flag detection 
+The Exitcode= 0 
+install success complete 
+[ 4:34:42.55] Result of the Powerdvd 
+RESULT=PASSED 

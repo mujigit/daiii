@@ -1,0 +1,82 @@
+*************************************************************************************************************
+PININST (Mini-FBI) starts at: 05:30:35 Tuesday, March 28, 2017
+*************************************************************************************************************
+
+[RunThese_CMD#1]
+LAUNCHED=> "CMD.exe /c C:\system.sav\Util\2postprocess\BtBCustomData.cmd"
+START=> 05:30:45 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:30:51 Tuesday, March 28, 2017
+RESULT=> Command finished in 6 seconds.
+>==============================================================================
+[RunThese_CMD#2]
+LAUNCHED=> "CMD.exe /c c:\Recovery\OEM\Point_D\BiosReadBack\BiosReadback.cmd"
+START=> 05:30:51 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:23 Tuesday, March 28, 2017
+RESULT=> Command finished in 31 seconds.
+>==============================================================================
+[RunThese_CMD#3]
+LAUNCHED=> "CMD.exe /c c:\System.sav\ExitProc\PASS3\ResetHiber.cmd"
+START=> 05:31:23 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:24 Tuesday, March 28, 2017
+RESULT=> Command finished in less than 1 seconds.
+>==============================================================================
+[RunThese_CMD#4]
+LAUNCHED=> "CMD.exe /c c:\System.sav\ExitProc\PASS3\DisOSKonSTDNB.cmd"
+START=> 05:31:24 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:30 Tuesday, March 28, 2017
+RESULT=> Command finished in 6 seconds.
+>==============================================================================
+[RunThese_CMD#5]
+LAUNCHED=> "CMD.exe /c C:\system.sav\ExitProc\PASS3\zz_RM_BBV3.cmd"
+START=> 05:31:30 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:46 Tuesday, March 28, 2017
+RESULT=> Command finished in 16 seconds.
+>==============================================================================
+[RunThese_CMD#6]
+LAUNCHED=> "CMD.exe /c c:\System.sav\ExitProc\PASS3\LoadBiosKey.cmd"
+START=> 05:31:46 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:47 Tuesday, March 28, 2017
+RESULT=> Command finished in less than 1 seconds.
+>==============================================================================
+[RunThese_CMD#7]
+LAUNCHED=> "CMD.exe /c c:\System.sav\ExitProc\PASS3\DumpCBCD.cmd"
+START=> 05:31:47 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:53 Tuesday, March 28, 2017
+RESULT=> Command finished in 6 seconds.
+>==============================================================================
+[RunThese_CMD#8]
+LAUNCHED=> "CMD.exe /c c:\System.sav\ExitProc\PASS3\SetTo0.cmd"
+START=> 05:31:53 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:31:59 Tuesday, March 28, 2017
+RESULT=> Command finished in 6 seconds.
+>==============================================================================
+[RunThese_CMD#9]
+LAUNCHED=> "CMD.exe /c c:\System.sav\ExitProc\PASS3\CheckIfTimeOut4PINIST.cmd"
+START=> 05:32:00 Tuesday, March 28, 2017
+Pre-Process=> disabled WOW64 File Redirection....
+Post-Process=> enabled WOW64 File Redirection....
+END=> 05:32:01 Tuesday, March 28, 2017
+RESULT=> Command finished in less than 1 seconds.
+>==============================================================================
+*************************************************************************************************************
+PININST (Mini-FBI) exits at: 05:32:04 Tuesday, March 28, 2017
+*************************************************************************************************************
+
+[Mini-FBI]
+Result=PASSED

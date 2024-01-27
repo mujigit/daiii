@@ -1,0 +1,216 @@
+[12:07:39.46][PrepareRM_PASS1_HPRM] Create [C:\system.sav\logs\RM\PrepareRM_PASS1_HPRM.FAILURE.FLG]. If PASS, delete it.
+[12:07:39.49][PrepareRM_PASS1_HPRM] MKDIR "C:\SYSTEM.SAV\ExitProc\util\Language\"
+[12:07:39.49][PrepareRM_PASS1_HPRM] XCOPY /S /E /Y /I /R /H C:\RM\RERM\Language\*.* C:\system.sav\ExitProc\util\Language\
+C:\RM\RERM\Language\AR-SA.ini
+C:\RM\RERM\Language\BG-BG.ini
+C:\RM\RERM\Language\CS-CZ.ini
+C:\RM\RERM\Language\DA-DK.ini
+C:\RM\RERM\Language\DE-DE.ini
+C:\RM\RERM\Language\EL-GR.ini
+C:\RM\RERM\Language\EN-US.ini
+C:\RM\RERM\Language\ES-ES.ini
+C:\RM\RERM\Language\ES-MX.ini
+C:\RM\RERM\Language\ET-EE.ini
+C:\RM\RERM\Language\FI-FI.ini
+C:\RM\RERM\Language\FR-CA.ini
+C:\RM\RERM\Language\FR-FR.ini
+C:\RM\RERM\Language\HE-IL.ini
+C:\RM\RERM\Language\HR-HR.ini
+C:\RM\RERM\Language\HU-HU.ini
+C:\RM\RERM\Language\IT-IT.ini
+C:\RM\RERM\Language\JA-JP.ini
+C:\RM\RERM\Language\KO-KR.ini
+C:\RM\RERM\Language\LT-LT.ini
+C:\RM\RERM\Language\LV-LV.ini
+C:\RM\RERM\Language\NB-NO.ini
+C:\RM\RERM\Language\NL-NL.ini
+C:\RM\RERM\Language\PL-PL.ini
+C:\RM\RERM\Language\PT-BR.ini
+C:\RM\RERM\Language\PT-PT.ini
+C:\RM\RERM\Language\RO-RO.ini
+C:\RM\RERM\Language\RU-RU.ini
+C:\RM\RERM\Language\SK-SK.ini
+C:\RM\RERM\Language\SL-SI.ini
+C:\RM\RERM\Language\SR-LATN-CS.ini
+C:\RM\RERM\Language\SR-LATN-RS.ini
+C:\RM\RERM\Language\SV-SE.ini
+C:\RM\RERM\Language\TH-TH.INI
+C:\RM\RERM\Language\TR-TR.ini
+C:\RM\RERM\Language\UK-UA.INI
+C:\RM\RERM\Language\ZH-CN.ini
+C:\RM\RERM\Language\ZH-HK.ini
+C:\RM\RERM\Language\ZH-TW.ini
+C:\RM\RERM\Language\ZH-TZ.ini
+40 File(s) copied
+[12:07:39.58][PrepareRM_PASS1_HPRM] MKDIR "C:\SYSTEM.SAV\Util\resource\Language\"
+[12:07:39.58][PrepareRM_PASS1_HPRM] XCOPY /S /E /Y /I /R /H C:\RM\RERM\Language\*.* C:\system.sav\util\resource\Language\
+C:\RM\RERM\Language\AR-SA.ini
+C:\RM\RERM\Language\BG-BG.ini
+C:\RM\RERM\Language\CS-CZ.ini
+C:\RM\RERM\Language\DA-DK.ini
+C:\RM\RERM\Language\DE-DE.ini
+C:\RM\RERM\Language\EL-GR.ini
+C:\RM\RERM\Language\EN-US.ini
+C:\RM\RERM\Language\ES-ES.ini
+C:\RM\RERM\Language\ES-MX.ini
+C:\RM\RERM\Language\ET-EE.ini
+C:\RM\RERM\Language\FI-FI.ini
+C:\RM\RERM\Language\FR-CA.ini
+C:\RM\RERM\Language\FR-FR.ini
+C:\RM\RERM\Language\HE-IL.ini
+C:\RM\RERM\Language\HR-HR.ini
+C:\RM\RERM\Language\HU-HU.ini
+C:\RM\RERM\Language\IT-IT.ini
+C:\RM\RERM\Language\JA-JP.ini
+C:\RM\RERM\Language\KO-KR.ini
+C:\RM\RERM\Language\LT-LT.ini
+C:\RM\RERM\Language\LV-LV.ini
+C:\RM\RERM\Language\NB-NO.ini
+C:\RM\RERM\Language\NL-NL.ini
+C:\RM\RERM\Language\PL-PL.ini
+C:\RM\RERM\Language\PT-BR.ini
+C:\RM\RERM\Language\PT-PT.ini
+C:\RM\RERM\Language\RO-RO.ini
+C:\RM\RERM\Language\RU-RU.ini
+C:\RM\RERM\Language\SK-SK.ini
+C:\RM\RERM\Language\SL-SI.ini
+C:\RM\RERM\Language\SR-LATN-CS.ini
+C:\RM\RERM\Language\SR-LATN-RS.ini
+C:\RM\RERM\Language\SV-SE.ini
+C:\RM\RERM\Language\TH-TH.INI
+C:\RM\RERM\Language\TR-TR.ini
+C:\RM\RERM\Language\UK-UA.INI
+C:\RM\RERM\Language\ZH-CN.ini
+C:\RM\RERM\Language\ZH-HK.ini
+C:\RM\RERM\Language\ZH-TW.ini
+C:\RM\RERM\Language\ZH-TZ.ini
+40 File(s) copied
+[12:07:39.65][PrepareRM_PASS1_HPRM] MKDIR "C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\"
+[12:07:39.65][PrepareRM_PASS1_HPRM] XCOPY /S /E /Y /I /R /H C:\RM\RERM\Language\*.* C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\Language\
+C:\RM\RERM\Language\AR-SA.ini
+C:\RM\RERM\Language\BG-BG.ini
+C:\RM\RERM\Language\CS-CZ.ini
+C:\RM\RERM\Language\DA-DK.ini
+C:\RM\RERM\Language\DE-DE.ini
+C:\RM\RERM\Language\EL-GR.ini
+C:\RM\RERM\Language\EN-US.ini
+C:\RM\RERM\Language\ES-ES.ini
+C:\RM\RERM\Language\ES-MX.ini
+C:\RM\RERM\Language\ET-EE.ini
+C:\RM\RERM\Language\FI-FI.ini
+C:\RM\RERM\Language\FR-CA.ini
+C:\RM\RERM\Language\FR-FR.ini
+C:\RM\RERM\Language\HE-IL.ini
+C:\RM\RERM\Language\HR-HR.ini
+C:\RM\RERM\Language\HU-HU.ini
+C:\RM\RERM\Language\IT-IT.ini
+C:\RM\RERM\Language\JA-JP.ini
+C:\RM\RERM\Language\KO-KR.ini
+C:\RM\RERM\Language\LT-LT.ini
+C:\RM\RERM\Language\LV-LV.ini
+C:\RM\RERM\Language\NB-NO.ini
+C:\RM\RERM\Language\NL-NL.ini
+C:\RM\RERM\Language\PL-PL.ini
+C:\RM\RERM\Language\PT-BR.ini
+C:\RM\RERM\Language\PT-PT.ini
+C:\RM\RERM\Language\RO-RO.ini
+C:\RM\RERM\Language\RU-RU.ini
+C:\RM\RERM\Language\SK-SK.ini
+C:\RM\RERM\Language\SL-SI.ini
+C:\RM\RERM\Language\SR-LATN-CS.ini
+C:\RM\RERM\Language\SR-LATN-RS.ini
+C:\RM\RERM\Language\SV-SE.ini
+C:\RM\RERM\Language\TH-TH.INI
+C:\RM\RERM\Language\TR-TR.ini
+C:\RM\RERM\Language\UK-UA.INI
+C:\RM\RERM\Language\ZH-CN.ini
+C:\RM\RERM\Language\ZH-HK.ini
+C:\RM\RERM\Language\ZH-TW.ini
+C:\RM\RERM\Language\ZH-TZ.ini
+40 File(s) copied
+[12:07:39.70][PrepareRM_PASS1_HPRM] COPY /Y C:\system.sav\util\destorder_x64.exe C:\RM\RERM\RecoveryTool\64\destorder.exe
+        1 file(s) copied.
+[12:07:39.72][PrepareRM_PASS1_HPRM] COPY /Y C:\system.sav\util\destorder_x64.exe C:\RM\RERM\DeployRP\destorder.exe
+        1 file(s) copied.
+[12:07:39.74][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\DdCommon.dll C:\RM\RERM\DeployRP\
+        1 file(s) copied.
+[12:07:39.75][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\PIDGen.exe C:\RM\RERM\DeployRP\
+        1 file(s) copied.
+[12:07:39.80][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\RM\RERM\DeployRP\
+        1 file(s) copied.
+[12:07:39.81][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\HPRPGuard.dll C:\system.sav\util\
+        1 file(s) copied.
+[12:07:39.92][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\HPRecovery.exe C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:39.96][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\HPFileMgr.dll C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.00][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\FileBrowser.dll C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.03][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\DiscVerifierLib.dll C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.07][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\BurnLibrary.dll C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.11][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\DdCommon.dll C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.11][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\CNB\CNB.ini C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.14][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\UserPart.ini C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.14][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\DeployRP\INI2CMD.vbs C:\system.sav\ExitProc\util\
+        1 file(s) copied.
+[12:07:40.16][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\DeployRP\QryOSDisk.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\
+        1 file(s) copied.
+[12:07:40.16][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\DeployRP\INI2CMD.vbs C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\
+        1 file(s) copied.
+[12:07:40.16][PrepareRM_PASS1_HPRM] XCOPY /S /E /Y /I /R /H C:\RM\RERM\RecoveryTool\64\*.* C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\
+C:\RM\RERM\RecoveryTool\64\BurnLibrary.dll
+C:\RM\RERM\RecoveryTool\64\DdCommon.dll
+C:\RM\RERM\RecoveryTool\64\destorder.exe
+C:\RM\RERM\RecoveryTool\64\DiscVerifierLib.dll
+C:\RM\RERM\RecoveryTool\64\FileBrowser.dll
+C:\RM\RERM\RecoveryTool\64\HPFileMgr.dll
+C:\RM\RERM\RecoveryTool\64\HPRecovery.exe
+C:\RM\RERM\RecoveryTool\64\HPRPGuard.dll
+C:\RM\RERM\RecoveryTool\64\Image.exe
+C:\RM\RERM\RecoveryTool\64\oledlg.dll
+C:\RM\RERM\RecoveryTool\64\PartInfo.exe
+C:\RM\RERM\RecoveryTool\64\PIDGen.exe
+C:\RM\RERM\RecoveryTool\64\Redir.exe
+C:\RM\RERM\RecoveryTool\64\ResChanger.exe
+C:\RM\RERM\RecoveryTool\64\RunCmd.exe
+C:\RM\RERM\RecoveryTool\64\wimgapi.dll
+16 File(s) copied
+[12:07:40.24][PrepareRM_PASS1_HPRM] XCOPY /S /E /Y /I /R /H C:\RM\RERM\FileBackup\64\*.* C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\Rita-tool\
+C:\RM\RERM\FileBackup\64\BurnLibrary.dll
+C:\RM\RERM\FileBackup\64\DiscVerifierLib.dll
+C:\RM\RERM\FileBackup\64\FileBkup.exe
+C:\RM\RERM\FileBackup\64\FileBrowser.dll
+C:\RM\RERM\FileBackup\64\HPFileMgr.dll
+C:\RM\RERM\FileBackup\64\oledlg.dll
+C:\RM\RERM\FileBackup\64\TypeList.txt
+C:\RM\RERM\FileBackup\64\wimgapi.dll
+C:\RM\RERM\FileBackup\64\FileRestore\BurnLibrary.dll
+C:\RM\RERM\FileBackup\64\FileRestore\deletefolder.vbs
+C:\RM\RERM\FileBackup\64\FileRestore\DiscVerifierLib.dll
+C:\RM\RERM\FileBackup\64\FileRestore\FileBrowser.dll
+C:\RM\RERM\FileBackup\64\FileRestore\HPFileMgr.dll
+C:\RM\RERM\FileBackup\64\FileRestore\oledlg.dll
+C:\RM\RERM\FileBackup\64\FileRestore\Restore.exe
+C:\RM\RERM\FileBackup\64\FileRestore\wimgapi.dll
+16 File(s) copied
+[12:07:40.32][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\RunCmd.exe C:\RM\RERM\DeployWinRE\sources\recovery\tools\HP\
+        1 file(s) copied.
+[12:07:40.34][PrepareRM_PASS1_HPRM] RD /S /Q C:\RM\RERM\RecoveryTool\32\
+[12:07:40.34][PrepareRM_PASS1_HPRM] C:\RM\RERM\RecoveryTool\32\ Removed
+[12:07:40.34][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\system.sav\util\PostRM\
+        1 file(s) copied.
+[12:07:40.35][PrepareRM_PASS1_HPRM] COPY /Y C:\RM\RERM\RecoveryTool\64\PartInfo.exe C:\Recovery\OEM\Point_D\Install.EUE\HPRMEntry\
+        1 file(s) copied.
+[12:07:40.37][PrepareRM_PASS1_HPRM] COPY /Y C:\Recovery\OEM\ReCustomization.xml C:\Recovery\OEM\Point_D\Install.EUE\HPRMEntry\
+        1 file(s) copied.
+[12:07:40.38][PrepareRM_PASS1_HPRM] Create RM 32/64 Flag
+[12:07:40.38][PrepareRM_PASS1_HPRM] Created C:\system.sav\flags\RM64.flg
+[12:07:40.38][PrepareRM_PASS1_HPRM.cmd] Delete [C:\system.sav\logs\RM\PrepareRM_PASS1_HPRM.FAILURE.FLG]...
+[PrepareRM_PASS1_HPRM.cmd] Mon 03/27/2017 12:07:40.38
+********** FINISH PrepareRM_PASS1_HPRM.cmd **********
+RETURN CODE - 0

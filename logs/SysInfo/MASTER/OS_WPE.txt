@@ -1,0 +1,67 @@
+-----------------------------------
+Win32_OperatingSystem instance
+-----------------------------------
+BootDevice: 
+BuildNumber: 14393
+BuildType: Multiprocessor Free
+Caption: 
+CodeSet: 1252
+CountryCode: 1
+CreationClassName: Win32_OperatingSystem
+CSCreationClassName: Win32_ComputerSystem
+CSDVersion: 
+CSName: MININT-GKQ37P0
+CurrentTimeZone: -480
+DataExecutionPrevention_32BitApplications: True
+DataExecutionPrevention_Available: True
+DataExecutionPrevention_Drivers: True
+DataExecutionPrevention_SupportPolicy: 2
+Debug: False
+Description: 
+Distributed: False
+EncryptionLevel: 256
+ForegroundApplicationBoost: 2
+FreePhysicalMemory: 2794256
+FreeSpaceInPagingFiles: 0
+FreeVirtualMemory: 2839360
+InstallDate: 19691231160000.000000-480
+LargeSystemCache: 
+LastBootUpTime: 20170327115416.496336-480
+LocalDateTime: 20170327115840.497000-480
+Locale: 0409
+Manufacturer: Microsoft Corporation
+MaxNumberOfProcesses: -1
+MaxProcessMemorySize: 137438953344
+MUILanguages: en-US
+Name: |X:\windows|
+NumberOfLicensedUsers: 
+NumberOfProcesses: 27
+NumberOfUsers: 0
+OperatingSystemSKU: 1
+Organization: 
+OSArchitecture: 64-bit
+OSLanguage: 1033
+OSProductSuite: 256
+OSType: 18
+OtherTypeDescription: 
+PAEEnabled: 
+PlusProductID: 
+PlusVersionNumber: 
+PortableOperatingSystem: False
+Primary: True
+ProductType: 1
+RegisteredUser: 
+SerialNumber: 
+ServicePackMajorVersion: 0
+ServicePackMinorVersion: 0
+SizeStoredInPagingFiles: 0
+Status: OK
+SuiteMask: 256
+SystemDevice: \Device\Ramdisk{d9b257fc-684e-4dcb-ab79-03cfa2f6b750}
+SystemDirectory: X:\windows\system32
+SystemDrive: X:
+TotalSwapSpaceSize: 
+TotalVirtualMemorySize: 3631120
+TotalVisibleMemorySize: 3631120
+Version: 10.0.14393
+WindowsDirectory: X:\windows

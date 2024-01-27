@@ -1,0 +1,10 @@
+ -------------------------------------------------------------------------------- 
+WinMain() has been started...
+Screen Res  : 1366 x 768
+RStone :       [c:\hp\bin\RStone.ini]
+BrandString :  [HPB]
+FilePath :     [C:\System.sav\Util\BACKGRND\HPQ\Background]
+Background :   [C:\System.sav\Util\BACKGRND\HPQ\Background1366x768.jpg]
+WARNING    :   [FAILED to load the specified .jpg file...]
+INFO       :   UserMode is required... hide Desktop.
+INFO       :   BACKGRND_MainWndProc_OnClose() is called...

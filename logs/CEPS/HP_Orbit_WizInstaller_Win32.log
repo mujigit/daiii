@@ -1,0 +1,10 @@
+
+Memory 3547 MB
+Executing on c:\SWSETUP\APP\Applications\HP\HPOrbit_PPABB2\1.0.0.191\src\WizInstaller_Win32.ini  on Monday, March 27, 2017 at 12:40:14 PM for en_us
+
+Checking Filter 'CreateTaskbarXml'Script State=Initialized, Entering Script, Leaving Script, Script State=Closed, 
+Creating MFU SBOEM2 pointing to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\HP Orbit\HP Orbit.lnk in C:HPHPQWareBTBHostTaskbar.ini
+Wizinstaller Instance ID	 : {C7B4ADC5-3070-4447-9C9D-1913199B5B92}
+Init	 : 1110
+Action	 : 0
+Uninit	 : 31

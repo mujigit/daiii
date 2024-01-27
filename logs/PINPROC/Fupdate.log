@@ -1,0 +1,13 @@
+[14:27:50.39] Looking for Update.cmd in [C:\system.sav\FactoryUpdate] subfolders...
+
+[14:27:50.39] Found [C:\System.sav\FactoryUpdate\DMI_20160926] folder
+[14:27:50.41] [C:\System.sav\FactoryUpdate\DMI_20160926] folder is not supported for Factory Update. Exit...
+
+[14:27:50.41] Found [C:\System.sav\FactoryUpdate\FixUp] folder
+[14:27:50.43]    SKIP this folder.
+
+[14:27:50.44] Found [C:\System.sav\FactoryUpdate\Part] folder
+[14:27:50.50]    SKIP this folder.
+
+[14:27:50.55] Found [C:\System.sav\FactoryUpdate\QFEs] folder
+[14:27:50.60]    SKIP this folder.

@@ -1,0 +1,10 @@
+Checking HDD free space at Cleanup.EUE.
+Free: 60552294400
+Result=PASSED
+There is enough space...
+
+After PININST_BBV2.
+Free: 462854545408
+Result=PASSED
+There is enough space...
+

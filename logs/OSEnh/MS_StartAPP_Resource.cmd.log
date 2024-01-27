@@ -1,0 +1,264 @@
+[12:30:24.17]  [12:30:24.12] 
+[12:30:24.18] ************************************************** 
+[12:30:24.21]  [C:\SWSETUP\MS_StartApp_Resource\MS_StartAPP_Resource.cmd] has started... 
+[12:30:24.23] -------------------------------------------------- 
+[12:30:24.24]   
+[12:30:24.26]  Detect OS bits 
+[12:30:24.28]   
+[12:30:24.31]   
+[12:30:24.32]    OS Bit = [x64] 
+[12:30:24.34]   
+[12:30:24.37]   
+[12:30:24.39]  Run [CD /D C:\SWSETUP\MS_StartApp_Resource\] to move directory.. 
+[12:30:24.42]   
+[12:30:24.43] **************************************************************************************************** 
+[12:30:24.46]   FULL 
+[12:30:24.48] **************************************************************************************************** 
+[12:30:24.53] -------------------------------------------------- 
+[12:30:24.54]  START : Install [Alarms] 
+[12:30:24.57]   
+[12:30:24.57]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsAlarms_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.WindowsAlarms_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Alarms.log] 
+[12:30:37.48]   
+[12:30:37.50]    PASSED [Alarms] 
+[12:30:37.53]   
+[12:30:37.55]  END : Install [Alarms] 
+[12:30:37.56] -------------------------------------------------- 
+[12:30:37.59] -------------------------------------------------- 
+[12:30:37.61]  START : Install [Builder3D] 
+[12:30:37.64]   
+[12:30:37.64]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.3DBuilder_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.3DBuilder_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Builder3D.log] 
+[12:30:43.67]   
+[12:30:43.69]    PASSED [Builder3D] 
+[12:30:43.70]   
+[12:30:43.72]  END : Install [Builder3D] 
+[12:30:43.75] -------------------------------------------------- 
+[12:30:43.78] -------------------------------------------------- 
+[12:30:43.80]  START : Install [Getstarted] 
+[12:30:43.81]   
+[12:30:43.83]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.Getstarted_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.Getstarted_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Getstarted.log] 
+[12:30:51.58]   
+[12:30:51.61]    PASSED [Getstarted] 
+[12:30:51.64]   
+[12:30:51.66]  END : Install [Getstarted] 
+[12:30:51.69] -------------------------------------------------- 
+[12:30:51.72] -------------------------------------------------- 
+[12:30:51.73]  START : Install [Messaging] 
+[12:30:51.77]   
+[12:30:51.78]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.Messaging_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.Messaging_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Messaging.log] 
+[12:30:57.86]   
+[12:30:57.89]    PASSED [Messaging] 
+[12:30:57.91]   
+[12:30:57.94]  END : Install [Messaging] 
+[12:30:57.95] -------------------------------------------------- 
+[12:30:58.00] -------------------------------------------------- 
+[12:30:58.03]  START : Install [Maps.Windows] 
+[12:30:58.05]   
+[12:30:58.05]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsMaps_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.WindowsMaps_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Maps.Windows.log] 
+[12:31:08.71]   
+[12:31:08.71]    PASSED [Maps.Windows] 
+[12:31:08.74]   
+[12:31:08.76]  END : Install [Maps.Windows] 
+[12:31:08.77] -------------------------------------------------- 
+[12:31:08.80] -------------------------------------------------- 
+[12:31:08.83]  START : Install [Music] 
+[12:31:08.85]   
+[12:31:08.86]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.ZuneMusic_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.ZuneMusic_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Music.log] 
+[12:31:17.86]   
+[12:31:17.88]    PASSED [Music] 
+[12:31:17.90]   
+[12:31:17.91]  END : Install [Music] 
+[12:31:17.93] -------------------------------------------------- 
+[12:31:17.97] -------------------------------------------------- 
+[12:31:17.99]  START : Install [officehubim] 
+[12:31:18.02]   
+[12:31:18.02]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\officehubim.log] 
+[12:31:24.85]   
+[12:31:24.86]    PASSED [officehubim] 
+[12:31:24.88]   
+[12:31:24.90]  END : Install [officehubim] 
+[12:31:24.93] -------------------------------------------------- 
+[12:31:24.96] -------------------------------------------------- 
+[12:31:24.99]  START : Install [onenoteim] 
+[12:31:25.01]   
+[12:31:25.02]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.Office.OneNote_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.Office.OneNote_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\onenoteim.log] 
+[12:31:38.52]   
+[12:31:38.54]    PASSED [onenoteim] 
+[12:31:38.57]   
+[12:31:38.58]  END : Install [onenoteim] 
+[12:31:38.60] -------------------------------------------------- 
+[12:31:38.66] -------------------------------------------------- 
+[12:31:38.68]  START : Install [CommApps] 
+[12:31:38.69]   
+[12:31:38.71]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsCommunicationsApps_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.WindowsCommunicationsApps_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\CommApps.log] 
+[12:31:58.52]   
+[12:31:58.54]    PASSED [CommApps] 
+[12:31:58.55]   
+[12:31:58.57]  END : Install [CommApps] 
+[12:31:58.60] -------------------------------------------------- 
+[12:31:58.63] -------------------------------------------------- 
+[12:31:58.65]  START : Install [People] 
+[12:31:58.68]   
+[12:31:58.68]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.People_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.People_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\People.log] 
+[12:32:04.79]   
+[12:32:04.80]    PASSED [People] 
+[12:32:04.82]   
+[12:32:04.83]  END : Install [People] 
+[12:32:04.86] -------------------------------------------------- 
+[12:32:04.90] -------------------------------------------------- 
+[12:32:04.91]  START : Install [SkypeApp] 
+[12:32:04.93]   
+[12:32:04.94]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.SkypeApp_kzf8qxf38zg5c.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.SkypeApp_kzf8qxf38zg5c.xml /logpath:C:\System.sav\Logs\QFEOff\SkypeApp.log] 
+[12:32:15.90]   
+[12:32:15.92]    PASSED [SkypeApp] 
+[12:32:15.95]   
+[12:32:15.96]  END : Install [SkypeApp] 
+[12:32:15.98] -------------------------------------------------- 
+[12:32:16.01] -------------------------------------------------- 
+[12:32:16.02]  START : Install [Solitaire] 
+[12:32:16.04]   
+[12:32:16.06]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.Advertising.Xaml.x86.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /DependencyPackagePath:Microsoft.Advertising.Xaml.x64.appx /licensepath:Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Solitaire.log] 
+[12:32:30.89]   
+[12:32:30.91]    PASSED [Solitaire] 
+[12:32:30.92]   
+[12:32:30.94]  END : Install [Solitaire] 
+[12:32:30.95] -------------------------------------------------- 
+[12:32:30.98] -------------------------------------------------- 
+[12:32:31.00]  START : Install [Video] 
+[12:32:31.02]   
+[12:32:31.03]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.ZuneVideo_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.ZuneVideo_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Video.log] 
+[12:32:37.63]   
+[12:32:37.65]    PASSED [Video] 
+[12:32:37.68]   
+[12:32:37.69]  END : Install [Video] 
+[12:32:37.71] -------------------------------------------------- 
+[12:32:37.74] -------------------------------------------------- 
+[12:32:37.76]  START : Install [Weather] 
+[12:32:37.77]   
+[12:32:37.79]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.BingWeather_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.BingWeather_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Weather.log] 
+[12:32:43.52]   
+[12:32:43.53]    PASSED [Weather] 
+[12:32:43.55]   
+[12:32:43.56]  END : Install [Weather] 
+[12:32:43.58] -------------------------------------------------- 
+[12:32:43.61] -------------------------------------------------- 
+[12:32:43.63]  START : Install [Windows.Photos] 
+[12:32:43.64]   
+[12:32:43.64]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.Windows.Photos_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.Windows.Photos_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\Windows.Photos.log] 
+[12:32:51.46]   
+[12:32:51.49]    PASSED [Windows.Photos] 
+[12:32:51.50]   
+[12:32:51.52]  END : Install [Windows.Photos] 
+[12:32:51.54] -------------------------------------------------- 
+[12:32:51.57] -------------------------------------------------- 
+[12:32:51.58]  START : Install [WindowsCalculator] 
+[12:32:51.60]   
+[12:32:51.60]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsCalculator_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.WindowsCalculator_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\WindowsCalculator.log] 
+[12:32:56.16]   
+[12:32:56.17]    PASSED [WindowsCalculator] 
+[12:32:56.19]   
+[12:32:56.22]  END : Install [WindowsCalculator] 
+[12:32:56.23] -------------------------------------------------- 
+[12:32:56.26] -------------------------------------------------- 
+[12:32:56.28]  START : Install [WindowsCamera] 
+[12:32:56.30]   
+[12:32:56.31]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsCamera_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.WindowsCamera_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\WindowsCamera.log] 
+[12:33:01.42]   
+[12:33:01.43]    PASSED [WindowsCamera] 
+[12:33:01.45]   
+[12:33:01.48]  END : Install [WindowsCamera] 
+[12:33:01.49] -------------------------------------------------- 
+[12:33:01.53] -------------------------------------------------- 
+[12:33:01.56]  START : Install [WindowsSoundRecorder] 
+[12:33:01.57]   
+[12:33:01.57]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\WindowsSoundRecorder.log] 
+[12:33:06.43]   
+[12:33:06.45]    PASSED [WindowsSoundRecorder] 
+[12:33:06.47]   
+[12:33:06.50]  END : Install [WindowsSoundRecorder] 
+[12:33:06.51] -------------------------------------------------- 
+[12:33:06.54] -------------------------------------------------- 
+[12:33:06.56]  START : Install [WindowsStore] 
+[12:33:06.59]   
+[12:33:06.59]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsStore_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.WindowsStore_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\WindowsStore.log] 
+[12:33:13.81]   
+[12:33:13.82]    PASSED [WindowsStore] 
+[12:33:13.86]   
+[12:33:13.87]  END : Install [WindowsStore] 
+[12:33:13.89] -------------------------------------------------- 
+[12:33:13.93] -------------------------------------------------- 
+[12:33:13.95]  START : Install [XboxApp] 
+[12:33:13.97]   
+[12:33:13.98]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.XboxApp_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.XboxApp_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\XboxApp.log] 
+[12:33:21.48]   
+[12:33:21.52]    PASSED [XboxApp] 
+[12:33:21.54]   
+[12:33:21.55]  END : Install [XboxApp] 
+[12:33:21.59] -------------------------------------------------- 
+[12:33:21.62] -------------------------------------------------- 
+[12:33:21.63]  START : Install [XboxIdentityProvider] 
+[12:33:21.65]   
+[12:33:21.65]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.XboxIdentityProvider_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.XboxIdentityProvider_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\XboxIdentityProvider.log] 
+[12:33:25.67]   
+[12:33:25.68]    PASSED [XboxIdentityProvider] 
+[12:33:25.70]   
+[12:33:25.71]  END : Install [XboxIdentityProvider] 
+[12:33:25.73] -------------------------------------------------- 
+[12:33:25.76] -------------------------------------------------- 
+[12:33:25.78]  START : Install [StickyNotes] 
+[12:33:25.79]   
+[12:33:25.81]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\StickyNotes.log] 
+[12:33:31.50]   
+[12:33:31.52]    PASSED [StickyNotes] 
+[12:33:31.55]   
+[12:33:31.56]  END : Install [StickyNotes] 
+[12:33:31.58] -------------------------------------------------- 
+[12:33:31.61] -------------------------------------------------- 
+[12:33:31.63]  START : Install [OneConnect] 
+[12:33:31.64]   
+[12:33:31.66]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.OneConnect_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.OneConnect_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\OneConnect.log] 
+[12:33:36.75]   
+[12:33:36.77]    PASSED [OneConnect] 
+[12:33:36.80]   
+[12:33:36.81]  END : Install [OneConnect] 
+[12:33:36.83] -------------------------------------------------- 
+[12:33:36.86] -------------------------------------------------- 
+[12:33:36.88]  START : Install [WinFeedback] 
+[12:33:36.89]   
+[12:33:36.91]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x86.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x86.1.3.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /DependencyPackagePath:Microsoft.NET.Native.Framework.x64.1.3.appx /DependencyPackagePath:Microsoft.NET.Native.Runtime.x64.1.3.appx /licensepath:Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\WinFeedback.log] 
+[12:33:43.33]   
+[12:33:43.34]    PASSED [WinFeedback] 
+[12:33:43.36]   
+[12:33:43.38]  END : Install [WinFeedback] 
+[12:33:43.39] -------------------------------------------------- 
+[12:33:43.42] -------------------------------------------------- 
+[12:33:43.45]  START : Install [DTAppInstaller] 
+[12:33:43.47]   
+[12:33:43.47]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\DTAppInstaller.log] 
+[12:33:47.91]   
+[12:33:47.94]    PASSED [DTAppInstaller] 
+[12:33:47.95]   
+[12:33:47.97]  END : Install [DTAppInstaller] 
+[12:33:48.00] -------------------------------------------------- 
+[12:33:48.03] -------------------------------------------------- 
+[12:33:48.05]  START : Install [StorePurchaseApp] 
+[12:33:48.06]   
+[12:33:48.08]    Run [DISM.exe /ONLINE /Add-ProvisionedAppxPackage /ScratchDir:"C:\Sandbox" /PackagePath:Microsoft.StorePurchaseApp_8wekyb3d8bbwe.appxbundle /DependencyPackagePath:Microsoft.VCLibs.x86.14.00.appx /DependencyPackagePath:Microsoft.VCLibs.x64.14.00.appx /licensepath:Microsoft.StorePurchaseApp_8wekyb3d8bbwe.xml /logpath:C:\System.sav\Logs\QFEOff\StorePurchaseApp.log] 
+[12:33:51.25]   
+[12:33:51.27]    PASSED [StorePurchaseApp] 
+[12:33:51.28]   
+[12:33:51.30]  END : Install [StorePurchaseApp] 
+[12:33:51.33] -------------------------------------------------- 
+[12:33:51.34]  [12:33:51.33] 
+[12:33:51.36]   
+[12:33:51.38]   
+[12:33:51.39] -------------------------------------------------- 
+[12:33:51.41] -------------------------------------------------- 
+[12:33:51.42]   
+[12:33:51.44]  PASSED : INSTALL APPS TO FULL IMAGE... 
+[12:33:51.45]   
+[12:33:51.47]  PASSED : COMPLETED... 
+[12:33:51.49]  [12:33:51.47] 
+[12:33:51.50] -------------------------------------------------- 
+[12:33:51.53]  [MS_StartAPP_Resource.cmd] has completed... 
+[12:33:51.55] ************************************************** 
+[12:33:51.56]  [12:33:51.55] 

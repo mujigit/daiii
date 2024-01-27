@@ -1,0 +1,17 @@
+[4:35][PrepareTool] pathTarget=c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][PrepareTool] 
+
+[4:35][PrepareTool] --- Prepare about info ---
+[4:35][PrepareTool] Info, Detected about info under C:\RM\RERM\CommonSolution\AboutInfo\aboutinfo.cmd
+[4:35][PrepareTool] Info, Clone about info from C:\RM\RERM\CommonSolution\AboutInfo\ to c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][PrepareTool] Info, Detected about info under D:\RM\RERM\CommonSolution\AboutInfo\aboutinfo.cmd
+[4:35][PrepareTool] Info, Clone about info from D:\RM\RERM\CommonSolution\AboutInfo\ to c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][PrepareTool] Info, Detected about info under E:\RM\RERM\CommonSolution\AboutInfo\aboutinfo.cmd
+[4:35][PrepareTool] Info, Clone about info from E:\RM\RERM\CommonSolution\AboutInfo\ to c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][PrepareTool] Info, Detected about info under C:\SystemRecovery\SRD\RERM\CommonSolution\AboutInfo\aboutinfo.cmd
+[4:35][PrepareTool] Info, Clone about info from C:\SystemRecovery\SRD\RERM\CommonSolution\AboutInfo\ to c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][PrepareTool] Info, Detected about info under D:\SystemRecovery\SRD\RERM\CommonSolution\AboutInfo\aboutinfo.cmd
+[4:35][PrepareTool] Info, Clone about info from D:\SystemRecovery\SRD\RERM\CommonSolution\AboutInfo\ to c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][PrepareTool] Info, Detected about info under E:\SystemRecovery\SRD\RERM\CommonSolution\AboutInfo\aboutinfo.cmd
+[4:35][PrepareTool] Info, Clone about info from E:\SystemRecovery\SRD\RERM\CommonSolution\AboutInfo\ to c:\program files (x86)\HP\hp recovery manager\aboutinfo\
+[4:35][QueryVer] Info, Detected preinstalled  OS version: 10.0.14393 and update to TDCRM.ini

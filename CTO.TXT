@@ -1,0 +1,71 @@
+CNB16WW3FPT601,MLini,0
+P006MA-B2P,Energy Star,0
+P009C2-B2T,HP Wireless Button Driver for,0
+P00EDU-B2M,Bing Search for IE11,0
+P00F6B-B2D,TFS - OCA Marker File - TDC,0
+P00GXS-B2Z,HP Support Assistant,0
+P00H08-B2U,IE Home,0
+P00HUY-B2N,Discover HP Touchpoint Manage,0
+P00HV0-B2P,Discover HP Touchpoint Manage,0
+P00J6J-B2K,Preinstall Log Collector - CP,0
+P00KFS-B2N,HP UEFI BIOS Configuration Ut,0
+P00KH9-B2C,Windows HP File Based Install,0
+P00KML-B2D,TFS - Windows MSC GPT 60GB Ad,0
+P00KPS-B2F,TFS - GBUHook support PML sha,0
+P00KSB-B2M,Windows 10 System Default Set,0
+P00KTX-B2Q,McAfee LiveSafe Install Rules,0
+P00KWE-B2K,TFS - Dynamic MSC,0
+P00L6E-B2Q,HP PC Hardware Diagnostics UE,0
+P00LC7-B2C,Windows 10 Preinstall Diagnos,0
+P00LDM-B2G,McAfee Checkbox,0
+P00LEM-B2P,Windows 10 DPK - CPS,0
+P00LEX-B2D,Retail Demo - Video Attract L,0
+P00LMK-B2S,HP Setup Integrated OOBE Win1,0
+P00LUT-B2X,HP Sure Connect,0
+P00LWZ-B2A,MSC - NTFS (26GB / 1.5GB),0
+P00MGE-B2X,Power Media Player,0
+P00MMP-B2Q,DMI_INI - CPS,0
+P00N20-B2L,Netflix-Metro,0
+P00N24-B2J,Priceline,0
+P00N3D-B2M,FP1.x - Realtek Card Reader D,0
+P00N3E-B2H,FP1.x - Realtek Local Area Ne,0
+P00N4K-B2S,FP1.x - Elan Touchpad Driver,0
+P00N89-B2K,HP ePrint,0
+P00NBC-B2J,HP System Event Utility,0
+P00NC3-B2F,HP Documentation 1613,0
+P00NCU-B2C,TFS - GBUHook support Drive O,0
+P00NDP-B2P,Windows 10 PIN AddOn - CPS,0
+P00NEJ-B2E,Windows 10 WDT SDV - CPS,0
+P00NGN-B2A,Windows Big File Tweaks - CPS,0
+P00NHP-B2U,McAfee LiveSafe,0
+P00NQ0-B2B,Dump BTO and CMD after MD5 Ho,0
+P00NQT-B2P,Windows 10 Redstone 1 Base Im,0
+P00NQU-B2T,Windows 10 Redstone 1 WinPE -,0
+P00NXS-B2H,DPS tweaks - CPS,0
+P00NYH-B2N,Windows 10 RedStone 1 LP FOD,0
+P00NZ2-B2L,Windows 10 RedStone 1 HP OS E,0
+P00NZ8-B2D,Windows 10 Redstone1 Recovery,0
+P00P02-B2P,Windows 10 Redstone1 Push But,0
+P00P03-B2N,Windows 10 Redstone1 RE Recov,0
+P00P12-B2P,Microsoft Office 2016 and Off,0
+P00P5S-00E,Microsoft Office 2016 and Off,0
+P00P62-B2E,Microsoft Office 2016 and Off,0
+P00P9V-B2V,Windows 10 HP Image Enhanceme,0
+P00P9Y-B2F,Windows 10 Image Customizatio,0
+P00PAB-B2V,HP Orbit,0
+P00PC9-B2E,Windows 10 RedStone 1 Regiona,0
+P00PCB-B2C,Windows 10 RedStone 1 HP EULA,0
+P00PDU-B2J,Fusion RStone Detection Tweak,0
+P00PF9-B2E,Realtek RTL8723BE/RTL8188EE 8,0
+P00PK5-B2G,Cyberlink PowerDirector Deskt,0
+P00PL3-B2K,HP Audio Switch,0
+P00PLJ-B2M,HP Windows Image Diagnostic T,0
+P00PLU-B2K,Windows 10 RedStone 1 MS Star,0
+P00PNH-B2X,MS Windows PIN Process - CPS,0
+P00PPA-B2C,Windows 10 Wallpaper - CPS,0
+P00PSC-B2H,HP JumpStart,0
+P00PUF-B2G,PF 1.x - Image Tweaks for Win,0
+P00PUT-B2C,DropBox,0
+P00PWM-B2F,FP1.x - Realtek High-Definiti,0
+P00PZG-B2D,WW-BTB Host and ISP Stub,0
+P00Q5X-B2D,FP1.x - AMD High-Definition G,0

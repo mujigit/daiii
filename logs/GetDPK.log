@@ -1,0 +1,37 @@
+Section=Vos.B
+Criteria=Vos.B,ATF_OS.X,COMPACT,TABDET10,PN.AB2
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.X,COMPACT,TABDET10
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.T,TABDET10,PN.AB2
+	CANNOT find [TABDET10]
+Criteria=Vos.B,ATF_OS.T,TABDET10
+	CANNOT find [TABDET10]
+Criteria=Vos.B,ATF_OS.7,TABDET10,PN.AB2
+	CANNOT find [ATF_OS.7]
+Criteria=Vos.B,ATF_OS.7,TABDET10
+	CANNOT find [ATF_OS.7]
+Criteria=Vos.B,ATF_OS.X,COMPACT,TAB9,PN.AB2
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.X,COMPACT,TAB9
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.T,TAB9,PN.AB2
+	CANNOT find [TAB9]
+Criteria=Vos.B,ATF_OS.T,TAB9
+	CANNOT find [TAB9]
+Criteria=Vos.B,ATF_OS.7,TAB9,PN.AB2
+	CANNOT find [ATF_OS.7]
+Criteria=Vos.B,ATF_OS.7,TAB9
+	CANNOT find [ATF_OS.7]
+Criteria=Vos.B,ATF_OS.X,COMPACT,NaAc,DPK_STR
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.X,COMPACT,NaAc,DPK_MSNA_STD
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.X,COMPACT,NaAc,DPK_High-End
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.X,COMPACT,NaAc,EmMA
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.X,COMPACT,NaAc
+	CANNOT find [ATF_OS.X]
+Criteria=Vos.B,ATF_OS.T,NaAc,DPK_STR
+DPK=[832218-001]

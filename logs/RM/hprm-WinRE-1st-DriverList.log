@@ -1,0 +1,14 @@
+[12:11:19.40][DeployWinRE_1st.cmd] CALL DISM.EXE /image:C:\RM\MountRM\ /get-drivers /English 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Image Version: 10.0.14393.0
+
+Obtaining list of 3rd party drivers from the driver store...
+
+Driver packages listing:
+
+(No drivers found in the image matching the criteria)
+
+The operation completed successfully.

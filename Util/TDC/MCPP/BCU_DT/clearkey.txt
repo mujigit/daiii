@@ -1,0 +1,13 @@
+English
+Clear All Secure Boot Keys
+	No
+	*Yes
+Key Ownership
+	HP Keys
+	*Custom Keys
+	MSFT Debug keys
+Secure Boot Keys
+	*Clear
+	HP
+	MSFT
+	Custom

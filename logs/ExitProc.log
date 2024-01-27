@@ -1,0 +1,874 @@
+[ 5:28:20.27] ========================= System BCD =========================
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {5fc6f2d0-13b1-11e7-9450-806e6f6e6963}
+                        {f5661e31-133a-11e7-9176-705a0f8492be}
+                        {f5661e2d-133a-11e7-9176-705a0f8492be}
+                        {f5661e2e-133a-11e7-9176-705a0f8492be}
+timeout                 0
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {current}
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+displayorder            {current}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {5fc6f2d0-13b1-11e7-9450-806e6f6e6963}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2d-133a-11e7-9176-705a0f8492be}
+description             USB Drive (UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2e-133a-11e7-9176-705a0f8492be}
+description             Internal CD/DVD ROM Drive (UEFI)
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e2f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e30-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e31-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e32-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e33-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e34-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e35-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e36-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e37-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e38-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e39-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e3f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e40-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e41-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e42-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e43-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e44-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e45-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e46-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e47-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e48-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e49-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e4f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e50-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e51-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e52-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e53-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e54-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e55-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e56-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e57-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e58-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e59-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e5f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e60-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e61-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e62-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e63-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e64-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e65-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e66-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e67-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e68-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e69-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e6f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e70-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e71-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e72-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e73-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e74-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e75-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e76-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e77-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e78-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e79-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e7f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e80-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e81-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e82-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e83-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e84-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e85-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e86-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e87-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e88-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e89-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8a-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8b-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8c-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8d-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8e-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e8f-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e90-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e91-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e92-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e93-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e94-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e95-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e96-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e97-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e98-133a-11e7-9176-705a0f8492be}
+description             Internal Hard Disk or Solid State Disk
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {f5661e9d-133a-11e7-9176-705a0f8492be}
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+
+Windows Boot Loader
+-------------------
+identifier              {current}
+device                  partition=C:
+path                    \windows\system32\winload.efi
+description             Windows 10
+locale                  en-US
+inherit                 {bootloadersettings}
+recoverysequence        {f7e68e53-13b1-11e7-9450-48e24473c348}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                partition=C:
+systemroot              \windows
+resumeobject            {f5661e2b-133a-11e7-9176-705a0f8492be}
+nx                      OptIn
+bootmenupolicy          Standard
+
+Windows Boot Loader
+-------------------
+identifier              {f7e68e53-13b1-11e7-9450-48e24473c348}
+device                  ramdisk=[\Device\HarddiskVolume5]\Recovery\WindowsRE\Winre.wim,{f7e68e54-13b1-11e7-9450-48e24473c348}
+path                    \windows\system32\winload.efi
+description             Windows Recovery Environment
+locale                  en-US
+inherit                 {bootloadersettings}
+displaymessage          Recovery
+osdevice                ramdisk=[\Device\HarddiskVolume5]\Recovery\WindowsRE\Winre.wim,{f7e68e54-13b1-11e7-9450-48e24473c348}
+systemroot              \windows
+nx                      OptIn
+bootmenupolicy          Standard
+winpe                   Yes
+
+Resume from Hibernate
+---------------------
+identifier              {f5661e2b-133a-11e7-9176-705a0f8492be}
+device                  partition=C:
+path                    \windows\system32\winresume.efi
+description             Windows Resume Application
+locale                  en-US
+inherit                 {resumeloadersettings}
+recoverysequence        {f7e68e53-13b1-11e7-9450-48e24473c348}
+recoveryenabled         Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+filedevice              partition=C:
+filepath                \hiberfil.sys
+bootmenupolicy          Standard
+debugoptionenabled      No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\Microsoft\Boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-US
+inherit                 {globalsettings}
+badmemoryaccess         Yes
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 No
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Local
+
+RAM Defects
+-----------
+identifier              {badmemory}
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+                        {badmemory}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Resume Loader Settings
+----------------------
+identifier              {resumeloadersettings}
+inherit                 {globalsettings}
+
+Device options
+--------------
+identifier              {f7e68e54-13b1-11e7-9450-48e24473c348}
+description             Windows Recovery
+ramdisksdidevice        partition=\Device\HarddiskVolume5
+ramdisksdipath          \Recovery\WindowsRE\boot.sdi
+[ 5:28:20.77] ==============================================================
+[ 5:28:21.66] Looking for *.cmd in [C:\system.sav\ExitProc\Spe] folder...
+[ 5:28:21.66] Start:  [C:\system.sav\ExitProc\Spe\MSSR_ON.cmd] 
+[ 5:28:21.66] Finish: [C:\system.sav\ExitProc\Spe\MSSR_ON.cmd] 
+[ 5:28:21.66] Start:  [C:\system.sav\ExitProc\Spe\OSGUID.cmd] 
+[ 5:28:21.66] Finish: [C:\system.sav\ExitProc\Spe\OSGUID.cmd] 
+[ 5:28:21.66] Start:  [C:\system.sav\ExitProc\Spe\ZZCLEANUP.cmd] 
+[ 5:28:21.66] Finish: [C:\system.sav\ExitProc\Spe\ZZCLEANUP.cmd] 
+[ 5:28:23.75] All *.cmd in [C:\system.sav\ExitProc\Spe] folder has been called...
+[ 5:28:23.75] Looking for *.log in [C:\system.sav\Logs\BB] folder...
+[ 5:28:23.78] [C:\system.sav\Logs\BB\ClnDhcpDomain_ImgEnh.LOG] is found...
+[ 5:28:23.88] [C:\system.sav\Logs\BB\ClnDhcpDomain_ImgEnh_Online.LOG] is found...
+[ 5:28:23.91] [C:\system.sav\Logs\BB\CPUFlag.LOG] is found...
+[ 5:28:23.94] [C:\system.sav\Logs\BB\CUST_AddIntoPpkgExList.LOG] is found...
+[ 5:28:23.97] [C:\system.sav\Logs\BB\CUST_TouchPointCfg.LOG] is found...
+[ 5:28:24.02] [C:\system.sav\Logs\BB\CUST_WAV.LOG] is found...
+[ 5:28:24.03] [C:\system.sav\Logs\BB\DELETE_LAST.LOG] is found...
+[ 5:28:24.07] [C:\system.sav\Logs\BB\DisableDefender.LOG] is found...
+[ 5:28:24.10] [C:\system.sav\Logs\BB\DisableService.LOG] is found...
+[ 5:28:24.13] [C:\system.sav\Logs\BB\DTICON.LOG] is found...
+[ 5:28:24.14] [C:\system.sav\Logs\BB\EnableService.LOG] is found...
+[ 5:28:24.17] [C:\system.sav\Logs\BB\ImageDiag.LOG] is found...
+[ 5:28:24.22] [C:\system.sav\Logs\BB\ImageDiag_EarlyStage.LOG] is found...
+[ 5:28:24.27] [C:\system.sav\Logs\BB\MSAppsOrder.LOG] is found...
+[ 5:28:24.32] [C:\system.sav\Logs\BB\Ngen.LOG] is found...
+[ 5:28:24.35] [C:\system.sav\Logs\BB\OCAMark.log] is found...
+[ 5:28:24.38] [C:\system.sav\Logs\BB\OfflineDisableDefender.LOG] is found...
+[ 5:28:24.42] [C:\system.sav\Logs\BB\P006MAB2.LOG] is found...
+[ 5:28:24.44] [C:\system.sav\Logs\BB\P009C2B2.LOG] is found...
+[ 5:28:24.47] [C:\system.sav\Logs\BB\P00EDUB2.LOG] is found...
+[ 5:28:24.50] [C:\system.sav\Logs\BB\P00F6BB2.LOG] is found...
+[ 5:28:24.53] [C:\system.sav\Logs\BB\P00GXSB2.LOG] is found...
+[ 5:28:24.55] [C:\system.sav\Logs\BB\P00H08B2.LOG] is found...
+[ 5:28:24.58] [C:\system.sav\Logs\BB\P00HUYB2.LOG] is found...
+[ 5:28:24.61] [C:\system.sav\Logs\BB\P00HV0B2.LOG] is found...
+[ 5:28:24.64] [C:\system.sav\Logs\BB\P00KTXB2.LOG] is found...
+[ 5:28:24.67] [C:\system.sav\Logs\BB\P00L6EB2.LOG] is found...
+[ 5:28:24.71] [C:\system.sav\Logs\BB\P00LDMB2.LOG] is found...
+[ 5:28:24.74] [C:\system.sav\Logs\BB\P00LEXB2.LOG] is found...
+[ 5:28:24.75] [C:\system.sav\Logs\BB\P00LMKB2.LOG] is found...
+[ 5:28:24.78] [C:\system.sav\Logs\BB\P00LUTB2.LOG] is found...
+[ 5:28:24.82] [C:\system.sav\Logs\BB\P00MGEB2.LOG] is found...
+[ 5:28:24.83] [C:\system.sav\Logs\BB\P00N20B2.LOG] is found...
+[ 5:28:24.86] [C:\system.sav\Logs\BB\P00N24B2.LOG] is found...
+[ 5:28:24.89] [C:\system.sav\Logs\BB\P00N3DB2.LOG] is found...
+[ 5:28:24.92] [C:\system.sav\Logs\BB\P00N3EB2.LOG] is found...
+[ 5:28:24.96] [C:\system.sav\Logs\BB\P00N4KB2.LOG] is found...
+[ 5:28:24.99] [C:\system.sav\Logs\BB\P00N89B2.LOG] is found...
+[ 5:28:25.02] [C:\system.sav\Logs\BB\P00NBCB2.LOG] is found...
+[ 5:28:25.05] [C:\system.sav\Logs\BB\P00NC3B2.LOG] is found...
+[ 5:28:25.10] [C:\system.sav\Logs\BB\P00NZ8B2.LOG] is found...
+[ 5:28:25.13] [C:\system.sav\Logs\BB\P00P5S00.LOG] is found...
+[ 5:28:25.16] [C:\system.sav\Logs\BB\P00P62B2.LOG] is found...
+[ 5:28:25.21] [C:\system.sav\Logs\BB\P00PABB2.LOG] is found...
+[ 5:28:25.22] [C:\system.sav\Logs\BB\P00PF9B2.LOG] is found...
+[ 5:28:25.27] [C:\system.sav\Logs\BB\P00PK5B2.LOG] is found...
+[ 5:28:25.30] [C:\system.sav\Logs\BB\P00PL3B2.LOG] is found...
+[ 5:28:25.33] [C:\system.sav\Logs\BB\P00PSCB2.LOG] is found...
+[ 5:28:25.35] [C:\system.sav\Logs\BB\P00PUTB2.LOG] is found...
+[ 5:28:25.38] [C:\system.sav\Logs\BB\P00PWMB2.LOG] is found...
+[ 5:28:25.41] [C:\system.sav\Logs\BB\P00PZGB2.LOG] is found...
+[ 5:28:25.44] [C:\system.sav\Logs\BB\P00Q5XB2.LOG] is found...
+[ 5:28:25.47] [C:\system.sav\Logs\BB\Scaling_ImgEnh_Online.LOG] is found...
+[ 5:28:25.52] [C:\system.sav\Logs\BB\SetOSVar.log] is found...
+[ 5:28:25.55] [C:\system.sav\Logs\BB\StartPolicy_ImgEnh.LOG] is found...
+[ 5:28:25.58] [C:\system.sav\Logs\BB\StartPolicy_ImgEnh_Online.LOG] is found...
+[ 5:28:25.63] [C:\system.sav\Logs\BB\WallpaperOk.log] is found...
+[ 5:28:25.66] [C:\system.sav\Logs\BB\WinPE_DRV.LOG] is found...
+[ 5:28:25.69] [C:\system.sav\Logs\BB\Win_Offline.LOG] is found...
+[ 5:28:25.74] [C:\system.sav\Logs\BB\WriteCache.LOG] is found...
+[ 5:28:25.75] All *.log in [C:\system.sav\Logs\BB] folder has been scanned...
+[ 5:28:25.77] --------------------------------------------------------- 
+[ 5:28:25.92] ---------------------------------------- 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of c:\Windows\Panther\actionqueue
+
+03/28/2017  05:28 AM    <DIR>          .
+03/28/2017  05:28 AM    <DIR>          ..
+03/28/2017  05:17 AM               515 generalize.uaq
+07/29/2016  05:33 AM             1,007 oobeSystem.uaq
+03/28/2017  05:28 AM               515 specialize.uaq
+               3 File(s)          2,037 bytes
+               2 Dir(s)  458,737,242,112 bytes free
+[ 5:28:25.94] ---------------------------------------- 
+[ 5:28:25.94] ---------------------------------------- 
+[ 5:28:25.94]  At the end of 2nd Specialize Pass 
+[ 5:28:25.94]  list in c:\system.sav folder 
+[ 5:28:25.94] ---------------------------------------- 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of c:\system.sav
+
+03/27/2017  03:23 PM    <DIR>          2ndCap
+10/21/2016  06:24 PM            80,477 CNB16WW3FPT601.ini
+03/27/2017  01:06 PM    <DIR>          CONFIG
+03/27/2017  04:08 AM             5,443 cpqdl.ini
+03/27/2017  04:07 AM             2,774 CTO.TXT
+03/27/2017  04:08 AM               173 CTOHW.TXT
+03/27/2017  04:05 AM             8,051 D235641159F9_DPS
+03/27/2017  02:39 AM               188 D235641159F9_DPS.hw
+03/27/2017  02:39 AM               464 ELCOT245G5
+03/27/2017  03:14 PM    <DIR>          EXCLUDE
+03/28/2017  06:23 AM    <DIR>          ExitProc
+03/28/2017  05:28 AM    <DIR>          Flags
+03/27/2017  12:55 PM             5,466 Info.bom
+03/28/2017  05:28 AM    <DIR>          logs
+05/27/1997  02:42 AM                46 REBOOT.ME
+03/27/2017  02:00 PM               368 REGFLUSH.LOG
+03/28/2017  05:28 AM               132 Result.ini
+03/27/2017  12:37 PM    <DIR>          support
+03/27/2017  01:58 PM           495,920 SYSINFO.LOG
+03/28/2017  04:37 AM    <DIR>          WDT
+03/27/2017  01:00 PM    <DIR>          WSDVTDC
+              12 File(s)        599,502 bytes
+               9 Dir(s)  458,737,238,016 bytes free
+[ 5:28:25.96] ---------------------------------------- 
+[ 5:28:25.96]  At the end of 2nd Specialize Pass 
+[ 5:28:25.96] ---------------------------------------- 
+[ 5:34:50.86] Looking for *.cmd in [C:\system.sav\ExitProc\Subs] folder...
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\ClnDhcpDomain.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\ClnDhcpDomain.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\CollData.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\CollData.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\ExportRunOnce.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\ExportRunOnce.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\PIN4MSDTC.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\PIN4MSDTC.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\PIN4ProNASku.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\PIN4ProNASku.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\RemMount.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\RemMount.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\RM_Subs.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\RM_Subs.cmd] 
+[ 5:34:50.88] Start:  [C:\system.sav\ExitProc\Subs\WINSAT_2.cmd] 
+[ 5:34:50.88] Finish: [C:\system.sav\ExitProc\Subs\WINSAT_2.cmd] 
+[ 5:35:25.21] All *.cmd in [C:\system.sav\ExitProc\Subs] folder has been called...
+[ 5:35:48.08] BACKUP BCD for UEFI image... 
+[ 5:35:48.08] 
+[ 5:35:48.08] Logout.cmd  : Enable PXE... 
+[ 5:35:51.94] 
+[ 5:35:52.27] System BCD exists... 
+[ 5:35:52.29] FIND /I "GM_GENERATION=TYPE2" C:\system.sav\Flags\PINCTRLTwk.pf  
+[ 5:35:52.30] FIND /I "GM_TYPE=GMPP" C:\system.sav\Flags\PINCTRLTwk.pf  
+--------------------------------------------------
+ [Start]
+--------------------------------------------------
+[/DEL] is specified...
+Success to open system BCD...
+Success to open BCD... going to update BCD...
+
+
+in DelPINTDCSDV() function...
+Found out : [Windows 10]
+Found out : [Windows Recovery Environment]
+in DelPINRAMDISK() function...
+Found out : [Windows Recovery]
+[ 5:35:59.15] Found C:\system.sav\WSDVTDC and Create C:\system.sav\WSDVTDC\GSBCD.cmd 
+[ 5:36:01.68] ----------------------------------------
+[ 5:36:02.04] End of Logout... 
+ Volume in drive C is Windows
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\system.sav\WDT
+
+03/28/2017  03:37 AM    <DIR>          .
+03/28/2017  03:37 AM    <DIR>          ..
+03/27/2017  03:53 AM            26,270 Application.INI
+03/27/2017  03:53 AM             6,344 FDAPM.COM
+03/27/2017  03:53 AM           286,208 LogUploader.exe
+03/27/2017  03:53 AM         4,421,192 mfc110.dll
+03/27/2017  03:53 AM           535,008 msvcp110.dll
+03/27/2017  03:53 AM           875,472 msvcr110.dll
+03/28/2017  03:37 AM                72 OA3PKPN.xml
+03/28/2017  05:36 AM             5,279 OSChanger.log
+03/27/2017  03:53 AM         2,212,352 OSChanger32.exe
+03/27/2017  03:53 AM         2,814,464 OSChanger64.exe
+03/27/2017  03:53 AM         2,163,712 OSChangerARM.exe
+03/27/2017  03:53 AM         2,609,136 OSChangerL_m64
+03/27/2017  03:53 AM            19,795 OSCHGDOS.EXE
+03/28/2017  05:36 AM               115 Result.ini
+03/28/2017  03:37 AM               186 ShareData.INI
+03/27/2017  03:53 AM            21,866 UBER.INI
+03/27/2017  03:53 AM               367 vssver2.scc
+              17 File(s)     15,997,838 bytes
+               2 Dir(s)  459,424,280,576 bytes free
+[ 5:36:02.04] ----------------------------------------

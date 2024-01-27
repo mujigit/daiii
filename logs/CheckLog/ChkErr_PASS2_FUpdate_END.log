@@ -1,0 +1,55 @@
+[14:28:19.71] ************************************************** 
+[14:28:19.72]  [C:\SYSTEM.SAV\ExitProc\ErrorChk\ChkError.cmd] has started... 
+[14:28:19.72] -------------------------------------------------- 
+[14:28:19.74]  Check SW Error... 
+[14:28:19.75] -------------------------------------------------- 
+[14:28:19.75]   
+[14:28:19.77]  Create ["C:\system.sav\ChkError.cmd.FAILURE.flg"] file... 
+[14:28:19.77]   
+[14:28:19.79]  Logfile [C:\system.sav\Logs\CheckLog\ChkErr_PASS2_FUpdate_END.log]... 
+[14:28:19.80]   
+[14:28:19.80]  Check 2nd parameter [PASS2FU] 
+[14:28:19.82]   
+[14:28:19.83]  Error Checking items : [MEMDUMP,REGDEV,TIMEOUT,BADLINE] 
+[14:28:19.85]  -------------------------------------------------- 
+[14:28:19.85]  Checking : Memory Dump 
+[14:28:19.86]    Could not find memory dump... 
+[14:28:19.88]   
+[14:28:19.88]  [DumpFile] 
+[14:28:19.89]  Result=PASSED 
+[14:28:19.91]  -------------------------------------------------- 
+[14:28:19.93]  Checking : Yellow-Bang 
+[14:28:19.93]   
+[14:28:19.94]  This is under WinPE environment... 
+[14:28:19.96]  Skip Yellow-bang checking... 
+[14:28:19.96]  [RegistryDevicesCheck] 
+[14:28:19.97]  Result=IGNORED_BECAUSE_WINPE_ENV 
+[14:28:19.99]  -------------------------------------------------- 
+[14:28:20.00]  Checking : Timeout in INSTALL.log 
+[14:28:20.00]   
+[14:28:20.02]  Run [FIND.exe /I 'timeout with' C:\System.sav\Util\Install.log] 
+[14:28:20.52]  Run [FIND.exe /I 'timeout wait' C:\System.sav\Util\Install.log] 
+[14:28:21.00]   There is NO timeout in install.log file. 
+[14:28:21.02]   
+[14:28:21.04]  [TIMEOUT] 
+[14:28:21.04]  Result=PASSED 
+[14:28:21.05]  -------------------------------------------------- 
+[14:28:21.07]  Checking : Bad Line in INSTALL.log 
+[14:28:21.08]   
+[14:28:21.08]  Run [cscript.exe c:\System.sav\ExitProc\ErrorChk\BadLine.vbs] 
+passed : DATA CORRUPTION
+RESULT=PASSED
+
+[14:28:21.32]   No BadLine in install.log file. 
+[14:28:21.33]   
+[14:28:21.35]  [BADLINE] 
+[14:28:21.35]  Result=PASSED 
+[14:28:21.36]   
+[14:28:21.36]  -------------------------------------------------- 
+[14:28:21.38]  Delete ["C:\system.sav\ChkError.cmd.FAILURE.flg"] since no error detected... 
+[14:28:21.39]   
+[14:28:21.41]    No SW issue found... 
+[14:28:21.41]   
+[14:28:21.43] -------------------------------------------------- 
+[14:28:21.44]  [ChkError.cmd] has completed... 
+[14:28:21.44] ************************************************** 

@@ -1,0 +1,167 @@
+[ 5:22:50.79][CaptureESP] Create [C:\system.sav\logs\RM\CaptureESP.FAILURE.FLG]. If PASS, delete it.
+[ 5:22:50.81][CaptureESP.cmd] CALL C:\RM\RERM\DeployRP\PartInfo.exe C:\RM\RERM\DeployRP\DASHPartition.ini C:\system.sav\logs\RM\PartInfo_CaptureESP.cmd HPRM
+[ 5:22:51.10][CaptureESP.cmd] Assign ESP Drive Letter
+[ 5:22:51.10][CaptureESP.cmd] CMD.EXE /C C:\RM\RERM\DeployRP\AssignDrvLetterByPartIndex.cmd 0 1 P:
+[ 5:22:51.15][AssignDrvLetterByPartIndex.cmd] REMOVE DRIVE LETTER P:
+[ 5:22:51.15][AssignDrvLetterByPartIndex.cmd] DISKPART /S "C:\RM\RERM\DeployRP\RemoveDrvLetter.sp"
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MINWINPC
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4                      FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     E   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+The volume you selected is not valid or does not exist.
+
+There is no volume selected.
+[ 5:22:52.86][AssignDrvLetterByPartIndex.cmd] REMOVE DRIVE LETTER P:
+[ 5:22:52.86][AssignDrvLetterByPartIndex.cmd] DISKPART /S "C:\RM\RERM\DeployRP\RemoveDrvLetterFromPart.sp"
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MINWINPC
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4                      FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     E   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Disk 0 is now the selected disk.
+
+Partition 1 is now the selected partition.
+
+Virtual Disk Service error:
+The specified drive letter is invalid.
+
+[ 5:22:53.07][AssignDrvLetterByPartIndex.cmd] REMOVE DRIVE LETTER P:
+[ 5:22:53.07][AssignDrvLetterByPartIndex.cmd] DISKPART /S "C:\RM\RERM\DeployRP\AssignDrvLetter.sp"
+
+Microsoft DiskPart version 10.0.14393.0
+
+Copyright (C) 1999-2013 Microsoft Corporation.
+On computer: MINWINPC
+
+Disk 0 is now the selected disk.
+
+  Partition ###  Type              Size     Offset
+  -------------  ----------------  -------  -------
+  Partition 1    System             260 MB  1024 KB
+  Partition 2    Reserved            16 MB   261 MB
+  Partition 3    Primary            453 GB   277 MB
+  Partition 4    Primary            630 MB   454 GB
+  Partition 5    Recovery           980 MB   454 GB
+  Partition 6    Primary             10 GB   455 GB
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+  Volume 4                      FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     E   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Partition 1 is now the selected partition.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media           
+  Volume 1     C   Windows      NTFS   Partition    453 GB  Healthy            
+  Volume 2     D   BUILDPART    FAT32  Partition    630 MB  Healthy            
+  Volume 3     E   RECOVERY     NTFS   Partition     10 GB  Healthy            
+* Volume 4     P                FAT32  Partition    260 MB  Healthy    Hidden  
+  Volume 5         Windows RE   NTFS   Partition    980 MB  Healthy    Hidden  
+  Volume 6     E   RECOVERY     NTFS   Partition     10 GB  Healthy    Hidden  
+
+Leaving DiskPart...
+[AssignDrvLetterByPartIndex.cmd] Tue 03/28/2017  5:22:53.32
+********** FINISH AssignDrvLetterByPartIndex.cmd **********
+RETURN CODE - 0
+[ 5:22:53.33][CaptureESP.cmd] start capture 
+[ 5:22:53.33][CaptureESP.cmd] CMD.EXE /C C:\RM\RERM\DeployRP\IMAGE_Capture.cmd ESP P:\ C:\RM\Image\ESP.wim C:\RM\RERM\DeployRP\ExclusionList\ESP.ini C:\system.sav\logs\DISM_ESP.LOG
+[ 5:22:53.35][IMAGE_Capture.cmd]           Name : ESP
+[ 5:22:53.35][IMAGE_Capture.cmd]   Capture Path : P:\
+[ 5:22:53.35][IMAGE_Capture.cmd]  Wim File Path : C:\RM\Image\ESP.wim
+[ 5:22:53.36][IMAGE_Capture.cmd] Exclusion List : C:\RM\RERM\DeployRP\ExclusionList\ESP.ini
+[ 5:22:53.36][IMAGE_Capture.cmd]            LOG : C:\system.sav\logs\DISM_ESP.LOG
+[ 5:22:53.36][IMAGE_Capture.cmd] CALL :CreateFolder "C:\RM\Image\ESP.wim"
+[ 5:22:53.36][IMAGE_Capture.cmd] Before Capture : Query UP Free Space
+[ 5:22:53.36][IMAGE_Capture.cmd] CALL :QueryDrvFreeSpace C:
+[ 5:22:53.38][IMAGE_Capture.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QueryDrvFreeSpace.vbs C:
+[ 5:22:53.47][IMAGE_Capture.cmd] THE FREE SPACE OF C: is 438891 MB
+[ 5:22:53.49][IMAGE_Capture.cmd] END
+[ 5:22:53.49][IMAGE_Capture.cmd] Capture
+[ 5:22:53.49][IMAGE_Capture.cmd] start /b /w cmd /c DISM /Capture-Image /ImageFile:"C:\RM\Image\ESP.wim" /CaptureDir:P:\ /Name:ESP /ConfigFile:"C:\RM\RERM\DeployRP\ExclusionList\ESP.ini" /ScratchDir:C:\RM\ScratchDir\ /logpath:C:\system.sav\logs\DISM_ESP.LOG
+
+Deployment Image Servicing and Management tool
+Version: 10.0.14393.0
+
+Saving image
+[                           1.0%                           ] 
+[=                          3.0%                           ] 
+[==                         5.0%                           ] 
+[===                        6.0%                           ] 
+[====                       8.0%                           ] 
+[=====                      10.0%                          ] 
+[=============              24.0%                          ] 
+[==============             25.0%                          ] 
+[===============            27.0%                          ] 
+[================           29.0%                          ] 
+[=================          31.0%                          ] 
+[===================        33.0%                          ] 
+[====================       35.0%                          ] 
+[========================== 46.0%                          ] 
+[===========================47.0%                          ] 
+[===========================49.0%                          ] 
+[===========================51.0%                          ] 
+[===========================53.0%                          ] 
+[===========================54.0%                          ] 
+[===========================55.0%                          ] 
+[===========================57.0%=                         ] 
+[===========================59.0%==                        ] 
+[===========================61.0%===                       ] 
+[===========================63.0%====                      ] 
+[===========================65.0%=====                     ] 
+[===========================79.0%=============             ] 
+[===========================81.0%==============            ] 
+[===========================83.0%================          ] 
+[===========================84.0%================          ] 
+[===========================86.0%=================         ] 
+[===========================88.0%===================       ] 
+[==========================100.0%==========================] 
+The operation completed successfully.
+[ 5:22:54.87][IMAGE_Capture.cmd] END
+[ 5:22:54.87][IMAGE_Capture.cmd] After Capture : Query UP Free Space
+[ 5:22:54.87][IMAGE_Capture.cmd] CALL :QueryDrvFreeSpace C:
+[ 5:22:54.87][IMAGE_Capture.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\QueryDrvFreeSpace.vbs C:
+[ 5:22:54.95][IMAGE_Capture.cmd] THE FREE SPACE OF C: is 438869 MB
+[ 5:22:54.97][IMAGE_Capture.cmd] END
+[IMAGE_Capture.cmd] Tue 03/28/2017  5:22:54.97
+********** FINISH IMAGE_Capture.cmd **********
+RETURN CODE - 0
+[ 5:22:54.98][CaptureESP.cmd] Prepare ESP.WIM for PBR Bare Metal and CDT FR and SR
+[ 5:22:54.98][CaptureESP.cmd] COPY /Y C:\RM\Image\ESP.wim C:\Recovery\OEM\Point_D\Install.PI\RestoreESP\
+        1 file(s) copied.
+[ 5:22:55.04][CaptureESP.cmd] End
+[ 5:22:55.06][CaptureESP.cmd] Delete [C:\system.sav\logs\RM\CaptureESP.FAILURE.FLG]...
+[CaptureESP.cmd] Tue 03/28/2017  5:22:55.06
+********** FINISH CaptureESP.cmd **********
+RETURN CODE - 0

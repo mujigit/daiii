@@ -1,0 +1,75 @@
+
+Memory 3547 MB
+Executing on .\WizInstaller.ini on Monday, March 27, 2017 at 12:37:49 PM for en_us
+
+Executing '.\FixWindowsLive.bat', Param '', Working Directory 'c:\SWSETUP\APP\Applications\HP\BingSearc_EEDUB2\163\src'
+Copying from '.\src\Bing_icon' to 'C:\Program Files (x86)\Online Services\Bing_icon'
+Copying from '.\src\Bing_icon' to 'C:\Program Files\Online Services\Bing_icon'
+Creating IESearch http://www.bing.com/search?q={searchTerms}&form=PRHPC1&src=IE11TR&pc=HCTE in the RegFile C:\hp\HPQware\browser\All\All\IESearch.reg
+Creating IESearch http://cn.bing.com/search?q={searchTerms}&form=PRHPC1&src=IE11TR&pc=HCTE in the RegFile C:\hp\HPQware\browser\zh-CN\CHN\IESearch.reg
+Creating Registry Entry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Post Platform, HCTE=0
+Creating Registry Entry HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Post Platform, HCTE=0
+Creating Registry Entry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Configuration, PartnerSearchCode=HCTS
+Wizinstaller Instance ID	 : {E0939B5D-C1E3-4A92-A2E3-2930900ECDC5}
+Init	 : 47
+Action	 : 218
+Uninit	 : 32
+
+Memory 3547 MB
+Executing on .\Wizinstaller_BingMap.ini on Monday, March 27, 2017 at 12:37:49 PM for en_us
+
+Copying from '.\src\manifests' to 'c:\hp\hpqware\browser\Accelerators\map\'
+Creating IEAccelerator Map with Bing Maps in IE Settings File C:\hp\HPQware\browser\en-us\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\en-us\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ??????? ???????? Bing Maps in IE Settings File C:\hp\HPQware\browser\ar-sa\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\ar-sa\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Mapovat pomocí nástroje Bing Maps in IE Settings File C:\hp\HPQware\browser\cs-cz\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\cs-cz\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Kortlæg med Bing Maps in IE Settings File C:\hp\HPQware\browser\da-dk\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\da-dk\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Karten von Bing Maps in IE Settings File C:\hp\HPQware\browser\de-de\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\de-de\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ?????? ?? ?? Bing Maps in IE Settings File C:\hp\HPQware\browser\el-gr\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\el-gr\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Asigna direcciones con Bing Maps in IE Settings File C:\hp\HPQware\browser\es-es\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\es-es\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Katsele osoitteita kartalla Bing -palvelun avulla in IE Settings File C:\hp\HPQware\browser\fi-fi\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\fi-fi\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Mettre en correspondance avec Bing Maps in IE Settings File C:\hp\HPQware\browser\fr-fr\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\fr-fr\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ????? ??????? ???? ?? Bing in IE Settings File C:\hp\HPQware\browser\he-il\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\he-il\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Keresés a Bing Maps térképein in IE Settings File C:\hp\HPQware\browser\hu-hu\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\hu-hu\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Trova le strade con Bing Maps in IE Settings File C:\hp\HPQware\browser\it-it\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\it-it\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Bing Maps ???????? in IE Settings File C:\hp\HPQware\browser\ja-jp\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\ja-jp\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Bing Maps?? ?? in IE Settings File C:\hp\HPQware\browser\ko-kr\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\ko-kr\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Finn kart med Bing Maps in IE Settings File C:\hp\HPQware\browser\nb-no\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\nb-no\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator In kaart brengen met Bing Maps in IE Settings File C:\hp\HPQware\browser\nl-nl\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\nl-nl\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Mapy z serwisu Bing Maps in IE Settings File C:\hp\HPQware\browser\pl-pl\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\pl-pl\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Mapear com o Bing Maps in IE Settings File C:\hp\HPQware\browser\pt-br\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\pt-br\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Mapear com o Bing Maps in IE Settings File C:\hp\HPQware\browser\pt-pt\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\pt-pt\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ????????????? ? ??????? Bing Maps in IE Settings File C:\hp\HPQware\browser\ru-ru\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\ru-ru\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Mappa med Bing Maps in IE Settings File C:\hp\HPQware\browser\sv-se\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\sv-se\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator Bing Maps ile e?leyin in IE Settings File C:\hp\HPQware\browser\tr-tr\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\tr-tr\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ?? Bing Maps ?? in IE Settings File C:\hp\HPQware\browser\zh-cn\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\zh-cn\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ?? Bing Maps ?? in IE Settings File C:\hp\HPQware\browser\zh-hk\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\zh-hk\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Creating IEAccelerator ?? Bing Maps ?? in IE Settings File C:\hp\HPQware\browser\zh-tw\All\IEAccelerators.ins
+Error Creating Accelerator Entry in C:\hp\HPQware\browser\zh-tw\All\IEAccelerators.ins [Accelerators], DisplayName1=
+Wizinstaller Instance ID	 : {F7F5E52A-BED1-452E-9B8E-298832B0CC4D}
+Init	 : 47
+Action	 : 906
+Uninit	 : 188

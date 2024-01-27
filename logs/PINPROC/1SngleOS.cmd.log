@@ -1,0 +1,21 @@
+[14:23:16.79] ************************************************** 
+[14:23:17.10]  DEBUG: CSCRIPT.exe /nologo C:\System.sav\ExitProc\WriteIni.vbs TARGET WIN_EDIT_SERV STARTED C:\system.sav\Logs\MYSYSTEM.ini 
+[14:23:17.34] ************************************************** 
+[14:23:17.60] ************************************************** 
+[14:23:17.61]  [C:\SYSTEM.SAV\FactoryUpdate\1SngleOS.cmd] has started... 
+[14:23:17.64] -------------------------------------------------- 
+[14:23:17.66]  Start Edition-servicing... 
+[14:23:17.69] -------------------------------------------------- 
+[14:23:17.70]   
+[14:23:17.74]  Found [Vos.B] in FB 
+[14:23:17.81]       ---------------------------------------- 
+[14:23:17.83]   The process is going to upgrade to [Professional]... 
+[14:23:17.85]   if any problem at Edition Servicing... 
+[14:23:17.88]    please refer [c:\system.sav\Logs\DISMWES.log]... 
+[14:23:17.89]   
+[14:23:17.92]  Run [DISM.exe /image:c:\ /Set-Edition:Professional /LogPath=c:\system.sav\Logs\PINPROC\DISMWES.log] 
+[14:26:54.50]   
+[14:26:54.52]   Dism returned [0]... PASSED 
+[14:26:54.59]  -------------------------------------------------- 
+[14:26:54.61]   Exit : Upgrade Windows 8 to higher Edition... 
+[14:26:54.64]  -------------------------------------------------- 

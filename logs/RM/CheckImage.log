@@ -1,0 +1,15 @@
+[11:58:15.76][CheckImage] Create [C:\system.sav\logs\RM\CheckImage.FAILURE.FLG]. If PASS, delete it.
+[11:58:15.76][CheckImage.cmd] Run RStone
+[11:58:15.76][CheckImage.cmd] CALL C:\system.sav\util\RStone.exe
+[11:58:16.74][CheckImage.cmd] CSCRIPT /NOLOGO C:\RM\RERM\DeployRP\INI2CMD.vbs C:\system.sav\util\RSTONE.INI C:\system.sav\logs\RM\RSTONE.CMD
+[11:58:16.78][CheckImage.cmd] CALL C:\system.sav\logs\RM\RSTONE.CMD
+[11:58:16.86][CheckImage.cmd] Check if Compact OS
+[11:58:16.86][CheckImage.cmd] BIOSStrings.WIMBOOT = 0
+[11:58:16.86][CheckImage.cmd] Check if MS Signature 
+[11:58:16.86][CheckImage.cmd] BIOSStrings.ChannelID = 00
+[11:58:16.86][CheckImage.cmd] Check if only target PBR component
+[11:58:16.86][CheckImage.cmd] If NORP Case, Remove some files [e.g. RM2ndCapImage.flg]
+[11:58:16.86][CheckImage.cmd] Delete [C:\system.sav\logs\RM\CheckImage.FAILURE.FLG]...
+[CheckImage.cmd] Mon 03/27/2017 11:58:16.86
+********** FINISH CheckImage.cmd **********
+RETURN CODE - 0

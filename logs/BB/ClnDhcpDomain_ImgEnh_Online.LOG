@@ -1,0 +1,7 @@
+############################################################# 
+ [Tue 03/28/2017]                                                     
+ [ 4:51:18.16] Beginning of the ClnDhcpDomain_ImgEnh_Online.cmd                              
+############################################################# 
+Argument=[GenPpkgExList] 
+[ 4:51:18.54] Result of the Windows 10 HP Image Enhancements - CPS - DHCP Information Clean and add into exclusion list. 
+RESULT=PASSED 

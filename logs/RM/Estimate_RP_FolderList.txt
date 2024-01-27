@@ -1,0 +1,4 @@
+C:\RM\Image\ 
+C:\RM\RERM\DeployRP\BootFile4UCRM\ 
+C:\RM\RERM\DeployRP\RM_PATCH\ 
+C:\RM\RERM\DeployRP\RM_Reserve\ 

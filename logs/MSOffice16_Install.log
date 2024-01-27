@@ -1,0 +1,153 @@
+****************************************************************************** 
+**                                                                          ** 
+**            Microsoft Office 2016         Preload Script from MS          ** 
+**                                                                          ** 
+****************************************************************************** 
+[12:40:29.84][SETUP.cmd] DPS File : C:\system.sav\D235641159F9_DPS 
+[12:40:29.95][SETUP.cmd] CNB 
+ 
+ 
+=============================== 
+Variable Matrix: 
+=============================== 
+BrandName         : HPB  
+OSSKU             : 5 
+Family            : 103C_5336AN G  
+ImageID           : 0 
+OSFlag            : 3 
+OfficeOA3         : 0 
+SKUOptionConfig   : ACJ 
+cNB/cDT detection : CNB 
+ 
+ 
+====================================== 
+  Check Base file exist 
+====================================== 
+ 
+dir /b /s stream.x86.x-none.partaa 
+C:\SWSETUP\Office16\Common_file\16.0.6965.2079\stream.x86.x-none.partaa
+====================================== 
+  Check Language Pack exist 
+====================================== 
+=================== 
+  Merge File 
+=================== 
+Copy [c:\SWSETUP\Office16\Common_File\16.0.6965.2079\stream.x86.x-none.part] -
+c:\SWSETUP\Office16\Common_File\16.0.6965.2079\stream.x86.x-none.partaa
+c:\SWSETUP\Office16\Common_File\16.0.6965.2079\stream.x86.x-none.partab
+c:\SWSETUP\Office16\Common_File\16.0.6965.2079\stream.x86.x-none.partac
+        1 file(s) copied.
+Delete partial files[c:\SWSETUP\Office16\Common_File\16.0.6965.2079\stream.x86.x-none.part??] 
+ 
+ 
+=================== 
+  Copy Metro.xml 
+=================== 
+Copy Metro.XML to Metro Folder 
+copy /y "c:\SWSETUP\Office16\Metro.xml" "C:\SWSetup\Metro\Office16"  
+        1 file(s) copied.
+ 
+ 
+=================== 
+c:\SWSETUP\Office16\SKU\CNB\ACJ.xml 
+=================== 
+ 
+ 
+<Configuration>
+  <Add SourcePath="C:\SWSetup\Office16\Merged" OfficeClientEdition="32" >
+		<Product ID="HomeStudentRetail"> 
+      <Language ID="en-us" />
+    </Product>
+  </Add>
+  <Display Level="None" />
+  <Logging Level="Standard" Path="C:\System.sav\logs\Office2016_log" />
+</Configuration>
+ 
+=================== 
+Language Pack installed 
+=================== 
+ 
+C:\SWSETUP\Office16\Merged\Office\Data\16.0.6965.2079\stream.x86.en-us.dat
+ 
+ 
+ 
+ 
+================================= 
+       Installation for EN 
+================================= 
+ 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\SWSETUP\Office16
+
+03/27/2017  12:40 PM    <DIR>          .
+03/27/2017  12:40 PM    <DIR>          ..
+03/27/2017  04:22 AM    <DIR>          Common_file
+03/27/2017  12:40 PM                76 languagelist.txt
+03/27/2017  12:40 PM    <DIR>          Merged
+10/03/2015  06:42 AM                98 metro.xml
+07/28/2016  11:32 AM             7,463 SETUP.cmd
+01/13/2016  11:49 PM         3,141,312 setup.exe
+03/27/2017  12:57 PM    <DIR>          SKU
+               4 File(s)      3,148,949 bytes
+               5 Dir(s)  60,096,655,360 bytes free
+ 
+Setup.exe /configure c:\SWSETUP\Office16\SKU\CNB\ABA.xml 
+Return Code of Setup.exe: [0] 
+ 
+ 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\SWSETUP\Office16
+
+03/27/2017  12:40 PM    <DIR>          .
+03/27/2017  12:40 PM    <DIR>          ..
+03/27/2017  04:22 AM    <DIR>          Common_file
+03/27/2017  12:40 PM                76 languagelist.txt
+03/27/2017  12:40 PM    <DIR>          Merged
+10/03/2015  06:42 AM                98 metro.xml
+07/28/2016  11:32 AM             7,463 SETUP.cmd
+01/13/2016  11:49 PM         3,141,312 setup.exe
+03/27/2017  12:57 PM    <DIR>          SKU
+               4 File(s)      3,148,949 bytes
+               5 Dir(s)  58,285,383,680 bytes free
+Delete file[c:\SWSETUP\Office16\Merged\Office\Data\16.0.6965.2053\stream.x86.x-none.dat] 
+ Volume in drive C has no label.
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\SWSETUP\Office16
+
+03/27/2017  12:40 PM    <DIR>          .
+03/27/2017  12:40 PM    <DIR>          ..
+03/27/2017  04:22 AM    <DIR>          Common_file
+03/27/2017  12:40 PM                76 languagelist.txt
+03/27/2017  12:40 PM    <DIR>          Merged
+10/03/2015  06:42 AM                98 metro.xml
+07/28/2016  11:32 AM             7,463 SETUP.cmd
+01/13/2016  11:49 PM         3,141,312 setup.exe
+03/27/2017  12:57 PM    <DIR>          SKU
+               4 File(s)      3,148,949 bytes
+               5 Dir(s)  58,285,379,584 bytes free
+ 
+ 
+Check if there is remaining language to install 
+c:\SWSETUP\Office16\SKU\CNB\ACJ.xml is found, install. 
+================================= 
+   Installation for the rests
+================================= 
+ 
+ 
+Setup.exe /configure c:\SWSETUP\Office16\SKU\CNB\ACJ.xml 
+Return Code of Setup.exe: [0] 
+ 
+Clean up all files 
+dir /b C:\SWSetup\Office16 
+Common_file
+languagelist.txt
+Merged
+metro.xml
+SETUP.cmd
+setup.exe
+SKU

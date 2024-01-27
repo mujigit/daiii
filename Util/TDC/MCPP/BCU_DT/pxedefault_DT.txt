@@ -1,0 +1,4 @@
+English
+Network Boot
+	*Enable
+	Disable

@@ -1,0 +1,39 @@
+[14:02:23.86][BFSplit] +----------------------------------- 
+[14:02:23.86][BFSplit] + Run Big File Split Command         
+[14:02:23.86][BFSplit] +----------------------------------- 
+[14:02:23.88][BFSplit] Info, Use BFHandler.exe 
+[14:02:23.88][BFSplit] Info, Start big file split 
+[14:02:23.88][BFSplit] Info, Get big file setting 
+[14:02:23.89][GetBFSetting] Info, BF_DETECT_MB=750
+[14:02:23.89][GetBFSetting] Info, BF_SPLIT_MB=750
+
+[14:12:14.46][BFDelPart] Info, Use BFHandler.exe 
+[14:12:14.46][BFDelPart] Info, Start part files remove 
+[2017/03/27 14:12:14]BFHandler, Can't open merge log file C:\SYSTEM.SAV\UTIL\BFMERGE.INI
+[14:12:14.52][BFDelPart] End part files remove 
+
+[14:13:28.17][BFMerge] +----------------------------------- 
+[14:13:28.19][BFMerge] + Run Big File Merge Command         
+[14:13:28.19][BFMerge] +----------------------------------- 
+[14:13:28.24][BFMerge] Info, Use BFHandler.exe 
+[14:13:28.24][BFMerge] Info, Start big file merge 
+[2017/03/27 14:13:28]BFHandler, Can't open split log file C:\SYSTEM.SAV\UTIL\BFMERGE.INI
+
+[14:27:18.53][BFMerge] +----------------------------------- 
+[14:27:18.55][BFMerge] + Run Big File Merge Command         
+[14:27:18.55][BFMerge] +----------------------------------- 
+[14:27:18.55][BFMerge] Info, Use BFHandler.exe 
+[14:27:18.55][BFMerge] Info, Start big file merge 
+[2017/03/27 14:27:18]BFHandler, Can't open split log file C:\SYSTEM.SAV\UTIL\BFMERGE.INI
+
+[ 5:22:56.46][BFDelPart] Info, Use BFHandler.exe 
+[ 5:22:56.48][BFDelPart] Info, Start part files remove 
+[2017/03/28 05:22:56]BFHandler, Can't open merge log file C:\SYSTEM.SAV\UTIL\BFMERGE.INI
+[ 5:22:56.54][BFDelPart] End part files remove 
+
+[ 5:31:43.02][BFMergeForSR] +----------------------------------- 
+[ 5:31:43.04][BFMergeForSR] + Run Big File Merge For SR Command  
+[ 5:31:43.04][BFMergeForSR] +----------------------------------- 
+[2017/03/28 05:31:43]BFHandler, Can't open split log file C:\SYSTEM.SAV\UTIL\BFMERGE.INI
+[2017/03/28 05:31:43]BFHandler, Can't open merge log file C:\SYSTEM.SAV\UTIL\BFMERGE.INI
+
